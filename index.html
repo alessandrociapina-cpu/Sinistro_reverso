@@ -107,7 +107,7 @@
 </head>
 <body>
     <div class="no-print" style="text-align: center; margin-bottom: 10px;">
-        <button class="btn" onclick="window.print()">🖨️ Imprimir / Salvar PDF</button>
+        <button class="btn" onclick="window.print()">🖨️ Imprimir / Guardar PDF</button>
     </div>
 
     <div class="container">
@@ -254,7 +254,7 @@
                 </div>
 
                 <div id="aviso-secao-plena" style="display: none; margin-left: 10px; color: #0056b3; font-style: italic; font-size: 9pt; max-width: 300px;">
-                    Vazão tabelada aplicada para compensar despressurização da rede.
+                    Vazão tabelada aplicada para compensar a despressurização da rede.
                 </div>
 
                 <div style="margin-left: auto;">
@@ -388,8 +388,10 @@
 
         // === TABELA EMPÍRICA DA PLANILHA PARA SEÇÃO PLENA ===
         // Em L/s, já considerando a despressurização média da rede
+        // Valores interpolados e extrapolados para preencher lacunas (DN 25, 350, 400).
         const vazoesSecaoPlena = {
             "20": 0.300,
+            "25": 0.508,  // Interpolado entre DN 20 e 32
             "32": 0.800,
             "50": 1.013,
             "75": 2.942,
@@ -397,7 +399,9 @@
             "150": 18.211,
             "200": 32.780,
             "250": 59.004,
-            "300": 106.207
+            "300": 106.207,
+            "350": 153.410, // Extrapolado
+            "400": 200.613  // Extrapolado
         };
 
         window.onload = () => {
@@ -478,11 +482,11 @@
             if (val === 'Área do Furo') {
                 boxFuro.style.display = 'flex'; 
                 avisoPlena.style.display = 'none';
-                pressaoInput.disabled = false; // Habilita a pressão
+                pressaoInput.disabled = false;
             } else {
                 boxFuro.style.display = 'none';
                 avisoPlena.style.display = 'block';
-                pressaoInput.disabled = true; // Desabilita pois usaremos a tabela
+                pressaoInput.disabled = true;
             }
             calcularAgua();
         }
@@ -524,7 +528,6 @@
             let vazaoLs = 0; 
 
             if (tipoSecao === 'Área do Furo') {
-                // REDE MANTÉM PRESSÃO: Usa Torricelli
                 const formato = document.getElementById('formato-dano').value;
                 let areaM2 = 0;
                 let cd = 0.61;
@@ -549,12 +552,11 @@
                 vazaoLs = Qm3s * 1000; 
 
             } else {
-                // SEÇÃO PLENA / DESPRESSURIZAÇÃO: Usa Tabela Empírica da Planilha Original
                 const diamRede = document.getElementById('diametro-dano').value;
                 
                 if(vazoesSecaoPlena[diamRede]) {
                     vazaoLs = vazoesSecaoPlena[diamRede];
-                    document.getElementById('aviso-secao-plena').innerText = "Vazão tabelada (" + vazaoLs + " L/s) aplicada para compensar a despressurização da rede.";
+                    document.getElementById('aviso-secao-plena').innerText = "Vazão tabelada (" + vazaoLs.toFixed(3) + " L/s) aplicada para compensar a despressurização da rede.";
                     document.getElementById('aviso-secao-plena').style.color = "#0056b3";
                 } else {
                     vazaoLs = 0;
