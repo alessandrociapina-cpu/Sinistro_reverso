@@ -6,7 +6,8 @@
     <style>
         /* === ESTILOS GERAIS E DE TELA === */
         :root {
-            --primary-color: #004488; /* Azul padrão mais profundo para relatórios */
+            var(--primary-color): #004488; /* Azul padrão corporativo / Relatórios */
+            --primary-color: #004488;
             --secondary-color: #0056b3;
             --text-color: #333;
             --border-color: #ccc;
@@ -18,7 +19,7 @@
             margin: 20px auto;
             max-width: 210mm;
             background-color: #e9ecef;
-            font-size: 11pt; /* Fonte principal ajustada para Tahoma 11 */
+            font-size: 11pt; /* Fonte Tahoma 11pt exigida */
             color: var(--text-color);
         }
 
@@ -30,7 +31,7 @@
             box-sizing: border-box;
         }
 
-        /* Cabeçalho com padrão de cores de Relatório Fotográfico */
+        /* Cabeçalho */
         .header-grid {
             display: flex;
             justify-content: space-between;
@@ -69,7 +70,7 @@
             border: 1px solid var(--border-color);
             border-radius: 4px;
             font-family: Tahoma, sans-serif;
-            font-size: 11pt; /* Mantendo Tahoma 11 nos inputs */
+            font-size: 11pt;
             transition: border-color 0.2s;
             color: #000;
         }
@@ -94,12 +95,41 @@
             width: 100%;
             border-collapse: collapse;
             margin-bottom: 10px;
-            font-size: 10pt; /* Ligeiramente menor para caber na tabela, mas ainda Tahoma */
+            font-size: 10.5pt;
         }
         th, td { border: 1px solid #dcdcdc; padding: 4px; text-align: left; }
         th { background-color: var(--bg-color); font-weight: bold; text-align: center; color: var(--primary-color); border-bottom: 2px solid var(--primary-color); }
-        td input { width: calc(100% - 12px); border: none; background: transparent; font-size: 10pt; }
+        td input { width: calc(100% - 12px); border: none; background: transparent; font-size: 10.5pt; }
         td input:focus { background: #fff; border: 1px solid var(--primary-color); }
+
+        /* Estilo da Lista de Autocompletar Customizada */
+        .autocomplete-list {
+            position: absolute;
+            top: 100%;
+            left: 0;
+            width: 100%;
+            background: #fff;
+            border: 1px solid var(--primary-color);
+            box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+            z-index: 1000;
+            max-height: 250px;
+            overflow-y: auto;
+            display: none;
+            border-radius: 0 0 4px 4px;
+        }
+        .autocomplete-list div {
+            padding: 6px 10px;
+            cursor: pointer;
+            border-bottom: 1px solid #eee;
+            font-size: 9.5pt;
+            color: #333;
+            line-height: 1.2;
+        }
+        .autocomplete-list div:last-child { border-bottom: none; }
+        .autocomplete-list div:hover {
+            background-color: var(--primary-color);
+            color: white;
+        }
 
         .totais-box {
             border: 2px solid var(--primary-color);
@@ -142,23 +172,24 @@
         @page { size: A4 portrait; margin: 10mm; }
         
         @media print {
-            body { margin: 0; background-color: white; font-size: 9pt; color: #000; }
+            body { margin: 0; background-color: white; font-size: 9.5pt; color: #000; }
             .container { box-shadow: none; padding: 0; max-width: 100%; }
             .no-print { display: none !important; }
             
             .hide-on-print { display: none !important; }
+            .autocomplete-list { display: none !important; }
 
             .header-grid { border-bottom: 2px solid #000; padding-bottom: 8px; margin-bottom: 10px; }
             .linha1 { color: #000; font-size: 13pt; }
-            .linha2 { color: #000; font-size: 10pt; }
+            .linha2 { color: #000; font-size: 10.5pt; }
             
-            .section-title { color: #000; background-color: #e0e0e0 !important; border: 1px solid #000; margin-top: 10px; margin-bottom: 4px; padding: 4px 6px; font-size: 10pt; -webkit-print-color-adjust: exact; }
+            .section-title { color: #000; background-color: #e0e0e0 !important; border: 1px solid #000; margin-top: 10px; margin-bottom: 4px; padding: 4px 6px; font-size: 10.5pt; -webkit-print-color-adjust: exact; }
             
-            table { margin-bottom: 6px; font-size: 8.5pt; }
+            table { margin-bottom: 6px; font-size: 9pt; }
             th, td { padding: 2px 3px; border-color: #666; }
             th { background-color: #f0f0f0 !important; color: #000; border-bottom: 1px solid #000; -webkit-print-color-adjust: exact; }
             
-            input, select, textarea { border: none !important; background: transparent !important; padding: 0; margin: 0; appearance: none; -webkit-appearance: none; color: #000; font-size: 8.5pt; }
+            input, select, textarea { border: none !important; background: transparent !important; padding: 0; margin: 0; appearance: none; -webkit-appearance: none; color: #000; font-size: 9pt; }
             input::placeholder { color: transparent; }
             
             .row { margin-bottom: 4px; gap: 5px; }
@@ -167,11 +198,11 @@
             .totais-box { border: 1px solid #000; padding: 8px; margin-top: 10px; background-color: transparent; }
             .total-final-row { color: #000; font-size: 12pt; padding-top: 4px; margin-top: 4px; border-top: 1px solid #000; }
             
-            .assinaturas { margin-top: 20px; page-break-inside: avoid; font-size: 9pt; }
+            .assinaturas { margin-top: 20px; page-break-inside: avoid; font-size: 10pt; }
             .linha-assinatura { height: 20px; }
             
             .rodape-container { page-break-inside: avoid; border-top: 1px solid #000; }
-            #rodape-endereco { font-size: 8pt !important; overflow: hidden; height: auto; }
+            #rodape-endereco { font-size: 8.5pt !important; overflow: hidden; height: auto; }
         }
     </style>
 </head>
@@ -340,7 +371,7 @@
                     <td style="text-align: right;"><span id="calc-vazao">0.00</span></td>
                     <td style="text-align: right;"><span id="calc-vol">0.00</span></td>
                     <td><input type="number" id="valor-m3" value="20.52" step="0.01" style="width:100%;" oninput="calcularAgua()"></td>
-                    <td style="font-weight: bold; text-align: right;"><span id="calc-total-agua">0.00</span></td>
+                    <td style="font-weight: bold; text-align: right; color: var(--primary-color);"><span id="calc-total-agua">0.00</span></td>
                 </tr>
             </table>
             <div style="text-align: right; font-weight: bold; font-size: 11pt;">Subtotal Água Perdida: R$ <span id="subtotal-1">0.00</span></div>
@@ -422,13 +453,10 @@
         </div>
 
         <div class="rodape-container">
-            <div id="rodape-setor" style="font-weight: bold;">OVMS</div>
+            <div id="rodape-setor" style="font-weight: bold; color: var(--primary-color);">OVMS</div>
             <textarea id="rodape-endereco" style="width: 100%; text-align: left; border: none; resize: none; font-family: inherit; font-size: 9pt; color: #555; background:transparent;" rows="2">Rua Paulo Setúbal, 19 - Vila Adyanna - CEP 12245-460 - São José dos Campos - SP&#10;Telefone: (12) 3904-3202</textarea>
         </div>
     </div>
-
-    <datalist id="lista-servicos"></datalist>
-    <datalist id="lista-materiais"></datalist>
 
     <script>
         let dbServicos = [];
@@ -449,14 +477,21 @@
             await carregarBancosDeDados();
         };
 
+        // FECHAR DROP DOWNS SE CLICAR FORA
+        document.addEventListener('click', function(e) {
+            if (!e.target.classList.contains('desc-input')) {
+                document.querySelectorAll('.autocomplete-list').forEach(el => el.style.display = 'none');
+            }
+        });
+
         // OCULTAR LINHAS VAZIAS ANTES DA IMPRESSÃO
         window.addEventListener('beforeprint', function() {
             const tabelas = ['tabela-servicos', 'tabela-materiais'];
             tabelas.forEach(id => {
                 const trs = document.querySelectorAll(`#${id} tr`);
                 trs.forEach((tr, index) => {
-                    if(index === 0) return; // ignora o cabeçalho
-                    const inputDesc = tr.querySelector('input[list]');
+                    if(index === 0) return; 
+                    const inputDesc = tr.querySelector('.desc-input');
                     if(inputDesc && inputDesc.value.trim() === '') {
                         tr.classList.add('hide-on-print');
                     }
@@ -466,39 +501,34 @@
 
         // DEVOLVER LINHAS VAZIAS APÓS A IMPRESSÃO
         window.addEventListener('afterprint', function() {
-            document.querySelectorAll('.hide-on-print').forEach(el => {
-                el.classList.remove('hide-on-print');
-            });
+            document.querySelectorAll('.hide-on-print').forEach(el => el.classList.remove('hide-on-print'));
         });
 
         async function carregarBancosDeDados() {
             try {
+                // Tenta carregar os arquivos gerados na mesma pasta
                 const resServ = await fetch('servicos.json');
-                if (!resServ.ok) throw new Error("Erro ao carregar servicos.json");
-                dbServicos = await resServ.json();
+                if (resServ.ok) dbServicos = await resServ.json();
 
                 const resMat = await fetch('materiais.json');
-                if (!resMat.ok) throw new Error("Erro ao carregar materiais.json");
-                dbMateriais = await resMat.json();
-
-                carregarDatalists();
+                if (resMat.ok) dbMateriais = await resMat.json();
             } catch (e) {
-                console.error(e);
+                console.error("Arquivos .json não encontrados automaticamente.", e);
             }
-        }
-
-        function carregarDatalists() {
-            const dlServ = document.getElementById('lista-servicos');
-            dbServicos.forEach(s => {
-                // FORMATO: [CÓDIGO] - [DESCRIÇÃO]
-                if(s.ESPEC) dlServ.innerHTML += `<option value="${s.NPRECO} - ${s.ESPEC}">`;
-            });
             
-            const dlMat = document.getElementById('lista-materiais');
-            dbMateriais.forEach(m => {
-                // FORMATO: [CÓDIGO] - [DESCRIÇÃO]
-                if(m.ESPEC) dlMat.innerHTML += `<option value="${m.NPRECO} - ${m.ESPEC}">`;
-            });
+            // Dados Mockados de segurança caso não encontre o JSON (Para teste rápido)
+            if(dbServicos.length === 0) {
+                dbServicos = [
+                    { ESPEC: "REPARO DE REDE DE AGUA", NPRECO: "500101", UNID: "UN", PUNIT: "150.00" },
+                    { ESPEC: "REPARO DE RAMAL DE AGUA", NPRECO: "500102", UNID: "UN", PUNIT: "95.50" },
+                    { ESPEC: "RECOMPOSICAO DE PAVIMENTO ASFALTICO", NPRECO: "72000445", UNID: "M2", PUNIT: "85.30" }
+                ];
+                dbMateriais = [
+                    { ESPEC: "TUBO PVC DEFofo DN 50", NPRECO: "30008103", UNID: "M", PUNIT: "25.40" },
+                    { ESPEC: "ABRACADEIRA FF REPARO TUBO DN50", NPRECO: "30004091", UNID: "UN", PUNIT: "176.62" },
+                    { ESPEC: "LUVA DE CORRER PVC DN 50", NPRECO: "30001122", UNID: "UN", PUNIT: "45.20" }
+                ];
+            }
         }
 
         function parseValor(strPunit) {
@@ -506,6 +536,72 @@
             let limpo = String(strPunit).replace(/[R$\s]/g, '').replace(/\./g, '').replace(',', '.');
             return parseFloat(limpo) || 0;
         }
+
+        // === AUTOCOMPLETAR CUSTOMIZADO COM FILTRO IGNORANDO ACENTOS ===
+        function removerAcentos(texto) {
+            if(!texto) return "";
+            return texto.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
+        }
+
+        function mostrarSugestoes(input, tipo) {
+            const valPesquisa = removerAcentos(input.value);
+            const db = (tipo === 'servico') ? dbServicos : dbMateriais;
+            const containerDropdown = input.nextElementSibling;
+            
+            // Se o campo for limpo, zera os outros campos da linha
+            if (valPesquisa.trim() === '') {
+                containerDropdown.style.display = 'none';
+                limparLinha(input, tipo);
+                return;
+            }
+
+            containerDropdown.innerHTML = '';
+
+            // Filtra banco de dados e limita a 30 resultados para performance
+            const filtrados = db.filter(item => {
+                const espec = removerAcentos(item.ESPEC);
+                const npreco = removerAcentos(String(item.NPRECO));
+                return espec.includes(valPesquisa) || npreco.includes(valPesquisa);
+            }).slice(0, 30);
+
+            if (filtrados.length === 0) {
+                containerDropdown.style.display = 'none';
+                return;
+            }
+
+            filtrados.forEach(item => {
+                const div = document.createElement('div');
+                div.innerHTML = `<strong>${item.NPRECO}</strong> - ${item.ESPEC}`;
+                
+                // Ao clicar no item
+                div.onclick = function(e) {
+                    e.stopPropagation();
+                    input.value = `${item.NPRECO} - ${item.ESPEC}`;
+                    containerDropdown.style.display = 'none';
+                    aplicarItemSelecionado(input, item, tipo);
+                };
+                containerDropdown.appendChild(div);
+            });
+
+            containerDropdown.style.display = 'block';
+        }
+
+        function limparLinha(input, tipo) {
+            const tr = input.closest('tr');
+            tr.querySelector(`.num-${tipo}`).value = "";
+            tr.querySelector(`.unid-${tipo}`).value = "";
+            tr.querySelector(`.val-${tipo}`).value = "";
+            calcSubtotalLinha(tr.querySelector(`.qtd-${tipo}`), tipo);
+        }
+
+        function aplicarItemSelecionado(input, item, tipo) {
+            const tr = input.closest('tr');
+            tr.querySelector(`.num-${tipo}`).value = item.NPRECO;
+            tr.querySelector(`.unid-${tipo}`).value = item.UNID;
+            tr.querySelector(`.val-${tipo}`).value = parseValor(item.PUNIT);
+            calcSubtotalLinha(tr.querySelector(`.qtd-${tipo}`), tipo);
+        }
+        // ==============================================================
 
         function tratarUnidade() {
             const val = document.getElementById('unidade').value;
@@ -557,7 +653,6 @@
             const inputOutros = document.getElementById(id + '-outros');
             if (val === 'Outros') inputOutros.classList.remove('hidden');
             else inputOutros.classList.add('hidden');
-            
             if(id === 'diametro-dano') calcularAgua();
         }
 
@@ -656,41 +751,22 @@
 
         function gerarLinhasTabela(tabelaId, qtd, tipo) {
             const tabela = document.getElementById(tabelaId);
-            const listId = tipo === 'servico' ? 'lista-servicos' : 'lista-materiais';
             
             for (let i = 0; i < qtd; i++) {
                 const tr = document.createElement('tr');
                 tr.innerHTML = `
-                    <td><input type="text" list="${listId}" oninput="buscarItem(this, '${tipo}')" style="width: 100%; box-sizing: border-box;"></td>
-                    <td><input type="text" class="num-${tipo}" readonly style="width: 100%; box-sizing: border-box; text-align: center;"></td>
+                    <td style="position: relative;">
+                        <input type="text" class="desc-input" autocomplete="off" oninput="mostrarSugestoes(this, '${tipo}')" onfocus="mostrarSugestoes(this, '${tipo}')" style="width: 100%; box-sizing: border-box;" placeholder="Digite para buscar...">
+                        <div class="autocomplete-list"></div>
+                    </td>
+                    <td><input type="text" class="num-${tipo}" readonly style="width: 100%; box-sizing: border-box; text-align: center; color: var(--primary-color); font-weight: bold;"></td>
                     <td><input type="text" class="unid-${tipo}" readonly style="width: 100%; box-sizing: border-box; text-align: center;"></td>
                     <td><input type="number" class="qtd-${tipo}" oninput="calcSubtotalLinha(this, '${tipo}')" style="width: 100%; box-sizing: border-box;"></td>
                     <td><input type="number" class="val-${tipo}" readonly style="width: 100%; box-sizing: border-box;"></td>
-                    <td><input type="text" class="sub-${tipo}" readonly value="0.00" style="width: 100%; box-sizing: border-box; text-align: right; font-weight: bold;"></td>
+                    <td><input type="text" class="sub-${tipo}" readonly value="0.00" style="width: 100%; box-sizing: border-box; text-align: right; font-weight: bold; color: var(--primary-color);"></td>
                 `;
                 tabela.appendChild(tr);
             }
-        }
-
-        function buscarItem(inputDesc, tipo) {
-            const db = tipo === 'servico' ? dbServicos : dbMateriais;
-            const tr = inputDesc.closest('tr');
-            
-            const valDigitado = inputDesc.value.toUpperCase();
-            
-            // Procura combinando o NPRECO e a ESPEC para corresponder ao que está no Autocomplete
-            const item = db.find(x => x.ESPEC && (`${x.NPRECO} - ${x.ESPEC}`).toUpperCase() === valDigitado);
-            
-            if (item) {
-                tr.querySelector(`.num-${tipo}`).value = item.NPRECO;
-                tr.querySelector(`.unid-${tipo}`).value = item.UNID;
-                tr.querySelector(`.val-${tipo}`).value = parseValor(item.PUNIT);
-            } else {
-                tr.querySelector(`.num-${tipo}`).value = "";
-                tr.querySelector(`.unid-${tipo}`).value = "";
-                tr.querySelector(`.val-${tipo}`).value = "";
-            }
-            calcSubtotalLinha(tr.querySelector(`.qtd-${tipo}`), tipo);
         }
 
         function calcSubtotalLinha(inputQtd, tipo) {
