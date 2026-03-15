@@ -215,23 +215,38 @@
 
         <div id="secao-agua" class="section-title">1 - Água Perdida</div>
         <div id="conteudo-agua">
-            <div class="row">
-                <label>Seção de Vazamento:</label>
-                <select id="tipo-secao" onchange="tratarSecaoVazamento()">
-                    <option value="Área do Furo">Área do Furo</option>
-                    <option value="Seção Plena">Seção Plena</option>
-                </select>
-                <div id="box-area-furo">
-                    <label>Área (cm²):</label>
-                    <input type="number" id="area-furo" value="1" style="width: 60px;" oninput="calcularAgua()">
+            <div class="row" style="align-items: flex-end;">
+                <div>
+                    <label>Seção de Vazamento:</label><br>
+                    <select id="tipo-secao" onchange="tratarSecaoVazamento()">
+                        <option value="Área do Furo">Área do Furo</option>
+                        <option value="Seção Plena">Seção Plena</option>
+                    </select>
                 </div>
-                <div style="margin-left: 15px;">
-                    <label>Pressão (mca):</label>
-                    <input type="number" id="pressao" value="10" style="width: 60px;" oninput="calcularAgua()">
+                
+                <div id="box-area-furo" style="display: flex; gap: 10px; margin-left: 10px;">
+                    <div>
+                        <label>Formato do Dano:</label><br>
+                        <select id="formato-dano" onchange="calcularAgua()">
+                            <option value="0.61">Furo Circular / Padrão (Cd=0.61)</option>
+                            <option value="0.55">Ruptura Irregular / Concha (Cd=0.55)</option>
+                            <option value="0.80">Fissura Longitudinal (Cd=0.80)</option>
+                            <option value="0.58">Fissura Transversal (Cd=0.58)</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label>Área (cm²):</label><br>
+                        <input type="number" id="area-furo" value="1" style="width: 70px;" oninput="calcularAgua()">
+                    </div>
+                </div>
+
+                <div style="margin-left: auto;">
+                    <label>Pressão (mca):</label><br>
+                    <input type="number" id="pressao" value="10" style="width: 70px;" oninput="calcularAgua()">
                 </div>
             </div>
             
-            <table style="margin-top: 5px;">
+            <table style="margin-top: 15px;">
                 <tr>
                     <th colspan="2">Início da Ocorrência</th>
                     <th colspan="2">Fim da Ocorrência</th>
@@ -302,7 +317,8 @@
                 <span>TOTAL FINAL:</span> <span>R$ <span id="total-final">0.00</span></span>
             </div>
             <div class="row" style="justify-content: flex-end; font-size: 9pt; color: #555;">
-                Valores em UFESP equivalentes: <span id="total-ufesp" style="margin-left: 5px;">0.00</span> UFESPs </div>
+                Valores em UFESP equivalentes: <span id="total-ufesp" style="margin-left: 5px;">0.00</span> UFESPs
+            </div>
         </div>
 
         <div class="row" style="margin-top: 40px; justify-content: space-around; text-align: center;">
@@ -340,7 +356,7 @@
     <datalist id="lista-materiais"></datalist>
 
     <script>
-        // === BANCO DE DADOS MOCKADO (Substitua pelos dados reais do CSV futuramente) ===
+        // === BANCO DE DADOS MOCKADO ===
         const dbServicos = [
             { desc: "REPARO DE REDE DE AGUA", num: "500101", unid: "UN", valor: 150.00 },
             { desc: "REPARO DE RAMAL DE AGUA", num: "500102", unid: "UN", valor: 95.50 },
@@ -353,11 +369,11 @@
             { desc: "LUVA DE CORRER PVC DN 50", num: "30001122", unid: "UN", valor: 45.20 }
         ];
 
-        // Inicializa a página
         window.onload = () => {
             carregarDatalists();
             gerarLinhasTabela('tabela-servicos', 5, 'servico');
             gerarLinhasTabela('tabela-materiais', 5, 'material');
+            tratarSecaoVazamento(); // Força a configuração inicial dos campos de área
         };
 
         function carregarDatalists() {
@@ -367,7 +383,6 @@
             dbMateriais.forEach(m => dlMat.innerHTML += `<option value="${m.desc}">`);
         }
 
-        // === CONTROLES DE INTERFACE ===
         function tratarUnidade() {
             const val = document.getElementById('unidade').value;
             const inputOutros = document.getElementById('unidade-outros');
@@ -402,7 +417,6 @@
             if (val === 'Outros') inputOutros.classList.remove('hidden');
             else inputOutros.classList.add('hidden');
 
-            // Mostrar cálculo de água apenas se envolver "Água"
             if (val.toLowerCase().includes('água') || val.toLowerCase().includes('agua')) {
                 secaoAgua.style.display = 'block';
                 conteudoAgua.style.display = 'block';
@@ -426,8 +440,9 @@
         function tratarSecaoVazamento() {
             const val = document.getElementById('tipo-secao').value;
             const boxFuro = document.getElementById('box-area-furo');
+            
             if (val === 'Área do Furo') {
-                boxFuro.style.display = 'block';
+                boxFuro.style.display = 'flex'; // Mantém o layout lado a lado
             } else {
                 boxFuro.style.display = 'none';
             }
@@ -455,23 +470,25 @@
             document.getElementById('calc-segundos').innerText = segundos;
 
             // Calcula Vazão
-            let vazaoLs = 0; // Litros por segundo
+            let vazaoLs = 0; 
             if (tipoSecao === 'Área do Furo') {
                 const areaCm2 = parseFloat(document.getElementById('area-furo').value) || 0;
                 const areaM2 = areaCm2 / 10000;
-                // Fórmula de orifício: Q = Cd * A * sqrt(2 * g * h)
-                // Usando Cd = 0.61 (padrão circular), g = 9.81
+                
+                // Coleta o Coeficiente de Descarga (Cd) escolhido no dropdown
+                const cd = parseFloat(document.getElementById('formato-dano').value) || 0.61;
+                
                 const g = 9.81;
-                const Qm3s = 0.61 * areaM2 * Math.sqrt(2 * g * pressao);
+                // Fórmula: Q = Cd * A * sqrt(2 * g * h)
+                const Qm3s = cd * areaM2 * Math.sqrt(2 * g * pressao);
                 vazaoLs = Qm3s * 1000; 
             } else {
-                // Lógica de Seção Plena (Puxaria da tabela 1-ÁGUA PERDIDA.csv baseada no diâmetro)
-                // Placeholder simulado:
+                // Lógica de Seção Plena
                 const diam = document.getElementById('diametro-dano').value;
                 if(diam === "50") vazaoLs = 1.013;
                 else if(diam === "75") vazaoLs = 2.942;
                 else if(diam === "100") vazaoLs = 6.269;
-                else vazaoLs = 0; // Atualize futuramente com a sua tabela completa
+                else vazaoLs = 0; // Preencher futuramente
             }
             document.getElementById('calc-vazao').innerText = vazaoLs.toFixed(3);
 
@@ -553,13 +570,11 @@
             const sub1 = parseFloat(document.getElementById('subtotal-1').innerText) || 0;
             const sub2 = parseFloat(document.getElementById('subtotal-2').innerText) || 0;
             
-            // BDI incide sobre os custos diretos (Serviços + Materiais)
             const taxaBdi = parseFloat(document.getElementById('taxa-bdi').value) || 0;
             const sub3 = sub2 * (taxaBdi / 100);
             
             document.getElementById('subtotal-3').innerText = sub3.toFixed(2);
 
-            // Resumo
             document.getElementById('resumo-1').innerText = sub1.toFixed(2);
             document.getElementById('resumo-2').innerText = sub2.toFixed(2);
             document.getElementById('resumo-3').innerText = sub3.toFixed(2);
@@ -567,7 +582,6 @@
             const totalGeral = sub1 + sub2 + sub3;
             document.getElementById('total-final').innerText = totalGeral.toFixed(2);
 
-            // Simulador UFESP (Exemplo: 1 UFESP = R$ 35,36 em 2024. Altere conforme necessário)
             const valorUfesp = 35.36; 
             document.getElementById('total-ufesp').innerText = (totalGeral / valorUfesp).toFixed(2);
         }
