@@ -30,6 +30,23 @@
             box-sizing: border-box;
         }
 
+        /* Alerta Offline */
+        #alerta-offline {
+            display: none;
+            background-color: #fff3cd;
+            color: #856404;
+            border: 1px solid #ffeeba;
+            padding: 12px;
+            border-radius: 4px;
+            margin-bottom: 15px;
+            font-size: 10pt;
+            text-align: center;
+        }
+        #alerta-offline input[type="file"] {
+            margin-left: 10px;
+            font-size: 9pt;
+        }
+
         /* Cabeçalho */
         .header-grid {
             display: flex;
@@ -210,6 +227,12 @@
         <button class="btn" onclick="window.print()">🖨️ Imprimir / Guardar PDF</button>
     </div>
 
+    <div id="alerta-offline" class="no-print">
+        <strong>Aviso:</strong> Você está abrindo o arquivo offline e o navegador bloqueou o carregamento automático das bases. <br>
+        Por favor, carregue os arquivos <b>materiais.json</b> e <b>servicos.json</b> manualmente aqui:
+        <input type="file" id="json-uploader" multiple accept=".json">
+    </div>
+
     <div class="container">
         <div class="header-grid">
             <div class="titles">
@@ -298,8 +321,8 @@
                     <input type="text" id="diametro-dano-outros" class="hidden" placeholder="Esp.">
                 </td>
                 <td><input type="text" id="os" style="width: 100%; text-align: center;"></td>
-                <td><input type="date" id="data-dano" style="width: 100%;"></td>
-                <td><input type="time" id="hora-dano" style="width: 100%;"></td>
+                <td><input type="date" id="data-dano" style="width: 100%; padding: 2px;"></td>
+                <td><input type="time" id="hora-dano" style="width: 100%; padding: 2px;"></td>
             </tr>
         </table>
 
@@ -351,25 +374,36 @@
                 </div>
             </div>
             
-            <table>
+            <table style="table-layout: fixed; width: 100%; margin-top: 15px;">
+                <colgroup>
+                    <col style="width: 13%;">
+                    <col style="width: 11%;">
+                    <col style="width: 13%;">
+                    <col style="width: 11%;">
+                    <col style="width: 9%;">
+                    <col style="width: 9%;">
+                    <col style="width: 9%;">
+                    <col style="width: 10%;">
+                    <col style="width: 15%;">
+                </colgroup>
                 <tr>
                     <th colspan="2">Início da Ocorrência</th>
                     <th colspan="2">Fim da Ocorrência</th>
-                    <th style="width: 10%;">Tempo(s)</th>
-                    <th style="width: 10%;">Vazão(l/s)</th>
-                    <th style="width: 10%;">Vol.(m³)</th>
-                    <th style="width: 12%;">Valor/m³(R$)</th>
-                    <th style="width: 15%;">Total(R$)</th>
+                    <th>Tempo(s)</th>
+                    <th>Vazão(l/s)</th>
+                    <th>Vol.(m³)</th>
+                    <th>R$/m³</th>
+                    <th>Total(R$)</th>
                 </tr>
                 <tr>
-                    <td><input type="date" id="data-ini" onchange="calcularAgua()"></td>
-                    <td><input type="time" id="hora-ini" onchange="calcularAgua()"></td>
-                    <td><input type="date" id="data-fim" onchange="calcularAgua()"></td>
-                    <td><input type="time" id="hora-fim" onchange="calcularAgua()"></td>
-                    <td style="text-align: right;"><span id="calc-segundos">0</span></td>
-                    <td style="text-align: right;"><span id="calc-vazao">0.00</span></td>
-                    <td style="text-align: right;"><span id="calc-vol">0.00</span></td>
-                    <td><input type="number" id="valor-m3" value="20.52" step="0.01" style="width:100%;" oninput="calcularAgua()"></td>
+                    <td><input type="date" id="data-ini" onchange="calcularAgua()" style="width: 100%; box-sizing: border-box; padding: 2px; font-size: 9pt;"></td>
+                    <td><input type="time" id="hora-ini" onchange="calcularAgua()" style="width: 100%; box-sizing: border-box; padding: 2px; font-size: 9pt;"></td>
+                    <td><input type="date" id="data-fim" onchange="calcularAgua()" style="width: 100%; box-sizing: border-box; padding: 2px; font-size: 9pt;"></td>
+                    <td><input type="time" id="hora-fim" onchange="calcularAgua()" style="width: 100%; box-sizing: border-box; padding: 2px; font-size: 9pt;"></td>
+                    <td style="text-align: center;"><span id="calc-segundos">0</span></td>
+                    <td style="text-align: center;"><span id="calc-vazao">0.00</span></td>
+                    <td style="text-align: center;"><span id="calc-vol">0.00</span></td>
+                    <td><input type="number" id="valor-m3" value="20.52" step="0.01" style="width:100%; box-sizing: border-box; padding: 2px;" oninput="calcularAgua()"></td>
                     <td style="font-weight: bold; text-align: right; color: var(--primary-color);"><span id="calc-total-agua">0.00</span></td>
                 </tr>
             </table>
@@ -476,6 +510,39 @@
             await carregarBancosDeDados();
         };
 
+        // CARREGADOR DE JSON OFFLINE MANUAL
+        document.getElementById('json-uploader').addEventListener('change', function(e) {
+            const files = e.target.files;
+            let carregados = 0;
+            for(let file of files) {
+                const reader = new FileReader();
+                reader.onload = function(evt) {
+                    try {
+                        const data = JSON.parse(evt.target.result);
+                        if (file.name.toLowerCase().includes('servico')) {
+                            dbServicos = data;
+                            carregados++;
+                        } else if (file.name.toLowerCase().includes('materiais')) {
+                            dbMateriais = data.map(m => ({
+                                NPRECO: m["Material"] !== undefined ? m["Material"] : m.NPRECO,
+                                ESPEC: m["Texto breve material"] !== undefined ? m["Texto breve material"] : m.ESPEC,
+                                UNID: m["Unid.medida básica"] !== undefined ? String(m["Unid.medida básica"]).trim() : m.UNID,
+                                PUNIT: m["Valor Unitário"] !== undefined ? m["Valor Unitário"] : m.PUNIT
+                            }));
+                            carregados++;
+                        }
+                        if(carregados > 0) {
+                            document.getElementById('alerta-offline').style.display = 'none';
+                            alert('Bases carregadas com sucesso! Você já pode pesquisar.');
+                        }
+                    } catch(err) {
+                        alert("Erro ao ler o arquivo " + file.name);
+                    }
+                };
+                reader.readAsText(file);
+            }
+        });
+
         // FECHAR DROP DOWNS SE CLICAR FORA
         document.addEventListener('click', function(e) {
             if (!e.target.classList.contains('desc-input')) {
@@ -504,42 +571,32 @@
         });
 
         async function carregarBancosDeDados() {
+            let fetchFalhou = false;
+            
             try {
                 const resServ = await fetch('servicos.json');
                 if (resServ.ok) {
                     dbServicos = await resServ.json();
-                }
+                } else { fetchFalhou = true; }
 
                 const resMat = await fetch('materiais.json');
                 if (resMat.ok) {
                     const rawMat = await resMat.json();
-                    
-                    // CONVERSÃO AUTOMÁTICA do formato do materiais.json para o padrão usado na tabela
                     dbMateriais = rawMat.map(m => ({
                         NPRECO: m["Material"] !== undefined ? m["Material"] : m.NPRECO,
                         ESPEC: m["Texto breve material"] !== undefined ? m["Texto breve material"] : m.ESPEC,
-                        UNID: m["Unid.medida básica"] !== undefined ? m["Unid.medida básica"].trim() : m.UNID,
+                        UNID: m["Unid.medida básica"] !== undefined ? String(m["Unid.medida básica"]).trim() : m.UNID,
                         PUNIT: m["Valor Unitário"] !== undefined ? m["Valor Unitário"] : m.PUNIT
                     }));
-                }
+                } else { fetchFalhou = true; }
             } catch (e) {
-                console.error("Arquivos .json não encontrados automaticamente.", e);
+                console.error("Arquivos .json não encontrados automaticamente (CORS/Offline).", e);
+                fetchFalhou = true;
             }
             
-            // Dados Mockados de segurança caso a requisição falhe ao rodar localmente
-            if(dbServicos.length === 0) {
-                dbServicos = [
-                    { ESPEC: "REPARO DE REDE DE AGUA", NPRECO: "500101", UNID: "UN", PUNIT: "150.00" },
-                    { ESPEC: "REPARO DE RAMAL DE AGUA", NPRECO: "500102", UNID: "UN", PUNIT: "95.50" },
-                    { ESPEC: "RECOMPOSICAO DE PAVIMENTO ASFALTICO", NPRECO: "72000445", UNID: "M2", PUNIT: "85.30" }
-                ];
-            }
-            if(dbMateriais.length === 0) {
-                dbMateriais = [
-                    { ESPEC: "TUBO PVC DEFOFO DN 50", NPRECO: "30008103", UNID: "M", PUNIT: "25.40" },
-                    { ESPEC: "ABRACADEIRA FF REPARO TUBO DN50", NPRECO: "30004091", UNID: "UN", PUNIT: "176.62" },
-                    { ESPEC: "LUVA DE CORRER PVC DN 50", NPRECO: "30001122", UNID: "UN", PUNIT: "45.20" }
-                ];
+            // Se o fetch falhar, exibe o bloco amarelo com botão de upload
+            if(fetchFalhou || dbServicos.length === 0 || dbMateriais.length === 0) {
+                document.getElementById('alerta-offline').style.display = 'block';
             }
         }
 
@@ -549,7 +606,7 @@
             return parseFloat(limpo) || 0;
         }
 
-        // === AUTOCOMPLETAR CUSTOMIZADO COM FILTRO IGNORANDO ACENTOS ===
+        // === AUTOCOMPLETAR CUSTOMIZADO ===
         function removerAcentos(texto) {
             if(!texto) return "";
             return texto.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
@@ -568,11 +625,12 @@
 
             containerDropdown.innerHTML = '';
 
+            // Limita a 40 resultados para não travar a tela
             const filtrados = db.filter(item => {
-                const espec = removerAcentos(item.ESPEC);
+                const espec = removerAcentos(String(item.ESPEC));
                 const npreco = removerAcentos(String(item.NPRECO));
                 return espec.includes(valPesquisa) || npreco.includes(valPesquisa);
-            }).slice(0, 30);
+            }).slice(0, 40);
 
             if (filtrados.length === 0) {
                 containerDropdown.style.display = 'none';
