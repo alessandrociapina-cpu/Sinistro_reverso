@@ -3,15 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <title>Planilha Orçamentária</title>
-    
-    <script src="servicos.js"></script>
-    <script src="materiais.js"></script>
-
     <style>
         /* === ESTILOS GERAIS E DE TELA === */
         :root {
             --primary-color: #004488; 
             --secondary-color: #0056b3;
+            --sabesp-blue: #12D0FF; /* Azul claro Sabesp */
             --text-color: #333;
             --border-color: #ccc;
             --bg-color: #f4f7fa;
@@ -43,12 +40,12 @@
             padding-bottom: 12px;
             margin-bottom: 15px;
         }
-        .titles { flex: 1; text-align: center; }
+        .titles { flex: 1; text-align: center; padding-right: 15px; }
         .linha1 { 
             font-family: Tahoma, sans-serif; 
-            font-size: 16pt; 
+            font-size: 14pt; 
             font-weight: bold; 
-            color: var(--primary-color); 
+            color: var(--sabesp-blue); 
             letter-spacing: 0.5px; 
             text-transform: uppercase;
         }
@@ -56,7 +53,7 @@
             font-size: 11pt; 
             font-weight: bold; 
             margin-top: 5px; 
-            color: #555; 
+            color: var(--sabesp-blue); 
         }
         
         .logo-placeholder {
@@ -171,6 +168,23 @@
             padding-top: 8px;
         }
 
+        /* Alerta Offline */
+        #alerta-offline {
+            display: none;
+            background-color: #fff3cd;
+            color: #856404;
+            border: 1px solid #ffeeba;
+            padding: 12px;
+            border-radius: 4px;
+            margin-bottom: 15px;
+            font-size: 10pt;
+            text-align: center;
+        }
+        #alerta-offline input[type="file"] {
+            margin-left: 10px;
+            font-size: 9pt;
+        }
+
         /* === OTIMIZAÇÃO PARA 1 PÁGINA A4 (IMPRESSÃO PDF) === */
         @page { size: A4 portrait; margin: 10mm; }
         
@@ -183,14 +197,17 @@
             .autocomplete-list { display: none !important; }
 
             .header-grid { border-bottom: 2px solid #000; padding-bottom: 8px; margin-bottom: 10px; }
-            .linha1 { color: #000; font-size: 13pt; }
-            .linha2 { color: #000; font-size: 10.5pt; }
             
-            .section-title { color: #000; background-color: #e0e0e0 !important; border: 1px solid #000; margin-top: 10px; margin-bottom: 4px; padding: 4px 6px; font-size: 10.5pt; -webkit-print-color-adjust: exact; }
+            /* Cores mantidas na impressão para a identidade visual */
+            .linha1, .linha2 { color: var(--sabesp-blue) !important; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+            .linha1 { font-size: 12pt; }
+            .linha2 { font-size: 10pt; }
+            
+            .section-title { color: #000; background-color: #e0e0e0 !important; border: 1px solid #000; margin-top: 10px; margin-bottom: 4px; padding: 4px 6px; font-size: 10.5pt; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
             
             table { margin-bottom: 6px; font-size: 9pt; }
             th, td { padding: 2px 3px; border-color: #666; }
-            th { background-color: #f0f0f0 !important; color: #000; border-bottom: 1px solid #000; -webkit-print-color-adjust: exact; }
+            th { background-color: #f0f0f0 !important; color: #000; border-bottom: 1px solid #000; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
             
             input, select, textarea { border: none !important; background: transparent !important; padding: 0; margin: 0; appearance: none; -webkit-appearance: none; color: #000; font-size: 9pt; }
             input::placeholder { color: transparent; }
@@ -214,11 +231,17 @@
         <button class="btn" onclick="window.print()">🖨️ Imprimir / Guardar PDF</button>
     </div>
 
+    <div id="alerta-offline" class="no-print">
+        <strong>Aviso:</strong> Você está abrindo o arquivo offline e o navegador bloqueou o carregamento automático das bases. <br>
+        Por favor, carregue os arquivos <b>materiais.json</b> e <b>servicos.json</b> manualmente aqui:
+        <input type="file" id="json-uploader" multiple accept=".json">
+    </div>
+
     <div class="container">
         <div class="header-grid">
             <div class="titles">
-                <div class="linha1">PLANILHA ORÇAMENTÁRIA</div>
-                <div class="linha2">Recuperação de Danos Causados por Outras Concessionárias ou Terceiros</div>
+                <div class="linha1">COMPANHIA DE SANEAMENTO BÁSICO DO ESTADO DE SÃO PAULO</div>
+                <div class="linha2">Planilha para Recuperação de Danos Causados por Outras Concessionárias ou Terceiros</div>
             </div>
             <div>
                 <img src="logosabesp.png" class="logo-placeholder" alt="Logo Sabesp" onerror="this.style.display='none'">
@@ -482,14 +505,47 @@
             "300": 106.207, "350": 153.410, "400": 200.613
         };
 
-        window.onload = () => {
+        window.onload = async () => {
             gerarLinhasTabela('tabela-servicos', 5, 'servico'); 
             gerarLinhasTabela('tabela-materiais', 5, 'material');
             tratarSecaoVazamento(); 
             tratarFormatoDano();
             
-            inicializarBases();
+            await carregarBancosDeDados();
         };
+
+        // CARREGADOR DE JSON OFFLINE MANUAL
+        document.getElementById('json-uploader').addEventListener('change', function(e) {
+            const files = e.target.files;
+            let carregados = 0;
+            for(let file of files) {
+                const reader = new FileReader();
+                reader.onload = function(evt) {
+                    try {
+                        const data = JSON.parse(evt.target.result);
+                        if (file.name.toLowerCase().includes('servico')) {
+                            dbServicos = data;
+                            carregados++;
+                        } else if (file.name.toLowerCase().includes('materiais')) {
+                            dbMateriais = data.map(m => ({
+                                NPRECO: m["Material"] !== undefined ? m["Material"] : m.NPRECO,
+                                ESPEC: m["Texto breve material"] !== undefined ? m["Texto breve material"] : m.ESPEC,
+                                UNID: m["Unid.medida básica"] !== undefined ? String(m["Unid.medida básica"]).trim() : m.UNID,
+                                PUNIT: m["Valor Unitário"] !== undefined ? m["Valor Unitário"] : m.PUNIT
+                            }));
+                            carregados++;
+                        }
+                        if(carregados > 0) {
+                            document.getElementById('alerta-offline').style.display = 'none';
+                            alert('Bases carregadas com sucesso! Você já pode pesquisar.');
+                        }
+                    } catch(err) {
+                        alert("Erro ao ler o arquivo " + file.name);
+                    }
+                };
+                reader.readAsText(file);
+            }
+        });
 
         // FECHAR DROP DOWNS SE CLICAR FORA
         document.addEventListener('click', function(e) {
@@ -518,24 +574,33 @@
             document.querySelectorAll('.hide-on-print').forEach(el => el.classList.remove('hide-on-print'));
         });
 
-        function inicializarBases() {
-            // Verifica se o ficheiro servicos.js carregou corretamente a variável global
-            if (typeof baseServicos !== 'undefined') {
-                dbServicos = baseServicos;
-            } else {
-                console.error("Base de serviços não carregada.");
-            }
+        async function carregarBancosDeDados() {
+            let fetchFalhou = false;
+            
+            try {
+                const resServ = await fetch('servicos.json');
+                if (resServ.ok) {
+                    dbServicos = await resServ.json();
+                } else { fetchFalhou = true; }
 
-            // Verifica se o ficheiro materiais.js carregou e faz a tradução dos campos na hora
-            if (typeof baseMateriais !== 'undefined') {
-                dbMateriais = baseMateriais.map(m => ({
-                    NPRECO: m["Material"] !== undefined ? m["Material"] : m.NPRECO,
-                    ESPEC: m["Texto breve material"] !== undefined ? m["Texto breve material"] : m.ESPEC,
-                    UNID: m["Unid.medida básica"] !== undefined ? String(m["Unid.medida básica"]).trim() : m.UNID,
-                    PUNIT: m["Valor Unitário"] !== undefined ? m["Valor Unitário"] : m.PUNIT
-                }));
-            } else {
-                console.error("Base de materiais não carregada.");
+                const resMat = await fetch('materiais.json');
+                if (resMat.ok) {
+                    const rawMat = await resMat.json();
+                    dbMateriais = rawMat.map(m => ({
+                        NPRECO: m["Material"] !== undefined ? m["Material"] : m.NPRECO,
+                        ESPEC: m["Texto breve material"] !== undefined ? m["Texto breve material"] : m.ESPEC,
+                        UNID: m["Unid.medida básica"] !== undefined ? String(m["Unid.medida básica"]).trim() : m.UNID,
+                        PUNIT: m["Valor Unitário"] !== undefined ? m["Valor Unitário"] : m.PUNIT
+                    }));
+                } else { fetchFalhou = true; }
+            } catch (e) {
+                console.error("Arquivos .json não encontrados automaticamente (CORS/Offline).", e);
+                fetchFalhou = true;
+            }
+            
+            // Se o fetch falhar, exibe o bloco amarelo com botão de upload
+            if(fetchFalhou || dbServicos.length === 0 || dbMateriais.length === 0) {
+                document.getElementById('alerta-offline').style.display = 'block';
             }
         }
 
