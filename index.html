@@ -506,21 +506,35 @@
         async function carregarBancosDeDados() {
             try {
                 const resServ = await fetch('servicos.json');
-                if (resServ.ok) dbServicos = await resServ.json();
+                if (resServ.ok) {
+                    dbServicos = await resServ.json();
+                }
 
                 const resMat = await fetch('materiais.json');
-                if (resMat.ok) dbMateriais = await resMat.json();
+                if (resMat.ok) {
+                    const rawMat = await resMat.json();
+                    
+                    // CONVERSÃO AUTOMÁTICA do formato do materiais.json para o padrão usado na tabela
+                    dbMateriais = rawMat.map(m => ({
+                        NPRECO: m["Material"] !== undefined ? m["Material"] : m.NPRECO,
+                        ESPEC: m["Texto breve material"] !== undefined ? m["Texto breve material"] : m.ESPEC,
+                        UNID: m["Unid.medida básica"] !== undefined ? m["Unid.medida básica"].trim() : m.UNID,
+                        PUNIT: m["Valor Unitário"] !== undefined ? m["Valor Unitário"] : m.PUNIT
+                    }));
+                }
             } catch (e) {
                 console.error("Arquivos .json não encontrados automaticamente.", e);
             }
             
-            // Dados Mockados de segurança
+            // Dados Mockados de segurança caso a requisição falhe ao rodar localmente
             if(dbServicos.length === 0) {
                 dbServicos = [
                     { ESPEC: "REPARO DE REDE DE AGUA", NPRECO: "500101", UNID: "UN", PUNIT: "150.00" },
                     { ESPEC: "REPARO DE RAMAL DE AGUA", NPRECO: "500102", UNID: "UN", PUNIT: "95.50" },
                     { ESPEC: "RECOMPOSICAO DE PAVIMENTO ASFALTICO", NPRECO: "72000445", UNID: "M2", PUNIT: "85.30" }
                 ];
+            }
+            if(dbMateriais.length === 0) {
                 dbMateriais = [
                     { ESPEC: "TUBO PVC DEFOFO DN 50", NPRECO: "30008103", UNID: "M", PUNIT: "25.40" },
                     { ESPEC: "ABRACADEIRA FF REPARO TUBO DN50", NPRECO: "30004091", UNID: "UN", PUNIT: "176.62" },
