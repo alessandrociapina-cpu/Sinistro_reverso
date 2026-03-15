@@ -219,24 +219,36 @@
                 <div>
                     <label>Seção de Vazamento:</label><br>
                     <select id="tipo-secao" onchange="tratarSecaoVazamento()">
-                        <option value="Área do Furo">Área do Furo</option>
-                        <option value="Seção Plena">Seção Plena</option>
+                        <option value="Área do Furo">Área do Furo (Avaria Localizada)</option>
+                        <option value="Seção Plena">Seção Plena (Tubo Totalmente Rompido)</option>
                     </select>
                 </div>
                 
-                <div id="box-area-furo" style="display: flex; gap: 10px; margin-left: 10px;">
+                <div id="box-dimensoes-furo" style="display: flex; gap: 10px; margin-left: 10px;">
                     <div>
                         <label>Formato do Dano:</label><br>
-                        <select id="formato-dano" onchange="calcularAgua()">
-                            <option value="0.61">Furo Circular / Padrão (Cd=0.61)</option>
-                            <option value="0.55">Ruptura Irregular / Concha (Cd=0.55)</option>
-                            <option value="0.80">Fissura Longitudinal (Cd=0.80)</option>
-                            <option value="0.58">Fissura Transversal (Cd=0.58)</option>
+                        <select id="formato-dano" onchange="tratarFormatoDano()">
+                            <option value="circular">Furo Circular / Padrão (Cd=0.61)</option>
+                            <option value="irregular">Ruptura Irregular / Concha (Cd=0.55)</option>
+                            <option value="longitudinal">Fissura Longitudinal (Cd=0.80)</option>
+                            <option value="transversal">Fissura Transversal (Cd=0.58)</option>
                         </select>
                     </div>
-                    <div>
-                        <label>Área (cm²):</label><br>
-                        <input type="number" id="area-furo" value="1" style="width: 70px;" oninput="calcularAgua()">
+                    
+                    <div id="box-diametro" style="display: block;">
+                        <label>Diâmetro Furo (mm):</label><br>
+                        <input type="number" id="diametro-furo" value="10" style="width: 90px;" oninput="calcularAgua()">
+                    </div>
+
+                    <div id="box-retangulo" style="display: none; gap: 10px;">
+                        <div>
+                            <label>Comprimento (cm):</label><br>
+                            <input type="number" id="comp-furo" value="5" style="width: 90px;" oninput="calcularAgua()">
+                        </div>
+                        <div>
+                            <label>Largura (cm):</label><br>
+                            <input type="number" id="larg-furo" value="2" style="width: 90px;" oninput="calcularAgua()">
+                        </div>
                     </div>
                 </div>
 
@@ -373,7 +385,8 @@
             carregarDatalists();
             gerarLinhasTabela('tabela-servicos', 5, 'servico');
             gerarLinhasTabela('tabela-materiais', 5, 'material');
-            tratarSecaoVazamento(); // Força a configuração inicial dos campos de área
+            tratarSecaoVazamento(); 
+            tratarFormatoDano();
         };
 
         function carregarDatalists() {
@@ -439,17 +452,32 @@
 
         function tratarSecaoVazamento() {
             const val = document.getElementById('tipo-secao').value;
-            const boxFuro = document.getElementById('box-area-furo');
+            const boxFuro = document.getElementById('box-dimensoes-furo');
             
             if (val === 'Área do Furo') {
-                boxFuro.style.display = 'flex'; // Mantém o layout lado a lado
+                boxFuro.style.display = 'flex'; 
             } else {
                 boxFuro.style.display = 'none';
             }
             calcularAgua();
         }
 
-        // === LÓGICA DE CÁLCULO DE ÁGUA ===
+        function tratarFormatoDano() {
+            const formato = document.getElementById('formato-dano').value;
+            const boxDiametro = document.getElementById('box-diametro');
+            const boxRetangulo = document.getElementById('box-retangulo');
+
+            if (formato === 'circular') {
+                boxDiametro.style.display = 'block';
+                boxRetangulo.style.display = 'none';
+            } else {
+                boxDiametro.style.display = 'none';
+                boxRetangulo.style.display = 'flex';
+            }
+            calcularAgua();
+        }
+
+        // === LÓGICA DE CÁLCULO DE ÁGUA (Por trás das cortinas) ===
         function calcularAgua() {
             const tipoSecao = document.getElementById('tipo-secao').value;
             const dIni = document.getElementById('data-ini').value;
@@ -472,16 +500,29 @@
             // Calcula Vazão
             let vazaoLs = 0; 
             if (tipoSecao === 'Área do Furo') {
-                const areaCm2 = parseFloat(document.getElementById('area-furo').value) || 0;
-                const areaM2 = areaCm2 / 10000;
-                
-                // Coleta o Coeficiente de Descarga (Cd) escolhido no dropdown
-                const cd = parseFloat(document.getElementById('formato-dano').value) || 0.61;
-                
+                const formato = document.getElementById('formato-dano').value;
+                let areaM2 = 0;
+                let cd = 0.61;
+
+                if (formato === 'circular') {
+                    cd = 0.61;
+                    const diamMm = parseFloat(document.getElementById('diametro-furo').value) || 0;
+                    const raioM = (diamMm / 1000) / 2; // Converte mm para metros e acha o raio
+                    areaM2 = Math.PI * Math.pow(raioM, 2); // Área do círculo
+                } else {
+                    if (formato === 'irregular') cd = 0.55;
+                    else if (formato === 'longitudinal') cd = 0.80;
+                    else if (formato === 'transversal') cd = 0.58;
+
+                    const compCm = parseFloat(document.getElementById('comp-furo').value) || 0;
+                    const largCm = parseFloat(document.getElementById('larg-furo').value) || 0;
+                    areaM2 = (compCm / 100) * (largCm / 100); // Área do retângulo e converte cm para metros
+                }
+
                 const g = 9.81;
                 // Fórmula: Q = Cd * A * sqrt(2 * g * h)
                 const Qm3s = cd * areaM2 * Math.sqrt(2 * g * pressao);
-                vazaoLs = Qm3s * 1000; 
+                vazaoLs = Qm3s * 1000; // Converte m³/s para litros/s
             } else {
                 // Lógica de Seção Plena
                 const diam = document.getElementById('diametro-dano').value;
