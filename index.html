@@ -115,26 +115,46 @@
         }
         .btn:hover { background-color: #004494; }
 
+        /* Rodapé de Tela */
+        .rodape-container {
+            margin-top: 15px; 
+            text-align: left; 
+            font-size: 8pt; 
+            border-top: 1px solid #ccc; 
+            padding-top: 8px;
+        }
+
         /* === OTIMIZAÇÃO PARA 1 PÁGINA A4 (IMPRESSÃO PDF) === */
         @page { size: A4 portrait; margin: 10mm; }
+        
         @media print {
             body { margin: 0; background-color: white; font-size: 8pt; color: #000; }
             .container { box-shadow: none; padding: 0; max-width: 100%; }
             .no-print { display: none !important; }
+            
+            /* Classe adicionada dinamicamente via JS para ocultar linhas vazias */
+            .hide-on-print { display: none !important; }
+
             .header-grid { border-bottom: 1px solid #000; padding-bottom: 8px; margin-bottom: 10px; }
             .linha1 { color: #000; font-size: 11pt; }
             .section-title { color: #000; background-color: #eee; border-left: 3px solid #000; margin-top: 10px; margin-bottom: 4px; padding: 4px 6px; font-size: 8.5pt; }
+            
             table { margin-bottom: 6px; font-size: 7.5pt; }
             th, td { padding: 2px 3px; border-color: #999; }
             th { background-color: #f0f0f0 !important; -webkit-print-color-adjust: exact; }
+            
             input, select, textarea { border: none !important; background: transparent !important; padding: 0; margin: 0; appearance: none; -webkit-appearance: none; color: #000; }
             input::placeholder { color: transparent; }
+            
             .row { margin-bottom: 4px; gap: 5px; }
             .totais-box { border: 1px solid #000; padding: 8px; margin-top: 10px; background-color: transparent; }
             .total-final-row { color: #000; font-size: 11pt; padding-top: 4px; margin-top: 4px; border-top: 1px solid #000; }
-            .assinaturas { margin-top: 20px; }
-            #rodape-endereco { font-size: 7.5pt !important; overflow: hidden; height: auto; }
+            
+            .assinaturas { margin-top: 20px; page-break-inside: avoid; }
             .linha-assinatura { height: 20px; }
+            
+            .rodape-container { page-break-inside: avoid; border-top: 1px solid #000; }
+            #rodape-endereco { font-size: 7.5pt !important; overflow: hidden; height: auto; }
         }
     </style>
 </head>
@@ -384,9 +404,9 @@
             </div>
         </div>
 
-        <div style="margin-top: 15px; text-align: center; font-size: 8pt; border-top: 1px solid #ccc; padding-top: 8px;">
+        <div class="rodape-container">
             <div id="rodape-setor" style="font-weight: bold;">OVMS</div>
-            <textarea id="rodape-endereco" style="width: 100%; text-align: center; border: none; resize: none; font-family: inherit; font-size: 8pt; color: #555; background:transparent;" rows="2">Rua Paulo Setúbal, 19 - Vila Adyanna - CEP 12245-460 - São José dos Campos - SP&#10;Telefone: (12) 3904-3202</textarea>
+            <textarea id="rodape-endereco" style="width: 100%; text-align: left; border: none; resize: none; font-family: inherit; font-size: 8pt; color: #555; background:transparent;" rows="2">Rua Paulo Setúbal, 19 - Vila Adyanna - CEP 12245-460 - São José dos Campos - SP&#10;Telefone: (12) 3904-3202</textarea>
         </div>
     </div>
 
@@ -394,11 +414,9 @@
     <datalist id="lista-materiais"></datalist>
 
     <script>
-        // Bancos de dados vazios que serão preenchidos pelo JSON
         let dbServicos = [];
         let dbMateriais = [];
 
-        // Tabela empírica para seção plena (L/s)
         const vazoesSecaoPlena = {
             "20": 0.300, "25": 0.508, "32": 0.800, "50": 1.013, "75": 2.942,
             "100": 6.269, "150": 18.211, "200": 32.780, "250": 59.004,
@@ -406,14 +424,35 @@
         };
 
         window.onload = async () => {
-            gerarLinhasTabela('tabela-servicos', 4, 'servico'); 
-            gerarLinhasTabela('tabela-materiais', 4, 'material');
+            gerarLinhasTabela('tabela-servicos', 5, 'servico'); 
+            gerarLinhasTabela('tabela-materiais', 5, 'material');
             tratarSecaoVazamento(); 
             tratarFormatoDano();
             
-            // Tenta buscar os dados dos arquivos JSON automaticamente
             await carregarBancosDeDados();
         };
+
+        // OCULTAR LINHAS VAZIAS ANTES DA IMPRESSÃO
+        window.addEventListener('beforeprint', function() {
+            const tabelas = ['tabela-servicos', 'tabela-materiais'];
+            tabelas.forEach(id => {
+                const trs = document.querySelectorAll(`#${id} tr`);
+                trs.forEach((tr, index) => {
+                    if(index === 0) return; // ignora o cabeçalho
+                    const inputDesc = tr.querySelector('input[list]');
+                    if(inputDesc && inputDesc.value.trim() === '') {
+                        tr.classList.add('hide-on-print');
+                    }
+                });
+            });
+        });
+
+        // DEVOLVER LINHAS VAZIAS APÓS A IMPRESSÃO
+        window.addEventListener('afterprint', function() {
+            document.querySelectorAll('.hide-on-print').forEach(el => {
+                el.classList.remove('hide-on-print');
+            });
+        });
 
         async function carregarBancosDeDados() {
             try {
@@ -428,7 +467,6 @@
                 carregarDatalists();
             } catch (e) {
                 console.error(e);
-                alert("Atenção: Os arquivos servicos.json e materiais.json não puderam ser lidos automaticamente. Isso ocorre por proteção do navegador ao abrir arquivos locais. Faça o deploy no GitHub Pages para que funcione corretamente!");
             }
         }
 
@@ -444,10 +482,8 @@
             });
         }
 
-        // Função para limpar a string "R$ 1.062,33" e transformar em número 1062.33
         function parseValor(strPunit) {
             if (!strPunit) return 0;
-            // Remove R$, espaços em branco e pontos de milhar, troca vírgula por ponto
             let limpo = String(strPunit).replace(/[R$\s]/g, '').replace(/\./g, '').replace(',', '.');
             return parseFloat(limpo) || 0;
         }
@@ -621,7 +657,6 @@
             const db = tipo === 'servico' ? dbServicos : dbMateriais;
             const tr = inputDesc.closest('tr');
             
-            // Busca considerando que o JSON tem .ESPEC, .NPRECO, .UNID, e .PUNIT
             const valDigitado = inputDesc.value.toUpperCase();
             const item = db.find(x => x.ESPEC && x.ESPEC.toUpperCase() === valDigitado);
             
