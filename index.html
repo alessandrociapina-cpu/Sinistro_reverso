@@ -8,7 +8,7 @@
         body {
             font-family: Arial, sans-serif;
             margin: 20px auto;
-            max-width: 210mm; /* Largura A4 */
+            max-width: 210mm;
             background-color: #f0f0f0;
             font-size: 10pt;
         }
@@ -16,7 +16,7 @@
             background-color: white;
             padding: 20px;
             box-shadow: 0 0 10px rgba(0,0,0,0.1);
-            min-height: 297mm; /* Altura A4 */
+            min-height: 297mm;
         }
         .header-grid {
             display: grid;
@@ -236,20 +236,24 @@
                     </div>
                     
                     <div id="box-diametro" style="display: block;">
-                        <label>Diâmetro Furo (mm):</label><br>
-                        <input type="number" id="diametro-furo" value="10" style="width: 90px;" oninput="calcularAgua()">
+                        <label>Diâm. do Furo (cm):</label><br>
+                        <input type="number" id="diametro-furo" value="2" step="0.1" style="width: 90px;" oninput="calcularAgua()">
                     </div>
 
                     <div id="box-retangulo" style="display: none; gap: 10px;">
                         <div>
                             <label>Comprimento (cm):</label><br>
-                            <input type="number" id="comp-furo" value="5" style="width: 90px;" oninput="calcularAgua()">
+                            <input type="number" id="comp-furo" value="5" step="0.1" style="width: 90px;" oninput="calcularAgua()">
                         </div>
                         <div>
                             <label>Largura (cm):</label><br>
-                            <input type="number" id="larg-furo" value="2" style="width: 90px;" oninput="calcularAgua()">
+                            <input type="number" id="larg-furo" value="2" step="0.1" style="width: 90px;" oninput="calcularAgua()">
                         </div>
                     </div>
+                </div>
+
+                <div id="aviso-secao-plena" style="display: none; margin-left: 10px; color: #0056b3; font-style: italic; font-size: 9pt;">
+                    Calculando área a partir do Diâmetro da Rede informado acima (Cd=0.82).
                 </div>
 
                 <div style="margin-left: auto;">
@@ -453,11 +457,14 @@
         function tratarSecaoVazamento() {
             const val = document.getElementById('tipo-secao').value;
             const boxFuro = document.getElementById('box-dimensoes-furo');
+            const avisoPlena = document.getElementById('aviso-secao-plena');
             
             if (val === 'Área do Furo') {
                 boxFuro.style.display = 'flex'; 
+                avisoPlena.style.display = 'none';
             } else {
                 boxFuro.style.display = 'none';
+                avisoPlena.style.display = 'block';
             }
             calcularAgua();
         }
@@ -477,7 +484,7 @@
             calcularAgua();
         }
 
-        // === LÓGICA DE CÁLCULO DE ÁGUA (Por trás das cortinas) ===
+        // === LÓGICA DE CÁLCULO DE ÁGUA ===
         function calcularAgua() {
             const tipoSecao = document.getElementById('tipo-secao').value;
             const dIni = document.getElementById('data-ini').value;
@@ -487,7 +494,6 @@
             const pressao = parseFloat(document.getElementById('pressao').value) || 0;
             const precoM3 = parseFloat(document.getElementById('valor-m3').value) || 0;
 
-            // Calcula Tempo
             let segundos = 0;
             if (dIni && hIni && dFim && hFim) {
                 const start = new Date(`${dIni}T${hIni}`);
@@ -497,18 +503,19 @@
             }
             document.getElementById('calc-segundos').innerText = segundos;
 
-            // Calcula Vazão
             let vazaoLs = 0; 
+            let areaM2 = 0;
+            let cd = 0.61;
+            const g = 9.81;
+
             if (tipoSecao === 'Área do Furo') {
                 const formato = document.getElementById('formato-dano').value;
-                let areaM2 = 0;
-                let cd = 0.61;
 
                 if (formato === 'circular') {
                     cd = 0.61;
-                    const diamMm = parseFloat(document.getElementById('diametro-furo').value) || 0;
-                    const raioM = (diamMm / 1000) / 2; // Converte mm para metros e acha o raio
-                    areaM2 = Math.PI * Math.pow(raioM, 2); // Área do círculo
+                    const diamCm = parseFloat(document.getElementById('diametro-furo').value) || 0;
+                    const raioM = (diamCm / 100) / 2; // Converte cm para metros
+                    areaM2 = Math.PI * Math.pow(raioM, 2); 
                 } else {
                     if (formato === 'irregular') cd = 0.55;
                     else if (formato === 'longitudinal') cd = 0.80;
@@ -516,24 +523,25 @@
 
                     const compCm = parseFloat(document.getElementById('comp-furo').value) || 0;
                     const largCm = parseFloat(document.getElementById('larg-furo').value) || 0;
-                    areaM2 = (compCm / 100) * (largCm / 100); // Área do retângulo e converte cm para metros
+                    areaM2 = (compCm / 100) * (largCm / 100); 
                 }
-
-                const g = 9.81;
-                // Fórmula: Q = Cd * A * sqrt(2 * g * h)
-                const Qm3s = cd * areaM2 * Math.sqrt(2 * g * pressao);
-                vazaoLs = Qm3s * 1000; // Converte m³/s para litros/s
             } else {
-                // Lógica de Seção Plena
-                const diam = document.getElementById('diametro-dano').value;
-                if(diam === "50") vazaoLs = 1.013;
-                else if(diam === "75") vazaoLs = 2.942;
-                else if(diam === "100") vazaoLs = 6.269;
-                else vazaoLs = 0; // Preencher futuramente
+                // LÓGICA CORRIGIDA: SEÇÃO PLENA
+                // Puxa o diâmetro direto da tabela da rede
+                const diamRedeMm = parseFloat(document.getElementById('diametro-dano').value) || 0;
+                const raioM = (diamRedeMm / 1000) / 2; // Rede é inserida em mm
+                areaM2 = Math.PI * Math.pow(raioM, 2);
+                
+                // Coeficiente de descarga para tubo rompido (Borda/Tubo curto livre)
+                cd = 0.82; 
             }
+
+            // Aplica a equação de Torricelli para orifícios/bocais
+            const Qm3s = cd * areaM2 * Math.sqrt(2 * g * pressao);
+            vazaoLs = Qm3s * 1000; 
+
             document.getElementById('calc-vazao').innerText = vazaoLs.toFixed(3);
 
-            // Calcula Volume e Total
             const volM3 = (vazaoLs * segundos) / 1000;
             document.getElementById('calc-vol').innerText = volM3.toFixed(2);
 
