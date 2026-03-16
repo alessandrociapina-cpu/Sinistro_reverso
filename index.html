@@ -23,7 +23,7 @@
 
         body {
             font-family: Tahoma, sans-serif;
-            font-size: 9pt; /* Reduzido para ficar mais limpo e caber melhor */
+            font-size: 9pt; 
             color: var(--text-black);
             margin: 20px auto;
             max-width: 210mm;
@@ -102,7 +102,7 @@
         .totais-box .row { justify-content: space-between; margin-bottom: 4px; font-weight: bold; font-size: 9.5pt; }
         .total-final-row { 
             font-size: 12pt; font-weight: bold; color: var(--sabesp-blue); margin-top: 8px; padding-top: 8px; 
-            border-top: 2px solid var(--sabesp-blue); /* Linha Contínua */
+            border-top: 2px solid var(--sabesp-blue);
         }
 
         .assinaturas { display: flex; justify-content: space-around; text-align: center; margin-top: 25px; margin-bottom: 10px; width: 100%; page-break-inside: avoid; }
@@ -179,15 +179,15 @@
 
     <div class="container">
         <div class="version-wrapper no-print">
-            <div class="version-badge">v2.4 ℹ️</div>
+            <div class="version-badge">v2.5 ℹ️</div>
             <div class="changelog-box">
                 <h4>Últimas Atualizações</h4>
                 <ul>
-                    <li><strong>v2.4:</strong> Sistema Inteligente de Linhas (Remove vazias automaticamente); Linha do total contínua.</li>
+                    <li><strong>v2.5:</strong> Correção do bug de plural na inserção de novas linhas de materiais.</li>
+                    <li><strong>v2.4:</strong> Sistema Inteligente de Linhas; Linha do total contínua.</li>
                     <li><strong>v2.3:</strong> Salvar/Carregar projeto (.json); Auto-update em Cache.</li>
                     <li><strong>v2.2:</strong> Ajuste de CSS da tabela (overflow) para correção da busca suspensa.</li>
                     <li><strong>v2.1:</strong> Repetição fixa de cabeçalho/rodapé na impressão.</li>
-                    <li><strong>v2.0:</strong> Layout responsivo adaptado para folha A4 e busca customizada anti-acentos.</li>
                 </ul>
             </div>
         </div>
@@ -506,7 +506,7 @@
 
     <script>
         // === SISTEMA DE AUTO-UPDATE DE VERSÃO ===
-        const VERSAO_APP = "2.4";
+        const VERSAO_APP = "2.5";
         if (localStorage.getItem("versao_planilha_sabesp") !== VERSAO_APP) {
             if ('caches' in window) {
                 caches.keys().then(names => { names.forEach(name => caches.delete(name)); });
@@ -531,8 +531,8 @@
         window.onload = () => {
             try {
                 inicializarBases();
-                gerarLinhasTabela('tabela-servicos', 1, 'servico'); // Começa com 1 linha dinâmica
-                gerarLinhasTabela('tabela-materiais', 1, 'material'); // Começa com 1 linha dinâmica
+                gerarLinhasTabela('tabela-servicos', 1, 'servico'); 
+                gerarLinhasTabela('tabela-materiais', 1, 'material'); 
                 tratarSecaoVazamento(); 
                 tratarFormatoDano();
             } catch(e) { console.error("Erro na inicialização:", e); }
@@ -558,9 +558,13 @@
             }
         });
 
-        // === NOVO SISTEMA DE LINHAS DINÂMICAS ===
+        // === SISTEMA DE LINHAS DINÂMICAS ===
         function atualizarLinhas(tipo) {
-            const tabela = document.getElementById(`tabela-${tipo}s`);
+            // CORREÇÃO DA PLURALIZAÇÃO ("material" -> "materiais")
+            const tabelaId = tipo === 'servico' ? 'tabela-servicos' : 'tabela-materiais';
+            const tabela = document.getElementById(tabelaId);
+            if(!tabela) return;
+
             const linhas = Array.from(tabela.querySelectorAll('tr'));
             let vazias = [];
             
@@ -570,18 +574,18 @@
                     vazias.push(tr);
                 } else if (input) {
                     tr.style.display = '';
+                    tr.classList.remove('hide-on-print');
                 }
             });
 
             if (vazias.length === 0) {
-                gerarLinhasTabela(`tabela-${tipo}s`, 1, tipo);
+                gerarLinhasTabelaAux(tabelaId, 1, tipo);
                 return; 
             }
 
             const ultimaVazia = vazias[vazias.length - 1];
-            ultimaVazia.style.display = ''; // Mantém sempre a última vazia para digitar
+            ultimaVazia.style.display = ''; 
 
-            // Esconde todas as outras vazias, EXCETO a que estiver focada no momento
             for (let i = 0; i < vazias.length - 1; i++) {
                 const tr = vazias[i];
                 const input = tr.querySelector('.desc-input');
@@ -590,9 +594,38 @@
                     tr.style.display = '';
                 } else {
                     tr.style.display = 'none';
-                    tr.classList.add('hide-on-print'); // Marca para a impressão não ler
+                    tr.classList.add('hide-on-print'); 
                 }
             }
+        }
+
+        function gerarLinhasTabelaAux(tabelaId, qtd, tipo) {
+            const tabela = document.getElementById(tabelaId);
+            for (let i = 0; i < qtd; i++) {
+                const tr = document.createElement('tr');
+                tr.innerHTML = `
+                    <td style="position: relative; padding: 0; overflow: visible;">
+                        <input type="text" class="desc-input" autocomplete="off" 
+                            onkeyup="mostrarSugestoes(this, '${tipo}')" 
+                            oninput="mostrarSugestoes(this, '${tipo}'); atualizarLinhas('${tipo}');" 
+                            onfocus="mostrarSugestoes(this, '${tipo}')" 
+                            onblur="setTimeout(() => atualizarLinhas('${tipo}'), 200)"
+                            style="padding: 4px;" placeholder="Digite para buscar...">
+                        <div class="autocomplete-list"></div>
+                    </td>
+                    <td style="padding: 0;"><input type="text" class="num-${tipo}" readonly style="text-align: center; color: var(--text-black); font-weight: bold; padding: 4px;"></td>
+                    <td style="padding: 0;"><input type="text" class="unid-${tipo}" readonly style="text-align: center; padding: 4px;"></td>
+                    <td style="padding: 0;"><input type="number" class="qtd-${tipo}" oninput="calcSubtotalLinha(this, '${tipo}')" style="padding: 4px;"></td>
+                    <td style="padding: 0;"><input type="number" class="val-${tipo}" readonly style="padding: 4px;"></td>
+                    <td style="padding: 0;"><input type="text" class="sub-${tipo}" readonly value="0.00" style="text-align: right; font-weight: bold; color: var(--text-black); padding: 4px;"></td>
+                `;
+                tabela.appendChild(tr);
+            }
+        }
+
+        function gerarLinhasTabela(tabelaId, qtd, tipo) {
+            gerarLinhasTabelaAux(tabelaId, qtd, tipo);
+            atualizarLinhas(tipo);
         }
 
         window.addEventListener('beforeprint', function() {
@@ -684,31 +717,6 @@
             atualizarLinhas(tipo);
         }
 
-        function gerarLinhasTabela(tabelaId, qtd, tipo) {
-            const tabela = document.getElementById(tabelaId);
-            for (let i = 0; i < qtd; i++) {
-                const tr = document.createElement('tr');
-                tr.innerHTML = `
-                    <td style="position: relative; padding: 0; overflow: visible;">
-                        <input type="text" class="desc-input" autocomplete="off" 
-                            onkeyup="mostrarSugestoes(this, '${tipo}')" 
-                            oninput="mostrarSugestoes(this, '${tipo}'); atualizarLinhas('${tipo}');" 
-                            onfocus="mostrarSugestoes(this, '${tipo}')" 
-                            onblur="setTimeout(() => atualizarLinhas('${tipo}'), 200)"
-                            style="padding: 4px;" placeholder="Digite para buscar...">
-                        <div class="autocomplete-list"></div>
-                    </td>
-                    <td style="padding: 0;"><input type="text" class="num-${tipo}" readonly style="text-align: center; color: var(--text-black); font-weight: bold; padding: 4px;"></td>
-                    <td style="padding: 0;"><input type="text" class="unid-${tipo}" readonly style="text-align: center; padding: 4px;"></td>
-                    <td style="padding: 0;"><input type="number" class="qtd-${tipo}" oninput="calcSubtotalLinha(this, '${tipo}')" style="padding: 4px;"></td>
-                    <td style="padding: 0;"><input type="number" class="val-${tipo}" readonly style="padding: 4px;"></td>
-                    <td style="padding: 0;"><input type="text" class="sub-${tipo}" readonly value="0.00" style="text-align: right; font-weight: bold; color: var(--text-black); padding: 4px;"></td>
-                `;
-                tabela.appendChild(tr);
-            }
-            atualizarLinhas(tipo);
-        }
-
         // === SALVAR E CARREGAR PROJETO ===
         function salvarProjeto() {
             const projeto = {
@@ -761,7 +769,6 @@
 
                     tratarUnidade(); tratarDano(); tratarDropdown('material-dano'); tratarDropdown('diametro-dano'); tratarSecaoVazamento(); tratarFormatoDano();
 
-                    // Limpa e recria com base no arquivo carregado
                     document.getElementById('tabela-servicos').innerHTML = '';
                     document.getElementById('tabela-materiais').innerHTML = '';
                     
@@ -802,7 +809,7 @@
             reader.readAsText(file);
         }
 
-        // =================================== Outras Funções Auxiliares ===================================
+        // =================================== Outras Funções ===================================
         function calcSubtotalLinha(inputQtd, tipo) {
             const tr = inputQtd.closest('tr');
             const qtd = parseFloat(inputQtd.value) || 0;
