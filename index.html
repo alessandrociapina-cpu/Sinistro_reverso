@@ -21,48 +21,57 @@
 
         *, *::before, *::after { box-sizing: border-box; }
 
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            background-color: #e9ecef;
+        }
+
         body {
             font-family: Tahoma, sans-serif;
             font-size: 9.5pt; 
             color: var(--text-black);
-            margin: 20px auto;
-            max-width: 210mm;
-            background-color: #e9ecef;
             text-align: justify;
         }
 
+        /* O Container simula a folha A4 com Flexbox para empurrar o rodapé */
         .container {
             background-color: white;
-            padding: 20px 30px;
+            padding: 15px 30px;
+            margin: 20px auto;
             box-shadow: 0 4px 15px rgba(0,0,0,0.1);
             border-radius: 8px;
             width: 100%;
-            max-width: 100%;
+            max-width: 210mm;
+            min-height: 275mm;
+            display: flex;
+            flex-direction: column;
         }
 
-        table.print-structure { width: 100%; border: none; border-collapse: collapse; }
-        table.print-structure > thead > tr > td, 
-        table.print-structure > tbody > tr > td, 
-        table.print-structure > tfoot > tr > td { border: none; padding: 0; vertical-align: top; }
+        /* Envolve todo o conteúdo que não é o rodapé */
+        .content-wrapper {
+            flex: 1 0 auto; /* Cresce e empurra o rodapé para baixo */
+            display: flex;
+            flex-direction: column;
+        }
 
         .header-grid {
             display: flex; justify-content: space-between; align-items: flex-start;
-            border-bottom: 2px solid var(--sabesp-blue); padding-bottom: 10px; margin-bottom: 15px; width: 100%;
+            border-bottom: 2px solid var(--sabesp-blue); padding-bottom: 6px; margin-bottom: 10px; width: 100%;
         }
         .titles { flex: 1; text-align: center; padding-right: 20px; }
-        .linha1 { font-size: 7pt; font-weight: bold; color: var(--sabesp-blue); text-transform: uppercase; margin-bottom: 4px; }
+        .linha1 { font-size: 7pt; font-weight: bold; color: var(--sabesp-blue); text-transform: uppercase; margin-bottom: 2px; }
         .linha2 { font-size: 14pt; font-weight: bold; color: var(--sabesp-blue); text-transform: uppercase; line-height: 1.1; }
         .logo-box { text-align: right; flex-shrink: 0; }
         .logo-placeholder { max-height: 65px; max-width: 150px; object-fit: contain; }
 
-        /* === ÁREA DE IDENTIFICAÇÃO === */
+        /* === ÁREA DE IDENTIFICAÇÃO (Alinhamento Preciso) === */
         .ident-row { display: flex; align-items: center; margin-bottom: 4px; width: 100%; }
-        .ident-row label { width: 140px; font-size: 9.5pt; font-weight: bold; color: var(--text-black); flex-shrink: 0; text-align: left; }
+        .ident-row label { width: 125px; font-size: 9.5pt; font-weight: bold; color: var(--text-black); flex-shrink: 0; text-align: left; }
         .ident-row input[type="text"], .ident-row select { flex: 1; min-width: 0; font-size: 9.5pt; padding: 4px 6px; }
         .ident-row .label-n { width: auto; margin-left: 15px; margin-right: 5px; }
 
-        .row { display: flex; align-items: center; flex-wrap: wrap; gap: 8px; margin-bottom: 6px; width: 100%; }
-        
         input, select {
             padding: 3px 5px; border: 1px solid var(--border-color); border-radius: 4px;
             font-family: Tahoma, sans-serif; font-size: 9.5pt; color: var(--text-black); width: 100%;
@@ -75,7 +84,7 @@
 
         /* === TABELAS === */
         table.data-table {
-            width: 100%; table-layout: fixed; border-collapse: collapse; margin-bottom: 12px; margin-top: 5px;
+            width: 100%; table-layout: fixed; border-collapse: collapse; margin-bottom: 8px; margin-top: 4px;
             font-size: 8.5pt; word-wrap: break-word; border: 1px solid var(--border-color);
         }
         table.data-table th, table.data-table td { border: 1px solid var(--border-color); padding: 3px; text-align: left; overflow: visible; }
@@ -97,23 +106,32 @@
         .autocomplete-list div { padding: 6px 10px; cursor: pointer; border-bottom: 1px solid #eee; font-size: 8.5pt; color: #333; }
         .autocomplete-list div:hover { background-color: var(--sabesp-blue); color: white; }
 
+        /* Bloquinhos de Água Perdida para Alinhamento Vertical */
+        .agua-block { display: flex; flex-direction: column; justify-content: flex-end; }
+        .agua-block label { margin-bottom: 3px; font-size: 8.5pt; font-weight: bold; }
+        .agua-block input, .agua-block select { height: 26px; }
+
         .totais-box {
-            border: 2px solid var(--sabesp-blue); border-radius: 6px; padding: 8px 15px;
-            background-color: #fafafa; margin-top: 5px; width: 100%;
+            border: 2px solid var(--sabesp-blue); border-radius: 6px; padding: 6px 15px;
+            background-color: #fafafa; margin-top: 4px; width: 100%;
         }
-        .totais-box .row { justify-content: space-between; margin-bottom: 4px; font-weight: bold; font-size: 9.5pt; }
+        .totais-box .row { display: flex; justify-content: space-between; margin-bottom: 2px; font-weight: bold; font-size: 9.5pt; }
         .total-final-row { 
-            font-size: 12pt; font-weight: bold; color: var(--sabesp-blue); margin-top: 8px; padding-top: 8px; 
+            font-size: 12pt; font-weight: bold; color: var(--sabesp-blue); margin-top: 6px; padding-top: 6px; 
             border-top: 2px solid var(--sabesp-blue); 
         }
 
-        .assinaturas { display: flex; justify-content: space-around; text-align: center; margin-top: 20px; margin-bottom: 5px; width: 100%; page-break-inside: avoid; }
+        .assinaturas { display: flex; justify-content: space-around; text-align: center; margin-top: 15px; width: 100%; page-break-inside: avoid; }
         .assinatura-box { width: 40%; text-align: left; }
-        .assinatura-label { font-size: 7pt; font-weight: normal; margin-bottom: 25px; color: var(--text-black); }
+        .assinatura-label { font-size: 7pt; font-weight: normal; margin-bottom: 20px; color: var(--text-black); }
         .linha-assinatura { border-top: 1px solid var(--text-black); width: 100%; margin-bottom: 3px; }
 
-        /* Rodapé Mestre */
-        .rodape-container { margin-top: 15px; border-top: 1.5px solid var(--sabesp-blue); padding-top: 8px; width: 100%; }
+        /* Rodapé no final empurrado pelo Flexbox */
+        .rodape-container { 
+            margin-top: auto; /* Empurra pro fundo do .container */
+            border-top: 1.5px solid var(--sabesp-blue); 
+            padding-top: 8px; width: 100%; flex-shrink: 0;
+        }
         .rodape-texto, .rodape-texto div, .rodape-texto span { font-weight: bold; font-size: 8pt; color: var(--sabesp-blue); text-align: left; line-height: 1.2; }
 
         .action-menu { display: flex; justify-content: center; gap: 10px; margin-bottom: 15px; flex-wrap: wrap; }
@@ -139,38 +157,39 @@
         .changelog-box li { margin-bottom: 4px; }
 
         /* === OTIMIZAÇÃO PARA IMPRESSÃO 1 PÁGINA === */
-        @page { size: A4 portrait; margin: 8mm 8mm 8mm 8mm; } 
+        @page { size: A4 portrait; margin: 10mm; } 
         
         @media print {
-            body { margin: 0; padding: 0; background-color: white; color: #000; max-width: 100%; width: 100%; }
-            .container { box-shadow: none; padding: 0; width: 100%; max-width: 100%; border: none; margin: 0; }
+            html, body { height: 100%; margin: 0; padding: 0; background-color: white; }
+            .container { 
+                box-shadow: none; padding: 0; width: 100%; max-width: 100%; border: none; margin: 0; 
+                min-height: 100%; /* Força a ocupar exatamente 1 página */
+            }
             .no-print, .hide-on-print, .autocomplete-list, .action-menu, .version-wrapper { display: none !important; }
-            
-            table.print-structure > thead { display: table-header-group; }
-            table.print-structure > tfoot { display: table-footer-group; }
 
             .linha1, .linha2, th.section-header, .subtitle, .rodape-texto, .rodape-texto div, .rodape-texto span, .total-final-row { 
                 color: var(--sabesp-blue) !important; -webkit-print-color-adjust: exact; print-color-adjust: exact; 
             }
-            .header-grid { border-bottom: 2px solid var(--sabesp-blue) !important; padding-bottom: 4px; margin-bottom: 6px; width: 100%; }
-            .totais-box { border: 2px solid var(--sabesp-blue) !important; background: transparent !important; padding: 6px 10px; margin-top: 0; }
+            .header-grid { border-bottom: 2px solid var(--sabesp-blue) !important; padding-bottom: 4px; margin-bottom: 6px; }
+            .totais-box { border: 2px solid var(--sabesp-blue) !important; background: transparent !important; }
             .total-final-row { border-top: 2px solid var(--sabesp-blue) !important; }
 
             input, select { border: none !important; background: transparent !important; padding: 0; margin: 0; appearance: none; -webkit-appearance: none; color: #000; }
             input::placeholder { color: transparent; }
             
-            table.data-table th { background-color: #f0f0f0 !important; -webkit-print-color-adjust: exact; print-color-adjust: exact; padding: 1px 2px; }
+            table.data-table th { background-color: #f0f0f0 !important; -webkit-print-color-adjust: exact; print-color-adjust: exact; padding: 2px; }
             table.data-table td { padding: 1px 2px; }
             
-            .ident-row { margin-bottom: 1px; }
-            table.data-table { margin-bottom: 4px; margin-top: 4px; font-size: 8pt; width: 100%; table-layout: fixed; }
-            th.section-header { padding: 2px 4px; font-size: 9pt; text-align: left !important; } 
-            table.data-table td input { font-size: 8pt; }
+            .ident-row { margin-bottom: 2px; }
+            table.data-table { margin-bottom: 4px; margin-top: 4px; font-size: 8.5pt; }
+            th.section-header { padding: 2px 4px; font-size: 9.5pt; text-align: left !important; } 
+            table.data-table td input { font-size: 8.5pt; }
             
             .assinaturas { margin-top: 10px; }
             .assinatura-label { margin-bottom: 15px; }
             
-            .rodape-container { border-top: 1.5px solid var(--sabesp-blue) !important; margin-top: 5px; padding-top: 4px; }
+            /* Rodapé é garantido no fundo da página pelo Flexbox do .container */
+            .rodape-container { border-top: 1.5px solid var(--sabesp-blue) !important; margin-top: auto; padding-top: 4px; }
         }
     </style>
 </head>
@@ -184,321 +203,305 @@
     </div>
 
     <div class="container">
-        <div class="version-wrapper no-print">
-            <div class="version-badge">v3.0 ℹ️</div>
-            <div class="changelog-box">
-                <h4>Últimas Atualizações</h4>
-                <ul>
-                    <li><strong>v3.0:</strong> Pressão agrupada junto às dimensões de furo; Rodapé 100% em negrito restaurado.</li>
-                    <li><strong>v2.9:</strong> Redução de espaçamentos para forçar em 1 página; Alinhamento absoluto de inputs.</li>
-                    <li><strong>v2.8:</strong> Fim do dropdown na Unidade; Alinhamento do nº à direita.</li>
-                    <li><strong>v2.4:</strong> Sistema Inteligente de Linhas (Remove vazias automaticamente).</li>
-                </ul>
+        <div class="content-wrapper">
+            
+            <div class="version-wrapper no-print">
+                <div class="version-badge">v3.1 ℹ️</div>
+                <div class="changelog-box">
+                    <h4>Últimas Atualizações</h4>
+                    <ul>
+                        <li><strong>v3.1:</strong> Alinhamento perfeito do nº à margem direita; Seção Água Perdida alinhada e agrupada; Rodapé ancorado via Flexbox absoluto; Remoção de espaçamentos inúteis.</li>
+                        <li><strong>v3.0:</strong> Pressão agrupada junto às dimensões de furo; Rodapé 100% em negrito restaurado.</li>
+                        <li><strong>v2.8:</strong> Fim do dropdown na Unidade.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="header-grid">
+                <div></div>
+                <div class="titles">
+                    <div class="linha1">COMPANHIA DE SANEAMENTO BÁSICO DO ESTADO DE SÃO PAULO</div>
+                    <div class="linha2">Recuperação de Danos Causados por Outras Concessionárias ou Terceiros</div>
+                </div>
+                <div class="logo-box">
+                    <img src="logosabesp.png" class="logo-placeholder" alt="Logo Sabesp" onerror="this.style.display='none'">
+                </div>
+            </div>
+
+            <div class="ident-row">
+                <label>Unidade:</label>
+                <input type="text" id="unidade" value="Divisão de Manutenção e Serviços Operacionais de São José dos Campos - OVMS" oninput="tratarUnidade()">
+                <label class="label-n">nº:</label>
+                <input type="text" id="sef" placeholder="XXX/XX">
+            </div>
+
+            <div class="ident-row">
+                <label>Endereço:</label>
+                <input type="text" id="endereco-local" placeholder="Digite o endereço completo">
+            </div>
+
+            <div class="ident-row">
+                <label>Causador dos Danos:</label>
+                <select id="causador">
+                    <option value="Prefeitura Municipal de São José dos Campos">Prefeitura Municipal de São José dos Campos</option>
+                    <option value="EDP Energia S.A.">EDP Energia S.A.</option>
+                    <option value="COMGAS">COMGAS</option>
+                </select>
+            </div>
+
+            <table class="data-table">
+                <colgroup>
+                    <col style="width: 20%;"><col style="width: 20%;"><col style="width: 15%;">
+                    <col style="width: 15%;"><col style="width: 15%;"><col style="width: 15%;">
+                </colgroup>
+                <thead>
+                    <tr><th colspan="6" class="section-header">Dados da Ocorrência</th></tr>
+                    <tr>
+                        <th>Tipo do Dano</th><th>Material</th><th>Diâm. (mm)</th>
+                        <th>OS</th><th>Data</th><th>Hora</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <select id="tipo-dano" onchange="tratarDano()" style="border:none; font-size: 8.5pt;">
+                                <option value="Reparo de Rede de Água">Reparo de Rede de Água</option>
+                                <option value="Reparo de Ramal de Água">Reparo de Ramal de Água</option>
+                                <option value="Reparo de Rede de Esgoto">Reparo de Rede de Esgoto</option>
+                                <option value="Reparo de Ramal de Esgoto">Reparo de Ramal de Esgoto</option>
+                                <option value="Outros">Outros</option>
+                            </select>
+                            <input type="text" id="tipo-dano-outros" class="hidden" placeholder="Especificar">
+                        </td>
+                        <td>
+                            <select id="material-dano" onchange="tratarDropdown('material-dano')" style="border:none; font-size: 8.5pt;">
+                                <option value="PVC">PVC</option><option value="PEAD">PEAD</option><option value="Fofo">Fofo</option>
+                                <option value="Defofo">Defofo</option><option value="Fibra">Fibra</option><option value="Concreto">Concreto Arm.</option>
+                                <option value="Cerâmica">Manilha Cerâm.</option><option value="Outros">Outros</option>
+                            </select>
+                            <input type="text" id="material-dano-outros" class="hidden" placeholder="Esp.">
+                        </td>
+                        <td>
+                            <select id="diametro-dano" onchange="tratarDropdown('diametro-dano')" style="text-align: center; border:none; font-size: 8.5pt;">
+                                <option value="20">20</option><option value="25">25</option><option value="32">32</option><option value="50">50</option>
+                                <option value="75">75</option><option value="100">100</option><option value="150">150</option><option value="200">200</option>
+                                <option value="250">250</option><option value="300">300</option><option value="350">350</option><option value="400">400</option>
+                                <option value="Outros">Outros</option>
+                            </select>
+                            <input type="text" id="diametro-dano-outros" class="hidden" placeholder="Esp.">
+                        </td>
+                        <td><input type="text" id="os" placeholder="Digite a OS..." style="text-align: center;"></td>
+                        <td><input type="date" id="data-dano" style="padding: 0;"></td>
+                        <td><input type="time" id="hora-dano" style="padding: 0;"></td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <table id="secao-agua" class="data-table">
+                <colgroup>
+                    <col style="width: 14%;"><col style="width: 11%;"><col style="width: 14%;">
+                    <col style="width: 11%;"><col style="width: 9%;"><col style="width: 9%;">
+                    <col style="width: 9%;"><col style="width: 9%;"><col style="width: 14%;">
+                </colgroup>
+                <thead>
+                    <tr><th colspan="9" class="section-header">1 - Água Perdida</th></tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td colspan="9" style="padding: 8px 10px; border-bottom: none; background-color: #fff;">
+                            <div style="display: flex; align-items: flex-end; gap: 15px; width: 100%;">
+                                
+                                <div class="agua-block">
+                                    <label>Seção de Vazamento:</label>
+                                    <select id="tipo-secao" onchange="tratarSecaoVazamento()" style="width: 140px;">
+                                        <option value="Área do Furo">Área do Furo (Localizada)</option>
+                                        <option value="Seção Plena">Seção Plena (Tubo Rompido)</option>
+                                    </select>
+                                </div>
+                                
+                                <div id="box-dimensoes-furo" style="display: flex; align-items: flex-end; gap: 8px;">
+                                    <div class="agua-block">
+                                        <label>Formato do Dano:</label>
+                                        <select id="formato-dano" onchange="tratarFormatoDano()" style="width: 150px;">
+                                            <option value="circular">Furo Circular (Cd=0.61)</option>
+                                            <option value="irregular">Rupt. Irregular (Cd=0.55)</option>
+                                            <option value="longitudinal">Fissura Long. (Cd=0.80)</option>
+                                            <option value="transversal">Fissura Transv. (Cd=0.58)</option>
+                                        </select>
+                                    </div>
+                                    <div id="box-diametro" class="agua-block">
+                                        <label>Diâm.(cm):</label>
+                                        <input type="number" id="diametro-furo" value="2" step="0.1" style="width: 50px;" oninput="calcularAgua()">
+                                    </div>
+                                    <div id="box-retangulo" style="display: none; align-items: flex-end; gap: 8px;">
+                                        <div class="agua-block"><label>Comp(cm):</label><input type="number" id="comp-furo" value="5" step="0.1" style="width: 50px;" oninput="calcularAgua()"></div>
+                                        <div class="agua-block"><label>Larg(cm):</label><input type="number" id="larg-furo" value="2" step="0.1" style="width: 50px;" oninput="calcularAgua()"></div>
+                                    </div>
+                                </div>
+
+                                <div class="agua-block">
+                                    <label>Pressão(mca):</label>
+                                    <input type="number" id="pressao" value="10" style="width: 60px;" oninput="calcularAgua()">
+                                </div>
+
+                                <div id="aviso-secao-plena" style="display: none; color: var(--sabesp-blue); font-style: italic; font-size: 8.5pt; max-width: 200px; padding-bottom: 4px;">
+                                    Vazão tabelada (despressurização).
+                                </div>
+                                
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th colspan="2">Início Ocorrência</th><th colspan="2">Fim Ocorrência</th>
+                        <th>Tempo(s)</th><th>Vazão(l/s)</th><th>Vol.(m³)</th><th>R$/m³</th><th>Total(R$)</th>
+                    </tr>
+                    <tr>
+                        <td><input type="date" id="data-ini" onchange="calcularAgua()" style="padding: 0;"></td>
+                        <td><input type="time" id="hora-ini" onchange="calcularAgua()" style="padding: 0;"></td>
+                        <td><input type="date" id="data-fim" onchange="calcularAgua()" style="padding: 0;"></td>
+                        <td><input type="time" id="hora-fim" onchange="calcularAgua()" style="padding: 0;"></td>
+                        <td style="text-align: center;"><span id="calc-segundos">0</span></td>
+                        <td style="text-align: center;"><span id="calc-vazao">0.00</span></td>
+                        <td style="text-align: center;"><span id="calc-vol">0.00</span></td>
+                        <td><input type="number" id="valor-m3" value="20.52" step="0.01" style="padding: 0;" oninput="calcularAgua()"></td>
+                        <td style="font-weight: bold; text-align: right; color: var(--text-black);"><span id="calc-total-agua">0.00</span></td>
+                    </tr>
+                    <tr>
+                        <td colspan="9" style="border-top: none; background-color: #fff;">
+                            <div style="display: flex; justify-content: flex-end; margin: 0;">
+                                <div class="subtitle">Subtotal 1 - Água Perdida: R$ <span id="subtotal-1">0.00</span></div>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <table class="data-table">
+                <colgroup>
+                    <col style="width: 45%;"><col style="width: 15%;"><col style="width: 8%;">
+                    <col style="width: 8%;"><col style="width: 12%;"><col style="width: 12%;">
+                </colgroup>
+                <thead>
+                    <tr><th colspan="6" class="section-header">2.1 - Serviço Executado</th></tr>
+                    <tr>
+                        <th>Descrição do Serviço</th><th>Nº Preço</th><th>Unid</th>
+                        <th>Qte</th><th>R$ Unitário</th><th>Sub Total</th>
+                    </tr>
+                </thead>
+                <tbody id="tabela-servicos"></tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="6" style="border-top: none; background-color: #fff; padding-bottom: 0;">
+                            <div style="display: flex; justify-content: flex-end; margin: 0;">
+                                <div class="subtitle">Subtotal Serviços: R$ <span id="subtotal-servicos">0.00</span></div>
+                            </div>
+                        </td>
+                    </tr>
+                </tfoot>
+            </table>
+
+            <table class="data-table">
+                <colgroup>
+                    <col style="width: 45%;"><col style="width: 15%;"><col style="width: 8%;">
+                    <col style="width: 8%;"><col style="width: 12%;"><col style="width: 12%;">
+                </colgroup>
+                <thead>
+                    <tr><th colspan="6" class="section-header">2.2 - Materiais</th></tr>
+                    <tr>
+                        <th>Descrição do Material</th><th>Nº Mat</th><th>Unid</th>
+                        <th>Qte</th><th>R$ Unitário</th><th>Sub Total</th>
+                    </tr>
+                </thead>
+                <tbody id="tabela-materiais"></tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="6" style="border-top: none; background-color: #fff; padding-bottom: 0;">
+                            <div style="display: flex; justify-content: flex-end; flex-direction: column; align-items: flex-end; margin: 0; gap: 2px;">
+                                <div class="subtitle" style="margin-top: 0;">Subtotal Materiais: R$ <span id="subtotal-materiais">0.00</span></div>
+                                <div class="subtitle" style="margin-top: 0;">Subtotal 2 (Serviços+Materiais): R$ <span id="subtotal-2">0.00</span></div>
+                            </div>
+                        </td>
+                    </tr>
+                </tfoot>
+            </table>
+
+            <table class="data-table">
+                <colgroup><col style="width: 75%;"><col style="width: 25%;"></colgroup>
+                <thead>
+                    <tr><th colspan="2" class="section-header">3 - Custos Operacionais e Administrativos</th></tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td style="padding: 6px 8px; font-weight: bold; background-color: #fff;">
+                            Equipes Técnicas + Administrativas + Despesas Indiretas (BDI)
+                        </td>
+                        <td style="text-align: right; padding: 6px 8px; font-weight: bold; background-color: #fff;">
+                            Taxa (%): <input type="number" id="taxa-bdi" value="28" style="width: 50px; display: inline-block; padding: 2px;" oninput="calcularGeral()">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" style="border-top: none; background-color: #fff; padding-bottom: 0;">
+                            <div style="display: flex; justify-content: flex-end; margin: 0;">
+                                <div class="subtitle">Subtotal Custos Indiretos: R$ <span id="subtotal-3">0.00</span></div>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div class="totais-box">
+                <div class="row"><span>1 - Água Perdida:</span> <span>R$ <span id="resumo-1">0.00</span></span></div>
+                <div class="row"><span>2 - Serviços e Materiais:</span> <span>R$ <span id="resumo-2">0.00</span></span></div>
+                <div class="row"><span>3 - Custos Operacionais (BDI):</span> <span>R$ <span id="resumo-3">0.00</span></span></div>
+                
+                <div class="total-final-row" style="display: flex; justify-content: space-between;">
+                    <span>TOTAL FINAL:</span> <span>R$ <span id="total-final">0.00</span></span>
+                </div>
+                <div style="display: flex; justify-content: flex-end; font-size: 8.5pt; color: #666; margin-top: 2px;">
+                    Equivalente em UFESPs: <span id="total-ufesp" style="margin-left: 5px; font-weight: bold; color: var(--text-black);">0.00</span>
+                </div>
+            </div>
+
+            <div class="assinaturas">
+                <div class="assinatura-box">
+                    <div class="assinatura-label">Elaborado por:</div>
+                    <div class="linha-assinatura"></div>
+                    <input type="text" id="ass-nome-1" placeholder="Nome do Responsável" style="padding: 0; margin-bottom: 2px; border:none; background:transparent; font-size: 9.5pt;">
+                    <select id="ass-cargo-1" style="padding: 0; border:none; background:transparent; font-size: 9.5pt; color: #555;">
+                        <option>Engenheiro Civil</option><option>Engenheiro</option>
+                        <option>Técnico em Saneamento</option><option>Coordenador</option><option>Outro</option>
+                    </select>
+                </div>
+                <div class="assinatura-box">
+                    <div class="assinatura-label">Aprovado por:</div>
+                    <div class="linha-assinatura"></div>
+                    <input type="text" id="ass-nome-2" placeholder="Nome do Gerente/Superior" style="padding: 0; margin-bottom: 2px; border:none; background:transparent; font-size: 9.5pt;">
+                    <select id="ass-cargo-2" style="padding: 0; border:none; background:transparent; font-size: 9.5pt; color: #555;">
+                        <option>Engenheiro Civil</option><option>Engenheiro</option>
+                        <option>Gerente de Divisão</option><option>Coordenador</option><option>Outro</option>
+                    </select>
+                </div>
+            </div>
+
+        </div> <div class="rodape-container">
+            <div class="rodape-texto">
+                Companhia de Saneamento Básico do Estado de São Paulo – Sabesp<br>
+                <span id="rodape-unidade-dep" contenteditable="true" style="display:inline-block; outline:none;">Divisão de Manutenção e Serviços Operacionais de São José dos Campos - OVMS</span><br>
+                <span id="rodape-endereco" contenteditable="true" style="display: inline-block; outline: none; min-width: 100%;">Rua Euclides Miragaia, 126, Centro - CEP 12.245-820 - São José dos Campos - SP</span><br>
+                <span>www.sabesp.com.br</span>
             </div>
         </div>
 
-        <table class="print-structure">
-            <thead>
-                <tr>
-                    <td>
-                        <div class="header-grid">
-                            <div></div>
-                            <div class="titles">
-                                <div class="linha1">COMPANHIA DE SANEAMENTO BÁSICO DO ESTADO DE SÃO PAULO</div>
-                                <div class="linha2">Recuperação de Danos Causados por Outras Concessionárias ou Terceiros</div>
-                            </div>
-                            <div class="logo-box">
-                                <img src="logosabesp.png" class="logo-placeholder" alt="Logo Sabesp" onerror="this.style.display='none'">
-                            </div>
-                        </div>
-                    </td>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>
-                        <div class="ident-row">
-                            <label>Unidade:</label>
-                            <input type="text" id="unidade" value="Divisão de Manutenção e Serviços Operacionais de São José dos Campos - OVMS" oninput="tratarUnidade()">
-                            
-                            <label class="label-n">nº:</label>
-                            <input type="text" id="sef" placeholder="XXX/XX" style="width: 100px;">
-                        </div>
+    </div>
 
-                        <div class="ident-row">
-                            <label>Endereço:</label>
-                            <input type="text" id="endereco-local" placeholder="Digite o endereço completo">
-                        </div>
-
-                        <div class="ident-row" style="margin-bottom: 10px;">
-                            <label>Causador dos Danos:</label>
-                            <select id="causador">
-                                <option value="Prefeitura Municipal de São José dos Campos">Prefeitura Municipal de São José dos Campos</option>
-                                <option value="EDP Energia S.A.">EDP Energia S.A.</option>
-                                <option value="COMGAS">COMGAS</option>
-                            </select>
-                        </div>
-
-                        <table class="data-table">
-                            <colgroup>
-                                <col style="width: 20%;"><col style="width: 20%;"><col style="width: 15%;">
-                                <col style="width: 15%;"><col style="width: 15%;"><col style="width: 15%;">
-                            </colgroup>
-                            <thead>
-                                <tr><th colspan="6" class="section-header">Dados da Ocorrência</th></tr>
-                                <tr>
-                                    <th>Tipo do Dano</th><th>Material</th><th>Diâm. (mm)</th>
-                                    <th>OS</th><th>Data</th><th>Hora</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>
-                                        <select id="tipo-dano" onchange="tratarDano()" style="border:none; font-size: 8.5pt;">
-                                            <option value="Reparo de Rede de Água">Reparo de Rede de Água</option>
-                                            <option value="Reparo de Ramal de Água">Reparo de Ramal de Água</option>
-                                            <option value="Reparo de Rede de Esgoto">Reparo de Rede de Esgoto</option>
-                                            <option value="Reparo de Ramal de Esgoto">Reparo de Ramal de Esgoto</option>
-                                            <option value="Outros">Outros</option>
-                                        </select>
-                                        <input type="text" id="tipo-dano-outros" class="hidden" placeholder="Especificar">
-                                    </td>
-                                    <td>
-                                        <select id="material-dano" onchange="tratarDropdown('material-dano')" style="border:none; font-size: 8.5pt;">
-                                            <option value="PVC">PVC</option><option value="PEAD">PEAD</option><option value="Fofo">Fofo</option>
-                                            <option value="Defofo">Defofo</option><option value="Fibra">Fibra</option><option value="Concreto">Concreto Arm.</option>
-                                            <option value="Cerâmica">Manilha Cerâm.</option><option value="Outros">Outros</option>
-                                        </select>
-                                        <input type="text" id="material-dano-outros" class="hidden" placeholder="Esp.">
-                                    </td>
-                                    <td>
-                                        <select id="diametro-dano" onchange="tratarDropdown('diametro-dano')" style="text-align: center; border:none; font-size: 8.5pt;">
-                                            <option value="20">20</option><option value="25">25</option><option value="32">32</option><option value="50">50</option>
-                                            <option value="75">75</option><option value="100">100</option><option value="150">150</option><option value="200">200</option>
-                                            <option value="250">250</option><option value="300">300</option><option value="350">350</option><option value="400">400</option>
-                                            <option value="Outros">Outros</option>
-                                        </select>
-                                        <input type="text" id="diametro-dano-outros" class="hidden" placeholder="Esp.">
-                                    </td>
-                                    <td><input type="text" id="os" placeholder="Digite a OS..." style="text-align: center;"></td>
-                                    <td><input type="date" id="data-dano" style="padding: 0;"></td>
-                                    <td><input type="time" id="hora-dano" style="padding: 0;"></td>
-                                </tr>
-                            </tbody>
-                        </table>
-
-                        <table id="secao-agua" class="data-table">
-                            <colgroup>
-                                <col style="width: 14%;"><col style="width: 11%;"><col style="width: 14%;">
-                                <col style="width: 11%;"><col style="width: 9%;"><col style="width: 9%;">
-                                <col style="width: 9%;"><col style="width: 9%;"><col style="width: 14%;">
-                            </colgroup>
-                            <thead>
-                                <tr><th colspan="9" class="section-header">1 - Água Perdida</th></tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td colspan="9" style="padding: 8px 10px; border-bottom: none; background-color: #fff;">
-                                        <div class="row" style="align-items: flex-end; justify-content: flex-start; margin: 0; gap: 15px;">
-                                            <div>
-                                                <label style="font-size: 8.5pt;">Seção de Vazamento:</label><br>
-                                                <select id="tipo-secao" onchange="tratarSecaoVazamento()" style="font-size: 8.5pt; width: 140px;">
-                                                    <option value="Área do Furo">Área do Furo (Localizada)</option>
-                                                    <option value="Seção Plena">Seção Plena (Tubo Rompido)</option>
-                                                </select>
-                                            </div>
-                                            
-                                            <div id="box-dimensoes-furo" class="row" style="width: auto; gap: 8px;">
-                                                <div>
-                                                    <label style="font-size: 8.5pt;">Formato do Dano:</label><br>
-                                                    <select id="formato-dano" onchange="tratarFormatoDano()" style="font-size: 8.5pt; width: 150px;">
-                                                        <option value="circular">Furo Circular (Cd=0.61)</option>
-                                                        <option value="irregular">Rupt. Irregular (Cd=0.55)</option>
-                                                        <option value="longitudinal">Fissura Long. (Cd=0.80)</option>
-                                                        <option value="transversal">Fissura Transv. (Cd=0.58)</option>
-                                                    </select>
-                                                </div>
-                                                <div id="box-diametro" style="display: block;">
-                                                    <label style="font-size: 8.5pt;">Diâm.(cm):</label><br>
-                                                    <input type="number" id="diametro-furo" value="2" step="0.1" style="width: 50px;" oninput="calcularAgua()">
-                                                </div>
-                                                <div id="box-retangulo" style="display: none; gap: 5px;">
-                                                    <div><label style="font-size: 8.5pt;">Comp(cm):</label><br><input type="number" id="comp-furo" value="5" step="0.1" style="width: 50px;" oninput="calcularAgua()"></div>
-                                                    <div><label style="font-size: 8.5pt;">Larg(cm):</label><br><input type="number" id="larg-furo" value="2" step="0.1" style="width: 50px;" oninput="calcularAgua()"></div>
-                                                </div>
-                                            </div>
-
-                                            <div>
-                                                <label style="font-size: 8.5pt;">Pressão(mca):</label><br>
-                                                <input type="number" id="pressao" value="10" style="width: 60px; font-size: 8.5pt;" oninput="calcularAgua()">
-                                            </div>
-
-                                            <div id="aviso-secao-plena" style="display: none; color: var(--sabesp-blue); font-style: italic; font-size: 8.5pt; max-width: 250px; line-height: 1.1; margin-bottom: 4px;">
-                                                Vazão tabelada (despressurização).
-                                            </div>
-                                        </div>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <th colspan="2">Início Ocorrência</th><th colspan="2">Fim Ocorrência</th>
-                                    <th>Tempo(s)</th><th>Vazão(l/s)</th><th>Vol.(m³)</th><th>R$/m³</th><th>Total(R$)</th>
-                                </tr>
-                                <tr>
-                                    <td><input type="date" id="data-ini" onchange="calcularAgua()" style="padding: 0;"></td>
-                                    <td><input type="time" id="hora-ini" onchange="calcularAgua()" style="padding: 0;"></td>
-                                    <td><input type="date" id="data-fim" onchange="calcularAgua()" style="padding: 0;"></td>
-                                    <td><input type="time" id="hora-fim" onchange="calcularAgua()" style="padding: 0;"></td>
-                                    <td style="text-align: center;"><span id="calc-segundos">0</span></td>
-                                    <td style="text-align: center;"><span id="calc-vazao">0.00</span></td>
-                                    <td style="text-align: center;"><span id="calc-vol">0.00</span></td>
-                                    <td><input type="number" id="valor-m3" value="20.52" step="0.01" style="padding: 0;" oninput="calcularAgua()"></td>
-                                    <td style="font-weight: bold; text-align: right; color: var(--text-black);"><span id="calc-total-agua">0.00</span></td>
-                                </tr>
-                                <tr>
-                                    <td colspan="9" style="border-top: none; background-color: #fff;">
-                                        <div class="row" style="justify-content: flex-end; margin: 0;">
-                                            <div class="subtitle">Subtotal 1 - Água Perdida: R$ <span id="subtotal-1">0.00</span></div>
-                                        </div>
-                                    </td>
-                                </tr>
-                            </tbody>
-                        </table>
-
-                        <table class="data-table">
-                            <colgroup>
-                                <col style="width: 45%;"><col style="width: 15%;"><col style="width: 8%;">
-                                <col style="width: 8%;"><col style="width: 12%;"><col style="width: 12%;">
-                            </colgroup>
-                            <thead>
-                                <tr><th colspan="6" class="section-header">2.1 - Serviço Executado</th></tr>
-                                <tr>
-                                    <th>Descrição do Serviço</th><th>Nº Preço</th><th>Unid</th>
-                                    <th>Qte</th><th>R$ Unitário</th><th>Sub Total</th>
-                                </tr>
-                            </thead>
-                            <tbody id="tabela-servicos"></tbody>
-                            <tfoot>
-                                <tr>
-                                    <td colspan="6" style="border-top: none; background-color: #fff; padding-bottom: 0;">
-                                        <div class="row" style="justify-content: flex-end; margin: 0;">
-                                            <div class="subtitle">Subtotal Serviços: R$ <span id="subtotal-servicos">0.00</span></div>
-                                        </div>
-                                    </td>
-                                </tr>
-                            </tfoot>
-                        </table>
-
-                        <table class="data-table">
-                            <colgroup>
-                                <col style="width: 45%;"><col style="width: 15%;"><col style="width: 8%;">
-                                <col style="width: 8%;"><col style="width: 12%;"><col style="width: 12%;">
-                            </colgroup>
-                            <thead>
-                                <tr><th colspan="6" class="section-header">2.2 - Materiais</th></tr>
-                                <tr>
-                                    <th>Descrição do Material</th><th>Nº Mat</th><th>Unid</th>
-                                    <th>Qte</th><th>R$ Unitário</th><th>Sub Total</th>
-                                </tr>
-                            </thead>
-                            <tbody id="tabela-materiais"></tbody>
-                            <tfoot>
-                                <tr>
-                                    <td colspan="6" style="border-top: none; background-color: #fff; padding-bottom: 0;">
-                                        <div class="row" style="justify-content: flex-end; flex-direction: column; align-items: flex-end; margin: 0; gap: 2px;">
-                                            <div class="subtitle" style="margin-top: 0;">Subtotal Materiais: R$ <span id="subtotal-materiais">0.00</span></div>
-                                            <div class="subtitle" style="margin-top: 0;">Subtotal 2 (Serviços+Materiais): R$ <span id="subtotal-2">0.00</span></div>
-                                        </div>
-                                    </td>
-                                </tr>
-                            </tfoot>
-                        </table>
-
-                        <table class="data-table">
-                            <colgroup><col style="width: 75%;"><col style="width: 25%;"></colgroup>
-                            <thead>
-                                <tr><th colspan="2" class="section-header">3 - Custos Operacionais e Administrativos</th></tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td style="padding: 8px; font-weight: bold; background-color: #fff;">
-                                        Equipes Técnicas + Administrativas + Despesas Indiretas (BDI)
-                                    </td>
-                                    <td style="text-align: right; padding: 8px; font-weight: bold; background-color: #fff;">
-                                        Taxa (%): <input type="number" id="taxa-bdi" value="28" style="width: 50px; display: inline-block; padding: 2px;" oninput="calcularGeral()">
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td colspan="2" style="border-top: none; background-color: #fff; padding-bottom: 0;">
-                                        <div class="row" style="justify-content: flex-end; margin: 0;">
-                                            <div class="subtitle">Subtotal Custos Indiretos: R$ <span id="subtotal-3">0.00</span></div>
-                                        </div>
-                                    </td>
-                                </tr>
-                            </tbody>
-                        </table>
-
-                        <div class="totais-box">
-                            <div class="row"><span>1 - Água Perdida:</span> <span>R$ <span id="resumo-1">0.00</span></span></div>
-                            <div class="row"><span>2 - Serviços e Materiais:</span> <span>R$ <span id="resumo-2">0.00</span></span></div>
-                            <div class="row"><span>3 - Custos Operacionais (BDI):</span> <span>R$ <span id="resumo-3">0.00</span></span></div>
-                            
-                            <div class="row total-final-row">
-                                <span>TOTAL FINAL:</span> <span>R$ <span id="total-final">0.00</span></span>
-                            </div>
-                            <div class="row" style="justify-content: flex-end; font-size: 8.5pt; color: #666; margin-top: 2px;">
-                                Equivalente em UFESPs: <span id="total-ufesp" style="margin-left: 5px; font-weight: bold; color: var(--text-black);">0.00</span>
-                            </div>
-                        </div>
-
-                        <div class="assinaturas">
-                            <div class="assinatura-box">
-                                <div class="assinatura-label">Elaborado por:</div>
-                                <div class="linha-assinatura"></div>
-                                <input type="text" id="ass-nome-1" placeholder="Nome do Responsável" style="padding: 0; margin-bottom: 2px; border:none; background:transparent; font-size: 9.5pt;">
-                                <select id="ass-cargo-1" style="padding: 0; border:none; background:transparent; font-size: 9.5pt; color: #555;">
-                                    <option>Engenheiro Civil</option><option>Engenheiro</option>
-                                    <option>Técnico em Saneamento</option><option>Coordenador</option><option>Outro</option>
-                                </select>
-                            </div>
-                            <div class="assinatura-box">
-                                <div class="assinatura-label">Aprovado por:</div>
-                                <div class="linha-assinatura"></div>
-                                <input type="text" id="ass-nome-2" placeholder="Nome do Gerente/Superior" style="padding: 0; margin-bottom: 2px; border:none; background:transparent; font-size: 9.5pt;">
-                                <select id="ass-cargo-2" style="padding: 0; border:none; background:transparent; font-size: 9.5pt; color: #555;">
-                                    <option>Engenheiro Civil</option><option>Engenheiro</option>
-                                    <option>Gerente de Divisão</option><option>Coordenador</option><option>Outro</option>
-                                </select>
-                            </div>
-                        </div>
-                        
-                    </td>
-                </tr>
-            </tbody>
-            <tfoot>
-                <tr>
-                    <td>
-                        <div class="rodape-container">
-                            <div class="rodape-texto">
-                                Companhia de Saneamento Básico do Estado de São Paulo – Sabesp<br>
-                                <span id="rodape-unidade-dep" contenteditable="true" style="display:inline-block; outline:none;">Divisão de Manutenção e Serviços Operacionais de São José dos Campos - OVMS</span><br>
-                                <span id="rodape-endereco" contenteditable="true" style="display: inline-block; outline: none; min-width: 100%;">Rua Euclides Miragaia, 126, Centro - CEP 12.245-820 - São José dos Campos - SP</span><br>
-                                <span>www.sabesp.com.br</span>
-                            </div>
-                        </div>
-                    </td>
-                </tr>
-            </tfoot>
-        </table>
-
-        <div class="action-menu no-print" style="margin-top: 20px;">
-            <button class="btn btn-salvar" onclick="salvarProjeto()">💾 Salvar Projeto</button>
-            <button class="btn btn-carregar" onclick="document.getElementById('input-arquivo').click()">📂 Carregar Projeto</button>
-            <button class="btn" onclick="window.print()">🖨️ Imprimir / PDF</button>
-        </div>
+    <div class="action-menu no-print" style="margin-top: 10px;">
+        <button class="btn btn-salvar" onclick="salvarProjeto()">💾 Salvar Projeto</button>
+        <button class="btn btn-carregar" onclick="document.getElementById('input-arquivo').click()">📂 Carregar Projeto</button>
+        <button class="btn" onclick="window.print()">🖨️ Imprimir / PDF</button>
     </div>
 
     <script>
-        const VERSAO_APP = "3.0";
+        const VERSAO_APP = "3.1";
         if (localStorage.getItem("versao_planilha_sabesp") !== VERSAO_APP) {
             if ('caches' in window) {
                 caches.keys().then(names => { names.forEach(name => caches.delete(name)); });
