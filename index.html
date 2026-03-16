@@ -7,7 +7,6 @@
     
     <link rel="manifest" href="manifest.json">
     <meta name="theme-color" content="#12D0FF">
-    <link rel="apple-touch-icon" href="icon-192.png">
 
     <script src="servicos.js"></script>
     <script src="materiais.js"></script>
@@ -25,7 +24,7 @@
 
         body {
             font-family: Tahoma, sans-serif;
-            font-size: 10pt; /* Fonte base ligeiramente reduzida */
+            font-size: 10pt; 
             color: var(--text-black);
             margin: 20px auto;
             max-width: 210mm;
@@ -91,7 +90,7 @@
         th { background-color: var(--bg-color); font-weight: bold; text-align: center; }
         
         th.section-header {
-            font-size: 11pt; /* Reduzido de 14pt para 11pt */
+            font-size: 11pt; 
             color: var(--sabesp-blue);
             text-transform: uppercase;
             text-align: left;
@@ -125,7 +124,7 @@
             color: var(--sabesp-blue); 
             margin-top: 8px; 
             padding-top: 8px; 
-            border-top: 2px solid var(--sabesp-blue); /* Alterado de dashed para solid */
+            border-top: 2px solid var(--sabesp-blue); 
         }
 
         .assinaturas { display: flex; justify-content: space-around; text-align: center; margin-top: 25px; width: 100%; }
@@ -146,7 +145,7 @@
         @page { size: A4 portrait; margin: 10mm 8mm 15mm 8mm; } 
         
         @media print {
-            body { margin: 0; padding: 0; background-color: white; color: #000; max-width: 100%; width: 100%; }
+            body { margin: 0; padding: 0; padding-bottom: 25mm; background-color: white; color: #000; max-width: 100%; width: 100%; }
             .container { box-shadow: none; padding: 0; width: 100%; max-width: 100%; border: none; margin: 0; }
             .no-print, .hide-on-print, .autocomplete-list { display: none !important; }
             
@@ -155,7 +154,7 @@
             }
             .header-grid { border-bottom: 2px solid var(--sabesp-blue) !important; padding-bottom: 6px; margin-bottom: 10px; width: 100%; }
             .totais-box { border: 2px solid var(--sabesp-blue) !important; background: transparent !important; padding: 8px 12px; margin-top: 0; }
-            .total-final-row { border-top: 2px solid var(--sabesp-blue) !important; } /* Alterado para solid na impressão */
+            .total-final-row { border-top: 2px solid var(--sabesp-blue) !important; }
 
             input, select { border: none !important; background: transparent !important; padding: 0; margin: 0; appearance: none; -webkit-appearance: none; color: #000; }
             input::placeholder { color: transparent; }
@@ -165,24 +164,35 @@
             
             .row { margin-bottom: 2px; gap: 4px; }
             table { margin-bottom: 8px; font-size: 8.5pt; width: 100%; table-layout: fixed; }
-            th.section-header { padding: 4px 6px; font-size: 10pt; } /* Ajuste fino na impressão */
+            th.section-header { padding: 4px 6px; font-size: 10pt; } 
             td input { font-size: 8.5pt; }
             
             .assinaturas { margin-top: 15px; page-break-inside: avoid; }
             .assinatura-label { margin-bottom: 20px; }
             
+            /* RODAPÉ ANCORADO NO FUNDO DA PÁGINA IMPRESSA */
             .rodape-container { 
-                position: fixed; bottom: 0; left: 0; width: 100%; 
+                position: fixed; 
+                bottom: 5px; 
+                left: 0; 
+                width: 100%; 
                 border-top: 1.5px solid var(--sabesp-blue) !important; 
-                margin-top: 0; padding-top: 4px; background: white; z-index: 100; 
+                margin-top: 0; 
+                padding-top: 4px; 
+                padding-bottom: 5px;
+                background: white; 
+                z-index: 100; 
             }
-            body { padding-bottom: 15mm; }
         }
     </style>
 </head>
 <body>
     <div class="no-print" style="text-align: center; margin-bottom: 15px;">
         <button class="btn" onclick="window.print()">🖨️ Imprimir / Guardar PDF</button>
+    </div>
+
+    <div id="erro-js" class="no-print hidden" style="background: #ffcccc; color: #900; padding: 10px; text-align: center; margin-bottom: 10px; border-radius: 5px; font-weight: bold;">
+        ⚠️ Erro ao carregar Materiais ou Serviços. Verifique se os arquivos .js possuem a tag <i>const baseServicos = [</i> na primeira linha.
     </div>
 
     <div class="container">
@@ -458,10 +468,10 @@
             </thead>
             <tbody>
                 <tr>
-                    <td style="padding: 6px; font-weight: bold; background-color: #fff;">
+                    <td style="padding: 8px; font-weight: bold; background-color: #fff;">
                         Equipes Técnicas + Administrativas + Despesas Indiretas (BDI)
                     </td>
-                    <td style="text-align: right; padding: 6px; font-weight: bold; background-color: #fff;">
+                    <td style="text-align: right; padding: 8px; font-weight: bold; background-color: #fff;">
                         Taxa (%): <input type="number" id="taxa-bdi" value="28" style="width: 50px; display: inline-block; padding: 2px;" oninput="calcularGeral()">
                     </td>
                 </tr>
@@ -524,18 +534,6 @@
     </div>
 
     <script>
-        if ('serviceWorker' in navigator) {
-            window.addEventListener('load', () => {
-                navigator.serviceWorker.register('sw.js').then(reg => {
-                    console.log('Service Worker Registrado!', reg);
-                }).catch(err => {
-                    console.log('Falha ao registrar Service Worker', err);
-                });
-            });
-        }
-    </script>
-
-    <script>
         let dbServicos = [];
         let dbMateriais = [];
 
@@ -546,15 +544,21 @@
         };
 
         window.onload = () => {
-            inicializarBases();
-            gerarLinhasTabela('tabela-servicos', 5, 'servico'); 
-            gerarLinhasTabela('tabela-materiais', 5, 'material');
+            try { inicializarBases(); } catch(e) { console.error(e); }
+            try { gerarLinhasTabela('tabela-servicos', 5, 'servico'); } catch(e) {}
+            try { gerarLinhasTabela('tabela-materiais', 5, 'material'); } catch(e) {}
+            
             tratarSecaoVazamento(); 
             tratarFormatoDano();
         };
 
         function inicializarBases() {
-            if (typeof baseServicos !== 'undefined') dbServicos = baseServicos;
+            let errorFlag = false;
+
+            if (typeof baseServicos !== 'undefined') {
+                dbServicos = baseServicos;
+            } else { errorFlag = true; }
+
             if (typeof baseMateriais !== 'undefined') {
                 dbMateriais = baseMateriais.map(m => ({
                     NPRECO: m["Material"] !== undefined ? m["Material"] : m.NPRECO,
@@ -562,6 +566,13 @@
                     UNID: m["Unid.medida básica"] !== undefined ? String(m["Unid.medida básica"]).trim() : m.UNID,
                     PUNIT: m["Valor Unitário"] !== undefined ? m["Valor Unitário"] : m.PUNIT
                 }));
+            } else { errorFlag = true; }
+
+            if (errorFlag) {
+                document.getElementById('erro-js').classList.remove('hidden');
+                // Mock data para evitar quebra total do form em caso de erro nos arquivos
+                if (dbServicos.length === 0) dbServicos = [{ ESPEC: "REPARO TESTE", NPRECO: "123", UNID: "UN", PUNIT: "10.00" }];
+                if (dbMateriais.length === 0) dbMateriais = [{ ESPEC: "MATERIAL TESTE", NPRECO: "456", UNID: "M", PUNIT: "5.00" }];
             }
         }
 
@@ -608,9 +619,11 @@
             }
 
             containerDropdown.innerHTML = '';
+            
+            // FILTRO SEGURO 
             const filtrados = db.filter(item => {
-                const espec = removerAcentos(String(item.ESPEC));
-                const npreco = removerAcentos(String(item.NPRECO));
+                const espec = removerAcentos(String(item.ESPEC || ''));
+                const npreco = removerAcentos(String(item.NPRECO || ''));
                 return espec.includes(valPesquisa) || npreco.includes(valPesquisa);
             }).slice(0, 40);
 
@@ -782,7 +795,6 @@
         }
 
         function gerarLinhasTabela(tabelaId, qtd, tipo) {
-            let idSub = tipo === 'servico' ? 'subtotal-servicos' : 'subtotal-materiais';
             const tabela = document.getElementById(tabelaId);
             for (let i = 0; i < qtd; i++) {
                 const tr = document.createElement('tr');
