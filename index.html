@@ -51,7 +51,7 @@
 
         /* Envolve todo o conteúdo que não é o rodapé */
         .content-wrapper {
-            flex: 1 0 auto; /* Cresce e empurra o rodapé para baixo */
+            flex: 1 0 auto; 
             display: flex;
             flex-direction: column;
         }
@@ -128,7 +128,7 @@
 
         /* Rodapé no final empurrado pelo Flexbox */
         .rodape-container { 
-            margin-top: auto; /* Empurra pro fundo do .container */
+            margin-top: auto; 
             border-top: 1.5px solid var(--sabesp-blue); 
             padding-top: 8px; width: 100%; flex-shrink: 0;
         }
@@ -156,14 +156,14 @@
         .changelog-box ul { margin: 0; padding-left: 20px; font-size: 8.5pt; color: #333; }
         .changelog-box li { margin-bottom: 4px; }
 
-        /* === OTIMIZAÇÃO PARA IMPRESSÃO 1 PÁGINA === */
+        /* === OTIMIZAÇÃO PARA IMPRESSÃO === */
         @page { size: A4 portrait; margin: 10mm; } 
         
         @media print {
             html, body { height: 100%; margin: 0; padding: 0; background-color: white; }
             .container { 
                 box-shadow: none; padding: 0; width: 100%; max-width: 100%; border: none; margin: 0; 
-                min-height: 100%; /* Força a ocupar exatamente 1 página */
+                min-height: 100%; 
             }
             .no-print, .hide-on-print, .autocomplete-list, .action-menu, .version-wrapper { display: none !important; }
 
@@ -177,6 +177,9 @@
             input, select { border: none !important; background: transparent !important; padding: 0; margin: 0; appearance: none; -webkit-appearance: none; color: #000; }
             input::placeholder { color: transparent; }
             
+            /* Remove a margem extra do campo "Outros" na impressão */
+            #causador-outros { margin-left: 0 !important; }
+
             table.data-table th { background-color: #f0f0f0 !important; -webkit-print-color-adjust: exact; print-color-adjust: exact; padding: 2px; }
             table.data-table td { padding: 1px 2px; }
             
@@ -188,7 +191,6 @@
             .assinaturas { margin-top: 10px; }
             .assinatura-label { margin-bottom: 15px; }
             
-            /* Rodapé é garantido no fundo da página pelo Flexbox do .container */
             .rodape-container { border-top: 1.5px solid var(--sabesp-blue) !important; margin-top: auto; padding-top: 4px; }
         }
     </style>
@@ -206,14 +208,15 @@
         <div class="content-wrapper">
             
             <div class="version-wrapper no-print">
-                <div class="version-badge">v3.4 ℹ️</div>
+                <div class="version-badge">v3.5 ℹ️</div>
                 <div class="changelog-box">
                     <h4>Últimas Atualizações</h4>
                     <ul>
-                        <li><strong>v3.4:</strong> Opção 'Outros' no Causador dos Danos com campo de preenchimento.</li>
+                        <li><strong>v3.5:</strong> Esconde o texto 'Outros' no Causador durante a impressão.</li>
+                        <li><strong>v3.4:</strong> Opção 'Outros' no Causador com campo de preenchimento.</li>
                         <li><strong>v3.3:</strong> Seção de Água Perdida estruturada em Tabela.</li>
-                        <li><strong>v3.2:</strong> Campo 'nº' posicionado em linha independente.</li>
-                        <li><strong>v3.1:</strong> Alinhamento perfeito; Rodapé ancorado via Flexbox absoluto.</li>
+                        <li><strong>v3.2:</strong> Campo 'nº' independente acima da Unidade.</li>
+                        <li><strong>v3.1:</strong> Alinhamento perfeito; Rodapé absoluto.</li>
                     </ul>
                 </div>
             </div>
@@ -349,7 +352,6 @@
                             <input type="number" id="pressao" value="10" style="border:none; width:100%; text-align:center;" oninput="calcularAgua()">
                         </td>
                     </tr>
-
                     <tr>
                         <th colspan="2">Início Ocorrência</th><th colspan="2">Fim Ocorrência</th>
                         <th>Tempo(s)</th><th>Vazão(l/s)</th><th>Vol.(m³)</th><th>R$/m³</th><th>Total(R$)</th>
@@ -500,7 +502,7 @@
     </div>
 
     <script>
-        const VERSAO_APP = "3.4";
+        const VERSAO_APP = "3.5";
         if (localStorage.getItem("versao_planilha_sabesp") !== VERSAO_APP) {
             if ('caches' in window) {
                 caches.keys().then(names => { names.forEach(name => caches.delete(name)); });
@@ -847,15 +849,17 @@
             const rodapeUnidadeDep = document.getElementById('rodape-unidade-dep');
             rodapeUnidadeDep.innerText = val || "_______________________________________________________";
         }
-        
+
         function tratarCausador() {
-            const val = document.getElementById('causador').value;
+            const select = document.getElementById('causador');
             const inputOutros = document.getElementById('causador-outros');
-            if (val === 'Outros') {
+            if (select.value === 'Outros') {
                 inputOutros.classList.remove('hidden');
+                select.classList.add('hide-on-print');
             } else {
                 inputOutros.classList.add('hidden');
                 inputOutros.value = '';
+                select.classList.remove('hide-on-print');
             }
         }
 
@@ -883,7 +887,6 @@
             if(id === 'diametro-dano') calcularAgua();
         }
 
-        // SISTEMA DE COLUNAS DA ÁGUA PERDIDA
         function tratarSecaoVazamento() {
             const val = document.getElementById('tipo-secao').value;
             const formatoSelect = document.getElementById('formato-dano');
