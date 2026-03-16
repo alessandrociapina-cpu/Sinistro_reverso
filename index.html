@@ -23,7 +23,7 @@
 
         body {
             font-family: Tahoma, sans-serif;
-            font-size: 10pt; 
+            font-size: 9.5pt; 
             color: var(--text-black);
             margin: 20px auto;
             max-width: 210mm;
@@ -51,23 +51,21 @@
         }
         .titles { flex: 1; text-align: center; padding-right: 20px; }
         .linha1 { font-size: 7pt; font-weight: bold; color: var(--sabesp-blue); text-transform: uppercase; margin-bottom: 4px; }
-        .linha2 { font-size: 16pt; font-weight: bold; color: var(--sabesp-blue); text-transform: uppercase; line-height: 1.1; }
+        .linha2 { font-size: 14pt; font-weight: bold; color: var(--sabesp-blue); text-transform: uppercase; line-height: 1.1; }
         .logo-box { text-align: right; flex-shrink: 0; }
         .logo-placeholder { max-height: 65px; max-width: 150px; object-fit: contain; }
 
         /* === ÁREA DE IDENTIFICAÇÃO === */
-        .ident-row { display: flex; align-items: center; margin-bottom: 6px; width: 100%; }
-        .ident-row label { width: 140px; font-size: 10pt; font-weight: bold; color: var(--text-black); flex-shrink: 0; text-align: left; }
-        .ident-row input[type="text"], .ident-row select { flex: 1; font-size: 10pt; padding: 4px 6px; }
-        /* Empurra o label do número para a direita */
-        .ident-row .label-n { width: auto; margin-left: auto; margin-right: 5px; }
-        .ident-row #sef { flex: 0 0 140px; }
+        .ident-row { display: flex; align-items: center; margin-bottom: 4px; width: 100%; }
+        .ident-row label { width: 140px; font-size: 9.5pt; font-weight: bold; color: var(--text-black); flex-shrink: 0; text-align: left; }
+        .ident-row input[type="text"], .ident-row select { flex: 1; min-width: 0; font-size: 9.5pt; padding: 4px 6px; }
+        .ident-row .label-n { width: auto; margin-left: 15px; margin-right: 5px; }
 
         .row { display: flex; align-items: center; flex-wrap: wrap; gap: 8px; margin-bottom: 6px; width: 100%; }
         
         input, select {
             padding: 3px 5px; border: 1px solid var(--border-color); border-radius: 4px;
-            font-family: Tahoma, sans-serif; font-size: 10pt; color: var(--text-black); width: 100%;
+            font-family: Tahoma, sans-serif; font-size: 9.5pt; color: var(--text-black); width: 100%;
         }
         input:focus, select:focus { border-color: var(--sabesp-blue); outline: none; }
         input[type="number"] { text-align: right; }
@@ -77,52 +75,51 @@
 
         /* === TABELAS === */
         table.data-table {
-            width: 100%; table-layout: fixed; border-collapse: collapse; margin-bottom: 15px;
-            font-size: 9pt; word-wrap: break-word; border: 1px solid var(--border-color);
+            width: 100%; table-layout: fixed; border-collapse: collapse; margin-bottom: 12px; margin-top: 5px;
+            font-size: 8.5pt; word-wrap: break-word; border: 1px solid var(--border-color);
         }
         table.data-table th, table.data-table td { border: 1px solid var(--border-color); padding: 3px; text-align: left; overflow: visible; }
         table.data-table th { background-color: var(--bg-color); font-weight: bold; text-align: center; }
         
         th.section-header {
-            font-size: 11pt; color: var(--sabesp-blue); text-transform: uppercase; text-align: left !important;
-            background-color: #f9f9f9; padding: 5px 8px; border-bottom: 2px solid var(--sabesp-blue);
+            font-size: 10pt; color: var(--sabesp-blue); text-transform: uppercase; text-align: left !important;
+            background-color: #f9f9f9; padding: 4px 8px; border-bottom: 2px solid var(--sabesp-blue);
         }
 
-        .subtitle { font-weight: bold; font-size: 10pt; color: var(--sabesp-blue); text-align: left; margin-top: 2px; }
-        table.data-table td input { width: 100%; border: none; background: transparent; font-size: 9pt; padding: 2px; } 
+        .subtitle { font-weight: bold; font-size: 9.5pt; color: var(--sabesp-blue); text-align: left; margin-top: 2px; }
+        table.data-table td input { width: 100%; border: none; background: transparent; font-size: 8.5pt; padding: 2px; } 
 
         .autocomplete-list {
             position: absolute; top: 100%; left: 0; width: 100%; min-width: 350px; background: #fff;
             border: 1px solid var(--sabesp-blue); box-shadow: 0 8px 16px rgba(0,0,0,0.2);
             z-index: 9999; max-height: 250px; overflow-y: auto; display: none; border-radius: 0 0 4px 4px;
         }
-        .autocomplete-list div { padding: 6px 10px; cursor: pointer; border-bottom: 1px solid #eee; font-size: 9pt; color: #333; }
+        .autocomplete-list div { padding: 6px 10px; cursor: pointer; border-bottom: 1px solid #eee; font-size: 8.5pt; color: #333; }
         .autocomplete-list div:hover { background-color: var(--sabesp-blue); color: white; }
 
         .totais-box {
-            border: 2px solid var(--sabesp-blue); border-radius: 6px; padding: 10px 15px;
+            border: 2px solid var(--sabesp-blue); border-radius: 6px; padding: 8px 15px;
             background-color: #fafafa; margin-top: 5px; width: 100%;
         }
-        .totais-box .row { justify-content: space-between; margin-bottom: 4px; font-weight: bold; font-size: 10pt; }
+        .totais-box .row { justify-content: space-between; margin-bottom: 4px; font-weight: bold; font-size: 9.5pt; }
         .total-final-row { 
             font-size: 12pt; font-weight: bold; color: var(--sabesp-blue); margin-top: 8px; padding-top: 8px; 
             border-top: 2px solid var(--sabesp-blue); 
         }
 
-        .assinaturas { display: flex; justify-content: space-around; text-align: center; margin-top: 25px; margin-bottom: 10px; width: 100%; page-break-inside: avoid; }
+        .assinaturas { display: flex; justify-content: space-around; text-align: center; margin-top: 20px; margin-bottom: 5px; width: 100%; page-break-inside: avoid; }
         .assinatura-box { width: 40%; text-align: left; }
         .assinatura-label { font-size: 7pt; font-weight: normal; margin-bottom: 25px; color: var(--text-black); }
         .linha-assinatura { border-top: 1px solid var(--text-black); width: 100%; margin-bottom: 3px; }
 
-        /* Rodapé no final */
-        .rodape-container { margin-top: 10px; border-top: 1.5px solid var(--sabesp-blue); padding-top: 8px; width: 100%; }
+        /* Rodapé Mestre */
+        .rodape-container { margin-top: 15px; border-top: 1.5px solid var(--sabesp-blue); padding-top: 8px; width: 100%; }
         .rodape-texto, .rodape-texto div, .rodape-texto span { font-weight: bold; font-size: 8pt; color: var(--sabesp-blue); text-align: left; line-height: 1.2; }
-        #rodape-unidade-dep { font-weight: normal; }
 
         .action-menu { display: flex; justify-content: center; gap: 10px; margin-bottom: 15px; flex-wrap: wrap; }
         .btn {
             padding: 8px 15px; background-color: #0056b3; color: white; border: none; border-radius: 5px;
-            cursor: pointer; font-weight: bold; font-size: 10pt; font-family: Tahoma, sans-serif;
+            cursor: pointer; font-weight: bold; font-size: 9.5pt; font-family: Tahoma, sans-serif;
             box-shadow: 0 2px 5px rgba(0,0,0,0.2); transition: background 0.2s;
         }
         .btn:hover { background-color: var(--sabesp-blue); color: #000; }
@@ -141,10 +138,11 @@
         .changelog-box ul { margin: 0; padding-left: 20px; font-size: 8.5pt; color: #333; }
         .changelog-box li { margin-bottom: 4px; }
 
-        @page { size: A4 portrait; margin: 10mm 10mm 10mm 10mm; } 
+        /* === OTIMIZAÇÃO PARA IMPRESSÃO 1 PÁGINA === */
+        @page { size: A4 portrait; margin: 8mm 8mm 8mm 8mm; } 
         
         @media print {
-            body { margin: 0; padding: 0; padding-bottom: 25mm; background-color: white; color: #000; max-width: 100%; width: 100%; }
+            body { margin: 0; padding: 0; background-color: white; color: #000; max-width: 100%; width: 100%; }
             .container { box-shadow: none; padding: 0; width: 100%; max-width: 100%; border: none; margin: 0; }
             .no-print, .hide-on-print, .autocomplete-list, .action-menu, .version-wrapper { display: none !important; }
             
@@ -154,31 +152,25 @@
             .linha1, .linha2, th.section-header, .subtitle, .rodape-texto, .rodape-texto div, .rodape-texto span, .total-final-row { 
                 color: var(--sabesp-blue) !important; -webkit-print-color-adjust: exact; print-color-adjust: exact; 
             }
-            .header-grid { border-bottom: 2px solid var(--sabesp-blue) !important; padding-bottom: 6px; margin-bottom: 10px; width: 100%; }
-            .totais-box { border: 2px solid var(--sabesp-blue) !important; background: transparent !important; padding: 8px 12px; margin-top: 0; }
+            .header-grid { border-bottom: 2px solid var(--sabesp-blue) !important; padding-bottom: 4px; margin-bottom: 6px; width: 100%; }
+            .totais-box { border: 2px solid var(--sabesp-blue) !important; background: transparent !important; padding: 6px 10px; margin-top: 0; }
             .total-final-row { border-top: 2px solid var(--sabesp-blue) !important; }
 
             input, select { border: none !important; background: transparent !important; padding: 0; margin: 0; appearance: none; -webkit-appearance: none; color: #000; }
             input::placeholder { color: transparent; }
             
-            table.data-table th { background-color: #f0f0f0 !important; -webkit-print-color-adjust: exact; print-color-adjust: exact; padding: 2px; }
+            table.data-table th { background-color: #f0f0f0 !important; -webkit-print-color-adjust: exact; print-color-adjust: exact; padding: 1px 2px; }
             table.data-table td { padding: 1px 2px; }
             
-            .ident-row { margin-bottom: 2px; }
-            table.data-table { margin-bottom: 8px; margin-top: 8px; font-size: 8.5pt; width: 100%; table-layout: fixed; }
-            th.section-header { padding: 4px 6px; font-size: 10pt; text-align: left !important; } 
-            table.data-table td input { font-size: 8.5pt; }
+            .ident-row { margin-bottom: 1px; }
+            table.data-table { margin-bottom: 4px; margin-top: 4px; font-size: 8pt; width: 100%; table-layout: fixed; }
+            th.section-header { padding: 2px 4px; font-size: 9pt; text-align: left !important; } 
+            table.data-table td input { font-size: 8pt; }
             
-            .assinaturas { margin-top: 15px; page-break-inside: avoid; }
-            .assinatura-label { margin-bottom: 20px; }
+            .assinaturas { margin-top: 10px; }
+            .assinatura-label { margin-bottom: 15px; }
             
-            /* O RODAPÉ FIXA-SE NO FUNDO DE TODAS AS PÁGINAS NA IMPRESSÃO */
-            .rodape-container { 
-                position: fixed; bottom: 0; left: 0; width: 100%; 
-                border-top: 1.5px solid var(--sabesp-blue) !important; 
-                margin-top: 0; padding-top: 4px; padding-bottom: 5px;
-                background: white; z-index: 100; 
-            }
+            .rodape-container { border-top: 1.5px solid var(--sabesp-blue) !important; margin-top: 5px; padding-top: 4px; }
         }
     </style>
 </head>
@@ -193,15 +185,14 @@
 
     <div class="container">
         <div class="version-wrapper no-print">
-            <div class="version-badge">v2.8 ℹ️</div>
+            <div class="version-badge">v3.0 ℹ️</div>
             <div class="changelog-box">
                 <h4>Últimas Atualizações</h4>
                 <ul>
+                    <li><strong>v3.0:</strong> Pressão agrupada junto às dimensões de furo; Rodapé 100% em negrito restaurado.</li>
+                    <li><strong>v2.9:</strong> Redução de espaçamentos para forçar em 1 página; Alinhamento absoluto de inputs.</li>
                     <li><strong>v2.8:</strong> Fim do dropdown na Unidade; Alinhamento do nº à direita.</li>
-                    <li><strong>v2.7:</strong> Identificação alinhada à esquerda; Rodapé fixado no fundo; Texto e negritos corrigidos.</li>
-                    <li><strong>v2.5:</strong> Correção de bug no plural das linhas dinâmicas de materiais.</li>
                     <li><strong>v2.4:</strong> Sistema Inteligente de Linhas (Remove vazias automaticamente).</li>
-                    <li><strong>v2.3:</strong> Salvar/Carregar projeto (.json); Auto-update em Cache.</li>
                 </ul>
             </div>
         </div>
@@ -231,7 +222,7 @@
                             <input type="text" id="unidade" value="Divisão de Manutenção e Serviços Operacionais de São José dos Campos - OVMS" oninput="tratarUnidade()">
                             
                             <label class="label-n">nº:</label>
-                            <input type="text" id="sef" placeholder="XXX/XX">
+                            <input type="text" id="sef" placeholder="XXX/XX" style="width: 100px;">
                         </div>
 
                         <div class="ident-row">
@@ -239,7 +230,7 @@
                             <input type="text" id="endereco-local" placeholder="Digite o endereço completo">
                         </div>
 
-                        <div class="ident-row" style="margin-bottom: 15px;">
+                        <div class="ident-row" style="margin-bottom: 10px;">
                             <label>Causador dos Danos:</label>
                             <select id="causador">
                                 <option value="Prefeitura Municipal de São José dos Campos">Prefeitura Municipal de São José dos Campos</option>
@@ -263,7 +254,7 @@
                             <tbody>
                                 <tr>
                                     <td>
-                                        <select id="tipo-dano" onchange="tratarDano()" style="border:none; font-size: 9pt;">
+                                        <select id="tipo-dano" onchange="tratarDano()" style="border:none; font-size: 8.5pt;">
                                             <option value="Reparo de Rede de Água">Reparo de Rede de Água</option>
                                             <option value="Reparo de Ramal de Água">Reparo de Ramal de Água</option>
                                             <option value="Reparo de Rede de Esgoto">Reparo de Rede de Esgoto</option>
@@ -273,7 +264,7 @@
                                         <input type="text" id="tipo-dano-outros" class="hidden" placeholder="Especificar">
                                     </td>
                                     <td>
-                                        <select id="material-dano" onchange="tratarDropdown('material-dano')" style="border:none; font-size: 9pt;">
+                                        <select id="material-dano" onchange="tratarDropdown('material-dano')" style="border:none; font-size: 8.5pt;">
                                             <option value="PVC">PVC</option><option value="PEAD">PEAD</option><option value="Fofo">Fofo</option>
                                             <option value="Defofo">Defofo</option><option value="Fibra">Fibra</option><option value="Concreto">Concreto Arm.</option>
                                             <option value="Cerâmica">Manilha Cerâm.</option><option value="Outros">Outros</option>
@@ -281,7 +272,7 @@
                                         <input type="text" id="material-dano-outros" class="hidden" placeholder="Esp.">
                                     </td>
                                     <td>
-                                        <select id="diametro-dano" onchange="tratarDropdown('diametro-dano')" style="text-align: center; border:none; font-size: 9pt;">
+                                        <select id="diametro-dano" onchange="tratarDropdown('diametro-dano')" style="text-align: center; border:none; font-size: 8.5pt;">
                                             <option value="20">20</option><option value="25">25</option><option value="32">32</option><option value="50">50</option>
                                             <option value="75">75</option><option value="100">100</option><option value="150">150</option><option value="200">200</option>
                                             <option value="250">250</option><option value="300">300</option><option value="350">350</option><option value="400">400</option>
@@ -308,43 +299,42 @@
                             <tbody>
                                 <tr>
                                     <td colspan="9" style="padding: 8px 10px; border-bottom: none; background-color: #fff;">
-                                        <div class="row" style="align-items: flex-end; justify-content: space-between; margin: 0;">
-                                            <div class="row" style="gap: 15px; width: auto;">
+                                        <div class="row" style="align-items: flex-end; justify-content: flex-start; margin: 0; gap: 15px;">
+                                            <div>
+                                                <label style="font-size: 8.5pt;">Seção de Vazamento:</label><br>
+                                                <select id="tipo-secao" onchange="tratarSecaoVazamento()" style="font-size: 8.5pt; width: 140px;">
+                                                    <option value="Área do Furo">Área do Furo (Localizada)</option>
+                                                    <option value="Seção Plena">Seção Plena (Tubo Rompido)</option>
+                                                </select>
+                                            </div>
+                                            
+                                            <div id="box-dimensoes-furo" class="row" style="width: auto; gap: 8px;">
                                                 <div>
-                                                    <label style="font-size: 9pt;">Seção de Vazamento:</label><br>
-                                                    <select id="tipo-secao" onchange="tratarSecaoVazamento()" style="font-size: 9pt; width: 140px;">
-                                                        <option value="Área do Furo">Área do Furo (Localizada)</option>
-                                                        <option value="Seção Plena">Seção Plena (Tubo Rompido)</option>
+                                                    <label style="font-size: 8.5pt;">Formato do Dano:</label><br>
+                                                    <select id="formato-dano" onchange="tratarFormatoDano()" style="font-size: 8.5pt; width: 150px;">
+                                                        <option value="circular">Furo Circular (Cd=0.61)</option>
+                                                        <option value="irregular">Rupt. Irregular (Cd=0.55)</option>
+                                                        <option value="longitudinal">Fissura Long. (Cd=0.80)</option>
+                                                        <option value="transversal">Fissura Transv. (Cd=0.58)</option>
                                                     </select>
                                                 </div>
-                                                
-                                                <div id="box-dimensoes-furo" class="row" style="width: auto;">
-                                                    <div>
-                                                        <label style="font-size: 9pt;">Formato do Dano:</label><br>
-                                                        <select id="formato-dano" onchange="tratarFormatoDano()" style="font-size: 9pt; width: 150px;">
-                                                            <option value="circular">Furo Circular (Cd=0.61)</option>
-                                                            <option value="irregular">Rupt. Irregular (Cd=0.55)</option>
-                                                            <option value="longitudinal">Fissura Long. (Cd=0.80)</option>
-                                                            <option value="transversal">Fissura Transv. (Cd=0.58)</option>
-                                                        </select>
-                                                    </div>
-                                                    <div id="box-diametro" style="display: block;">
-                                                        <label style="font-size: 9pt;">Diâm.(cm):</label><br>
-                                                        <input type="number" id="diametro-furo" value="2" step="0.1" style="width: 50px;" oninput="calcularAgua()">
-                                                    </div>
-                                                    <div id="box-retangulo" style="display: none; gap: 5px;">
-                                                        <div><label style="font-size: 9pt;">Comp(cm):</label><br><input type="number" id="comp-furo" value="5" step="0.1" style="width: 50px;" oninput="calcularAgua()"></div>
-                                                        <div><label style="font-size: 9pt;">Larg(cm):</label><br><input type="number" id="larg-furo" value="2" step="0.1" style="width: 50px;" oninput="calcularAgua()"></div>
-                                                    </div>
+                                                <div id="box-diametro" style="display: block;">
+                                                    <label style="font-size: 8.5pt;">Diâm.(cm):</label><br>
+                                                    <input type="number" id="diametro-furo" value="2" step="0.1" style="width: 50px;" oninput="calcularAgua()">
                                                 </div>
-                                                <div id="aviso-secao-plena" style="display: none; color: var(--sabesp-blue); font-style: italic; font-size: 9pt; max-width: 250px; line-height: 1.1;">
-                                                    Vazão tabelada (despressurização).
+                                                <div id="box-retangulo" style="display: none; gap: 5px;">
+                                                    <div><label style="font-size: 8.5pt;">Comp(cm):</label><br><input type="number" id="comp-furo" value="5" step="0.1" style="width: 50px;" oninput="calcularAgua()"></div>
+                                                    <div><label style="font-size: 8.5pt;">Larg(cm):</label><br><input type="number" id="larg-furo" value="2" step="0.1" style="width: 50px;" oninput="calcularAgua()"></div>
                                                 </div>
                                             </div>
-                            
-                                            <div style="width: auto;">
-                                                <label style="font-size: 9pt;">Pressão(mca):</label><br>
-                                                <input type="number" id="pressao" value="10" style="width: 60px; font-size: 9pt;" oninput="calcularAgua()">
+
+                                            <div>
+                                                <label style="font-size: 8.5pt;">Pressão(mca):</label><br>
+                                                <input type="number" id="pressao" value="10" style="width: 60px; font-size: 8.5pt;" oninput="calcularAgua()">
+                                            </div>
+
+                                            <div id="aviso-secao-plena" style="display: none; color: var(--sabesp-blue); font-style: italic; font-size: 8.5pt; max-width: 250px; line-height: 1.1; margin-bottom: 4px;">
+                                                Vazão tabelada (despressurização).
                                             </div>
                                         </div>
                                     </td>
@@ -455,7 +445,7 @@
                             <div class="row total-final-row">
                                 <span>TOTAL FINAL:</span> <span>R$ <span id="total-final">0.00</span></span>
                             </div>
-                            <div class="row" style="justify-content: flex-end; font-size: 9pt; color: #666; margin-top: 2px;">
+                            <div class="row" style="justify-content: flex-end; font-size: 8.5pt; color: #666; margin-top: 2px;">
                                 Equivalente em UFESPs: <span id="total-ufesp" style="margin-left: 5px; font-weight: bold; color: var(--text-black);">0.00</span>
                             </div>
                         </div>
@@ -490,9 +480,9 @@
                         <div class="rodape-container">
                             <div class="rodape-texto">
                                 Companhia de Saneamento Básico do Estado de São Paulo – Sabesp<br>
-                                <span id="rodape-unidade-dep" contenteditable="true" style="display:inline-block; outline:none; font-weight: normal;">Divisão de Manutenção e Serviços Operacionais de São José dos Campos - OVMS</span><br>
-                                <div id="rodape-endereco" contenteditable="true" style="display: inline-block; outline: none; min-width: 100%;">Rua Euclides Miragaia, 126, Centro - CEP 12.245-820 - São José dos Campos - SP</div>
-                                <br>www.sabesp.com.br
+                                <span id="rodape-unidade-dep" contenteditable="true" style="display:inline-block; outline:none;">Divisão de Manutenção e Serviços Operacionais de São José dos Campos - OVMS</span><br>
+                                <span id="rodape-endereco" contenteditable="true" style="display: inline-block; outline: none; min-width: 100%;">Rua Euclides Miragaia, 126, Centro - CEP 12.245-820 - São José dos Campos - SP</span><br>
+                                <span>www.sabesp.com.br</span>
                             </div>
                         </div>
                     </td>
@@ -500,7 +490,7 @@
             </tfoot>
         </table>
 
-        <div class="action-menu no-print" style="margin-top: 30px;">
+        <div class="action-menu no-print" style="margin-top: 20px;">
             <button class="btn btn-salvar" onclick="salvarProjeto()">💾 Salvar Projeto</button>
             <button class="btn btn-carregar" onclick="document.getElementById('input-arquivo').click()">📂 Carregar Projeto</button>
             <button class="btn" onclick="window.print()">🖨️ Imprimir / PDF</button>
@@ -508,7 +498,7 @@
     </div>
 
     <script>
-        const VERSAO_APP = "2.8";
+        const VERSAO_APP = "3.0";
         if (localStorage.getItem("versao_planilha_sabesp") !== VERSAO_APP) {
             if ('caches' in window) {
                 caches.keys().then(names => { names.forEach(name => caches.delete(name)); });
