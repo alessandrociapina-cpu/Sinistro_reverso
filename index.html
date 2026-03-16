@@ -31,7 +31,6 @@
             text-align: justify;
         }
 
-        /* Envolve todo o conteúdo para simular a folha em tela */
         .container {
             background-color: white;
             padding: 20px 30px;
@@ -39,15 +38,14 @@
             border-radius: 8px;
             width: 100%;
             max-width: 100%;
+            position: relative;
         }
 
-        /* Estrutura invisível para impressão repetitiva */
         table.print-structure { width: 100%; border: none; border-collapse: collapse; }
         table.print-structure > thead > tr > td, 
         table.print-structure > tbody > tr > td, 
         table.print-structure > tfoot > tr > td { border: none; padding: 0; }
 
-        /* Cabeçalho */
         .header-grid {
             display: flex; justify-content: space-between; align-items: flex-start;
             border-bottom: 2px solid var(--sabesp-blue); padding-bottom: 10px; margin-bottom: 15px; width: 100%;
@@ -58,7 +56,6 @@
         .logo-box { text-align: right; flex-shrink: 0; }
         .logo-placeholder { max-height: 65px; max-width: 150px; object-fit: contain; }
 
-        /* Rodapé Repetitivo */
         .rodape-container { margin-top: 10px; border-top: 1.5px solid var(--sabesp-blue); padding-top: 8px; width: 100%; }
         .rodape-texto, .rodape-texto div { font-weight: bold; font-size: 8pt; color: var(--sabesp-blue); text-align: left; line-height: 1.2; }
 
@@ -74,19 +71,11 @@
 
         .hidden { display: none !important; }
 
-        /* === TABELAS DE DADOS === */
         table.data-table {
             width: 100%; table-layout: fixed; border-collapse: collapse; margin-bottom: 15px;
             font-size: 9pt; word-wrap: break-word; border: 1px solid var(--border-color);
         }
-        
-        /* CORREÇÃO DO BUG: overflow: visible para permitir que a lista suspensa saia da célula */
-        table.data-table th, table.data-table td { 
-            border: 1px solid var(--border-color); 
-            padding: 3px; 
-            text-align: left; 
-            overflow: visible; 
-        }
+        table.data-table th, table.data-table td { border: 1px solid var(--border-color); padding: 3px; text-align: left; overflow: visible; }
         table.data-table th { background-color: var(--bg-color); font-weight: bold; text-align: center; }
         
         th.section-header {
@@ -97,7 +86,14 @@
         .subtitle { font-weight: bold; font-size: 10pt; color: var(--sabesp-blue); text-align: left; margin-top: 2px; }
         table.data-table td input { width: 100%; border: none; background: transparent; font-size: 9pt; padding: 2px; } 
 
-        /* === LISTA SUSPENSA DE AUTOCOMPLETAR === */
+        /* DESTAQUE PARA A ORDEM DE SERVIÇO (OS) */
+        input#os {
+            background-color: #eef9ff !important;
+            border: 1.5px solid var(--sabesp-blue) !important;
+            font-weight: bold;
+            border-radius: 3px;
+        }
+
         .autocomplete-list {
             position: absolute; top: 100%; left: 0; width: 100%; min-width: 350px; background: #fff;
             border: 1px solid var(--sabesp-blue); box-shadow: 0 8px 16px rgba(0,0,0,0.2);
@@ -106,7 +102,6 @@
         .autocomplete-list div { padding: 8px 10px; cursor: pointer; border-bottom: 1px solid #eee; font-size: 9pt; color: #333; }
         .autocomplete-list div:hover { background-color: var(--sabesp-blue); color: white; }
 
-        /* Demais elementos */
         .totais-box {
             border: 2px solid var(--sabesp-blue); border-radius: 6px; padding: 10px 15px;
             background-color: #fafafa; margin-top: 5px; width: 100%;
@@ -121,19 +116,43 @@
         .assinatura-label { font-size: 7pt; font-weight: normal; margin-bottom: 25px; color: var(--text-black); }
         .linha-assinatura { border-top: 1px solid var(--text-black); width: 100%; margin-bottom: 3px; }
 
-        .btn {
-            padding: 10px 20px; background-color: #0056b3; color: white; border: none; border-radius: 5px;
-            cursor: pointer; font-weight: bold; font-size: 10pt; font-family: Tahoma, sans-serif;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.2); margin: 5px;
+        /* MENU DE AÇÕES E BOTÕES */
+        .action-menu {
+            display: flex; justify-content: center; gap: 10px; margin-bottom: 15px; flex-wrap: wrap;
         }
+        .btn {
+            padding: 8px 15px; background-color: #0056b3; color: white; border: none; border-radius: 5px;
+            cursor: pointer; font-weight: bold; font-size: 10pt; font-family: Tahoma, sans-serif;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2); transition: background 0.2s;
+        }
+        .btn:hover { background-color: var(--sabesp-blue); color: #000; }
+        .btn-salvar { background-color: #28a745; }
+        .btn-carregar { background-color: #ff9800; color: black; }
 
-        /* === OTIMIZAÇÃO PARA IMPRESSÃO === */
+        /* JANELA FLUTUANTE DE VERSÕES (CHANGELOG) */
+        .version-wrapper {
+            position: absolute; top: 10px; left: 10px; cursor: help;
+        }
+        .version-badge {
+            background-color: var(--sabesp-blue); color: #000; font-weight: bold; font-size: 8pt;
+            padding: 4px 8px; border-radius: 12px; box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+        }
+        .changelog-box {
+            position: absolute; top: 25px; left: 0; width: 320px; background-color: #fff;
+            border: 2px solid var(--sabesp-blue); border-radius: 6px; box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+            padding: 10px; display: none; z-index: 10000;
+        }
+        .version-wrapper:hover .changelog-box { display: block; }
+        .changelog-box h4 { margin: 0 0 8px 0; color: var(--sabesp-blue); font-size: 10pt; }
+        .changelog-box ul { margin: 0; padding-left: 20px; font-size: 8.5pt; color: #333; }
+        .changelog-box li { margin-bottom: 4px; }
+
         @page { size: A4 portrait; margin: 10mm 10mm 10mm 10mm; } 
         
         @media print {
             body { margin: 0; padding: 0; background-color: white; color: #000; max-width: 100%; width: 100%; }
             .container { box-shadow: none; padding: 0; width: 100%; max-width: 100%; border: none; margin: 0; }
-            .no-print, .hide-on-print, .autocomplete-list { display: none !important; }
+            .no-print, .hide-on-print, .autocomplete-list, .action-menu { display: none !important; }
             
             table.print-structure > thead { display: table-header-group; }
             table.print-structure > tfoot { display: table-footer-group; }
@@ -159,16 +178,39 @@
             .assinaturas { margin-top: 15px; }
             .assinatura-label { margin-bottom: 20px; }
             
-            .rodape-container { border-top: 1.5px solid var(--sabesp-blue) !important; }
+            .rodape-container { border-top: 1.5px solid var(--sabesp-blue) !important; margin-top: 5px; }
         }
     </style>
 </head>
 <body>
-    <div class="no-print" style="text-align: center; margin-bottom: 15px;">
-        <button class="btn" onclick="window.print()">🖨️ Imprimir / Guardar PDF</button>
+    
+    <div class="action-menu no-print">
+        <button class="btn btn-salvar" onclick="salvarProjeto()">💾 Salvar Projeto</button>
+        <button class="btn btn-carregar" onclick="document.getElementById('input-arquivo').click()">📂 Carregar Projeto</button>
+        <button class="btn" onclick="window.print()">🖨️ Imprimir / PDF</button>
+        <input type="file" id="input-arquivo" class="hidden" accept=".json" onchange="carregarProjeto(event)">
     </div>
 
     <div class="container">
+        
+        <div class="version-wrapper no-print">
+            <div class="version-badge">v2.3 ℹ️</div>
+            <div class="changelog-box">
+                <h4>Últimas Atualizações</h4>
+                <ul>
+                    <li><strong>v2.3:</strong> Salvar/Carregar projeto (.json); Auto-update; Destaque visual na OS.</li>
+                    <li><strong>v2.2:</strong> Ajuste de CSS da tabela (overflow) para correção da busca suspensa.</li>
+                    <li><strong>v2.1:</strong> Repetição fixa de cabeçalho/rodapé na impressão e nova estrutura de títulos.</li>
+                    <li><strong>v2.0:</strong> Layout responsivo adaptado para folha A4 e busca customizada anti-acentos.</li>
+                    <li><strong>v1.9:</strong> Integração com bases locais (.js) no GitHub para modo offline.</li>
+                    <li><strong>v1.8:</strong> Correções visuais na impressão e tabelas fixas.</li>
+                    <li><strong>v1.7:</strong> Identidade Visual padrão Sabesp (Azul #12D0FF e fonte Tahoma).</li>
+                    <li><strong>v1.5:</strong> Menu drop-down de materiais ativado.</li>
+                    <li><strong>v1.0:</strong> Criação inicial da estrutura da planilha.</li>
+                </ul>
+            </div>
+        </div>
+
         <table class="print-structure">
             <thead>
                 <tr>
@@ -263,7 +305,7 @@
                                         </select>
                                         <input type="text" id="diametro-dano-outros" class="hidden" placeholder="Esp.">
                                     </td>
-                                    <td><input type="text" id="os" style="text-align: center; padding: 0;"></td>
+                                    <td><input type="text" id="os" placeholder="Digite a OS..." style="text-align: center;"></td>
                                     <td><input type="date" id="data-dano" style="padding: 0;"></td>
                                     <td><input type="time" id="hora-dano" style="padding: 0;"></td>
                                 </tr>
@@ -438,8 +480,8 @@
                             <div class="assinatura-box">
                                 <div class="assinatura-label">Elaborado por:</div>
                                 <div class="linha-assinatura"></div>
-                                <input type="text" placeholder="Nome do Responsável" style="padding: 0; margin-bottom: 2px; border:none; background:transparent; font-size: 10pt;">
-                                <select style="padding: 0; border:none; background:transparent; font-size: 10pt; color: #555;">
+                                <input type="text" id="ass-nome-1" placeholder="Nome do Responsável" style="padding: 0; margin-bottom: 2px; border:none; background:transparent; font-size: 10pt;">
+                                <select id="ass-cargo-1" style="padding: 0; border:none; background:transparent; font-size: 10pt; color: #555;">
                                     <option>Engenheiro Civil</option><option>Engenheiro</option>
                                     <option>Técnico em Saneamento</option><option>Coordenador</option><option>Outro</option>
                                 </select>
@@ -447,8 +489,8 @@
                             <div class="assinatura-box">
                                 <div class="assinatura-label">Aprovado por:</div>
                                 <div class="linha-assinatura"></div>
-                                <input type="text" placeholder="Nome do Gerente/Superior" style="padding: 0; margin-bottom: 2px; border:none; background:transparent; font-size: 10pt;">
-                                <select style="padding: 0; border:none; background:transparent; font-size: 10pt; color: #555;">
+                                <input type="text" id="ass-nome-2" placeholder="Nome do Gerente/Superior" style="padding: 0; margin-bottom: 2px; border:none; background:transparent; font-size: 10pt;">
+                                <select id="ass-cargo-2" style="padding: 0; border:none; background:transparent; font-size: 10pt; color: #555;">
                                     <option>Engenheiro Civil</option><option>Engenheiro</option>
                                     <option>Gerente de Divisão</option><option>Coordenador</option><option>Outro</option>
                                 </select>
@@ -474,12 +516,27 @@
             </tfoot>
         </table>
 
-        <div class="no-print" style="text-align: center; margin-top: 10px; margin-bottom: 10px;">
-            <button class="btn" onclick="window.print()">🖨️ Imprimir / Guardar PDF</button>
+        <div class="action-menu no-print" style="margin-top: 30px;">
+            <button class="btn btn-salvar" onclick="salvarProjeto()">💾 Salvar Projeto</button>
+            <button class="btn btn-carregar" onclick="document.getElementById('input-arquivo').click()">📂 Carregar Projeto</button>
+            <button class="btn" onclick="window.print()">🖨️ Imprimir / PDF</button>
         </div>
     </div>
 
     <script>
+        // === SISTEMA DE AUTO-UPDATE DE VERSÃO ===
+        const VERSAO_APP = "2.3";
+        if (localStorage.getItem("versao_planilha_sabesp") !== VERSAO_APP) {
+            if ('caches' in window) {
+                caches.keys().then(names => {
+                    names.forEach(name => caches.delete(name));
+                });
+            }
+            localStorage.setItem("versao_planilha_sabesp", VERSAO_APP);
+            window.location.reload(true);
+        }
+
+        // Registra o Service Worker (PWA)
         if ('serviceWorker' in navigator) {
             window.addEventListener('load', () => { navigator.serviceWorker.register('sw.js'); });
         }
@@ -495,6 +552,16 @@
 
         window.onload = () => {
             try {
+                inicializarBases();
+                gerarLinhasTabela('tabela-servicos', 5, 'servico'); 
+                gerarLinhasTabela('tabela-materiais', 5, 'material');
+                tratarSecaoVazamento(); 
+                tratarFormatoDano();
+            } catch(e) { console.error("Erro na inicialização:", e); }
+        };
+
+        function inicializarBases() {
+            try {
                 if (typeof baseServicos !== 'undefined') dbServicos = baseServicos;
                 if (typeof baseMateriais !== 'undefined') {
                     dbMateriais = baseMateriais.map(m => ({
@@ -504,33 +571,13 @@
                         PUNIT: m["Valor Unitário"] !== undefined ? m["Valor Unitário"] : m.PUNIT
                     }));
                 }
-                gerarLinhasTabela('tabela-servicos', 5, 'servico'); 
-                gerarLinhasTabela('tabela-materiais', 5, 'material');
-                tratarSecaoVazamento(); 
-                tratarFormatoDano();
-            } catch(e) { console.error("Erro ao carregar:", e); }
-        };
+            } catch(e) { console.error("Erro ao processar as bases de dados."); }
+        }
 
-        // Fecha a lista se clicar fora
         document.addEventListener('click', function(e) {
             if (!e.target.classList.contains('desc-input')) {
                 document.querySelectorAll('.autocomplete-list').forEach(el => el.style.display = 'none');
             }
-        });
-
-        // Limpa campos vazios antes de imprimir
-        window.addEventListener('beforeprint', function() {
-            const tabelas = ['tabela-servicos', 'tabela-materiais'];
-            tabelas.forEach(id => {
-                document.querySelectorAll(`#${id} tr`).forEach(tr => {
-                    const inputDesc = tr.querySelector('.desc-input');
-                    if(inputDesc && inputDesc.value.trim() === '') tr.classList.add('hide-on-print');
-                });
-            });
-        });
-
-        window.addEventListener('afterprint', function() {
-            document.querySelectorAll('.hide-on-print').forEach(el => el.classList.remove('hide-on-print'));
         });
 
         function parseValor(strPunit) {
@@ -569,9 +616,9 @@
                 const div = document.createElement('div');
                 div.innerHTML = `<strong>${item.NPRECO}</strong> - ${item.ESPEC}`;
                 
-                // MUDANÇA CRÍTICA: onmousedown impede que o campo perca o foco antes do clique ser processado
+                // Mousedown resolve o conflito de perda de foco antes do clique
                 div.onmousedown = function(e) {
-                    e.preventDefault(); 
+                    e.preventDefault();
                     e.stopPropagation();
                     input.value = `${item.NPRECO} - ${item.ESPEC}`;
                     containerDropdown.style.display = 'none';
@@ -597,6 +644,88 @@
             tr.querySelector(`.val-${tipo}`).value = parseValor(item.PUNIT);
             calcSubtotalLinha(tr.querySelector(`.qtd-${tipo}`), tipo);
         }
+
+        // === SALVAR E CARREGAR PROJETO ===
+        function salvarProjeto() {
+            const projeto = {
+                inputsGerais: {},
+                tabelaServicos: [],
+                tabelaMateriais: []
+            };
+
+            const inputs = document.querySelectorAll('input[id], select[id]');
+            inputs.forEach(el => {
+                if(el.id !== 'input-arquivo') projeto.inputsGerais[el.id] = el.value;
+            });
+
+            document.querySelectorAll('#tabela-servicos tr').forEach(tr => {
+                const desc = tr.querySelector('.desc-input').value;
+                const qtd = tr.querySelector('.qtd-servico').value;
+                if(desc) projeto.tabelaServicos.push({ desc, qtd });
+            });
+
+            document.querySelectorAll('#tabela-materiais tr').forEach(tr => {
+                const desc = tr.querySelector('.desc-input').value;
+                const qtd = tr.querySelector('.qtd-material').value;
+                if(desc) projeto.tabelaMateriais.push({ desc, qtd });
+            });
+
+            const dataStr = JSON.stringify(projeto);
+            const blob = new Blob([dataStr], { type: "application/json" });
+            const url = URL.createObjectURL(blob);
+            
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = `Orcamento_${document.getElementById('sef').value || 'Sabesp'}.json`;
+            a.click();
+        }
+
+        function carregarProjeto(event) {
+            const file = event.target.files[0];
+            if(!file) return;
+            const reader = new FileReader();
+            reader.onload = function(e) {
+                try {
+                    const projeto = JSON.parse(e.target.result);
+                    
+                    for(let id in projeto.inputsGerais) {
+                        const el = document.getElementById(id);
+                        if(el) el.value = projeto.inputsGerais[id];
+                    }
+
+                    tratarUnidade(); tratarDano(); tratarDropdown('material-dano'); tratarDropdown('diametro-dano'); tratarSecaoVazamento(); tratarFormatoDano();
+
+                    const servRows = document.querySelectorAll('#tabela-servicos tr');
+                    projeto.tabelaServicos.forEach((item, i) => {
+                        if(servRows[i]) {
+                            const descInput = servRows[i].querySelector('.desc-input');
+                            descInput.value = item.desc;
+                            servRows[i].querySelector('.qtd-servico').value = item.qtd;
+                            let obj = dbServicos.find(x => `${x.NPRECO} - ${x.ESPEC}` === item.desc);
+                            if(obj) aplicarItemSelecionado(descInput, obj, 'servico');
+                        }
+                    });
+
+                    const matRows = document.querySelectorAll('#tabela-materiais tr');
+                    projeto.tabelaMateriais.forEach((item, i) => {
+                        if(matRows[i]) {
+                            const descInput = matRows[i].querySelector('.desc-input');
+                            descInput.value = item.desc;
+                            matRows[i].querySelector('.qtd-material').value = item.qtd;
+                            let obj = dbMateriais.find(x => `${x.NPRECO} - ${x.ESPEC}` === item.desc);
+                            if(obj) aplicarItemSelecionado(descInput, obj, 'material');
+                        }
+                    });
+
+                    calcularAgua();
+                } catch(err) {
+                    alert("Erro ao ler o ficheiro do projeto.");
+                }
+                event.target.value = ""; 
+            };
+            reader.readAsText(file);
+        }
+        // ===================================
 
         function tratarUnidade() {
             const val = document.getElementById('unidade').value;
@@ -739,7 +868,7 @@
                 const tr = document.createElement('tr');
                 tr.innerHTML = `
                     <td style="position: relative; padding: 0; overflow: visible;">
-                        <input type="text" class="desc-input" autocomplete="off" oninput="mostrarSugestoes(this, '${tipo}')" onclick="mostrarSugestoes(this, '${tipo}')" style="padding: 4px;" placeholder="Digite para buscar...">
+                        <input type="text" class="desc-input" autocomplete="off" oninput="mostrarSugestoes(this, '${tipo}')" onfocus="mostrarSugestoes(this, '${tipo}')" style="padding: 4px;" placeholder="Digite para buscar...">
                         <div class="autocomplete-list"></div>
                     </td>
                     <td style="padding: 0;"><input type="text" class="num-${tipo}" readonly style="text-align: center; color: var(--text-black); font-weight: bold; padding: 4px;"></td>
