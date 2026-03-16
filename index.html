@@ -51,7 +51,7 @@
 
         /* Envolve todo o conteúdo que não é o rodapé */
         .content-wrapper {
-            flex: 1 0 auto; 
+            flex: 1 0 auto; /* Cresce e empurra o rodapé para baixo */
             display: flex;
             flex-direction: column;
         }
@@ -106,6 +106,11 @@
         .autocomplete-list div { padding: 6px 10px; cursor: pointer; border-bottom: 1px solid #eee; font-size: 8.5pt; color: #333; }
         .autocomplete-list div:hover { background-color: var(--sabesp-blue); color: white; }
 
+        /* Bloquinhos de Água Perdida para Alinhamento Vertical */
+        .agua-block { display: flex; flex-direction: column; justify-content: flex-end; }
+        .agua-block label { margin-bottom: 3px; font-size: 8.5pt; font-weight: bold; }
+        .agua-block input, .agua-block select { height: 26px; }
+
         .totais-box {
             border: 2px solid var(--sabesp-blue); border-radius: 6px; padding: 6px 15px;
             background-color: #fafafa; margin-top: 4px; width: 100%;
@@ -123,7 +128,7 @@
 
         /* Rodapé no final empurrado pelo Flexbox */
         .rodape-container { 
-            margin-top: auto; 
+            margin-top: auto; /* Empurra pro fundo do .container */
             border-top: 1.5px solid var(--sabesp-blue); 
             padding-top: 8px; width: 100%; flex-shrink: 0;
         }
@@ -158,7 +163,7 @@
             html, body { height: 100%; margin: 0; padding: 0; background-color: white; }
             .container { 
                 box-shadow: none; padding: 0; width: 100%; max-width: 100%; border: none; margin: 0; 
-                min-height: 100%; 
+                min-height: 100%; /* Força a ocupar exatamente 1 página */
             }
             .no-print, .hide-on-print, .autocomplete-list, .action-menu, .version-wrapper { display: none !important; }
 
@@ -183,6 +188,7 @@
             .assinaturas { margin-top: 10px; }
             .assinatura-label { margin-bottom: 15px; }
             
+            /* Rodapé é garantido no fundo da página pelo Flexbox do .container */
             .rodape-container { border-top: 1.5px solid var(--sabesp-blue) !important; margin-top: auto; padding-top: 4px; }
         }
     </style>
@@ -200,12 +206,13 @@
         <div class="content-wrapper">
             
             <div class="version-wrapper no-print">
-                <div class="version-badge">v3.3 ℹ️</div>
+                <div class="version-badge">v3.4 ℹ️</div>
                 <div class="changelog-box">
                     <h4>Últimas Atualizações</h4>
                     <ul>
-                        <li><strong>v3.3:</strong> Seção de Água Perdida padronizada em formato de Tabela (Cabeçalho/Entrada); Expansão dinâmica de colunas.</li>
-                        <li><strong>v3.2:</strong> Campo 'nº' posicionado em linha independente acima da 'Unidade'.</li>
+                        <li><strong>v3.4:</strong> Opção 'Outros' no Causador dos Danos com campo de preenchimento.</li>
+                        <li><strong>v3.3:</strong> Seção de Água Perdida estruturada em Tabela.</li>
+                        <li><strong>v3.2:</strong> Campo 'nº' posicionado em linha independente.</li>
                         <li><strong>v3.1:</strong> Alinhamento perfeito; Rodapé ancorado via Flexbox absoluto.</li>
                     </ul>
                 </div>
@@ -237,13 +244,15 @@
                 <input type="text" id="endereco-local" placeholder="Digite o endereço completo">
             </div>
 
-            <div class="ident-row">
+            <div class="ident-row" style="margin-bottom: 10px;">
                 <label>Causador dos Danos:</label>
-                <select id="causador">
+                <select id="causador" onchange="tratarCausador()">
                     <option value="Prefeitura Municipal de São José dos Campos">Prefeitura Municipal de São José dos Campos</option>
                     <option value="EDP Energia S.A.">EDP Energia S.A.</option>
                     <option value="COMGAS">COMGAS</option>
+                    <option value="Outros">Outros</option>
                 </select>
+                <input type="text" id="causador-outros" class="hidden" placeholder="Digite o responsável..." style="margin-left: 8px;">
             </div>
 
             <table class="data-table">
@@ -491,7 +500,7 @@
     </div>
 
     <script>
-        const VERSAO_APP = "3.3";
+        const VERSAO_APP = "3.4";
         if (localStorage.getItem("versao_planilha_sabesp") !== VERSAO_APP) {
             if ('caches' in window) {
                 caches.keys().then(names => { names.forEach(name => caches.delete(name)); });
@@ -521,6 +530,7 @@
                 tratarSecaoVazamento(); 
                 tratarFormatoDano();
                 tratarUnidade(); 
+                tratarCausador();
             } catch(e) { console.error("Erro na inicialização:", e); }
         };
 
@@ -750,7 +760,7 @@
                         if(el) el.value = projeto.inputsGerais[id];
                     }
 
-                    tratarUnidade(); tratarDano(); tratarDropdown('material-dano'); tratarDropdown('diametro-dano'); tratarSecaoVazamento(); tratarFormatoDano();
+                    tratarUnidade(); tratarDano(); tratarDropdown('material-dano'); tratarDropdown('diametro-dano'); tratarSecaoVazamento(); tratarFormatoDano(); tratarCausador();
 
                     document.getElementById('tabela-servicos').innerHTML = '';
                     document.getElementById('tabela-materiais').innerHTML = '';
@@ -837,6 +847,17 @@
             const rodapeUnidadeDep = document.getElementById('rodape-unidade-dep');
             rodapeUnidadeDep.innerText = val || "_______________________________________________________";
         }
+        
+        function tratarCausador() {
+            const val = document.getElementById('causador').value;
+            const inputOutros = document.getElementById('causador-outros');
+            if (val === 'Outros') {
+                inputOutros.classList.remove('hidden');
+            } else {
+                inputOutros.classList.add('hidden');
+                inputOutros.value = '';
+            }
+        }
 
         function tratarDano() {
             const val = document.getElementById('tipo-dano').value;
@@ -862,7 +883,7 @@
             if(id === 'diametro-dano') calcularAgua();
         }
 
-        // NOVO SISTEMA DE COLUNAS DA ÁGUA PERDIDA
+        // SISTEMA DE COLUNAS DA ÁGUA PERDIDA
         function tratarSecaoVazamento() {
             const val = document.getElementById('tipo-secao').value;
             const formatoSelect = document.getElementById('formato-dano');
@@ -885,7 +906,7 @@
                 tdFormato.colSpan = 3;
                 thFormato.innerText = "Formato do Dano";
                 
-                tratarFormatoDano(); // Restaura dimensões visíveis
+                tratarFormatoDano(); 
             } else {
                 formatoSelect.style.display = 'none';
                 avisoPlena.style.display = 'block';
