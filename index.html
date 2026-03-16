@@ -12,7 +12,6 @@
     <script src="materiais.js"></script>
 
     <style>
-        /* === IDENTIDADE VISUAL E VARIÁVEIS === */
         :root {
             --sabesp-blue: #12D0FF; 
             --text-black: #000000;
@@ -41,15 +40,9 @@
             max-width: 100%;
         }
 
-        /* === CABEÇALHO === */
         .header-grid {
-            display: flex;
-            justify-content: space-between;
-            align-items: flex-start;
-            border-bottom: 2px solid var(--sabesp-blue);
-            padding-bottom: 10px;
-            margin-bottom: 15px;
-            width: 100%;
+            display: flex; justify-content: space-between; align-items: flex-start;
+            border-bottom: 2px solid var(--sabesp-blue); padding-bottom: 10px; margin-bottom: 15px; width: 100%;
         }
         
         .titles { flex: 1; text-align: center; padding-right: 20px; }
@@ -59,51 +52,33 @@
         .logo-box { text-align: right; flex-shrink: 0; }
         .logo-placeholder { max-height: 65px; max-width: 150px; object-fit: contain; }
 
-        /* === FORMULÁRIOS === */
         .row { display: flex; align-items: center; flex-wrap: wrap; gap: 8px; margin-bottom: 6px; width: 100%; }
         label { font-weight: bold; color: var(--text-black); font-size: 10pt; }
         
         input, select {
-            padding: 3px 5px;
-            border: 1px solid var(--border-color);
-            border-radius: 4px;
-            font-family: Tahoma, sans-serif;
-            font-size: 10pt;
-            color: var(--text-black);
-            width: 100%;
+            padding: 3px 5px; border: 1px solid var(--border-color); border-radius: 4px;
+            font-family: Tahoma, sans-serif; font-size: 10pt; color: var(--text-black); width: 100%;
         }
         input:focus, select:focus { border-color: var(--sabesp-blue); outline: none; }
         input[type="number"] { text-align: right; }
 
         .hidden { display: none !important; }
 
-        /* === TABELAS FIXAS === */
         table {
-            width: 100%;
-            table-layout: fixed; 
-            border-collapse: collapse;
-            margin-bottom: 15px;
-            font-size: 9pt; 
-            word-wrap: break-word;
+            width: 100%; table-layout: fixed; border-collapse: collapse; margin-bottom: 15px;
+            font-size: 9pt; word-wrap: break-word;
         }
         th, td { border: 1px solid var(--border-color); padding: 3px; text-align: left; overflow: hidden; }
         th { background-color: var(--bg-color); font-weight: bold; text-align: center; }
         
         th.section-header {
-            font-size: 11pt; 
-            color: var(--sabesp-blue);
-            text-transform: uppercase;
-            text-align: left;
-            background-color: #f9f9f9;
-            padding: 5px 8px;
-            border-bottom: 2px solid var(--sabesp-blue);
+            font-size: 11pt; color: var(--sabesp-blue); text-transform: uppercase; text-align: left;
+            background-color: #f9f9f9; padding: 5px 8px; border-bottom: 2px solid var(--sabesp-blue);
         }
 
         .subtitle { font-weight: bold; font-size: 10pt; color: var(--sabesp-blue); text-align: left; margin-top: 2px; }
-
         td input { width: 100%; border: none; background: transparent; font-size: 9pt; padding: 2px; } 
 
-        /* === AUTOCOMPLETAR === */
         .autocomplete-list {
             position: absolute; top: 100%; left: 0; width: 100%; background: #fff;
             border: 1px solid var(--sabesp-blue); box-shadow: 0 4px 10px rgba(0,0,0,0.15);
@@ -112,19 +87,13 @@
         .autocomplete-list div { padding: 6px 10px; cursor: pointer; border-bottom: 1px solid #eee; font-size: 9pt; color: #333; }
         .autocomplete-list div:hover { background-color: var(--sabesp-blue); color: white; }
 
-        /* === TOTAIS E ASSINATURAS === */
         .totais-box {
             border: 2px solid var(--sabesp-blue); border-radius: 6px; padding: 10px 15px;
             background-color: #fafafa; margin-top: 5px; width: 100%;
         }
         .totais-box .row { justify-content: space-between; margin-bottom: 4px; font-weight: bold; font-size: 10pt; }
         .total-final-row { 
-            font-size: 12pt; 
-            font-weight: bold; 
-            color: var(--sabesp-blue); 
-            margin-top: 8px; 
-            padding-top: 8px; 
-            border-top: 2px solid var(--sabesp-blue); 
+            font-size: 12pt; font-weight: bold; color: var(--sabesp-blue); margin-top: 8px; padding-top: 8px; border-top: 2px solid var(--sabesp-blue); 
         }
 
         .assinaturas { display: flex; justify-content: space-around; text-align: center; margin-top: 25px; width: 100%; }
@@ -141,7 +110,6 @@
             box-shadow: 0 2px 5px rgba(0,0,0,0.2); margin: 5px;
         }
 
-        /* === OTIMIZAÇÃO PARA IMPRESSÃO (PDF) === */
         @page { size: A4 portrait; margin: 10mm 8mm 15mm 8mm; } 
         
         @media print {
@@ -170,18 +138,11 @@
             .assinaturas { margin-top: 15px; page-break-inside: avoid; }
             .assinatura-label { margin-bottom: 20px; }
             
-            /* RODAPÉ ANCORADO NO FUNDO DA PÁGINA IMPRESSA */
             .rodape-container { 
-                position: fixed; 
-                bottom: 5px; 
-                left: 0; 
-                width: 100%; 
+                position: fixed; bottom: 5px; left: 0; width: 100%; 
                 border-top: 1.5px solid var(--sabesp-blue) !important; 
-                margin-top: 0; 
-                padding-top: 4px; 
-                padding-bottom: 5px;
-                background: white; 
-                z-index: 100; 
+                margin-top: 0; padding-top: 4px; padding-bottom: 5px;
+                background: white; z-index: 100; 
             }
         }
     </style>
@@ -189,10 +150,6 @@
 <body>
     <div class="no-print" style="text-align: center; margin-bottom: 15px;">
         <button class="btn" onclick="window.print()">🖨️ Imprimir / Guardar PDF</button>
-    </div>
-
-    <div id="erro-js" class="no-print hidden" style="background: #ffcccc; color: #900; padding: 10px; text-align: center; margin-bottom: 10px; border-radius: 5px; font-weight: bold;">
-        ⚠️ Erro ao carregar Materiais ou Serviços. Verifique se os arquivos .js possuem a tag <i>const baseServicos = [</i> na primeira linha.
     </div>
 
     <div class="container">
@@ -493,7 +450,7 @@
             <div class="row total-final-row">
                 <span>TOTAL FINAL:</span> <span>R$ <span id="total-final">0.00</span></span>
             </div>
-            <div class="row" style="justify-content: flex-end; font-size: 9pt; color: #666; margin-top: 2px;">
+            <div class="row" style="justify-content: flex-end; font-size: 11pt; color: #555; margin-top: 2px;">
                 Equivalente em UFESPs: <span id="total-ufesp" style="margin-left: 5px; font-weight: bold; color: var(--text-black);">0.00</span>
             </div>
         </div>
@@ -534,6 +491,14 @@
     </div>
 
     <script>
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('sw.js');
+            });
+        }
+    </script>
+
+    <script>
         let dbServicos = [];
         let dbMateriais = [];
 
@@ -544,21 +509,15 @@
         };
 
         window.onload = () => {
-            try { inicializarBases(); } catch(e) { console.error(e); }
-            try { gerarLinhasTabela('tabela-servicos', 5, 'servico'); } catch(e) {}
-            try { gerarLinhasTabela('tabela-materiais', 5, 'material'); } catch(e) {}
-            
+            inicializarBases();
+            gerarLinhasTabela('tabela-servicos', 5, 'servico'); 
+            gerarLinhasTabela('tabela-materiais', 5, 'material');
             tratarSecaoVazamento(); 
             tratarFormatoDano();
         };
 
         function inicializarBases() {
-            let errorFlag = false;
-
-            if (typeof baseServicos !== 'undefined') {
-                dbServicos = baseServicos;
-            } else { errorFlag = true; }
-
+            if (typeof baseServicos !== 'undefined') dbServicos = baseServicos;
             if (typeof baseMateriais !== 'undefined') {
                 dbMateriais = baseMateriais.map(m => ({
                     NPRECO: m["Material"] !== undefined ? m["Material"] : m.NPRECO,
@@ -566,13 +525,6 @@
                     UNID: m["Unid.medida básica"] !== undefined ? String(m["Unid.medida básica"]).trim() : m.UNID,
                     PUNIT: m["Valor Unitário"] !== undefined ? m["Valor Unitário"] : m.PUNIT
                 }));
-            } else { errorFlag = true; }
-
-            if (errorFlag) {
-                document.getElementById('erro-js').classList.remove('hidden');
-                // Mock data para evitar quebra total do form em caso de erro nos arquivos
-                if (dbServicos.length === 0) dbServicos = [{ ESPEC: "REPARO TESTE", NPRECO: "123", UNID: "UN", PUNIT: "10.00" }];
-                if (dbMateriais.length === 0) dbMateriais = [{ ESPEC: "MATERIAL TESTE", NPRECO: "456", UNID: "M", PUNIT: "5.00" }];
             }
         }
 
@@ -619,11 +571,9 @@
             }
 
             containerDropdown.innerHTML = '';
-            
-            // FILTRO SEGURO 
             const filtrados = db.filter(item => {
-                const espec = removerAcentos(String(item.ESPEC || ''));
-                const npreco = removerAcentos(String(item.NPRECO || ''));
+                const espec = removerAcentos(String(item.ESPEC));
+                const npreco = removerAcentos(String(item.NPRECO));
                 return espec.includes(valPesquisa) || npreco.includes(valPesquisa);
             }).slice(0, 40);
 
