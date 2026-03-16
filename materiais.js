@@ -1110,4 +1110,4 @@ const baseMateriais = [
    "Valor Unitário": " R$ 118,37 "
  },
 
-]
+];
