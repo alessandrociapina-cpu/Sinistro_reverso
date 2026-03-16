@@ -31,7 +31,6 @@
             text-align: justify;
         }
 
-        /* O container agora usa Flexbox para empurrar o rodapé para o fundo */
         .container {
             background-color: white;
             padding: 20px 30px;
@@ -39,15 +38,12 @@
             border-radius: 8px;
             width: 100%;
             max-width: 100%;
-            display: flex;
-            flex-direction: column;
-            min-height: 270mm; /* Simula a altura de uma folha A4 na tela */
         }
 
-        /* A estrutura principal cresce para ocupar o espaço livre */
-        table.print-structure { width: 100%; border: none; border-collapse: collapse; flex: 1; }
+        table.print-structure { width: 100%; border: none; border-collapse: collapse; }
         table.print-structure > thead > tr > td, 
-        table.print-structure > tbody > tr > td { border: none; padding: 0; vertical-align: top; }
+        table.print-structure > tbody > tr > td, 
+        table.print-structure > tfoot > tr > td { border: none; padding: 0; vertical-align: top; }
 
         .header-grid {
             display: flex; justify-content: space-between; align-items: flex-start;
@@ -59,14 +55,13 @@
         .logo-box { text-align: right; flex-shrink: 0; }
         .logo-placeholder { max-height: 65px; max-width: 150px; object-fit: contain; }
 
-        /* === ÁREA DE IDENTIFICAÇÃO ALINHADA === */
+        /* === ÁREA DE IDENTIFICAÇÃO === */
         .ident-row { display: flex; align-items: center; margin-bottom: 6px; width: 100%; }
         .ident-row label { width: 140px; font-size: 10pt; font-weight: bold; color: var(--text-black); flex-shrink: 0; text-align: left; }
         .ident-row input[type="text"], .ident-row select { flex: 1; font-size: 10pt; padding: 4px 6px; }
-        .ident-row .label-n { width: auto; margin-left: 20px; margin-right: 5px; }
-        .ident-row #unidade { flex: 0 0 120px; }
+        /* Empurra o label do número para a direita */
+        .ident-row .label-n { width: auto; margin-left: auto; margin-right: 5px; }
         .ident-row #sef { flex: 0 0 140px; }
-        .ident-row #unidade-outros { flex: 1; margin-left: 10px; }
 
         .row { display: flex; align-items: center; flex-wrap: wrap; gap: 8px; margin-bottom: 6px; width: 100%; }
         
@@ -80,6 +75,7 @@
 
         .hidden { display: none !important; }
 
+        /* === TABELAS === */
         table.data-table {
             width: 100%; table-layout: fixed; border-collapse: collapse; margin-bottom: 15px;
             font-size: 9pt; word-wrap: break-word; border: 1px solid var(--border-color);
@@ -119,8 +115,9 @@
         .linha-assinatura { border-top: 1px solid var(--text-black); width: 100%; margin-bottom: 3px; }
 
         /* Rodapé no final */
-        .rodape-container { margin-top: auto; border-top: 1.5px solid var(--sabesp-blue); padding-top: 8px; width: 100%; }
+        .rodape-container { margin-top: 10px; border-top: 1.5px solid var(--sabesp-blue); padding-top: 8px; width: 100%; }
         .rodape-texto, .rodape-texto div, .rodape-texto span { font-weight: bold; font-size: 8pt; color: var(--sabesp-blue); text-align: left; line-height: 1.2; }
+        #rodape-unidade-dep { font-weight: normal; }
 
         .action-menu { display: flex; justify-content: center; gap: 10px; margin-bottom: 15px; flex-wrap: wrap; }
         .btn {
@@ -132,7 +129,6 @@
         .btn-salvar { background-color: #28a745; }
         .btn-carregar { background-color: #ff9800; color: black; }
 
-        /* JANELA FLUTUANTE DE VERSÕES */
         .version-wrapper { position: absolute; top: 10px; left: 10px; cursor: help; }
         .version-badge { background-color: var(--sabesp-blue); color: #000; font-weight: bold; font-size: 8pt; padding: 4px 8px; border-radius: 12px; box-shadow: 0 2px 4px rgba(0,0,0,0.2); }
         .changelog-box {
@@ -149,10 +145,11 @@
         
         @media print {
             body { margin: 0; padding: 0; padding-bottom: 25mm; background-color: white; color: #000; max-width: 100%; width: 100%; }
-            .container { box-shadow: none; padding: 0; width: 100%; max-width: 100%; border: none; margin: 0; min-height: auto; display: block; }
+            .container { box-shadow: none; padding: 0; width: 100%; max-width: 100%; border: none; margin: 0; }
             .no-print, .hide-on-print, .autocomplete-list, .action-menu, .version-wrapper { display: none !important; }
             
             table.print-structure > thead { display: table-header-group; }
+            table.print-structure > tfoot { display: table-footer-group; }
 
             .linha1, .linha2, th.section-header, .subtitle, .rodape-texto, .rodape-texto div, .rodape-texto span, .total-final-row { 
                 color: var(--sabesp-blue) !important; -webkit-print-color-adjust: exact; print-color-adjust: exact; 
@@ -168,11 +165,11 @@
             table.data-table td { padding: 1px 2px; }
             
             .ident-row { margin-bottom: 2px; }
-            table.data-table { margin-bottom: 8px; font-size: 8.5pt; width: 100%; table-layout: fixed; }
+            table.data-table { margin-bottom: 8px; margin-top: 8px; font-size: 8.5pt; width: 100%; table-layout: fixed; }
             th.section-header { padding: 4px 6px; font-size: 10pt; text-align: left !important; } 
             table.data-table td input { font-size: 8.5pt; }
             
-            .assinaturas { margin-top: 15px; }
+            .assinaturas { margin-top: 15px; page-break-inside: avoid; }
             .assinatura-label { margin-bottom: 20px; }
             
             /* O RODAPÉ FIXA-SE NO FUNDO DE TODAS AS PÁGINAS NA IMPRESSÃO */
@@ -196,14 +193,15 @@
 
     <div class="container">
         <div class="version-wrapper no-print">
-            <div class="version-badge">v2.7 ℹ️</div>
+            <div class="version-badge">v2.8 ℹ️</div>
             <div class="changelog-box">
                 <h4>Últimas Atualizações</h4>
                 <ul>
+                    <li><strong>v2.8:</strong> Fim do dropdown na Unidade; Alinhamento do nº à direita.</li>
                     <li><strong>v2.7:</strong> Identificação alinhada à esquerda; Rodapé fixado no fundo; Texto e negritos corrigidos.</li>
-                    <li><strong>v2.6:</strong> Formulário de identificação realinhado; Unidade dinâmica e direta; Ajuste final de fontes.</li>
                     <li><strong>v2.5:</strong> Correção de bug no plural das linhas dinâmicas de materiais.</li>
                     <li><strong>v2.4:</strong> Sistema Inteligente de Linhas (Remove vazias automaticamente).</li>
+                    <li><strong>v2.3:</strong> Salvar/Carregar projeto (.json); Auto-update em Cache.</li>
                 </ul>
             </div>
         </div>
@@ -230,19 +228,10 @@
                     <td>
                         <div class="ident-row">
                             <label>Unidade:</label>
-                            <select id="unidade" onchange="tratarUnidade()">
-                                <option value="OVMS" selected>OVMS</option>
-                                <option value="Outros">Outros</option>
-                            </select>
-                            <input type="text" id="unidade-outros" class="hidden" placeholder="Informe a unidade">
+                            <input type="text" id="unidade" value="Divisão de Manutenção e Serviços Operacionais de São José dos Campos - OVMS" oninput="tratarUnidade()">
                             
                             <label class="label-n">nº:</label>
                             <input type="text" id="sef" placeholder="XXX/XX">
-                        </div>
-
-                        <div class="ident-row">
-                            <label></label>
-                            <div id="unidade-extenso" style="font-size: 10pt; font-weight: bold; flex: 1; padding-top: 2px;">Divisão de Manutenção e Serviços Operacionais de São José dos Campos - SP</div>
                         </div>
 
                         <div class="ident-row">
@@ -475,8 +464,8 @@
                             <div class="assinatura-box">
                                 <div class="assinatura-label">Elaborado por:</div>
                                 <div class="linha-assinatura"></div>
-                                <input type="text" id="ass-nome-1" placeholder="Nome do Responsável" style="padding: 0; margin-bottom: 2px; border:none; background:transparent; font-size: 10pt;">
-                                <select id="ass-cargo-1" style="padding: 0; border:none; background:transparent; font-size: 10pt; color: #555;">
+                                <input type="text" id="ass-nome-1" placeholder="Nome do Responsável" style="padding: 0; margin-bottom: 2px; border:none; background:transparent; font-size: 9.5pt;">
+                                <select id="ass-cargo-1" style="padding: 0; border:none; background:transparent; font-size: 9.5pt; color: #555;">
                                     <option>Engenheiro Civil</option><option>Engenheiro</option>
                                     <option>Técnico em Saneamento</option><option>Coordenador</option><option>Outro</option>
                                 </select>
@@ -484,8 +473,8 @@
                             <div class="assinatura-box">
                                 <div class="assinatura-label">Aprovado por:</div>
                                 <div class="linha-assinatura"></div>
-                                <input type="text" id="ass-nome-2" placeholder="Nome do Gerente/Superior" style="padding: 0; margin-bottom: 2px; border:none; background:transparent; font-size: 10pt;">
-                                <select id="ass-cargo-2" style="padding: 0; border:none; background:transparent; font-size: 10pt; color: #555;">
+                                <input type="text" id="ass-nome-2" placeholder="Nome do Gerente/Superior" style="padding: 0; margin-bottom: 2px; border:none; background:transparent; font-size: 9.5pt;">
+                                <select id="ass-cargo-2" style="padding: 0; border:none; background:transparent; font-size: 9.5pt; color: #555;">
                                     <option>Engenheiro Civil</option><option>Engenheiro</option>
                                     <option>Gerente de Divisão</option><option>Coordenador</option><option>Outro</option>
                                 </select>
@@ -495,27 +484,31 @@
                     </td>
                 </tr>
             </tbody>
+            <tfoot>
+                <tr>
+                    <td>
+                        <div class="rodape-container">
+                            <div class="rodape-texto">
+                                Companhia de Saneamento Básico do Estado de São Paulo – Sabesp<br>
+                                <span id="rodape-unidade-dep" contenteditable="true" style="display:inline-block; outline:none; font-weight: normal;">Divisão de Manutenção e Serviços Operacionais de São José dos Campos - OVMS</span><br>
+                                <div id="rodape-endereco" contenteditable="true" style="display: inline-block; outline: none; min-width: 100%;">Rua Euclides Miragaia, 126, Centro - CEP 12.245-820 - São José dos Campos - SP</div>
+                                <br>www.sabesp.com.br
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+            </tfoot>
         </table>
 
-        <div class="rodape-container">
-            <div class="rodape-texto">
-                Companhia de Saneamento Básico do Estado de São Paulo – Sabesp<br>
-                <span id="rodape-unidade-dep" contenteditable="true" style="display:inline-block; outline:none;">Divisão de Manutenção e Serviços Operacionais de São José dos Campos - OVMS</span><br>
-                <div id="rodape-endereco" contenteditable="true" style="display: inline-block; outline: none; min-width: 100%;">Rua Euclides Miragaia, 126, Centro - CEP 12.245-820 - São José dos Campos - SP</div>
-                <br>www.sabesp.com.br
-            </div>
+        <div class="action-menu no-print" style="margin-top: 30px;">
+            <button class="btn btn-salvar" onclick="salvarProjeto()">💾 Salvar Projeto</button>
+            <button class="btn btn-carregar" onclick="document.getElementById('input-arquivo').click()">📂 Carregar Projeto</button>
+            <button class="btn" onclick="window.print()">🖨️ Imprimir / PDF</button>
         </div>
-
-    </div>
-
-    <div class="action-menu no-print" style="margin-top: 15px;">
-        <button class="btn btn-salvar" onclick="salvarProjeto()">💾 Salvar Projeto</button>
-        <button class="btn btn-carregar" onclick="document.getElementById('input-arquivo').click()">📂 Carregar Projeto</button>
-        <button class="btn" onclick="window.print()">🖨️ Imprimir / PDF</button>
     </div>
 
     <script>
-        const VERSAO_APP = "2.7";
+        const VERSAO_APP = "2.8";
         if (localStorage.getItem("versao_planilha_sabesp") !== VERSAO_APP) {
             if ('caches' in window) {
                 caches.keys().then(names => { names.forEach(name => caches.delete(name)); });
@@ -858,29 +851,9 @@
 
         function tratarUnidade() {
             const val = document.getElementById('unidade').value;
-            const inputOutros = document.getElementById('unidade-outros');
-            const textoExtenso = document.getElementById('unidade-extenso');
             const rodapeUnidadeDep = document.getElementById('rodape-unidade-dep');
-            const rodapeEnd = document.getElementById('rodape-endereco');
-
-            if (val === 'Outros') {
-                inputOutros.classList.remove('hidden');
-                textoExtenso.innerText = "_______________________________________________________";
-                rodapeUnidadeDep.innerText = "_______________________________________________________";
-                rodapeEnd.innerText = "Insira o endereço aqui";
-            } else {
-                inputOutros.classList.add('hidden');
-                textoExtenso.innerText = "Divisão de Manutenção e Serviços Operacionais de São José dos Campos - SP";
-                rodapeUnidadeDep.innerText = "Divisão de Manutenção e Serviços Operacionais de São José dos Campos - SP";
-                rodapeEnd.innerText = "Rua Euclides Miragaia, 126, Centro - CEP 12.245-820 - São José dos Campos - SP";
-            }
+            rodapeUnidadeDep.innerText = val || "_______________________________________________________";
         }
-
-        document.getElementById('unidade-outros').addEventListener('input', function() {
-            const texto = this.value || "_______________________________________________________";
-            document.getElementById('unidade-extenso').innerText = texto;
-            document.getElementById('rodape-unidade-dep').innerText = texto;
-        });
 
         function tratarDano() {
             const val = document.getElementById('tipo-dano').value;
