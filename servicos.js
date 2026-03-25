@@ -1,5560 +1,3558 @@
 const baseServicos = [
  {
-   "ITEM": 1100202,
-   "ESPEC": "AD EQ AGUA PERIODO NOTURNO",
-   "NPRECO": 72000899,
-   "UNID": "EQD",
-   "PUNIT": "R$ 339,73"
+   "ITEM": 72000779,
+   "DESCRIÇÃO": "REPARO DE REDE DE ESGOTO CERAMICO/PVC DN 150/200 MM - PROF. ATE 2,00M, S/ REPOS DO PAV (SFMH)",
+   "DATA I0": "jan/26",
+   "UNID": "M",
+   "PREÇO": "910,96"
  },
  {
-   "ITEM": 1100203,
-   "ESPEC": "AD EQ ESGOTO PERIODO NOTURNO",
-   "NPRECO": 72000900,
-   "UNID": "EQD",
-   "PUNIT": "R$ 412,71"
+   "ITEM": 72000780,
+   "DESCRIÇÃO": "REPARO DE REDE DE ESGOTO CERAMICO/PVC DN 150/200 MM - PROF. DE 2,01 A 3,00M, S/ REPOS DO PAV (SFMH)",
+   "DATA I0": "jan/26",
+   "UNID": "M",
+   "PREÇO": "1.334,89"
  },
  {
-   "ITEM": 2060406,
-   "ESPEC": "ADC FURA CARGA ATE 400 INTERLIG",
-   "NPRECO": 72000394,
+   "ITEM": 72000781,
+   "DESCRIÇÃO": "REPARO DE REDE DE ESGOTO CERAMICO/PVC DN 150/200 MM - PROF. DE 3,01 A 4,00M, S/ REPOS DO PAV (SFMH)",
+   "DATA I0": "jan/26",
+   "UNID": "M",
+   "PREÇO": "1.692,09"
+ },
+ {
+   "ITEM": 72000782,
+   "DESCRIÇÃO": "REPARO DE REDE DE ESGOTO CERAMICO/PVC DN 250 A 300MM - PROF. ATE 2,00M, S/ REPOS DO PAV (SFMH)",
+   "DATA I0": "jan/26",
+   "UNID": "M",
+   "PREÇO": "980,91"
+ },
+ {
+   "ITEM": 72000783,
+   "DESCRIÇÃO": "REPARO DE REDE DE ESGOTO CERAMICO/PVC DN 250 A 300MM - PROF. DE 2,01 A 3,00M, S/ REPOS DO PAV (SFMH)",
+   "DATA I0": "jan/26",
+   "UNID": "M",
+   "PREÇO": "1.585,72"
+ },
+ {
+   "ITEM": 72000784,
+   "DESCRIÇÃO": "REPARO DE REDE DE ESGOTO CERAMICO/PVC DN 250 A 300MM - PROF. DE 3,01 A 4,00M, S/ REPOS DO PAV (SFMH)",
+   "DATA I0": "jan/26",
+   "UNID": "M",
+   "PREÇO": "2.134,97"
+ },
+ {
+   "ITEM": 72000785,
+   "DESCRIÇÃO": "REPARO DE REDE DE ESGOTO PVC DN 150/200 MM - PROF. ATE 2,00M, S/ REPOS DO PAV",
+   "DATA I0": "jan/26",
+   "UNID": "M",
+   "PREÇO": "1.072,05"
+ },
+ {
+   "ITEM": 72000786,
+   "DESCRIÇÃO": "REPARO DE REDE DE ESGOTO PVC DN 150/200 MM - PROF. DE 2,01 A 3,00M, S/ REPOS DO PAV",
+   "DATA I0": "jan/26",
+   "UNID": "M",
+   "PREÇO": "1.423,42"
+ },
+ {
+   "ITEM": 72000787,
+   "DESCRIÇÃO": "REPARO DE REDE DE ESGOTO PVC DN 150/200 MM - PROF. DE 3,01 A 4,00M, S/ REPOS DO PAV",
+   "DATA I0": "jan/26",
+   "UNID": "M",
+   "PREÇO": "1.904,57"
+ },
+ {
+   "ITEM": 72000788,
+   "DESCRIÇÃO": "REPARO DE REDE DE ESGOTO CERAMICO DN 150/200 MM - PROF. ATE 2,00M, S/ REPOS DO PAV",
+   "DATA I0": "jan/26",
+   "UNID": "M",
+   "PREÇO": "1.217,52"
+ },
+ {
+   "ITEM": 72000789,
+   "DESCRIÇÃO": "REPARO DE REDE DE ESGOTO CERAMICO DN 150/200 MM - PROF. DE 2,01 A 3,00M, S/ REPOS DO PAV",
+   "DATA I0": "jan/26",
+   "UNID": "M",
+   "PREÇO": "1.568,89"
+ },
+ {
+   "ITEM": 72000790,
+   "DESCRIÇÃO": "REPARO DE REDE DE ESGOTO CERAMICO DN 150/200 MM - PROF. DE 3,01 A 4,00M, S/ REPOS DO PAV",
+   "DATA I0": "jan/26",
+   "UNID": "M",
+   "PREÇO": "2.050,04"
+ },
+ {
+   "ITEM": 72000791,
+   "DESCRIÇÃO": "LRP - PASSEIO CIMENTADO - REPARO DE REDE DE ESGOTO PROF. ATE 2,00M",
+   "DATA I0": "jan/26",
+   "UNID": "M",
+   "PREÇO": "606,19"
+ },
+ {
+   "ITEM": 72000792,
+   "DESCRIÇÃO": "LRP - PASSEIO CIMENTADO - REPARO DE REDE DE ESGOTO PROF. DE 2,01 A 3,00M",
+   "DATA I0": "jan/26",
+   "UNID": "M",
+   "PREÇO": "1.204,62"
+ },
+ {
+   "ITEM": 72000793,
+   "DESCRIÇÃO": "LRP - PASSEIO CIMENTADO - REPARO DE REDE DE ESGOTO PROF. DE 3,01 A 4,00M",
+   "DATA I0": "jan/26",
+   "UNID": "M",
+   "PREÇO": "1.668,89"
+ },
+ {
+   "ITEM": 72000794,
+   "DESCRIÇÃO": "LRP - PASSEIO ESPECIAL - REPARO DE REDE DE ESGOTO PROF. ATE 2,00M",
+   "DATA I0": "jan/26",
+   "UNID": "M",
+   "PREÇO": "743,45"
+ },
+ {
+   "ITEM": 72000795,
+   "DESCRIÇÃO": "LRP - PASSEIO ESPECIAL - REPARO DE REDE DE ESGOTO PROF. DE 2,01 A 3,00M",
+   "DATA I0": "jan/26",
+   "UNID": "M",
+   "PREÇO": "1.374,48"
+ },
+ {
+   "ITEM": 72000796,
+   "DESCRIÇÃO": "LRP - PASSEIO ESPECIAL - REPARO DE REDE DE ESGOTO PROF. DE 3,01 A 4,00M",
+   "DATA I0": "jan/26",
+   "UNID": "M",
+   "PREÇO": "1.828,97"
+ },
+ {
+   "ITEM": 72001147,
+   "DESCRIÇÃO": "LPB - LEITO - REPARO DE REDE DE ESGOTO - PROF. ATE 2,00M (C)",
+   "DATA I0": "jan/26",
+   "UNID": "M",
+   "PREÇO": "545,36"
+ },
+ {
+   "ITEM": 72001146,
+   "DESCRIÇÃO": "LPB - LEITO - REPARO DE REDE DE ESGOTO - PROF. ATE 2,00M (B)",
+   "DATA I0": "jan/26",
+   "UNID": "M",
+   "PREÇO": "551,74"
+ },
+ {
+   "ITEM": 72001145,
+   "DESCRIÇÃO": "LPB - LEITO - REPARO DE REDE DE ESGOTO - PROF. ATE 2,00M (A)",
+   "DATA I0": "jan/26",
+   "UNID": "M",
+   "PREÇO": "587,86"
+ },
+ {
+   "ITEM": 72001150,
+   "DESCRIÇÃO": "LPB - LEITO - REPARO DE REDE DE ESGOTO - PROF. DE 2,01 A 3,00M (C)",
+   "DATA I0": "jan/26",
+   "UNID": "M",
+   "PREÇO": "1.129,26"
+ },
+ {
+   "ITEM": 72001149,
+   "DESCRIÇÃO": "LPB - LEITO - REPARO DE REDE DE ESGOTO - PROF. DE 2,01 A 3,00M (B)",
+   "DATA I0": "jan/26",
+   "UNID": "M",
+   "PREÇO": "1.134,35"
+ },
+ {
+   "ITEM": 72001148,
+   "DESCRIÇÃO": "LPB - LEITO - REPARO DE REDE DE ESGOTO - PROF. DE 2,01 A 3,00M (A)",
+   "DATA I0": "jan/26",
+   "UNID": "M",
+   "PREÇO": "1.176,16"
+ },
+ {
+   "ITEM": 72001153,
+   "DESCRIÇÃO": "LPB - LEITO - REPARO DE REDE DE ESGOTO - PROF. DE 3,01 A 4,00M (C)",
+   "DATA I0": "jan/26",
+   "UNID": "M",
+   "PREÇO": "1.583,74"
+ },
+ {
+   "ITEM": 72001152,
+   "DESCRIÇÃO": "LPB - LEITO - REPARO DE REDE DE ESGOTO - PROF. DE 3,01 A 4,00M (B)",
+   "DATA I0": "jan/26",
+   "UNID": "M",
+   "PREÇO": "1.588,83"
+ },
+ {
+   "ITEM": 72001151,
+   "DESCRIÇÃO": "LPB - LEITO - REPARO DE REDE DE ESGOTO - PROF. DE 3,01 A 4,00M (A)",
+   "DATA I0": "jan/26",
+   "UNID": "M",
+   "PREÇO": "1.630,64"
+ },
+ {
+   "ITEM": 72001331,
+   "DESCRIÇÃO": "REPOSIÇÃO DE CAPA ASFÁLTICA CBUQ - REPARO DE REDE DE ESGOTO PROF. ATE 2,00M (C)",
+   "DATA I0": "jan/26",
+   "UNID": "M",
+   "PREÇO": "143,12"
+ },
+ {
+   "ITEM": 72001330,
+   "DESCRIÇÃO": "REPOSIÇÃO DE CAPA ASFÁLTICA CBUQ - REPARO DE REDE DE ESGOTO PROF. ATE 2,00M (B)",
+   "DATA I0": "jan/26",
+   "UNID": "M",
+   "PREÇO": "347,12"
+ },
+ {
+   "ITEM": 72001329,
+   "DESCRIÇÃO": "REPOSIÇÃO DE CAPA ASFÁLTICA CBUQ - REPARO DE REDE DE ESGOTO PROF. ATE 2,00M (A)",
+   "DATA I0": "jan/26",
+   "UNID": "M",
+   "PREÇO": "347,12"
+ },
+ {
+   "ITEM": 72001334,
+   "DESCRIÇÃO": "REPOSIÇÃO DE CAPA ASFÁLTICA CBUQ - REPARO DE REDE DE ESGOTO PROF. DE 2,01 A 3,00M (C)",
+   "DATA I0": "jan/26",
+   "UNID": "M",
+   "PREÇO": "173,48"
+ },
+ {
+   "ITEM": 72001333,
+   "DESCRIÇÃO": "REPOSIÇÃO DE CAPA ASFÁLTICA CBUQ - REPARO DE REDE DE ESGOTO PROF. DE 2,01 A 3,00M (B)",
+   "DATA I0": "jan/26",
+   "UNID": "M",
+   "PREÇO": "425,02"
+ },
+ {
+   "ITEM": 72001332,
+   "DESCRIÇÃO": "REPOSIÇÃO DE CAPA ASFÁLTICA CBUQ - REPARO DE REDE DE ESGOTO PROF. DE 2,01 A 3,00M (A)",
+   "DATA I0": "jan/26",
+   "UNID": "M",
+   "PREÇO": "425,02"
+ },
+ {
+   "ITEM": 72001337,
+   "DESCRIÇÃO": "REPOSIÇÃO DE CAPA ASFÁLTICA CBUQ - REPARO DE REDE DE ESGOTO PROF. DE 3,01 A 4,00M (C)",
+   "DATA I0": "jan/26",
+   "UNID": "M",
+   "PREÇO": "173,48"
+ },
+ {
+   "ITEM": 72001336,
+   "DESCRIÇÃO": "REPOSIÇÃO DE CAPA ASFÁLTICA CBUQ - REPARO DE REDE DE ESGOTO PROF. DE 3,01 A 4,00M (B)",
+   "DATA I0": "jan/26",
+   "UNID": "M",
+   "PREÇO": "425,02"
+ },
+ {
+   "ITEM": 72001335,
+   "DESCRIÇÃO": "REPOSIÇÃO DE CAPA ASFÁLTICA CBUQ - REPARO DE REDE DE ESGOTO PROF. DE 3,01 A 4,00M (A)",
+   "DATA I0": "jan/26",
+   "UNID": "M",
+   "PREÇO": "425,02"
+ },
+ {
+   "ITEM": 72000815,
+   "DESCRIÇÃO": "REPARO DE PV, PI E TL, EM QUALQUER PAVIMENTO, C/ LBP LEITO (C)",
+   "DATA I0": "jan/26",
    "UNID": "un",
-   "PUNIT": "R$ 314,35"
+   "PREÇO": "1.011,44"
  },
  {
-   "ITEM": 2020603,
-   "ESPEC": "ADC INCL LIG UMA MULT",
-   "NPRECO": 72000221,
+   "ITEM": 72000816,
+   "DESCRIÇÃO": "REPARO DE PV, PI E TL, EM QUALQUER PAVIMENTO, C/ LBP LEITO (B)",
+   "DATA I0": "jan/26",
    "UNID": "un",
-   "PUNIT": "R$ 17,28"
+   "PREÇO": "1.369,61"
  },
  {
-   "ITEM": 2080106,
-   "ESPEC": "ADC INST CV SF",
-   "NPRECO": 72000229,
+   "ITEM": 72000817,
+   "DESCRIÇÃO": "REPARO DE PV, PI E TL, EM QUALQUER PAVIMENTO, C/ LPB LEITO (A)",
+   "DATA I0": "jan/26",
    "UNID": "un",
-   "PUNIT": "R$ 122,22"
+   "PREÇO": "1.469,43"
  },
  {
-   "ITEM": 2040108,
-   "ESPEC": "ADC INST CX UMA",
-   "NPRECO": 72000222,
+   "ITEM": 72000818,
+   "DESCRIÇÃO": "REPARO DE PV, PI E TL, EM QUALQUER PAVIMENTO, S/ REPOS",
+   "DATA I0": "jan/26",
    "UNID": "un",
-   "PUNIT": "R$ 175,09"
+   "PREÇO": "764,07"
  },
  {
-   "ITEM": 2020605,
-   "ESPEC": "ADC INST HD CV MULT",
-   "NPRECO": 72000237,
+   "ITEM": 72000819,
+   "DESCRIÇÃO": "REPARO DE PV, PI E TL, EM QUALQUER PAVIMENTO, C/ REPOS PASSEIO",
+   "DATA I0": "jan/26",
    "UNID": "un",
-   "PUNIT": "R$ 5,48"
+   "PREÇO": "1.044,18"
  },
  {
-   "ITEM": 2070308,
-   "ESPEC": "ADC INST LUVA ELETR DE 110 A 125",
-   "NPRECO": 72000425,
+   "ITEM": 72000820,
+   "DESCRIÇÃO": "REPARO DE PV, PI E TL, EM QUALQUER PAVIMENTO, C/ REPOS LEITO (C)",
+   "DATA I0": "jan/26",
    "UNID": "un",
-   "PUNIT": "R$ 59,96"
+   "PREÇO": "1.128,25"
  },
  {
-   "ITEM": 2070309,
-   "ESPEC": "ADC INST LUVA ELETR DE 140 A 160",
-   "NPRECO": 72000426,
+   "ITEM": 72000821,
+   "DESCRIÇÃO": "REPARO DE PV, PI E TL, EM QUALQUER PAVIMENTO, C/ REPOS LEITO (B)",
+   "DATA I0": "jan/26",
    "UNID": "un",
-   "PUNIT": "R$ 83,67"
+   "PREÇO": "1.251,14"
  },
  {
-   "ITEM": 2070310,
-   "ESPEC": "ADC INST LUVA ELETR DE 180 A 315",
-   "NPRECO": 72000427,
+   "ITEM": 72000822,
+   "DESCRIÇÃO": "REPARO DE PV, PI E TL, EM QUALQUER PAVIMENTO, C/ REPOS LEITO (A)",
+   "DATA I0": "jan/26",
    "UNID": "un",
-   "PUNIT": "R$ 101,45"
+   "PREÇO": "1.448,06"
  },
  {
-   "ITEM": 2070306,
-   "ESPEC": "ADC INST LUVA ELETR DE 20 A 32",
-   "NPRECO": 72000423,
+   "ITEM": 72000823,
+   "DESCRIÇÃO": "REPOSIÇÃO DE CAPA ASFÁLTICA CBUQ - REPARO DE PV, PI E TL (C)",
+   "DATA I0": "jan/26",
    "UNID": "un",
-   "PUNIT": "R$ 17,60"
+   "PREÇO": "305,4"
  },
  {
-   "ITEM": 2070307,
-   "ESPEC": "ADC INST LUVA ELETR DE 40 A 90",
-   "NPRECO": 72000424,
+   "ITEM": 72000824,
+   "DESCRIÇÃO": "REPOSIÇÃO DE CAPA ASFÁLTICA CBUQ - REPARO DE PV, PI E TL (B)",
+   "DATA I0": "jan/26",
    "UNID": "un",
-   "PUNIT": "R$ 36,90"
+   "PREÇO": "305,4"
  },
  {
-   "ITEM": 2070303,
-   "ESPEC": "ADC INST SELAS ELETR DE 110 A 125",
-   "NPRECO": 72000420,
+   "ITEM": 72000825,
+   "DESCRIÇÃO": "REPOSIÇÃO DE CAPA ASFÁLTICA CBUQ - REPARO DE PV, PI E TL (A)",
+   "DATA I0": "jan/26",
    "UNID": "un",
-   "PUNIT": "R$ 34,40"
+   "PREÇO": "305,4"
  },
  {
-   "ITEM": 2070304,
-   "ESPEC": "ADC INST SELAS ELETR DE 140 A 160",
-   "NPRECO": 72000421,
+   "ITEM": 72000260,
+   "DESCRIÇÃO": "REPARO DE REDE DE AGUA EM FIBROCIMENTO / TROCA DE VALVULA DN 50 A 100MM, C/ LPB DO PAV LEITO (SFMH)",
+   "DATA I0": "jan/26",
    "UNID": "un",
-   "PUNIT": "R$ 54,14"
+   "PREÇO": "2.280,97"
  },
  {
-   "ITEM": 2070305,
-   "ESPEC": "ADC INST SELAS ELETR DE 180 A 315",
-   "NPRECO": 72000422,
+   "ITEM": 72000261,
+   "DESCRIÇÃO": "REPARO DE REDE DE AGUA EM FIBROCIMENTO DN 50 A 100MM, C/ LPB DO PAV DO LEITO",
+   "DATA I0": "jan/26",
    "UNID": "un",
-   "PUNIT": "R$ 68,67"
+   "PREÇO": "2.910,51"
  },
  {
-   "ITEM": 2070302,
-   "ESPEC": "ADC INST SELAS ELETR DE 40 A 90",
-   "NPRECO": 72000419,
+   "ITEM": 72000262,
+   "DESCRIÇÃO": "REPARO DE REDE DE AGUA EM FIBROCIMENTO DN 50 A 100MM, S/ REPOS DO PAV",
+   "DATA I0": "jan/26",
    "UNID": "un",
-   "PUNIT": "R$ 28,60"
+   "PREÇO": "2.120,11"
  },
  {
-   "ITEM": 1030103,
-   "ESPEC": "ADC REGCV SF",
-   "NPRECO": 72000231,
+   "ITEM": 72000263,
+   "DESCRIÇÃO": "REPARO DE REDE DE AGUA EM FIBROCIMENTO DN 50 A 100MM, C/ REPOS DO PAV DO PASSEIO",
+   "DATA I0": "jan/26",
    "UNID": "un",
-   "PUNIT": "R$ 254,10"
+   "PREÇO": "3.197,85"
  },
  {
-   "ITEM": 2030307,
-   "ESPEC": "ADC SUBST TMD AG SF",
-   "NPRECO": 72000897,
+   "ITEM": 72000264,
+   "DESCRIÇÃO": "REPARO DE REDE DE AGUA EM FIBROCIMENTO DN 50 A 100MM, C/ REPOS DO PAV DO LEITO",
+   "DATA I0": "jan/26",
    "UNID": "un",
-   "PUNIT": "R$ 96,08"
+   "PREÇO": "3.965,65"
  },
  {
-   "ITEM": 1040104,
-   "ESPEC": "ADC SUPR TMD AG S/REP",
-   "NPRECO": 72000243,
+   "ITEM": 72000265,
+   "DESCRIÇÃO": "REPARO DE REDE DE AGUA EM FIBROCIMENTO / TROCA DE VALVULA DN 50 A 100MM, S/ REPOS DO PAV (SFMH)",
+   "DATA I0": "jan/26",
    "UNID": "un",
-   "PUNIT": "R$ 144,39"
+   "PREÇO": "1.490,57"
  },
  {
-   "ITEM": 2040111,
-   "ESPEC": "ADC TCV SF",
-   "NPRECO": 72000230,
+   "ITEM": 72000266,
+   "DESCRIÇÃO": "REPARO DE REDE DE AGUA EM FIBROCIMENTO / TROCA DE VALVULA DN 50 A 100MM, C/REPOS DO PASSEIO (SFMH)",
+   "DATA I0": "jan/26",
    "UNID": "un",
-   "PUNIT": "R$ 182,80"
+   "PREÇO": "2.568,30"
  },
  {
-   "ITEM": 2030306,
-   "ESPEC": "ADC TRC PREV PE CV",
-   "NPRECO": 72000225,
+   "ITEM": 72000267,
+   "DESCRIÇÃO": "REPARO DE REDE DE AGUA EM DEFOFO / FIBROC / TROCA DE VALVULA DN 150 A 250MM, C/ LPB DO PAV LEITO (SFMH)",
+   "DATA I0": "jan/26",
    "UNID": "un",
-   "PUNIT": "R$ 111,22"
+   "PREÇO": "2.871,19"
  },
  {
-   "ITEM": 2190503,
-   "ESPEC": "ADIC ADEQ COPA CAV DN 100",
-   "NPRECO": 422451,
+   "ITEM": 72000268,
+   "DESCRIÇÃO": "REPARO DE REDE DE AGUA EM DEFOFO / FIBROC / TROCA DE VALVULA DN 300 A 400MM, C/ LPB DO PAV LEITO (SFMH)",
+   "DATA I0": "jan/26",
    "UNID": "un",
-   "PUNIT": "R$ 807,61"
+   "PREÇO": "4.252,05"
  },
  {
-   "ITEM": 2190504,
-   "ESPEC": "ADIC ADEQ COPA CAV DN 150",
-   "NPRECO": 422452,
+   "ITEM": 72000269,
+   "DESCRIÇÃO": "REPARO DE REDE DE AGUA EM FF / TROCA DE VALVULA DN 50 A 100MM, S/ REPOS DO PAV (SFMH)",
+   "DATA I0": "jan/26",
    "UNID": "un",
-   "PUNIT": "R$ 1.062,33"
+   "PREÇO": "773,35"
  },
  {
-   "ITEM": 2190502,
-   "ESPEC": "ADIC ADEQ COPA CAV DN 80",
-   "NPRECO": 422450,
+   "ITEM": 72000270,
+   "DESCRIÇÃO": "REPARO DE REDE DE AGUA EM FF / TROCA DE VALVULA DN 150 A 250MM, S/ REPOS DO PAV (SFMH)",
+   "DATA I0": "jan/26",
    "UNID": "un",
-   "PUNIT": "R$ 468,65"
+   "PREÇO": "1.024,11"
  },
  {
-   "ITEM": 2190501,
-   "ESPEC": "ADIC ADEQ COPA CAV DN ATÉ 50",
-   "NPRECO": 422443,
+   "ITEM": 72000271,
+   "DESCRIÇÃO": "REPARO DE REDE DE AGUA EM FF / TROCA DE VALVULA DN 300 A 400MM, S/ REPOS DO PAV (SFMH)",
+   "DATA I0": "jan/26",
    "UNID": "un",
-   "PUNIT": "R$ 271,15"
+   "PREÇO": "1.803,56"
  },
  {
-   "ITEM": 2190605,
-   "ESPEC": "ADIC FORN INST CAV DN 100",
-   "NPRECO": 422417,
+   "ITEM": 72000272,
+   "DESCRIÇÃO": "REPARO DE REDE DE AGUA EM FF DN 200MM, S/ REPOS DO PAV",
+   "DATA I0": "jan/26",
    "UNID": "un",
-   "PUNIT": "R$ 3.387,99"
+   "PREÇO": "3.499,25"
  },
  {
-   "ITEM": 2190305,
-   "ESPEC": "ADIC FORN INST CAV DN 150",
-   "NPRECO": 422380,
+   "ITEM": 72000273,
+   "DESCRIÇÃO": "REPARO DE REDE DE AGUA EM FF DN 250MM, S/ REPOS DO PAV",
+   "DATA I0": "jan/26",
    "UNID": "un",
-   "PUNIT": "R$ 30.208,34"
+   "PREÇO": "5.022,97"
  },
  {
-   "ITEM": 2190301,
-   "ESPEC": "ADIC FORN INST CAV DN 25",
-   "NPRECO": 422368,
+   "ITEM": 72000274,
+   "DESCRIÇÃO": "REPARO DE REDE DE AGUA EM FF DN 300MM, S/ REPOS DO PAV",
+   "DATA I0": "jan/26",
    "UNID": "un",
-   "PUNIT": "R$ 2.506,44"
+   "PREÇO": "6.795,95"
  },
  {
-   "ITEM": 2190302,
-   "ESPEC": "ADIC FORN INST CAV DN 40",
-   "NPRECO": 422369,
+   "ITEM": 72000275,
+   "DESCRIÇÃO": "REPARO DE REDE DE AGUA EM FF DN 350MM, S/ REPOS DO PAV",
+   "DATA I0": "jan/26",
    "UNID": "un",
-   "PUNIT": "R$ 3.244,56"
+   "PREÇO": "8.723,23"
  },
  {
-   "ITEM": 2190603,
-   "ESPEC": "ADIC FORN INST CAV DN 50",
-   "NPRECO": 422415,
+   "ITEM": 72000276,
+   "DESCRIÇÃO": "REPARO DE REDE DE AGUA EM FF DN 400MM, S/ REPOS DO PAV",
+   "DATA I0": "jan/26",
    "UNID": "un",
-   "PUNIT": "R$ 1.117,92"
+   "PREÇO": "10.658,78"
  },
  {
-   "ITEM": 2190303,
-   "ESPEC": "ADIC FORN INST CAV DN 50",
-   "NPRECO": 422370,
+   "ITEM": 72000277,
+   "DESCRIÇÃO": "REPARO DE REDE DE AGUA EM FF DN 50 A 150MM, S/ REPOS DO PAV",
+   "DATA I0": "jan/26",
    "UNID": "un",
-   "PUNIT": "R$ 7.959,97"
+   "PREÇO": "1.943,93"
  },
  {
-   "ITEM": 2190304,
-   "ESPEC": "ADIC FORN INST CAV DN 80",
-   "NPRECO": 422371,
+   "ITEM": 72000278,
+   "DESCRIÇÃO": "TROCA DE GAXETA DE VALVULAS - S/ REPOSICAO DO PAV",
+   "DATA I0": "jan/26",
    "UNID": "un",
-   "PUNIT": "R$ 18.135,26"
+   "PREÇO": "479,59"
  },
  {
-   "ITEM": 2190404,
-   "ESPEC": "ADIC INT CAV INOX DN 100",
-   "NPRECO": 422463,
+   "ITEM": 72000279,
+   "DESCRIÇÃO": "TROCA DE GAXETA DE VALVULAS - C/ LPB DO PAV",
+   "DATA I0": "jan/26",
    "UNID": "un",
-   "PUNIT": "R$ 187,60"
+   "PREÇO": "659,96"
  },
  {
-   "ITEM": 2190405,
-   "ESPEC": "ADIC INT CAV INOX DN 150",
-   "NPRECO": 422464,
+   "ITEM": 72000280,
+   "DESCRIÇÃO": "TROCA DE GAXETA DE VALVULAS - C/ REPOSICAO DO PAV",
+   "DATA I0": "jan/26",
    "UNID": "un",
-   "PUNIT": "R$ 247,57"
+   "PREÇO": "674,94"
  },
  {
-   "ITEM": 2190401,
-   "ESPEC": "ADIC INT CAV INOX DN 40",
-   "NPRECO": 422460,
+   "ITEM": 72000281,
+   "DESCRIÇÃO": "REPARO REDE AGUA EM PVC / TROCA DE VALV DN 50 A 100MM, S/ REP DO PAV (SFMH) - PRONTO ATENDIMENTO",
+   "DATA I0": "jan/26",
    "UNID": "un",
-   "PUNIT": "R$ 127,61"
+   "PREÇO": "996,66"
  },
  {
-   "ITEM": 2190402,
-   "ESPEC": "ADIC INT CAV INOX DN 50",
-   "NPRECO": 422461,
+   "ITEM": 72000282,
+   "DESCRIÇÃO": "REPARO REDE AGUA EM FF / TROCA DE VALV DN 50 A 100MM, S/ REP DO PAV (SFMH) - PRONTO ATENDIMENTO",
+   "DATA I0": "jan/26",
    "UNID": "un",
-   "PUNIT": "R$ 167,60"
+   "PREÇO": "1.082,45"
  },
  {
-   "ITEM": 2190403,
-   "ESPEC": "ADIC INT CAV INOX DN 80",
-   "NPRECO": 422462,
+   "ITEM": 72000283,
+   "DESCRIÇÃO": "REPARO REDE AGUA EM FF / TROCA DE VALV DN 150 A 250MM, S/ REP DO PAV (SFMH) - PRONTO ATENDIMENTO",
+   "DATA I0": "jan/26",
    "UNID": "un",
-   "PUNIT": "R$ 187,60"
+   "PREÇO": "1.397,66"
  },
  {
-   "ITEM": 2180313,
-   "ESPEC": "ADIC MOB/DESMOB HDD 250 A 500 MM- > 50KM",
-   "NPRECO": 510022,
+   "ITEM": 72000284,
+   "DESCRIÇÃO": "REPARO REDE AGUA EM FF / TROCA DE VALV DN 300 A 400MM, S/REP DO PAV (SFMH) - PRONTO ATENDIMENTO",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "2.205,59"
+ },
+ {
+   "ITEM": 72000285,
+   "DESCRIÇÃO": "REPARO REDE AGUA EM FIBROC / TROCA DE VALV DN 50 A 100MM, S/ REP DO PAV (SFMH) - PRONTO ATENDIMENTO",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "1.771,01"
+ },
+ {
+   "ITEM": 72000286,
+   "DESCRIÇÃO": "REPARO REDE AGUA EM FIBROC / TROCA DE VALV DN 50 A 100MM, C/ REP DO PASSEIO (SFMH) - PRONTO ATEND",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "2.956,22"
+ },
+ {
+   "ITEM": 72000287,
+   "DESCRIÇÃO": "REPARO REDE AGUA EM FIBROC / TROCA DE VALV DN 50 A 100MM, C/ LPB LEITO (SFMH) - PRONTO ATEND",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "2.684,27"
+ },
+ {
+   "ITEM": 72000288,
+   "DESCRIÇÃO": "REPARO REDE AGUA EM FIBROC / TROCA DE VALV DN 50 A 100MM, C/ REP DO PAV LEITO (SFMH) - PRONTO ATEND",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "3.155,12"
+ },
+ {
+   "ITEM": 72000289,
+   "DESCRIÇÃO": "REPARO REDE AGUA DEFOFO / FIBROC / TROCA DE VALV DN 150 A 250MM, S/ REP DO PAV (SFMH) - PRONTO ATEND",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "2.302,62"
+ },
+ {
+   "ITEM": 72000290,
+   "DESCRIÇÃO": "REPARO REDE AGUA DEFOFO/FIBROC/TROCA DE VALV DN 150 A 250MM, C/LPB LEITO (SFMH)-PRONTO ATEND",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "3.347,62"
+ },
+ {
+   "ITEM": 72000291,
+   "DESCRIÇÃO": "REPARO REDE AGUA DEFOFO/FIBROC/TROCA DE VALV DN 150 A 250MM, C/REP DO PASSEIO (SFMH) - PRONTO ATEND",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "3.651,34"
+ },
+ {
+   "ITEM": 72000292,
+   "DESCRIÇÃO": "REPARO REDE AGUA DEFOFO/FIBROC/TROCA DE VALV DN 150 A 250MM, C/REP DO PAV LEITO (SFMH) - PRONTO ATEND",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "4.410,41"
+ },
+ {
+   "ITEM": 72000293,
+   "DESCRIÇÃO": "REPARO REDE AGUA DEFOFO/FIBROC/TROCA DE VALV DN 300 A 400MM, S/REP DO PAV (SFMH) - PRONTO ATEND",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "3.118,87"
+ },
+ {
+   "ITEM": 72000294,
+   "DESCRIÇÃO": "REPARO REDE AGUA DEFOFO/FIBROC/TROCA DE VALV DN 300 A 400MM, C/LPB LEITO (SFMH)-PRONTO ATEND",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "4.726,09"
+ },
+ {
+   "ITEM": 72000295,
+   "DESCRIÇÃO": "REPARO REDE AGUA DEFOFO/FIBROC/TROCA DE VALV DN 300 A 400MM, C/REP DO PASSEIO (SFMH) - PRONTO ATEND",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "4.935,31"
+ },
+ {
+   "ITEM": 72000296,
+   "DESCRIÇÃO": "REPARO REDE AGUA DEFOFO/FIBROC/TROCA DE VALV DN 300 A 400MM, C/REP DO PAV LEITO (SFMH)-PRONTO ATEND",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "5.312,03"
+ },
+ {
+   "ITEM": 72000297,
+   "DESCRIÇÃO": "TROCA DE GAXETA DE VALVULAS - S/REPOSICAO DO PAV - PRONTO ATENDIMENTO",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "686,5"
+ },
+ {
+   "ITEM": 72000298,
+   "DESCRIÇÃO": "TROCA DE GAXETA DE VALVULAS - C/ LPB DO PAV - PRONTO ATENDIMENTO",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "890,9"
+ },
+ {
+   "ITEM": 72000299,
+   "DESCRIÇÃO": "TROCA DE GAXETA DE VALVULAS - C/REPOSICAO DO PAV - PRONTO ATENDIMENTO",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "904,45"
+ },
+ {
+   "ITEM": 72000300,
+   "DESCRIÇÃO": "REPARO DE REDE DE AGUA EM PVC / TROCA DE VALVULA DN 50 A 100MM, S/ REPOS DO PAV (SFMH)",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "697,35"
+ },
+ {
+   "ITEM": 72000301,
+   "DESCRIÇÃO": "REPARO DE REDE DE AGUA EM PVC DN 50 A 100MM, S/REPOS DO PAV",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "839,71"
+ },
+ {
+   "ITEM": 72000302,
+   "DESCRIÇÃO": "REPARO DE REDE DE AGUA EM POLIETILENO DE 63 A 125MM, S/ REPOS DO PAV (SFMH)",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "972,89"
+ },
+ {
+   "ITEM": 72000303,
+   "DESCRIÇÃO": "REPARO DE REDE DE AGUA EM POLIETILENO DE 140 A 250MM, S/REPOS DO PAV (SFMH)",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "1.310,12"
+ },
+ {
+   "ITEM": 72000304,
+   "DESCRIÇÃO": "REPARO DE REDE DE AGUA EM POLIETILENO DE 280 A 400MM, S/REPOS DO PAV (SFMH)",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "2.158,54"
+ },
+ {
+   "ITEM": 72000305,
+   "DESCRIÇÃO": "LRP - PASSEIO CIMENTADO - REPARO DE REDE DE AGUA /TROCA DE VALVULA DN 50 A 100MM",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "300,56"
+ },
+ {
+   "ITEM": 72000306,
+   "DESCRIÇÃO": "LRP - PASSEIO CIMENTADO - REPARO DE REDE DE AGUA /TROCA DE VALVULA DN 150 A 250MM",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "475,5"
+ },
+ {
+   "ITEM": 72000307,
+   "DESCRIÇÃO": "LRP - PASSEIO CIMENTADO - REPARO DE REDE DE AGUA /TROCA DE VALVULA DN 300 A 400MM",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "1.862,62"
+ },
+ {
+   "ITEM": 72000308,
+   "DESCRIÇÃO": "LRP - PASSEIO ESPECIAL - REPARO DE REDE DE AGUA /TROCA DE VALVULA DN 50 A 100MM",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "438,44"
+ },
+ {
+   "ITEM": 72000309,
+   "DESCRIÇÃO": "LRP - PASSEIO ESPECIAL - REPARO DE REDE DE AGUA /TROCA DE VALVULA DN 150 A 250MM",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "682,02"
+ },
+ {
+   "ITEM": 72000310,
+   "DESCRIÇÃO": "LRP - PASSEIO ESPECIAL - REPARO DE REDE DE AGUA /TROCA DE VALVULA DN 300 A 400MM",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "2.549,56"
+ },
+ {
+   "ITEM": 72000329,
+   "DESCRIÇÃO": "REPOSIÇÃO DE CAPA ASFÁLTICA CBUQ - REPARO DE REDE DE ÁGUA EM FIBROCIMENTO / TROCA DE VÁLVULA DN 50MM A 100MM",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "748,14"
+ },
+ {
+   "ITEM": 72000330,
+   "DESCRIÇÃO": "REPOSIÇÃO DE CAPA ASFÁLTICA CBUQ - REPARO DE REDE DE ÁGUA EM DEFOFO / FIBROCIMENTO / TROCA DE VÁLVULA DN 150MM A 250MM",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "748,14"
+ },
+ {
+   "ITEM": 72000331,
+   "DESCRIÇÃO": "REPOSIÇÃO DE CAPA ASFÁLTICA CBUQ - REPARO DE REDE DE ÁGUA EM DEFOFO / FIBROCIMENTO / TROCA DE VÁLVULA DN 300MM A 400MM",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "748,14"
+ },
+ {
+   "ITEM": 72000332,
+   "DESCRIÇÃO": "REPOSIÇÃO DE CAPA ASFÁLTICA CBUQ - REPARO DE REDE DE ÁGUA EM FIBROCIMENTO DN 50MM A 100MM",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "748,14"
+ },
+ {
+   "ITEM": 72000337,
+   "DESCRIÇÃO": "REPOSIÇÃO DE CAPA ASFÁLTICA CBUQ - TROCA DE GAXETA DE VÁLVULAS - PRONTO ATENDIMENTO",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "113,85"
+ },
+ {
+   "ITEM": 72000962,
+   "DESCRIÇÃO": "REPARO DE REDE DE AGUA EM DEFOFO / FIBROC / TROCA DE VALVULA DN 150 A 250MM, S/ REPOS DO PAV (SFMH)",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "1.841,85"
+ },
+ {
+   "ITEM": 72000963,
+   "DESCRIÇÃO": "REPARO DE REDE DE AGUA EM DEFOFO / FIBROC / TROCA DE VALVULA DN 150 A 250MM, C/ REPOS DO PASSEIO (SFMH)",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "3.207,22"
+ },
+ {
+   "ITEM": 72000964,
+   "DESCRIÇÃO": "REPARO DE REDE DE AGUA EM DEFOFO / FIBROC / TROCA DE VALVULA DN 300 A 400MM, S/ REPOS DO PAV (SFMH)",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "2.599,44"
+ },
+ {
+   "ITEM": 72000965,
+   "DESCRIÇÃO": "REPARO DE REDE DE AGUA EM DEFOFO / FIBROC / TROCA DE VALVULA DN 300 A 400MM, C/ REPOS DO PASSEIO (SFMH)",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "4.630,18"
+ },
+ {
+   "ITEM": 72001138,
+   "DESCRIÇÃO": "LPB - LEITO - REPARO DE REDE DE AGUA / TROCA DE VALVULA DN 50 A 100MM (C)",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "292,73"
+ },
+ {
+   "ITEM": 72001137,
+   "DESCRIÇÃO": "LPB - LEITO - REPARO DE REDE DE AGUA / TROCA DE VALVULA DN 50 A 100MM (B)",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "321,34"
+ },
+ {
+   "ITEM": 72001136,
+   "DESCRIÇÃO": "LPB - LEITO - REPARO DE REDE DE AGUA / TROCA DE VALVULA DN 50 A 100MM (A)",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "346,31"
+ },
+ {
+   "ITEM": 72001141,
+   "DESCRIÇÃO": "LPB - LEITO - REPARO DE REDE DE AGUA / TROCA DE VALVULA DN 150 A 250MM (C)",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "463,05"
+ },
+ {
+   "ITEM": 72001140,
+   "DESCRIÇÃO": "LPB - LEITO - REPARO DE REDE DE AGUA / TROCA DE VALVULA DN 150 A 250MM (B)",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "499,87"
+ },
+ {
+   "ITEM": 72001139,
+   "DESCRIÇÃO": "LPB - LEITO - REPARO DE REDE DE AGUA / TROCA DE VALVULA DN 150 A 250MM (A)",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "559,85"
+ },
+ {
+   "ITEM": 72001144,
+   "DESCRIÇÃO": "LPB - LEITO - REPARO DE REDE DE AGUA / TROCA DE VALVULA DN 300 A 400MM (C)",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "1.817,90"
+ },
+ {
+   "ITEM": 72001143,
+   "DESCRIÇÃO": "LPB - LEITO - REPARO DE REDE DE AGUA / TROCA DE VALVULA DN 300 A 400MM (B)",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "1.912,20"
+ },
+ {
+   "ITEM": 72001142,
+   "DESCRIÇÃO": "LPB - LEITO - REPARO DE REDE DE AGUA / TROCA DE VALVULA DN 300 A 400MM (A)",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "2.083,91"
+ },
+ {
+   "ITEM": 72001322,
+   "DESCRIÇÃO": "REPOSIÇÃO DE CAPA ASFÁLTICA CBUQ - REPARO DE REDE DE AGUA / TROCA DE VALVULA DN 50 A 100MM (C)",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "143,64"
+ },
+ {
+   "ITEM": 72001321,
+   "DESCRIÇÃO": "REPOSIÇÃO DE CAPA ASFÁLTICA CBUQ - REPARO DE REDE DE AGUA / TROCA DE VALVULA DN 50 A 100MM (B)",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "348,53"
+ },
+ {
+   "ITEM": 72001320,
+   "DESCRIÇÃO": "REPOSIÇÃO DE CAPA ASFÁLTICA CBUQ - REPARO DE REDE DE AGUA / TROCA DE VALVULA DN 50 A 100MM (A)",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "348,53"
+ },
+ {
+   "ITEM": 72001325,
+   "DESCRIÇÃO": "REPOSIÇÃO DE CAPA ASFÁLTICA CBUQ - REPARO DE REDE DE AGUA / TROCA DE VALVULA DN 150 A 250MM (C)",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "208,7"
+ },
+ {
+   "ITEM": 72001324,
+   "DESCRIÇÃO": "REPOSIÇÃO DE CAPA ASFÁLTICA CBUQ - REPARO DE REDE DE AGUA / TROCA DE VALVULA DN 150 A 250MM (B)",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "513,96"
+ },
+ {
+   "ITEM": 72001323,
+   "DESCRIÇÃO": "REPOSIÇÃO DE CAPA ASFÁLTICA CBUQ - REPARO DE REDE DE AGUA / TROCA DE VALVULA DN 150 A 250MM (A)",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "513,96"
+ },
+ {
+   "ITEM": 72001328,
+   "DESCRIÇÃO": "REPOSIÇÃO DE CAPA ASFÁLTICA CBUQ - REPARO DE REDE DE AGUA / TROCA DE VALVULA DN 300 A 400MM (C)",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "638,06"
+ },
+ {
+   "ITEM": 72001327,
+   "DESCRIÇÃO": "REPOSIÇÃO DE CAPA ASFÁLTICA CBUQ - REPARO DE REDE DE AGUA / TROCA DE VALVULA DN 300 A 400MM (B)",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "1.639,45"
+ },
+ {
+   "ITEM": 72001326,
+   "DESCRIÇÃO": "REPOSIÇÃO DE CAPA ASFÁLTICA CBUQ - REPARO DE REDE DE AGUA / TROCA DE VALVULA DN 300 A 400MM (A)",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "1.639,45"
+ },
+ {
+   "ITEM": 72001401,
+   "DESCRIÇÃO": "REPOSIÇÃO DE CAPA ASFÁLTICA CBUQ - TROCA DE GAXETA DE VÁLVULAS",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "113,85"
+ },
+ {
+   "ITEM": 72001338,
+   "DESCRIÇÃO": "REPOSIÇÃO DE CAPA ASFÁLTICA CBUQ - REPARO REDE ÁGUA DEFOFO / FIBROC / TROCA DE VALV DN 50MM A 100MM - PRONTO ATEND",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "748,14"
+ },
+ {
+   "ITEM": 72001339,
+   "DESCRIÇÃO": "REPOSIÇÃO DE CAPA ASFÁLTICA CBUQ - REPARO REDE ÁGUA DEFOFO / FIBROC / TROCA DE VALV DN 150MM A 250 MM - PRONTO ATEND",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "748,14"
+ },
+ {
+   "ITEM": 72001340,
+   "DESCRIÇÃO": "REPOSIÇÃO DE CAPA ASFÁLTICA CBUQ - REPARO REDE ÁGUA DEFOFO / FIBROC / TROCA DE VALV DN 300MM A 400MM - PRONTO ATEND",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "914,39"
+ },
+ {
+   "ITEM": 72000837,
+   "DESCRIÇÃO": "DESOBSTRUÇÃO DE RAMAL DOMICILIAR (FLEX CLEANER + MINI JET)",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "260,68"
+ },
+ {
+   "ITEM": 72000838,
+   "DESCRIÇÃO": "DESOBSTRUÇÃO POR HIDROJATEAMENTO DE ALTA PRESSÃO COM SUCÇÃO À VÁCUO",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "559,9"
+ },
+ {
+   "ITEM": 72000839,
+   "DESCRIÇÃO": "DESOBSTRUÇÃO POR HIDROJATEAMENTO DE ALTA PRESSÃO",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "470,81"
+ },
+ {
+   "ITEM": 72000840,
+   "DESCRIÇÃO": "SUCÇÃO A ALTO VÁCUO EM REDE COLETORA",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "515,23"
+ },
+ {
+   "ITEM": 72000841,
+   "DESCRIÇÃO": "ADICIONAL NOTURNO PARA DESOBSTRUÇÃO POR HIDROJATEAMENTO DE ALTA PRESSÃO COM SUCÇÃO À VÁCUO",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "35,28"
+ },
+ {
+   "ITEM": 72000842,
+   "DESCRIÇÃO": "ADICIONAL NOTURNO PARA DESOBSTRUÇÃO POR HIDROJATEAMENTO DE ALTA PRESSÃO",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "29,89"
+ },
+ {
+   "ITEM": 72000843,
+   "DESCRIÇÃO": "LAVAGEM POR HIDROJATEAMENTO DE ALTA PRESSÃO COM SUCÇÃO À VÁCUO",
+   "DATA I0": "jan/26",
+   "UNID": "M",
+   "PREÇO": "18,39"
+ },
+ {
+   "ITEM": 72000844,
+   "DESCRIÇÃO": "LAVAGEM POR HIDROJATEAMENTO DE ALTA PRESSÃO COM SUCÇÃO À VÁCUO (NOTURNO)",
+   "DATA I0": "jan/26",
+   "UNID": "M",
+   "PREÇO": "19,7"
+ },
+ {
+   "ITEM": 72000846,
+   "DESCRIÇÃO": "DIAGNÓSTICO DE REDES COLETORAS DE ESGOTO POR MEIO DE ONDAS ACÚSTICAS",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "46,28"
+ },
+ {
+   "ITEM": 72000972,
+   "DESCRIÇÃO": "LAVAGEM POR HIDROJATEAMENTO DE ALTA PRESSÃO",
+   "DATA I0": "jan/26",
+   "UNID": "M",
+   "PREÇO": "7,94"
+ },
+ {
+   "ITEM": 72000973,
+   "DESCRIÇÃO": "LAVAGEM POR HIDROJATEAMENTO DE ALTA PRESSÃO (NOTURNO)",
+   "DATA I0": "jan/26",
+   "UNID": "M",
+   "PREÇO": "8,47"
+ },
+ {
+   "ITEM": 72000974,
+   "DESCRIÇÃO": "SUCÇÃO A BAIXO VÁCUO EM REDE COLETORA",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "386,42"
+ },
+ {
+   "ITEM": 72000975,
+   "DESCRIÇÃO": "INSPEÇÃO EM LIGAÇÃO DE ESGOTO - VARREDURA",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "75,43"
+ },
+ {
+   "ITEM": 72000976,
+   "DESCRIÇÃO": "INSPEÇÃO EM LIGAÇÃO DE ESGOTO - AVULSA",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "90,91"
+ },
+ {
+   "ITEM": 72000977,
+   "DESCRIÇÃO": "INSPEÇÃO DE PV'S PARA GALERIA DE ÁGUAS PLUVIAIS",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "152,87"
+ },
+ {
+   "ITEM": 72000978,
+   "DESCRIÇÃO": "INSPEÇÃO EM REDE COLETORA",
+   "DATA I0": "jan/26",
    "UNID": "KM",
-   "PUNIT": "R$ 179,84"
+   "PREÇO": "1.065,93"
  },
  {
-   "ITEM": 2180312,
-   "ESPEC": "ADIC MOB/DESMOB HDD ATÉ 225 MM- > 50 KM",
-   "NPRECO": 510021,
-   "UNID": "KM",
-   "PUNIT": "R$ 175,03"
- },
- {
-   "ITEM": 1100201,
-   "ESPEC": "ADIC NOTURNO DESOBST C HIDROJ ALTA PRESS",
-   "NPRECO": 72000842,
+   "ITEM": 72000979,
+   "DESCRIÇÃO": "TELEVISIONAMENTO DE RAMAL DE ESGOTO - VARREDURA",
+   "DATA I0": "jan/26",
    "UNID": "un",
-   "PUNIT": "R$ 27,27"
+   "PREÇO": "193,04"
  },
  {
-   "ITEM": 2190703,
-   "ESPEC": "ADIC TR INST FILTRO DN 100",
-   "NPRECO": 422377,
-   "UNID": "un",
-   "PUNIT": "R$ 191,54"
- },
- {
-   "ITEM": 2190704,
-   "ESPEC": "ADIC TR INST FILTRO DN 150",
-   "NPRECO": 422378,
-   "UNID": "un",
-   "PUNIT": "R$ 260,18"
- },
- {
-   "ITEM": 2190705,
-   "ESPEC": "ADIC TR INST FILTRO DN 200",
-   "NPRECO": 422379,
-   "UNID": "un",
-   "PUNIT": "R$ 360,07"
- },
- {
-   "ITEM": 2190701,
-   "ESPEC": "ADIC TR INST FILTRO DN 50",
-   "NPRECO": 422375,
-   "UNID": "un",
-   "PUNIT": "R$ 97,55"
- },
- {
-   "ITEM": 2190702,
-   "ESPEC": "ADIC TR INST FILTRO DN 80",
-   "NPRECO": 422376,
-   "UNID": "un",
-   "PUNIT": "R$ 177,58"
- },
- {
-   "ITEM": 2190805,
-   "ESPEC": "ADIC TR REG CAV DN 100",
-   "NPRECO": 422422,
-   "UNID": "un",
-   "PUNIT": "R$ 1.641,72"
- },
- {
-   "ITEM": 2190801,
-   "ESPEC": "ADIC TR REG CAV DN 25",
-   "NPRECO": 422418,
-   "UNID": "un",
-   "PUNIT": "R$ 100,88"
- },
- {
-   "ITEM": 2190802,
-   "ESPEC": "ADIC TR REG CAV DN 40",
-   "NPRECO": 422419,
-   "UNID": "un",
-   "PUNIT": "R$ 187,85"
- },
- {
-   "ITEM": 2190803,
-   "ESPEC": "ADIC TR REG CAV DN 50",
-   "NPRECO": 422420,
-   "UNID": "un",
-   "PUNIT": "R$ 293,45"
- },
- {
-   "ITEM": 2190804,
-   "ESPEC": "ADIC TR REG CAV DN 80",
-   "NPRECO": 422421,
-   "UNID": "un",
-   "PUNIT": "R$ 815,82"
- },
- {
-   "ITEM": 2040107,
-   "ESPEC": "ADIC TROCA PREVENT REGIST CAV DN 20MM",
-   "NPRECO": 72000218,
-   "UNID": "un",
-   "PUNIT": "R$ 32,16"
- },
- {
-   "ITEM": 2040113,
-   "ESPEC": "ADIC TROCA PREVENT REGIST CAV DN 20MM SF",
-   "NPRECO": 72001002,
-   "UNID": "un",
-   "PUNIT": "R$ 23,43"
- },
- {
-   "ITEM": 1100105,
-   "ESPEC": "ANCORAGEM DE SINGUL COM PERFIL METÁLICO",
-   "NPRECO": 72000906,
-   "UNID": "un",
-   "PUNIT": "R$ 449,13"
- },
- {
-   "ITEM": 1090112,
-   "ESPEC": "APL BINDER SERV. AG",
-   "NPRECO": 72000858,
-   "UNID": "M3",
-   "PUNIT": "R$ 3.127,39"
- },
- {
-   "ITEM": 1090113,
-   "ESPEC": "APL BINDER SERV. ESG",
-   "NPRECO": 72000859,
-   "UNID": "M3",
-   "PUNIT": "R$ 3.127,39"
- },
- {
-   "ITEM": 1080409,
-   "ESPEC": "APLIC DESENGORD LAVAGEM REDES RAMAIS ESG",
-   "NPRECO": 72000992,
+   "ITEM": 72000980,
+   "DESCRIÇÃO": "TELEVISIONAMENTO DE REDES COLETORAS DE ESGOTOS",
+   "DATA I0": "jan/26",
    "UNID": "M",
-   "PUNIT": "R$ 4,89"
+   "PREÇO": "22,55"
  },
  {
-   "ITEM": 1100104,
-   "ESPEC": "APT IRREG LAG",
-   "NPRECO": 72000903,
-   "UNID": "un",
-   "PUNIT": "R$ 44,06"
- },
- {
-   "ITEM": 1060227,
-   "ESPEC": "ARR DEFO/FC 150 A 250 C/ REP PASS SF",
-   "NPRECO": 72000963,
-   "UNID": "un",
-   "PUNIT": "R$ 3.068,08"
- },
- {
-   "ITEM": 1060217,
-   "ESPEC": "ARR DEFO/FC 150 A 250 C/LPB LEITO PT SF",
-   "NPRECO": 72000290,
-   "UNID": "un",
-   "PUNIT": "R$ 3.226,62"
- },
- {
-   "ITEM": 1060204,
-   "ESPEC": "ARR DEFO/FC 150 A 250 C/LPB LEITO SF",
-   "NPRECO": 72000267,
-   "UNID": "un",
-   "PUNIT": "R$ 2.768,93"
- },
- {
-   "ITEM": 1060218,
-   "ESPEC": "ARR DEFO/FC 150 A 250 C/REP PASS PT SF",
-   "NPRECO": 72000291,
-   "UNID": "un",
-   "PUNIT": "R$ 3.498,57"
- },
- {
-   "ITEM": 1060226,
-   "ESPEC": "ARR DEFO/FC 150 A 250 S/ REP SF",
-   "NPRECO": 72000962,
-   "UNID": "un",
-   "PUNIT": "R$ 1.834,77"
- },
- {
-   "ITEM": 1060216,
-   "ESPEC": "ARR DEFO/FC 150 A 250 S/REP PT SF",
-   "NPRECO": 72000289,
-   "UNID": "un",
-   "PUNIT": "R$ 2.278,15"
- },
- {
-   "ITEM": 1060229,
-   "ESPEC": "ARR DEFO/FC 300 A 400 C/ REP PASS SF",
-   "NPRECO": 72000965,
-   "UNID": "un",
-   "PUNIT": "R$ 4.439,96"
- },
- {
-   "ITEM": 1060220,
-   "ESPEC": "ARR DEFO/FC 300 A 400 C/LPB LEITO PT SF",
-   "NPRECO": 72000294,
-   "UNID": "un",
-   "PUNIT": "R$ 4.538,99"
- },
- {
-   "ITEM": 1060205,
-   "ESPEC": "ARR DEFO/FC 300 A 400 C/LPB LEITO SF",
-   "NPRECO": 72000268,
-   "UNID": "un",
-   "PUNIT": "R$ 4.104,01"
- },
- {
-   "ITEM": 1060221,
-   "ESPEC": "ARR DEFO/FC 300 A 400 C/REP PASS PT SF",
-   "NPRECO": 72000295,
-   "UNID": "un",
-   "PUNIT": "R$ 4.669,53"
- },
- {
-   "ITEM": 1060228,
-   "ESPEC": "ARR DEFO/FC 300 A 400 S/ REP SF",
-   "NPRECO": 72000964,
-   "UNID": "un",
-   "PUNIT": "R$ 2.591,58"
- },
- {
-   "ITEM": 1060219,
-   "ESPEC": "ARR DEFO/FC 300 A 400 S/REP PT SF",
-   "NPRECO": 72000293,
-   "UNID": "un",
-   "PUNIT": "R$ 3.076,61"
- },
- {
-   "ITEM": 1060215,
-   "ESPEC": "ARR FC 50 A 100 C/LPB LEITO PT SF",
-   "NPRECO": 72000287,
-   "UNID": "un",
-   "PUNIT": "R$ 2.548,54"
- },
- {
-   "ITEM": 1060201,
-   "ESPEC": "ARR FC 50 A 100 C/LPB LEITO SF",
-   "NPRECO": 72000260,
-   "UNID": "un",
-   "PUNIT": "R$ 2.177,29"
- },
- {
-   "ITEM": 1060214,
-   "ESPEC": "ARR FC 50 A 100 C/REP PASS PT SF",
-   "NPRECO": 72000286,
-   "UNID": "un",
-   "PUNIT": "R$ 2.789,49"
- },
- {
-   "ITEM": 1060203,
-   "ESPEC": "ARR FC 50 A 100 C/REP PASS SF",
-   "NPRECO": 72000266,
-   "UNID": "un",
-   "PUNIT": "R$ 2.433,62"
- },
- {
-   "ITEM": 1060213,
-   "ESPEC": "ARR FC 50 A 100 S/REP PT SF",
-   "NPRECO": 72000285,
-   "UNID": "un",
-   "PUNIT": "R$ 1.720,26"
- },
- {
-   "ITEM": 1060202,
-   "ESPEC": "ARR FC 50 A 100 S/REP SF",
-   "NPRECO": 72000265,
-   "UNID": "un",
-   "PUNIT": "R$ 1.463,32"
- },
- {
-   "ITEM": 1060211,
-   "ESPEC": "ARR FF 150 A 250 S/REP PT SF",
-   "NPRECO": 72000283,
-   "UNID": "un",
-   "PUNIT": "R$ 1.298,63"
- },
- {
-   "ITEM": 1060207,
-   "ESPEC": "ARR FF 150 A 250 S/REP SF",
-   "NPRECO": 72000270,
-   "UNID": "un",
-   "PUNIT": "R$ 955,88"
- },
- {
-   "ITEM": 1060212,
-   "ESPEC": "ARR FF 300 A 400 S/REP PT SF",
-   "NPRECO": 72000284,
-   "UNID": "un",
-   "PUNIT": "R$ 2.095,80"
- },
- {
-   "ITEM": 1060208,
-   "ESPEC": "ARR FF 300 A 400 S/REP SF",
-   "NPRECO": 72000271,
-   "UNID": "un",
-   "PUNIT": "R$ 1.727,35"
- },
- {
-   "ITEM": 1060210,
-   "ESPEC": "ARR FF 50 A 100 S/REP PT SF",
-   "NPRECO": 72000282,
-   "UNID": "un",
-   "PUNIT": "R$ 1.003,95"
- },
- {
-   "ITEM": 1060206,
-   "ESPEC": "ARR FF 50 A 100 S/REP SF",
-   "NPRECO": 72000269,
-   "UNID": "un",
-   "PUNIT": "R$ 720,94"
- },
- {
-   "ITEM": 1060224,
-   "ESPEC": "ARR PEAD 140 A 250 S/REP SF",
-   "NPRECO": 72000303,
-   "UNID": "un",
-   "PUNIT": "R$ 1.239,86"
- },
- {
-   "ITEM": 1060225,
-   "ESPEC": "ARR PEAD 280 A 400 S/REP SF",
-   "NPRECO": 72000304,
-   "UNID": "un",
-   "PUNIT": "R$ 2.088,29"
- },
- {
-   "ITEM": 1060223,
-   "ESPEC": "ARR PEAD 63 A 125 S/REP SF",
-   "NPRECO": 72000302,
-   "UNID": "un",
-   "PUNIT": "R$ 917,31"
- },
- {
-   "ITEM": 1060209,
-   "ESPEC": "ARR PVC 50 A 100 S/REP PT SF",
-   "NPRECO": 72000281,
-   "UNID": "un",
-   "PUNIT": "R$ 935,93"
- },
- {
-   "ITEM": 1060222,
-   "ESPEC": "ARR PVC 50 A 100 S/REP SF",
-   "NPRECO": 72000300,
-   "UNID": "un",
-   "PUNIT": "R$ 661,88"
- },
- {
-   "ITEM": 1090117,
-   "ESPEC": "ASSENT GUIAS",
-   "NPRECO": 72000863,
+   "ITEM": 72000981,
+   "DESCRIÇÃO": "TELEVISIONAMENTO DE REDES INTERCEPTORAS DE ESGOTOS",
+   "DATA I0": "jan/26",
    "UNID": "M",
-   "PUNIT": "R$ 65,99"
+   "PREÇO": "36,02"
  },
  {
-   "ITEM": 1090118,
-   "ESPEC": "ASSENT PARALEL",
-   "NPRECO": 72000864,
-   "UNID": "M2",
-   "PUNIT": "R$ 174,46"
- },
- {
-   "ITEM": 2180303,
-   "ESPEC": "ASSENT REDE HDD PEAD 110MM-SOLO COMUM",
-   "NPRECO": 510011,
+   "ITEM": 72000982,
+   "DESCRIÇÃO": "TESTE DE FUMAÇA EM REDES COLETORAS E/OU INTERCEPTORES DE ESGOTO - EQP BR",
+   "DATA I0": "jan/26",
    "UNID": "M",
-   "PUNIT": "R$ 111,84"
+   "PREÇO": "6,54"
  },
  {
-   "ITEM": 2180304,
-   "ESPEC": "ASSENT REDE HDD PEAD 160MM-SOLO COMUM",
-   "NPRECO": 510012,
-   "UNID": "M",
-   "PUNIT": "R$ 213,61"
+   "ITEM": 72000983,
+   "DESCRIÇÃO": "REABASTECIMENTO DOS COMBINADOS COM CAMINHÃO PIPA 10 M3 DE ÁGUA DE REUSO",
+   "DATA I0": "jan/26",
+   "UNID": "EQD",
+   "PREÇO": "2.335,54"
  },
  {
-   "ITEM": 2180305,
-   "ESPEC": "ASSENT REDE HDD PEAD 200MM-SOLO COMUM",
-   "NPRECO": 510013,
-   "UNID": "M",
-   "PUNIT": "R$ 298,54"
- },
- {
-   "ITEM": 2180306,
-   "ESPEC": "ASSENT REDE HDD PEAD 225MM-SOLO COMUM",
-   "NPRECO": 510014,
-   "UNID": "M",
-   "PUNIT": "R$ 304,25"
- },
- {
-   "ITEM": 2180307,
-   "ESPEC": "ASSENT REDE HDD PEAD 250MM-SOLO COMUM",
-   "NPRECO": 510015,
-   "UNID": "M",
-   "PUNIT": "R$ 406,29"
- },
- {
-   "ITEM": 2180308,
-   "ESPEC": "ASSENT REDE HDD PEAD 280MM-SOLO COMUM",
-   "NPRECO": 510016,
-   "UNID": "M",
-   "PUNIT": "R$ 414,45"
- },
- {
-   "ITEM": 2180309,
-   "ESPEC": "ASSENT REDE HDD PEAD 315MM-SOLO COMUM",
-   "NPRECO": 510017,
-   "UNID": "M",
-   "PUNIT": "R$ 505,99"
- },
- {
-   "ITEM": 2180310,
-   "ESPEC": "ASSENT REDE HDD PEAD 355MM-SOLO COMUM",
-   "NPRECO": 510018,
-   "UNID": "M",
-   "PUNIT": "R$ 562,29"
- },
- {
-   "ITEM": 2180311,
-   "ESPEC": "ASSENT REDE HDD PEAD 400MM-SOLO COMUM",
-   "NPRECO": 510019,
-   "UNID": "M",
-   "PUNIT": "R$ 712,39"
- },
- {
-   "ITEM": 2180301,
-   "ESPEC": "ASSENT REDE HDD PEAD 63MM-SOLO COMUM",
-   "NPRECO": 510009,
-   "UNID": "M",
-   "PUNIT": "R$ 67,46"
- },
- {
-   "ITEM": 2180302,
-   "ESPEC": "ASSENT REDE HDD PEAD 90MM-SOLO COMUM",
-   "NPRECO": 510010,
-   "UNID": "M",
-   "PUNIT": "R$ 71,12"
- },
- {
-   "ITEM": 1090121,
-   "ESPEC": "ASSENT SARJETA",
-   "NPRECO": 72000867,
-   "UNID": "M3",
-   "PUNIT": "R$ 737,61"
- },
- {
-   "ITEM": 1060321,
-   "ESPEC": "CAPA ASF 150 A 250 ARR COMPX A",
-   "NPRECO": 72001323,
-   "UNID": "un",
-   "PUNIT": "R$ 480,10"
- },
- {
-   "ITEM": 1060320,
-   "ESPEC": "CAPA ASF 150 A 250 ARR COMPX B",
-   "NPRECO": 72001324,
-   "UNID": "un",
-   "PUNIT": "R$ 480,10"
- },
- {
-   "ITEM": 1060319,
-   "ESPEC": "CAPA ASF 150 A 250 ARR COMPX C",
-   "NPRECO": 72001325,
-   "UNID": "un",
-   "PUNIT": "R$ 196,70"
- },
- {
-   "ITEM": 2060521,
-   "ESPEC": "CAPA ASF 150 A 250 INTERLIG COMPX A",
-   "NPRECO": 72001302,
-   "UNID": "un",
-   "PUNIT": "R$ 1.925,09"
- },
- {
-   "ITEM": 2060520,
-   "ESPEC": "CAPA ASF 150 A 250 INTERLIG COMPX B",
-   "NPRECO": 72001303,
-   "UNID": "un",
-   "PUNIT": "R$ 1.925,09"
- },
- {
-   "ITEM": 2060519,
-   "ESPEC": "CAPA ASF 150 A 250 INTERLIG COMPX C",
-   "NPRECO": 72001304,
-   "UNID": "un",
-   "PUNIT": "R$ 752,62"
- },
- {
-   "ITEM": 1060324,
-   "ESPEC": "CAPA ASF 300 A 400 ARR COMPX A",
-   "NPRECO": 72001326,
-   "UNID": "un",
-   "PUNIT": "R$ 1.530,82"
- },
- {
-   "ITEM": 1060323,
-   "ESPEC": "CAPA ASF 300 A 400 ARR COMPX B",
-   "NPRECO": 72001327,
-   "UNID": "un",
-   "PUNIT": "R$ 1.530,82"
- },
- {
-   "ITEM": 1060322,
-   "ESPEC": "CAPA ASF 300 A 400 ARR COMPX C",
-   "NPRECO": 72001328,
-   "UNID": "un",
-   "PUNIT": "R$ 601,38"
- },
- {
-   "ITEM": 2060524,
-   "ESPEC": "CAPA ASF 300 A 400 INTERLIG COMPX A",
-   "NPRECO": 72001305,
-   "UNID": "un",
-   "PUNIT": "R$ 2.395,17"
- },
- {
-   "ITEM": 2060523,
-   "ESPEC": "CAPA ASF 300 A 400 INTERLIG COMPX B",
-   "NPRECO": 72001306,
-   "UNID": "un",
-   "PUNIT": "R$ 2.395,17"
- },
- {
-   "ITEM": 2060522,
-   "ESPEC": "CAPA ASF 300 A 400 INTERLIG COMPX C",
-   "NPRECO": 72001307,
-   "UNID": "un",
-   "PUNIT": "R$ 931,81"
- },
- {
-   "ITEM": 1060318,
-   "ESPEC": "CAPA ASF 50 A 100 ARR COMPX A",
-   "NPRECO": 72001320,
-   "UNID": "un",
-   "PUNIT": "R$ 325,60"
- },
- {
-   "ITEM": 1060317,
-   "ESPEC": "CAPA ASF 50 A 100 ARR COMPX B",
-   "NPRECO": 72001321,
-   "UNID": "un",
-   "PUNIT": "R$ 325,60"
- },
- {
-   "ITEM": 1060316,
-   "ESPEC": "CAPA ASF 50 A 100 ARR COMPX C",
-   "NPRECO": 72001322,
-   "UNID": "un",
-   "PUNIT": "R$ 135,39"
- },
- {
-   "ITEM": 2060518,
-   "ESPEC": "CAPA ASF 50 A 100 INTERLIG COMPX A",
-   "NPRECO": 72001299,
-   "UNID": "un",
-   "PUNIT": "R$ 884,04"
- },
- {
-   "ITEM": 2060517,
-   "ESPEC": "CAPA ASF 50 A 100 INTERLIG COMPX B",
-   "NPRECO": 72001300,
-   "UNID": "un",
-   "PUNIT": "R$ 884,04"
- },
- {
-   "ITEM": 2060516,
-   "ESPEC": "CAPA ASF 50 A 100 INTERLIG COMPX C",
-   "NPRECO": 72001301,
-   "UNID": "un",
-   "PUNIT": "R$ 352,88"
- },
- {
-   "ITEM": 2140316,
-   "ESPEC": "CAPA ASF ACIMA DE 2M PRE COMPX A",
-   "NPRECO": 72001168,
-   "UNID": "M",
-   "PUNIT": "R$ 333,75"
- },
- {
-   "ITEM": 2140315,
-   "ESPEC": "CAPA ASF ACIMA DE 2M PRE COMPX B",
-   "NPRECO": 72001169,
-   "UNID": "M",
-   "PUNIT": "R$ 333,75"
- },
- {
-   "ITEM": 2140314,
-   "ESPEC": "CAPA ASF ACIMA DE 2M PRE COMPX C",
-   "NPRECO": 72001170,
-   "UNID": "M",
-   "PUNIT": "R$ 136,47"
- },
- {
-   "ITEM": 2120328,
-   "ESPEC": "CAPA ASF ATE 2M EX LESG COMPX A",
-   "NPRECO": 72001160,
-   "UNID": "un",
-   "PUNIT": "R$ 1.252,97"
- },
- {
-   "ITEM": 2120327,
-   "ESPEC": "CAPA ASF ATE 2M EX LESG COMPX B",
-   "NPRECO": 72001161,
-   "UNID": "un",
-   "PUNIT": "R$ 1.252,97"
- },
- {
-   "ITEM": 2120326,
-   "ESPEC": "CAPA ASF ATE 2M EX LESG COMPX C",
-   "NPRECO": 72001262,
-   "UNID": "un",
-   "PUNIT": "R$ 514,16"
- },
- {
-   "ITEM": 2130245,
-   "ESPEC": "CAPA ASF ATE 2M EX TRE COMPX A",
-   "NPRECO": 72001272,
-   "UNID": "un",
-   "PUNIT": "R$ 1.252,97"
- },
- {
-   "ITEM": 2130244,
-   "ESPEC": "CAPA ASF ATE 2M EX TRE COMPX B",
-   "NPRECO": 72001273,
-   "UNID": "un",
-   "PUNIT": "R$ 1.252,97"
- },
- {
-   "ITEM": 2130243,
-   "ESPEC": "CAPA ASF ATE 2M EX TRE COMPX C",
-   "NPRECO": 72001274,
-   "UNID": "un",
-   "PUNIT": "R$ 514,16"
- },
- {
-   "ITEM": 2140313,
-   "ESPEC": "CAPA ASF ATE 2M PRE COMPX A",
-   "NPRECO": 72001165,
-   "UNID": "M",
-   "PUNIT": "R$ 294,45"
- },
- {
-   "ITEM": 2140312,
-   "ESPEC": "CAPA ASF ATE 2M PRE COMPX B",
-   "NPRECO": 72001166,
-   "UNID": "M",
-   "PUNIT": "R$ 289,43"
- },
- {
-   "ITEM": 2140311,
-   "ESPEC": "CAPA ASF ATE 2M PRE COMPX C",
-   "NPRECO": 72001167,
-   "UNID": "M",
-   "PUNIT": "R$ 121,30"
- },
- {
-   "ITEM": 2120325,
-   "ESPEC": "CAPA ASF ATE 2M TA LESG COMPX A",
-   "NPRECO": 72001350,
-   "UNID": "un",
-   "PUNIT": "R$ 775,51"
- },
- {
-   "ITEM": 2120324,
-   "ESPEC": "CAPA ASF ATE 2M TA LESG COMPX B",
-   "NPRECO": 72001351,
-   "UNID": "un",
-   "PUNIT": "R$ 775,51"
- },
- {
-   "ITEM": 2120323,
-   "ESPEC": "CAPA ASF ATE 2M TA LESG COMPX C",
-   "NPRECO": 72001352,
-   "UNID": "un",
-   "PUNIT": "R$ 321,18"
- },
- {
-   "ITEM": 2130236,
-   "ESPEC": "CAPA ASF ATE 2M TA TRE COMPX A",
-   "NPRECO": 72001362,
-   "UNID": "un",
-   "PUNIT": "R$ 775,51"
- },
- {
-   "ITEM": 2130235,
-   "ESPEC": "CAPA ASF ATE 2M TA TRE COMPX B",
-   "NPRECO": 72001363,
-   "UNID": "un",
-   "PUNIT": "R$ 775,51"
- },
- {
-   "ITEM": 2130234,
-   "ESPEC": "CAPA ASF ATE 2M TA TRE COMPX C",
-   "NPRECO": 72001364,
-   "UNID": "un",
-   "PUNIT": "R$ 321,18"
- },
- {
-   "ITEM": 2120331,
-   "ESPEC": "CAPA ASF ATE 2M TO LESG COMPX A",
-   "NPRECO": 72001377,
-   "UNID": "un",
-   "PUNIT": "R$ 1.730,43"
- },
- {
-   "ITEM": 2120330,
-   "ESPEC": "CAPA ASF ATE 2M TO LESG COMPX B",
-   "NPRECO": 72001378,
-   "UNID": "un",
-   "PUNIT": "R$ 1.730,43"
- },
- {
-   "ITEM": 2120329,
-   "ESPEC": "CAPA ASF ATE 2M TO LESG COMPX C",
-   "NPRECO": 72001379,
-   "UNID": "un",
-   "PUNIT": "R$ 707,13"
- },
- {
-   "ITEM": 2130254,
-   "ESPEC": "CAPA ASF ATE 2M TO TRE COMPX A",
-   "NPRECO": 72001389,
-   "UNID": "un",
-   "PUNIT": "R$ 1.730,43"
- },
- {
-   "ITEM": 2130253,
-   "ESPEC": "CAPA ASF ATE 2M TO TRE COMPX B",
-   "NPRECO": 72001390,
-   "UNID": "un",
-   "PUNIT": "R$ 1.730,43"
- },
- {
-   "ITEM": 2130252,
-   "ESPEC": "CAPA ASF ATE 2M TO TRE COMPX C",
-   "NPRECO": 72001391,
-   "UNID": "un",
-   "PUNIT": "R$ 707,13"
- },
- {
-   "ITEM": 1080218,
-   "ESPEC": "CAPA ASF CBUQ NPV COMPX A",
-   "NPRECO": 72000835,
-   "UNID": "un",
-   "PUNIT": "R$ 287,85"
- },
- {
-   "ITEM": 1080217,
-   "ESPEC": "CAPA ASF CBUQ NPV COMPX B",
-   "NPRECO": 72000834,
-   "UNID": "un",
-   "PUNIT": "R$ 287,85"
- },
- {
-   "ITEM": 1080216,
-   "ESPEC": "CAPA ASF CBUQ NPV COMPX C",
-   "NPRECO": 72000833,
-   "UNID": "un",
-   "PUNIT": "R$ 287,85"
- },
- {
-   "ITEM": 2140508,
-   "ESPEC": "CAPA ASF CPV DIAM = 1,20M COMPX A",
-   "NPRECO": 72001250,
-   "UNID": "un",
-   "PUNIT": "R$ 1.547,31"
- },
- {
-   "ITEM": 2140507,
-   "ESPEC": "CAPA ASF CPV DIAM = 1,20M COMPX B",
-   "NPRECO": 72001251,
-   "UNID": "un",
-   "PUNIT": "R$ 1.257,39"
- },
- {
-   "ITEM": 2140506,
-   "ESPEC": "CAPA ASF CPV DIAM = 1,20M COMPX C",
-   "NPRECO": 72001252,
-   "UNID": "un",
-   "PUNIT": "R$ 499,62"
- },
- {
-   "ITEM": 1080308,
-   "ESPEC": "CAPA ASF CPV/REC/SUBST PV/PI COMPX A",
-   "NPRECO": 72001253,
-   "UNID": "un",
-   "PUNIT": "R$ 1.426,33"
- },
- {
-   "ITEM": 1080307,
-   "ESPEC": "CAPA ASF CPV/REC/SUBST PV/PI COMPX B",
-   "NPRECO": 72001254,
-   "UNID": "un",
-   "PUNIT": "R$ 1.426,33"
- },
- {
-   "ITEM": 1080306,
-   "ESPEC": "CAPA ASF CPV/REC/SUBST PV/PI COMPX C",
-   "NPRECO": 72001255,
-   "UNID": "un",
-   "PUNIT": "R$ 562,37"
- },
- {
-   "ITEM": 2130248,
-   "ESPEC": "CAPA ASF DE 2 A 3M EX TRE COMPX A",
-   "NPRECO": 72001275,
-   "UNID": "un",
-   "PUNIT": "R$ 1.418,60"
- },
- {
-   "ITEM": 2130247,
-   "ESPEC": "CAPA ASF DE 2 A 3M EX TRE COMPX B",
-   "NPRECO": 72001276,
-   "UNID": "un",
-   "PUNIT": "R$ 1.418,60"
- },
- {
-   "ITEM": 2130246,
-   "ESPEC": "CAPA ASF DE 2 A 3M EX TRE COMPX C",
-   "NPRECO": 72001277,
-   "UNID": "un",
-   "PUNIT": "R$ 578,94"
- },
- {
-   "ITEM": 2130239,
-   "ESPEC": "CAPA ASF DE 2 A 3M TA TRE COMPX A",
-   "NPRECO": 72001365,
-   "UNID": "un",
-   "PUNIT": "R$ 941,14"
- },
- {
-   "ITEM": 2130238,
-   "ESPEC": "CAPA ASF DE 2 A 3M TA TRE COMPX B",
-   "NPRECO": 72001366,
-   "UNID": "un",
-   "PUNIT": "R$ 941,14"
- },
- {
-   "ITEM": 2130237,
-   "ESPEC": "CAPA ASF DE 2 A 3M TA TRE COMPX C",
-   "NPRECO": 72001367,
-   "UNID": "un",
-   "PUNIT": "R$ 385,95"
- },
- {
-   "ITEM": 2130257,
-   "ESPEC": "CAPA ASF DE 2 A 3M TO TRE COMPX A",
-   "NPRECO": 72001392,
-   "UNID": "un",
-   "PUNIT": "R$ 1.896,06"
- },
- {
-   "ITEM": 2130256,
-   "ESPEC": "CAPA ASF DE 2 A 3M TO TRE COMPX B",
-   "NPRECO": 72001393,
-   "UNID": "un",
-   "PUNIT": "R$ 1.896,06"
- },
- {
-   "ITEM": 2130255,
-   "ESPEC": "CAPA ASF DE 2 A 3M TO TRE COMPX C",
-   "NPRECO": 72001394,
-   "UNID": "un",
-   "PUNIT": "R$ 771,92"
- },
- {
-   "ITEM": 2130251,
-   "ESPEC": "CAPA ASF DE 3 A 4M EX TRE COMPX A",
-   "NPRECO": 72001278,
-   "UNID": "un",
-   "PUNIT": "R$ 1.737,32"
- },
- {
-   "ITEM": 2130250,
-   "ESPEC": "CAPA ASF DE 3 A 4M EX TRE COMPX B",
-   "NPRECO": 72001279,
-   "UNID": "un",
-   "PUNIT": "R$ 1.737,32"
- },
- {
-   "ITEM": 2130249,
-   "ESPEC": "CAPA ASF DE 3 A 4M EX TRE COMPX C",
-   "NPRECO": 72001280,
-   "UNID": "un",
-   "PUNIT": "R$ 701,62"
- },
- {
-   "ITEM": 2130242,
-   "ESPEC": "CAPA ASF DE 3 A 4M TA TRE COMPX A",
-   "NPRECO": 72001368,
-   "UNID": "un",
-   "PUNIT": "R$ 1.186,03"
- },
- {
-   "ITEM": 2130241,
-   "ESPEC": "CAPA ASF DE 3 A 4M TA TRE COMPX B",
-   "NPRECO": 72001369,
-   "UNID": "un",
-   "PUNIT": "R$ 1.186,03"
- },
- {
-   "ITEM": 2130240,
-   "ESPEC": "CAPA ASF DE 3 A 4M TA TRE COMPX C",
-   "NPRECO": 72001370,
-   "UNID": "un",
-   "PUNIT": "R$ 481,07"
- },
- {
-   "ITEM": 2130260,
-   "ESPEC": "CAPA ASF DE 3 A 4M TO TRE COMPX A",
-   "NPRECO": 72001395,
-   "UNID": "un",
-   "PUNIT": "R$ 2.288,61"
- },
- {
-   "ITEM": 2130259,
-   "ESPEC": "CAPA ASF DE 3 A 4M TO TRE COMPX B",
-   "NPRECO": 72001396,
-   "UNID": "un",
-   "PUNIT": "R$ 2.190,51"
- },
- {
-   "ITEM": 2130258,
-   "ESPEC": "CAPA ASF DE 3 A 4M TO TRE COMPX C",
-   "NPRECO": 72001397,
-   "UNID": "un",
-   "PUNIT": "R$ 922,16"
- },
- {
-   "ITEM": 2020317,
-   "ESPEC": "CAPA ASF EX LAG AVUL COMPX A",
-   "NPRECO": 72001259,
-   "UNID": "un",
-   "PUNIT": "R$ 733,18"
- },
- {
-   "ITEM": 2020316,
-   "ESPEC": "CAPA ASF EX LAG AVUL COMPX B",
-   "NPRECO": 72001260,
-   "UNID": "un",
-   "PUNIT": "R$ 733,18"
- },
- {
-   "ITEM": 2020315,
-   "ESPEC": "CAPA ASF EX LAG AVUL COMPX C",
-   "NPRECO": 72001261,
-   "UNID": "un",
-   "PUNIT": "R$ 315,66"
- },
- {
-   "ITEM": 2080217,
-   "ESPEC": "CAPA ASF EX LAG SUCES COMPX A",
-   "NPRECO": 72001269,
-   "UNID": "un",
-   "PUNIT": "R$ 486,83"
- },
- {
-   "ITEM": 2080216,
-   "ESPEC": "CAPA ASF EX LAG SUCES COMPX B",
-   "NPRECO": 72001270,
-   "UNID": "un",
-   "PUNIT": "R$ 486,83"
- },
- {
-   "ITEM": 2080215,
-   "ESPEC": "CAPA ASF EX LAG SUCES COMPX C",
-   "NPRECO": 72001271,
-   "UNID": "un",
-   "PUNIT": "R$ 212,28"
- },
- {
-   "ITEM": 2150217,
-   "ESPEC": "CAPA ASF EX LESG SUCES COMPX A",
-   "NPRECO": 72001266,
-   "UNID": "un",
-   "PUNIT": "R$ 883,42"
- },
- {
-   "ITEM": 2150216,
-   "ESPEC": "CAPA ASF EX LESG SUCES COMPX B",
-   "NPRECO": 72001267,
-   "UNID": "un",
-   "PUNIT": "R$ 883,42"
- },
- {
-   "ITEM": 2150215,
-   "ESPEC": "CAPA ASF EX LESG SUCES COMPX C",
-   "NPRECO": 72001268,
-   "UNID": "un",
-   "PUNIT": "R$ 361,84"
- },
- {
-   "ITEM": 2030417,
-   "ESPEC": "CAPA ASF EX TRA PREV COMPX A",
-   "NPRECO": 72001281,
-   "UNID": "un",
-   "PUNIT": "R$ 860,68"
- },
- {
-   "ITEM": 2030416,
-   "ESPEC": "CAPA ASF EX TRA PREV COMPX B",
-   "NPRECO": 72001282,
-   "UNID": "un",
-   "PUNIT": "R$ 860,68"
- },
- {
-   "ITEM": 2030415,
-   "ESPEC": "CAPA ASF EX TRA PREV COMPX C",
-   "NPRECO": 72001283,
-   "UNID": "un",
-   "PUNIT": "R$ 417,66"
- },
- {
-   "ITEM": 2070208,
-   "ESPEC": "CAPA ASF INST VL COMPX A",
-   "NPRECO": 72001296,
-   "UNID": "un",
-   "PUNIT": "R$ 574,68"
- },
- {
-   "ITEM": 2070207,
-   "ESPEC": "CAPA ASF INST VL COMPX B",
-   "NPRECO": 72001297,
-   "UNID": "un",
-   "PUNIT": "R$ 574,68"
- },
- {
-   "ITEM": 2070206,
-   "ESPEC": "CAPA ASF INST VL COMPX C",
-   "NPRECO": 72001298,
-   "UNID": "un",
-   "PUNIT": "R$ 232,95"
- },
- {
-   "ITEM": 2120337,
-   "ESPEC": "CAPA ASF MAIS DE 2M EX LESG COMPX A",
-   "NPRECO": 72001263,
-   "UNID": "un",
-   "PUNIT": "R$ 1.252,97"
- },
- {
-   "ITEM": 2120336,
-   "ESPEC": "CAPA ASF MAIS DE 2M EX LESG COMPX B",
-   "NPRECO": 72001264,
-   "UNID": "un",
-   "PUNIT": "R$ 1.252,97"
- },
- {
-   "ITEM": 2120335,
-   "ESPEC": "CAPA ASF MAIS DE 2M EX LESG COMPX C",
-   "NPRECO": 72001265,
-   "UNID": "un",
-   "PUNIT": "R$ 514,16"
- },
- {
-   "ITEM": 2120334,
-   "ESPEC": "CAPA ASF MAIS DE 2M TA LESG COMPX A",
-   "NPRECO": 72001353,
-   "UNID": "un",
-   "PUNIT": "R$ 775,51"
- },
- {
-   "ITEM": 2120333,
-   "ESPEC": "CAPA ASF MAIS DE 2M TA LESG COMPX B",
-   "NPRECO": 72001354,
-   "UNID": "un",
-   "PUNIT": "R$ 775,51"
- },
- {
-   "ITEM": 2120332,
-   "ESPEC": "CAPA ASF MAIS DE 2M TA LESG COMPX C",
-   "NPRECO": 72001355,
-   "UNID": "un",
-   "PUNIT": "R$ 321,18"
- },
- {
-   "ITEM": 2120340,
-   "ESPEC": "CAPA ASF MAIS DE 2M TO LESG COMPX A",
-   "NPRECO": 72001380,
-   "UNID": "un",
-   "PUNIT": "R$ 1.730,43"
- },
- {
-   "ITEM": 2120339,
-   "ESPEC": "CAPA ASF MAIS DE 2M TO LESG COMPX B",
-   "NPRECO": 72001381,
-   "UNID": "un",
-   "PUNIT": "R$ 1.730,43"
- },
- {
-   "ITEM": 2120338,
-   "ESPEC": "CAPA ASF MAIS DE 2M TO LESG COMPX C",
-   "NPRECO": 72001382,
-   "UNID": "un",
-   "PUNIT": "R$ 707,13"
- },
- {
-   "ITEM": 2020508,
-   "ESPEC": "CAPA ASF MND LAG AVUL COMPX A",
-   "NPRECO": 72001284,
-   "UNID": "un",
-   "PUNIT": "R$ 360,87"
- },
- {
-   "ITEM": 2020507,
-   "ESPEC": "CAPA ASF MND LAG AVUL COMPX B",
-   "NPRECO": 72001285,
-   "UNID": "un",
-   "PUNIT": "R$ 360,87"
- },
- {
-   "ITEM": 2020506,
-   "ESPEC": "CAPA ASF MND LAG AVUL COMPX C",
-   "NPRECO": 72001286,
-   "UNID": "un",
-   "PUNIT": "R$ 150,12"
- },
- {
-   "ITEM": 2080408,
-   "ESPEC": "CAPA ASF MND LAG SUCES COMPX A",
-   "NPRECO": 72001287,
-   "UNID": "un",
-   "PUNIT": "R$ 360,87"
- },
- {
-   "ITEM": 2080407,
-   "ESPEC": "CAPA ASF MND LAG SUCES COMPX B",
-   "NPRECO": 72001288,
-   "UNID": "un",
-   "PUNIT": "R$ 360,87"
- },
- {
-   "ITEM": 2080406,
-   "ESPEC": "CAPA ASF MND LAG SUCES COMPX C",
-   "NPRECO": 72001289,
-   "UNID": "un",
-   "PUNIT": "R$ 150,12"
- },
- {
-   "ITEM": 2030608,
-   "ESPEC": "CAPA ASF MND TRA CORR COMPX A",
-   "NPRECO": 72001290,
-   "UNID": "un",
-   "PUNIT": "R$ 362,19"
- },
- {
-   "ITEM": 2030607,
-   "ESPEC": "CAPA ASF MND TRA CORR COMPX B",
-   "NPRECO": 72001291,
-   "UNID": "un",
-   "PUNIT": "R$ 362,19"
- },
- {
-   "ITEM": 2030606,
-   "ESPEC": "CAPA ASF MND TRA CORR COMPX C",
-   "NPRECO": 72001292,
-   "UNID": "un",
-   "PUNIT": "R$ 150,62"
- },
- {
-   "ITEM": 2030808,
-   "ESPEC": "CAPA ASF MND TRA PREV COMPX A",
-   "NPRECO": 72001293,
-   "UNID": "un",
-   "PUNIT": "R$ 360,87"
- },
- {
-   "ITEM": 2030807,
-   "ESPEC": "CAPA ASF MND TRA PREV COMPX B",
-   "NPRECO": 72001294,
-   "UNID": "un",
-   "PUNIT": "R$ 360,87"
- },
- {
-   "ITEM": 2030806,
-   "ESPEC": "CAPA ASF MND TRA PREV COMPX C",
-   "NPRECO": 72001295,
-   "UNID": "un",
-   "PUNIT": "R$ 150,12"
- },
- {
-   "ITEM": 1060508,
-   "ESPEC": "CAPA ASF NIV CX PARADA COMPX A",
-   "NPRECO": 72001256,
-   "UNID": "un",
-   "PUNIT": "R$ 153,51"
- },
- {
-   "ITEM": 1060507,
-   "ESPEC": "CAPA ASF NIV CX PARADA COMPX B",
-   "NPRECO": 72001257,
-   "UNID": "un",
-   "PUNIT": "R$ 153,51"
- },
- {
-   "ITEM": 1060506,
-   "ESPEC": "CAPA ASF NIV CX PARADA COMPX C",
-   "NPRECO": 72001258,
-   "UNID": "un",
-   "PUNIT": "R$ 66,77"
- },
- {
-   "ITEM": 2060321,
-   "ESPEC": "CAPA ASF PRA 200 A 250 COMPX A",
-   "NPRECO": 72001244,
-   "UNID": "M",
-   "PUNIT": "R$ 255,14"
- },
- {
-   "ITEM": 2060320,
-   "ESPEC": "CAPA ASF PRA 200 A 250 COMPX B",
-   "NPRECO": 72001245,
-   "UNID": "M",
-   "PUNIT": "R$ 250,79"
- },
- {
-   "ITEM": 2060319,
-   "ESPEC": "CAPA ASF PRA 200 A 250 COMPX C",
-   "NPRECO": 72001246,
-   "UNID": "M",
-   "PUNIT": "R$ 106,14"
- },
- {
-   "ITEM": 2060324,
-   "ESPEC": "CAPA ASF PRA 300 A 400 COMPX A",
-   "NPRECO": 72001247,
-   "UNID": "M",
-   "PUNIT": "R$ 289,43"
- },
- {
-   "ITEM": 2060323,
-   "ESPEC": "CAPA ASF PRA 300 A 400 COMPX B",
-   "NPRECO": 72001248,
-   "UNID": "M",
-   "PUNIT": "R$ 289,43"
- },
- {
-   "ITEM": 2060322,
-   "ESPEC": "CAPA ASF PRA 300 A 400 COMPX C",
-   "NPRECO": 72001249,
-   "UNID": "M",
-   "PUNIT": "R$ 121,30"
- },
- {
-   "ITEM": 2060318,
-   "ESPEC": "CAPA ASF PRA 50 A 150 COMPX A",
-   "NPRECO": 72001171,
-   "UNID": "M",
-   "PUNIT": "R$ 215,83"
- },
- {
-   "ITEM": 2060317,
-   "ESPEC": "CAPA ASF PRA 50 A 150 COMPX B",
-   "NPRECO": 72001242,
-   "UNID": "M",
-   "PUNIT": "R$ 215,83"
- },
- {
-   "ITEM": 2060316,
-   "ESPEC": "CAPA ASF PRA 50 A 150 COMPX C",
-   "NPRECO": 72001243,
-   "UNID": "M",
-   "PUNIT": "R$ 92,55"
- },
- {
-   "ITEM": 1090115,
-   "ESPEC": "CAPA ASF SERV. AG",
-   "NPRECO": 72000861,
-   "UNID": "M3",
-   "PUNIT": "R$ 3.479,84"
- },
- {
-   "ITEM": 1090116,
-   "ESPEC": "CAPA ASF SERV. ESG",
-   "NPRECO": 72000862,
-   "UNID": "M3",
-   "PUNIT": "R$ 3.479,84"
- },
- {
-   "ITEM": 1040208,
-   "ESPEC": "CAPA ASF SUPR RELIG AG COMPX A",
-   "NPRECO": 72001344,
-   "UNID": "un",
-   "PUNIT": "R$ 267,06"
- },
- {
-   "ITEM": 1040207,
-   "ESPEC": "CAPA ASF SUPR RELIG AG COMPX B",
-   "NPRECO": 72001345,
-   "UNID": "un",
-   "PUNIT": "R$ 262,51"
- },
- {
-   "ITEM": 1040206,
-   "ESPEC": "CAPA ASF SUPR RELIG AG COMPX C",
-   "NPRECO": 72001346,
-   "UNID": "un",
-   "PUNIT": "R$ 110,37"
- },
- {
-   "ITEM": 2020314,
-   "ESPEC": "CAPA ASF TA LAG AVUL COMPX A",
-   "NPRECO": 72001347,
-   "UNID": "un",
-   "PUNIT": "R$ 413,23"
- },
- {
-   "ITEM": 2020313,
-   "ESPEC": "CAPA ASF TA LAG AVUL COMPX B",
-   "NPRECO": 72001348,
-   "UNID": "un",
-   "PUNIT": "R$ 413,23"
- },
- {
-   "ITEM": 2020312,
-   "ESPEC": "CAPA ASF TA LAG AVUL COMPX C",
-   "NPRECO": 72001349,
-   "UNID": "un",
-   "PUNIT": "R$ 177,82"
- },
- {
-   "ITEM": 2080214,
-   "ESPEC": "CAPA ASF TA LAG SUCES COMPX A",
-   "NPRECO": 72001239,
-   "UNID": "un",
-   "PUNIT": "R$ 166,88"
- },
- {
-   "ITEM": 2080213,
-   "ESPEC": "CAPA ASF TA LAG SUCES COMPX B",
-   "NPRECO": 72001240,
-   "UNID": "un",
-   "PUNIT": "R$ 166,88"
- },
- {
-   "ITEM": 2080212,
-   "ESPEC": "CAPA ASF TA LAG SUCES COMPX C",
-   "NPRECO": 72001241,
-   "UNID": "un",
-   "PUNIT": "R$ 74,44"
- },
- {
-   "ITEM": 2150214,
-   "ESPEC": "CAPA ASF TA LESG SUCES COMPX A",
-   "NPRECO": 72001236,
-   "UNID": "un",
-   "PUNIT": "R$ 405,97"
- },
- {
-   "ITEM": 2150213,
-   "ESPEC": "CAPA ASF TA LESG SUCES COMPX B",
-   "NPRECO": 72001237,
-   "UNID": "un",
-   "PUNIT": "R$ 405,97"
- },
- {
-   "ITEM": 2150212,
-   "ESPEC": "CAPA ASF TA LESG SUCES COMPX C",
-   "NPRECO": 72001238,
-   "UNID": "un",
-   "PUNIT": "R$ 168,86"
- },
- {
-   "ITEM": 2030414,
-   "ESPEC": "CAPA ASF TA TRA PREV COMPX A",
-   "NPRECO": 72001371,
-   "UNID": "un",
-   "PUNIT": "R$ 454,59"
- },
- {
-   "ITEM": 2030413,
-   "ESPEC": "CAPA ASF TA TRA PREV COMPX B",
-   "NPRECO": 72001372,
-   "UNID": "un",
-   "PUNIT": "R$ 454,69"
- },
- {
-   "ITEM": 2030412,
-   "ESPEC": "CAPA ASF TA TRA PREV COMPX C",
-   "NPRECO": 72001373,
-   "UNID": "un",
-   "PUNIT": "R$ 210,90"
- },
- {
-   "ITEM": 2020320,
-   "ESPEC": "CAPA ASF TO LAG AVUL COMPX A",
-   "NPRECO": 72001374,
-   "UNID": "un",
-   "PUNIT": "R$ 1.053,13"
- },
- {
-   "ITEM": 2020319,
-   "ESPEC": "CAPA ASF TO LAG AVUL COMPX B",
-   "NPRECO": 72001375,
-   "UNID": "un",
-   "PUNIT": "R$ 1.053,13"
- },
- {
-   "ITEM": 2020318,
-   "ESPEC": "CAPA ASF TO LAG AVUL COMPX C",
-   "NPRECO": 72001376,
-   "UNID": "un",
-   "PUNIT": "R$ 453,50"
- },
- {
-   "ITEM": 2080220,
-   "ESPEC": "CAPA ASF TO LAG SUCES COMPX A",
-   "NPRECO": 72001386,
-   "UNID": "un",
-   "PUNIT": "R$ 806,78"
- },
- {
-   "ITEM": 2080219,
-   "ESPEC": "CAPA ASF TO LAG SUCES COMPX B",
-   "NPRECO": 72001387,
-   "UNID": "un",
-   "PUNIT": "R$ 806,78"
- },
- {
-   "ITEM": 2080218,
-   "ESPEC": "CAPA ASF TO LAG SUCES COMPX C",
-   "NPRECO": 72001388,
-   "UNID": "un",
-   "PUNIT": "R$ 350,12"
- },
- {
-   "ITEM": 2150220,
-   "ESPEC": "CAPA ASF TO LESG SUCES COMPX A",
-   "NPRECO": 72001383,
-   "UNID": "un",
-   "PUNIT": "R$ 1.360,88"
- },
- {
-   "ITEM": 2150219,
-   "ESPEC": "CAPA ASF TO LESG SUCES COMPX B",
-   "NPRECO": 72001384,
-   "UNID": "un",
-   "PUNIT": "R$ 1.360,88"
- },
- {
-   "ITEM": 2150218,
-   "ESPEC": "CAPA ASF TO LESG SUCES COMPX C",
-   "NPRECO": 72001385,
-   "UNID": "un",
-   "PUNIT": "R$ 554,81"
- },
- {
-   "ITEM": 2030420,
-   "ESPEC": "CAPA ASF TO TRA PREV COMPX A",
-   "NPRECO": 72001398,
-   "UNID": "un",
-   "PUNIT": "R$ 1.266,78"
- },
- {
-   "ITEM": 2030419,
-   "ESPEC": "CAPA ASF TO TRA PREV COMPX B",
-   "NPRECO": 72001399,
-   "UNID": "un",
-   "PUNIT": "R$ 1.266,78"
- },
- {
-   "ITEM": 2030418,
-   "ESPEC": "CAPA ASF TO TRA PREV COMPX C",
-   "NPRECO": 72001400,
-   "UNID": "un",
-   "PUNIT": "R$ 624,42"
- },
- {
-   "ITEM": 2030217,
-   "ESPEC": "CAPA ASF  EX TRA CORR COMPX A",
-   "NPRECO": 72000157,
-   "UNID": "un",
-   "PUNIT": "R$ 860,68"
- },
- {
-   "ITEM": 2030216,
-   "ESPEC": "CAPA ASF  EX TRA CORR COMPX B",
-   "NPRECO": 72000156,
-   "UNID": "un",
-   "PUNIT": "R$ 860,68"
- },
- {
-   "ITEM": 2030215,
-   "ESPEC": "CAPA ASF  EX TRA CORR COMPX C",
-   "NPRECO": 72000155,
-   "UNID": "un",
-   "PUNIT": "R$ 417,66"
- },
- {
-   "ITEM": 2030214,
-   "ESPEC": "CAPA ASF  TA TRA CORR COMPX A",
-   "NPRECO": 72000154,
-   "UNID": "un",
-   "PUNIT": "R$ 454,59"
- },
- {
-   "ITEM": 2030213,
-   "ESPEC": "CAPA ASF  TA TRA CORR COMPX B",
-   "NPRECO": 72000153,
-   "UNID": "un",
-   "PUNIT": "R$ 454,59"
- },
- {
-   "ITEM": 2030212,
-   "ESPEC": "CAPA ASF  TA TRA CORR COMPX C",
-   "NPRECO": 72000152,
-   "UNID": "un",
-   "PUNIT": "R$ 210,90"
- },
- {
-   "ITEM": 2030220,
-   "ESPEC": "CAPA ASF  TO TRA CORR COMPX A",
-   "NPRECO": 72000160,
-   "UNID": "un",
-   "PUNIT": "R$ 1.266,78"
- },
- {
-   "ITEM": 2030219,
-   "ESPEC": "CAPA ASF  TO TRA CORR COMPX B",
-   "NPRECO": 72000159,
-   "UNID": "un",
-   "PUNIT": "R$ 1.266,78"
- },
- {
-   "ITEM": 2030218,
-   "ESPEC": "CAPA ASF  TO TRA CORR COMPX C",
-   "NPRECO": 72000158,
-   "UNID": "un",
-   "PUNIT": "R$ 624,42"
- },
- {
-   "ITEM": 2120201,
-   "ESPEC": "CMPL CER/PVC LE AVUL 100/150 S/REP SF",
-   "NPRECO": 72000477,
-   "UNID": "un",
-   "PUNIT": "R$ 399,45"
- },
- {
-   "ITEM": 1060403,
-   "ESPEC": "CMPL ESC CAVAS MAIS DE 2M SERV. AG",
-   "NPRECO": 72000892,
-   "UNID": "M3",
-   "PUNIT": "R$ 352,81"
- },
- {
-   "ITEM": 1080219,
-   "ESPEC": "CMPL ESCAV DE 4 ATE 6M SERV. ESG",
-   "NPRECO": 72000893,
-   "UNID": "M3",
-   "PUNIT": "R$ 310,62"
- },
- {
-   "ITEM": 2070320,
-   "ESPEC": "CONCRETO CONST. PECAS",
-   "NPRECO": 72000896,
-   "UNID": "M3",
-   "PUNIT": "R$ 2.787,81"
- },
- {
-   "ITEM": 1090119,
-   "ESPEC": "CONCRETO FECH. DE VALAS SERV. AG",
-   "NPRECO": 72000865,
-   "UNID": "M3",
-   "PUNIT": "R$ 644,25"
- },
- {
-   "ITEM": 1090120,
-   "ESPEC": "CONCRETO FECH. DE VALAS SERV. ESG",
-   "NPRECO": 72000866,
-   "UNID": "M3",
-   "PUNIT": "R$ 644,25"
- },
- {
-   "ITEM": 2070313,
-   "ESPEC": "CONST CX ALVEN VOLUME ACIMA DE 10M3",
-   "NPRECO": 72000452,
-   "UNID": "M3",
-   "PUNIT": "R$ 2.115,25"
- },
- {
-   "ITEM": 2070311,
-   "ESPEC": "CONST CX ALVEN VOLUME ATE 5M3",
-   "NPRECO": 72000450,
-   "UNID": "M3",
-   "PUNIT": "R$ 3.469,28"
- },
- {
-   "ITEM": 2070312,
-   "ESPEC": "CONST CX ALVEN VOLUME DE 5 A 10M3",
-   "NPRECO": 72000451,
-   "UNID": "M3",
-   "PUNIT": "R$ 2.600,82"
- },
- {
-   "ITEM": 2070316,
-   "ESPEC": "CONST CX CA VOLUME ACIMA DE 10M3",
-   "NPRECO": 72000455,
-   "UNID": "M3",
-   "PUNIT": "R$ 2.493,71"
- },
- {
-   "ITEM": 2070314,
-   "ESPEC": "CONST CX CA VOLUME ATE 5M3",
-   "NPRECO": 72000453,
-   "UNID": "M3",
-   "PUNIT": "R$ 4.007,20"
- },
- {
-   "ITEM": 2070315,
-   "ESPEC": "CONST CX CA VOLUME DE 5 A 10M3",
-   "NPRECO": 72000454,
-   "UNID": "M3",
-   "PUNIT": "R$ 3.067,79"
- },
- {
-   "ITEM": 2140409,
-   "ESPEC": "CONST PI ATE 2M S/REP",
-   "NPRECO": 72000759,
-   "UNID": "un",
-   "PUNIT": "R$ 3.931,01"
- },
- {
-   "ITEM": 2140410,
-   "ESPEC": "CONST PI DE 2 A 3M S/REP",
-   "NPRECO": 72000760,
-   "UNID": "un",
-   "PUNIT": "R$ 4.972,38"
- },
- {
-   "ITEM": 2140406,
-   "ESPEC": "CPV DIAM = 1,20M - DE 2 A 3M - S/ REP",
-   "NPRECO": 72000748,
-   "UNID": "un",
-   "PUNIT": "R$ 7.775,18"
- },
- {
-   "ITEM": 2140407,
-   "ESPEC": "CPV DIAM = 1,20M - DE 3 A 4M - S/ REP",
-   "NPRECO": 72000749,
-   "UNID": "un",
-   "PUNIT": "R$ 9.292,93"
- },
- {
-   "ITEM": 2140408,
-   "ESPEC": "CPV DIAM = 1,20M - DE 4 A 5M - S/ REP",
-   "NPRECO": 72000750,
-   "UNID": "un",
-   "PUNIT": "R$ 11.599,63"
- },
- {
-   "ITEM": 2140405,
-   "ESPEC": "CPV DIAM = 1,20M - PROF ATE 2M S/REP",
-   "NPRECO": 72000747,
-   "UNID": "un",
-   "PUNIT": "R$ 5.656,52"
- },
- {
-   "ITEM": 2140401,
-   "ESPEC": "CPV DIAM = 1M - PROF ATE 2M S/REP",
-   "NPRECO": 72000743,
-   "UNID": "un",
-   "PUNIT": "R$ 5.204,41"
- },
- {
-   "ITEM": 2140402,
-   "ESPEC": "CPV DIAM = 1M - PROF DE 2 A 3M S/REP",
-   "NPRECO": 72000744,
-   "UNID": "un",
-   "PUNIT": "R$ 6.923,84"
- },
- {
-   "ITEM": 2140403,
-   "ESPEC": "CPV DIAM = 1M - PROF DE 3 A 4M S/REP",
-   "NPRECO": 72000745,
-   "UNID": "un",
-   "PUNIT": "R$ 8.264,56"
- },
- {
-   "ITEM": 2140404,
-   "ESPEC": "CPV DIAM = 1M - PROF DE 4 A 5M S/REP",
-   "NPRECO": 72000746,
+   "ITEM": 72000984,
+   "DESCRIÇÃO": "LIMPEZA E/OU DESOBSTRUÇÃO MANUAL DE PV'S E PI'S (RETIRADA MANUAL DE MATERIAIS GRAÚDOS / ENTULHO)",
+   "DATA I0": "jan/26",
    "UNID": "un",
-   "PUNIT": "R$ 10.335,35"
+   "PREÇO": "607,14"
  },
  {
-   "ITEM": 1080503,
-   "ESPEC": "DESASSOREAMENT LIMP POCOS CXS E TUB EEES",
-   "NPRECO": 72000985,
+   "ITEM": 72000985,
+   "DESCRIÇÃO": "DESASSOREAMENTO E LIMPEZA DE POÇOS DE SUCÇÃO, CAIXAS E TUBULAÇÕES DE ENTRADA DE ESTAÇÃO ELEVATÓRIA DE ESGOTOS",
+   "DATA I0": "jan/26",
    "UNID": "H",
-   "PUNIT": "R$ 619,70"
+   "PREÇO": "637,27"
  },
  {
-   "ITEM": 1030105,
-   "ESPEC": "DESINCL HIDRO",
-   "NPRECO": 72000236,
-   "UNID": "un",
-   "PUNIT": "R$ 12,81"
- },
- {
-   "ITEM": 2070319,
-   "ESPEC": "DESMONT ROCHA A FRIO",
-   "NPRECO": 72000895,
-   "UNID": "M3",
-   "PUNIT": "R$ 518,66"
- },
- {
-   "ITEM": 1060402,
-   "ESPEC": "DET CX DESC, NIV CX PARADA S/REP",
-   "NPRECO": 72000339,
-   "UNID": "un",
-   "PUNIT": "R$ 646,22"
- },
- {
-   "ITEM": 2110101,
-   "ESPEC": "DIAGNÓST REDES COLET C/ ONDAS ACÚSTICAS",
-   "NPRECO": 72000846,
-   "UNID": "un",
-   "PUNIT": "R$ 41,08"
- },
- {
-   "ITEM": 1100111,
-   "ESPEC": "EQUIPE DESMONTE DE ROCHA - À FRIO",
-   "NPRECO": 72000913,
-   "UNID": "EQD",
-   "PUNIT": "R$ 6.916,09"
- },
- {
-   "ITEM": 1100112,
-   "ESPEC": "EQUIPE DESMONTE PAV RÍGIDO - À FRIO",
-   "NPRECO": 72000914,
-   "UNID": "EQD",
-   "PUNIT": "R$ 4.702,77"
- },
- {
-   "ITEM": 1100110,
-   "ESPEC": "EQUIPE PARA SERVIÇOS DE TOPOGRAFIA",
-   "NPRECO": 72000912,
-   "UNID": "EQD",
-   "PUNIT": "R$ 1.188,61"
- },
- {
-   "ITEM": 1100108,
-   "ESPEC": "EQUIPE SERV ESPECIAIS - E + A - Água",
-   "NPRECO": 72000910,
-   "UNID": "EQD",
-   "PUNIT": "R$ 1.981,70"
- },
- {
-   "ITEM": 1100113,
-   "ESPEC": "EQUIPE SERV ESPECIAIS - EQUIPAMENTOS",
-   "NPRECO": 72000915,
-   "UNID": "EQD",
-   "PUNIT": "R$ 2.678,42"
- },
- {
-   "ITEM": 1100109,
-   "ESPEC": "EQUIPE SERV ESPECIAIS- E+A+A - Esgoto",
-   "NPRECO": 72000911,
-   "UNID": "EQD",
-   "PUNIT": "R$ 2.411,97"
- },
- {
-   "ITEM": 1090123,
-   "ESPEC": "EXEC PASS CIMENTADO",
-   "NPRECO": 72000869,
-   "UNID": "M2",
-   "PUNIT": "R$ 120,57"
- },
- {
-   "ITEM": 1090122,
-   "ESPEC": "EXEC PASS ESPECIAL",
-   "NPRECO": 72000868,
-   "UNID": "M2",
-   "PUNIT": "R$ 259,24"
- },
- {
-   "ITEM": 2180202,
-   "ESPEC": "EXP.MONIT.INTERF.DISTAN. 2 DN",
-   "NPRECO": 421512,
-   "UNID": "M3",
-   "PUNIT": "R$ 724,93"
- },
- {
-   "ITEM": 1090308,
-   "ESPEC": "FORN ARDOSIA SERRADA",
-   "NPRECO": 72000886,
-   "UNID": "M2",
-   "PUNIT": "R$ 33,28"
- },
- {
-   "ITEM": 1090303,
-   "ESPEC": "FORN BLOCOS DE CONCRETO",
-   "NPRECO": 72000881,
-   "UNID": "M2",
-   "PUNIT": "R$ 93,57"
- },
- {
-   "ITEM": 1090306,
-   "ESPEC": "FORN CACO CERAMICO",
-   "NPRECO": 72000884,
-   "UNID": "M2",
-   "PUNIT": "R$ 23,43"
- },
- {
-   "ITEM": 1090307,
-   "ESPEC": "FORN GRANITO - MIRACEMA",
-   "NPRECO": 72000885,
-   "UNID": "M2",
-   "PUNIT": "R$ 53,38"
- },
- {
-   "ITEM": 1090301,
-   "ESPEC": "FORN GUIAS",
-   "NPRECO": 72000879,
-   "UNID": "M",
-   "PUNIT": "R$ 49,61"
- },
- {
-   "ITEM": 1090304,
-   "ESPEC": "FORN LADRILHOS",
-   "NPRECO": 72000882,
-   "UNID": "M2",
-   "PUNIT": "R$ 81,62"
- },
- {
-   "ITEM": 1090310,
-   "ESPEC": "FORN LAJOTAO",
-   "NPRECO": 72000888,
-   "UNID": "M2",
-   "PUNIT": "R$ 90,00"
- },
- {
-   "ITEM": 1090309,
-   "ESPEC": "FORN LUMINARIA",
-   "NPRECO": 72000887,
-   "UNID": "M2",
-   "PUNIT": "R$ 234,85"
- },
- {
-   "ITEM": 1090305,
-   "ESPEC": "FORN MOSAICOS",
-   "NPRECO": 72000883,
-   "UNID": "M2",
-   "PUNIT": "R$ 116,78"
- },
- {
-   "ITEM": 1090302,
-   "ESPEC": "FORN PARALELEPIPEDO",
-   "NPRECO": 72000880,
-   "UNID": "M2",
-   "PUNIT": "R$ 123,30"
- },
- {
-   "ITEM": 2040112,
-   "ESPEC": "FORNEC CAIXA UMAP",
-   "NPRECO": 72000890,
-   "UNID": "un",
-   "PUNIT": "R$ 375,76"
- },
- {
-   "ITEM": 1090202,
-   "ESPEC": "FORNEC INS TACHA REFLET BIDIRECIONAL",
-   "NPRECO": 72000442,
-   "UNID": "un",
-   "PUNIT": "R$ 31,75"
- },
- {
-   "ITEM": 1090201,
-   "ESPEC": "FORNEC INST TACHA REFLET MONODIRECIONAL",
-   "NPRECO": 72000441,
-   "UNID": "un",
-   "PUNIT": "R$ 26,59"
- },
- {
-   "ITEM": 1090204,
-   "ESPEC": "FORNEC INST TACHAO REFLET BIDIRECIONAL",
-   "NPRECO": 72000444,
-   "UNID": "un",
-   "PUNIT": "R$ 100,14"
- },
- {
-   "ITEM": 1090203,
-   "ESPEC": "FORNEC INST TACHAO REFLET MONODIRECIONAL",
-   "NPRECO": 72000443,
-   "UNID": "un",
-   "PUNIT": "R$ 98,33"
- },
- {
-   "ITEM": 1100101,
-   "ESPEC": "FORNEC LAJE C/ TAMPÃO ART 600MM ou 900MM",
-   "NPRECO": 72000891,
-   "UNID": "un",
-   "PUNIT": "R$ 1.285,67"
- },
- {
-   "ITEM": 1090311,
-   "ESPEC": "FORNEC SELAGEM BASE",
-   "NPRECO": 72000889,
-   "UNID": "TON",
-   "PUNIT": "R$ 2.128,00"
- },
- {
-   "ITEM": 1090125,
-   "ESPEC": "FRESA ASF E RECAP CBUQ - ACIMA DE 100M2",
-   "NPRECO": 72000871,
-   "UNID": "M2",
-   "PUNIT": "R$ 150,16"
- },
- {
-   "ITEM": 1090124,
-   "ESPEC": "FRESA ASF E RECAP CBUQ - ATE 100M2",
-   "NPRECO": 72000870,
-   "UNID": "M2",
-   "PUNIT": "R$ 248,68"
- },
- {
-   "ITEM": 1100103,
-   "ESPEC": "GEOR EQUIPE CADGEO",
-   "NPRECO": 72000901,
-   "UNID": "EQD",
-   "PUNIT": "R$ 1.441,85"
- },
- {
-   "ITEM": 2020601,
-   "ESPEC": "INCL LIG EM CV MULT",
-   "NPRECO": 72000210,
-   "UNID": "un",
-   "PUNIT": "R$ 263,56"
- },
- {
-   "ITEM": 2020602,
-   "ESPEC": "INCL LIG EM UMA MULT",
-   "NPRECO": 72000211,
-   "UNID": "un",
-   "PUNIT": "R$ 54,21"
- },
- {
-   "ITEM": 1100107,
-   "ESPEC": "INSPEÇÃO DE FALTA DE ÁGUA LOCAL",
-   "NPRECO": 72000909,
-   "UNID": "un",
-   "PUNIT": "R$ 40,37"
- },
- {
-   "ITEM": 2110104,
-   "ESPEC": "INSPECAO DE PVS E GAPS",
-   "NPRECO": 72000977,
-   "UNID": "un",
-   "PUNIT": "R$ 145,66"
- },
- {
-   "ITEM": 2110103,
-   "ESPEC": "INSPECAO EM LIGACAO DE ESGOTO AVULSA",
-   "NPRECO": 72000976,
-   "UNID": "un",
-   "PUNIT": "R$ 80,95"
- },
- {
-   "ITEM": 2110102,
-   "ESPEC": "INSPECAO EM LIGACAO ESGOTO VARREDURA",
-   "NPRECO": 72000975,
-   "UNID": "un",
-   "PUNIT": "R$ 64,62"
- },
- {
-   "ITEM": 2110105,
-   "ESPEC": "INSPECAO REDE COLETORA",
-   "NPRECO": 72000978,
+   "ITEM": 72000986,
+   "DESCRIÇÃO": "RELATÓRIO DE DIAGNÓSTICO E PROGNÓSTICO",
+   "DATA I0": "jan/26",
    "UNID": "KM",
-   "PUNIT": "R$ 992,97"
+   "PREÇO": "780,13"
  },
  {
-   "ITEM": 2040103,
-   "ESPEC": "INST CX UMA",
-   "NPRECO": 72000213,
-   "UNID": "un",
-   "PUNIT": "R$ 263,39"
- },
- {
-   "ITEM": 2040102,
-   "ESPEC": "INST CX UMA COM CONSTRUCAO DE MURETA",
-   "NPRECO": 72000212,
-   "UNID": "un",
-   "PUNIT": "R$ 695,34"
- },
- {
-   "ITEM": 2170107,
-   "ESPEC": "INST DE CXA DE INSPEÇÃO ESG 45x45x60 CM",
-   "NPRECO": 72000907,
-   "UNID": "un",
-   "PUNIT": "R$ 642,26"
- },
- {
-   "ITEM": 2180102,
-   "ESPEC": "INST E ABAST PROV ATRAVÉS DE BY-PASS",
-   "NPRECO": 421510,
-   "UNID": "M",
-   "PUNIT": "R$ 18,76"
- },
- {
-   "ITEM": 2180104,
-   "ESPEC": "INST VÁLV FF FL DN 80MM A 150MM (SFMH)",
-   "NPRECO": 421541,
-   "UNID": "un",
-   "PUNIT": "R$ 428,49"
- },
- {
-   "ITEM": 2040109,
-   "ESPEC": "INSTAL CAIXA PARA UMAP",
-   "NPRECO": 72000223,
-   "UNID": "un",
-   "PUNIT": "R$ 215,49"
- },
- {
-   "ITEM": 2040106,
-   "ESPEC": "INSTAL CAIXA PARA UMAP",
-   "NPRECO": 72000216,
-   "UNID": "un",
-   "PUNIT": "R$ 253,25"
- },
- {
-   "ITEM": 2070105,
-   "ESPEC": "INSTVL FC 50 A 100 S/REP SF",
-   "NPRECO": 72000432,
-   "UNID": "un",
-   "PUNIT": "R$ 1.169,10"
- },
- {
-   "ITEM": 2070103,
-   "ESPEC": "INSTVL FF 150 A 250 S/REP SF",
-   "NPRECO": 72000430,
-   "UNID": "un",
-   "PUNIT": "R$ 891,63"
- },
- {
-   "ITEM": 2070104,
-   "ESPEC": "INSTVL FF 300 A 400 S/REP SF",
-   "NPRECO": 72000431,
-   "UNID": "un",
-   "PUNIT": "R$ 1.334,15"
- },
- {
-   "ITEM": 2070102,
-   "ESPEC": "INSTVL FF 50 A 100 S/REP SF",
-   "NPRECO": 72000429,
-   "UNID": "un",
-   "PUNIT": "R$ 679,52"
- },
- {
-   "ITEM": 2070101,
-   "ESPEC": "INSTVL PVC 50 A 100 S/REP SF",
-   "NPRECO": 72000428,
-   "UNID": "un",
-   "PUNIT": "R$ 630,40"
- },
- {
-   "ITEM": 2180105,
-   "ESPEC": "INT RD EXIST CON FL DN 80 A 150MM (SFMH)",
-   "NPRECO": 421542,
-   "UNID": "un",
-   "PUNIT": "R$ 1.086,40"
- },
- {
-   "ITEM": 2060405,
-   "ESPEC": "INTL 200 A 400 FLANG SF",
-   "NPRECO": 72000393,
-   "UNID": "un",
-   "PUNIT": "R$ 3.032,56"
- },
- {
-   "ITEM": 2060404,
-   "ESPEC": "INTL 80 A 150 FLANG SF",
-   "NPRECO": 72000392,
-   "UNID": "un",
-   "PUNIT": "R$ 1.399,57"
- },
- {
-   "ITEM": 2060402,
-   "ESPEC": "INTL PVC/PEAD/FF/FC 150 A 250 S/REP SF",
-   "NPRECO": 72000390,
-   "UNID": "un",
-   "PUNIT": "R$ 2.562,35"
- },
- {
-   "ITEM": 2060403,
-   "ESPEC": "INTL PVC/PEAD/FF/FC 300 A 400 S/REP SF",
-   "NPRECO": 72000391,
-   "UNID": "un",
-   "PUNIT": "R$ 3.274,18"
- },
- {
-   "ITEM": 2060401,
-   "ESPEC": "INTL PVC/PEAD/FF/FC 50 A 100 S/REP SF",
-   "NPRECO": 72000389,
-   "UNID": "un",
-   "PUNIT": "R$ 1.513,80"
- },
- {
-   "ITEM": 2180101,
-   "ESPEC": "INV NÃO INV DE SUBSOLO - GPR GEORADAR",
-   "NPRECO": 421501,
-   "UNID": "EQD",
-   "PUNIT": "R$ 4.803,49"
- },
- {
-   "ITEM": 1030104,
-   "ESPEC": "LACRACAO HIDROMETRO",
-   "NPRECO": 72000235,
-   "UNID": "un",
-   "PUNIT": "R$ 11,52"
- },
- {
-   "ITEM": 2020103,
-   "ESPEC": "LAG ATE 32MM EX AVUL S/REP SF",
-   "NPRECO": 72000054,
-   "UNID": "un",
-   "PUNIT": "R$ 639,99"
- },
- {
-   "ITEM": 2020401,
-   "ESPEC": "LAG ATE 32MM MND AVUL S/REP SF",
-   "NPRECO": 72000048,
-   "UNID": "un",
-   "PUNIT": "R$ 829,54"
- },
- {
-   "ITEM": 2020101,
-   "ESPEC": "LAG ATE 32MM PA AVUL S/REP SF",
-   "NPRECO": 72000052,
-   "UNID": "un",
-   "PUNIT": "R$ 353,87"
- },
- {
-   "ITEM": 2020105,
-   "ESPEC": "LAG ATE 32MM PO AVUL S/REP SF",
-   "NPRECO": 72000056,
-   "UNID": "un",
-   "PUNIT": "R$ 951,44"
- },
- {
-   "ITEM": 2020102,
-   "ESPEC": "LAG ATE 32MM TA AVUL S/REP SF",
-   "NPRECO": 72000053,
-   "UNID": "un",
-   "PUNIT": "R$ 519,30"
- },
- {
-   "ITEM": 2020104,
-   "ESPEC": "LAG ATE 32MM TO AVUL S/REP SF",
-   "NPRECO": 72000055,
-   "UNID": "un",
-   "PUNIT": "R$ 838,70"
- },
- {
-   "ITEM": 2020204,
-   "ESPEC": "LAG DN100 HD1800 SF",
-   "NPRECO": 72000079,
-   "UNID": "un",
-   "PUNIT": "R$ 3.172,88"
- },
- {
-   "ITEM": 2020201,
-   "ESPEC": "LAG DN50 HD30 SF",
-   "NPRECO": 72000076,
-   "UNID": "un",
-   "PUNIT": "R$ 1.832,57"
- },
- {
-   "ITEM": 2020202,
-   "ESPEC": "LAG DN50 HD300 SF",
-   "NPRECO": 72000077,
-   "UNID": "un",
-   "PUNIT": "R$ 2.254,00"
- },
- {
-   "ITEM": 2020203,
-   "ESPEC": "LAG DN80 HD1100 SF",
-   "NPRECO": 72000078,
-   "UNID": "un",
-   "PUNIT": "R$ 3.027,09"
- },
- {
-   "ITEM": 2080103,
-   "ESPEC": "LAG EX SUCES S/REP SF",
-   "NPRECO": 72000035,
-   "UNID": "un",
-   "PUNIT": "R$ 410,84"
- },
- {
-   "ITEM": 2080301,
-   "ESPEC": "LAG MND SUCES S/REP SF",
-   "NPRECO": 72000049,
-   "UNID": "un",
-   "PUNIT": "R$ 634,87"
- },
- {
-   "ITEM": 2080101,
-   "ESPEC": "LAG PA SUCES S/REP SF",
-   "NPRECO": 72000033,
-   "UNID": "un",
-   "PUNIT": "R$ 123,71"
- },
- {
-   "ITEM": 2080105,
-   "ESPEC": "LAG PO SUCES S/REP SF",
-   "NPRECO": 72000037,
-   "UNID": "un",
-   "PUNIT": "R$ 687,98"
- },
- {
-   "ITEM": 2080102,
-   "ESPEC": "LAG TA SUCES S/REP SF",
-   "NPRECO": 72000034,
-   "UNID": "un",
-   "PUNIT": "R$ 308,16"
- },
- {
-   "ITEM": 2080104,
-   "ESPEC": "LAG TO SUCES S/REP SF",
-   "NPRECO": 72000036,
-   "UNID": "un",
-   "PUNIT": "R$ 573,81"
- },
- {
-   "ITEM": 1080404,
-   "ESPEC": "LAVAGEM HID ALTA PRES C SUCÇÃO À VÁC NOT",
-   "NPRECO": 72000844,
-   "UNID": "M",
-   "PUNIT": "R$ 19,54"
- },
- {
-   "ITEM": 1080405,
-   "ESPEC": "LAVAGEM HIDROJ ALTA PRESS",
-   "NPRECO": 72000972,
-   "UNID": "M",
-   "PUNIT": "R$ 7,84"
- },
- {
-   "ITEM": 1080403,
-   "ESPEC": "LAVAGEM HIDROJ ALTA PRESS C SUCÇÃO À VÁC",
-   "NPRECO": 72000843,
-   "UNID": "M",
-   "PUNIT": "R$ 18,59"
- },
- {
-   "ITEM": 1080406,
-   "ESPEC": "LAVAGEM HIDROJ ALTA PRESS NOTURNO",
-   "NPRECO": 72000973,
-   "UNID": "M",
-   "PUNIT": "R$ 8,28"
- },
- {
-   "ITEM": 2120103,
-   "ESPEC": "LESG CER/PVC ATE 2M EX AVUL S/REP SF",
-   "NPRECO": 72000469,
-   "UNID": "un",
-   "PUNIT": "R$ 1.701,79"
- },
- {
-   "ITEM": 2120101,
-   "ESPEC": "LESG CER/PVC ATE 2M PA AVUL S/REP SF",
-   "NPRECO": 72000005,
-   "UNID": "un",
-   "PUNIT": "R$ 971,91"
- },
- {
-   "ITEM": 2120105,
-   "ESPEC": "LESG CER/PVC ATE 2M PO AVUL S/REP SF",
-   "NPRECO": 72000471,
-   "UNID": "un",
-   "PUNIT": "R$ 2.481,93"
- },
- {
-   "ITEM": 2120102,
-   "ESPEC": "LESG CER/PVC ATE 2M TA AVUL S/REP SF",
-   "NPRECO": 72000468,
-   "UNID": "un",
-   "PUNIT": "R$ 1.460,13"
- },
- {
-   "ITEM": 2120104,
-   "ESPEC": "LESG CER/PVC ATE 2M TO AVUL S/REP SF",
-   "NPRECO": 72000470,
-   "UNID": "un",
-   "PUNIT": "R$ 2.096,62"
- },
- {
-   "ITEM": 2120108,
-   "ESPEC": "LESG CER/PVC DE 2 A 4M EX AVUL S/REP SF",
-   "NPRECO": 72000474,
-   "UNID": "un",
-   "PUNIT": "R$ 2.472,66"
- },
- {
-   "ITEM": 2120106,
-   "ESPEC": "LESG CER/PVC DE 2 A 4M PA AVUL S/REP SF",
-   "NPRECO": 72000472,
-   "UNID": "un",
-   "PUNIT": "R$ 1.559,57"
- },
- {
-   "ITEM": 2120110,
-   "ESPEC": "LESG CER/PVC DE 2 A 4M PO AVUL S/REP SF",
-   "NPRECO": 72000476,
-   "UNID": "un",
-   "PUNIT": "R$ 3.686,44"
- },
- {
-   "ITEM": 2120107,
-   "ESPEC": "LESG CER/PVC DE 2 A 4M TA AVUL S/REP SF",
-   "NPRECO": 72000473,
-   "UNID": "un",
-   "PUNIT": "R$ 2.006,87"
- },
- {
-   "ITEM": 2120109,
-   "ESPEC": "LESG CER/PVC DE 2 A 4M TO AVUL S/REP SF",
-   "NPRECO": 72000475,
-   "UNID": "un",
-   "PUNIT": "R$ 3.127,90"
- },
- {
-   "ITEM": 2150103,
-   "ESPEC": "LESG CER/PVC EX SUCES S/REP SF",
-   "NPRECO": 72000481,
-   "UNID": "un",
-   "PUNIT": "R$ 906,76"
- },
- {
-   "ITEM": 2150101,
-   "ESPEC": "LESG CER/PVC PA SUCES S/REP SF",
-   "NPRECO": 72000479,
-   "UNID": "un",
-   "PUNIT": "R$ 329,95"
- },
- {
-   "ITEM": 2150105,
-   "ESPEC": "LESG CER/PVC PO SUCES S/REP SF",
-   "NPRECO": 72000483,
-   "UNID": "un",
-   "PUNIT": "R$ 1.485,19"
- },
- {
-   "ITEM": 2150102,
-   "ESPEC": "LESG CER/PVC TA SUCES S/REP SF",
-   "NPRECO": 72000480,
-   "UNID": "un",
-   "PUNIT": "R$ 692,19"
- },
- {
-   "ITEM": 2150104,
-   "ESPEC": "LESG CER/PVC TO SUCES S/REP SF",
-   "NPRECO": 72000482,
-   "UNID": "un",
-   "PUNIT": "R$ 1.149,72"
- },
- {
-   "ITEM": 1090103,
-   "ESPEC": "LEV ASF SERVICOS SERV. AG",
-   "NPRECO": 72000849,
-   "UNID": "M2",
-   "PUNIT": "R$ 29,34"
- },
- {
-   "ITEM": 1090104,
-   "ESPEC": "LEV ASF SERVICOS SERV. ESG",
-   "NPRECO": 72000850,
-   "UNID": "M2",
-   "PUNIT": "R$ 29,00"
- },
- {
-   "ITEM": 1080502,
-   "ESPEC": "LIMPEZA DESOB MANUAL PV E PI - RET MAT",
-   "NPRECO": 72000984,
-   "UNID": "un",
-   "PUNIT": "R$ 553,67"
- },
- {
-   "ITEM": 1060312,
-   "ESPEC": "LPB 150 A 250 ARR COMPX A",
-   "NPRECO": 72001139,
-   "UNID": "un",
-   "PUNIT": "R$ 504,69"
- },
- {
-   "ITEM": 1060311,
-   "ESPEC": "LPB 150 A 250 ARR COMPX B",
-   "NPRECO": 72001140,
-   "UNID": "un",
-   "PUNIT": "R$ 450,19"
- },
- {
-   "ITEM": 1060310,
-   "ESPEC": "LPB 150 A 250 ARR COMPX C",
-   "NPRECO": 72001141,
-   "UNID": "un",
-   "PUNIT": "R$ 413,13"
- },
- {
-   "ITEM": 2060512,
-   "ESPEC": "LPB 150 A 250 INTERLIG COMPX A",
-   "NPRECO": 72001118,
-   "UNID": "un",
-   "PUNIT": "R$ 1.464,57"
- },
- {
-   "ITEM": 2060511,
-   "ESPEC": "LPB 150 A 250 INTERLIG COMPX B",
-   "NPRECO": 72001119,
-   "UNID": "un",
-   "PUNIT": "R$ 1.201,40"
- },
- {
-   "ITEM": 2060510,
-   "ESPEC": "LPB 150 A 250 INTERLIG COMPX C",
-   "NPRECO": 72001120,
-   "UNID": "un",
-   "PUNIT": "R$ 963,82"
- },
- {
-   "ITEM": 1060315,
-   "ESPEC": "LPB 300 A 400 ARR COMPX A",
-   "NPRECO": 72001142,
-   "UNID": "un",
-   "PUNIT": "R$ 1.869,80"
- },
- {
-   "ITEM": 1060314,
-   "ESPEC": "LPB 300 A 400 ARR COMPX B",
-   "NPRECO": 72001143,
-   "UNID": "un",
-   "PUNIT": "R$ 1.714,07"
- },
- {
-   "ITEM": 1060313,
-   "ESPEC": "LPB 300 A 400 ARR COMPX C",
-   "NPRECO": 72001144,
-   "UNID": "un",
-   "PUNIT": "R$ 1.616,74"
- },
- {
-   "ITEM": 2060515,
-   "ESPEC": "LPB 300 A 400 INTERLIG COMPX A",
-   "NPRECO": 72001121,
-   "UNID": "un",
-   "PUNIT": "R$ 1.824,68"
- },
- {
-   "ITEM": 2060514,
-   "ESPEC": "LPB 300 A 400 INTERLIG COMPX B",
-   "NPRECO": 72001122,
-   "UNID": "un",
-   "PUNIT": "R$ 1.498,50"
- },
- {
-   "ITEM": 2060513,
-   "ESPEC": "LPB 300 A 400 INTERLIG COMPX C",
-   "NPRECO": 72001123,
-   "UNID": "un",
-   "PUNIT": "R$ 1.204,30"
- },
- {
-   "ITEM": 1060309,
-   "ESPEC": "LPB 50 A 100 ARR COMPX A",
-   "NPRECO": 72001136,
-   "UNID": "un",
-   "PUNIT": "R$ 312,65"
- },
- {
-   "ITEM": 1060308,
-   "ESPEC": "LPB 50 A 100 ARR COMPX B",
-   "NPRECO": 72001137,
-   "UNID": "un",
-   "PUNIT": "R$ 293,02"
- },
- {
-   "ITEM": 1060307,
-   "ESPEC": "LPB 50 A 100 ARR COMPX C",
-   "NPRECO": 72001138,
-   "UNID": "un",
-   "PUNIT": "R$ 264,58"
- },
- {
-   "ITEM": 2060509,
-   "ESPEC": "LPB 50 A 100 INTERLIG COMPX A",
-   "NPRECO": 72001115,
-   "UNID": "un",
-   "PUNIT": "R$ 672,47"
- },
- {
-   "ITEM": 2060508,
-   "ESPEC": "LPB 50 A 100 INTERLIG COMPX B",
-   "NPRECO": 72001116,
-   "UNID": "un",
-   "PUNIT": "R$ 547,89"
- },
- {
-   "ITEM": 2060507,
-   "ESPEC": "LPB 50 A 100 INTERLIG COMPX C",
-   "NPRECO": 72001117,
-   "UNID": "un",
-   "PUNIT": "R$ 434,82"
- },
- {
-   "ITEM": 2020308,
-   "ESPEC": "LPB ASF EX LAG AVUL COMPX A",
-   "NPRECO": 72001069,
-   "UNID": "un",
-   "PUNIT": "R$ 598,68"
- },
- {
-   "ITEM": 2120316,
-   "ESPEC": "LPB ASF MAIS DE 2M TA LESG COMPX A",
-   "NPRECO": 72001172,
-   "UNID": "un",
-   "PUNIT": "R$ 556,87"
- },
- {
-   "ITEM": 2030404,
-   "ESPEC": "LPB ASF TA TRA PREV COMPX B",
-   "NPRECO": 72001194,
-   "UNID": "un",
-   "PUNIT": "R$ 250,81"
- },
- {
-   "ITEM": 2120310,
-   "ESPEC": "LPB ATE 2M EX LESG COMPX A",
-   "NPRECO": 72001039,
-   "UNID": "un",
-   "PUNIT": "R$ 895,67"
- },
- {
-   "ITEM": 2120309,
-   "ESPEC": "LPB ATE 2M EX LESG COMPX B",
-   "NPRECO": 72001040,
-   "UNID": "un",
-   "PUNIT": "R$ 720,86"
- },
- {
-   "ITEM": 2120308,
-   "ESPEC": "LPB ATE 2M EX LESG COMPX C",
-   "NPRECO": 72001041,
-   "UNID": "un",
-   "PUNIT": "R$ 586,04"
- },
- {
-   "ITEM": 2130218,
-   "ESPEC": "LPB ATE 2M EX TRE COMPX A",
-   "NPRECO": 72001086,
-   "UNID": "un",
-   "PUNIT": "R$ 1.795,76"
- },
- {
-   "ITEM": 2130217,
-   "ESPEC": "LPB ATE 2M EX TRE COMPX B",
-   "NPRECO": 72001087,
-   "UNID": "un",
-   "PUNIT": "R$ 1.702,69"
- },
- {
-   "ITEM": 2130216,
-   "ESPEC": "LPB ATE 2M EX TRE COMPX C",
-   "NPRECO": 72001088,
-   "UNID": "un",
-   "PUNIT": "R$ 1.708,55"
- },
- {
-   "ITEM": 2120307,
-   "ESPEC": "LPB ATE 2M TA LESG COMPX A",
-   "NPRECO": 72001080,
-   "UNID": "un",
-   "PUNIT": "R$ 556,87"
- },
- {
-   "ITEM": 2120306,
-   "ESPEC": "LPB ATE 2M TA LESG COMPX B",
-   "NPRECO": 72001081,
-   "UNID": "un",
-   "PUNIT": "R$ 445,38"
- },
- {
-   "ITEM": 2120305,
-   "ESPEC": "LPB ATE 2M TA LESG COMPX C",
-   "NPRECO": 72001162,
-   "UNID": "un",
-   "PUNIT": "R$ 358,73"
- },
- {
-   "ITEM": 2130209,
-   "ESPEC": "LPB ATE 2M TA TRE COMPX A",
-   "NPRECO": 72001184,
-   "UNID": "un",
-   "PUNIT": "R$ 1.160,15"
- },
- {
-   "ITEM": 2130208,
-   "ESPEC": "LPB ATE 2M TA TRE COMPX B",
-   "NPRECO": 72001185,
-   "UNID": "un",
-   "PUNIT": "R$ 1.098,78"
- },
- {
-   "ITEM": 2130207,
-   "ESPEC": "LPB ATE 2M TA TRE COMPX C",
-   "NPRECO": 72001186,
-   "UNID": "un",
-   "PUNIT": "R$ 1.098,03"
- },
- {
-   "ITEM": 2120313,
-   "ESPEC": "LPB ATE 2M TO LESG COMPX A",
-   "NPRECO": 72001199,
-   "UNID": "un",
-   "PUNIT": "R$ 1.421,94"
- },
- {
-   "ITEM": 2120312,
-   "ESPEC": "LPB ATE 2M TO LESG COMPX B",
-   "NPRECO": 72001200,
-   "UNID": "un",
-   "PUNIT": "R$ 996,32"
- },
- {
-   "ITEM": 2120311,
-   "ESPEC": "LPB ATE 2M TO LESG COMPX C",
-   "NPRECO": 72001201,
-   "UNID": "un",
-   "PUNIT": "R$ 813,35"
- },
- {
-   "ITEM": 2130227,
-   "ESPEC": "LPB ATE 2M TO TRE COMPX A",
-   "NPRECO": 72001214,
-   "UNID": "un",
-   "PUNIT": "R$ 2.431,43"
- },
- {
-   "ITEM": 2130226,
-   "ESPEC": "LPB ATE 2M TO TRE COMPX B",
-   "NPRECO": 72001215,
-   "UNID": "un",
-   "PUNIT": "R$ 2.306,65"
- },
- {
-   "ITEM": 2130225,
-   "ESPEC": "LPB ATE 2M TO TRE COMPX C",
-   "NPRECO": 72001216,
-   "UNID": "un",
-   "PUNIT": "R$ 2.319,11"
- },
- {
-   "ITEM": 1080305,
-   "ESPEC": "LPB CPV / REC / SUBST PV/PI COMPX A",
-   "NPRECO": 72001063,
-   "UNID": "un",
-   "PUNIT": "R$ 1.108,04"
- },
- {
-   "ITEM": 1080304,
-   "ESPEC": "LPB CPV / REC / SUBST PV/PI COMPX B",
-   "NPRECO": 72001064,
-   "UNID": "un",
-   "PUNIT": "R$ 890,91"
- },
- {
-   "ITEM": 1080303,
-   "ESPEC": "LPB CPV / REC / SUBST PV/PI COMPX C",
-   "NPRECO": 72001065,
-   "UNID": "un",
-   "PUNIT": "R$ 785,44"
- },
- {
-   "ITEM": 2140505,
-   "ESPEC": "LPB CPV DIAM = 1,20M COMPX A",
-   "NPRECO": 72001060,
-   "UNID": "un",
-   "PUNIT": "R$ 1.077,89"
- },
- {
-   "ITEM": 2140504,
-   "ESPEC": "LPB CPV DIAM = 1,20M COMPX B",
-   "NPRECO": 72001061,
-   "UNID": "un",
-   "PUNIT": "R$ 875,18"
- },
- {
-   "ITEM": 2140503,
-   "ESPEC": "LPB CPV DIAM = 1,20M COMPX C",
-   "NPRECO": 72001062,
-   "UNID": "un",
-   "PUNIT": "R$ 602,66"
- },
- {
-   "ITEM": 2130221,
-   "ESPEC": "LPB DE 2 A 3M EX TRE COMPX A",
-   "NPRECO": 72001089,
-   "UNID": "un",
-   "PUNIT": "R$ 2.695,89"
- },
- {
-   "ITEM": 2130220,
-   "ESPEC": "LPB DE 2 A 3M EX TRE COMPX B",
-   "NPRECO": 72001090,
-   "UNID": "un",
-   "PUNIT": "R$ 2.591,46"
- },
- {
-   "ITEM": 2130219,
-   "ESPEC": "LPB DE 2 A 3M EX TRE COMPX C",
-   "NPRECO": 72001091,
-   "UNID": "un",
-   "PUNIT": "R$ 2.599,61"
- },
- {
-   "ITEM": 2130212,
-   "ESPEC": "LPB DE 2 A 3M TA TRE COMPX A",
-   "NPRECO": 72001187,
-   "UNID": "un",
-   "PUNIT": "R$ 2.060,25"
- },
- {
-   "ITEM": 2130211,
-   "ESPEC": "LPB DE 2 A 3M TA TRE COMPX B",
-   "NPRECO": 72001188,
-   "UNID": "un",
-   "PUNIT": "R$ 1.987,51"
- },
- {
-   "ITEM": 2130210,
-   "ESPEC": "LPB DE 2 A 3M TA TRE COMPX C",
-   "NPRECO": 72001189,
-   "UNID": "un",
-   "PUNIT": "R$ 1.989,09"
- },
- {
-   "ITEM": 2130230,
-   "ESPEC": "LPB DE 2 A 3M TO TRE COMPX A",
-   "NPRECO": 72001217,
-   "UNID": "un",
-   "PUNIT": "R$ 3.331,53"
- },
- {
-   "ITEM": 2130229,
-   "ESPEC": "LPB DE 2 A 3M TO TRE COMPX B",
-   "NPRECO": 72001218,
-   "UNID": "un",
-   "PUNIT": "R$ 3.195,42"
- },
- {
-   "ITEM": 2130228,
-   "ESPEC": "LPB DE 2 A 3M TO TRE COMPX C",
-   "NPRECO": 72001219,
-   "UNID": "un",
-   "PUNIT": "R$ 3.210,17"
- },
- {
-   "ITEM": 2130224,
-   "ESPEC": "LPB DE 3 A 4M EX TRE COMPX A",
-   "NPRECO": 72001092,
-   "UNID": "un",
-   "PUNIT": "R$ 4.243,48"
- },
- {
-   "ITEM": 2130223,
-   "ESPEC": "LPB DE 3 A 4M EX TRE COMPX B",
-   "NPRECO": 72001093,
-   "UNID": "un",
-   "PUNIT": "R$ 4.116,86"
- },
- {
-   "ITEM": 2130222,
-   "ESPEC": "LPB DE 3 A 4M EX TRE COMPX C",
-   "NPRECO": 72001094,
-   "UNID": "un",
-   "PUNIT": "R$ 4.129,67"
- },
- {
-   "ITEM": 2130215,
-   "ESPEC": "LPB DE 3 A 4M TA TRE COMPX A",
-   "NPRECO": 72001190,
-   "UNID": "un",
-   "PUNIT": "R$ 3.501,91"
- },
- {
-   "ITEM": 2130214,
-   "ESPEC": "LPB DE 3 A 4M TA TRE COMPX B",
-   "NPRECO": 72001191,
-   "UNID": "un",
-   "PUNIT": "R$ 3.412,28"
- },
- {
-   "ITEM": 2130213,
-   "ESPEC": "LPB DE 3 A 4M TA TRE COMPX C",
-   "NPRECO": 72001192,
-   "UNID": "un",
-   "PUNIT": "R$ 3.417,38"
- },
- {
-   "ITEM": 2130233,
-   "ESPEC": "LPB DE 3 A 4M TO TRE COMPX A",
-   "NPRECO": 72001220,
-   "UNID": "un",
-   "PUNIT": "R$ 4.985,09"
- },
- {
-   "ITEM": 2130232,
-   "ESPEC": "LPB DE 3 A 4M TO TRE COMPX B",
-   "NPRECO": 72001221,
-   "UNID": "un",
-   "PUNIT": "R$ 4.821,49"
- },
- {
-   "ITEM": 2130231,
-   "ESPEC": "LPB DE 3 A 4M TO TRE COMPX C",
-   "NPRECO": 72001222,
-   "UNID": "un",
-   "PUNIT": "R$ 4.841,95"
- },
- {
-   "ITEM": 2020307,
-   "ESPEC": "LPB EX LAG AVUL COMPX B",
-   "NPRECO": 72001070,
-   "UNID": "un",
-   "PUNIT": "R$ 478,43"
- },
- {
-   "ITEM": 2020306,
-   "ESPEC": "LPB EX LAG AVUL COMPX C",
-   "NPRECO": 72001071,
-   "UNID": "un",
-   "PUNIT": "R$ 382,90"
- },
- {
-   "ITEM": 2080208,
-   "ESPEC": "LPB EX LAG SUCES COMPX A",
-   "NPRECO": 72001078,
-   "UNID": "un",
-   "PUNIT": "R$ 280,39"
- },
- {
-   "ITEM": 2080207,
-   "ESPEC": "LPB EX LAG SUCES COMPX B",
-   "NPRECO": 72001079,
-   "UNID": "un",
-   "PUNIT": "R$ 242,50"
- },
- {
-   "ITEM": 2080206,
-   "ESPEC": "LPB EX LAG SUCES COMPX C",
-   "NPRECO": 72001082,
-   "UNID": "un",
-   "PUNIT": "R$ 194,97"
- },
- {
-   "ITEM": 2150208,
-   "ESPEC": "LPB EX LESG SUCES COMPX A",
-   "NPRECO": 72001075,
-   "UNID": "un",
-   "PUNIT": "R$ 642,71"
- },
- {
-   "ITEM": 2150207,
-   "ESPEC": "LPB EX LESG SUCES COMPX B",
-   "NPRECO": 72001076,
-   "UNID": "un",
-   "PUNIT": "R$ 515,94"
- },
- {
-   "ITEM": 2150206,
-   "ESPEC": "LPB EX LESG SUCES COMPX C",
-   "NPRECO": 72001077,
-   "UNID": "un",
-   "PUNIT": "R$ 416,84"
- },
- {
-   "ITEM": 2030208,
-   "ESPEC": "LPB EX TRA CORR COMPX A",
-   "NPRECO": 72001083,
-   "UNID": "un",
-   "PUNIT": "R$ 640,56"
- },
- {
-   "ITEM": 2030207,
-   "ESPEC": "LPB EX TRA CORR COMPX B",
-   "NPRECO": 72001084,
-   "UNID": "un",
-   "PUNIT": "R$ 566,47"
- },
- {
-   "ITEM": 2030206,
-   "ESPEC": "LPB EX TRA CORR COMPX C",
-   "NPRECO": 72001085,
-   "UNID": "un",
-   "PUNIT": "R$ 512,71"
- },
- {
-   "ITEM": 2030408,
-   "ESPEC": "LPB EX TRA PREV COMPX A",
-   "NPRECO": 72001095,
-   "UNID": "un",
-   "PUNIT": "R$ 545,39"
- },
- {
-   "ITEM": 2030407,
-   "ESPEC": "LPB EX TRA PREV COMPX B",
-   "NPRECO": 72001096,
-   "UNID": "un",
-   "PUNIT": "R$ 447,49"
- },
- {
-   "ITEM": 2030406,
-   "ESPEC": "LPB EX TRA PREV COMPX C",
-   "NPRECO": 72001097,
-   "UNID": "un",
-   "PUNIT": "R$ 353,32"
- },
- {
-   "ITEM": 2070205,
-   "ESPEC": "LPB INST VL COMPX A",
-   "NPRECO": 72001112,
-   "UNID": "un",
-   "PUNIT": "R$ 439,13"
- },
- {
-   "ITEM": 2070204,
-   "ESPEC": "LPB INST VL COMPX B",
-   "NPRECO": 72001113,
-   "UNID": "un",
-   "PUNIT": "R$ 355,35"
- },
- {
-   "ITEM": 2070203,
-   "ESPEC": "LPB INST VL COMPX C",
-   "NPRECO": 72001114,
-   "UNID": "un",
-   "PUNIT": "R$ 278,98"
- },
- {
-   "ITEM": 2120319,
-   "ESPEC": "LPB MAIS DE 2M EX LESG COMPX A",
-   "NPRECO": 72001072,
-   "UNID": "un",
-   "PUNIT": "R$ 895,67"
- },
- {
-   "ITEM": 2120318,
-   "ESPEC": "LPB MAIS DE 2M EX LESG COMPX B",
-   "NPRECO": 72001073,
-   "UNID": "un",
-   "PUNIT": "R$ 720,86"
- },
- {
-   "ITEM": 2120317,
-   "ESPEC": "LPB MAIS DE 2M EX LESG COMPX C",
-   "NPRECO": 72001074,
-   "UNID": "un",
-   "PUNIT": "R$ 586,04"
- },
- {
-   "ITEM": 2120315,
-   "ESPEC": "LPB MAIS DE 2M TA LESG COMPX B",
-   "NPRECO": 72001173,
-   "UNID": "un",
-   "PUNIT": "R$ 445,38"
- },
- {
-   "ITEM": 2120314,
-   "ESPEC": "LPB MAIS DE 2M TA LESG COMPX C",
-   "NPRECO": 72001174,
-   "UNID": "un",
-   "PUNIT": "R$ 358,73"
- },
- {
-   "ITEM": 2120322,
-   "ESPEC": "LPB MAIS DE 2M TO LESG COMPX A",
-   "NPRECO": 72001202,
-   "UNID": "un",
-   "PUNIT": "R$ 1.234,51"
- },
- {
-   "ITEM": 2120321,
-   "ESPEC": "LPB MAIS DE 2M TO LESG COMPX B",
-   "NPRECO": 72001203,
-   "UNID": "un",
-   "PUNIT": "R$ 996,32"
- },
- {
-   "ITEM": 2120320,
-   "ESPEC": "LPB MAIS DE 2M TO LESG COMPX C",
-   "NPRECO": 72001204,
-   "UNID": "un",
-   "PUNIT": "R$ 813,35"
- },
- {
-   "ITEM": 2020505,
-   "ESPEC": "LPB MND LAG AVUL COMPX A",
-   "NPRECO": 72001098,
-   "UNID": "un",
-   "PUNIT": "R$ 299,88"
- },
- {
-   "ITEM": 2020504,
-   "ESPEC": "LPB MND LAG AVUL COMPX B",
-   "NPRECO": 72001099,
-   "UNID": "un",
-   "PUNIT": "R$ 315,15"
- },
- {
-   "ITEM": 2020503,
-   "ESPEC": "LPB MND LAG AVUL COMPX C",
-   "NPRECO": 72001102,
-   "UNID": "un",
-   "PUNIT": "R$ 257,91"
- },
- {
-   "ITEM": 2080405,
-   "ESPEC": "LPB MND LAG SUCES COMPX A",
-   "NPRECO": 72001103,
-   "UNID": "un",
-   "PUNIT": "R$ 294,32"
- },
- {
-   "ITEM": 2080404,
-   "ESPEC": "LPB MND LAG SUCES COMPX B",
-   "NPRECO": 72001104,
-   "UNID": "un",
-   "PUNIT": "R$ 261,75"
- },
- {
-   "ITEM": 2080403,
-   "ESPEC": "LPB MND LAG SUCES COMPX C",
-   "NPRECO": 72001105,
-   "UNID": "un",
-   "PUNIT": "R$ 189,85"
- },
- {
-   "ITEM": 2030605,
-   "ESPEC": "LPB MND TRA CORR COMPX A",
-   "NPRECO": 72001106,
-   "UNID": "un",
-   "PUNIT": "R$ 281,81"
- },
- {
-   "ITEM": 2030604,
-   "ESPEC": "LPB MND TRA CORR COMPX B",
-   "NPRECO": 72001107,
-   "UNID": "un",
-   "PUNIT": "R$ 226,81"
- },
- {
-   "ITEM": 2030603,
-   "ESPEC": "LPB MND TRA CORR COMPX C",
-   "NPRECO": 72001108,
-   "UNID": "un",
-   "PUNIT": "R$ 189,87"
- },
- {
-   "ITEM": 2030805,
-   "ESPEC": "LPB MND TRA PREV COMPX A",
-   "NPRECO": 72001109,
-   "UNID": "un",
-   "PUNIT": "R$ 232,71"
- },
- {
-   "ITEM": 2030804,
-   "ESPEC": "LPB MND TRA PREV COMPX B",
-   "NPRECO": 72001110,
-   "UNID": "un",
-   "PUNIT": "R$ 224,82"
- },
- {
-   "ITEM": 2030803,
-   "ESPEC": "LPB MND TRA PREV COMPX C",
-   "NPRECO": 72001111,
-   "UNID": "un",
-   "PUNIT": "R$ 171,73"
- },
- {
-   "ITEM": 1060505,
-   "ESPEC": "LPB NIV CX PARADA COMPX A",
-   "NPRECO": 72001066,
-   "UNID": "un",
-   "PUNIT": "R$ 107,72"
- },
- {
-   "ITEM": 1060504,
-   "ESPEC": "LPB NIV CX PARADA COMPX B",
-   "NPRECO": 72001067,
-   "UNID": "un",
-   "PUNIT": "R$ 97,55"
- },
- {
-   "ITEM": 1060503,
-   "ESPEC": "LPB NIV CX PARADA COMPX C",
-   "NPRECO": 72001068,
-   "UNID": "un",
-   "PUNIT": "R$ 70,42"
- },
- {
-   "ITEM": 2060312,
-   "ESPEC": "LPB PRA 200 A 250 COMPX A",
-   "NPRECO": 72001054,
-   "UNID": "M",
-   "PUNIT": "R$ 199,09"
- },
- {
-   "ITEM": 2060311,
-   "ESPEC": "LPB PRA 200 A 250 COMPX B",
-   "NPRECO": 72001055,
-   "UNID": "M",
-   "PUNIT": "R$ 155,73"
- },
- {
-   "ITEM": 2060310,
-   "ESPEC": "LPB PRA 200 A 250 COMPX C",
-   "NPRECO": 72001056,
-   "UNID": "M",
-   "PUNIT": "R$ 117,41"
- },
- {
-   "ITEM": 2060315,
-   "ESPEC": "LPB PRA 300 A 400 COMPX A",
-   "NPRECO": 72001057,
-   "UNID": "M",
-   "PUNIT": "R$ 225,99"
- },
- {
-   "ITEM": 2060314,
-   "ESPEC": "LPB PRA 300 A 400 COMPX B",
-   "NPRECO": 72001058,
-   "UNID": "M",
-   "PUNIT": "R$ 179,52"
- },
- {
-   "ITEM": 2060313,
-   "ESPEC": "LPB PRA 300 A 400 COMPX C",
-   "NPRECO": 72001059,
-   "UNID": "M",
-   "PUNIT": "R$ 136,64"
- },
- {
-   "ITEM": 2060309,
-   "ESPEC": "LPB PRA 50 A 150 COMPX A",
-   "NPRECO": 72001051,
-   "UNID": "M",
-   "PUNIT": "R$ 168,38"
- },
- {
-   "ITEM": 2060308,
-   "ESPEC": "LPB PRA 50 A 150 COMPX B",
-   "NPRECO": 72001052,
-   "UNID": "M",
-   "PUNIT": "R$ 134,26"
- },
- {
-   "ITEM": 2060307,
-   "ESPEC": "LPB PRA 50 A 150 COMPX C",
-   "NPRECO": 72001053,
-   "UNID": "M",
-   "PUNIT": "R$ 99,86"
- },
- {
-   "ITEM": 2140310,
-   "ESPEC": "LPB PROF ACIMA DE 2M PRE COMPX A",
-   "NPRECO": 72001048,
-   "UNID": "M",
-   "PUNIT": "R$ 251,35"
- },
- {
-   "ITEM": 2140309,
-   "ESPEC": "LPB PROF ACIMA DE 2M PRE COMPX B",
-   "NPRECO": 72001049,
-   "UNID": "M",
-   "PUNIT": "R$ 196,98"
- },
- {
-   "ITEM": 2140308,
-   "ESPEC": "LPB PROF ACIMA DE 2M PRE COMPX C",
-   "NPRECO": 72001050,
-   "UNID": "M",
-   "PUNIT": "R$ 150,98"
- },
- {
-   "ITEM": 2140307,
-   "ESPEC": "LPB PROF ATE 2M PRE COMPX A",
-   "NPRECO": 72001045,
-   "UNID": "M",
-   "PUNIT": "R$ 223,04"
- },
- {
-   "ITEM": 2140306,
-   "ESPEC": "LPB PROF ATE 2M PRE COMPX B",
-   "NPRECO": 72001046,
-   "UNID": "M",
-   "PUNIT": "R$ 171,10"
- },
- {
-   "ITEM": 2140305,
-   "ESPEC": "LPB PROF ATE 2M PRE COMPX C",
-   "NPRECO": 72001047,
-   "UNID": "M",
-   "PUNIT": "R$ 132,38"
- },
- {
-   "ITEM": 1040205,
-   "ESPEC": "LPB SUPR RELIG AG COMPX A",
-   "NPRECO": 72001154,
-   "UNID": "un",
-   "PUNIT": "R$ 206,28"
- },
- {
-   "ITEM": 1040204,
-   "ESPEC": "LPB SUPR RELIG AG COMPX B",
-   "NPRECO": 72001155,
-   "UNID": "un",
-   "PUNIT": "R$ 163,33"
- },
- {
-   "ITEM": 1040203,
-   "ESPEC": "LPB SUPR RELIG AG COMPX C",
-   "NPRECO": 72001156,
-   "UNID": "un",
-   "PUNIT": "R$ 123,64"
- },
- {
-   "ITEM": 2020305,
-   "ESPEC": "LPB TA LAG AVUL COMPX A",
-   "NPRECO": 72001157,
-   "UNID": "un",
-   "PUNIT": "R$ 376,73"
- },
- {
-   "ITEM": 2020304,
-   "ESPEC": "LPB TA LAG AVUL COMPX B",
-   "NPRECO": 72001158,
-   "UNID": "un",
-   "PUNIT": "R$ 305,51"
- },
- {
-   "ITEM": 2020303,
-   "ESPEC": "LPB TA LAG AVUL COMPX C",
-   "NPRECO": 72001159,
-   "UNID": "un",
-   "PUNIT": "R$ 233,89"
- },
- {
-   "ITEM": 2080205,
-   "ESPEC": "LPB TA LAG SUCES COMPX A",
-   "NPRECO": 72001178,
-   "UNID": "un",
-   "PUNIT": "R$ 140,45"
- },
- {
-   "ITEM": 2080204,
-   "ESPEC": "LPB TA LAG SUCES COMPX B",
-   "NPRECO": 72001179,
-   "UNID": "un",
-   "PUNIT": "R$ 119,81"
- },
- {
-   "ITEM": 2080203,
-   "ESPEC": "LPB TA LAG SUCES COMPX C",
-   "NPRECO": 72001180,
-   "UNID": "un",
-   "PUNIT": "R$ 104,75"
- },
- {
-   "ITEM": 2150205,
-   "ESPEC": "LPB TA LESG SUCES COMPX A",
-   "NPRECO": 72001175,
-   "UNID": "un",
-   "PUNIT": "R$ 303,89"
- },
- {
-   "ITEM": 2150204,
-   "ESPEC": "LPB TA LESG SUCES COMPX B",
-   "NPRECO": 72001176,
-   "UNID": "un",
-   "PUNIT": "R$ 240,45"
- },
- {
-   "ITEM": 2150203,
-   "ESPEC": "LPB TA LESG SUCES COMPX C",
-   "NPRECO": 72001177,
-   "UNID": "un",
-   "PUNIT": "R$ 189,51"
- },
- {
-   "ITEM": 2030205,
-   "ESPEC": "LPB TA TRA CORR COMPX A",
-   "NPRECO": 72001181,
-   "UNID": "un",
-   "PUNIT": "R$ 388,33"
- },
- {
-   "ITEM": 2030204,
-   "ESPEC": "LPB TA TRA CORR COMPX B",
-   "NPRECO": 72001182,
-   "UNID": "un",
-   "PUNIT": "R$ 341,69"
- },
- {
-   "ITEM": 2030203,
-   "ESPEC": "LPB TA TRA CORR COMPX C",
-   "NPRECO": 72001183,
-   "UNID": "un",
-   "PUNIT": "R$ 307,78"
- },
- {
-   "ITEM": 2030405,
-   "ESPEC": "LPB TA TRA PREV COMPX A",
-   "NPRECO": 72001193,
-   "UNID": "un",
-   "PUNIT": "R$ 311,56"
- },
- {
-   "ITEM": 2030403,
-   "ESPEC": "LPB TA TRA PREV COMPX C",
-   "NPRECO": 72001195,
-   "UNID": "un",
-   "PUNIT": "R$ 194,82"
- },
- {
-   "ITEM": 2020311,
-   "ESPEC": "LPB TO LAG AVUL COMPX A",
-   "NPRECO": 72001196,
-   "UNID": "un",
-   "PUNIT": "R$ 820,65"
- },
- {
-   "ITEM": 2020310,
-   "ESPEC": "LPB TO LAG AVUL COMPX B",
-   "NPRECO": 72001197,
-   "UNID": "un",
-   "PUNIT": "R$ 662,64"
- },
- {
-   "ITEM": 2020309,
-   "ESPEC": "LPB TO LAG AVUL COMPX C",
-   "NPRECO": 72001198,
-   "UNID": "un",
-   "PUNIT": "R$ 531,91"
- },
- {
-   "ITEM": 2080211,
-   "ESPEC": "LPB TO LAG SUCES COMPX A",
-   "NPRECO": 72001208,
-   "UNID": "un",
-   "PUNIT": "R$ 408,42"
- },
- {
-   "ITEM": 2080210,
-   "ESPEC": "LPB TO LAG SUCES COMPX B",
-   "NPRECO": 72001209,
-   "UNID": "un",
-   "PUNIT": "R$ 360,71"
- },
- {
-   "ITEM": 2080209,
-   "ESPEC": "LPB TO LAG SUCES COMPX C",
-   "NPRECO": 72001210,
-   "UNID": "un",
-   "PUNIT": "R$ 285,21"
- },
- {
-   "ITEM": 2150211,
-   "ESPEC": "LPB TO LESG SUCES COMPX A",
-   "NPRECO": 72001205,
-   "UNID": "un",
-   "PUNIT": "R$ 981,55"
- },
- {
-   "ITEM": 2150210,
-   "ESPEC": "LPB TO LESG SUCES COMPX B",
-   "NPRECO": 72001206,
-   "UNID": "un",
-   "PUNIT": "R$ 791,42"
- },
- {
-   "ITEM": 2150209,
-   "ESPEC": "LPB TO LESG SUCES COMPX C",
-   "NPRECO": 72001207,
-   "UNID": "un",
-   "PUNIT": "R$ 644,13"
- },
- {
-   "ITEM": 2030211,
-   "ESPEC": "LPB TO TRA CORR COMPX A",
-   "NPRECO": 72001211,
-   "UNID": "un",
-   "PUNIT": "R$ 892,87"
- },
- {
-   "ITEM": 2030210,
-   "ESPEC": "LPB TO TRA CORR COMPX B",
-   "NPRECO": 72001212,
-   "UNID": "un",
-   "PUNIT": "R$ 791,34"
- },
- {
-   "ITEM": 2030209,
-   "ESPEC": "LPB TO TRA CORR COMPX C",
-   "NPRECO": 72001213,
-   "UNID": "un",
-   "PUNIT": "R$ 717,66"
- },
- {
-   "ITEM": 2030411,
-   "ESPEC": "LPB TO TRA PREV COMPX A",
-   "NPRECO": 72001223,
-   "UNID": "un",
-   "PUNIT": "R$ 777,23"
- },
- {
-   "ITEM": 2030410,
-   "ESPEC": "LPB TO TRA PREV COMPX B",
-   "NPRECO": 72001224,
-   "UNID": "un",
-   "PUNIT": "R$ 643,55"
- },
- {
-   "ITEM": 2030409,
-   "ESPEC": "LPB TO TRA PREV COMPX C",
-   "NPRECO": 72001225,
-   "UNID": "un",
-   "PUNIT": "R$ 511,80"
- },
- {
-   "ITEM": 1060302,
-   "ESPEC": "LRP CIM 150 A 250 ARR",
-   "NPRECO": 72000306,
-   "UNID": "un",
-   "PUNIT": "R$ 422,63"
- },
- {
-   "ITEM": 2060502,
-   "ESPEC": "LRP CIM 150 A 250 INTERLIG",
-   "NPRECO": 72000396,
-   "UNID": "un",
-   "PUNIT": "R$ 624,35"
- },
- {
-   "ITEM": 2060302,
-   "ESPEC": "LRP CIM 200 A 250 PRA",
-   "NPRECO": 72000366,
-   "UNID": "M",
-   "PUNIT": "R$ 87,69"
- },
- {
-   "ITEM": 1060303,
-   "ESPEC": "LRP CIM 300 A 400 ARR",
-   "NPRECO": 72000307,
-   "UNID": "un",
-   "PUNIT": "R$ 1.652,98"
- },
- {
-   "ITEM": 2060503,
-   "ESPEC": "LRP CIM 300 A 400 INTERLIG",
-   "NPRECO": 72000397,
-   "UNID": "un",
-   "PUNIT": "R$ 780,42"
- },
- {
-   "ITEM": 2060303,
-   "ESPEC": "LRP CIM 300 A 400 PRA",
-   "NPRECO": 72000367,
-   "UNID": "M",
-   "PUNIT": "R$ 98,31"
- },
- {
-   "ITEM": 1060301,
-   "ESPEC": "LRP CIM 50 A 100 ARR",
-   "NPRECO": 72000305,
-   "UNID": "un",
-   "PUNIT": "R$ 270,27"
- },
- {
-   "ITEM": 2060501,
-   "ESPEC": "LRP CIM 50 A 100 INTERLIG",
-   "NPRECO": 72000395,
-   "UNID": "un",
-   "PUNIT": "R$ 280,97"
- },
- {
-   "ITEM": 2060301,
-   "ESPEC": "LRP CIM 50 A 150 PRA",
-   "NPRECO": 72000365,
-   "UNID": "M",
-   "PUNIT": "R$ 80,12"
- },
- {
-   "ITEM": 2120301,
-   "ESPEC": "LRP CIM ATE 2M LESG",
-   "NPRECO": 72000531,
-   "UNID": "un",
-   "PUNIT": "R$ 173,18"
- },
- {
-   "ITEM": 2130201,
-   "ESPEC": "LRP CIM ATE 2M TRE",
-   "NPRECO": 72000591,
-   "UNID": "un",
-   "PUNIT": "R$ 852,38"
- },
- {
-   "ITEM": 1080301,
-   "ESPEC": "LRP CIM CPV / REC / SUBST PV/PI",
-   "NPRECO": 72001229,
-   "UNID": "un",
-   "PUNIT": "R$ 522,60"
- },
- {
-   "ITEM": 2140501,
-   "ESPEC": "LRP CIM CPV DIAM = 1,20M",
-   "NPRECO": 72001228,
-   "UNID": "un",
-   "PUNIT": "R$ 455,07"
- },
- {
-   "ITEM": 2130202,
-   "ESPEC": "LRP CIM DE 2 A 3M TRE",
-   "NPRECO": 72000592,
-   "UNID": "un",
-   "PUNIT": "R$ 1.786,41"
- },
- {
-   "ITEM": 2130203,
-   "ESPEC": "LRP CIM DE 3 A 4M TRE",
-   "NPRECO": 72000593,
-   "UNID": "un",
-   "PUNIT": "R$ 3.200,37"
- },
- {
-   "ITEM": 2070201,
-   "ESPEC": "LRP CIM INST VL",
-   "NPRECO": 72000433,
-   "UNID": "un",
-   "PUNIT": "R$ 187,41"
- },
- {
-   "ITEM": 2020301,
-   "ESPEC": "LRP CIM LAG AVUL",
-   "NPRECO": 72000081,
-   "UNID": "un",
-   "PUNIT": "R$ 80,06"
- },
- {
-   "ITEM": 2080201,
-   "ESPEC": "LRP CIM LAG SUCES",
-   "NPRECO": 72000101,
-   "UNID": "un",
-   "PUNIT": "R$ 29,30"
- },
- {
-   "ITEM": 2150201,
-   "ESPEC": "LRP CIM LESG SUCES",
-   "NPRECO": 72000571,
-   "UNID": "un",
-   "PUNIT": "R$ 48,80"
- },
- {
-   "ITEM": 2120302,
-   "ESPEC": "LRP CIM MAIS DE 2M LESG",
-   "NPRECO": 72000532,
-   "UNID": "un",
-   "PUNIT": "R$ 159,45"
- },
- {
-   "ITEM": 2020501,
-   "ESPEC": "LRP CIM MND LAG AVUL",
-   "NPRECO": 72000161,
-   "UNID": "un",
-   "PUNIT": "R$ 106,06"
- },
- {
-   "ITEM": 2080401,
-   "ESPEC": "LRP CIM MND LAG SUCES",
-   "NPRECO": 72000169,
-   "UNID": "un",
-   "PUNIT": "R$ 101,84"
- },
- {
-   "ITEM": 2030601,
-   "ESPEC": "LRP CIM MND TRA CORR",
-   "NPRECO": 72000185,
-   "UNID": "un",
-   "PUNIT": "R$ 85,87"
- },
- {
-   "ITEM": 2030801,
-   "ESPEC": "LRP CIM MND TRA PREV",
-   "NPRECO": 72000177,
-   "UNID": "un",
-   "PUNIT": "R$ 86,80"
- },
- {
-   "ITEM": 1060501,
-   "ESPEC": "LRP CIM NIV CX PARADA",
-   "NPRECO": 72000340,
-   "UNID": "un",
-   "PUNIT": "R$ 61,51"
- },
- {
-   "ITEM": 2140302,
-   "ESPEC": "LRP CIM PROF ACIMA DE 2M PRE",
-   "NPRECO": 72001227,
-   "UNID": "M",
-   "PUNIT": "R$ 104,36"
- },
- {
-   "ITEM": 2140301,
-   "ESPEC": "LRP CIM PROF ATE 2M PRE",
-   "NPRECO": 72001226,
-   "UNID": "M",
-   "PUNIT": "R$ 91,31"
- },
- {
-   "ITEM": 1040201,
-   "ESPEC": "LRP CIM SUPR RELIGACAO DE LIGACAO",
-   "NPRECO": 72001230,
-   "UNID": "un",
-   "PUNIT": "R$ 27,46"
- },
- {
-   "ITEM": 2030201,
-   "ESPEC": "LRP CIM TRA CORR",
-   "NPRECO": 72000141,
-   "UNID": "un",
-   "PUNIT": "R$ 181,23"
- },
- {
-   "ITEM": 2030401,
-   "ESPEC": "LRP CIM TRA PREV",
-   "NPRECO": 72000121,
-   "UNID": "un",
-   "PUNIT": "R$ 87,39"
- },
- {
-   "ITEM": 1060305,
-   "ESPEC": "LRP ESP 150 A 250 ARR",
-   "NPRECO": 72000309,
-   "UNID": "un",
-   "PUNIT": "R$ 602,65"
- },
- {
-   "ITEM": 2060505,
-   "ESPEC": "LRP ESP 150 A 250 INTERLIG",
-   "NPRECO": 72000399,
-   "UNID": "un",
-   "PUNIT": "R$ 1.380,87"
- },
- {
-   "ITEM": 2060305,
-   "ESPEC": "LRP ESP 200 A 250 PRA",
-   "NPRECO": 72000369,
+   "ITEM": 72000992,
+   "DESCRIÇÃO": "APLICAÇÃO DE DESENGORDURANTE NA LAVAGEM DE REDES E RAMAIS DE ESGOTO",
+   "DATA I0": "jan/26",
    "UNID": "M",
-   "PUNIT": "R$ 178,46"
+   "PREÇO": "4,93"
  },
  {
-   "ITEM": 1060306,
-   "ESPEC": "LRP ESP 300 A 400 ARR",
-   "NPRECO": 72000310,
+   "ITEM": 72000905,
+   "DESCRIÇÃO": "RETIRADA E TRANSPORTE DE DETRITOS ACUMULADOS NO CESTO DE E.E.E.",
+   "DATA I0": "jan/26",
    "UNID": "un",
-   "PUNIT": "R$ 2.251,78"
- },
- {
-   "ITEM": 2060506,
-   "ESPEC": "LRP ESP 300 A 400 INTERLIG",
-   "NPRECO": 72000400,
-   "UNID": "un",
-   "PUNIT": "R$ 1.726,07"
- },
- {
-   "ITEM": 2060306,
-   "ESPEC": "LRP ESP 300 A 400 PRA",
-   "NPRECO": 72000370,
-   "UNID": "M",
-   "PUNIT": "R$ 204,21"
- },
- {
-   "ITEM": 1060304,
-   "ESPEC": "LRP ESP 50 A 100 ARR",
-   "NPRECO": 72000308,
-   "UNID": "un",
-   "PUNIT": "R$ 390,46"
- },
- {
-   "ITEM": 2060504,
-   "ESPEC": "LRP ESP 50 A 100 INTERLIG",
-   "NPRECO": 72000398,
-   "UNID": "un",
-   "PUNIT": "R$ 621,40"
- },
- {
-   "ITEM": 2060304,
-   "ESPEC": "LRP ESP 50 A 150 PRA",
-   "NPRECO": 72000368,
-   "UNID": "M",
-   "PUNIT": "R$ 154,41"
- },
- {
-   "ITEM": 2120303,
-   "ESPEC": "LRP ESP ATE 2M LESG",
-   "NPRECO": 72000533,
-   "UNID": "un",
-   "PUNIT": "R$ 376,00"
- },
- {
-   "ITEM": 2130204,
-   "ESPEC": "LRP ESP ATE 2M TRE",
-   "NPRECO": 72000594,
-   "UNID": "un",
-   "PUNIT": "R$ 1.034,56"
- },
- {
-   "ITEM": 1080302,
-   "ESPEC": "LRP ESP CPV / REC / SUBST PV/PI",
-   "NPRECO": 72001234,
-   "UNID": "un",
-   "PUNIT": "R$ 1.074,84"
- },
- {
-   "ITEM": 2140502,
-   "ESPEC": "LRP ESP CPV DIAM = 1,20M",
-   "NPRECO": 72001233,
-   "UNID": "un",
-   "PUNIT": "R$ 1.060,27"
- },
- {
-   "ITEM": 2130205,
-   "ESPEC": "LRP ESP DE 2 A 3M TRE",
-   "NPRECO": 72000595,
-   "UNID": "un",
-   "PUNIT": "R$ 2.057,24"
- },
- {
-   "ITEM": 2130206,
-   "ESPEC": "LRP ESP DE 3 A 4M TRE",
-   "NPRECO": 72000596,
-   "UNID": "un",
-   "PUNIT": "R$ 3.554,42"
- },
- {
-   "ITEM": 2070202,
-   "ESPEC": "LRP ESP INST VL",
-   "NPRECO": 72000434,
-   "UNID": "un",
-   "PUNIT": "R$ 405,28"
- },
- {
-   "ITEM": 2020302,
-   "ESPEC": "LRP ESP LAG AVUL",
-   "NPRECO": 72000082,
-   "UNID": "un",
-   "PUNIT": "R$ 114,55"
- },
- {
-   "ITEM": 2080202,
-   "ESPEC": "LRP ESP LAG SUCES",
-   "NPRECO": 72000102,
-   "UNID": "un",
-   "PUNIT": "R$ 63,34"
- },
- {
-   "ITEM": 2150202,
-   "ESPEC": "LRP ESP LESG SUCES",
-   "NPRECO": 72000572,
-   "UNID": "un",
-   "PUNIT": "R$ 107,80"
- },
- {
-   "ITEM": 2120304,
-   "ESPEC": "LRP ESP MAIS DE 2M LESG",
-   "NPRECO": 72000534,
-   "UNID": "un",
-   "PUNIT": "R$ 365,23"
- },
- {
-   "ITEM": 2020502,
-   "ESPEC": "LRP ESP MND LAG AVUL",
-   "NPRECO": 72000162,
-   "UNID": "un",
-   "PUNIT": "R$ 223,59"
- },
- {
-   "ITEM": 2080402,
-   "ESPEC": "LRP ESP MND LAG SUCES",
-   "NPRECO": 72000170,
-   "UNID": "un",
-   "PUNIT": "R$ 222,88"
- },
- {
-   "ITEM": 2030602,
-   "ESPEC": "LRP ESP MND TRA CORR",
-   "NPRECO": 72000186,
-   "UNID": "un",
-   "PUNIT": "R$ 177,20"
- },
- {
-   "ITEM": 2030802,
-   "ESPEC": "LRP ESP MND TRA PREV",
-   "NPRECO": 72000178,
-   "UNID": "un",
-   "PUNIT": "R$ 186,65"
- },
- {
-   "ITEM": 1060502,
-   "ESPEC": "LRP ESP NIV CX PARADA",
-   "NPRECO": 72000341,
-   "UNID": "un",
-   "PUNIT": "R$ 115,31"
- },
- {
-   "ITEM": 2140304,
-   "ESPEC": "LRP ESP PROF ACIMA DE 2M PRE",
-   "NPRECO": 72001232,
-   "UNID": "M",
-   "PUNIT": "R$ 225,40"
- },
- {
-   "ITEM": 2140303,
-   "ESPEC": "LRP ESP PROF ATE 2M PRE",
-   "NPRECO": 72001231,
-   "UNID": "M",
-   "PUNIT": "R$ 197,22"
- },
- {
-   "ITEM": 1040202,
-   "ESPEC": "LRP ESP SUPR RELIGACAO DE LIGACAO",
-   "NPRECO": 72001235,
-   "UNID": "un",
-   "PUNIT": "R$ 63,35"
- },
- {
-   "ITEM": 2030202,
-   "ESPEC": "LRP ESP TRA CORR",
-   "NPRECO": 72000142,
-   "UNID": "un",
-   "PUNIT": "R$ 284,05"
- },
- {
-   "ITEM": 2030402,
-   "ESPEC": "LRP ESP TRA PREV",
-   "NPRECO": 72000122,
-   "UNID": "un",
-   "PUNIT": "R$ 193,30"
- },
- {
-   "ITEM": 1100106,
-   "ESPEC": "MANOBRA P/ INTERVENÇÕES REDES DE ÁGUA",
-   "NPRECO": 72000908,
-   "UNID": "un",
-   "PUNIT": "R$ 1.238,57"
- },
- {
-   "ITEM": 1090126,
-   "ESPEC": "MANUT AREAS VERDES - PLANTIO GRAMA",
-   "NPRECO": 72000894,
-   "UNID": "M2",
-   "PUNIT": "R$ 29,61"
- },
- {
-   "ITEM": 6010102,
-   "ESPEC": "MANUT. CANTEIRO SERVIÇOS - BRA CAPEX",
-   "NPRECO": 500012,
-   "UNID": "MES",
-   "PUNIT": "R$ 5.942,29"
- },
- {
-   "ITEM": 5010102,
-   "ESPEC": "MANUT. CANTEIRO SERVIÇOS - BRA OPEX",
-   "NPRECO": 500010,
-   "UNID": "MES",
-   "PUNIT": "R$ 2.746,11"
- },
- {
-   "ITEM": 4010102,
-   "ESPEC": "MANUT. CANTEIRO SERVIÇOS - CAC CAPEX",
-   "NPRECO": 500008,
-   "UNID": "MES",
-   "PUNIT": "R$ 24.363,82"
- },
- {
-   "ITEM": 3010102,
-   "ESPEC": "MANUT. CANTEIRO SERVIÇOS - CAC OPEX",
-   "NPRECO": 500006,
-   "UNID": "MES",
-   "PUNIT": "R$ 6.080,95"
- },
- {
-   "ITEM": 2010102,
-   "ESPEC": "MANUT. CANTEIRO SERVIÇOS - SJC CAPEX",
-   "NPRECO": 500004,
-   "UNID": "MES",
-   "PUNIT": "R$ 96.593,46"
- },
- {
-   "ITEM": 1010102,
-   "ESPEC": "MANUT. CANTEIRO SERVIÇOS - SJC OPEX",
-   "NPRECO": 500002,
-   "UNID": "MES",
-   "PUNIT": "R$ 30.131,95"
- },
- {
-   "ITEM": 2180106,
-   "ESPEC": "MAPEAMENTO DE INTERFERÊNCIAS PARA MND",
-   "NPRECO": 510023,
-   "UNID": "M",
-   "PUNIT": "R$ 101,92"
- },
- {
-   "ITEM": 1100301,
-   "ESPEC": "MOB EQ - EQUIP EXEC LIMP DESINF IMOVEIS",
-   "NPRECO": 349030,
-   "UNID": "un",
-   "PUNIT": "R$ 3,63"
- },
- {
-   "ITEM": 2180315,
-   "ESPEC": "MOB/DESMOB P/ HDD 250 A 500 MM ATÉ 50 KM",
-   "NPRECO": 510025,
-   "UNID": "un",
-   "PUNIT": "R$ 7.193,07"
- },
- {
-   "ITEM": 2180314,
-   "ESPEC": "MOB/DESMOB P/ HDD-ATÉ 225MM ATÉ 50 KM",
-   "NPRECO": 510024,
-   "UNID": "un",
-   "PUNIT": "R$ 7.000,58"
- },
- {
-   "ITEM": 1090205,
-   "ESPEC": "MOBIL PINTURA HORIZONTAL",
-   "NPRECO": 72000445,
-   "UNID": "un",
-   "PUNIT": "R$ 69,57"
- },
- {
-   "ITEM": 1060401,
-   "ESPEC": "NIV CX REGISTRO DE PARADA S/REP",
-   "NPRECO": 72000338,
-   "UNID": "un",
-   "PUNIT": "R$ 249,42"
- },
- {
-   "ITEM": 1080213,
-   "ESPEC": "NPV C/LPB LEITO COMPX A",
-   "NPRECO": 72000827,
-   "UNID": "un",
-   "PUNIT": "R$ 972,86"
- },
- {
-   "ITEM": 1080212,
-   "ESPEC": "NPV C/LPB LEITO COMPX B",
-   "NPRECO": 72000826,
-   "UNID": "un",
-   "PUNIT": "R$ 927,94"
- },
- {
-   "ITEM": 1080201,
-   "ESPEC": "NPV C/LPB LEITO COMPX C",
-   "NPRECO": 72000006,
-   "UNID": "un",
-   "PUNIT": "R$ 858,87"
- },
- {
-   "ITEM": 1080215,
-   "ESPEC": "NPV C/REP PASS",
-   "NPRECO": 72000829,
-   "UNID": "un",
-   "PUNIT": "R$ 820,33"
- },
- {
-   "ITEM": 1080214,
-   "ESPEC": "NPV PASS S/REP",
-   "NPRECO": 72000828,
-   "UNID": "un",
-   "PUNIT": "R$ 614,36"
- },
- {
-   "ITEM": 1090127,
-   "ESPEC": "PAV ASF BASE BGS TRAF LEVE",
-   "NPRECO": 72000952,
-   "UNID": "M2",
-   "PUNIT": "R$ 286,22"
- },
- {
-   "ITEM": 1090128,
-   "ESPEC": "PAV ASF BASE BGS TRAF MEDIO",
-   "NPRECO": 72000953,
-   "UNID": "M2",
-   "PUNIT": "R$ 562,56"
- },
- {
-   "ITEM": 1090129,
-   "ESPEC": "PAV ASF BASE BGS TRAF PESADO",
-   "NPRECO": 72000954,
-   "UNID": "M2",
-   "PUNIT": "R$ 577,67"
- },
- {
-   "ITEM": 2180107,
-   "ESPEC": "PLANO DE FURO PARA HDD",
-   "NPRECO": 510026,
-   "UNID": "M",
-   "PUNIT": "R$ 117,57"
- },
- {
-   "ITEM": 2060107,
-   "ESPEC": "PRA FF DE 200 A 250 S/ REP SF",
-   "NPRECO": 72000360,
-   "UNID": "M",
-   "PUNIT": "R$ 128,87"
- },
- {
-   "ITEM": 2060108,
-   "ESPEC": "PRA FF DE 300 A 400 S/ REP SF",
-   "NPRECO": 72000361,
-   "UNID": "M",
-   "PUNIT": "R$ 247,57"
- },
- {
-   "ITEM": 2060106,
-   "ESPEC": "PRA FF DE 80 A 150 S/ REP SF",
-   "NPRECO": 72000359,
-   "UNID": "M",
-   "PUNIT": "R$ 94,70"
- },
- {
-   "ITEM": 2060101,
-   "ESPEC": "PRA PEAD 32MM S/REP SF",
-   "NPRECO": 72000349,
-   "UNID": "M",
-   "PUNIT": "R$ 50,58"
- },
- {
-   "ITEM": 2060103,
-   "ESPEC": "PRA PEAD DE 140 A 250 S/REP SF",
-   "NPRECO": 72000352,
-   "UNID": "M",
-   "PUNIT": "R$ 139,02"
- },
- {
-   "ITEM": 2060104,
-   "ESPEC": "PRA PEAD DE 280 A 400 S/REP SF",
-   "NPRECO": 72000353,
-   "UNID": "M",
-   "PUNIT": "R$ 182,01"
- },
- {
-   "ITEM": 2060102,
-   "ESPEC": "PRA PEAD DE 63 A 125 S/REP SF",
-   "NPRECO": 72000351,
-   "UNID": "M",
-   "PUNIT": "R$ 93,17"
- },
- {
-   "ITEM": 2060105,
-   "ESPEC": "PRA PVC DE 50 A 100 S/ REP SF",
-   "NPRECO": 72000357,
-   "UNID": "M",
-   "PUNIT": "R$ 108,52"
- },
- {
-   "ITEM": 2140103,
-   "ESPEC": "PRE CER/PVC 150 ATE 1,5M S/REP SF",
-   "NPRECO": 72000686,
-   "UNID": "M",
-   "PUNIT": "R$ 265,36"
- },
- {
-   "ITEM": 2140105,
-   "ESPEC": "PRE CER/PVC 150 ATE 2,7M S/REP SF",
-   "NPRECO": 72000688,
-   "UNID": "M",
-   "PUNIT": "R$ 735,37"
- },
- {
-   "ITEM": 2140104,
-   "ESPEC": "PRE CER/PVC 150 ATE 2M S/REP SF",
-   "NPRECO": 72000687,
-   "UNID": "M",
-   "PUNIT": "R$ 412,62"
- },
- {
-   "ITEM": 2140106,
-   "ESPEC": "PRE CER/PVC 150 ATE 3,5M S/REP SF",
-   "NPRECO": 72000689,
-   "UNID": "M",
-   "PUNIT": "R$ 1.474,97"
- },
- {
-   "ITEM": 2140107,
-   "ESPEC": "PRE CER/PVC 200 ATE 1,5M S/REP SF",
-   "NPRECO": 72000690,
-   "UNID": "M",
-   "PUNIT": "R$ 306,56"
- },
- {
-   "ITEM": 2140109,
-   "ESPEC": "PRE CER/PVC 200 ATE 2,7M S/REP SF",
-   "NPRECO": 72000692,
-   "UNID": "M",
-   "PUNIT": "R$ 830,69"
- },
- {
-   "ITEM": 2140108,
-   "ESPEC": "PRE CER/PVC 200 ATE 2M S/REP SF",
-   "NPRECO": 72000691,
-   "UNID": "M",
-   "PUNIT": "R$ 486,40"
- },
- {
-   "ITEM": 2140110,
-   "ESPEC": "PRE CER/PVC 200 ATE 3,5M S/REP SF",
-   "NPRECO": 72000693,
-   "UNID": "M",
-   "PUNIT": "R$ 1.655,87"
- },
- {
-   "ITEM": 2140111,
-   "ESPEC": "PRE CER/PVC 300 ATE 1,5M S/REP SF",
-   "NPRECO": 72000694,
-   "UNID": "M",
-   "PUNIT": "R$ 365,61"
- },
- {
-   "ITEM": 2140113,
-   "ESPEC": "PRE CER/PVC 300 ATE 2,7M S/REP SF",
-   "NPRECO": 72000696,
-   "UNID": "M",
-   "PUNIT": "R$ 944,14"
- },
- {
-   "ITEM": 2140112,
-   "ESPEC": "PRE CER/PVC 300 ATE 2M S/REP SF",
-   "NPRECO": 72000695,
-   "UNID": "M",
-   "PUNIT": "R$ 588,35"
- },
- {
-   "ITEM": 2140114,
-   "ESPEC": "PRE CER/PVC 300 ATE 3,5M S/REP SF",
-   "NPRECO": 72000697,
-   "UNID": "M",
-   "PUNIT": "R$ 1.841,30"
- },
- {
-   "ITEM": 2140102,
-   "ESPEC": "PRE FF 200 ATE 250MM S/REP SFMH",
-   "NPRECO": 72000685,
-   "UNID": "M",
-   "PUNIT": "R$ 135,49"
- },
- {
-   "ITEM": 2140101,
-   "ESPEC": "PRE FF 80 ATE 150MM S/REP SFMH",
-   "NPRECO": 72000684,
-   "UNID": "M",
-   "PUNIT": "R$ 100,55"
- },
- {
-   "ITEM": 2140121,
-   "ESPEC": "PRE PEAD ESGOTO 110MM S/ REP PAV",
-   "NPRECO": 72001032,
-   "UNID": "M",
-   "PUNIT": "R$ 118,98"
- },
- {
-   "ITEM": 2140122,
-   "ESPEC": "PRE PEAD ESGOTO 160MM S/ REP PAV",
-   "NPRECO": 72001033,
-   "UNID": "M",
-   "PUNIT": "R$ 158,71"
- },
- {
-   "ITEM": 2140123,
-   "ESPEC": "PRE PEAD ESGOTO 200MM S/ REP PAV",
-   "NPRECO": 72001034,
-   "UNID": "M",
-   "PUNIT": "R$ 164,67"
- },
- {
-   "ITEM": 2140124,
-   "ESPEC": "PRE PEAD ESGOTO 250MM S/ REP PAV",
-   "NPRECO": 72001035,
-   "UNID": "M",
-   "PUNIT": "R$ 164,23"
- },
- {
-   "ITEM": 2140125,
-   "ESPEC": "PRE PEAD ESGOTO 315MM S/ REP PAV",
-   "NPRECO": 72001036,
-   "UNID": "M",
-   "PUNIT": "R$ 199,49"
- },
- {
-   "ITEM": 2140126,
-   "ESPEC": "PRE PEAD ESGOTO 355MM S/ REP PAV",
-   "NPRECO": 72001037,
-   "UNID": "M",
-   "PUNIT": "R$ 198,35"
- },
- {
-   "ITEM": 2140127,
-   "ESPEC": "PRE PEAD ESGOTO 400MM S/ REP PAV",
-   "NPRECO": 72001038,
-   "UNID": "M",
-   "PUNIT": "R$ 195,56"
- },
- {
-   "ITEM": 2140119,
-   "ESPEC": "PRE PEAD ESGOTO 63MM S/ REP PAV",
-   "NPRECO": 72001042,
-   "UNID": "M",
-   "PUNIT": "R$ 112,27"
- },
- {
-   "ITEM": 2140120,
-   "ESPEC": "PRE PEAD ESGOTO 90MM S/ REP PAV",
-   "NPRECO": 72001043,
-   "UNID": "M",
-   "PUNIT": "R$ 116,26"
- },
- {
-   "ITEM": 2140115,
-   "ESPEC": "PRE PVC 400 ATE 1,5M S/REP SF",
-   "NPRECO": 72000698,
-   "UNID": "M",
-   "PUNIT": "R$ 369,57"
- },
- {
-   "ITEM": 2140117,
-   "ESPEC": "PRE PVC 400 ATE 2,7M S/REP SF",
-   "NPRECO": 72000700,
-   "UNID": "M",
-   "PUNIT": "R$ 936,13"
- },
- {
-   "ITEM": 2140116,
-   "ESPEC": "PRE PVC 400 ATE 2M S/REP SF",
-   "NPRECO": 72000699,
-   "UNID": "M",
-   "PUNIT": "R$ 565,18"
- },
- {
-   "ITEM": 2140118,
-   "ESPEC": "PRE PVC 400 ATE 3,5M S/REP SF",
-   "NPRECO": 72000701,
-   "UNID": "M",
-   "PUNIT": "R$ 1.930,87"
- },
- {
-   "ITEM": 1090108,
-   "ESPEC": "PREPARO DE CX SERV. AG",
-   "NPRECO": 72000854,
-   "UNID": "M2",
-   "PUNIT": "R$ 16,01"
- },
- {
-   "ITEM": 1090109,
-   "ESPEC": "PREPARO DE CX SERV. ESG",
-   "NPRECO": 72000855,
-   "UNID": "M2",
-   "PUNIT": "R$ 15,82"
- },
- {
-   "ITEM": 2070317,
-   "ESPEC": "PRESERV INTERF SERV. AG",
-   "NPRECO": 72000456,
-   "UNID": "un",
-   "PUNIT": "R$ 267,91"
- },
- {
-   "ITEM": 2170101,
-   "ESPEC": "PRESERV INTERF SERV. ESG",
-   "NPRECO": 72000836,
-   "UNID": "un",
-   "PUNIT": "R$ 421,14"
- },
- {
-   "ITEM": 2020205,
-   "ESPEC": "RAMAL DN 50 A 100 S/REP SF",
-   "NPRECO": 72000080,
-   "UNID": "M",
-   "PUNIT": "R$ 61,62"
- },
- {
-   "ITEM": 1080408,
-   "ESPEC": "REAB CAM TANQUE 10 M3",
-   "NPRECO": 72000983,
-   "UNID": "EQD",
-   "PUNIT": "R$ 2.232,34"
+   "PREÇO": "383,41"
  },
  {
-   "ITEM": 1090102,
-   "ESPEC": "REATERRO DE VALA",
-   "NPRECO": 72000848,
+   "ITEM": 72000847,
+   "DESCRIÇÃO": "RETIRADA DE ENTULHO DE SERVIÇOS MOP",
+   "DATA I0": "jan/26",
    "UNID": "M3",
-   "PUNIT": "R$ 147,23"
+   "PREÇO": "250,25"
  },
  {
-   "ITEM": 1080202,
-   "ESPEC": "REC PI ATE 2 M S/REP",
-   "NPRECO": 72000761,
-   "UNID": "un",
-   "PUNIT": "R$ 5.146,64"
- },
- {
-   "ITEM": 1080203,
-   "ESPEC": "REC PI DE 2 A 3 M S/REP",
-   "NPRECO": 72000762,
-   "UNID": "un",
-   "PUNIT": "R$ 7.010,74"
- },
- {
-   "ITEM": 1080204,
-   "ESPEC": "REC PV ATE 2 M S/REP",
-   "NPRECO": 72000763,
-   "UNID": "un",
-   "PUNIT": "R$ 6.502,82"
- },
- {
-   "ITEM": 1080205,
-   "ESPEC": "REC PV DE 2 A 3 M S/REP",
-   "NPRECO": 72000764,
-   "UNID": "un",
-   "PUNIT": "R$ 8.811,72"
- },
- {
-   "ITEM": 1080206,
-   "ESPEC": "REC PV DE 3 A 4 M S/REP",
-   "NPRECO": 72000765,
-   "UNID": "un",
-   "PUNIT": "R$ 10.757,86"
- },
- {
-   "ITEM": 1080207,
-   "ESPEC": "REC PV DE 4 A 5M S/REP",
-   "NPRECO": 72000766,
-   "UNID": "un",
-   "PUNIT": "R$ 15.185,21"
- },
- {
-   "ITEM": 1090207,
-   "ESPEC": "RECOMP SINALIZ HORIZ BASE ACRILICA",
-   "NPRECO": 72000447,
-   "UNID": "M2",
-   "PUNIT": "R$ 116,58"
- },
- {
-   "ITEM": 1090206,
-   "ESPEC": "RECOMP SINALIZ HORIZ BASE AGUA",
-   "NPRECO": 72000446,
-   "UNID": "M2",
-   "PUNIT": "R$ 93,35"
- },
- {
-   "ITEM": 1030102,
-   "ESPEC": "REGCV SF",
-   "NPRECO": 72000227,
-   "UNID": "un",
-   "PUNIT": "R$ 288,05"
- },
- {
-   "ITEM": 2110110,
-   "ESPEC": "RELATORIO DE DIAGNOSTICO E PROGNOSTICO",
-   "NPRECO": 72000986,
-   "UNID": "KM",
-   "PUNIT": "R$ 725,90"
- },
- {
-   "ITEM": 1040105,
-   "ESPEC": "RELIG CV AG",
-   "NPRECO": 72000245,
-   "UNID": "un",
-   "PUNIT": "R$ 44,69"
- },
- {
-   "ITEM": 1040108,
-   "ESPEC": "RELIG CV AG PT",
-   "NPRECO": 72000251,
-   "UNID": "un",
-   "PUNIT": "R$ 59,20"
- },
- {
-   "ITEM": 1040106,
-   "ESPEC": "RELIG RAMAL AG PT S/REP SF",
-   "NPRECO": 72000249,
-   "UNID": "un",
-   "PUNIT": "R$ 120,72"
- },
- {
-   "ITEM": 1040107,
-   "ESPEC": "RELIG TMD AG PT S/REP SF",
-   "NPRECO": 72000250,
-   "UNID": "un",
-   "PUNIT": "R$ 477,04"
- },
- {
-   "ITEM": 5070401,
-   "ESPEC": "REM.BASE BRA - DESOBSTRUÇÃO",
-   "NPRECO": 500306,
-   "UNID": "MES",
-   "PUNIT": "R$ 4.832,33"
- },
- {
-   "ITEM": 5060101,
-   "ESPEC": "REM.BASE BRA - MANT. LIG. DOMIC. ESGOTO",
-   "NPRECO": 500304,
-   "UNID": "MES",
-   "PUNIT": "R$ 3.814,86"
- },
- {
-   "ITEM": 5020101,
-   "ESPEC": "REM.BASE BRA - MANUT. LIG. DOM.ÁGUA",
-   "NPRECO": 500301,
-   "UNID": "MES",
-   "PUNIT": "R$ 661,72"
- },
- {
-   "ITEM": 5050101,
-   "ESPEC": "REM.BASE BRA - MANUT. REDES DE ÁGUA",
-   "NPRECO": 500303,
-   "UNID": "MES",
-   "PUNIT": "R$ 4.140,69"
- },
- {
-   "ITEM": 5070101,
-   "ESPEC": "REM.BASE BRA - MANUT. REDES DE ESGOTO",
-   "NPRECO": 500305,
-   "UNID": "MES",
-   "PUNIT": "R$ 21.389,96"
- },
- {
-   "ITEM": 5030101,
-   "ESPEC": "REM.BASE BRA - SERV. GERAIS EM CAVALETE",
-   "NPRECO": 500302,
-   "UNID": "MES",
-   "PUNIT": "R$ 3.855,39"
- },
- {
-   "ITEM": 3070401,
-   "ESPEC": "REM.BASE CAC - DESOBSTRUÇÃO",
-   "NPRECO": 500206,
-   "UNID": "MES",
-   "PUNIT": "R$ 52.483,19"
- },
- {
-   "ITEM": 3060101,
-   "ESPEC": "REM.BASE CAC - MANT. LIG. DOMIC. ESGOTO",
-   "NPRECO": 500204,
-   "UNID": "MES",
-   "PUNIT": "R$ 28.755,29"
- },
- {
-   "ITEM": 3020101,
-   "ESPEC": "REM.BASE CAC - MANUT. LIG. DOM.ÁGUA",
-   "NPRECO": 500201,
-   "UNID": "MES",
-   "PUNIT": "R$ 7.886,55"
- },
- {
-   "ITEM": 3050101,
-   "ESPEC": "REM.BASE CAC - MANUT. REDES DE ÁGUA",
-   "NPRECO": 500203,
-   "UNID": "MES",
-   "PUNIT": "R$ 14.904,70"
- },
- {
-   "ITEM": 3070101,
-   "ESPEC": "REM.BASE CAC - MANUT. REDES DE ESGOTO",
-   "NPRECO": 500205,
-   "UNID": "MES",
-   "PUNIT": "R$ 28.627,51"
- },
- {
-   "ITEM": 3030101,
-   "ESPEC": "REM.BASE CAC - SERV. GERAIS EM CAVALETE",
-   "NPRECO": 500202,
-   "UNID": "MES",
-   "PUNIT": "R$ 23.022,22"
- },
- {
-   "ITEM": 7060401,
-   "ESPEC": "REM.BASE IGA - DESOBSTRUÇÃO",
-   "NPRECO": 500406,
-   "UNID": "MES",
-   "PUNIT": "R$ 1.894,94"
- },
- {
-   "ITEM": 7050101,
-   "ESPEC": "REM.BASE IGA - MANT. LIG. DOMIC. ESGOTO",
-   "NPRECO": 500404,
-   "UNID": "MES",
-   "PUNIT": "R$ 205,10"
- },
- {
-   "ITEM": 7010101,
-   "ESPEC": "REM.BASE IGA - MANUT. LIG. DOM.ÁGUA",
-   "NPRECO": 500401,
-   "UNID": "MES",
-   "PUNIT": "R$ 710,68"
- },
- {
-   "ITEM": 7040101,
-   "ESPEC": "REM.BASE IGA - MANUT. REDES DE ÁGUA",
-   "NPRECO": 500403,
-   "UNID": "MES",
-   "PUNIT": "R$ 2.201,17"
- },
- {
-   "ITEM": 7060101,
-   "ESPEC": "REM.BASE IGA - MANUT. REDES DE ESGOTO",
-   "NPRECO": 500405,
-   "UNID": "MES",
-   "PUNIT": "R$ 587,79"
- },
- {
-   "ITEM": 7020101,
-   "ESPEC": "REM.BASE IGA - SERV. GERAIS EM CAVALETE",
-   "NPRECO": 500402,
-   "UNID": "MES",
-   "PUNIT": "R$ 1.057,29"
- },
- {
-   "ITEM": 9060401,
-   "ESPEC": "REM.BASE JAM - DESOBSTRUÇÃO",
-   "NPRECO": 500506,
-   "UNID": "MES",
-   "PUNIT": "R$ 526,93"
- },
- {
-   "ITEM": 9050101,
-   "ESPEC": "REM.BASE JAM - MANT. LIG. DOMIC. ESGOTO",
-   "NPRECO": 500504,
-   "UNID": "MES",
-   "PUNIT": "R$ 731,88"
- },
- {
-   "ITEM": 9010101,
-   "ESPEC": "REM.BASE JAM - MANUT. LIG. DOM.ÁGUA",
-   "NPRECO": 500501,
-   "UNID": "MES",
-   "PUNIT": "R$ 150,85"
- },
- {
-   "ITEM": 9040101,
-   "ESPEC": "REM.BASE JAM - MANUT. REDES DE ÁGUA",
-   "NPRECO": 500503,
-   "UNID": "MES",
-   "PUNIT": "R$ 369,61"
- },
- {
-   "ITEM": 9060101,
-   "ESPEC": "REM.BASE JAM - MANUT. REDES DE ESGOTO",
-   "NPRECO": 500505,
-   "UNID": "MES",
-   "PUNIT": "R$ 531,07"
- },
- {
-   "ITEM": 9020101,
-   "ESPEC": "REM.BASE JAM - SERV. GERAIS EM CAVALETE",
-   "NPRECO": 500502,
-   "UNID": "MES",
-   "PUNIT": "R$ 196,36"
- },
- {
-   "ITEM": 11060401,
-   "ESPEC": "REM.BASE MLO - DESOBSTRUÇÃO",
-   "NPRECO": 500606,
-   "UNID": "MES",
-   "PUNIT": "R$ 1.614,09"
- },
- {
-   "ITEM": 11050101,
-   "ESPEC": "REM.BASE MLO - MANT. LIG. DOMIC. ESGOTO",
-   "NPRECO": 500604,
-   "UNID": "MES",
-   "PUNIT": "R$ 339,86"
- },
- {
-   "ITEM": 11010101,
-   "ESPEC": "REM.BASE MLO - MANUT. LIG. DOM.ÁGUA",
-   "NPRECO": 500601,
-   "UNID": "MES",
-   "PUNIT": "R$ 291,76"
- },
- {
-   "ITEM": 11040101,
-   "ESPEC": "REM.BASE MLO - MANUT. REDES DE ÁGUA",
-   "NPRECO": 500603,
-   "UNID": "MES",
-   "PUNIT": "R$ 594,79"
- },
- {
-   "ITEM": 11060101,
-   "ESPEC": "REM.BASE MLO - MANUT. REDES DE ESGOTO",
-   "NPRECO": 500605,
-   "UNID": "MES",
-   "PUNIT": "R$ 1.118,33"
- },
- {
-   "ITEM": 11020101,
-   "ESPEC": "REM.BASE MLO - SERV. GERAIS EM CAVALETE",
-   "NPRECO": 500602,
-   "UNID": "MES",
-   "PUNIT": "R$ 321,95"
- },
- {
-   "ITEM": 1080401,
-   "ESPEC": "REM.BASE SJC - DESOBSTRUÇÃO",
-   "NPRECO": 500106,
-   "UNID": "MES",
-   "PUNIT": "R$ 305.687,48"
- },
- {
-   "ITEM": 1070101,
-   "ESPEC": "REM.BASE SJC - MANT. LIG. DOMIC. ESGOTO",
-   "NPRECO": 500104,
-   "UNID": "MES",
-   "PUNIT": "R$ 168.016,42"
- },
- {
-   "ITEM": 1020101,
-   "ESPEC": "REM.BASE SJC - MANUT. LIG. DOM.ÁGUA",
-   "NPRECO": 500101,
-   "UNID": "MES",
-   "PUNIT": "R$ 49.504,55"
- },
- {
-   "ITEM": 1060101,
-   "ESPEC": "REM.BASE SJC - MANUT. REDES DE ÁGUA",
-   "NPRECO": 500103,
-   "UNID": "MES",
-   "PUNIT": "R$ 71.060,96"
- },
- {
-   "ITEM": 1080101,
-   "ESPEC": "REM.BASE SJC - MANUT. REDES DE ESGOTO",
-   "NPRECO": 500105,
-   "UNID": "MES",
-   "PUNIT": "R$ 193.268,69"
- },
- {
-   "ITEM": 1030101,
-   "ESPEC": "REM.BASE SJC - SERV. GERAIS EM CAVALETE",
-   "NPRECO": 500102,
-   "UNID": "MES",
-   "PUNIT": "R$ 117.317,13"
- },
- {
-   "ITEM": 2180203,
-   "ESPEC": "REMOÇÃO SINGUL./VÁLV./REP.TUBO",
-   "NPRECO": 421513,
-   "UNID": "un",
-   "PUNIT": "R$ 786,54"
- },
- {
-   "ITEM": 1090114,
-   "ESPEC": "REPOS CAPA CBUQ",
-   "NPRECO": 72000860,
-   "UNID": "M2",
-   "PUNIT": "R$ 175,29"
- },
- {
-   "ITEM": 1050101,
-   "ESPEC": "RET HIDR DN 25 - 7,0 E 10,0 M3/H",
-   "NPRECO": 422433,
-   "UNID": "un",
-   "PUNIT": "R$ 60,16"
- },
- {
-   "ITEM": 1050102,
-   "ESPEC": "RET HIDR DN 40 - 20,0 M3/H",
-   "NPRECO": 422434,
-   "UNID": "un",
-   "PUNIT": "R$ 64,11"
- },
- {
-   "ITEM": 1050103,
-   "ESPEC": "RET HIDR DN 50 - 30,0 M3/H",
-   "NPRECO": 422435,
-   "UNID": "un",
-   "PUNIT": "R$ 72,01"
- },
- {
-   "ITEM": 1050106,
-   "ESPEC": "RET HIDR E FILTRO DN 100 - 1.800 M3/DIA",
-   "NPRECO": 422438,
-   "UNID": "un",
-   "PUNIT": "R$ 107,59"
- },
- {
-   "ITEM": 1050107,
-   "ESPEC": "RET HIDR E FILTRO DN 150 - 4.000 M3/DIA",
-   "NPRECO": 422439,
-   "UNID": "un",
-   "PUNIT": "R$ 119,43"
- },
- {
-   "ITEM": 1050108,
-   "ESPEC": "RET HIDR E FILTRO DN 200 - 6.500 M3/DIA",
-   "NPRECO": 422440,
-   "UNID": "un",
-   "PUNIT": "R$ 143,15"
- },
- {
-   "ITEM": 1050104,
-   "ESPEC": "RET HIDR E FILTRO DN 50 - 300 M3/DIA",
-   "NPRECO": 422436,
-   "UNID": "un",
-   "PUNIT": "R$ 83,89"
- },
- {
-   "ITEM": 1050105,
-   "ESPEC": "RET HIDR E FILTRO DN 80 - 1.100 M3/DIA",
-   "NPRECO": 422437,
-   "UNID": "un",
-   "PUNIT": "R$ 95,74"
- },
- {
-   "ITEM": 1080501,
-   "ESPEC": "RETIR E TRANSP DETRIT ACUM CESTO DE EEE",
-   "NPRECO": 72000905,
-   "UNID": "un",
-   "PUNIT": "R$ 351,82"
- },
- {
-   "ITEM": 1090101,
-   "ESPEC": "RETIRA ENTULHO SERV. MOP",
-   "NPRECO": 72000847,
+   "ITEM": 72000848,
+   "DESCRIÇÃO": "REATERRO DE VALA",
+   "DATA I0": "jan/26",
    "UNID": "M3",
-   "PUNIT": "R$ 247,94"
+   "PREÇO": "167,02"
  },
  {
-   "ITEM": 1090110,
-   "ESPEC": "SELAGEM BASE BGS SERV. AG",
-   "NPRECO": 72000856,
+   "ITEM": 72000849,
+   "DESCRIÇÃO": "LEVANTAMENTO DE PAVIMENTAÇÃO ASFALTICA - SERVIÇOS AGUA",
+   "DATA I0": "jan/26",
    "UNID": "M2",
-   "PUNIT": "R$ 26,59"
+   "PREÇO": "32,81"
  },
  {
-   "ITEM": 1090111,
-   "ESPEC": "SELAGEM BASE BGS SERV. ESG",
-   "NPRECO": 72000857,
+   "ITEM": 72000850,
+   "DESCRIÇÃO": "LEVANTAMENTO DE PAVIMENTACAO ASFALTICA - SERVIÇOS ESGOTO",
+   "DATA I0": "jan/26",
    "UNID": "M2",
-   "PUNIT": "R$ 29,05"
+   "PREÇO": "32,81"
  },
  {
-   "ITEM": 1100302,
-   "ESPEC": "SERV LAV LIMP DESINF EMERG IMOVEIS",
-   "NPRECO": 349031,
-   "UNID": "M2",
-   "PUNIT": "R$ 17,17"
- },
- {
-   "ITEM": 1090208,
-   "ESPEC": "SINAL HORIZ VI A QUENTE ASPERSAO E=1,5MM",
-   "NPRECO": 72000448,
-   "UNID": "M2",
-   "PUNIT": "R$ 75,34"
- },
- {
-   "ITEM": 1090209,
-   "ESPEC": "SINAL HORIZ VI A QUENTE EXTRUSAO E=3,0MM",
-   "NPRECO": 72000449,
-   "UNID": "M2",
-   "PUNIT": "R$ 122,84"
- },
- {
-   "ITEM": 2070301,
-   "ESPEC": "SOND LOCALIZADAS S/REP",
-   "NPRECO": 72000019,
-   "UNID": "un",
-   "PUNIT": "R$ 556,49"
- },
- {
-   "ITEM": 1090106,
-   "ESPEC": "SUB BASE BGS SERV. AG",
-   "NPRECO": 72000852,
+   "ITEM": 72000851,
+   "DESCRIÇÃO": "SUB BASE EM RACHÃO",
+   "DATA I0": "jan/26",
    "UNID": "M3",
-   "PUNIT": "R$ 261,35"
+   "PREÇO": "165,68"
  },
  {
-   "ITEM": 1090107,
-   "ESPEC": "SUB BASE BGS SERV. ESG",
-   "NPRECO": 72000853,
+   "ITEM": 72000852,
+   "DESCRIÇÃO": "SUB BASE EM BRITA GRADUADA - SERVICOS AGUA",
+   "DATA I0": "jan/26",
    "UNID": "M3",
-   "PUNIT": "R$ 253,94"
+   "PREÇO": "298,5"
  },
  {
-   "ITEM": 1090105,
-   "ESPEC": "SUB BASE EM RACHÃO",
-   "NPRECO": 72000851,
+   "ITEM": 72000853,
+   "DESCRIÇÃO": "SUB BASE EM BRITA GRADUADA - SERVICOS ESGOTO",
+   "DATA I0": "jan/26",
    "UNID": "M3",
-   "PUNIT": "R$ 161,46"
+   "PREÇO": "298,5"
  },
  {
-   "ITEM": 2180205,
-   "ESPEC": "SUB.TUB.EXT.ARR EST PEAD DE 110MM (SFMH)",
-   "NPRECO": 421551,
+   "ITEM": 72000854,
+   "DESCRIÇÃO": "PREPARO DE CAIXA - SERVICOS AGUA",
+   "DATA I0": "jan/26",
+   "UNID": "M2",
+   "PREÇO": "16,22"
+ },
+ {
+   "ITEM": 72000855,
+   "DESCRIÇÃO": "PREPARO DE CAIXA - SERVICOS ESGOTO",
+   "DATA I0": "jan/26",
+   "UNID": "M2",
+   "PREÇO": "16,22"
+ },
+ {
+   "ITEM": 72000856,
+   "DESCRIÇÃO": "SELAGEM DE BASE BGS - SERVIÇOS AGUA",
+   "DATA I0": "jan/26",
+   "UNID": "M2",
+   "PREÇO": "28,56"
+ },
+ {
+   "ITEM": 72000857,
+   "DESCRIÇÃO": "SELAGEM DE BASE BGS - SERVIÇOS ESGOTO",
+   "DATA I0": "jan/26",
+   "UNID": "M2",
+   "PREÇO": "32"
+ },
+ {
+   "ITEM": 72000858,
+   "DESCRIÇÃO": "BINDER - SERVICOS AGUA",
+   "DATA I0": "jan/26",
+   "UNID": "M3",
+   "PREÇO": "3.352,00"
+ },
+ {
+   "ITEM": 72000859,
+   "DESCRIÇÃO": "BINDER - SERVICOS ESGOTO",
+   "DATA I0": "jan/26",
+   "UNID": "M3",
+   "PREÇO": "3.352,00"
+ },
+ {
+   "ITEM": 72000860,
+   "DESCRIÇÃO": "REPOSIÇÃO DE CAPA ASFÁLTICA CBUQ",
+   "DATA I0": "jan/26",
+   "UNID": "M2",
+   "PREÇO": "180,71"
+ },
+ {
+   "ITEM": 72000861,
+   "DESCRIÇÃO": "CAPA DE CONCRETO ASFÁLTICO - SERVICOS ÁGUA",
+   "DATA I0": "jan/26",
+   "UNID": "M3",
+   "PREÇO": "3.574,50"
+ },
+ {
+   "ITEM": 72000862,
+   "DESCRIÇÃO": "CAPA DE CONCRETO ASFÁLTICO - SERVICOS ESGOTO",
+   "DATA I0": "jan/26",
+   "UNID": "M3",
+   "PREÇO": "3.574,50"
+ },
+ {
+   "ITEM": 72000863,
+   "DESCRIÇÃO": "ASSENTAMENTO DE GUIAS",
+   "DATA I0": "jan/26",
    "UNID": "M",
-   "PUNIT": "R$ 85,46"
+   "PREÇO": "71,23"
  },
  {
-   "ITEM": 2180206,
-   "ESPEC": "SUB.TUB.EXT.ARR EST PEAD DE 160MM (SFMH)",
-   "NPRECO": 421552,
+   "ITEM": 72000864,
+   "DESCRIÇÃO": "ASSENTAMENTO DE PARALELEPIPEDO / BLOCOS DE CONCRETO",
+   "DATA I0": "jan/26",
+   "UNID": "M2",
+   "PREÇO": "195,45"
+ },
+ {
+   "ITEM": 72000865,
+   "DESCRIÇÃO": "CONCRETO PARA FECHAMENTO DE VALAS - SERVICOS AGUA",
+   "DATA I0": "jan/26",
+   "UNID": "M3",
+   "PREÇO": "740,76"
+ },
+ {
+   "ITEM": 72000866,
+   "DESCRIÇÃO": "CONCRETO PARA FECHAMENTO DE VALAS - SERVICOS ESGOTO",
+   "DATA I0": "jan/26",
+   "UNID": "M3",
+   "PREÇO": "740,76"
+ },
+ {
+   "ITEM": 72000867,
+   "DESCRIÇÃO": "CONSTRUCAO DE SARJETAS",
+   "DATA I0": "jan/26",
+   "UNID": "M3",
+   "PREÇO": "825,45"
+ },
+ {
+   "ITEM": 72000868,
+   "DESCRIÇÃO": "EXECUCAO DE PASSEIO / PISO ESPECIAL",
+   "DATA I0": "jan/26",
+   "UNID": "M2",
+   "PREÇO": "277,3"
+ },
+ {
+   "ITEM": 72000869,
+   "DESCRIÇÃO": "EXECUÇÃO DE PASSEIOS CIMENTADOS",
+   "DATA I0": "jan/26",
+   "UNID": "M2",
+   "PREÇO": "127,44"
+ },
+ {
+   "ITEM": 72000870,
+   "DESCRIÇÃO": "FRESAGEM E RECAPEAMENTO DE PAVIMENTO ASFÁLTICO CBUQ - ATÉ 100M²",
+   "DATA I0": "jan/26",
+   "UNID": "M2",
+   "PREÇO": "254,69"
+ },
+ {
+   "ITEM": 72000871,
+   "DESCRIÇÃO": "FRESAGEM E RECAPEAMENTO DE PAVIMENTO ASFÁLTICO CBUQ - ACIMA DE 100M²",
+   "DATA I0": "jan/26",
+   "UNID": "M2",
+   "PREÇO": "152,14"
+ },
+ {
+   "ITEM": 72000872,
+   "DESCRIÇÃO": "PAVIMENTAÇÃO ASFÁLTICA BÁSICA (TAPA-VALA BASE RAP ESPUMADO) - TRÁFEGO LEVE - COMPLETA",
+   "DATA I0": "jan/26",
+   "UNID": "M2",
+   "PREÇO": "238,02"
+ },
+ {
+   "ITEM": 72000873,
+   "DESCRIÇÃO": "PAVIMENTAÇÃO ASFÁLTICA BÁSICA (TAPA-VALA BASE RAP ESPUMADO) - TRÁFEGO MÉDIO - COMPLETA",
+   "DATA I0": "jan/26",
+   "UNID": "M2",
+   "PREÇO": "525,17"
+ },
+ {
+   "ITEM": 72000874,
+   "DESCRIÇÃO": "PAVIMENTAÇÃO ASFÁLTICA BÁSICA (TAPA-VALA BASE RAP ESPUMADO) - TRÁFEGO PESADO - COMPLETA",
+   "DATA I0": "jan/26",
+   "UNID": "M2",
+   "PREÇO": "534,7"
+ },
+ {
+   "ITEM": 72000875,
+   "DESCRIÇÃO": "SUB BASE EM RAP ESPUMADO - SERVIÇOS ÁGUA",
+   "DATA I0": "jan/26",
+   "UNID": "M3",
+   "PREÇO": "56,88"
+ },
+ {
+   "ITEM": 72000876,
+   "DESCRIÇÃO": "SUB BASE EM RAP ESPUMADO - SERVIÇOS ESGOTO",
+   "DATA I0": "jan/26",
+   "UNID": "M3",
+   "PREÇO": "56,88"
+ },
+ {
+   "ITEM": 72000877,
+   "DESCRIÇÃO": "TRANSPORTE DE RAP-ESPUMADO - URBANO",
+   "DATA I0": "jan/26",
+   "UNID": "TOK",
+   "PREÇO": "1,72"
+ },
+ {
+   "ITEM": 72000878,
+   "DESCRIÇÃO": "TRANSPORTE DE RAP-ESPUMADO - RODOVIÁRIO",
+   "DATA I0": "jan/26",
+   "UNID": "TOK",
+   "PREÇO": "1,05"
+ },
+ {
+   "ITEM": 72000942,
+   "DESCRIÇÃO": "FRESAGEM E RECAPEAMENTO DE PAVIMENTO ASFÁLTICO SMA - ATÉ 100M²",
+   "DATA I0": "jan/26",
+   "UNID": "M2",
+   "PREÇO": "270,89"
+ },
+ {
+   "ITEM": 72000943,
+   "DESCRIÇÃO": "FRESAGEM E RECAPEAMENTO DE PAVIMENTO ASFÁLTICO SMA - ACIMA DE 100M²",
+   "DATA I0": "jan/26",
+   "UNID": "M2",
+   "PREÇO": "168,35"
+ },
+ {
+   "ITEM": 72000952,
+   "DESCRIÇÃO": "PAVIMENTACAO ASFALTICA BASICA (TAPA-VALA BASE BGS) - TRAFEGO LEVE - COMPLETA",
+   "DATA I0": "jan/26",
+   "UNID": "M2",
+   "PREÇO": "298,23"
+ },
+ {
+   "ITEM": 72000953,
+   "DESCRIÇÃO": "PAVIMENTACAO ASFALTICA BASICA (TAPA-VALA BASE BGS) - TRAFEGO MEDIO - COMPLETA",
+   "DATA I0": "jan/26",
+   "UNID": "M2",
+   "PREÇO": "585,18"
+ },
+ {
+   "ITEM": 72000954,
+   "DESCRIÇÃO": "PAVIMENTACAO ASFALTICA BASICA (TAPA-VALA BASE BGS) - TRAFEGO PESADO - COMPLETA",
+   "DATA I0": "jan/26",
+   "UNID": "M2",
+   "PREÇO": "601,3"
+ },
+ {
+   "ITEM": 72000002,
+   "DESCRIÇÃO": "SONDAGEM EM LEITO (VALA SECA) C/ LPB DO LEITO (C) - AGUA",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "335,1"
+ },
+ {
+   "ITEM": 72000003,
+   "DESCRIÇÃO": "SONDAGEM EM LEITO (VALA SECA) C/ LPB DO LEITO (B) - AGUA",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "363,72"
+ },
+ {
+   "ITEM": 72000007,
+   "DESCRIÇÃO": "SONDAGEM EM LEITO (VALA SECA) C/ LPB DO LEITO (A) - AGUA",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "386,14"
+ },
+ {
+   "ITEM": 72000008,
+   "DESCRIÇÃO": "SONDAGEM (VALA SECA) S/ REPOS DO PAV - AGUA",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "235,94"
+ },
+ {
+   "ITEM": 72000009,
+   "DESCRIÇÃO": "SONDAGEM EM PASSEIO (VALA SECA) C/ REPOS DO PAV PASSEIO - AGUA",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "304,31"
+ },
+ {
+   "ITEM": 72000010,
+   "DESCRIÇÃO": "SONDAGEM EM LEITO (VALA SECA) C/ REPOS DO LEITO (C) - AGUA",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "396,52"
+ },
+ {
+   "ITEM": 72000011,
+   "DESCRIÇÃO": "SONDAGEM EM LEITO (VALA SECA) C/ REPOS DO LEITO (B) - AGUA",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "518,55"
+ },
+ {
+   "ITEM": 72000012,
+   "DESCRIÇÃO": "SONDAGEM EM LEITO (VALA SECA) C/ REPOS DO LEITO (A) - AGUA",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "540,97"
+ },
+ {
+   "ITEM": 72000013,
+   "DESCRIÇÃO": "REPOSIÇÃO DE CAPA ASFÁLTICA CBUQ - SONDAGEM EM LEITO (VALA SECA) - LEITO (C) - ÁGUA",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "70,84"
+ },
+ {
+   "ITEM": 72000014,
+   "DESCRIÇÃO": "REPOSIÇÃO DE CAPA ASFÁLTICA CBUQ - SONDAGEM EM LEITO (VALA SECA) - LEITO (B) - ÁGUA",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "164,25"
+ },
+ {
+   "ITEM": 72000015,
+   "DESCRIÇÃO": "REPOSIÇÃO DE CAPA ASFÁLTICA CBUQ - SONDAGEM EM LEITO (VALA SECA) - LEITO (A) - ÁGUA",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "164,25"
+ },
+ {
+   "ITEM": 72000016,
+   "DESCRIÇÃO": "SONDAGEM DE REDES E PECAS LOCALIZADAS (CAVAS) C/ LPB LEITO (C) - AGUA",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "890,52"
+ },
+ {
+   "ITEM": 72000017,
+   "DESCRIÇÃO": "SONDAGEM DE REDES E PECAS LOCALIZADAS (CAVAS) C/ LPB LEITO (B) - AGUA",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "958,48"
+ },
+ {
+   "ITEM": 72000018,
+   "DESCRIÇÃO": "SONDAGEM DE REDES E PECAS LOCALIZADAS (CAVAS) C/ LPB LEITO (A) - AGUA",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "1.005,37"
+ },
+ {
+   "ITEM": 72000019,
+   "DESCRIÇÃO": "SONDAGEM DE REDES E PECAS LOCALIZADAS (CAVAS) SEM PAVIMENTACAO",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "601,85"
+ },
+ {
+   "ITEM": 72000020,
+   "DESCRIÇÃO": "SONDAGEM DE REDES E PECAS LOCALIZADAS (CAVAS) C/ REPOS PASSEIO CIMENTADO",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "690,51"
+ },
+ {
+   "ITEM": 72000021,
+   "DESCRIÇÃO": "SONDAGEM DE REDES E PECAS LOCALIZADAS (CAVAS) C/ REPOS PASSEIO ESPECIAL",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "862,09"
+ },
+ {
+   "ITEM": 72000022,
+   "DESCRIÇÃO": "SONDAGEM DE REDES E PECAS LOCALIZADAS (CAVAS) C/ REPOS LEITO (C)",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "1.152,95"
+ },
+ {
+   "ITEM": 72000023,
+   "DESCRIÇÃO": "SONDAGEM DE REDES E PECAS LOCALIZADAS (CAVAS) C/ REPOS LEITO (B)",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "1.410,34"
+ },
+ {
+   "ITEM": 72000024,
+   "DESCRIÇÃO": "SONDAGEM DE REDES E PECAS LOCALIZADAS (CAVAS) C/ REPOS LEITO (A)",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "1.457,23"
+ },
+ {
+   "ITEM": 72001343,
+   "DESCRIÇÃO": "REPOSIÇÃO DE CAPA ASFÁLTICA CBUQ - SONDAGEM DE REDES E PEçAS LOCALIZADAS (CAVAS) - LEITO (C) - ÁGUA",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "208,18"
+ },
+ {
+   "ITEM": 72001342,
+   "DESCRIÇÃO": "REPOSIÇÃO DE CAPA ASFÁLTICA CBUQ - SONDAGEM DE REDES E PEçAS LOCALIZADAS (CAVAS) - LEITO (B) - ÁGUA",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "514,66"
+ },
+ {
+   "ITEM": 72001341,
+   "DESCRIÇÃO": "REPOSIÇÃO DE CAPA ASFÁLTICA CBUQ - SONDAGEM DE REDES E PEçAS LOCALIZADAS (CAVAS) - LEITO (A) - ÁGUA",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "514,66"
+ },
+ {
+   "ITEM": 72000457,
+   "DESCRIÇÃO": "SONDAGEM EM LEITO (VALA SECA) C/LPB DO LEITO (C) - ESGOTO",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "424,92"
+ },
+ {
+   "ITEM": 72000458,
+   "DESCRIÇÃO": "SONDAGEM EM LEITO (VALA SECA) C/LPB DO LEITO (B) - ESGOTO",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "547,51"
+ },
+ {
+   "ITEM": 72000459,
+   "DESCRIÇÃO": "SONDAGEM EM LEITO (VALA SECA) C/LPB DO LEITO (A) - ESGOTO",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "576,08"
+ },
+ {
+   "ITEM": 72000460,
+   "DESCRIÇÃO": "SONDAGEM (VALA SECA) S/REPOS DO PAV - ESGOTO",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "291,41"
+ },
+ {
+   "ITEM": 72000461,
+   "DESCRIÇÃO": "SONDAGEM EM PASSEIO (VALA SECA) C/REPOS DO PAV PASSEIO - ESGOTO",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "329,15"
+ },
+ {
+   "ITEM": 72000462,
+   "DESCRIÇÃO": "SONDAGEM EM LEITO (VALA SECA) C/REPOS DO LEITO (C) - ESGOTO",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "464,81"
+ },
+ {
+   "ITEM": 72000463,
+   "DESCRIÇÃO": "SONDAGEM EM LEITO (VALA SECA) C/REPOS DO LEITO (B) - ESGOTO",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "586,84"
+ },
+ {
+   "ITEM": 72000464,
+   "DESCRIÇÃO": "SONDAGEM EM LEITO (VALA SECA) C/REPOS DO LEITO (A) - ESGOTO",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "609,26"
+ },
+ {
+   "ITEM": 72000465,
+   "DESCRIÇÃO": "REPOSIÇÃO DE CAPA ASFÁLTICA CBUQ - SONDAGEM EM LEITO (VALA SECA) (C) - ESGOTO",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "88,55"
+ },
+ {
+   "ITEM": 72000466,
+   "DESCRIÇÃO": "REPOSIÇÃO DE CAPA ASFÁLTICA CBUQ - SONDAGEM EM LEITO (VALA SECA) (B) - ESGOTO",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "88,55"
+ },
+ {
+   "ITEM": 72000467,
+   "DESCRIÇÃO": "REPOSIÇÃO DE CAPA ASFÁLTICA CBUQ - SONDAGEM EM LEITO (VALA SECA) (A) - ESGOTO",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "88,55"
+ },
+ {
+   "ITEM": 72000193,
+   "DESCRIÇÃO": "REPARO DE RAMAL DE AGUA EM PEAD ATE 32MM - QUALQUER PROF., S/ REPOS DO PAV (SFMH)",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "462,83"
+ },
+ {
+   "ITEM": 72000194,
+   "DESCRIÇÃO": "REPARO DE RAMAL DE AGUA EM PEAD ATE 32MM - QUALQUER PROF., S/ REPOS DO PAV",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "498,32"
+ },
+ {
+   "ITEM": 72000195,
+   "DESCRIÇÃO": "REPARO DE RAMAL DE AGUA EM PEAD ATE 32MM - QUALQUER PROF., S/ REPOS DO PAV (SFMH) - PRONTO ATEND",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "664,14"
+ },
+ {
+   "ITEM": 72000196,
+   "DESCRIÇÃO": "LRP - PASSEIO CIMENTADO - REPARO DE RAMAL DE AGUA",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "170,34"
+ },
+ {
+   "ITEM": 72000197,
+   "DESCRIÇÃO": "LRP - PASSEIO ESPECIAL - REPARO DE RAMAL DE AGUA",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "273,91"
+ },
+ {
+   "ITEM": 72001135,
+   "DESCRIÇÃO": "LPB - LEITO - REPARO DE RAMAL DE AGUA (C)",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "168,76"
+ },
+ {
+   "ITEM": 72001134,
+   "DESCRIÇÃO": "LPB - LEITO - REPARO DE RAMAL DE AGUA (B)",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "193,26"
+ },
+ {
+   "ITEM": 72001133,
+   "DESCRIÇÃO": "LPB - LEITO - REPARO DE RAMAL DE AGUA (A)",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "229,3"
+ },
+ {
+   "ITEM": 72001319,
+   "DESCRIÇÃO": "REPOSIÇÃO DE CAPA ASFÁLTICA CBUQ - REPARO DE RAMAL DE AGUA (C)",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "111,84"
+ },
+ {
+   "ITEM": 72001318,
+   "DESCRIÇÃO": "REPOSIÇÃO DE CAPA ASFÁLTICA CBUQ - REPARO DE RAMAL DE AGUA (B)",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "266,73"
+ },
+ {
+   "ITEM": 72001317,
+   "DESCRIÇÃO": "REPOSIÇÃO DE CAPA ASFÁLTICA CBUQ - REPARO DE RAMAL DE AGUA (A)",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "266,73"
+ },
+ {
+   "ITEM": 72000651,
+   "DESCRIÇÃO": "REPARO/SUPRESSAO/RELIG DE RAMAL ESGOTO PVC/CERAMICO DN 100/150 MM - ATE 2,00M, S/REPOS PAV (SFMH)",
+   "DATA I0": "jan/26",
    "UNID": "M",
-   "PUNIT": "R$ 129,94"
+   "PREÇO": "649,13"
  },
  {
-   "ITEM": 2180207,
-   "ESPEC": "SUB.TUB.EXT.ARR EST PEAD DE 200MM (SFMH)",
-   "NPRECO": 421553,
+   "ITEM": 72000652,
+   "DESCRIÇÃO": "REPARO/SUPRESSAO/RELIG DE RAMAL ESGOTO PVC/CERAMICO DN 100/150 MM-2,01M ATE 3,00M S/REPOS PAV (SFMH)",
+   "DATA I0": "jan/26",
    "UNID": "M",
-   "PUNIT": "R$ 139,79"
+   "PREÇO": "1.032,89"
  },
  {
-   "ITEM": 2180208,
-   "ESPEC": "SUB.TUB.EXT.ARR EST PEAD DE 225MM (SFMH)",
-   "NPRECO": 421556,
+   "ITEM": 72000653,
+   "DESCRIÇÃO": "REPARO/SUPRESSAO/RELIG DE RAMAL ESGOTO PVC/CERAMICO DN 100/150 MM-3,01M ATE 4,00M S/REPOS PAV (SFMH)",
+   "DATA I0": "jan/26",
    "UNID": "M",
-   "PUNIT": "R$ 140,31"
+   "PREÇO": "1.355,31"
  },
  {
-   "ITEM": 2180209,
-   "ESPEC": "SUB.TUB.EXT.ARR EST PEAD DE 250MM (SFMH)",
-   "NPRECO": 421559,
+   "ITEM": 72000654,
+   "DESCRIÇÃO": "REPARO/SUPRESSAO/RELIG DE RAMAL ESGOTO PVC DN 100/150 MM - PROF. ATE 2,00M, S/ REPOS DO PAV",
+   "DATA I0": "jan/26",
    "UNID": "M",
-   "PUNIT": "R$ 153,28"
+   "PREÇO": "732,17"
  },
  {
-   "ITEM": 2180210,
-   "ESPEC": "SUB.TUB.EXT.ARR EST PEAD DE 280MM (SFMH)",
-   "NPRECO": 421557,
+   "ITEM": 72000655,
+   "DESCRIÇÃO": "REPARO/SUPRESSAO/RELIG DE RAMAL ESGOTO PVC DN 100/150 MM - 2,01M ATE 3,00 M S/ REPOS PAV",
+   "DATA I0": "jan/26",
    "UNID": "M",
-   "PUNIT": "R$ 167,03"
+   "PREÇO": "1.115,93"
  },
  {
-   "ITEM": 2180211,
-   "ESPEC": "SUB.TUB.EXT.ARR EST PEAD DE 315MM (SFMH)",
-   "NPRECO": 421555,
+   "ITEM": 72000656,
+   "DESCRIÇÃO": "REPARO/SUPRESSAO/RELIG DE RAMAL ESGOTO PVC DN 100/150 MM - 3,01M ATE 4,00 M S/ REPOS PAV",
+   "DATA I0": "jan/26",
    "UNID": "M",
-   "PUNIT": "R$ 167,03"
+   "PREÇO": "1.438,35"
  },
  {
-   "ITEM": 2180212,
-   "ESPEC": "SUB.TUB.EXT.ARR EST PEAD DE 400MM (SFMH)",
-   "NPRECO": 421558,
+   "ITEM": 72000657,
+   "DESCRIÇÃO": "REPARO/SUPRESSAO/RELIG DE RAMAL ESGOTO CERAMICO DN 100/150 MM - PROF. ATE 2,00M, S/ REPOS DO PAV",
+   "DATA I0": "jan/26",
    "UNID": "M",
-   "PUNIT": "R$ 210,15"
+   "PREÇO": "756,62"
  },
  {
-   "ITEM": 2180204,
-   "ESPEC": "SUB.TUB.EXT.ARR EST PEAD DE 90MM (SFMH)",
-   "NPRECO": 421550,
+   "ITEM": 72000658,
+   "DESCRIÇÃO": "REPARO/SUPRESSAO/RELIG DE RAMAL ESGOTO CERAMICO DN 100/150 MM - 2,01M ATE 3,00 M S/ REPOS PAV",
+   "DATA I0": "jan/26",
    "UNID": "M",
-   "PUNIT": "R$ 85,46"
+   "PREÇO": "1.140,38"
  },
  {
-   "ITEM": 2040105,
-   "ESPEC": "SUBST CV POR UMA C/REP PASS",
-   "NPRECO": 72000215,
+   "ITEM": 72000659,
+   "DESCRIÇÃO": "REPARO/SUPRESSAO/RELIG DE RAMAL ESGOTO CERAMICO DN 100/150 MM - 3,01M ATE 4,00 M S/ REPOS PAV",
+   "DATA I0": "jan/26",
+   "UNID": "M",
+   "PREÇO": "1.462,80"
+ },
+ {
+   "ITEM": 72000660,
+   "DESCRIÇÃO": "LRP - PASSEIO CIMENTADO - REPARO/SUPRESSAO/RELIG DE RAMAL DE ESGOTO PROF. ATE 2,00M",
+   "DATA I0": "jan/26",
+   "UNID": "M",
+   "PREÇO": "458,61"
+ },
+ {
+   "ITEM": 72000661,
+   "DESCRIÇÃO": "LRP - PASSEIO CIMENTADO - REPARO/SUPRESSAO/RELIG DE RAMAL DE ESGOTO PROF. DE 2,01 A 3,00M",
+   "DATA I0": "jan/26",
+   "UNID": "M",
+   "PREÇO": "856,38"
+ },
+ {
+   "ITEM": 72000662,
+   "DESCRIÇÃO": "LRP - PASSEIO CIMENTADO - REPARO/SUPRESSAO/RELIG DE RAMAL DE ESGOTO PROF. DE 3,01 A 4,00M",
+   "DATA I0": "jan/26",
+   "UNID": "M",
+   "PREÇO": "1.177,72"
+ },
+ {
+   "ITEM": 72000663,
+   "DESCRIÇÃO": "LRP - PASSEIO ESPECIAL - REPARO/SUPRESSAO/RELIG DE RAMAL DE ESGOTO PROF. ATE 2,00M",
+   "DATA I0": "jan/26",
+   "UNID": "M",
+   "PREÇO": "561,56"
+ },
+ {
+   "ITEM": 72000664,
+   "DESCRIÇÃO": "LRP - PASSEIO ESPECIAL - REPARO/SUPRESSAO/RELIG DE RAMAL DE ESGOTO PROF. DE 2,01 A 3,00M",
+   "DATA I0": "jan/26",
+   "UNID": "M",
+   "PREÇO": "976,49"
+ },
+ {
+   "ITEM": 72000665,
+   "DESCRIÇÃO": "LRP - PASSEIO ESPECIAL - REPARO/SUPRESSAO/RELIG DE RAMAL DE ESGOTO PROF. DE 3,01 A 4,00M",
+   "DATA I0": "jan/26",
+   "UNID": "M",
+   "PREÇO": "1.297,83"
+ },
+ {
+   "ITEM": 72001126,
+   "DESCRIÇÃO": "LPB - LEITO - REPARO / SUPRESSAO / RELIG DE RAMAL DE ESGOTO - PROF. ATE 2,00M (C)",
+   "DATA I0": "jan/26",
+   "UNID": "M",
+   "PREÇO": "413,13"
+ },
+ {
+   "ITEM": 72001125,
+   "DESCRIÇÃO": "LPB - LEITO - REPARO / SUPRESSAO / RELIG DE RAMAL DE ESGOTO - PROF. ATE 2,00M (B)",
+   "DATA I0": "jan/26",
+   "UNID": "M",
+   "PREÇO": "420,9"
+ },
+ {
+   "ITEM": 72001124,
+   "DESCRIÇÃO": "LPB - LEITO - REPARO / SUPRESSAO / RELIG DE RAMAL DE ESGOTO - PROF. ATE 2,00M (A)",
+   "DATA I0": "jan/26",
+   "UNID": "M",
+   "PREÇO": "458,9"
+ },
+ {
+   "ITEM": 72001129,
+   "DESCRIÇÃO": "LPB - LEITO - REPARO / SUPRESSAO / RELIG DE RAMAL DE ESGOTO - PROF. DE 2,01 A 3,00M (C)",
+   "DATA I0": "jan/26",
+   "UNID": "M",
+   "PREÇO": "803,25"
+ },
+ {
+   "ITEM": 72001128,
+   "DESCRIÇÃO": "LPB - LEITO - REPARO / SUPRESSAO / RELIG DE RAMAL DE ESGOTO - PROF. DE 2,01 A 3,00M (B)",
+   "DATA I0": "jan/26",
+   "UNID": "M",
+   "PREÇO": "810,32"
+ },
+ {
+   "ITEM": 72001127,
+   "DESCRIÇÃO": "LPB - LEITO - REPARO / SUPRESSAO / RELIG DE RAMAL DE ESGOTO - PROF. DE 2,01 A 3,00M (A)",
+   "DATA I0": "jan/26",
+   "UNID": "M",
+   "PREÇO": "852,66"
+ },
+ {
+   "ITEM": 72001132,
+   "DESCRIÇÃO": "LPB - LEITO - REPARO / SUPRESSAO / RELIG DE RAMAL DE ESGOTO - PROF. DE 3,01 A 4,00M (C)",
+   "DATA I0": "jan/26",
+   "UNID": "M",
+   "PREÇO": "1.124,58"
+ },
+ {
+   "ITEM": 72001131,
+   "DESCRIÇÃO": "LPB - LEITO - REPARO / SUPRESSAO / RELIG DE RAMAL DE ESGOTO - PROF. DE 3,01 A 4,00M (B)",
+   "DATA I0": "jan/26",
+   "UNID": "M",
+   "PREÇO": "1.131,66"
+ },
+ {
+   "ITEM": 72001130,
+   "DESCRIÇÃO": "LPB - LEITO - REPARO / SUPRESSAO / RELIG DE RAMAL DE ESGOTO - PROF. DE 3,01 A 4,00M (A)",
+   "DATA I0": "jan/26",
+   "UNID": "M",
+   "PREÇO": "1.187,84"
+ },
+ {
+   "ITEM": 72001310,
+   "DESCRIÇÃO": "REPOSIÇÃO DE CAPA ASFÁLTICA CBUQ - REPARO / SUPRESSAO / RELIG DE RAMAL DE ESGOTO PROF. ATE 2,00M (C)",
+   "DATA I0": "jan/26",
+   "UNID": "M",
+   "PREÇO": "111,32"
+ },
+ {
+   "ITEM": 72001309,
+   "DESCRIÇÃO": "REPOSIÇÃO DE CAPA ASFÁLTICA CBUQ - REPARO / SUPRESSAO / RELIG DE RAMAL DE ESGOTO PROF. ATE 2,00M (B)",
+   "DATA I0": "jan/26",
+   "UNID": "M",
+   "PREÇO": "265,32"
+ },
+ {
+   "ITEM": 72001308,
+   "DESCRIÇÃO": "REPOSIÇÃO DE CAPA ASFÁLTICA CBUQ - REPARO / SUPRESSAO / RELIG DE RAMAL DE ESGOTO PROF. ATE 2,00M (A)",
+   "DATA I0": "jan/26",
+   "UNID": "M",
+   "PREÇO": "265,32"
+ },
+ {
+   "ITEM": 72001313,
+   "DESCRIÇÃO": "REPOSIÇÃO DE CAPA ASFÁLTICA CBUQ - REPARO / SUPRESSAO / RELIG DE RAMAL DE ESGOTO PROF. DE 2,01 A 3,00M (C)",
+   "DATA I0": "jan/26",
+   "UNID": "M",
+   "PREÇO": "127,22"
+ },
+ {
+   "ITEM": 72001312,
+   "DESCRIÇÃO": "REPOSIÇÃO DE CAPA ASFÁLTICA CBUQ - REPARO / SUPRESSAO / RELIG DE RAMAL DE ESGOTO PROF. DE 2,01 A 3,00M (B)",
+   "DATA I0": "jan/26",
+   "UNID": "M",
+   "PREÇO": "306,21"
+ },
+ {
+   "ITEM": 72001311,
+   "DESCRIÇÃO": "REPOSIÇÃO DE CAPA ASFÁLTICA CBUQ - REPARO / SUPRESSAO / RELIG DE RAMAL DE ESGOTO PROF. DE 2,01 A 3,00M (A)",
+   "DATA I0": "jan/26",
+   "UNID": "M",
+   "PREÇO": "306,21"
+ },
+ {
+   "ITEM": 72001316,
+   "DESCRIÇÃO": "REPOSIÇÃO DE CAPA ASFÁLTICA CBUQ - REPARO / SUPRESSAO / RELIG DE RAMAL DE ESGOTO PROF. DE 3,01 A 4,00M (C)",
+   "DATA I0": "jan/26",
+   "UNID": "M",
+   "PREÇO": "127,22"
+ },
+ {
+   "ITEM": 72001315,
+   "DESCRIÇÃO": "REPOSIÇÃO DE CAPA ASFÁLTICA CBUQ - REPARO / SUPRESSAO / RELIG DE RAMAL DE ESGOTO PROF. DE 3,01 A 4,00M (B)",
+   "DATA I0": "jan/26",
+   "UNID": "M",
+   "PREÇO": "306,21"
+ },
+ {
+   "ITEM": 72001314,
+   "DESCRIÇÃO": "REPOSIÇÃO DE CAPA ASFÁLTICA CBUQ - REPARO / SUPRESSAO / RELIG DE RAMAL DE ESGOTO PROF. DE 3,01 A 4,00M (A)",
+   "DATA I0": "jan/26",
+   "UNID": "M",
+   "PREÇO": "306,21"
+ },
+ {
+   "ITEM": 72000204,
+   "DESCRIÇÃO": "TROCA DE CAVALETE DOMICILIAR",
+   "DATA I0": "jan/26",
    "UNID": "un",
-   "PUNIT": "R$ 102,36"
+   "PREÇO": "438,47"
  },
  {
-   "ITEM": 2040104,
-   "ESPEC": "SUBST CV POR UMA S/REP",
-   "NPRECO": 72000214,
+   "ITEM": 72000205,
+   "DESCRIÇÃO": "TROCA PREVENTIVA DE REGISTRO DE CAVALETE - DN 20MM",
+   "DATA I0": "jan/26",
    "UNID": "un",
-   "PUNIT": "R$ 78,90"
+   "PREÇO": "51,25"
  },
  {
-   "ITEM": 1080208,
-   "ESPEC": "SUBST PI POR PLAST ATE 2M S/REP",
-   "NPRECO": 72000767,
+   "ITEM": 72000206,
+   "DESCRIÇÃO": "REGULARIZACAO DE CAVALETE DOMICILIAR",
+   "DATA I0": "jan/26",
    "UNID": "un",
-   "PUNIT": "R$ 9.594,67"
+   "PREÇO": "345,97"
  },
  {
-   "ITEM": 1080209,
-   "ESPEC": "SUBST PV POR PLAST ATE 2M S/REP",
-   "NPRECO": 72000768,
+   "ITEM": 72000207,
+   "DESCRIÇÃO": "REPARO DE VAZAMENTO NO CAVALETE DOMICILIAR - PVC / FERRO GALVANIZADO",
+   "DATA I0": "jan/26",
    "UNID": "un",
-   "PUNIT": "R$ 12.488,83"
+   "PREÇO": "154,11"
  },
  {
-   "ITEM": 1080210,
-   "ESPEC": "SUBST PV POR PLAST DE 2 A 3M S/REP",
-   "NPRECO": 72000769,
+   "ITEM": 72000208,
+   "DESCRIÇÃO": "REPARO DE VAZAMENTO NO CAVALETE DOMICILIAR - PVC / FERRO GALVANIZADO - PRONTO ATENDIMENTO",
+   "DATA I0": "jan/26",
    "UNID": "un",
-   "PUNIT": "R$ 20.488,62"
+   "PREÇO": "174,9"
  },
  {
-   "ITEM": 1080211,
-   "ESPEC": "SUBST PV POR PLAST DE 3 A 4M S/REP",
-   "NPRECO": 72000770,
+   "ITEM": 72000209,
+   "DESCRIÇÃO": "TRANSFORMACAO DE CAVALETE SIMPLES P/ MULTIPLO COM 2 HIDROMETROS C/ APROVEITAMENTO DO RAMAL",
+   "DATA I0": "jan/26",
    "UNID": "un",
-   "PUNIT": "R$ 27.970,10"
+   "PREÇO": "125,14"
  },
  {
-   "ITEM": 1080402,
-   "ESPEC": "SUCÇÃO A ALTO VÁCUO EM REDE COLETORA",
-   "NPRECO": 72000840,
+   "ITEM": 72000210,
+   "DESCRIÇÃO": "INCLUSAO DE LIGACAO EM CAVALETE MULTIPLO",
+   "DATA I0": "jan/26",
    "UNID": "un",
-   "PUNIT": "R$ 501,56"
+   "PREÇO": "289,68"
  },
  {
-   "ITEM": 1080407,
-   "ESPEC": "SUCCAO A BAIXO VACUO EM REDE COLETORA",
-   "NPRECO": 72000974,
+   "ITEM": 72000211,
+   "DESCRIÇÃO": "INCLUSÃO DE LIGAÇÃO EM UMA MÚLTIPLA",
+   "DATA I0": "jan/26",
    "UNID": "un",
-   "PUNIT": "R$ 365,04"
+   "PREÇO": "55,44"
  },
  {
-   "ITEM": 1040103,
-   "ESPEC": "SUPR CV",
-   "NPRECO": 72000240,
+   "ITEM": 72000212,
+   "DESCRIÇÃO": "INSTALAÇÃO DE CAIXA PARA UNIDADE DE MEDIÇÃO DE ÁGUA - COM CONSTRUÇÃO DE MURETA EM ALVENARIA",
+   "DATA I0": "jan/26",
    "UNID": "un",
-   "PUNIT": "R$ 27,70"
+   "PREÇO": "728,58"
  },
  {
-   "ITEM": 1040102,
-   "ESPEC": "SUPR RAMAL AG S/REP SF",
-   "NPRECO": 72000239,
+   "ITEM": 72000213,
+   "DESCRIÇÃO": "INSTALAÇÃO DE CAIXA PARA UNIDADE DE MEDIÇÃO DE ÁGUA",
+   "DATA I0": "jan/26",
    "UNID": "un",
-   "PUNIT": "R$ 117,41"
+   "PREÇO": "271,48"
  },
  {
-   "ITEM": 1040101,
-   "ESPEC": "SUPR TMD AG S/REP SF",
-   "NPRECO": 72000238,
+   "ITEM": 72000214,
+   "DESCRIÇÃO": "SUBSTITUIÇÃO DE CAVALETE POR UNIDADE DE MEDIÇÃO - S/ REPOS DE PAVIMENTOS",
+   "DATA I0": "jan/26",
    "UNID": "un",
-   "PUNIT": "R$ 404,96"
+   "PREÇO": "83,57"
  },
  {
-   "ITEM": 2040110,
-   "ESPEC": "TCV SF",
-   "NPRECO": 72000226,
+   "ITEM": 72000215,
+   "DESCRIÇÃO": "SUBSTITUIÇÃO DE CAVALETE POR UNIDADE DE MEDIÇÃO - C/ REPOS DE PAVIMENTO DO PASSEIO",
+   "DATA I0": "jan/26",
    "UNID": "un",
-   "PUNIT": "R$ 226,20"
+   "PREÇO": "109,79"
  },
  {
-   "ITEM": 1100114,
-   "ESPEC": "TECNICO DE SEGURANCA DO TRABALHO",
-   "NPRECO": 74000068,
+   "ITEM": 72000216,
+   "DESCRIÇÃO": "INSTALAÇÃO DE CAIXA PARA UNIDADE DE MEDIÇÃO DE ÁGUA NO PASSEIO - UMAP",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "261,86"
+ },
+ {
+   "ITEM": 72000217,
+   "DESCRIÇÃO": "ADICIONAL DE PRECO P/ TROCA DE CAVALETE DOMICILIAR",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "396,27"
+ },
+ {
+   "ITEM": 72000218,
+   "DESCRIÇÃO": "ADICIONAL PARA TROCA PREVENTIVA DE REGISTRO DE CAVALETE - DN 20MM",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "35,55"
+ },
+ {
+   "ITEM": 72000219,
+   "DESCRIÇÃO": "ADICIONAL DE PRECO P/ REGULARIZACAO DE CAVALETE DOMICILIAR",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "309,26"
+ },
+ {
+   "ITEM": 72000220,
+   "DESCRIÇÃO": "ADICIONAL DE PRECO P/ REPARO DE CAVALETE",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "121,37"
+ },
+ {
+   "ITEM": 72000221,
+   "DESCRIÇÃO": "ADICIONAL PARA INCLUSÃO DE LIGAÇÃO EM UMA MÚLTIPLA",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "17,43"
+ },
+ {
+   "ITEM": 72000222,
+   "DESCRIÇÃO": "ADICIONAL PARA INSTALAÇÃO DE CAIXA PARA UNIDADE DE MEDIÇÃO DE ÁGUA",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "188,13"
+ },
+ {
+   "ITEM": 72000223,
+   "DESCRIÇÃO": "ADICIONAL PARA INSTALAÇÃO DE CAIXA PARA UNIDADE DE MEDIÇÃO DE ÁGUA NO PASSEIO - UMAP",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "222,98"
+ },
+ {
+   "ITEM": 72000224,
+   "DESCRIÇÃO": "ADICIONAL DE PRECO P/ INSTALACAO DE CAVALETE DOMICILIAR",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "254,28"
+ },
+ {
+   "ITEM": 72000225,
+   "DESCRIÇÃO": "ADICIONAL PARA TROCA PREVENTIVA DE PÉ ENTRADA DO CAVALETE",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "113,96"
+ },
+ {
+   "ITEM": 72000226,
+   "DESCRIÇÃO": "TROCA DE CAVALETE DOMICILIAR (SFMH)",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "238,37"
+ },
+ {
+   "ITEM": 72000227,
+   "DESCRIÇÃO": "REGULARIZACAO DE CAVALETE DOMICILIAR (SFMH)",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "313,33"
+ },
+ {
+   "ITEM": 72000228,
+   "DESCRIÇÃO": "TRANSFORMACAO DE CAVALETE SIMPLES P/ MULTIPLO COM 2 HIDROMETROS C/ APROVEITAMENTO DO RAMAL (SFMH)",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "108,5"
+ },
+ {
+   "ITEM": 72000229,
+   "DESCRIÇÃO": "ADICIONAL DE PRECO P/ INSTALACAO DE CAVALETE DOMICILIAR (SFMH)",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "133,08"
+ },
+ {
+   "ITEM": 72000230,
+   "DESCRIÇÃO": "ADICIONAL DE PRECO P/ TROCA DE CAVALETE DOMICILIAR (SFMH)",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "196,17"
+ },
+ {
+   "ITEM": 72000231,
+   "DESCRIÇÃO": "ADICIONAL DE PRECO P/ REGULARIZACAO DE CAVALETE DOMICILIAR (SFMH)",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "276,62"
+ },
+ {
+   "ITEM": 72001002,
+   "DESCRIÇÃO": "ADICIONAL PARA TROCA DE REGISTRO DE CAVALETE - DN 20mm (SFMH)",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "24,08"
+ },
+ {
+   "ITEM": 72001022,
+   "DESCRIÇÃO": "ABERTURA DE BOLETIM DE OCORRÊNCIA (B.O.)",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "627,53"
+ },
+ {
+   "ITEM": 72001023,
+   "DESCRIÇÃO": "ADICIONAL PARA SUBSTITUIÇÃO DE HIDRÔMETRO EM VISTORIA DE SUSPEITA DE IRREGULARIDADE DE ÁGUA – IMPROCEDENTE E PROCEDENTE",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "4,8"
+ },
+ {
+   "ITEM": 72001024,
+   "DESCRIÇÃO": "PRESERVAÇÃO DO LOCAL – DIURNO",
+   "DATA I0": "jan/26",
    "UNID": "H",
-   "PUNIT": "R$ 89,31"
+   "PREÇO": "144,79"
  },
  {
-   "ITEM": 2110106,
-   "ESPEC": "TELEV DE RAMAL DE ESGOTO VARRED",
-   "NPRECO": 72000979,
+   "ITEM": 72001025,
+   "DESCRIÇÃO": "PRESERVAÇÃO DO LOCAL – NOTURNO",
+   "DATA I0": "jan/26",
+   "UNID": "H",
+   "PREÇO": "192,46"
+ },
+ {
+   "ITEM": 72001026,
+   "DESCRIÇÃO": "VISTORIA DE SUSPEITA DE IRREGULARIDADE DE ÁGUA – IMPROCEDENTE",
+   "DATA I0": "jan/26",
    "UNID": "un",
-   "PUNIT": "R$ 174,51"
+   "PREÇO": "34,33"
  },
  {
-   "ITEM": 2110108,
-   "ESPEC": "TELEVISIONAMENTO INTERCEPTORES",
-   "NPRECO": 72000981,
+   "ITEM": 72001027,
+   "DESCRIÇÃO": "VISTORIA DE SUSPEITA DE IRREGULARIDADE DE ÁGUA – PROCEDENTE",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "80,92"
+ },
+ {
+   "ITEM": 72000591,
+   "DESCRIÇÃO": "LRP - PASSEIO CIMENTADO - TROCA LIGAÇÃO ESGOT CORRETIVA PROF. ATE 2,00M",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "888,65"
+ },
+ {
+   "ITEM": 72000592,
+   "DESCRIÇÃO": "LRP - PASSEIO CIMENTADO - TROCA LIGAÇÃO ESGOTO CORRETIVA PROF. DE 2,01 A 3,00M",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "1.897,14"
+ },
+ {
+   "ITEM": 72000593,
+   "DESCRIÇÃO": "LRP - PASSEIO CIMENTADO - TROCA LIGAÇÃO ESGOTO CORRETIVA PROF. DE 3,01 A 4,00M",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "3.400,94"
+ },
+ {
+   "ITEM": 72000594,
+   "DESCRIÇÃO": "LRP - PASSEIO ESPECIAL - TROCA LIGAÇÃO ESGOTO CORRETIVA PROF. ATE 2,00M",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "1.111,70"
+ },
+ {
+   "ITEM": 72000595,
+   "DESCRIÇÃO": "LRP - PASSEIO ESPECIAL - TROCA LIGAÇÃO ESGOTO CORRETIVA PROF. DE 2,01 A 3,00M",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "2.204,27"
+ },
+ {
+   "ITEM": 72000596,
+   "DESCRIÇÃO": "LRP - PASSEIO ESPECIAL - TROCA LIGAÇÃO ESGOTO CORRETIVA PROF. DE 3,01 A 4,00M",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "3.802,43"
+ },
+ {
+   "ITEM": 72001186,
+   "DESCRIÇÃO": "LPB - LEITO - TERÇO ADJACENTE - TROCA LIGAÇÃO ESGOTO CORRETIVA PROF. ATE 2,00M (C)",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "1.172,00"
+ },
+ {
+   "ITEM": 72001185,
+   "DESCRIÇÃO": "LPB - LEITO - TERÇO ADJACENTE - TROCA LIGAÇÃO ESGOTO CORRETIVA PROF. ATE 2,00M (B)",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "1.170,66"
+ },
+ {
+   "ITEM": 72001184,
+   "DESCRIÇÃO": "LPB - LEITO - TERÇO ADJACENTE - TROCA LIGAÇÃO ESGOTO CORRETIVA PROF. ATE 2,00M (A)",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "1.239,88"
+ },
+ {
+   "ITEM": 72001189,
+   "DESCRIÇÃO": "LPB - LEITO - TERÇO ADJACENTE - TROCA LIGAÇÃO ESGOTO CORRETIVA PROF. DE 2,01 A 3,00M (C)",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "2.121,45"
+ },
+ {
+   "ITEM": 72001188,
+   "DESCRIÇÃO": "LPB - LEITO - TERÇO ADJACENTE - TROCA LIGAÇÃO ESGOTO CORRETIVA PROF. DE 2,01 A 3,00M (B)",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "2.117,16"
+ },
+ {
+   "ITEM": 72001187,
+   "DESCRIÇÃO": "LPB - LEITO - TERÇO ADJACENTE - TROCA LIGAÇÃO ESGOTO CORRETIVA PROF. DE 2,01 A 3,00M (A)",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "2.199,30"
+ },
+ {
+   "ITEM": 72001192,
+   "DESCRIÇÃO": "LPB - LEITO - TERÇO ADJACENTE - TROCA LIGAÇÃO ESGOTO CORRETIVA PROF. DE 3,01 A 4,00M (C)",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "3.643,18"
+ },
+ {
+   "ITEM": 72001191,
+   "DESCRIÇÃO": "LPB - LEITO - TERÇO ADJACENTE - TROCA LIGAÇÃO ESGOTO CORRETIVA PROF. DE 3,01 A 4,00M (B)",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "3.634,38"
+ },
+ {
+   "ITEM": 72001190,
+   "DESCRIÇÃO": "LPB - LEITO - TERÇO ADJACENTE - TROCA LIGAÇÃO ESGOTO CORRETIVA PROF. DE 3,01 A 4,00M (A)",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "3.735,80"
+ },
+ {
+   "ITEM": 72001088,
+   "DESCRIÇÃO": "LPB - LEITO - EIXO - TROCA LIGAÇÃO ESGOTO CORRETIVA PROF. ATE 2,00M (C)",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "1.824,36"
+ },
+ {
+   "ITEM": 72001087,
+   "DESCRIÇÃO": "LPB - LEITO - EIXO - TROCA LIGAÇÃO ESGOTO CORRETIVA PROF. ATE 2,00M (B)",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "1.814,59"
+ },
+ {
+   "ITEM": 72001086,
+   "DESCRIÇÃO": "LPB - LEITO - EIXO - TROCA LIGAÇÃO ESGOTO CORRETIVA PROF. ATE 2,00M (A)",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "1.919,94"
+ },
+ {
+   "ITEM": 72001091,
+   "DESCRIÇÃO": "LPB - LEITO - EIXO - TROCA LIGAÇÃO ESGOTO CORRETIVA PROF. DE 2,01 A 3,00M (C)",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "2.773,80"
+ },
+ {
+   "ITEM": 72001090,
+   "DESCRIÇÃO": "LPB - LEITO - EIXO - TROCA LIGAÇÃO ESGOTO CORRETIVA PROF. DE 2,01 A 3,00M (B)",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "2.761,09"
+ },
+ {
+   "ITEM": 72001089,
+   "DESCRIÇÃO": "LPB - LEITO - EIXO - TROCA LIGAÇÃO ESGOTO CORRETIVA PROF. DE 2,01 A 3,00M (A)",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "2.879,36"
+ },
+ {
+   "ITEM": 72001094,
+   "DESCRIÇÃO": "LPB - LEITO - EIXO - TROCA LIGAÇÃO ESGOTO CORRETIVA PROF. DE 3,01 A 4,00M (C)",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "4.404,26"
+ },
+ {
+   "ITEM": 72001093,
+   "DESCRIÇÃO": "LPB - LEITO - EIXO - TROCA LIGAÇÃO ESGOTO CORRETIVA PROF. DE 3,01 A 4,00M (B)",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "4.385,63"
+ },
+ {
+   "ITEM": 72001092,
+   "DESCRIÇÃO": "LPB - LEITO - EIXO - TROCA LIGAÇÃO ESGOTO CORRETIVA PROF. DE 3,01 A 4,00M (A)",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "4.529,19"
+ },
+ {
+   "ITEM": 72001216,
+   "DESCRIÇÃO": "LPB - LEITO - TERÇO OPOSTO - TROCA LIGAÇÃO ESGOTO CORRETIVA PROF. ATE 2,00M (C)",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "2.476,71"
+ },
+ {
+   "ITEM": 72001215,
+   "DESCRIÇÃO": "LPB - LEITO - TERÇO OPOSTO - TROCA LIGAÇÃO ESGOTO CORRETIVA PROF. ATE 2,00M (B)",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "2.458,49"
+ },
+ {
+   "ITEM": 72001214,
+   "DESCRIÇÃO": "LPB - LEITO - TERÇO OPOSTO - TROCA LIGAÇÃO ESGOTO CORRETIVA PROF. ATE 2,00M (A)",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "2.599,98"
+ },
+ {
+   "ITEM": 72001219,
+   "DESCRIÇÃO": "LPB - LEITO - TERÇO OPOSTO - TROCA LIGAÇÃO ESGOTO CORRETIVA PROF. DE 2,01 A 3,00M (C)",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "3.426,14"
+ },
+ {
+   "ITEM": 72001218,
+   "DESCRIÇÃO": "LPB - LEITO - TERÇO OPOSTO - TROCA LIGAÇÃO ESGOTO CORRETIVA PROF. DE 2,01 A 3,00M (B)",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "3.404,98"
+ },
+ {
+   "ITEM": 72001217,
+   "DESCRIÇÃO": "LPB - LEITO - TERÇO OPOSTO - TROCA LIGAÇÃO ESGOTO CORRETIVA PROF. DE 2,01 A 3,00M (A)",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "3.559,39"
+ },
+ {
+   "ITEM": 72001222,
+   "DESCRIÇÃO": "LPB - LEITO - TERÇO OPOSTO - TROCA LIGAÇÃO ESGOTO CORRETIVA PROF. DE 3,01 A 4,00M (C)",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "5.165,35"
+ },
+ {
+   "ITEM": 72001221,
+   "DESCRIÇÃO": "LPB - LEITO - TERÇO OPOSTO - TROCA LIGAÇÃO ESGOTO CORRETIVA PROF. DE 3,01 A 4,00M (B)",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "5.136,86"
+ },
+ {
+   "ITEM": 72001220,
+   "DESCRIÇÃO": "LPB - LEITO - TERÇO OPOSTO - TROCA LIGAÇÃO ESGOTO CORRETIVA PROF. DE 3,01 A 4,00M (A)",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "5.322,57"
+ },
+ {
+   "ITEM": 72001364,
+   "DESCRIÇÃO": "REPOSIÇÃO DE CAPA ASFÁLTICA CBUQ - TERÇO ADJACENTE - TROCA LIGAÇÃO ESGOTO CORRETIVA PROF. ATE 2,00M (C)",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "336,85"
+ },
+ {
+   "ITEM": 72001363,
+   "DESCRIÇÃO": "REPOSIÇÃO DE CAPA ASFÁLTICA CBUQ - TERÇO ADJACENTE - TROCA LIGAÇÃO ESGOTO CORRETIVA PROF. ATE 2,00M (B)",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "820,59"
+ },
+ {
+   "ITEM": 72001362,
+   "DESCRIÇÃO": "REPOSIÇÃO DE CAPA ASFÁLTICA CBUQ - TERÇO ADJACENTE - TROCA LIGAÇÃO ESGOTO CORRETIVA PROF. ATE 2,00M (A)",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "820,59"
+ },
+ {
+   "ITEM": 72001367,
+   "DESCRIÇÃO": "REPOSIÇÃO DE CAPA ASFÁLTICA CBUQ - TERÇO ADJACENTE - TROCA LIGAÇÃO ESGOTO CORRETIVA PROF. DE 2,01 A 3,00M (C)",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "404,79"
+ },
+ {
+   "ITEM": 72001366,
+   "DESCRIÇÃO": "REPOSIÇÃO DE CAPA ASFÁLTICA CBUQ - TERÇO ADJACENTE - TROCA LIGAÇÃO ESGOTO CORRETIVA PROF. DE 2,01 A 3,00M (B)",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "995,94"
+ },
+ {
+   "ITEM": 72001365,
+   "DESCRIÇÃO": "REPOSIÇÃO DE CAPA ASFÁLTICA CBUQ - TERÇO ADJACENTE - TROCA LIGAÇÃO ESGOTO CORRETIVA PROF. DE 2,01 A 3,00M (A)",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "995,94"
+ },
+ {
+   "ITEM": 72001370,
+   "DESCRIÇÃO": "REPOSIÇÃO DE CAPA ASFÁLTICA CBUQ - TERÇO ADJACENTE - TROCA LIGAÇÃO ESGOTO CORRETIVA PROF. DE 3,01 A 4,00M (C)",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "504,55"
+ },
+ {
+   "ITEM": 72001369,
+   "DESCRIÇÃO": "REPOSIÇÃO DE CAPA ASFÁLTICA CBUQ - TERÇO ADJACENTE - TROCA LIGAÇÃO ESGOTO CORRETIVA PROF. DE 3,01 A 4,00M (B)",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "1.255,20"
+ },
+ {
+   "ITEM": 72001368,
+   "DESCRIÇÃO": "REPOSIÇÃO DE CAPA ASFÁLTICA CBUQ - TERÇO ADJACENTE - TROCA LIGAÇÃO ESGOTO CORRETIVA PROF. DE 3,01 A 4,00M (A)",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "1.255,20"
+ },
+ {
+   "ITEM": 72001274,
+   "DESCRIÇÃO": "REPOSIÇÃO DE CAPA ASFÁLTICA CBUQ - EIXO - TROCA LIGAÇÃO ESGOTO CORRETIVA PROF. ATE 2,00M (C)",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "539,24"
+ },
+ {
+   "ITEM": 72001273,
+   "DESCRIÇÃO": "REPOSIÇÃO DE CAPA ASFÁLTICA CBUQ - EIXO - TROCA LIGAÇÃO ESGOTO CORRETIVA PROF. ATE 2,00M (B)",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "1.325,91"
+ },
+ {
+   "ITEM": 72001272,
+   "DESCRIÇÃO": "REPOSIÇÃO DE CAPA ASFÁLTICA CBUQ - EIXO - TROCA LIGAÇÃO ESGOTO CORRETIVA PROF. ATE 2,00M (A)",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "1.325,91"
+ },
+ {
+   "ITEM": 72001277,
+   "DESCRIÇÃO": "REPOSIÇÃO DE CAPA ASFÁLTICA CBUQ - EIXO - TROCA LIGAÇÃO ESGOTO CORRETIVA PROF. DE 2,01 A 3,00M (C)",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "607,18"
+ },
+ {
+   "ITEM": 72001276,
+   "DESCRIÇÃO": "REPOSIÇÃO DE CAPA ASFÁLTICA CBUQ - EIXO - TROCA LIGAÇÃO ESGOTO CORRETIVA PROF. DE 2,01 A 3,00M (B)",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "1.501,26"
+ },
+ {
+   "ITEM": 72001275,
+   "DESCRIÇÃO": "REPOSIÇÃO DE CAPA ASFÁLTICA CBUQ - EIXO - TROCA LIGAÇÃO ESGOTO CORRETIVA PROF. DE 2,01 A 3,00M (A)",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "1.501,26"
+ },
+ {
+   "ITEM": 72001280,
+   "DESCRIÇÃO": "REPOSIÇÃO DE CAPA ASFÁLTICA CBUQ - EIXO - TROCA LIGAÇÃO ESGOTO CORRETIVA PROF. DE 3,01 A 4,00M (C)",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "735,86"
+ },
+ {
+   "ITEM": 72001279,
+   "DESCRIÇÃO": "REPOSIÇÃO DE CAPA ASFÁLTICA CBUQ - EIXO - TROCA LIGAÇÃO ESGOTO CORRETIVA PROF. DE 3,01 A 4,00M (B)",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "1.838,72"
+ },
+ {
+   "ITEM": 72001278,
+   "DESCRIÇÃO": "REPOSIÇÃO DE CAPA ASFÁLTICA CBUQ - EIXO - TROCA LIGAÇÃO ESGOTO CORRETIVA PROF. DE 3,01 A 4,00M (A)",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "1.838,72"
+ },
+ {
+   "ITEM": 72001391,
+   "DESCRIÇÃO": "REPOSIÇÃO DE CAPA ASFÁLTICA CBUQ - TERÇO OPOSTO - TROCA LIGAÇÃO ESGOTO CORRETIVA PROF. ATE 2,00M (C)",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "741,64"
+ },
+ {
+   "ITEM": 72001390,
+   "DESCRIÇÃO": "REPOSIÇÃO DE CAPA ASFÁLTICA CBUQ - TERÇO OPOSTO - TROCA LIGAÇÃO ESGOTO CORRETIVA PROF. ATE 2,00M (B)",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "1.831,24"
+ },
+ {
+   "ITEM": 72001389,
+   "DESCRIÇÃO": "REPOSIÇÃO DE CAPA ASFÁLTICA CBUQ - TERÇO OPOSTO - TROCA LIGAÇÃO ESGOTO CORRETIVA PROF. ATE 2,00M (A)",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "1.831,24"
+ },
+ {
+   "ITEM": 72001394,
+   "DESCRIÇÃO": "REPOSIÇÃO DE CAPA ASFÁLTICA CBUQ - TERÇO OPOSTO - TROCA LIGAÇÃO ESGOTO CORRETIVA PROF. DE 2,01 A 3,00M (C)",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "809,58"
+ },
+ {
+   "ITEM": 72001393,
+   "DESCRIÇÃO": "REPOSIÇÃO DE CAPA ASFÁLTICA CBUQ - TERÇO OPOSTO - TROCA LIGAÇÃO ESGOTO CORRETIVA PROF. DE 2,01 A 3,00M (B)",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "2.006,59"
+ },
+ {
+   "ITEM": 72001392,
+   "DESCRIÇÃO": "REPOSIÇÃO DE CAPA ASFÁLTICA CBUQ - TERÇO OPOSTO - TROCA LIGAÇÃO ESGOTO CORRETIVA PROF. DE 2,01 A 3,00M (A)",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "2.006,59"
+ },
+ {
+   "ITEM": 72001397,
+   "DESCRIÇÃO": "REPOSIÇÃO DE CAPA ASFÁLTICA CBUQ - TERÇO OPOSTO - TROCA LIGAÇÃO ESGOTO CORRETIVA PROF. DE 3,01 A 4,00M (C)",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "967,16"
+ },
+ {
+   "ITEM": 72001396,
+   "DESCRIÇÃO": "REPOSIÇÃO DE CAPA ASFÁLTICA CBUQ - TERÇO OPOSTO - TROCA LIGAÇÃO ESGOTO CORRETIVA PROF. DE 3,01 A 4,00M (B)",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "2.422,25"
+ },
+ {
+   "ITEM": 72001395,
+   "DESCRIÇÃO": "REPOSIÇÃO DE CAPA ASFÁLTICA CBUQ - TERÇO OPOSTO - TROCA LIGAÇÃO ESGOTO CORRETIVA PROF. DE 3,01 A 4,00M (A)",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "2.422,25"
+ },
+ {
+   "ITEM": 72000743,
+   "DESCRIÇÃO": "CONSTRUCAO DE POCO DE VISITA AVULSA - DIÂMETRO 1M - PROF. ATE 2M S/ REPOS DO PAV",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "5.889,07"
+ },
+ {
+   "ITEM": 72000744,
+   "DESCRIÇÃO": "CONSTRUCAO DE POCO DE VISITA AVULSA - DIÂMETRO 1M - PROF. DE 2 A 3M S/ REPOS DO PAV",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "7.751,42"
+ },
+ {
+   "ITEM": 72000745,
+   "DESCRIÇÃO": "CONSTRUCAO DE POCO DE VISITA AVULSA - DIÂMETRO 1M - PROF. DE 3 A 4M S/ REPOS DO PAV",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "9.379,75"
+ },
+ {
+   "ITEM": 72000746,
+   "DESCRIÇÃO": "CONSTRUCAO DE POCO DE VISITA AVULSA - DIÂMETRO 1M - PROF. DE 4 A 5M S/ REPOS DO PAV",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "11.724,33"
+ },
+ {
+   "ITEM": 72000747,
+   "DESCRIÇÃO": "CONSTRUCAO DE POCO DE VISITA AVULSA - DIÂMETRO 1,20M - PROF. ATE 2M S/ REPOS DO PAV",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "6.661,32"
+ },
+ {
+   "ITEM": 72000748,
+   "DESCRIÇÃO": "CONSTRUCAO DE POCO DE VISITA AVULSA – DIÂMETRO 1,20M - PROF. DE 2 A 3M - S/ REPOS DO PAV",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "8.953,55"
+ },
+ {
+   "ITEM": 72000749,
+   "DESCRIÇÃO": "CONSTRUCAO DE POCO DE VISITA AVULSA - DIÂMETRO 1,20 M - PROF. DE 3 A 4M - S/ REPOS DO PAV",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "10.640,82"
+ },
+ {
+   "ITEM": 72000750,
+   "DESCRIÇÃO": "CONSTRUCAO DE POCO DE VISITA AVULSA - DIÂMETRO 1,20 M - PROF. DE 4 A 5M - S/ REPOS DO PAV",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "13.276,51"
+ },
+ {
+   "ITEM": 72000759,
+   "DESCRIÇÃO": "CONSTRUCAO DE POCO DE INSPECAO AVULSA PROF. ATE 2M S/ REPOS DO PAV",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "4.428,12"
+ },
+ {
+   "ITEM": 72000760,
+   "DESCRIÇÃO": "CONSTRUCAO DE POCO DE INSPECAO AVULSA PROF. DE 2 A 3M S/ REPOS DO PAV",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "5.534,62"
+ },
+ {
+   "ITEM": 72000761,
+   "DESCRIÇÃO": "RECONSTRUCAO DE POCO DE INSPECAO AVULSA PROF. ATE 2 M S/ REPOS DO PAV",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "5.771,19"
+ },
+ {
+   "ITEM": 72000762,
+   "DESCRIÇÃO": "RECONSTRUCAO DE POCO DE INSPECAO AVULSA PROF. DE 2 A 3 M S/ REPOS DO PAV",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "7.697,23"
+ },
+ {
+   "ITEM": 72000763,
+   "DESCRIÇÃO": "RECONSTRUCAO DE POCO DE VISITA AVULSA PROF. ATE 2 M S/ REPOS DO PAV",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "7.518,99"
+ },
+ {
+   "ITEM": 72000764,
+   "DESCRIÇÃO": "RECONSTRUCAO DE POCO DE VISITA AVULSA PROF. DE 2 A 3 M S/ REPOS DO PAV",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "10.035,09"
+ },
+ {
+   "ITEM": 72000765,
+   "DESCRIÇÃO": "RECONSTRUCAO DE POCO DE VISITA AVULSA PROF. DE 3 A 4 M S/ REPOS DO PAV",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "12.217,72"
+ },
+ {
+   "ITEM": 72000766,
+   "DESCRIÇÃO": "RECONSTRUCAO DE POCO DE VISITA AVULSA PROF. DE 4 A 5 M S/ REPOS DO PAV",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "16.807,54"
+ },
+ {
+   "ITEM": 72000767,
+   "DESCRIÇÃO": "SUBSTITUIÇÃO DE POÇO DE INSPEÇÃO POR PI PLASTICO PROF. ATÉ 2 M S/ REPOS PAV",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "9.655,98"
+ },
+ {
+   "ITEM": 72000768,
+   "DESCRIÇÃO": "SUBSTITUIÇÃO DE POÇO DE VISITA POR PV PLASTICO PROF. ATÉ 2 M S/ REPOS PAV",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "12.110,00"
+ },
+ {
+   "ITEM": 72000769,
+   "DESCRIÇÃO": "SUBSTITUIÇÃO DE POÇO DE VISITA POR PV PLASTICO PROF. DE 2 A 3 M S/ REPOS PAV",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "17.689,28"
+ },
+ {
+   "ITEM": 72000770,
+   "DESCRIÇÃO": "SUBSTITUIÇÃO DE POÇO DE VISITA POR PV PLASTICO PROF. DE 3 A 4 M S/ REPOS PAV",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "24.906,66"
+ },
+ {
+   "ITEM": 72001228,
+   "DESCRIÇÃO": "LRP - PASSEIO CIMENTADO - CONSTRUCAO DE PV - DIÂMETRO 1,20M",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "494,14"
+ },
+ {
+   "ITEM": 72001233,
+   "DESCRIÇÃO": "LRP - PASSEIO ESPECIAL - CONSTRUCAO DE PV - DIÂMETRO 1,20M",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "1.180,46"
+ },
+ {
+   "ITEM": 72001062,
+   "DESCRIÇÃO": "LPB - LEITO - CONSTRUCAO DE PV - DIÂMETRO 1,20M (C)",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "648,43"
+ },
+ {
+   "ITEM": 72001061,
+   "DESCRIÇÃO": "LPB - LEITO - CONSTRUCAO DE PV - DIÂMETRO 1,20M (B)",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "925,57"
+ },
+ {
+   "ITEM": 72001060,
+   "DESCRIÇÃO": "LPB - LEITO - CONSTRUCAO DE PV - DIÂMETRO 1,20M (A)",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "1.149,63"
+ },
+ {
+   "ITEM": 72001252,
+   "DESCRIÇÃO": "REPOSIÇÃO DE CAPA ASFÁLTICA CBUQ - CONSTRUCAO DE PV - DIÂMETRO 1,20M (C)",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "524"
+ },
+ {
+   "ITEM": 72001251,
+   "DESCRIÇÃO": "REPOSIÇÃO DE CAPA ASFÁLTICA CBUQ - CONSTRUCAO DE PV - DIÂMETRO 1,20M (B)",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "1.330,97"
+ },
+ {
+   "ITEM": 72001250,
+   "DESCRIÇÃO": "REPOSIÇÃO DE CAPA ASFÁLTICA CBUQ - CONSTRUCAO DE PV - DIÂMETRO 1,20M (A)",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "1.638,04"
+ },
+ {
+   "ITEM": 72001229,
+   "DESCRIÇÃO": "LRP - PASSEIO CIMENTADO - CONSTRUCAO PV E PI - DIAM ATE 1M / RECONSTRUCAO / SUBSTITUIÇÃO DE PV / PI",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "573,97"
+ },
+ {
+   "ITEM": 72001234,
+   "DESCRIÇÃO": "LRP - PASSEIO ESPECIAL - CONSTRUCAO PV E PI - DIAM ATE 1M / RECONSTRUCAO / SUBSTITUIÇÃO DE PV / PI",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "1.207,80"
+ },
+ {
+   "ITEM": 72001065,
+   "DESCRIÇÃO": "LPB - LEITO - CONSTRUCAO PV E PI - DIAM ATE 1M / RECONSTRUCAO / SUBSTITUIÇÃO DE PV / PI (C)",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "863,85"
+ },
+ {
+   "ITEM": 72001064,
+   "DESCRIÇÃO": "LPB - LEITO - CONSTRUCAO PV E PI - DIAM ATE 1M / RECONSTRUCAO / SUBSTITUIÇÃO DE PV / PI (B)",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "975,18"
+ },
+ {
+   "ITEM": 72001063,
+   "DESCRIÇÃO": "LPB - LEITO - CONSTRUCAO PV E PI - DIAM ATE 1M / RECONSTRUCAO / SUBSTITUIÇÃO DE PV / PI (A)",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "1.215,81"
+ },
+ {
+   "ITEM": 72001255,
+   "DESCRIÇÃO": "REPOSIÇÃO DE CAPA ASFÁLTICA CBUQ - CONSTRUCAO PV E PI - DIAM ATE 1M / RECONSTRUCAO / SUBSTITUIÇÃO DE PV / PI (C)",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "596,67"
+ },
+ {
+   "ITEM": 72001254,
+   "DESCRIÇÃO": "REPOSIÇÃO DE CAPA ASFÁLTICA CBUQ - CONSTRUCAO PV E PI - DIAM ATE 1M / RECONSTRUCAO / SUBSTITUIÇÃO DE PV / PI (B)",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "1.527,48"
+ },
+ {
+   "ITEM": 72001253,
+   "DESCRIÇÃO": "REPOSIÇÃO DE CAPA ASFÁLTICA CBUQ - CONSTRUCAO PV E PI - DIAM ATE 1M / RECONSTRUCAO / SUBSTITUIÇÃO DE PV / PI (A)",
+   "DATA I0": "jan/26",
+   "UNID": "un",
+   "PREÇO": "1.527,48"
+ },
+ {
+   "ITEM": 72000450,
+   "DESCRIÇÃO": "CONSTRUCAO DE CAIXA EM ALVENARIA TIJOLOS / BLOCO DE CONCRETO - VOLUME ATÉ 5M3",
+   "DATA I0": "jan/26",
+   "UNID": "M3",
+   "PREÇO": "3.648,46"
+ },
+ {
+   "ITEM": 72000451,
+   "DESCRIÇÃO": "CONSTRUCAO DE CAIXA EM ALVENARIA TIJOLOS / BLOCO DE CONCRETO - VOLUME ACIMA DE 5M3 ATÉ 10M3",
+   "DATA I0": "jan/26",
+   "UNID": "M3",
+   "PREÇO": "2.729,23"
+ },
+ {
+   "ITEM": 72000452,
+   "DESCRIÇÃO": "CONSTRUCAO DE CAIXA EM ALVENARIA TIJOLOS / BLOCO DE CONCRETO - VOLUME ACIMA DE 10M3",
+   "DATA I0": "jan/26",
+   "UNID": "M3",
+   "PREÇO": "2.214,21"
+ },
+ {
+   "ITEM": 72000453,
+   "DESCRIÇÃO": "CONSTRUCAO DE CAIXA EM CONCRETO ARMADO - VOLUME ATÉ 5M3",
+   "DATA I0": "jan/26",
+   "UNID": "M3",
+   "PREÇO": "4.170,60"
+ },
+ {
+   "ITEM": 72000454,
+   "DESCRIÇÃO": "CONSTRUCAO DE CAIXA EM CONCRETO ARMADO - VOLUME ACIMA DE 5M3 ATÉ 10M3",
+   "DATA I0": "jan/26",
+   "UNID": "M3",
+   "PREÇO": "3.191,08"
+ },
+ {
+   "ITEM": 72000455,
+   "DESCRIÇÃO": "CONSTRUCAO DE CAIXA EM CONCRETO ARMADO - VOLUME ACIMA DE 10M3",
+   "DATA I0": "jan/26",
+   "UNID": "M3",
+   "PREÇO": "2.592,73"
+ },
+ {
+   "ITEM": 72000684,
+   "DESCRIÇÃO": "ASSENTAMENTO DE REDE COLETORA EM FºFº DE 80 A 150MM - S/ REPOS DO PAV (SFMH)",
+   "DATA I0": "jan/26",
    "UNID": "M",
-   "PUNIT": "R$ 35,21"
+   "PREÇO": "101,86"
  },
  {
-   "ITEM": 2110107,
-   "ESPEC": "TELEVISIONAMENTO RCE",
-   "NPRECO": 72000980,
+   "ITEM": 72000685,
+   "DESCRIÇÃO": "ASSENTAMENTO DE REDE COLETORA EM FºFº DE 200 A 250MM - S/ REPOS DO PAV (SFMH)",
+   "DATA I0": "jan/26",
    "UNID": "M",
-   "PUNIT": "R$ 21,66"
+   "PREÇO": "137,92"
  },
  {
-   "ITEM": 2110109,
-   "ESPEC": "TESTE FUMACA EM ESGOTO EQP BR",
-   "NPRECO": 72000982,
+   "ITEM": 72000686,
+   "DESCRIÇÃO": "ASSENTAMENTO DE REDE COLETORA EM CERAMICO / PVC DN 150MM - PROF. MEDIA ATE 1,50M S/ REPOS DO PAV (SFMH)",
+   "DATA I0": "jan/26",
    "UNID": "M",
-   "PUNIT": "R$ 6,09"
+   "PREÇO": "252,55"
  },
  {
-   "ITEM": 2050101,
-   "ESPEC": "THD ATE 10M3/H CORR",
-   "NPRECO": 72000233,
-   "UNID": "un",
-   "PUNIT": "R$ 64,29"
+   "ITEM": 72000687,
+   "DESCRIÇÃO": "ASSENTAMENTO DE REDE COLETORA EM CERAMICO / PVC DN 150MM - PROF. MEDIA ATE 2,00M S/ REPOS DO PAV (SFMH)",
+   "DATA I0": "jan/26",
+   "UNID": "M",
+   "PREÇO": "393,92"
  },
  {
-   "ITEM": 2050201,
-   "ESPEC": "THD ATE 10M3/H PREV",
-   "NPRECO": 72000232,
-   "UNID": "un",
-   "PUNIT": "R$ 56,72"
+   "ITEM": 72000688,
+   "DESCRIÇÃO": "ASSENTAMENTO DE REDE COLETORA EM CERAMICO / PVC DN 150MM - PROF. MEDIA ATE 2,70M S/ REPOS DO PAV (SFMH)",
+   "DATA I0": "jan/26",
+   "UNID": "M",
+   "PREÇO": "720,79"
  },
  {
-   "ITEM": 2030103,
-   "ESPEC": "TRA ATE 32MM CORR EX S/REP SF",
-   "NPRECO": 72000045,
-   "UNID": "un",
-   "PUNIT": "R$ 935,95"
+   "ITEM": 72000689,
+   "DESCRIÇÃO": "ASSENTAMENTO DE REDE COLETORA EM CERAMICO / PVC DN 150MM - PROF. MEDIA ATE 3,50M S/ REPOS DO PAV (SFMH)",
+   "DATA I0": "jan/26",
+   "UNID": "M",
+   "PREÇO": "1.466,58"
  },
  {
-   "ITEM": 2030501,
-   "ESPEC": "TRA ATE 32MM CORR MND S/REP SF",
-   "NPRECO": 72000051,
-   "UNID": "un",
-   "PUNIT": "R$ 1.084,51"
+   "ITEM": 72000690,
+   "DESCRIÇÃO": "ASSENTAMENTO DE REDE COLETORA EM CERAMICO / PVC DN 200MM - PROF. MEDIA ATE 1,50M S/ REPOS DO PAV (SFMH)",
+   "DATA I0": "jan/26",
+   "UNID": "M",
+   "PREÇO": "290,49"
  },
  {
-   "ITEM": 2030101,
-   "ESPEC": "TRA ATE 32MM CORR PA S/REP SF",
-   "NPRECO": 72000043,
-   "UNID": "un",
-   "PUNIT": "R$ 583,70"
+   "ITEM": 72000691,
+   "DESCRIÇÃO": "ASSENTAMENTO DE REDE COLETORA EM CERAMICO / PVC DN 200MM - PROF. MEDIA ATE 2,00M S/ REPOS DO PAV (SFMH)",
+   "DATA I0": "jan/26",
+   "UNID": "M",
+   "PREÇO": "463,43"
  },
  {
-   "ITEM": 2030105,
-   "ESPEC": "TRA ATE 32MM CORR PO S/REP SF",
-   "NPRECO": 72000047,
-   "UNID": "un",
-   "PUNIT": "R$ 1.313,58"
+   "ITEM": 72000692,
+   "DESCRIÇÃO": "ASSENTAMENTO DE REDE COLETORA EM CERAMICO / PVC DN 200MM - PROF. MEDIA ATE 2,70M S/ REPOS DO PAV (SFMH)",
+   "DATA I0": "jan/26",
+   "UNID": "M",
+   "PREÇO": "812,34"
  },
  {
-   "ITEM": 2030102,
-   "ESPEC": "TRA ATE 32MM CORR TA S/REP SF",
-   "NPRECO": 72000044,
-   "UNID": "un",
-   "PUNIT": "R$ 793,99"
+   "ITEM": 72000693,
+   "DESCRIÇÃO": "ASSENTAMENTO DE REDE COLETORA EM CERAMICO / PVC DN 200MM - PROF. MEDIA ATE 3,50M S/ REPOS DO PAV (SFMH)",
+   "DATA I0": "jan/26",
+   "UNID": "M",
+   "PREÇO": "1.645,29"
  },
  {
-   "ITEM": 2030104,
-   "ESPEC": "TRA ATE 32MM CORR TO S/REP SF",
-   "NPRECO": 72000046,
-   "UNID": "un",
-   "PUNIT": "R$ 1.160,47"
+   "ITEM": 72000694,
+   "DESCRIÇÃO": "ASSENTAMENTO DE REDE COLETORA EM CERAMICO / PVC DN 300MM - PROF. MEDIA ATE 1,50M S/ REPOS DO PAV (SFMH)",
+   "DATA I0": "jan/26",
+   "UNID": "M",
+   "PREÇO": "355,27"
  },
  {
-   "ITEM": 2030303,
-   "ESPEC": "TRA ATE 32MM PREV EX S/REP SF",
-   "NPRECO": 72000040,
-   "UNID": "un",
-   "PUNIT": "R$ 659,25"
+   "ITEM": 72000695,
+   "DESCRIÇÃO": "ASSENTAMENTO DE REDE COLETORA EM CERAMICO / PVC DN 300MM - PROF. MEDIA ATE 2,00M S/ REPOS DO PAV (SFMH)",
+   "DATA I0": "jan/26",
+   "UNID": "M",
+   "PREÇO": "564,9"
  },
  {
-   "ITEM": 2030701,
-   "ESPEC": "TRA ATE 32MM PREV MND S/REP SF",
-   "NPRECO": 72000050,
-   "UNID": "un",
-   "PUNIT": "R$ 818,24"
+   "ITEM": 72000696,
+   "DESCRIÇÃO": "ASSENTAMENTO DE REDE COLETORA EM CERAMICO / PVC DN 300MM - PROF. MEDIA ATE 2,70M S/ REPOS DO PAV (SFMH)",
+   "DATA I0": "jan/26",
+   "UNID": "M",
+   "PREÇO": "924,78"
  },
  {
-   "ITEM": 2030301,
-   "ESPEC": "TRA ATE 32MM PREV PA S/REP SF",
-   "NPRECO": 72000038,
-   "UNID": "un",
-   "PUNIT": "R$ 397,17"
+   "ITEM": 72000697,
+   "DESCRIÇÃO": "ASSENTAMENTO DE REDE COLETORA EM CERAMICO / PVC DN 300MM - PROF. MEDIA ATE 3,50M S/ REPOS DO PAV (SFMH)",
+   "DATA I0": "jan/26",
+   "UNID": "M",
+   "PREÇO": "1.831,62"
  },
  {
-   "ITEM": 2030305,
-   "ESPEC": "TRA ATE 32MM PREV PO S/REP SF",
-   "NPRECO": 72000042,
-   "UNID": "un",
-   "PUNIT": "R$ 1.138,08"
+   "ITEM": 72000698,
+   "DESCRIÇÃO": "ASSENTAMENTO DE REDE COLETORA EM PVC DN 400MM - PROF. MEDIA ATE 1,50M S/ REPOS DO PAV (SFMH)",
+   "DATA I0": "jan/26",
+   "UNID": "M",
+   "PREÇO": "339,63"
  },
  {
-   "ITEM": 2030302,
-   "ESPEC": "TRA ATE 32MM PREV TA S/REP SF",
-   "NPRECO": 72000039,
-   "UNID": "un",
-   "PUNIT": "R$ 551,06"
+   "ITEM": 72000699,
+   "DESCRIÇÃO": "ASSENTAMENTO DE REDE COLETORA EM PVC DN 400MM - PROF. MEDIA ATE 2,00M S/ REPOS DO PAV (SFMH)",
+   "DATA I0": "jan/26",
+   "UNID": "M",
+   "PREÇO": "527,89"
  },
  {
-   "ITEM": 2030304,
-   "ESPEC": "TRA ATE 32MM PREV TO S/REP SF",
-   "NPRECO": 72000041,
-   "UNID": "un",
-   "PUNIT": "R$ 839,36"
+   "ITEM": 72000700,
+   "DESCRIÇÃO": "ASSENTAMENTO DE REDE COLETORA EM PVC DN 400MM - PROF. MEDIA ATE 2,70M S/ REPOS DO PAV (SFMH)",
+   "DATA I0": "jan/26",
+   "UNID": "M",
+   "PREÇO": "913,33"
  },
  {
-   "ITEM": 2020604,
-   "ESPEC": "TRANSF CV SIMPLES P/ MULT. 2HD SF",
-   "NPRECO": 72000228,
-   "UNID": "un",
-   "PUNIT": "R$ 105,08"
+   "ITEM": 72000701,
+   "DESCRIÇÃO": "ASSENTAMENTO DE REDE COLETORA EM PVC DN 400MM - PROF. MEDIA ATE 3,50M S/ REPOS DO PAV (SFMH)",
+   "DATA I0": "jan/26",
+   "UNID": "M",
+   "PREÇO": "1.907,72"
  },
  {
-   "ITEM": 2050301,
-   "ESPEC": "TRANSP HD P/ AFERICAO",
-   "NPRECO": 72000234,
-   "UNID": "KM",
-   "PUNIT": "R$ 3,61"
+   "ITEM": 72000702,
+   "DESCRIÇÃO": "ASSENTAMENTO DE REDE COLETORA EM PVC DN 150MM - PROF. MEDIA ATE 1,50M S/ REPOS DO PAV",
+   "DATA I0": "jan/26",
+   "UNID": "M",
+   "PREÇO": "395,19"
  },
  {
-   "ITEM": 2130103,
-   "ESPEC": "TRE CER/PVC ATE 2M CORR EX S/REP SF",
-   "NPRECO": 72000486,
-   "UNID": "un",
-   "PUNIT": "R$ 1.970,86"
+   "ITEM": 72000703,
+   "DESCRIÇÃO": "ASSENTAMENTO DE REDE COLETORA EM PVC DN 150MM - PROF. MEDIA ATE 2,00M S/ REPOS DO PAV",
+   "DATA I0": "jan/26",
+   "UNID": "M",
+   "PREÇO": "471,87"
  },
  {
-   "ITEM": 2130101,
-   "ESPEC": "TRE CER/PVC ATE 2M CORR PA S/REP SF",
-   "NPRECO": 72000484,
-   "UNID": "un",
-   "PUNIT": "R$ 1.114,90"
+   "ITEM": 72000704,
+   "DESCRIÇÃO": "ASSENTAMENTO DE REDE COLETORA EM PVC DN 150MM - PROF. MEDIA ATE 2,70M S/ REPOS DO PAV",
+   "DATA I0": "jan/26",
+   "UNID": "M",
+   "PREÇO": "744,79"
  },
  {
-   "ITEM": 2130105,
-   "ESPEC": "TRE CER/PVC ATE 2M CORR PO S/REP SF",
-   "NPRECO": 72000488,
-   "UNID": "un",
-   "PUNIT": "R$ 3.296,28"
+   "ITEM": 72000705,
+   "DESCRIÇÃO": "ASSENTAMENTO DE REDE COLETORA EM PVC DN 150MM - PROF. MEDIA ATE 3,50M S/ REPOS DO PAV",
+   "DATA I0": "jan/26",
+   "UNID": "M",
+   "PREÇO": "1.530,19"
  },
  {
-   "ITEM": 2130102,
-   "ESPEC": "TRE CER/PVC ATE 2M CORR TA S/REP SF",
-   "NPRECO": 72000485,
-   "UNID": "un",
-   "PUNIT": "R$ 1.776,00"
+   "ITEM": 72000706,
+   "DESCRIÇÃO": "ASSENTAMENTO DE REDE COLETORA EM PVC DN 200MM - PROF. MEDIA ATE 1,50M S/ REPOS DO PAV",
+   "DATA I0": "jan/26",
+   "UNID": "M",
+   "PREÇO": "506,73"
  },
  {
-   "ITEM": 2130104,
-   "ESPEC": "TRE CER/PVC ATE 2M CORR TO S/REP SF",
-   "NPRECO": 72000487,
-   "UNID": "un",
-   "PUNIT": "R$ 2.725,32"
+   "ITEM": 72000707,
+   "DESCRIÇÃO": "ASSENTAMENTO DE REDE COLETORA EM PVC DN 200MM - PROF. MEDIA ATE 2,00M S/ REPOS DO PAV",
+   "DATA I0": "jan/26",
+   "UNID": "M",
+   "PREÇO": "647,6"
  },
  {
-   "ITEM": 2130108,
-   "ESPEC": "TRE CER/PVC DE 2 A 3M CORR EX S/REP SF",
-   "NPRECO": 72000491,
-   "UNID": "un",
-   "PUNIT": "R$ 3.011,20"
+   "ITEM": 72000708,
+   "DESCRIÇÃO": "ASSENTAMENTO DE REDE COLETORA EM PVC DN 200MM - PROF. MEDIA ATE 2,70M S/ REPOS DO PAV",
+   "DATA I0": "jan/26",
+   "UNID": "M",
+   "PREÇO": "966,54"
  },
  {
-   "ITEM": 2130106,
-   "ESPEC": "TRE CER/PVC DE 2 A 3M CORR PA S/REP SF",
-   "NPRECO": 72000489,
-   "UNID": "un",
-   "PUNIT": "R$ 1.763,93"
+   "ITEM": 72000709,
+   "DESCRIÇÃO": "ASSENTAMENTO DE REDE COLETORA EM PVC DN 200MM - PROF. MEDIA ATE 3,50M S/ REPOS DO PAV",
+   "DATA I0": "jan/26",
+   "UNID": "M",
+   "PREÇO": "1.809,82"
  },
  {
-   "ITEM": 2130110,
-   "ESPEC": "TRE CER/PVC DE 2 A 3M CORR PO S/REP SF",
-   "NPRECO": 72000493,
-   "UNID": "un",
-   "PUNIT": "R$ 4.345,15"
+   "ITEM": 72000710,
+   "DESCRIÇÃO": "ASSENTAMENTO DE REDE COLETORA EM PVC DN 300MM - PROF. MEDIA ATE 1,50M S/ REPOS DO PAV",
+   "DATA I0": "jan/26",
+   "UNID": "M",
+   "PREÇO": "874,41"
  },
  {
-   "ITEM": 2130107,
-   "ESPEC": "TRE CER/PVC DE 2 A 3M CORR TA S/REP SF",
-   "NPRECO": 72000490,
-   "UNID": "un",
-   "PUNIT": "R$ 2.483,29"
+   "ITEM": 72000711,
+   "DESCRIÇÃO": "ASSENTAMENTO DE REDE COLETORA EM PVC DN 300MM - PROF. MEDIA ATE 2,00M S/ REPOS DO PAV",
+   "DATA I0": "jan/26",
+   "UNID": "M",
+   "PREÇO": "1.033,78"
  },
  {
-   "ITEM": 2130109,
-   "ESPEC": "TRE CER/PVC DE 2 A 3M CORR TO S/REP SF",
-   "NPRECO": 72000492,
-   "UNID": "un",
-   "PUNIT": "R$ 3.667,58"
+   "ITEM": 72000712,
+   "DESCRIÇÃO": "ASSENTAMENTO DE REDE COLETORA EM PVC DN 300MM - PROF. MEDIA ATE 2,70M S/ REPOS DO PAV",
+   "DATA I0": "jan/26",
+   "UNID": "M",
+   "PREÇO": "1.424,93"
  },
  {
-   "ITEM": 2130113,
-   "ESPEC": "TRE CER/PVC DE 3 A 4M CORR EX S/REP SF",
-   "NPRECO": 72000496,
-   "UNID": "un",
-   "PUNIT": "R$ 4.469,02"
+   "ITEM": 72000713,
+   "DESCRIÇÃO": "ASSENTAMENTO DE REDE COLETORA EM PVC DN 300MM - PROF. MEDIA ATE 3,50M S/ REPOS DO PAV",
+   "DATA I0": "jan/26",
+   "UNID": "M",
+   "PREÇO": "2.310,09"
  },
  {
-   "ITEM": 2130111,
-   "ESPEC": "TRE CER/PVC DE 3 A 4M CORR PA S/REP SF",
-   "NPRECO": 72000494,
-   "UNID": "un",
-   "PUNIT": "R$ 2.885,68"
+   "ITEM": 72000714,
+   "DESCRIÇÃO": "ASSENTAMENTO DE REDE COLETORA EM PVC DN 400MM - PROF. MEDIA ATE 1,50M S/ REPOS DO PAV",
+   "DATA I0": "jan/26",
+   "UNID": "M",
+   "PREÇO": "1.214,40"
  },
  {
-   "ITEM": 2130112,
-   "ESPEC": "TRE CER/PVC DE 3 A 4M CORR TA S/REP SF",
-   "NPRECO": 72000495,
-   "UNID": "un",
-   "PUNIT": "R$ 3.806,65"
+   "ITEM": 72000715,
+   "DESCRIÇÃO": "ASSENTAMENTO DE REDE COLETORA EM PVC DN 400MM - PROF. MEDIA ATE 2,00M S/ REPOS DO PAV",
+   "DATA I0": "jan/26",
+   "UNID": "M",
+   "PREÇO": "1.402,66"
  },
  {
-   "ITEM": 2130114,
-   "ESPEC": "TRE CER/PVC DE 3 A 4M CORR TO S/REP SF",
-   "NPRECO": 72000497,
-   "UNID": "un",
-   "PUNIT": "R$ 5.320,83"
+   "ITEM": 72000716,
+   "DESCRIÇÃO": "ASSENTAMENTO DE REDE COLETORA EM PVC DN 400MM - PROF. MEDIA ATE 2,70M S/ REPOS DO PAV",
+   "DATA I0": "jan/26",
+   "UNID": "M",
+   "PREÇO": "1.788,11"
  },
  {
-   "ITEM": 2130115,
-   "ESPEC": "TRE CER/PVC DE 3 A 4M CORR TO S/REP SF",
-   "NPRECO": 72000498,
-   "UNID": "un",
-   "PUNIT": "R$ 6.158,66"
+   "ITEM": 72000717,
+   "DESCRIÇÃO": "ASSENTAMENTO DE REDE COLETORA EM PVC DN 400MM - PROF. MEDIA ATE 3,50M S/ REPOS DO PAV",
+   "DATA I0": "jan/26",
+   "UNID": "M",
+   "PREÇO": "2.782,50"
  },
  {
-   "ITEM": 2190205,
-   "ESPEC": "TROCA DE REGISTRO EM CAVALETE DN 100MM",
-   "NPRECO": 422469,
-   "UNID": "un",
-   "PUNIT": "R$ 1.690,58"
+   "ITEM": 72001226,
+   "DESCRIÇÃO": "LRP - PASSEIO CIMENTADO - ASSENTAMENTO DE REDE COLETORA PROF. MEDIA ATE 2,00M",
+   "DATA I0": "jan/26",
+   "UNID": "M",
+   "PREÇO": "99,6"
  },
  {
-   "ITEM": 2190201,
-   "ESPEC": "TROCA DE REGISTRO EM CAVALETE DN 25MM",
-   "NPRECO": 422465,
-   "UNID": "un",
-   "PUNIT": "R$ 149,74"
+   "ITEM": 72001227,
+   "DESCRIÇÃO": "LRP - PASSEIO CIMENTADO - ASSENTAMENTO DE REDE COLETORA PROF. MEDIA ACIMA DE 2,00M",
+   "DATA I0": "jan/26",
+   "UNID": "M",
+   "PREÇO": "113,88"
  },
  {
-   "ITEM": 2190202,
-   "ESPEC": "TROCA DE REGISTRO EM CAVALETE DN 40MM",
-   "NPRECO": 422466,
-   "UNID": "un",
-   "PUNIT": "R$ 236,71"
+   "ITEM": 72001231,
+   "DESCRIÇÃO": "LRP - PASSEIO ESPECIAL - ASSENTAMENTO DE REDE COLETORA PROF. MEDIA ATE 2,00M",
+   "DATA I0": "jan/26",
+   "UNID": "M",
+   "PREÇO": "219,71"
  },
  {
-   "ITEM": 2190203,
-   "ESPEC": "TROCA DE REGISTRO EM CAVALETE DN 50MM",
-   "NPRECO": 422467,
-   "UNID": "un",
-   "PUNIT": "R$ 342,31"
+   "ITEM": 72001232,
+   "DESCRIÇÃO": "LRP - PASSEIO ESPECIAL - ASSENTAMENTO DE REDE COLETORA PROF. MEDIA ACIMA DE 2,01M",
+   "DATA I0": "jan/26",
+   "UNID": "M",
+   "PREÇO": "251,14"
  },
  {
-   "ITEM": 2190204,
-   "ESPEC": "TROCA DE REGISTRO EM CAVALETE DN 80MM",
-   "NPRECO": 422468,
-   "UNID": "un",
-   "PUNIT": "R$ 864,68"
+   "ITEM": 72001047,
+   "DESCRIÇÃO": "LPB - LEITO - ASSENTAMENTO DE REDE COLETORA PROF. MEDIA ATE 2,00 M (C)",
+   "DATA I0": "jan/26",
+   "UNID": "M",
+   "PREÇO": "144,17"
  },
  {
-   "ITEM": 2190105,
-   "ESPEC": "TROCA HIDR DN 100 - 1.800 M3/DIA",
-   "NPRECO": 422364,
-   "UNID": "un",
-   "PUNIT": "R$ 356,07"
+   "ITEM": 72001046,
+   "DESCRIÇÃO": "LPB - LEITO - ASSENTAMENTO DE REDE COLETORA PROF. MEDIA ATE 2,00 M (B)",
+   "DATA I0": "jan/26",
+   "UNID": "M",
+   "PREÇO": "184,37"
  },
  {
-   "ITEM": 2190106,
-   "ESPEC": "TROCA HIDR DN 150 - 4.000 M3/DIA",
-   "NPRECO": 422365,
-   "UNID": "un",
-   "PUNIT": "R$ 448,42"
+   "ITEM": 72001045,
+   "DESCRIÇÃO": "LPB - LEITO - ASSENTAMENTO DE REDE COLETORA PROF. MEDIA ATE 2,00 M (A)",
+   "DATA I0": "jan/26",
+   "UNID": "M",
+   "PREÇO": "236,94"
  },
  {
-   "ITEM": 2190107,
-   "ESPEC": "TROCA HIDR DN 200 - 6.500 M3/DIA",
-   "NPRECO": 422366,
-   "UNID": "un",
-   "PUNIT": "R$ 608,33"
+   "ITEM": 72001050,
+   "DESCRIÇÃO": "LPB - LEITO - ASSENTAMENTO DE REDE COLETORA PROF. MEDIA ACIMA DE 2,00 M (C)",
+   "DATA I0": "jan/26",
+   "UNID": "M",
+   "PREÇO": "164,58"
  },
  {
-   "ITEM": 2190101,
-   "ESPEC": "TROCA HIDR DN 40 - 20,0 M3/H",
-   "NPRECO": 422360,
-   "UNID": "un",
-   "PUNIT": "R$ 113,14"
+   "ITEM": 72001049,
+   "DESCRIÇÃO": "LPB - LEITO - ASSENTAMENTO DE REDE COLETORA PROF. MEDIA ACIMA DE 2,00 M (B)",
+   "DATA I0": "jan/26",
+   "UNID": "M",
+   "PREÇO": "208,79"
  },
  {
-   "ITEM": 2190102,
-   "ESPEC": "TROCA HIDR DN 50 - 30,0 M3/H",
-   "NPRECO": 422361,
-   "UNID": "un",
-   "PUNIT": "R$ 199,70"
+   "ITEM": 72001048,
+   "DESCRIÇÃO": "LPB - LEITO - ASSENTAMENTO DE REDE COLETORA PROF. MEDIA ACIMA DE 2,00 M (A)",
+   "DATA I0": "jan/26",
+   "UNID": "M",
+   "PREÇO": "267,15"
  },
  {
-   "ITEM": 2190103,
-   "ESPEC": "TROCA HIDR DN 50 - 300 M3/DIA",
-   "NPRECO": 422362,
-   "UNID": "un",
-   "PUNIT": "R$ 262,62"
+   "ITEM": 72001167,
+   "DESCRIÇÃO": "REPOSIÇÃO DE CAPA ASFÁLTICA CBUQ - ASSENTAMENTO DE REDE COLETORA PROF. MEDIA ATE 2,00 M (C)",
+   "DATA I0": "jan/26",
+   "UNID": "M",
+   "PREÇO": "127,22"
  },
  {
-   "ITEM": 2190104,
-   "ESPEC": "TROCA HIDR DN 80 - 1.100 M3/DIA",
-   "NPRECO": 422363,
-   "UNID": "un",
-   "PUNIT": "R$ 328,78"
+   "ITEM": 72001166,
+   "DESCRIÇÃO": "REPOSIÇÃO DE CAPA ASFÁLTICA CBUQ - ASSENTAMENTO DE REDE COLETORA PROF. MEDIA ATE 2,00 M (B)",
+   "DATA I0": "jan/26",
+   "UNID": "M",
+   "PREÇO": "306,21"
  },
  {
-   "ITEM": 2040101,
-   "ESPEC": "TROCA PREVENT REGISTRO CAVALET DN 20MM",
-   "NPRECO": 72000205,
-   "UNID": "un",
-   "PUNIT": "R$ 47,03"
+   "ITEM": 72001165,
+   "DESCRIÇÃO": "REPOSIÇÃO DE CAPA ASFÁLTICA CBUQ - ASSENTAMENTO DE REDE COLETORA PROF. MEDIA ATE 2,00 M (A)",
+   "DATA I0": "jan/26",
+   "UNID": "M",
+   "PREÇO": "306,21"
  },
  {
-   "ITEM": 2180201,
-   "ESPEC": "VALA DE EMBOQUE OU DESEMBOQUE",
-   "NPRECO": 421511,
-   "UNID": "un",
-   "PUNIT": "R$ 4.645,68"
+   "ITEM": 72001170,
+   "DESCRIÇÃO": "REPOSIÇÃO DE CAPA ASFÁLTICA CBUQ - ASSENTAMENTO DE REDE COLETORA PROF. MEDIA ACIMA DE 2,00 M (C)",
+   "DATA I0": "jan/26",
+   "UNID": "M",
+   "PREÇO": "143,12"
  },
  {
-   "ITEM": 2180103,
-   "ESPEC": "VERIF DA ESTANQ REDES E ADUT DE ÁGUA",
-   "NPRECO": 421540,
-   "UNID": "EQD",
-   "PUNIT": "R$ 3.385,75"
+   "ITEM": 72001169,
+   "DESCRIÇÃO": "REPOSIÇÃO DE CAPA ASFÁLTICA CBUQ - ASSENTAMENTO DE REDE COLETORA PROF. MEDIA ACIMA DE 2,00 M (B)",
+   "DATA I0": "jan/26",
+   "UNID": "M",
+   "PREÇO": "347,12"
+ },
+ {
+   "ITEM": 72001168,
+   "DESCRIÇÃO": "REPOSIÇÃO DE CAPA ASFÁLTICA CBUQ - ASSENTAMENTO DE REDE COLETORA PROF. MEDIA ACIMA DE 2,00 M (A)",
+   "DATA I0": "jan/26",
+   "UNID": "M",
+   "PREÇO": "347,12"
+ },
+ {
+   "ITEM": 72001042,
+   "DESCRIÇÃO": "ASSENTAMENTO DE REDE DE ESGOTO EM PEAD 63MM - S/ REPOS PAV",
+   "DATA I0": "jan/26",
+   "UNID": "M",
+   "PREÇO": "110,16"
+ },
+ {
+   "ITEM": 72001043,
+   "DESCRIÇÃO": "ASSENTAMENTO DE REDE DE ESGOTO EM PEAD 90MM - S/ REPOS PAV",
+   "DATA I0": "jan/26",
+   "UNID": "M",
+   "PREÇO": "113,61"
+ },
+ {
+   "ITEM": 72001032,
+   "DESCRIÇÃO": "ASSENTAMENTO DE REDE DE ESGOTO EM PEAD 110MM - S/ REPOS PAV",
+   "DATA I0": "jan/26",
+   "UNID": "M",
+   "PREÇO": "115,95"
+ },
+ {
+   "ITEM": 72001033,
+   "DESCRIÇÃO": "ASSENTAMENTO DE REDE DE ESGOTO EM PEAD 160MM - S/ REPOS PAV",
+   "DATA I0": "jan/26",
+   "UNID": "M",
+   "PREÇO": "157,56"
+ },
+ {
+   "ITEM": 72001034,
+   "DESCRIÇÃO": "ASSENTAMENTO DE REDE DE ESGOTO EM PEAD 200MM - S/ REPOS PAV",
+   "DATA I0": "jan/26",
+   "UNID": "M",
+   "PREÇO": "160,25"
+ },
+ {
+   "ITEM": 72001035,
+   "DESCRIÇÃO": "ASSENTAMENTO DE REDE DE ESGOTO EM PEAD 250MM - S/ REPOS PAV",
+   "DATA I0": "jan/26",
+   "UNID": "M",
+   "PREÇO": "162,21"
+ },
+ {
+   "ITEM": 72001036,
+   "DESCRIÇÃO": "ASSENTAMENTO DE REDE DE ESGOTO EM PEAD 315MM - S/ REPOS PAV",
+   "DATA I0": "jan/26",
+   "UNID": "M",
+   "PREÇO": "199,95"
+ },
+ {
+   "ITEM": 72001037,
+   "DESCRIÇÃO": "ASSENTAMENTO DE REDE DE ESGOTO EM PEAD 355MM - S/ REPOS PAV",
+   "DATA I0": "jan/26",
+   "UNID": "M",
+   "PREÇO": "198,88"
+ },
+ {
+   "ITEM": 72001038,
+   "DESCRIÇÃO": "ASSENTAMENTO DE REDE DE ESGOTO EM PEAD 400MM - S/ REPOS PAV",
+   "DATA I0": "jan/26",
+   "UNID": "M",
+   "PREÇO": "196,34"
+ },
+ {
+   "ITEM": 72000004,
+   "DESCRIÇÃO": "ASSENTAMENTO DE REDE DE AGUA EM PEAD 32MM - C/ LPB DO PAV (SFMH)",
+   "DATA I0": "jan/26",
+   "UNID": "M",
+   "PREÇO": "150,21"
+ },
+ {
+   "ITEM": 72000348,
+   "DESCRIÇÃO": "ASSENTAMENTO DE REDE DE AGUA EM PEAD 32MM - C/ LPB DO PAV",
+   "DATA I0": "jan/26",
+   "UNID": "M",
+   "PREÇO": "165,46"
+ },
+ {
+   "ITEM": 72000349,
+   "DESCRIÇÃO": "ASSENTAMENTO DE REDE DE AGUA EM PEAD 32MM - S/ REPOS DO PAV (SFMH)",
+   "DATA I0": "jan/26",
+   "UNID": "M",
+   "PREÇO": "52,82"
+ },
+ {
+   "ITEM": 72000350,
+   "DESCRIÇÃO": "ASSENTAMENTO DE REDE DE AGUA EM PEAD 32MM - C/ REPOS DO PAV (SFMH)",
+   "DATA I0": "jan/26",
+   "UNID": "M",
+   "PREÇO": "116,87"
+ },
+ {
+   "ITEM": 72000351,
+   "DESCRIÇÃO": "ASSENTAMENTO DE REDE DE AGUA EM PEAD 63 A 125MM - S/ REPOS DO PAV (SFMH)",
+   "DATA I0": "jan/26",
+   "UNID": "M",
+   "PREÇO": "88,67"
+ },
+ {
+   "ITEM": 72000352,
+   "DESCRIÇÃO": "ASSENTAMENTO DE REDE DE AGUA EM PEAD DE 140 A 250MM - S/ REPOS DO PAV (SFMH)",
+   "DATA I0": "jan/26",
+   "UNID": "M",
+   "PREÇO": "133,03"
+ },
+ {
+   "ITEM": 72000353,
+   "DESCRIÇÃO": "ASSENTAMENTO DE REDE DE AGUA EM PEAD DE 280 A 400MM - S/ REPOS DO PAV (SFMH)",
+   "DATA I0": "jan/26",
+   "UNID": "M",
+   "PREÇO": "178,52"
+ },
+ {
+   "ITEM": 72000354,
+   "DESCRIÇÃO": "ASSENTAMENTO DE REDE DE AGUA EM PEAD 32MM - S/ REPOS DO PAV",
+   "DATA I0": "jan/26",
+   "UNID": "M",
+   "PREÇO": "65,52"
+ },
+ {
+   "ITEM": 72000355,
+   "DESCRIÇÃO": "ASSENTAMENTO DE REDE DE AGUA EM PEAD 32MM - C/ REPOS DO PAV",
+   "DATA I0": "jan/26",
+   "UNID": "M",
+   "PREÇO": "132,12"
+ },
+ {
+   "ITEM": 72000356,
+   "DESCRIÇÃO": "ASSENTAMENTO DE REDE DE AGUA EM PEAD DE 63 A 125MM - S/ REPOS DO PAV",
+   "DATA I0": "jan/26",
+   "UNID": "M",
+   "PREÇO": "150,26"
+ },
+ {
+   "ITEM": 72000357,
+   "DESCRIÇÃO": "ASSENTAMENTO DE REDE DE AGUA EM PVC DE 50 A 100MM - S/ REPOS DO PAV (SFMH)",
+   "DATA I0": "jan/26",
+   "UNID": "M",
+   "PREÇO": "105,25"
+ },
+ {
+   "ITEM": 72000358,
+   "DESCRIÇÃO": "ASSENTAMENTO DE REDE DE AGUA EM PVC DE 50 A 100MM - S/ REPOS DO PAV",
+   "DATA I0": "jan/26",
+   "UNID": "M",
+   "PREÇO": "173,15"
+ },
+ {
+   "ITEM": 72000359,
+   "DESCRIÇÃO": "ASSENTAMENTO DE REDE DE AGUA EM FºFº DE 80 A 150MM - S/ REPOS DO PAV (SFMH)",
+   "DATA I0": "jan/26",
+   "UNID": "M",
+   "PREÇO": "97,22"
+ },
+ {
+   "ITEM": 72000360,
+   "DESCRIÇÃO": "ASSENTAMENTO DE REDE DE AGUA EM FºFº DE 200 A 250MM - S/ REPOS DO PAV (SFMH)",
+   "DATA I0": "jan/26",
+   "UNID": "M",
+   "PREÇO": "132,74"
+ },
+ {
+   "ITEM": 72000361,
+   "DESCRIÇÃO": "ASSENTAMENTO DE REDE DE AGUA EM FºFº DE 300 A 400MM - S/ REPOS DO PAV (SFMH)",
+   "DATA I0": "jan/26",
+   "UNID": "M",
+   "PREÇO": "248,42"
+ },
+ {
+   "ITEM": 72000362,
+   "DESCRIÇÃO": "ASSENTAMENTO DE REDE DE AGUA EM FºFº DE 80 A 150MM - S/ REPOS DO PAV",
+   "DATA I0": "jan/26",
+   "UNID": "M",
+   "PREÇO": "585,81"
+ },
+ {
+   "ITEM": 72000363,
+   "DESCRIÇÃO": "ASSENTAMENTO DE REDE DE AGUA EM FºFº DE 200 A 250MM - S/ REPOS DO PAV",
+   "DATA I0": "jan/26",
+   "UNID": "M",
+   "PREÇO": "817,79"
+ },
+ {
+   "ITEM": 72000364,
+   "DESCRIÇÃO": "ASSENTAMENTO DE REDE DE AGUA EM FºFº DE 300 A 400MM - S/ REPOS DO PAV",
+   "DATA I0": "jan/26",
+   "UNID": "M",
+   "PREÇO": "1.172,69"
+ },
+ {
+   "ITEM": 72000365,
+   "DESCRIÇÃO": "LRP - PASSEIO CIMENTADO - ASSENTAMENTO DE REDE DE AGUA DN 50 A 150MM",
+   "DATA I0": "jan/26",
+   "UNID": "M",
+   "PREÇO": "85,54"
+ },
+ {
+   "ITEM": 72000366,
+   "DESCRIÇÃO": "LRP - PASSEIO CIMENTADO - ASSENTAMENTO DE REDE DE AGUA DN 200 A 250MM",
+   "DATA I0": "jan/26",
+   "UNID": "M",
+   "PREÇO": "95,37"
+ },
+ {
+   "ITEM": 72000367,
+   "DESCRIÇÃO": "LRP - PASSEIO CIMENTADO - ASSENTAMENTO DE REDE DE AGUA DN 300 A 400MM",
+   "DATA I0": "jan/26",
+   "UNID": "M",
+   "PREÇO": "106,91"
+ },
+ {
+   "ITEM": 72000368,
+   "DESCRIÇÃO": "LRP - PASSEIO ESPECIAL - ASSENTAMENTO DE REDE DE AGUA DN 50 A 150MM",
+   "DATA I0": "jan/26",
+   "UNID": "M",
+   "PREÇO": "171,33"
+ },
+ {
+   "ITEM": 72000369,
+   "DESCRIÇÃO": "LRP - PASSEIO ESPECIAL - ASSENTAMENTO DE REDE DE AGUA DN 200 A 250MM",
+   "DATA I0": "jan/26",
+   "UNID": "M",
+   "PREÇO": "198,32"
+ },
+ {
+   "ITEM": 72000370,
+   "DESCRIÇÃO": "LRP - PASSEIO ESPECIAL - ASSENTAMENTO DE REDE DE AGUA DN 300 A 400MM",
+   "DATA I0": "jan/26",
+   "UNID": "M",
+   "PREÇO": "227,02"
+ },
+ {
+   "ITEM": 72001053,
+   "DESCRIÇÃO": "LPB - LEITO - ASSENTAMENTO DE REDE DE AGUA DN 50 A 150MM (C)",
+   "DATA I0": "jan/26",
+   "UNID": "M",
+   "PREÇO": "105,7"
+ },
+ {
+   "ITEM": 72001052,
+   "DESCRIÇÃO": "LPB - LEITO - ASSENTAMENTO DE REDE DE AGUA DN 50 A 150MM (B)",
+   "DATA I0": "jan/26",
+   "UNID": "M",
+   "PREÇO": "140,82"
+ },
+ {
+   "ITEM": 72001051,
+   "DESCRIÇÃO": "LPB - LEITO - ASSENTAMENTO DE REDE DE AGUA DN 50 A 150MM (A)",
+   "DATA I0": "jan/26",
+   "UNID": "M",
+   "PREÇO": "180,36"
+ },
+ {
+   "ITEM": 72001056,
+   "DESCRIÇÃO": "LPB - LEITO - ASSENTAMENTO DE REDE DE AGUA DN 200 A 250MM (C)",
+   "DATA I0": "jan/26",
+   "UNID": "M",
+   "PREÇO": "126,56"
+ },
+ {
+   "ITEM": 72001055,
+   "DESCRIÇÃO": "LPB - LEITO - ASSENTAMENTO DE REDE DE AGUA DN 200 A 250MM (B)",
+   "DATA I0": "jan/26",
+   "UNID": "M",
+   "PREÇO": "166,28"
+ },
+ {
+   "ITEM": 72001054,
+   "DESCRIÇÃO": "LPB - LEITO - ASSENTAMENTO DE REDE DE AGUA DN 200 A 250MM (A)",
+   "DATA I0": "jan/26",
+   "UNID": "M",
+   "PREÇO": "213,27"
+ },
+ {
+   "ITEM": 72001059,
+   "DESCRIÇÃO": "LPB - LEITO - ASSENTAMENTO DE REDE DE AGUA DN 300 A 400MM (C)",
+   "DATA I0": "jan/26",
+   "UNID": "M",
+   "PREÇO": "147,42"
+ },
+ {
+   "ITEM": 72001058,
+   "DESCRIÇÃO": "LPB - LEITO - ASSENTAMENTO DE REDE DE AGUA DN 300 A 400MM (B)",
+   "DATA I0": "jan/26",
+   "UNID": "M",
+   "PREÇO": "191,79"
+ },
+ {
+   "ITEM": 72001057,
+   "DESCRIÇÃO": "LPB - LEITO - ASSENTAMENTO DE REDE DE AGUA DN 300 A 400MM (A)",
+   "DATA I0": "jan/26",
+   "UNID": "M",
+   "PREÇO": "242,34"
+ },
+ {
+   "ITEM": 72001243,
+   "DESCRIÇÃO": "REPOSIÇÃO DE CAPA ASFÁLTICA CBUQ - ASSENTAMENTO DE REDE DE AGUA DN 50 A 150MM (C)",
+   "DATA I0": "jan/26",
+   "UNID": "M",
+   "PREÇO": "95,41"
+ },
+ {
+   "ITEM": 72001242,
+   "DESCRIÇÃO": "REPOSIÇÃO DE CAPA ASFÁLTICA CBUQ - ASSENTAMENTO DE REDE DE AGUA DN 50 A 150MM (B)",
+   "DATA I0": "jan/26",
+   "UNID": "M",
+   "PREÇO": "224,41"
+ },
+ {
+   "ITEM": 72001171,
+   "DESCRIÇÃO": "REPOSIÇÃO DE CAPA ASFÁLTICA CBUQ - ASSENTAMENTO DE REDE DE AGUA DN 50 A 150MM (A)",
+   "DATA I0": "jan/26",
+   "UNID": "M",
+   "PREÇO": "224,41"
+ },
+ {
+   "ITEM": 72001246,
+   "DESCRIÇÃO": "REPOSIÇÃO DE CAPA ASFÁLTICA CBUQ - ASSENTAMENTO DE REDE DE AGUA DN 200 A 250MM (C)",
+   "DATA I0": "jan/26",
+   "UNID": "M",
+   "PREÇO": "111,32"
+ },
+ {
+   "ITEM": 72001245,
+   "DESCRIÇÃO": "REPOSIÇÃO DE CAPA ASFÁLTICA CBUQ - ASSENTAMENTO DE REDE DE AGUA DN 200 A 250MM (B)",
+   "DATA I0": "jan/26",
+   "UNID": "M",
+   "PREÇO": "265,32"
+ },
+ {
+   "ITEM": 72001244,
+   "DESCRIÇÃO": "REPOSIÇÃO DE CAPA ASFÁLTICA CBUQ - ASSENTAMENTO DE REDE DE AGUA DN 200 A 250MM (A)",
+   "DATA I0": "jan/26",
+   "UNID": "M",
+   "PREÇO": "265,32"
+ },
+ {
+   "ITEM": 72001249,
+   "DESCRIÇÃO": "REPOSIÇÃO DE CAPA ASFÁLTICA CBUQ - ASSENTAMENTO DE REDE DE AGUA DN 300 A 400MM (C)",
+   "DATA I0": "jan/26",
+   "UNID": "M",
+   "PREÇO": "127,22"
+ },
+ {
+   "ITEM": 72001248,
+   "DESCRIÇÃO": "REPOSIÇÃO DE CAPA ASFÁLTICA CBUQ - ASSENTAMENTO DE REDE DE AGUA DN 300 A 400MM (B)",
+   "DATA I0": "jan/26",
+   "UNID": "M",
+   "PREÇO": "306,21"
+ },
+ {
+   "ITEM": 72001247,
+   "DESCRIÇÃO": "REPOSIÇÃO DE CAPA ASFÁLTICA CBUQ - ASSENTAMENTO DE REDE DE AGUA DN 300 A 400MM (A)",
+   "DATA I0": "jan/26",
+   "UNID": "M",
+   "PREÇO": "306,21"
  }
 ];
