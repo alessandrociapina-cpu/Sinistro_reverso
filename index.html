@@ -30,10 +30,18 @@
 
         body {
             font-family: Tahoma, sans-serif;
-            font-size: 9.5pt; 
+            font-size: 9pt; 
             color: var(--text-black);
             text-align: justify;
         }
+
+        /* Remove setinhas nativas dos inputs de número para evitar corte na impressão */
+        input[type=number]::-webkit-inner-spin-button, 
+        input[type=number]::-webkit-outer-spin-button { 
+            -webkit-appearance: none; 
+            margin: 0; 
+        }
+        input[type=number] { -moz-appearance: textfield; }
 
         .container {
             background-color: white;
@@ -64,14 +72,23 @@
         .logo-box { text-align: right; flex-shrink: 0; }
         .logo-placeholder { max-height: 65px; max-width: 150px; object-fit: contain; }
 
+        /* === ÁREA DE IDENTIFICAÇÃO (Alinhamento Preciso) === */
         .ident-row { display: flex; align-items: center; margin-bottom: 4px; width: 100%; }
-        .ident-row label { width: 125px; font-size: 9.5pt; font-weight: bold; color: var(--text-black); flex-shrink: 0; text-align: left; }
-        .ident-row input[type="text"], .ident-row select { flex: 1; min-width: 0; font-size: 9.5pt; padding: 4px 6px; }
+        .ident-row label { 
+            width: 150px; /* Largura fixa para alinhar todos os labels */
+            font-size: 9pt; 
+            font-weight: bold; 
+            color: var(--text-black); 
+            flex-shrink: 0; 
+            text-align: left; 
+            margin-right: 5px;
+        }
+        .ident-row input[type="text"], .ident-row select { flex: 1; min-width: 0; font-size: 9pt; padding: 4px 6px; }
         .ident-row .label-n { width: auto; margin-left: 15px; margin-right: 5px; }
 
         input, select {
             padding: 3px 5px; border: 1px solid var(--border-color); border-radius: 4px;
-            font-family: Tahoma, sans-serif; font-size: 9.5pt; color: var(--text-black); width: 100%;
+            font-family: Tahoma, sans-serif; font-size: 9pt; color: var(--text-black); width: 100%;
         }
         input:focus, select:focus { border-color: var(--sabesp-blue); outline: none; }
         input[type="number"] { text-align: right; }
@@ -79,40 +96,37 @@
 
         .hidden { display: none !important; }
 
+        /* === TABELAS === */
         table.data-table {
             width: 100%; table-layout: fixed; border-collapse: collapse; margin-bottom: 8px; margin-top: 4px;
-            font-size: 8.5pt; word-wrap: break-word; border: 1px solid var(--border-color);
+            font-size: 8pt; word-wrap: break-word; border: 1px solid var(--border-color);
         }
-        table.data-table th, table.data-table td { border: 1px solid var(--border-color); padding: 3px; text-align: left; overflow: visible; }
+        table.data-table th, table.data-table td { border: 1px solid var(--border-color); padding: 3px; text-align: left; overflow: hidden; }
         table.data-table th { background-color: var(--bg-color); font-weight: bold; text-align: center; }
         
         th.section-header {
-            font-size: 10pt; color: var(--sabesp-blue); text-transform: uppercase; text-align: left !important;
+            font-size: 9pt; color: var(--sabesp-blue); text-transform: uppercase; text-align: left !important;
             background-color: #f9f9f9; padding: 4px 8px; border-bottom: 2px solid var(--sabesp-blue);
         }
 
-        .subtitle { font-weight: bold; font-size: 9.5pt; color: var(--sabesp-blue); text-align: left; margin-top: 2px; }
-        table.data-table td input { width: 100%; border: none; background: transparent; font-size: 8.5pt; padding: 2px; } 
+        .subtitle { font-weight: bold; font-size: 9pt; color: var(--sabesp-blue); text-align: left; margin-top: 2px; }
+        table.data-table td input { width: 100%; border: none; background: transparent; font-size: 8pt; padding: 2px; min-width: 0; } 
 
         .autocomplete-list {
             position: absolute; top: 100%; left: 0; width: 100%; min-width: 350px; background: #fff;
             border: 1px solid var(--sabesp-blue); box-shadow: 0 8px 16px rgba(0,0,0,0.2);
             z-index: 9999; max-height: 250px; overflow-y: auto; display: none; border-radius: 0 0 4px 4px;
         }
-        .autocomplete-list div { padding: 6px 10px; cursor: pointer; border-bottom: 1px solid #eee; font-size: 8.5pt; color: #333; }
+        .autocomplete-list div { padding: 6px 10px; cursor: pointer; border-bottom: 1px solid #eee; font-size: 8pt; color: #333; }
         .autocomplete-list div:hover { background-color: var(--sabesp-blue); color: white; }
-
-        .agua-block { display: flex; flex-direction: column; justify-content: flex-end; }
-        .agua-block label { margin-bottom: 3px; font-size: 8.5pt; font-weight: bold; }
-        .agua-block input, .agua-block select { height: 26px; }
 
         .totais-box {
             border: 2px solid var(--sabesp-blue); border-radius: 6px; padding: 6px 15px;
             background-color: #fafafa; margin-top: 4px; width: 100%;
         }
-        .totais-box .row { display: flex; justify-content: space-between; margin-bottom: 2px; font-weight: bold; font-size: 9.5pt; }
+        .totais-box .row { display: flex; justify-content: space-between; margin-bottom: 2px; font-weight: bold; font-size: 9pt; }
         .total-final-row { 
-            font-size: 12pt; font-weight: bold; color: var(--sabesp-blue); margin-top: 6px; padding-top: 6px; 
+            font-size: 11pt; font-weight: bold; color: var(--sabesp-blue); margin-top: 6px; padding-top: 6px; 
             border-top: 2px solid var(--sabesp-blue); 
         }
 
@@ -131,7 +145,7 @@
         .action-menu { display: flex; justify-content: center; gap: 10px; margin-bottom: 5px; flex-wrap: wrap; margin-top: 20px; }
         .btn {
             padding: 8px 15px; background-color: #0056b3; color: white; border: none; border-radius: 5px;
-            cursor: pointer; font-weight: bold; font-size: 9.5pt; font-family: Tahoma, sans-serif;
+            cursor: pointer; font-weight: bold; font-size: 9pt; font-family: Tahoma, sans-serif;
             box-shadow: 0 2px 5px rgba(0,0,0,0.2); transition: background 0.2s;
         }
         .btn:hover { background-color: var(--sabesp-blue); color: #000; }
@@ -149,9 +163,10 @@
         }
         .version-wrapper:hover .changelog-box { display: block; }
         .changelog-box h4 { margin: 0 0 8px 0; color: var(--sabesp-blue); font-size: 10pt; }
-        .changelog-box ul { margin: 0; padding-left: 20px; font-size: 8.5pt; color: #333; }
+        .changelog-box ul { margin: 0; padding-left: 20px; font-size: 8pt; color: #333; }
         .changelog-box li { margin-bottom: 4px; }
 
+        /* === OTIMIZAÇÃO PARA IMPRESSÃO === */
         @page { size: A4 portrait; margin: 10mm; } 
         
         @media print {
@@ -166,7 +181,7 @@
                 color: var(--sabesp-blue) !important; -webkit-print-color-adjust: exact; print-color-adjust: exact; 
             }
             .header-grid { border-bottom: 2px solid var(--sabesp-blue) !important; padding-bottom: 4px; margin-bottom: 6px; }
-            .totais-box { border: 2px solid var(--sabesp-blue) !important; background: transparent !important; }
+            .totais-box { border: 2px solid var(--sabesp-blue) !important; background: transparent !important; margin-top: 2px; }
             .total-final-row { border-top: 2px solid var(--sabesp-blue) !important; }
 
             input, select { border: none !important; background: transparent !important; padding: 0; margin: 0; appearance: none; -webkit-appearance: none; color: #000; }
@@ -174,13 +189,15 @@
             
             #causador-outros { margin-left: 0 !important; }
 
-            table.data-table th { background-color: #f0f0f0 !important; -webkit-print-color-adjust: exact; print-color-adjust: exact; padding: 2px; }
-            table.data-table td { padding: 1px 2px; }
-            
             .ident-row { margin-bottom: 2px; }
-            table.data-table { margin-bottom: 4px; margin-top: 4px; font-size: 8.5pt; }
-            th.section-header { padding: 2px 4px; font-size: 9.5pt; text-align: left !important; } 
-            table.data-table td input { font-size: 8.5pt; }
+            .ident-row label { font-size: 8pt; width: 135px; } /* Ajuste fino na impressão */
+            .ident-row input[type="text"], .ident-row select { font-size: 8pt; }
+
+            table.data-table th { background-color: #f0f0f0 !important; -webkit-print-color-adjust: exact; print-color-adjust: exact; padding: 2px 1px; }
+            table.data-table td { padding: 1px; }
+            table.data-table { margin-bottom: 4px; margin-top: 2px; font-size: 7.5pt; }
+            th.section-header { padding: 2px 4px; font-size: 8.5pt; text-align: left !important; } 
+            table.data-table td input { font-size: 7.5pt; }
             
             .assinaturas { margin-top: 10px; }
             .assinatura-label { margin-bottom: 15px; }
@@ -205,14 +222,13 @@
         <div class="content-wrapper">
             
             <div class="version-wrapper no-print">
-                <div class="version-badge">v4.1 ℹ️</div>
+                <div class="version-badge">v4.2 ℹ️</div>
                 <div class="changelog-box">
                     <h4>Últimas Atualizações</h4>
                     <ul>
+                        <li><strong>v4.2:</strong> Correção no corte da tabela de impressão, redução de fontes e alinhamento dos campos de identificação.</li>
                         <li><strong>v4.1:</strong> Banco SPO jan/2026. Ajuste nas descrições de itens sem códigos repetidos e mapeamento de unidades.</li>
                         <li><strong>v4.0:</strong> Integração completa e mapeamento dinâmico com banco de preços SPO.</li>
-                        <li><strong>v3.5:</strong> Esconde o texto 'Outros' no Causador durante a impressão.</li>
-                        <li><strong>v3.4:</strong> Opção 'Outros' no Causador com campo de preenchimento.</li>
                     </ul>
                 </div>
             </div>
@@ -245,7 +261,7 @@
 
             <div class="ident-row" style="margin-bottom: 10px;">
                 <label>Causador dos Danos:</label>
-                <select id="causador" onchange="tratarCausador()">
+                <select id="causador" onchange="tratarCausador()" style="flex: 0 0 auto; width: 350px;">
                     <option value="Prefeitura Municipal de São José dos Campos">Prefeitura Municipal de São José dos Campos</option>
                     <option value="EDP Energia S.A.">EDP Energia S.A.</option>
                     <option value="COMGAS">COMGAS</option>
@@ -269,7 +285,7 @@
                 <tbody>
                     <tr>
                         <td>
-                            <select id="tipo-dano" onchange="tratarDano()" style="border:none; font-size: 8.5pt;">
+                            <select id="tipo-dano" onchange="tratarDano()" style="border:none; font-size: 8pt;">
                                 <option value="Reparo de Rede de Água">Reparo de Rede de Água</option>
                                 <option value="Reparo de Ramal de Água">Reparo de Ramal de Água</option>
                                 <option value="Reparo de Rede de Esgoto">Reparo de Rede de Esgoto</option>
@@ -279,7 +295,7 @@
                             <input type="text" id="tipo-dano-outros" class="hidden" placeholder="Especificar">
                         </td>
                         <td>
-                            <select id="material-dano" onchange="tratarDropdown('material-dano')" style="border:none; font-size: 8.5pt;">
+                            <select id="material-dano" onchange="tratarDropdown('material-dano')" style="border:none; font-size: 8pt;">
                                 <option value="PVC">PVC</option><option value="PEAD">PEAD</option><option value="Fofo">Fofo</option>
                                 <option value="Defofo">Defofo</option><option value="Fibra">Fibra</option><option value="Concreto">Concreto Arm.</option>
                                 <option value="Cerâmica">Manilha Cerâm.</option><option value="Outros">Outros</option>
@@ -287,7 +303,7 @@
                             <input type="text" id="material-dano-outros" class="hidden" placeholder="Esp.">
                         </td>
                         <td>
-                            <select id="diametro-dano" onchange="tratarDropdown('diametro-dano')" style="text-align: center; border:none; font-size: 8.5pt;">
+                            <select id="diametro-dano" onchange="tratarDropdown('diametro-dano')" style="text-align: center; border:none; font-size: 8pt;">
                                 <option value="20">20</option><option value="25">25</option><option value="32">32</option><option value="50">50</option>
                                 <option value="75">75</option><option value="100">100</option><option value="150">150</option><option value="200">200</option>
                                 <option value="250">250</option><option value="300">300</option><option value="350">350</option><option value="400">400</option>
@@ -304,9 +320,9 @@
 
             <table id="secao-agua" class="data-table">
                 <colgroup>
-                    <col style="width: 14%;"><col style="width: 11%;"><col style="width: 14%;">
-                    <col style="width: 11%;"><col style="width: 9%;"><col style="width: 9%;">
-                    <col style="width: 9%;"><col style="width: 9%;"><col style="width: 14%;">
+                    <col style="width: 13%;"><col style="width: 11%;"><col style="width: 12%;">
+                    <col style="width: 10%;"><col style="width: 8%;"><col style="width: 10%;">
+                    <col style="width: 10%;"><col style="width: 10%;"><col style="width: 16%;">
                 </colgroup>
                 <thead>
                     <tr><th colspan="9" class="section-header">1 - Água Perdida</th></tr>
@@ -321,20 +337,20 @@
                     </tr>
                     <tr>
                         <td colspan="2" style="padding: 0;">
-                            <select id="tipo-secao" onchange="tratarSecaoVazamento()" style="border:none; width:100%; font-size: 8.5pt;">
+                            <select id="tipo-secao" onchange="tratarSecaoVazamento()" style="border:none; width:100%; font-size: 8pt;">
                                 <option value="Área do Furo">Área do Furo (Localizada)</option>
                                 <option value="Seção Plena">Seção Plena (Tubo Rompido)</option>
                             </select>
                         </td>
                         <td colspan="3" id="td-formato" style="padding: 0; position:relative;">
-                            <select id="formato-dano" onchange="tratarFormatoDano()" style="border:none; width:100%; font-size: 8.5pt;">
+                            <select id="formato-dano" onchange="tratarFormatoDano()" style="border:none; width:100%; font-size: 8pt;">
                                 <option value="circular">Furo Circular (Cd=0.61)</option>
                                 <option value="irregular">Rupt. Irregular (Cd=0.55)</option>
                                 <option value="longitudinal">Fissura Long. (Cd=0.80)</option>
                                 <option value="transversal">Fissura Transv. (Cd=0.58)</option>
                             </select>
-                            <div id="aviso-secao-plena" style="display: none; color: var(--sabesp-blue); font-style: italic; font-size: 8.5pt; text-align:center; padding: 4px;">
-                                Vazão tabelada (despressurização).
+                            <div id="aviso-secao-plena" style="display: none; color: var(--sabesp-blue); font-style: italic; font-size: 8pt; text-align:center; padding: 4px;">
+                                Vazão tabelada.
                             </div>
                         </td>
                         <td colspan="2" id="td-dim-1" style="padding: 0;">
@@ -375,8 +391,8 @@
 
             <table class="data-table">
                 <colgroup>
-                    <col style="width: 45%;"><col style="width: 15%;"><col style="width: 8%;">
-                    <col style="width: 8%;"><col style="width: 12%;"><col style="width: 12%;">
+                    <col style="width: 55%;"><col style="width: 12%;"><col style="width: 6%;">
+                    <col style="width: 7%;"><col style="width: 10%;"><col style="width: 10%;">
                 </colgroup>
                 <thead>
                     <tr><th colspan="6" class="section-header">2.1 - Serviço Executado</th></tr>
@@ -399,8 +415,8 @@
 
             <table class="data-table">
                 <colgroup>
-                    <col style="width: 45%;"><col style="width: 15%;"><col style="width: 8%;">
-                    <col style="width: 8%;"><col style="width: 12%;"><col style="width: 12%;">
+                    <col style="width: 55%;"><col style="width: 12%;"><col style="width: 6%;">
+                    <col style="width: 7%;"><col style="width: 10%;"><col style="width: 10%;">
                 </colgroup>
                 <thead>
                     <tr><th colspan="6" class="section-header">2.2 - Materiais</th></tr>
@@ -463,8 +479,8 @@
                 <div class="assinatura-box">
                     <div class="assinatura-label">Elaborado por:</div>
                     <div class="linha-assinatura"></div>
-                    <input type="text" id="ass-nome-1" placeholder="Nome do Responsável" style="padding: 0; margin-bottom: 2px; border:none; background:transparent; font-size: 9.5pt;">
-                    <select id="ass-cargo-1" style="padding: 0; border:none; background:transparent; font-size: 9.5pt; color: #555;">
+                    <input type="text" id="ass-nome-1" placeholder="Nome do Responsável" style="padding: 0; margin-bottom: 2px; border:none; background:transparent; font-size: 9pt;">
+                    <select id="ass-cargo-1" style="padding: 0; border:none; background:transparent; font-size: 9pt; color: #555;">
                         <option>Engenheiro Civil</option><option>Engenheiro</option>
                         <option>Técnico em Saneamento</option><option>Coordenador</option><option>Outro</option>
                     </select>
@@ -472,8 +488,8 @@
                 <div class="assinatura-box">
                     <div class="assinatura-label">Aprovado por:</div>
                     <div class="linha-assinatura"></div>
-                    <input type="text" id="ass-nome-2" placeholder="Nome do Gerente/Superior" style="padding: 0; margin-bottom: 2px; border:none; background:transparent; font-size: 9.5pt;">
-                    <select id="ass-cargo-2" style="padding: 0; border:none; background:transparent; font-size: 9.5pt; color: #555;">
+                    <input type="text" id="ass-nome-2" placeholder="Nome do Gerente/Superior" style="padding: 0; margin-bottom: 2px; border:none; background:transparent; font-size: 9pt;">
+                    <select id="ass-cargo-2" style="padding: 0; border:none; background:transparent; font-size: 9pt; color: #555;">
                         <option>Engenheiro Civil</option><option>Engenheiro</option>
                         <option>Gerente de Divisão</option><option>Coordenador</option><option>Outro</option>
                     </select>
@@ -492,7 +508,7 @@
     </div>
 
     <script>
-        const VERSAO_APP = "4.1";
+        const VERSAO_APP = "4.2";
         if (localStorage.getItem("versao_planilha_sabesp") !== VERSAO_APP) {
             if ('caches' in window) {
                 caches.keys().then(names => { names.forEach(name => caches.delete(name)); });
@@ -692,7 +708,6 @@
                 div.onmousedown = function(e) {
                     e.preventDefault();
                     e.stopPropagation();
-                    // Agora insere apenas a descrição no campo
                     input.value = item.ESPEC;
                     containerDropdown.style.display = 'none';
                     aplicarItemSelecionado(input, item, tipo);
@@ -782,7 +797,6 @@
                             const descInput = tr.querySelector('.desc-input');
                             descInput.value = item.desc;
                             tr.querySelector('.qtd-servico').value = item.qtd;
-                            // Retrocompatibilidade para arquivos salvos antigos que tenham NPRECO - ESPEC gravados
                             let obj = dbServicos.find(x => x.ESPEC === item.desc || `${x.NPRECO} - ${x.ESPEC}` === item.desc);
                             if(obj) aplicarItemSelecionado(descInput, obj, 'servico');
                         });
@@ -796,7 +810,6 @@
                             const descInput = tr.querySelector('.desc-input');
                             descInput.value = item.desc;
                             tr.querySelector('.qtd-material').value = item.qtd;
-                            // Retrocompatibilidade para arquivos salvos antigos
                             let obj = dbMateriais.find(x => x.ESPEC === item.desc || `${x.NPRECO} - ${x.ESPEC}` === item.desc);
                             if(obj) aplicarItemSelecionado(descInput, obj, 'material');
                         });
