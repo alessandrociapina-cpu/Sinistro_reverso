@@ -35,7 +35,6 @@
             text-align: justify;
         }
 
-        /* O Container simula a folha A4 com Flexbox para empurrar o rodapé */
         .container {
             background-color: white;
             padding: 15px 30px;
@@ -49,7 +48,6 @@
             flex-direction: column;
         }
 
-        /* Envolve todo o conteúdo que não é o rodapé */
         .content-wrapper {
             flex: 1 0 auto; 
             display: flex;
@@ -66,7 +64,6 @@
         .logo-box { text-align: right; flex-shrink: 0; }
         .logo-placeholder { max-height: 65px; max-width: 150px; object-fit: contain; }
 
-        /* === ÁREA DE IDENTIFICAÇÃO (Alinhamento Preciso) === */
         .ident-row { display: flex; align-items: center; margin-bottom: 4px; width: 100%; }
         .ident-row label { width: 125px; font-size: 9.5pt; font-weight: bold; color: var(--text-black); flex-shrink: 0; text-align: left; }
         .ident-row input[type="text"], .ident-row select { flex: 1; min-width: 0; font-size: 9.5pt; padding: 4px 6px; }
@@ -82,7 +79,6 @@
 
         .hidden { display: none !important; }
 
-        /* === TABELAS === */
         table.data-table {
             width: 100%; table-layout: fixed; border-collapse: collapse; margin-bottom: 8px; margin-top: 4px;
             font-size: 8.5pt; word-wrap: break-word; border: 1px solid var(--border-color);
@@ -106,7 +102,6 @@
         .autocomplete-list div { padding: 6px 10px; cursor: pointer; border-bottom: 1px solid #eee; font-size: 8.5pt; color: #333; }
         .autocomplete-list div:hover { background-color: var(--sabesp-blue); color: white; }
 
-        /* Bloquinhos de Água Perdida para Alinhamento Vertical */
         .agua-block { display: flex; flex-direction: column; justify-content: flex-end; }
         .agua-block label { margin-bottom: 3px; font-size: 8.5pt; font-weight: bold; }
         .agua-block input, .agua-block select { height: 26px; }
@@ -126,7 +121,6 @@
         .assinatura-label { font-size: 7pt; font-weight: normal; margin-bottom: 20px; color: var(--text-black); }
         .linha-assinatura { border-top: 1px solid var(--text-black); width: 100%; margin-bottom: 3px; }
 
-        /* Rodapé no final empurrado pelo Flexbox */
         .rodape-container { 
             margin-top: auto; 
             border-top: 1.5px solid var(--sabesp-blue); 
@@ -134,7 +128,7 @@
         }
         .rodape-texto, .rodape-texto div, .rodape-texto span { font-weight: bold; font-size: 8pt; color: var(--sabesp-blue); text-align: left; line-height: 1.2; }
 
-        .action-menu { display: flex; justify-content: center; gap: 10px; margin-bottom: 5px; flex-wrap: wrap; }
+        .action-menu { display: flex; justify-content: center; gap: 10px; margin-bottom: 5px; flex-wrap: wrap; margin-top: 20px; }
         .btn {
             padding: 8px 15px; background-color: #0056b3; color: white; border: none; border-radius: 5px;
             cursor: pointer; font-weight: bold; font-size: 9.5pt; font-family: Tahoma, sans-serif;
@@ -158,7 +152,6 @@
         .changelog-box ul { margin: 0; padding-left: 20px; font-size: 8.5pt; color: #333; }
         .changelog-box li { margin-bottom: 4px; }
 
-        /* === OTIMIZAÇÃO PARA IMPRESSÃO === */
         @page { size: A4 portrait; margin: 10mm; } 
         
         @media print {
@@ -205,21 +198,21 @@
         <input type="file" id="input-arquivo" class="hidden" accept=".json" onchange="carregarProjeto(event)">
     </div>
     <div class="db-info no-print">
-        * Utilizando banco de preços de serviços e materiais da Sabesp SPO.
+        * Utilizando banco de preços de serviços e materiais da Sabesp SPO atualizado para jan/2026.
     </div>
 
     <div class="container">
         <div class="content-wrapper">
             
             <div class="version-wrapper no-print">
-                <div class="version-badge">v4.0 ℹ️</div>
+                <div class="version-badge">v4.1 ℹ️</div>
                 <div class="changelog-box">
                     <h4>Últimas Atualizações</h4>
                     <ul>
-                        <li><strong>v4.0:</strong> Integração completa e mapeamento dinâmico com o banco de preços SPO (Serviços e Materiais).</li>
+                        <li><strong>v4.1:</strong> Banco SPO jan/2026. Ajuste nas descrições de itens sem códigos repetidos e mapeamento de unidades.</li>
+                        <li><strong>v4.0:</strong> Integração completa e mapeamento dinâmico com banco de preços SPO.</li>
                         <li><strong>v3.5:</strong> Esconde o texto 'Outros' no Causador durante a impressão.</li>
                         <li><strong>v3.4:</strong> Opção 'Outros' no Causador com campo de preenchimento.</li>
-                        <li><strong>v3.3:</strong> Seção de Água Perdida estruturada em Tabela.</li>
                     </ul>
                 </div>
             </div>
@@ -498,17 +491,8 @@
 
     </div>
 
-    <div class="action-menu no-print" style="margin-top: 10px;">
-        <button class="btn btn-salvar" onclick="salvarProjeto()">💾 Salvar Projeto</button>
-        <button class="btn btn-carregar" onclick="document.getElementById('input-arquivo').click()">📂 Carregar Projeto</button>
-        <button class="btn" onclick="window.print()">🖨️ Imprimir / PDF</button>
-    </div>
-    <div class="db-info no-print">
-        * Utilizando banco de preços de serviços e materiais da Sabesp SPO.
-    </div>
-
     <script>
-        const VERSAO_APP = "4.0";
+        const VERSAO_APP = "4.1";
         if (localStorage.getItem("versao_planilha_sabesp") !== VERSAO_APP) {
             if ('caches' in window) {
                 caches.keys().then(names => { names.forEach(name => caches.delete(name)); });
@@ -565,7 +549,7 @@
                     dbMateriais = baseMateriais.map(m => ({
                         NPRECO: findValueByKeys(m, ["material", "item", "npreco", "código", "codigo"]),
                         ESPEC: findValueByKeys(m, ["texto breve material", "descrição", "descricao", "espec", "texto breve"]),
-                        UNID: String(findValueByKeys(m, ["unid.medida básica", "unid. medida basica", "unid", "unidade", "umb"])).trim(),
+                        UNID: String(findValueByKeys(m, ["unid. med.", "unid. med", "unid.medida básica", "unid. medida basica", "unid", "unidade", "umb"])).trim(),
                         PUNIT: findValueByKeys(m, ["valor unitário", "valor unitario", "preço", "preco", "punit", "valor"])
                     }));
                 }
@@ -708,7 +692,8 @@
                 div.onmousedown = function(e) {
                     e.preventDefault();
                     e.stopPropagation();
-                    input.value = `${item.NPRECO} - ${item.ESPEC}`;
+                    // Agora insere apenas a descrição no campo
+                    input.value = item.ESPEC;
                     containerDropdown.style.display = 'none';
                     aplicarItemSelecionado(input, item, tipo);
                 };
@@ -797,7 +782,8 @@
                             const descInput = tr.querySelector('.desc-input');
                             descInput.value = item.desc;
                             tr.querySelector('.qtd-servico').value = item.qtd;
-                            let obj = dbServicos.find(x => `${x.NPRECO} - ${x.ESPEC}` === item.desc);
+                            // Retrocompatibilidade para arquivos salvos antigos que tenham NPRECO - ESPEC gravados
+                            let obj = dbServicos.find(x => x.ESPEC === item.desc || `${x.NPRECO} - ${x.ESPEC}` === item.desc);
                             if(obj) aplicarItemSelecionado(descInput, obj, 'servico');
                         });
                     } else { gerarLinhasTabelaAux('tabela-servicos', 1, 'servico'); }
@@ -810,7 +796,8 @@
                             const descInput = tr.querySelector('.desc-input');
                             descInput.value = item.desc;
                             tr.querySelector('.qtd-material').value = item.qtd;
-                            let obj = dbMateriais.find(x => `${x.NPRECO} - ${x.ESPEC}` === item.desc);
+                            // Retrocompatibilidade para arquivos salvos antigos
+                            let obj = dbMateriais.find(x => x.ESPEC === item.desc || `${x.NPRECO} - ${x.ESPEC}` === item.desc);
                             if(obj) aplicarItemSelecionado(descInput, obj, 'material');
                         });
                     } else { gerarLinhasTabelaAux('tabela-materiais', 1, 'material'); }
