@@ -548,10 +548,10 @@
                 }
                 if (typeof baseMateriais !== 'undefined') {
                     dbMateriais = baseMateriais.map(m => ({
-                        NPRECO: m["Material"] !== undefined ? m["Material"] : m.NPRECO,
-                        ESPEC: m["Texto breve material"] !== undefined ? m["Texto breve material"] : m.ESPEC,
-                        UNID: m["Unid.medida básica"] !== undefined ? String(m["Unid.medida básica"]).trim() : m.UNID,
-                        PUNIT: m["Valor Unitário"] !== undefined ? m["Valor Unitário"] : m.PUNIT
+                        NPRECO: m["ITEM"] !== undefined ? m["ITEM"] : (m["Material"] !== undefined ? m["Material"] : m.NPRECO),
+                        ESPEC: m["DESCRIÇÃO"] !== undefined ? m["DESCRIÇÃO"] : (m["Texto breve material"] !== undefined ? m["Texto breve material"] : m.ESPEC),
+                        UNID: m["UNID"] !== undefined ? String(m["UNID"]).trim() : (m["Unid.medida básica"] !== undefined ? String(m["Unid.medida básica"]).trim() : m.UNID),
+                        PUNIT: m["PREÇO"] !== undefined ? m["PREÇO"] : (m["Valor Unitário"] !== undefined ? m["Valor Unitário"] : m.PUNIT)
                     }));
                 }
             } catch(e) { console.error("Erro ao processar as bases de dados."); }
