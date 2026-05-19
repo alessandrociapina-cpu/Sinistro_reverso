@@ -6,23 +6,25 @@ window.SabespCalculos = Object.freeze({
     return (cd * areaM2 * Math.sqrt(2 * this.GRAVIDADE * pressaoMca)) * 1000;
   },
 
+  calcularVolumeDecaimentoLinear(vazaoInicialLs, tempoManobraS, totalIncidenteS) {
+    if (vazaoInicialLs <= 0 || tempoManobraS <= 0) return 0;
+    const tEfetivo = Math.min(Math.max(0, totalIncidenteS), tempoManobraS);
+    return (2 / 3) * vazaoInicialLs * tEfetivo;
+  },
+
   calcularTempoSegundos(dataInicio, horaInicio, dataFim, horaFim) {
     if (!dataInicio || !horaInicio || !dataFim || !horaFim) {
       return { segundos: 0, valido: false, motivo: 'periodo-incompleto' };
     }
-
     const inicio = new Date(`${dataInicio}T${horaInicio}`);
     const fim = new Date(`${dataFim}T${horaFim}`);
-
     if (Number.isNaN(inicio.getTime()) || Number.isNaN(fim.getTime())) {
       return { segundos: 0, valido: false, motivo: 'periodo-invalido' };
     }
-
     const diferencaSegundos = (fim - inicio) / 1000;
     if (diferencaSegundos < 0) {
       return { segundos: 0, valido: false, motivo: 'periodo-negativo' };
     }
-
     return { segundos: diferencaSegundos, valido: true, motivo: '' };
   },
 
