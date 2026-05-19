@@ -15,9 +15,9 @@
 <body>
 
     <div class="action-menu no-print">
-        <button id="btn-salvar-proj" class="btn btn-salvar" onclick="salvarProjeto()">💾 Salvar Projeto</button>
-        <button id="btn-carregar-proj" class="btn btn-carregar" onclick="document.getElementById('input-arquivo').click()">📂 Carregar Projeto</button>
-        <button id="btn-imprimir-proj" class="btn" onclick="imprimirProjeto()">🖨️ Imprimir / PDF</button>
+        <button id="btn-salvar-proj" class="btn btn-salvar" onclick="salvarProjeto()">&#x1F4BE; Salvar Projeto</button>
+        <button id="btn-carregar-proj" class="btn btn-carregar" onclick="document.getElementById('input-arquivo').click()">&#x1F4C2; Carregar Projeto</button>
+        <button id="btn-imprimir-proj" class="btn" onclick="imprimirProjeto()">&#x1F5A8;&#xFE0F; Imprimir / PDF</button>
         <input type="file" id="input-arquivo" class="hidden" accept=".json" onchange="carregarProjeto(event)">
     </div>
     <div class="db-info no-print">
@@ -28,7 +28,7 @@
         <div class="content-wrapper">
 
             <div class="version-wrapper no-print">
-                <div class="version-badge">v5.2 ℹ️</div>
+                <div class="version-badge">v5.4 ℹ️</div>
                 <div class="changelog-box">
                     <h4>Últimas Atualizações</h4>
                     <ul>
@@ -178,6 +178,15 @@
                         </td>
                         <td colspan="2" id="td-pressao" style="padding: 0;">
                             <input type="number" id="pressao" value="10" min="0" style="border:none; width:100%; text-align:center;" oninput="calcularAgua()">
+                        </td>
+                    </tr>
+                    <tr id="tr-manobra" class="no-print" style="display: none;">
+                        <td colspan="9" style="padding: 4px 8px; background-color: #eef6ff; border-top: none; font-size: 8pt; font-style: italic; color: #2b5797;">
+                            &#x23F1; Tempo até fechamento da rede (manobra):
+                            <input type="number" id="tempo-manobra" value="30" min="1" max="1440" step="1"
+                                style="width: 55px; text-align: center; font-style: normal;" oninput="calcularAgua()"> min
+                            &nbsp;&ndash;&nbsp;
+                            <span style="font-size: 7.5pt; color: #555;">Modelo: V = &frac23; &times; Q&#x2080; &times; T_manobra (decaimento linear de pressão)</span>
                         </td>
                     </tr>
                     <tr>

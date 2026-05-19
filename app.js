@@ -1,5 +1,5 @@
-// ── VERSÃO DO APP ─────────────────────────────────────────────────────────────
-const APP_INFO = window.SABESP_APP_INFO || { version: '5.2.0', displayVersion: 'v5.2', releaseNotes: [] };
+// VERSAO DO APP
+const APP_INFO = window.SABESP_APP_INFO || { version: '5.4.0', displayVersion: 'v5.4', releaseNotes: [] };
 const VERSAO_APP = APP_INFO.version;
 if (localStorage.getItem("versao_planilha_sabesp") !== VERSAO_APP) {
     if ('caches' in window) {
@@ -13,25 +13,15 @@ if ('serviceWorker' in navigator) {
     window.addEventListener('load', () => { navigator.serviceWorker.register('sw.js'); });
 }
 
-// ── CONSTANTES FÍSICAS ────────────────────────────────────────────────────────
 const GRAVIDADE = window.SabespCalculos?.GRAVIDADE || 9.81;
-
-// ── CONSTANTES ECONÔMICAS (atualizar anualmente) ──────────────────────────────
-// Fonte: Decreto Estadual SP — vigência 2026
 const VALOR_UFESP = 35.36;
-// Fonte: Tabela tarifária Sabesp — vigência jan/2026 (valor padrão do campo, editável pelo usuário)
 const PRECO_M3_AGUA_PADRAO = 20.52;
-// ─────────────────────────────────────────────────────────────────────────────
 
-// ── ESTADO DA APLICAÇÃO ───────────────────────────────────────────────────────
-// Subtotais mantidos em JS para desacoplar a lógica de cálculo do DOM.
-// Funções de cálculo escrevem em `estado`; funções de renderização lêem `estado`.
 const estado = {
     subtotalAgua: 0,
     subtotalServicos: 0,
     subtotalMateriais: 0
 };
-// ─────────────────────────────────────────────────────────────────────────────
 
 let dbServicos = [];
 let dbMateriais = [];
@@ -52,12 +42,12 @@ window.onload = () => {
         tratarFormatoDano();
         tratarUnidade();
         tratarCausador();
-    } catch(e) { console.error("Erro na inicialização:", e); }
+    } catch(e) { console.error("Erro na inicializacao:", e); }
 };
 
 function renderizarInfoVersao() {
     const badge = document.querySelector('.version-badge');
-    if (badge) badge.textContent = `${APP_INFO.displayVersion} \u2139\uFE0F`;
+    if (badge) badge.textContent = `${APP_INFO.displayVersion} ℹ️`;
 
     const changelog = document.querySelector('.changelog-box ul');
     const release = APP_INFO.releaseNotes && APP_INFO.releaseNotes[0];
@@ -205,7 +195,7 @@ function parseValor(strPunit) {
 
 function removerAcentos(texto) {
     if (!texto) return "";
-    return texto.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
+    return texto.normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase();
 }
 
 function mostrarSugestoes(input, tipo) {
@@ -235,7 +225,6 @@ function mostrarSugestoes(input, tipo) {
         strong.textContent = item.NPRECO;
         div.appendChild(strong);
         div.appendChild(document.createTextNode(` - ${item.ESPEC}`));
-
         div.onmousedown = function(e) {
             e.preventDefault();
             e.stopPropagation();
@@ -327,6 +316,9 @@ function obterErrosValidacaoDocumento() {
             }
         } else if (!vazoesSecaoPlena[valorCampo('diametro-dano')]) {
             erros.push('Agua perdida: selecione um diametro com vazao tabelada para secao plena.');
+        } else {
+            const tempoManobra = parseFloat(valorCampo('tempo-manobra')) || 0;
+            if (tempoManobra <= 0) erros.push('Agua perdida: informe o tempo ate fechamento da rede (maior que zero).');
         }
     }
 
@@ -336,31 +328,23 @@ function obterErrosValidacaoDocumento() {
 function validarAntesDeAcao(nomeAcao) {
     const erros = obterErrosValidacaoDocumento();
     if (erros.length === 0) return true;
-
     alert(`Antes de ${nomeAcao}, corrija:\n\n- ${erros.join('\n- ')}`);
     return false;
 }
 
 function imprimirProjeto() {
-    if (validarAntesDeAcao('imprimir ou gerar PDF')) {
-        window.print();
-    }
+    if (validarAntesDeAcao('imprimir ou gerar PDF')) window.print();
 }
 
 function salvarProjeto() {
     if (!validarAntesDeAcao('salvar o projeto')) return;
 
-    const projeto = {
-        inputsGerais: {},
-        tabelaServicos: [],
-        tabelaMateriais: []
-    };
+    const projeto = { inputsGerais: {}, tabelaServicos: [], tabelaMateriais: [] };
 
     document.querySelectorAll('input[id], select[id]').forEach(el => {
         if (el.id !== 'input-arquivo') projeto.inputsGerais[el.id] = el.value;
     });
 
-    // Persiste os campos contenteditable do rodapé
     ['rodape-unidade-dep', 'rodape-endereco'].forEach(id => {
         const el = document.getElementById(id);
         if (el) projeto.inputsGerais[id] = el.innerText;
@@ -370,11 +354,9 @@ function salvarProjeto() {
         const desc = tr.querySelector('.desc-input');
         if (desc && desc.value.trim() !== '') {
             projeto.tabelaServicos.push({
-                desc: desc.value,
-                qtd: tr.querySelector('.qtd-servico').value,
+                desc: desc.value, qtd: tr.querySelector('.qtd-servico').value,
                 npreco: tr.querySelector('.num-servico').value,
-                unid: tr.querySelector('.unid-servico').value,
-                val: tr.querySelector('.val-servico').value
+                unid: tr.querySelector('.unid-servico').value, val: tr.querySelector('.val-servico').value
             });
         }
     });
@@ -383,11 +365,9 @@ function salvarProjeto() {
         const desc = tr.querySelector('.desc-input');
         if (desc && desc.value.trim() !== '') {
             projeto.tabelaMateriais.push({
-                desc: desc.value,
-                qtd: tr.querySelector('.qtd-material').value,
+                desc: desc.value, qtd: tr.querySelector('.qtd-material').value,
                 npreco: tr.querySelector('.num-material').value,
-                unid: tr.querySelector('.unid-material').value,
-                val: tr.querySelector('.val-material').value
+                unid: tr.querySelector('.unid-material').value, val: tr.querySelector('.val-material').value
             });
         }
     });
@@ -410,13 +390,11 @@ function carregarProjeto(event) {
 
             for (let id in projeto.inputsGerais) {
                 const el = document.getElementById(id);
-                // SPANs contenteditable são restaurados separadamente via innerText
                 if (el && el.tagName !== 'SPAN') el.value = projeto.inputsGerais[id];
             }
 
             tratarUnidade(); tratarDano(); tratarDropdown('material-dano'); tratarDropdown('diametro-dano'); tratarSecaoVazamento(); tratarFormatoDano(); tratarCausador();
 
-            // Restaura rodapé após tratarUnidade() para não sobrescrever
             ['rodape-unidade-dep', 'rodape-endereco'].forEach(id => {
                 const el = document.getElementById(id);
                 if (el && projeto.inputsGerais[id] !== undefined) el.innerText = projeto.inputsGerais[id];
@@ -439,7 +417,6 @@ function carregarProjeto(event) {
                         if (obj) {
                             aplicarItemSelecionado(descInput, obj, tipo);
                         } else if (item.val) {
-                            // Fallback: usa preço salvo caso o item não seja encontrado no banco atual
                             tr.querySelector(`.num-${tipo}`).value = item.npreco || '';
                             tr.querySelector(`.unid-${tipo}`).value = item.unid || '';
                             tr.querySelector(`.val-${tipo}`).value = item.val;
@@ -494,14 +471,11 @@ function calcularGeral() {
     const sub1 = estado.subtotalAgua;
     const sub2 = estado.subtotalServicos + estado.subtotalMateriais;
     const taxaBdi = Math.max(0, parseFloat(document.getElementById('taxa-bdi').value) || 0);
-
     const sub3 = sub2 * (taxaBdi / 100);
     document.getElementById('subtotal-3').innerText = sub3.toFixed(2);
-
     document.getElementById('resumo-1').innerText = sub1.toFixed(2);
     document.getElementById('resumo-2').innerText = sub2.toFixed(2);
     document.getElementById('resumo-3').innerText = sub3.toFixed(2);
-
     const totalGeral = sub1 + sub2 + sub3;
     document.getElementById('total-final').innerText = totalGeral.toFixed(2);
     document.getElementById('total-ufesp').innerText = (totalGeral / VALOR_UFESP).toFixed(2);
@@ -579,7 +553,7 @@ function tratarSecaoVazamento() {
     const formatoSelect = document.getElementById('formato-dano');
     const avisoPlena = document.getElementById('aviso-secao-plena');
     const pressaoInput = document.getElementById('pressao');
-
+    const trManobra = document.getElementById('tr-manobra');
     const thFormato = document.getElementById('th-formato');
     const thDim1 = document.getElementById('th-dim-1');
     const thDim2 = document.getElementById('th-dim-2');
@@ -591,6 +565,7 @@ function tratarSecaoVazamento() {
         formatoSelect.style.display = 'inline-block';
         avisoPlena.style.display = 'none';
         pressaoInput.disabled = false;
+        if (trManobra) trManobra.style.display = 'none';
         thFormato.colSpan = 3;
         tdFormato.colSpan = 3;
         thFormato.innerText = "Formato do Dano";
@@ -599,6 +574,7 @@ function tratarSecaoVazamento() {
         formatoSelect.style.display = 'none';
         avisoPlena.style.display = 'block';
         pressaoInput.disabled = true;
+        if (trManobra) trManobra.style.display = '';
         thDim1.style.display = 'none';
         thDim2.style.display = 'none';
         tdDim1.style.display = 'none';
@@ -615,7 +591,6 @@ function tratarFormatoDano() {
     if (secao !== 'Área do Furo') return;
 
     const formato = document.getElementById('formato-dano').value;
-
     const thDim1 = document.getElementById('th-dim-1');
     const thDim2 = document.getElementById('th-dim-2');
     const tdDim1 = document.getElementById('td-dim-1');
@@ -650,20 +625,14 @@ function tratarFormatoDano() {
     calcularAgua();
 }
 
-// Função pura separada para calcular vazão (desacoplamento e testabilidade)
 function calcularVazaoOrificio(cd, areaM2, pressaoMca) {
-    if (window.SabespCalculos) {
-        return window.SabespCalculos.calcularVazaoOrificio(cd, areaM2, pressaoMca);
-    }
+    if (window.SabespCalculos) return window.SabespCalculos.calcularVazaoOrificio(cd, areaM2, pressaoMca);
     if (pressaoMca <= 0 || areaM2 <= 0 || cd <= 0) return 0;
     return (cd * areaM2 * Math.sqrt(2 * GRAVIDADE * pressaoMca)) * 1000;
 }
 
 function alternarBotoesAcao(desabilitar) {
-    const msg = desabilitar
-        ? 'Ação bloqueada: diâmetro sem vazão tabelada. Selecione um diâmetro padrão em "Dados da Ocorrência".'
-        : '';
-
+    const msg = desabilitar ? 'Ação bloqueada: diâmetro sem vazão tabelada.' : '';
     ['btn-imprimir-proj', 'btn-salvar-proj'].forEach(id => {
         const btn = document.getElementById(id);
         if (!btn) return;
@@ -684,17 +653,17 @@ function calcularAgua() {
     const precoM3 = Math.max(0, parseFloat(document.getElementById('valor-m3').value) || 0);
 
     const periodo = window.SabespCalculos?.calcularTempoSegundos(dIni, hIni, dFim, hFim);
-    let segundos = periodo ? periodo.segundos : 0;
+    const segundos = periodo ? periodo.segundos : 0;
     document.getElementById('calc-segundos').innerText = segundos;
 
     let vazaoLs = 0;
     let erroSecaoPlena = false;
+    let volumeM3Override = null;
 
     if (tipoSecao === 'Área do Furo') {
         const formato = document.getElementById('formato-dano').value;
         let areaM2 = 0;
         let cd = 0.61;
-
         if (formato === 'circular') {
             cd = 0.61;
             const diamCm = Math.max(0, parseFloat(document.getElementById('diametro-furo').value) || 0);
@@ -710,27 +679,35 @@ function calcularAgua() {
         const diamRede = String(document.getElementById('diametro-dano').value).trim();
         if (vazoesSecaoPlena[diamRede]) {
             vazaoLs = vazoesSecaoPlena[diamRede];
-            document.getElementById('aviso-secao-plena').innerText = `Vazão tabelada (${vazaoLs.toFixed(3)} L/s) aplicada.`;
-            document.getElementById('aviso-secao-plena').style.color = "var(--sabesp-blue)";
+            const tempoManobraMin = Math.max(1, parseFloat(document.getElementById('tempo-manobra').value) || 30);
+            const tempoManobraS = tempoManobraMin * 60;
+            // V = (2/3) x Q0 x T_efetivo  (decaimento linear de pressao de P0 ate 0)
+            const volDecaimentoL = window.SabespCalculos
+                ? window.SabespCalculos.calcularVolumeDecaimentoLinear(vazaoLs, tempoManobraS, segundos)
+                : (2 / 3) * vazaoLs * Math.min(segundos, tempoManobraS);
+            volumeM3Override = volDecaimentoL / 1000;
+            const aviso = document.getElementById('aviso-secao-plena');
+            aviso.innerHTML = `Q&#x2080; = ${vazaoLs.toFixed(3)} L/s | T_manobra = ${tempoManobraMin} min | V = (2/3)&times;Q&#x2080;&times;T = <strong>${volumeM3Override.toFixed(3)} m&sup3;</strong>`;
+            aviso.style.color = 'var(--sabesp-blue)';
         } else {
             vazaoLs = 0;
             erroSecaoPlena = true;
-            document.getElementById('aviso-secao-plena').innerText = "Diâmetro sem vazão tabelada.";
-            document.getElementById('aviso-secao-plena').style.color = "red";
+            document.getElementById('aviso-secao-plena').innerText = 'Diâmetro sem vazão tabelada.';
+            document.getElementById('aviso-secao-plena').style.color = 'red';
         }
     }
 
     alternarBotoesAcao(erroSecaoPlena);
-
     document.getElementById('calc-vazao').innerText = vazaoLs.toFixed(3);
-    const resultadoAgua = window.SabespCalculos?.calcularPerdaAgua(vazaoLs, segundos, precoM3);
-    const volM3 = resultadoAgua ? resultadoAgua.volumeM3 : (vazaoLs * segundos) / 1000;
+
+    const volM3 = volumeM3Override !== null
+        ? volumeM3Override
+        : (window.SabespCalculos?.calcularPerdaAgua(vazaoLs, segundos, precoM3)?.volumeM3 ?? (vazaoLs * segundos) / 1000);
     document.getElementById('calc-vol').innerText = volM3.toFixed(2);
 
-    const totalAgua = resultadoAgua ? resultadoAgua.total : volM3 * precoM3;
+    const totalAgua = volM3 * precoM3;
     document.getElementById('calc-total-agua').innerText = totalAgua.toFixed(2);
     document.getElementById('subtotal-1').innerText = totalAgua.toFixed(2);
     estado.subtotalAgua = totalAgua;
-
     calcularGeral();
 }
