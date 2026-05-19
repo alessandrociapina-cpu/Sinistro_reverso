@@ -1,7 +1,12 @@
 window.SABESP_APP_INFO = Object.freeze({
-  version: '5.4.0',
-  displayVersion: 'v5.4',
+  version: '5.5.0',
+  displayVersion: 'v5.5',
   releaseNotes: [
+    {
+      version: '5.5.0',
+      displayVersion: 'v5.5',
+      summary: 'Secao Plena: Q0 agora calculado pela equacao de orificio (Cd=0,82) com pressao real da rede informada pelo usuario, substituindo tabela com valores incorretos. Formula completa: V = (2/3) x Cd x A x sqrt(2gH) x T_manobra.'
+    },
     {
       version: '5.4.0',
       displayVersion: 'v5.4',

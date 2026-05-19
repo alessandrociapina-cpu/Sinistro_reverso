@@ -26,11 +26,6 @@ const estado = {
 let dbServicos = [];
 let dbMateriais = [];
 
-const vazoesSecaoPlena = {
-    "20": 0.300, "25": 0.508, "32": 0.800, "50": 1.013, "75": 2.942,
-    "100": 6.269, "150": 18.211, "200": 32.780, "250": 59.004,
-    "300": 106.207, "350": 153.410, "400": 200.613
-};
 
 window.onload = () => {
     try {
@@ -314,9 +309,9 @@ function obterErrosValidacaoDocumento() {
                 const larg = parseFloat(valorCampo('larg-furo')) || 0;
                 if (comp <= 0 || larg <= 0) erros.push('Agua perdida: comprimento e largura devem ser maiores que zero.');
             }
-        } else if (!vazoesSecaoPlena[valorCampo('diametro-dano')]) {
-            erros.push('Agua perdida: selecione um diametro com vazao tabelada para secao plena.');
         } else {
+            const pressao = parseFloat(valorCampo('pressao')) || 0;
+            if (pressao <= 0) erros.push('Agua perdida: pressao da rede deve ser maior que zero para Secao Plena.');
             const tempoManobra = parseFloat(valorCampo('tempo-manobra')) || 0;
             if (tempoManobra <= 0) erros.push('Agua perdida: informe o tempo ate fechamento da rede (maior que zero).');
         }
@@ -573,7 +568,7 @@ function tratarSecaoVazamento() {
     } else {
         formatoSelect.style.display = 'none';
         avisoPlena.style.display = 'block';
-        pressaoInput.disabled = true;
+        pressaoInput.disabled = false;
         if (trManobra) trManobra.style.display = '';
         thDim1.style.display = 'none';
         thDim2.style.display = 'none';
@@ -581,7 +576,7 @@ function tratarSecaoVazamento() {
         tdDim2.style.display = 'none';
         thFormato.colSpan = 5;
         tdFormato.colSpan = 5;
-        thFormato.innerText = "Informação";
+        thFormato.innerText = "V = (2/3)·Cd·A·√(2gH)·T";
     }
     calcularAgua();
 }
@@ -676,24 +671,31 @@ function calcularAgua() {
         }
         vazaoLs = calcularVazaoOrificio(cd, areaM2, pressao);
     } else {
-        const diamRede = String(document.getElementById('diametro-dano').value).trim();
-        if (vazoesSecaoPlena[diamRede]) {
-            vazaoLs = vazoesSecaoPlena[diamRede];
+        const diamSelect = String(document.getElementById('diametro-dano').value).trim();
+        const diamMm = diamSelect === 'Outros'
+            ? (parseFloat(document.getElementById('diametro-dano-outros').value) || 0)
+            : (parseFloat(diamSelect) || 0);
+        if (diamMm > 0 && pressao > 0) {
+            const rM = (diamMm / 1000) / 2;
+            const areaM2 = Math.PI * rM * rM;
+            vazaoLs = window.SabespCalculos
+                ? window.SabespCalculos.calcularVazaoOrificio(0.82, areaM2, pressao)
+                : (0.82 * areaM2 * Math.sqrt(2 * 9.81 * pressao)) * 1000;
             const tempoManobraMin = Math.max(1, parseFloat(document.getElementById('tempo-manobra').value) || 30);
             const tempoManobraS = tempoManobraMin * 60;
-            // V = (2/3) x Q0 x T_efetivo  (decaimento linear de pressao de P0 ate 0)
             const volDecaimentoL = window.SabespCalculos
                 ? window.SabespCalculos.calcularVolumeDecaimentoLinear(vazaoLs, tempoManobraS, segundos)
                 : (2 / 3) * vazaoLs * Math.min(segundos, tempoManobraS);
             volumeM3Override = volDecaimentoL / 1000;
             const aviso = document.getElementById('aviso-secao-plena');
-            aviso.innerHTML = `Q&#x2080; = ${vazaoLs.toFixed(3)} L/s | T_manobra = ${tempoManobraMin} min | V = (2/3)&times;Q&#x2080;&times;T = <strong>${volumeM3Override.toFixed(3)} m&sup3;</strong>`;
+            aviso.innerHTML = `Q&#x2080; = 0,82&times;A&times;&radic;(2gH) = <strong>${vazaoLs.toFixed(3)} L/s</strong> | T_manobra = ${tempoManobraMin} min | V = <strong>${volumeM3Override.toFixed(3)} m&sup3;</strong>`;
             aviso.style.color = 'var(--sabesp-blue)';
         } else {
             vazaoLs = 0;
-            erroSecaoPlena = true;
-            document.getElementById('aviso-secao-plena').innerText = 'Diâmetro sem vazão tabelada.';
-            document.getElementById('aviso-secao-plena').style.color = 'red';
+            erroSecaoPlena = (diamMm <= 0);
+            const aviso = document.getElementById('aviso-secao-plena');
+            if (pressao <= 0) { aviso.innerText = 'Informe a pressão da rede (mca).'; aviso.style.color = '#888'; }
+            else { aviso.innerText = 'Diâmetro inválido.'; aviso.style.color = 'red'; }
         }
     }
 

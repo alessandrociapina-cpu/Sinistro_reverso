@@ -6,6 +6,15 @@ window.SabespCalculos = Object.freeze({
     return (cd * areaM2 * Math.sqrt(2 * this.GRAVIDADE * pressaoMca)) * 1000;
   },
 
+  // Seção Plena: Cd = 0,82 (ruptura limpa de tubo)
+  calcularVazaoSecaoPlena(diamNominalMm, pressaoMca) {
+    const rM = (diamNominalMm / 1000) / 2;
+    const areaM2 = Math.PI * rM * rM;
+    return this.calcularVazaoOrificio(0.82, areaM2, pressaoMca);
+  },
+
+  // Decaimento linear de pressão: P(t) = P0·(1 – t/T)
+  // Integrando Q(t) = Q0·√(1 – t/T) de 0 a T: V = (2/3)·Q0·T (litros)
   calcularVolumeDecaimentoLinear(vazaoInicialLs, tempoManobraS, totalIncidenteS) {
     if (vazaoInicialLs <= 0 || tempoManobraS <= 0) return 0;
     const tEfetivo = Math.min(Math.max(0, totalIncidenteS), tempoManobraS);
