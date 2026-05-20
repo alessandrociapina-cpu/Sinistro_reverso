@@ -1,7 +1,12 @@
 window.SABESP_APP_INFO = Object.freeze({
-  version: '5.5.0',
-  displayVersion: 'v5.5',
+  version: '5.6.0',
+  displayVersion: 'v5.6',
   releaseNotes: [
+    {
+      version: '5.6.0',
+      displayVersion: 'v5.6',
+      summary: 'Atualizacao das bases de servicos e materiais para Sabesp SPO mar/2026, com substituicao integral de servicos.js e materiais.js a partir do arquivo SPO_atualizado_mar_o2026.'
+    },
     {
       version: '5.5.0',
       displayVersion: 'v5.5',

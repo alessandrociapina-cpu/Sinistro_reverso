@@ -13,8 +13,8 @@ test('browser smoke tests exposed by tests.js pass', async ({ page }) => {
 });
 
 test('exibe versao e historico atuais', async ({ page }) => {
-  await expect(page.locator('.version-badge')).toContainText('v5.2');
-  await expect(page.locator('.changelog-box li').first()).toContainText('v5.2');
+  await expect(page.locator('.version-badge')).toContainText('v5.6');
+  await expect(page.locator('.changelog-box li').first()).toContainText('v5.6');
 });
 
 test('calcula agua perdida por area de furo circular', async ({ page }) => {
@@ -26,15 +26,15 @@ test('calcula agua perdida por area de furo circular', async ({ page }) => {
   await expect(page.locator('#calc-segundos')).toHaveText('3600');
   await expect(page.locator('#calc-vazao')).toHaveText('2.684');
   await expect(page.locator('#calc-vol')).toHaveText('9.66');
-  await expect(page.locator('#calc-total-agua')).toHaveText('198.27');
-  await expect(page.locator('#total-final')).toHaveText('198.27');
+  await expect(page.locator('#calc-total-agua')).toHaveText('198.29');
+  await expect(page.locator('#total-final')).toHaveText('198.29');
 });
 
 test('bloqueia salvar e imprimir quando secao plena usa diametro sem tabela', async ({ page }) => {
   await page.locator('#tipo-secao').selectOption('Seção Plena');
   await page.locator('#diametro-dano').selectOption('Outros');
 
-  await expect(page.locator('#aviso-secao-plena')).toContainText('Diâmetro sem vazão tabelada.');
+  await expect(page.locator('#aviso-secao-plena')).toContainText('Diâmetro inválido.');
   await expect(page.locator('#btn-salvar-proj')).toBeDisabled();
   await expect(page.locator('#btn-imprimir-proj')).toBeDisabled();
 });
