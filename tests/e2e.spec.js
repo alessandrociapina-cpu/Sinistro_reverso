@@ -13,8 +13,8 @@ test('browser smoke tests exposed by tests.js pass', async ({ page }) => {
 });
 
 test('exibe versao e historico atuais', async ({ page }) => {
-  await expect(page.locator('.version-badge')).toContainText('v5.6');
-  await expect(page.locator('.changelog-box li').first()).toContainText('v5.6');
+  await expect(page.locator('.version-badge')).toContainText('v5.7');
+  await expect(page.locator('.changelog-box li').first()).toContainText('v5.7');
 });
 
 test('calcula agua perdida por area de furo circular', async ({ page }) => {
@@ -24,10 +24,10 @@ test('calcula agua perdida por area de furo circular', async ({ page }) => {
   await page.locator('#hora-fim').fill('09:00');
 
   await expect(page.locator('#calc-segundos')).toHaveText('3600');
-  await expect(page.locator('#calc-vazao')).toHaveText('2.684');
-  await expect(page.locator('#calc-vol')).toHaveText('9.66');
-  await expect(page.locator('#calc-total-agua')).toHaveText('198.29');
-  await expect(page.locator('#total-final')).toHaveText('198.29');
+  await expect(page.locator('#calc-vazao')).toHaveText('2,684');
+  await expect(page.locator('#calc-vol')).toHaveText('9,66');
+  await expect(page.locator('#calc-total-agua')).toHaveText('198,29');
+  await expect(page.locator('#total-final')).toHaveText('198,29');
 });
 
 test('bloqueia salvar e imprimir quando secao plena usa diametro sem tabela', async ({ page }) => {

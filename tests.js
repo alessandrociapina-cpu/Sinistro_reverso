@@ -34,8 +34,15 @@
     assert(removerAcentos('ESGOTO') === 'esgoto',  'removerAcentos: só maiúscula');
 
     // versionamento
-    assert(window.SABESP_APP_INFO?.version === '5.6.0', 'version.js: versão técnica v5.6.0');
-    assert(document.querySelector('.version-badge')?.textContent.includes('v5.6'), 'interface: badge exibe v5.6');
+    assert(window.SABESP_APP_INFO?.version === '5.7.0', 'version.js: versão técnica v5.7.0');
+    assert(document.querySelector('.version-badge')?.textContent.includes('v5.7'), 'interface: badge exibe v5.7');
+
+    // formatarBR
+    assert(formatarBR(0) === '0,00',          'formatarBR: zero → 0,00');
+    assert(formatarBR(1234.5) === '1.234,50', 'formatarBR: ponto de milhar + duas casas');
+    assert(formatarBR(2.684, 3) === '2,684',  'formatarBR: 3 casas para vazão');
+    assert(parseValor('1.234,50') === 1234.5, 'parseValor: BR com milhar');
+    assert(parseValor('1072.05') === 1072.05, 'parseValor: retrocompat formato US sem vírgula');
 
     // calcularVazaoOrificio
     // Furo circular Cd=0.61, diam=2cm → área=π*(0.01)²≈3.1416e-4 m², pressão=10mca
