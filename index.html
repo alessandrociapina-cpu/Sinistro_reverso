@@ -21,17 +21,18 @@
         <input type="file" id="input-arquivo" class="hidden" accept=".json" onchange="carregarProjeto(event)">
     </div>
     <div class="db-info no-print">
-        * Utilizando banco de preços de serviços e materiais da Sabesp SPO atualizado para jan/2026.
+        * Utilizando banco de preços de serviços e materiais da Sabesp SPO atualizado para Março/2026.
     </div>
 
     <div class="container">
         <div class="content-wrapper">
 
             <div class="version-wrapper no-print">
-                <div class="version-badge">v5.6 ℹ️</div>
+                <div class="version-badge">v5.7 ℹ️</div>
                 <div class="changelog-box">
                     <h4>Últimas Atualizações</h4>
                     <ul>
+                        <li data-version="5.7.0"><strong>v5.7:</strong> Padronização do formato brasileiro (vírgula decimal, ponto de milhar) em todos os valores exibidos; BDI padrão passa de 28% para 20%; rótulo do banco de preços atualizado para Março/2026.</li>
                         <li data-version="5.6.0"><strong>v5.6:</strong> Atualização das bases de serviços e materiais para Sabesp SPO mar/2026.</li>
                         <li data-version="5.5.0"><strong>v5.5:</strong> Seção Plena: Q0 calculado pela equação de orifício (Cd=0,82) com pressão real da rede informada pelo usuário; fórmula V = (2/3) × Cd × A × √(2gH) × T_manobra.</li>
                         <li data-version="5.4.0"><strong>v5.4:</strong> Seção Plena passa a usar modelo de decaimento linear de pressão: V = (2/3) × Q0 × T_manobra, com campo "Tempo até fechamento da rede" informado pelo usuário.</li>
@@ -203,15 +204,15 @@
                         <td><input type="date" id="data-fim" onchange="calcularAgua()" style="padding: 0;"></td>
                         <td><input type="time" id="hora-fim" onchange="calcularAgua()" style="padding: 0;"></td>
                         <td style="text-align: center;"><span id="calc-segundos">0</span></td>
-                        <td style="text-align: center;"><span id="calc-vazao">0.00</span></td>
-                        <td style="text-align: center;"><span id="calc-vol">0.00</span></td>
+                        <td style="text-align: center;"><span id="calc-vazao">0,00</span></td>
+                        <td style="text-align: center;"><span id="calc-vol">0,00</span></td>
                         <td><input type="number" id="valor-m3" value="20.52" step="0.01" min="0" style="padding: 0;" oninput="calcularAgua()"></td>
-                        <td style="font-weight: bold; text-align: right; color: var(--text-black);"><span id="calc-total-agua">0.00</span></td>
+                        <td style="font-weight: bold; text-align: right; color: var(--text-black);"><span id="calc-total-agua">0,00</span></td>
                     </tr>
                     <tr>
                         <td colspan="9" style="border-top: none; background-color: #fff;">
                             <div style="display: flex; justify-content: flex-end; margin: 0;">
-                                <div class="subtitle">Subtotal 1 - Água Perdida: R$ <span id="subtotal-1">0.00</span></div>
+                                <div class="subtitle">Subtotal 1 - Água Perdida: R$ <span id="subtotal-1">0,00</span></div>
                             </div>
                         </td>
                     </tr>
@@ -235,7 +236,7 @@
                     <tr>
                         <td colspan="6" style="border-top: none; background-color: #fff; padding-bottom: 0;">
                             <div style="display: flex; justify-content: flex-end; margin: 0;">
-                                <div class="subtitle">Subtotal Serviços: R$ <span id="subtotal-servicos">0.00</span></div>
+                                <div class="subtitle">Subtotal Serviços: R$ <span id="subtotal-servicos">0,00</span></div>
                             </div>
                         </td>
                     </tr>
@@ -259,8 +260,8 @@
                     <tr>
                         <td colspan="6" style="border-top: none; background-color: #fff; padding-bottom: 0;">
                             <div style="display: flex; justify-content: flex-end; flex-direction: column; align-items: flex-end; margin: 0; gap: 2px;">
-                                <div class="subtitle" style="margin-top: 0;">Subtotal Materiais: R$ <span id="subtotal-materiais">0.00</span></div>
-                                <div class="subtitle" style="margin-top: 0;">Subtotal 2 (Serviços+Materiais): R$ <span id="subtotal-2">0.00</span></div>
+                                <div class="subtitle" style="margin-top: 0;">Subtotal Materiais: R$ <span id="subtotal-materiais">0,00</span></div>
+                                <div class="subtitle" style="margin-top: 0;">Subtotal 2 (Serviços+Materiais): R$ <span id="subtotal-2">0,00</span></div>
                             </div>
                         </td>
                     </tr>
@@ -278,13 +279,13 @@
                             Equipes Técnicas + Administrativas + Despesas Indiretas (BDI)
                         </td>
                         <td style="text-align: right; padding: 6px 8px; font-weight: bold; background-color: #fff;">
-                            Taxa (%): <input type="number" id="taxa-bdi" value="28" min="0" style="width: 50px; display: inline-block; padding: 2px;" oninput="calcularGeral()">
+                            Taxa (%): <input type="number" id="taxa-bdi" value="20" min="0" style="width: 50px; display: inline-block; padding: 2px;" oninput="calcularGeral()">
                         </td>
                     </tr>
                     <tr>
                         <td colspan="2" style="border-top: none; background-color: #fff; padding-bottom: 0;">
                             <div style="display: flex; justify-content: flex-end; margin: 0;">
-                                <div class="subtitle">Subtotal Custos Indiretos: R$ <span id="subtotal-3">0.00</span></div>
+                                <div class="subtitle">Subtotal Custos Indiretos: R$ <span id="subtotal-3">0,00</span></div>
                             </div>
                         </td>
                     </tr>
@@ -292,15 +293,15 @@
             </table>
 
             <div class="totais-box">
-                <div class="row"><span>1 - Água Perdida:</span> <span>R$ <span id="resumo-1">0.00</span></span></div>
-                <div class="row"><span>2 - Serviços e Materiais:</span> <span>R$ <span id="resumo-2">0.00</span></span></div>
-                <div class="row"><span>3 - Custos Operacionais (BDI):</span> <span>R$ <span id="resumo-3">0.00</span></span></div>
+                <div class="row"><span>1 - Água Perdida:</span> <span>R$ <span id="resumo-1">0,00</span></span></div>
+                <div class="row"><span>2 - Serviços e Materiais:</span> <span>R$ <span id="resumo-2">0,00</span></span></div>
+                <div class="row"><span>3 - Custos Operacionais (BDI):</span> <span>R$ <span id="resumo-3">0,00</span></span></div>
 
                 <div class="total-final-row" style="display: flex; justify-content: space-between;">
-                    <span>TOTAL FINAL:</span> <span>R$ <span id="total-final">0.00</span></span>
+                    <span>TOTAL FINAL:</span> <span>R$ <span id="total-final">0,00</span></span>
                 </div>
                 <div style="display: flex; justify-content: flex-end; font-size: 8.5pt; color: #666; margin-top: 2px;">
-                    Equivalente em UFESPs: <span id="total-ufesp" style="margin-left: 5px; font-weight: bold; color: var(--text-black);">0.00</span>
+                    Equivalente em UFESPs: <span id="total-ufesp" style="margin-left: 5px; font-weight: bold; color: var(--text-black);">0,00</span>
                 </div>
             </div>
 

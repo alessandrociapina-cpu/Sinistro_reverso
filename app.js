@@ -151,8 +151,8 @@ function gerarLinhasTabelaAux(tabelaId, qtd, tipo) {
             <td style="padding: 0;"><input type="text" class="num-${tipo}" readonly style="text-align: center; color: var(--text-black); font-weight: bold; padding: 4px;"></td>
             <td style="padding: 0;"><input type="text" class="unid-${tipo}" readonly style="text-align: center; padding: 4px;"></td>
             <td style="padding: 0;"><input type="number" class="qtd-${tipo}" min="0" oninput="calcSubtotalLinha(this, '${tipo}')" style="padding: 4px;"></td>
-            <td style="padding: 0;"><input type="number" class="val-${tipo}" readonly style="padding: 4px;"></td>
-            <td style="padding: 0;"><input type="text" class="sub-${tipo}" readonly value="0.00" style="text-align: right; font-weight: bold; color: var(--text-black); padding: 4px;"></td>
+            <td style="padding: 0;"><input type="text" class="val-${tipo}" readonly style="text-align: right; padding: 4px;"></td>
+            <td style="padding: 0;"><input type="text" class="sub-${tipo}" readonly value="0,00" style="text-align: right; font-weight: bold; color: var(--text-black); padding: 4px;"></td>
         `;
         tabela.appendChild(tr);
     }
@@ -183,9 +183,18 @@ window.addEventListener('afterprint', function() {
 });
 
 function parseValor(strPunit) {
-    if (!strPunit) return 0;
-    let limpo = String(strPunit).replace(/[R$\s]/g, '').replace(/\./g, '').replace(',', '.');
-    return parseFloat(limpo) || 0;
+    if (strPunit === null || strPunit === undefined || strPunit === '') return 0;
+    let s = String(strPunit).replace(/[R$\s]/g, '');
+    if (s === '') return 0;
+    // BR: dot = thousands, comma = decimal. US-fallback for retrocompat com projetos salvos.
+    if (s.includes(',')) s = s.replace(/\./g, '').replace(',', '.');
+    const n = parseFloat(s);
+    return Number.isFinite(n) ? n : 0;
+}
+
+function formatarBR(num, decimais = 2) {
+    const v = Number.isFinite(num) ? num : 0;
+    return v.toLocaleString('pt-BR', { minimumFractionDigits: decimais, maximumFractionDigits: decimais });
 }
 
 function removerAcentos(texto) {
@@ -245,7 +254,7 @@ function aplicarItemSelecionado(input, item, tipo) {
     const tr = input.closest('tr');
     tr.querySelector(`.num-${tipo}`).value = item.NPRECO;
     tr.querySelector(`.unid-${tipo}`).value = item.UNID;
-    tr.querySelector(`.val-${tipo}`).value = parseValor(item.PUNIT);
+    tr.querySelector(`.val-${tipo}`).value = formatarBR(parseValor(item.PUNIT));
     calcSubtotalLinha(tr.querySelector(`.qtd-${tipo}`), tipo);
     atualizarLinhas(tipo);
 }
@@ -439,41 +448,41 @@ function carregarProjeto(event) {
 
 function calcSubtotalLinha(inputQtd, tipo) {
     const tr = inputQtd.closest('tr');
-    const qtd = Math.max(0, parseFloat(inputQtd.value) || 0);
-    const valUnit = parseFloat(tr.querySelector(`.val-${tipo}`).value) || 0;
-    tr.querySelector(`.sub-${tipo}`).value = (qtd * valUnit).toFixed(2);
+    const qtd = Math.max(0, parseValor(inputQtd.value));
+    const valUnit = parseValor(tr.querySelector(`.val-${tipo}`).value);
+    tr.querySelector(`.sub-${tipo}`).value = formatarBR(qtd * valUnit);
     somarTabela(tipo);
 }
 
 function somarTabela(tipo) {
     let total = 0;
-    document.querySelectorAll(`.sub-${tipo}`).forEach(s => total += parseFloat(s.value) || 0);
+    document.querySelectorAll(`.sub-${tipo}`).forEach(s => total += parseValor(s.value));
 
     if (tipo === 'servico') {
         estado.subtotalServicos = total;
-        document.getElementById('subtotal-servicos').innerText = total.toFixed(2);
+        document.getElementById('subtotal-servicos').innerText = formatarBR(total);
     } else {
         estado.subtotalMateriais = total;
-        document.getElementById('subtotal-materiais').innerText = total.toFixed(2);
+        document.getElementById('subtotal-materiais').innerText = formatarBR(total);
     }
 
     const sub2 = estado.subtotalServicos + estado.subtotalMateriais;
-    document.getElementById('subtotal-2').innerText = sub2.toFixed(2);
+    document.getElementById('subtotal-2').innerText = formatarBR(sub2);
     calcularGeral();
 }
 
 function calcularGeral() {
     const sub1 = estado.subtotalAgua;
     const sub2 = estado.subtotalServicos + estado.subtotalMateriais;
-    const taxaBdi = Math.max(0, parseFloat(document.getElementById('taxa-bdi').value) || 0);
+    const taxaBdi = Math.max(0, parseValor(document.getElementById('taxa-bdi').value));
     const sub3 = sub2 * (taxaBdi / 100);
-    document.getElementById('subtotal-3').innerText = sub3.toFixed(2);
-    document.getElementById('resumo-1').innerText = sub1.toFixed(2);
-    document.getElementById('resumo-2').innerText = sub2.toFixed(2);
-    document.getElementById('resumo-3').innerText = sub3.toFixed(2);
+    document.getElementById('subtotal-3').innerText = formatarBR(sub3);
+    document.getElementById('resumo-1').innerText = formatarBR(sub1);
+    document.getElementById('resumo-2').innerText = formatarBR(sub2);
+    document.getElementById('resumo-3').innerText = formatarBR(sub3);
     const totalGeral = sub1 + sub2 + sub3;
-    document.getElementById('total-final').innerText = totalGeral.toFixed(2);
-    document.getElementById('total-ufesp').innerText = (totalGeral / VALOR_UFESP).toFixed(2);
+    document.getElementById('total-final').innerText = formatarBR(totalGeral);
+    document.getElementById('total-ufesp').innerText = formatarBR(totalGeral / VALOR_UFESP);
 }
 
 const ENDERECO_OVMS = 'Rua Euclides Miragaia, 126, Centro - CEP 12.245-820 - São José dos Campos - SP';
@@ -530,7 +539,7 @@ function tratarDano() {
     } else {
         secaoAgua.style.display = 'none';
         estado.subtotalAgua = 0;
-        document.getElementById('subtotal-1').innerText = "0.00";
+        document.getElementById('subtotal-1').innerText = "0,00";
         calcularGeral();
     }
 }
@@ -688,7 +697,7 @@ function calcularAgua() {
                 : (2 / 3) * vazaoLs * Math.min(segundos, tempoManobraS);
             volumeM3Override = volDecaimentoL / 1000;
             const aviso = document.getElementById('aviso-secao-plena');
-            aviso.innerHTML = `Q&#x2080; = 0,82&times;A&times;&radic;(2gH) = <strong>${vazaoLs.toFixed(3)} L/s</strong> | T_manobra = ${tempoManobraMin} min | V = <strong>${volumeM3Override.toFixed(3)} m&sup3;</strong>`;
+            aviso.innerHTML = `Q&#x2080; = 0,82&times;A&times;&radic;(2gH) = <strong>${formatarBR(vazaoLs, 3)} L/s</strong> | T_manobra = ${tempoManobraMin} min | V = <strong>${formatarBR(volumeM3Override, 3)} m&sup3;</strong>`;
             aviso.style.color = 'var(--sabesp-blue)';
         } else {
             vazaoLs = 0;
@@ -700,16 +709,16 @@ function calcularAgua() {
     }
 
     alternarBotoesAcao(erroSecaoPlena);
-    document.getElementById('calc-vazao').innerText = vazaoLs.toFixed(3);
+    document.getElementById('calc-vazao').innerText = formatarBR(vazaoLs, 3);
 
     const volM3 = volumeM3Override !== null
         ? volumeM3Override
         : (window.SabespCalculos?.calcularPerdaAgua(vazaoLs, segundos, precoM3)?.volumeM3 ?? (vazaoLs * segundos) / 1000);
-    document.getElementById('calc-vol').innerText = volM3.toFixed(2);
+    document.getElementById('calc-vol').innerText = formatarBR(volM3);
 
     const totalAgua = volM3 * precoM3;
-    document.getElementById('calc-total-agua').innerText = totalAgua.toFixed(2);
-    document.getElementById('subtotal-1').innerText = totalAgua.toFixed(2);
+    document.getElementById('calc-total-agua').innerText = formatarBR(totalAgua);
+    document.getElementById('subtotal-1').innerText = formatarBR(totalAgua);
     estado.subtotalAgua = totalAgua;
     calcularGeral();
 }

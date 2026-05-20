@@ -1,7 +1,12 @@
 window.SABESP_APP_INFO = Object.freeze({
-  version: '5.6.0',
-  displayVersion: 'v5.6',
+  version: '5.7.0',
+  displayVersion: 'v5.7',
   releaseNotes: [
+    {
+      version: '5.7.0',
+      displayVersion: 'v5.7',
+      summary: 'Padronizacao do formato BR (virgula decimal, ponto milhar) em todos os valores exibidos; BDI padrao alterado de 28% para 20%; rotulo do banco de precos passa a Marco/2026.'
+    },
     {
       version: '5.6.0',
       displayVersion: 'v5.6',
