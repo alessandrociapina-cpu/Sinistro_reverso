@@ -1,7 +1,12 @@
 window.SABESP_APP_INFO = Object.freeze({
-  version: '5.7.0',
-  displayVersion: 'v5.7',
+  version: '5.8.0',
+  displayVersion: 'v5.8',
   releaseNotes: [
+    {
+      version: '5.8.0',
+      displayVersion: 'v5.8',
+      summary: 'Atualizacao das bases de servicos e materiais para Sabesp SPO jun/2026: 3.514 servicos e 4.333 insumos.'
+    },
     {
       version: '5.7.0',
       displayVersion: 'v5.7',

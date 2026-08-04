@@ -45,61 +45,61 @@ const baseMateriais = [
    "Código": "HM03207",
    "Descrição": "ABRAÇADEIRA DE VEDAÇÃO FERRO FUNDIDO DN=100 MM MULTIPARTIDA PARA REPARO DE TUBOS",
    "Unid. Med.": "un",
-   "Preço": "479,58"
+   "Preço": "506,44"
  },
  {
    "Código": "HM03209",
    "Descrição": "ABRAÇADEIRA DE VEDAÇÃO FERRO FUNDIDO DN=150 MM MULTIPARTIDA PARA REPARO DE TUBOS",
    "Unid. Med.": "un",
-   "Preço": "798,53"
+   "Preço": "817,11"
  },
  {
    "Código": "HM03210",
    "Descrição": "ABRAÇADEIRA DE VEDAÇÃO FERRO FUNDIDO DN=200 MM MULTIPARTIDA PARA REPARO DE TUBOS",
    "Unid. Med.": "un",
-   "Preço": "1.460,51"
+   "Preço": "1.534,89"
  },
  {
    "Código": "HM03211",
    "Descrição": "ABRAÇADEIRA DE VEDAÇÃO FERRO FUNDIDO DN=250 MM MULTIPARTIDA PARA REPARO DE TUBOS",
    "Unid. Med.": "un",
-   "Preço": "2.881,87"
+   "Preço": "2.806,51"
  },
  {
    "Código": "HM03212",
    "Descrição": "ABRAÇADEIRA DE VEDAÇÃO FERRO FUNDIDO DN=300 MM MULTIPARTIDA PARA REPARO DE TUBOS",
    "Unid. Med.": "un",
-   "Preço": "3.983,05"
+   "Preço": "4.103,95"
  },
  {
    "Código": "HM03213",
    "Descrição": "ABRAÇADEIRA DE VEDAÇÃO FERRO FUNDIDO DN=350 MM MULTIPARTIDA PARA REPARO DE TUBOS",
    "Unid. Med.": "un",
-   "Preço": "5.492,42"
+   "Preço": "5.601,85"
  },
  {
    "Código": "HM03214",
    "Descrição": "ABRAÇADEIRA DE VEDAÇÃO FERRO FUNDIDO DN=400 MM MULTIPARTIDA PARA REPARO DE TUBOS",
    "Unid. Med.": "un",
-   "Preço": "6.304,23"
+   "Preço": "6.966,00"
  },
  {
    "Código": "HM03215",
    "Descrição": "ABRAÇADEIRA DE VEDAÇÃO FERRO FUNDIDO DN=500 MM MULTIPARTIDA PARA REPARO DE TUBOS",
    "Unid. Med.": "un",
-   "Preço": "10.183,63"
+   "Preço": "10.097,16"
  },
  {
    "Código": "HM03217",
    "Descrição": "ABRAÇADEIRA DE VEDAÇÃO FERRO FUNDIDO DN=80 MM MULTIPARTIDA PARA REPARO DE TUBOS",
    "Unid. Med.": "un",
-   "Preço": "449,48"
+   "Preço": "463,48"
  },
  {
    "Código": "HM07286",
    "Descrição": "ABRAÇADEIRA ESTRIBO AÇO CARBONO L=30 CM BARRA CHATA DOBRADA PARA TELHADO DE MADEIRA",
    "Unid. Med.": "un",
-   "Preço": "49,50"
+   "Preço": "34,14"
  },
  {
    "Código": "EL02357",
@@ -315,19 +315,19 @@ const baseMateriais = [
    "Código": "HM07515",
    "Descrição": "ACESSÓRIOS PARA FLANGE DN=1.000 PN10 (PARAFUSOS, PORCAS E ARRUELAS GALVANIZADOS E VEDAÇÃO PAPELÃO HIDRÁULICO)",
    "Unid. Med.": "CJ",
-   "Preço": "4.994,29"
+   "Preço": "4.673,88"
  },
  {
    "Código": "HM07498",
    "Descrição": "ACESSÓRIOS PARA FLANGE DN=1.000 PN10 (PARAFUSOS, PORCAS E ARRUELAS INOX E VEDAÇÃO PAPELÃO HIDRÁULICO)",
    "Unid. Med.": "CJ",
-   "Preço": "25.514,80"
+   "Preço": "25.724,00"
  },
  {
    "Código": "HM01290",
    "Descrição": "ACESSÓRIOS PARA FLANGE DN=1.000 PN10 AÇO GALV D=1 1/4\" X L=6 1/4\" 28 CJ (PARAFUSO, PORCA E ARRUELA) NORMA 0100-400-E027 FL3/3",
    "Unid. Med.": "un",
-   "Preço": "3.156,44"
+   "Preço": "2.458,68"
  },
  {
    "Código": "HM06113",
@@ -339,19 +339,19 @@ const baseMateriais = [
    "Código": "HM07516",
    "Descrição": "ACESSÓRIOS PARA FLANGE DN=1.200 PN10 (PARAFUSOS, PORCAS E ARRUELAS GALVANIZADOS E VEDAÇÃO PAPELÃO HIDRÁULICO)",
    "Unid. Med.": "CJ",
-   "Preço": "9.512,48"
+   "Preço": "9.686,60"
  },
  {
    "Código": "HM07499",
    "Descrição": "ACESSÓRIOS PARA FLANGE DN=1.200 PN10 (PARAFUSOS, PORCAS E ARRUELAS INOX E VEDAÇÃO PAPELÃO HIDRÁULICO)",
    "Unid. Med.": "CJ",
-   "Preço": "39.914,40"
+   "Preço": "39.546,76"
  },
  {
    "Código": "HM01291",
    "Descrição": "ACESSÓRIOS PARA FLANGE DN=1.200 PN10 AÇO GALV D=1 3/8\" X L=6 1/2\" 32 CJ (PARAFUSO, PORCA E ARRUELA) NORMA 0100-400-E027 FL3/3",
    "Unid. Med.": "un",
-   "Preço": "6.812,48"
+   "Preço": "7.354,24"
  },
  {
    "Código": "HM06116",
@@ -363,19 +363,19 @@ const baseMateriais = [
    "Código": "HM07502",
    "Descrição": "ACESSÓRIOS PARA FLANGE DN=100 PN10 (PARAFUSOS, PORCAS E ARRUELAS GALVANIZADOS E VEDAÇÃO BORRACHA)",
    "Unid. Med.": "CJ",
-   "Preço": "125,20"
+   "Preço": "100,64"
  },
  {
    "Código": "HM07485",
    "Descrição": "ACESSÓRIOS PARA FLANGE DN=100 PN10 (PARAFUSOS, PORCAS E ARRUELAS INOX E VEDAÇÃO BORRACHA)",
    "Unid. Med.": "CJ",
-   "Preço": "660,40"
+   "Preço": "640,24"
  },
  {
    "Código": "HM01292",
    "Descrição": "ACESSÓRIOS PARA FLANGE DN=100 PN10 AÇO GALV D=5/8\" X L=2 3/4\" 8 CJ (PARAFUSO, PORCA E ARRUELA) NORMA 0100-400-E027 FL3/3",
    "Unid. Med.": "un",
-   "Preço": "85,60"
+   "Preço": "81,20"
  },
  {
    "Código": "HM06125",
@@ -387,19 +387,19 @@ const baseMateriais = [
    "Código": "HM07503",
    "Descrição": "ACESSÓRIOS PARA FLANGE DN=150 PN10 (PARAFUSOS, PORCAS E ARRUELAS GALVANIZADOS E VEDAÇÃO BORRACHA)",
    "Unid. Med.": "CJ",
-   "Preço": "183,58"
+   "Preço": "168,10"
  },
  {
    "Código": "HM07486",
    "Descrição": "ACESSÓRIOS PARA FLANGE DN=150 PN10 (PARAFUSOS, PORCAS E ARRUELAS INOX E VEDAÇÃO BORRACHA)",
    "Unid. Med.": "CJ",
-   "Preço": "1.100,94"
+   "Preço": "1.093,62"
  },
  {
    "Código": "HM01293",
    "Descrição": "ACESSÓRIOS PARA FLANGE DN=150 PN10 AÇO GALV D=3/4\" X L=2 3/4\" 8 CJ (PARAFUSO, PORCA E ARRUELA) NORMA 0100-400-E027 FL3/3",
    "Unid. Med.": "un",
-   "Preço": "137,04"
+   "Preço": "128,88"
  },
  {
    "Código": "HM06119",
@@ -411,19 +411,19 @@ const baseMateriais = [
    "Código": "HM07504",
    "Descrição": "ACESSÓRIOS PARA FLANGE DN=200 PN10 (PARAFUSOS, PORCAS E ARRUELAS GALVANIZADOS E VEDAÇÃO BORRACHA)",
    "Unid. Med.": "CJ",
-   "Preço": "204,24"
+   "Preço": "195,80"
  },
  {
    "Código": "HM07487",
    "Descrição": "ACESSÓRIOS PARA FLANGE DN=200 PN10 (PARAFUSOS, PORCAS E ARRUELAS INOX E VEDAÇÃO BORRACHA)",
    "Unid. Med.": "CJ",
-   "Preço": "1.121,60"
+   "Preço": "1.121,32"
  },
  {
    "Código": "HM01294",
    "Descrição": "ACESSÓRIOS PARA FLANGE DN=200 PN10 AÇO GALV D=3/4\" X L=3 1/2\" 8 CJ (PARAFUSO, PORCA E ARRUELA) NORMA 0100-400-E027 FL3/3",
    "Unid. Med.": "un",
-   "Preço": "137,04"
+   "Preço": "128,88"
  },
  {
    "Código": "HM06123",
@@ -435,19 +435,19 @@ const baseMateriais = [
    "Código": "HM07505",
    "Descrição": "ACESSÓRIOS PARA FLANGE DN=250 PN10 (PARAFUSOS, PORCAS E ARRUELAS GALVANIZADOS E VEDAÇÃO BORRACHA)",
    "Unid. Med.": "CJ",
-   "Preço": "226,82"
+   "Preço": "267,22"
  },
  {
    "Código": "HM07488",
    "Descrição": "ACESSÓRIOS PARA FLANGE DN=250 PN10 (PARAFUSOS, PORCAS E ARRUELAS INOX E VEDAÇÃO BORRACHA)",
    "Unid. Med.": "CJ",
-   "Preço": "1.664,14"
+   "Preço": "1.655,50"
  },
  {
    "Código": "HM01295",
    "Descrição": "ACESSÓRIOS PARA FLANGE DN=250 PN10 AÇO GALV D=3/4\" X L=3 1/2\" 12 CJ (PARAFUSO, PORCA E ARRUELA) NORMA 0100-400-E027 FL3/3",
    "Unid. Med.": "un",
-   "Preço": "205,56"
+   "Preço": "193,32"
  },
  {
    "Código": "HM06120",
@@ -459,19 +459,19 @@ const baseMateriais = [
    "Código": "HM07506",
    "Descrição": "ACESSÓRIOS PARA FLANGE DN=300 PN10 (PARAFUSOS, PORCAS E ARRUELAS GALVANIZADOS E VEDAÇÃO BORRACHA)",
    "Unid. Med.": "CJ",
-   "Preço": "313,68"
+   "Preço": "277,84"
  },
  {
    "Código": "HM07489",
    "Descrição": "ACESSÓRIOS PARA FLANGE DN=300 PN10 (PARAFUSOS, PORCAS E ARRUELAS INOX E VEDAÇÃO BORRACHA)",
    "Unid. Med.": "CJ",
-   "Preço": "1.689,72"
+   "Preço": "1.666,12"
  },
  {
    "Código": "HM01296",
    "Descrição": "ACESSÓRIOS PARA FLANGE DN=300 PN10 AÇO GALV D=3/4\" X L=3 1/2\" 12 CJ (PARAFUSO, PORCA E ARRUELA) NORMA 0100-400-E027 FL3/3",
    "Unid. Med.": "un",
-   "Preço": "205,56"
+   "Preço": "193,32"
  },
  {
    "Código": "HM06121",
@@ -483,19 +483,19 @@ const baseMateriais = [
    "Código": "HM07507",
    "Descrição": "ACESSÓRIOS PARA FLANGE DN=350 PN10 (PARAFUSOS, PORCAS E ARRUELAS GALVANIZADOS E VEDAÇÃO BORRACHA)",
    "Unid. Med.": "CJ",
-   "Preço": "409,98"
+   "Preço": "360,54"
  },
  {
    "Código": "HM07490",
    "Descrição": "ACESSÓRIOS PARA FLANGE DN=350 PN10 (PARAFUSOS, PORCAS E ARRUELAS INOX E VEDAÇÃO BORRACHA)",
    "Unid. Med.": "CJ",
-   "Preço": "2.244,70"
+   "Preço": "2.211,58"
  },
  {
    "Código": "HM01297",
    "Descrição": "ACESSÓRIOS PARA FLANGE DN=350 PN10 AÇO GALV D=3/4\" X L=3 1/2\" 16 CJ (PARAFUSO, PORCA E ARRUELA) NORMA 0100-400-E027 FL3/3",
    "Unid. Med.": "un",
-   "Preço": "274,08"
+   "Preço": "257,76"
  },
  {
    "Código": "HM06122",
@@ -507,13 +507,13 @@ const baseMateriais = [
    "Código": "HM07491",
    "Descrição": "ACESSÓRIOS PARA FLANGE DN=400 PN10 (PARAFUSOS, PORCAS E ARRUELAS INOX E VEDAÇÃO BORRACHA)",
    "Unid. Med.": "CJ",
-   "Preço": "3.418,78"
+   "Preço": "3.385,66"
  },
  {
    "Código": "HM01298",
    "Descrição": "ACESSÓRIOS PARA FLANGE DN=400 PN10 AÇO GALV D=7/8\" X L=4\" 16 CJ (PARAFUSO, PORCA E ARRUELA) NORMA 0100-400-E027 FL3/3",
    "Unid. Med.": "un",
-   "Preço": "438,24"
+   "Preço": "409,28"
  },
  {
    "Código": "HM06127",
@@ -525,25 +525,25 @@ const baseMateriais = [
    "Código": "HM07508",
    "Descrição": "ACESSÓRIOS PARA FLANGE DN=400 PN10(PARAFUSOS, PORCAS E ARRUELAS GALVANIZADOS E VEDAÇÃO BORRACHA)",
    "Unid. Med.": "CJ",
-   "Preço": "574,14"
+   "Preço": "512,06"
  },
  {
    "Código": "HM07509",
    "Descrição": "ACESSÓRIOS PARA FLANGE DN=450 PN10 (PARAFUSOS, PORCAS E ARRUELAS GALVANIZADOS E VEDAÇÃO BORRACHA)",
    "Unid. Med.": "CJ",
-   "Preço": "715,56"
+   "Preço": "668,06"
  },
  {
    "Código": "HM07492",
    "Descrição": "ACESSÓRIOS PARA FLANGE DN=450 PN10 (PARAFUSOS, PORCAS E ARRUELAS INOX E VEDAÇÃO BORRACHA)",
    "Unid. Med.": "CJ",
-   "Preço": "4.271,36"
+   "Preço": "4.260,06"
  },
  {
    "Código": "HM01299",
    "Descrição": "ACESSÓRIOS PARA FLANGE DN=450 PN10 AÇO GALV D=7/8\" X L=4\" 20 CJ (PARAFUSO, PORCA E ARRUELA) NORMA 0100-400-E027 FL3/3",
    "Unid. Med.": "un",
-   "Preço": "547,80"
+   "Preço": "511,60"
  },
  {
    "Código": "HM06128",
@@ -555,19 +555,19 @@ const baseMateriais = [
    "Código": "HM07500",
    "Descrição": "ACESSÓRIOS PARA FLANGE DN=50 PN10 (PARAFUSOS, PORCAS E ARRUELAS GALVANIZADOS E VEDAÇÃO BORRACHA)",
    "Unid. Med.": "CJ",
-   "Preço": "50,73"
+   "Preço": "53,92"
  },
  {
    "Código": "HM07483",
    "Descrição": "ACESSÓRIOS PARA FLANGE DN=50 PN10 (PARAFUSOS, PORCAS E ARRUELAS INOX E VEDAÇÃO BORRACHA)",
    "Unid. Med.": "CJ",
-   "Preço": "335,50"
+   "Preço": "323,72"
  },
  {
    "Código": "HM01300",
    "Descrição": "ACESSÓRIOS PARA FLANGE DN=50 PN10 AÇO GALV D=5/8\" X L=2 3/4\" 4 CJ (PARAFUSO, PORCA E ARRUELA) NORMA 0100-400-E027 FL3/3",
    "Unid. Med.": "un",
-   "Preço": "42,80"
+   "Preço": "40,60"
  },
  {
    "Código": "HM06124",
@@ -579,19 +579,19 @@ const baseMateriais = [
    "Código": "HM07510",
    "Descrição": "ACESSÓRIOS PARA FLANGE DN=500 PN10 (PARAFUSOS, PORCAS E ARRUELAS GALVANIZADOS E VEDAÇÃO BORRACHA)",
    "Unid. Med.": "CJ",
-   "Preço": "715,56"
+   "Preço": "668,06"
  },
  {
    "Código": "HM07493",
    "Descrição": "ACESSÓRIOS PARA FLANGE DN=500 PN10 (PARAFUSOS, PORCAS E ARRUELAS INOX E VEDAÇÃO BORRACHA)",
    "Unid. Med.": "CJ",
-   "Preço": "4.271,36"
+   "Preço": "4.260,06"
  },
  {
    "Código": "HM01301",
    "Descrição": "ACESSÓRIOS PARA FLANGE DN=500 PN10 AÇO GALV D=7/8\" X L=4\" 20 CJ (PARAFUSO, PORCA E ARRUELA) NORMA 0100-400-E027 FL3/3",
    "Unid. Med.": "un",
-   "Preço": "547,80"
+   "Preço": "511,60"
  },
  {
    "Código": "HM06129",
@@ -603,19 +603,19 @@ const baseMateriais = [
    "Código": "HM07511",
    "Descrição": "ACESSÓRIOS PARA FLANGE DN=600 PN10 (PARAFUSOS, PORCAS E ARRUELAS GALVANIZADOS E VEDAÇÃO PAPELÃO HIDRÁULICO)",
    "Unid. Med.": "CJ",
-   "Preço": "1.837,46"
+   "Preço": "1.996,08"
  },
  {
    "Código": "HM07494",
    "Descrição": "ACESSÓRIOS PARA FLANGE DN=600 PN10 (PARAFUSOS, PORCAS E ARRUELAS INOX E VEDAÇÃO PAPELÃO HIDRÁULICO)",
    "Unid. Med.": "CJ",
-   "Preço": "8.773,74"
+   "Preço": "8.977,76"
  },
  {
    "Código": "HM01302",
    "Descrição": "ACESSÓRIOS PARA FLANGE DN=600 PN10 AÇO GALV D=1\" X L=4 1/2\" 20 CJ (PARAFUSO, PORCA E ARRUELA) NORMA 0100-400-E027 FL3/3",
    "Unid. Med.": "un",
-   "Preço": "779,00"
+   "Preço": "733,60"
  },
  {
    "Código": "HM06117",
@@ -627,19 +627,19 @@ const baseMateriais = [
    "Código": "HM07512",
    "Descrição": "ACESSÓRIOS PARA FLANGE DN=700 PN10 (PARAFUSOS, PORCAS E ARRUELAS GALVANIZADOS E VEDAÇÃO PAPELÃO HIDRÁULICO)",
    "Unid. Med.": "CJ",
-   "Preço": "2.605,01"
+   "Preço": "2.821,02"
  },
  {
    "Código": "HM07495",
    "Descrição": "ACESSÓRIOS PARA FLANGE DN=700 PN10 (PARAFUSOS, PORCAS E ARRUELAS INOX E VEDAÇÃO PAPELÃO HIDRÁULICO)",
    "Unid. Med.": "CJ",
-   "Preço": "9.603,08"
+   "Preço": "9.655,98"
  },
  {
    "Código": "HM01303",
    "Descrição": "ACESSÓRIOS PARA FLANGE DN=700 PN10 AÇO GALV D=1\" X L=4 1/2\" 24 CJ (PARAFUSO, PORCA E ARRUELA) NORMA 0100-400-E027 FL3/3",
    "Unid. Med.": "un",
-   "Preço": "934,80"
+   "Preço": "880,32"
  },
  {
    "Código": "HM06118",
@@ -651,19 +651,19 @@ const baseMateriais = [
    "Código": "HM07501",
    "Descrição": "ACESSÓRIOS PARA FLANGE DN=80 PN10 (PARAFUSOS, PORCAS E ARRUELAS GALVANIZADOS E VEDAÇÃO BORRACHA)",
    "Unid. Med.": "CJ",
-   "Preço": "125,20"
+   "Preço": "100,64"
  },
  {
    "Código": "HM07484",
    "Descrição": "ACESSÓRIOS PARA FLANGE DN=80 PN10 (PARAFUSOS, PORCAS E ARRUELAS INOX E VEDAÇÃO BORRACHA)",
    "Unid. Med.": "CJ",
-   "Preço": "660,40"
+   "Preço": "640,24"
  },
  {
    "Código": "HM01304",
    "Descrição": "ACESSÓRIOS PARA FLANGE DN=80 PN10 AÇO GALV D=5/8\" X L=2 3/4\" 8 CJ (PARAFUSO, PORCA E ARRUELA) NORMA 0100-400-E027 FL3/3",
    "Unid. Med.": "un",
-   "Preço": "85,60"
+   "Preço": "81,20"
  },
  {
    "Código": "HM06126",
@@ -675,19 +675,19 @@ const baseMateriais = [
    "Código": "HM07513",
    "Descrição": "ACESSÓRIOS PARA FLANGE DN=800 PN10 (PARAFUSOS, PORCAS E ARRUELAS GALVANIZADOS E VEDAÇÃO PAPELÃO HIDRÁULICO)",
    "Unid. Med.": "CJ",
-   "Preço": "3.327,14"
+   "Preço": "3.597,42"
  },
  {
    "Código": "HM07496",
    "Descrição": "ACESSÓRIOS PARA FLANGE DN=800 PN10 (PARAFUSOS, PORCAS E ARRUELAS INOX E VEDAÇÃO PAPELÃO HIDRÁULICO)",
    "Unid. Med.": "CJ",
-   "Preço": "16.216,56"
+   "Preço": "16.359,58"
  },
  {
    "Código": "HM01305",
    "Descrição": "ACESSÓRIOS PARA FLANGE DN=800 PN10 AÇO GALV D=1 1/8\" X L=5 1/4\" 24 CJ (PARAFUSO, PORCA E ARRUELA) NORMA 0100-400-E027 FL3/3",
    "Unid. Med.": "un",
-   "Preço": "1.957,20"
+   "Preço": "1.488,72"
  },
  {
    "Código": "HM06114",
@@ -699,19 +699,19 @@ const baseMateriais = [
    "Código": "HM07514",
    "Descrição": "ACESSÓRIOS PARA FLANGE DN=900 PN10 (PARAFUSOS, PORCAS E ARRUELAS GALVANIZADOS E VEDAÇÃO PAPELÃO HIDRÁULICO)",
    "Unid. Med.": "CJ",
-   "Preço": "3.795,58"
+   "Preço": "3.866,84"
  },
  {
    "Código": "HM07497",
    "Descrição": "ACESSÓRIOS PARA FLANGE DN=900 PN10 (PARAFUSOS, PORCAS E ARRUELAS INOX E VEDAÇÃO PAPELÃO HIDRÁULICO)",
    "Unid. Med.": "CJ",
-   "Preço": "16.430,88"
+   "Preço": "16.380,88"
  },
  {
    "Código": "HM01306",
    "Descrição": "ACESSÓRIOS PARA FLANGE DN=900 PN10 AÇO GALV D=1 1/8\" X L=5 1/4\" 28 CJ (PARAFUSO, PORCA E ARRUELA) NORMA 0100-400-E027 FL3/3",
    "Unid. Med.": "un",
-   "Preço": "2.283,40"
+   "Preço": "1.736,84"
  },
  {
    "Código": "HM06115",
@@ -729,13 +729,13 @@ const baseMateriais = [
    "Código": "HM01816",
    "Descrição": "ADAPTADOR COMPRESSÃO POLIPROPILENO DE=20 MM NTS 179 PARA RAMAL PREDIAL",
    "Unid. Med.": "un",
-   "Preço": "3,89"
+   "Preço": "4,65"
  },
  {
    "Código": "HM01817",
    "Descrição": "ADAPTADOR COMPRESSÃO POLIPROPILENO DE=32 MM NTS 179 PARA RAMAL PREDIAL",
    "Unid. Med.": "un",
-   "Preço": "13,20"
+   "Preço": "13,23"
  },
  {
    "Código": "HM01935",
@@ -759,73 +759,73 @@ const baseMateriais = [
    "Código": "HM01631",
    "Descrição": "ADAPTADOR PVC D=1/2\" ROSCÁVEL COM ANEL DE VEDAÇÃO PARA CAIXA D'ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "21,26"
+   "Preço": "16,50"
  },
  {
    "Código": "HM01632",
    "Descrição": "ADAPTADOR PVC D=2\" ROSCÁVEL COM ANEL DE VEDAÇÃO PARA CAIXA D'ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "72,09"
+   "Preço": "86,32"
  },
  {
    "Código": "HM01818",
    "Descrição": "ADAPTADOR PVC D=20 MM X 3/4\" COM REGISTRO PARA RAMAL PREDIAL",
    "Unid. Med.": "un",
-   "Preço": "13,58"
+   "Preço": "10,91"
  },
  {
    "Código": "HM01633",
    "Descrição": "ADAPTADOR PVC D=3/4\" ROSCÁVEL COM ANEL DE VEDAÇÃO PARA CAIXA D'ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "24,08"
+   "Preço": "19,90"
  },
  {
    "Código": "HM01860",
    "Descrição": "ADAPTADOR PVC DE=110 MM PARA LIGAR PONTA DE PVC A BOLSA DE FERRO FUNDIDO ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "37,82"
+   "Preço": "41,10"
  },
  {
    "Código": "HM01861",
    "Descrição": "ADAPTADOR PVC DE=60 MM PARA LIGAR PONTA DE PVC A BOLSA DE FERRO FUNDIDO ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "11,75"
+   "Preço": "9,66"
  },
  {
    "Código": "HM01862",
    "Descrição": "ADAPTADOR PVC DE=85 MM PARA LIGAR PONTA DE PVC A BOLSA DE FERRO FUNDIDO ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "22,23"
+   "Preço": "21,08"
  },
  {
    "Código": "HM01864",
    "Descrição": "ADAPTADOR PVC PBA BOLSA/ROSCA DE=60 MM X 2\" NBR 10351 INFRAESTRUTURA ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "20,60"
+   "Preço": "24,48"
  },
  {
    "Código": "HM04256",
    "Descrição": "ADAPTADOR PVC/PBA FERRO FUNDIDO DE=110 MM * (6,40 KG) LIGAR PONTA TUBO PVC C/BOLSA TUBO FERRO FUNDIDO - PINTURA EPÓXI NBR 15880 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "231,51"
+   "Preço": "172,67"
  },
  {
    "Código": "HM04254",
    "Descrição": "ADAPTADOR PVC/PBA FERRO FUNDIDO DE=60 MM * (2,50 KG) LIGAR PONTA TUBO PVC C/BOLSA TUBO FERRO FUNDIDO - PINTURA EPÓXI NBR 15880 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "104,99"
+   "Preço": "78,78"
  },
  {
    "Código": "HM04255",
    "Descrição": "ADAPTADOR PVC/PBA FERRO FUNDIDO DE=85 MM * (3,70 KG) LIGAR PONTA TUBO PVC C/BOLSA TUBO FERRO FUNDIDO - PINTURA EPÓXI NBR 15880 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "141,73"
+   "Preço": "107,95"
  },
  {
    "Código": "HM01454",
    "Descrição": "ADAPTADOR SOLDÁVEL CURTO PVC - BOLSA E ROSCA P/REGISTRO - DN=25 MM X 3/4\"",
    "Unid. Med.": "un",
-   "Preço": "1,01"
+   "Preço": "0,97"
  },
  {
    "Código": "CV05937",
@@ -861,25 +861,25 @@ const baseMateriais = [
    "Código": "MO00002",
    "Descrição": "AJUDANTE",
    "Unid. Med.": "H",
-   "Preço": "9,28"
+   "Preço": "9,72"
  },
  {
    "Código": "MO00003",
    "Descrição": "AJUDANTE DE CARPINTEIRO",
    "Unid. Med.": "H",
-   "Preço": "9,43"
+   "Preço": "9,88"
  },
  {
    "Código": "MO00007",
    "Descrição": "AJUDANTE DE ELETRICISTA",
    "Unid. Med.": "H",
-   "Preço": "9,48"
+   "Preço": "9,93"
  },
  {
    "Código": "MO00006",
    "Descrição": "AJUDANTE DE MONTAGEM",
    "Unid. Med.": "H",
-   "Preço": "9,43"
+   "Preço": "9,88"
  },
  {
    "Código": "EL02499",
@@ -1017,13 +1017,13 @@ const baseMateriais = [
    "Código": "EQ07281",
    "Descrição": "APARELHO SMARTPHONE COM ANDROID E GPS",
    "Unid. Med.": "H",
-   "Preço": "0,77"
+   "Preço": "0,80"
  },
  {
    "Código": "MO00010",
    "Descrição": "APONTADOR DE MÃO-DE-OBRA",
    "Unid. Med.": "H",
-   "Preço": "12,13"
+   "Preço": "12,70"
  },
  {
    "Código": "CV00240",
@@ -1155,145 +1155,145 @@ const baseMateriais = [
    "Código": "HM07300",
    "Descrição": "ARRUELA DE VEDAÇÃO BORRACHA NATURAL NR1087 C/1 LONA E=3MM DE=165MM DI=65MM P/FLANGE PN10 DN50 FACE PLENA",
    "Unid. Med.": "un",
-   "Preço": "12,55"
+   "Preço": "6,66"
  },
  {
    "Código": "HM07301",
    "Descrição": "ARRUELA DE VEDAÇÃO BORRACHA NATURAL NR1087 C/1 LONA E=3MM DE=220MM DI=119MM P/FLANGE PN10 DN80/100 FACE PLENA",
    "Unid. Med.": "un",
-   "Preço": "19,80"
+   "Preço": "9,72"
  },
  {
    "Código": "HM07302",
    "Descrição": "ARRUELA DE VEDAÇÃO BORRACHA NATURAL NR1087 C/1 LONA E=3MM DE=285MM DI=173MM P/FLANGE PN10 DN150 FACE PLENA",
    "Unid. Med.": "un",
-   "Preço": "23,27"
+   "Preço": "19,61"
  },
  {
    "Código": "HM07303",
    "Descrição": "ARRUELA DE VEDAÇÃO BORRACHA NATURAL NR1087 C/1 LONA E=3MM DE=340MM DI=224MM P/FLANGE PN10 DN200 FACE PLENA",
    "Unid. Med.": "un",
-   "Preço": "33,60"
+   "Preço": "33,46"
  },
  {
    "Código": "HM07304",
    "Descrição": "ARRUELA DE VEDAÇÃO BORRACHA NATURAL NR1087 C/1 LONA E=3MM DE=400MM DI=278MM P/FLANGE PN10 DN250 FACE PLENA",
    "Unid. Med.": "un",
-   "Preço": "41,27"
+   "Preço": "36,95"
  },
  {
    "Código": "HM07305",
    "Descrição": "ARRUELA DE VEDAÇÃO BORRACHA NATURAL NR1087 C/1 LONA E=3MM DE=455MM DI=329MM P/FLANGE PN10 DN300 FACE PLENA",
    "Unid. Med.": "un",
-   "Preço": "54,06"
+   "Preço": "42,26"
  },
  {
    "Código": "HM07306",
    "Descrição": "ARRUELA DE VEDAÇÃO BORRACHA NATURAL NR1087 C/1 LONA E=3MM DE=565MM DI=411MM P/FLANGE PN10 DN350/400 FACE PLENA",
    "Unid. Med.": "un",
-   "Preço": "67,95"
+   "Preço": "51,39"
  },
  {
    "Código": "HM07307",
    "Descrição": "ARRUELA DE VEDAÇÃO BORRACHA NATURAL NR1087 C/1 LONA E=3MM DE=670MM DI=513MM P/FLANGE PN10 DN450/500 FACE PLENA",
    "Unid. Med.": "un",
-   "Preço": "83,88"
+   "Preço": "78,23"
  },
  {
    "Código": "HM07318",
    "Descrição": "ARRUELA DE VEDAÇÃO PAPELÃO HIDRÁULICO NA1002 E=3MM DE=1085MM DI=818MM P/FLANGE PN10/16/25 DN800 FACE PLENA",
    "Unid. Med.": "un",
-   "Preço": "982,84"
+   "Preço": "1.054,35"
  },
  {
    "Código": "HM07319",
    "Descrição": "ARRUELA DE VEDAÇÃO PAPELÃO HIDRÁULICO NA1002 E=3MM DE=1185MM DI=919MM P/FLANGE PN10/16/25 DN900 FACE PLENA",
    "Unid. Med.": "un",
-   "Preço": "1.090,00"
+   "Preço": "1.065,00"
  },
  {
    "Código": "HM07320",
    "Descrição": "ARRUELA DE VEDAÇÃO PAPELÃO HIDRÁULICO NA1002 E=3MM DE=1320MM DI=1021MM P/FLANGE PN10/16/25 DN1000 FACE PLENA",
    "Unid. Med.": "un",
-   "Preço": "1.003,00"
+   "Preço": "1.107,60"
  },
  {
    "Código": "HM07321",
    "Descrição": "ARRUELA DE VEDAÇÃO PAPELÃO HIDRÁULICO NA1002 E=3MM DE=1530MM DI=1224MM P/FLANGE PN10/16/25 DN1200 FACE PLENA",
    "Unid. Med.": "un",
-   "Preço": "1.350,00"
+   "Preço": "1.166,18"
  },
  {
    "Código": "HM07308",
    "Descrição": "ARRUELA DE VEDAÇÃO PAPELÃO HIDRÁULICO NA1002 E=3MM DE=165MM DI=65MM P/FLANGE PN16/25 DN50 FACE PLENA",
    "Unid. Med.": "un",
-   "Preço": "22,33"
+   "Preço": "26,53"
  },
  {
    "Código": "HM07309",
    "Descrição": "ARRUELA DE VEDAÇÃO PAPELÃO HIDRÁULICO NA1002 E=3MM DE=235MM DI=119MM P/FLANGE PN16/25 DN80/100 FACE PLENA",
    "Unid. Med.": "un",
-   "Preço": "44,33"
+   "Preço": "45,06"
  },
  {
    "Código": "HM07310",
    "Descrição": "ARRUELA DE VEDAÇÃO PAPELÃO HIDRÁULICO NA1002 E=3MM DE=300MM DI=173MM P/FLANGE PN16/25 DN150 FACE PLENA",
    "Unid. Med.": "un",
-   "Preço": "50,87"
+   "Preço": "73,88"
  },
  {
    "Código": "HM07311",
    "Descrição": "ARRUELA DE VEDAÇÃO PAPELÃO HIDRÁULICO NA1002 E=3MM DE=360MM DI=224MM P/FLANGE PN16/25 DN200 FACE PLENA",
    "Unid. Med.": "un",
-   "Preço": "79,50"
+   "Preço": "85,90"
  },
  {
    "Código": "HM07312",
    "Descrição": "ARRUELA DE VEDAÇÃO PAPELÃO HIDRÁULICO NA1002 E=3MM DE=425MM DI=278MM P/FLANGE PN16/25 DN250 FACE PLENA",
    "Unid. Med.": "un",
-   "Preço": "107,57"
+   "Preço": "135,36"
  },
  {
    "Código": "HM07313",
    "Descrição": "ARRUELA DE VEDAÇÃO PAPELÃO HIDRÁULICO NA1002 E=3MM DE=485MM DI=329MM P/FLANGE PN16/25 DN300 FACE PLENA",
    "Unid. Med.": "un",
-   "Preço": "125,98"
+   "Preço": "147,62"
  },
  {
    "Código": "HM07314",
    "Descrição": "ARRUELA DE VEDAÇÃO PAPELÃO HIDRÁULICO NA1002 E=3MM DE=620MM DI=411MM P/FLANGE PN16/25 DN350/400 FACE PLENA",
    "Unid. Med.": "un",
-   "Preço": "244,50"
+   "Preço": "284,69"
  },
  {
    "Código": "HM07315",
    "Descrição": "ARRUELA DE VEDAÇÃO PAPELÃO HIDRÁULICO NA1002 E=3MM DE=730MM DI=513MM P/FLANGE PN16/25 DN450/500 FACE PLENA",
    "Unid. Med.": "un",
-   "Preço": "320,76"
+   "Preço": "325,40"
  },
  {
    "Código": "HM07316",
    "Descrição": "ARRUELA DE VEDAÇÃO PAPELÃO HIDRÁULICO NA1002 E=3MM DE=845MM DI=614MM P/FLANGE PN10/16/25 DN600 FACE PLENA",
    "Unid. Med.": "un",
-   "Preço": "529,23"
+   "Preço": "631,24"
  },
  {
    "Código": "HM07317",
    "Descrição": "ARRUELA DE VEDAÇÃO PAPELÃO HIDRÁULICO NA1002 E=3MM DE=960MM DI=716MM P/FLANGE PN10/16/25 DN700 FACE PLENA",
    "Unid. Med.": "un",
-   "Preço": "943,90"
+   "Preço": "970,35"
  },
  {
    "Código": "HM07621",
    "Descrição": "ARRUELA LISA AÇO INOX D=1/2\" AISI 304",
    "Unid. Med.": "un",
-   "Preço": "0,71"
+   "Preço": "0,80"
  },
  {
    "Código": "HM07620",
    "Descrição": "ARRUELA LISA AÇO INOX D=3/8\" AISI 304",
    "Unid. Med.": "un",
-   "Preço": "0,18"
+   "Preço": "0,23"
  },
  {
    "Código": "CV00534",
@@ -1317,25 +1317,25 @@ const baseMateriais = [
    "Código": "MO00018",
    "Descrição": "AUXILIAR DE CORTE BISEL",
    "Unid. Med.": "H",
-   "Preço": "10,82"
+   "Preço": "11,33"
  },
  {
    "Código": "MO00019",
    "Descrição": "AUXILIAR DE SONDAGEM",
    "Unid. Med.": "H",
-   "Preço": "10,74"
+   "Preço": "11,25"
  },
  {
    "Código": "MO00008",
    "Descrição": "AUXILIAR DE TOPÓGRAFO",
    "Unid. Med.": "H",
-   "Preço": "11,56"
+   "Preço": "12,11"
  },
  {
    "Código": "MO00020",
    "Descrição": "AUXILIAR TÉCNICO",
    "Unid. Med.": "H",
-   "Preço": "18,03"
+   "Preço": "18,88"
  },
  {
    "Código": "CV00457",
@@ -1389,79 +1389,79 @@ const baseMateriais = [
    "Código": "HM00256",
    "Descrição": "BARRA CHATA AÇO 1 1/2\" X 1/2\" MASSA TEÓRICA *(3,79 KG/M) ASTM A36",
    "Unid. Med.": "M",
-   "Preço": "33,02"
+   "Preço": "31,48"
  },
  {
    "Código": "HM00247",
    "Descrição": "BARRA CHATA AÇO 1 1/2\"X 1/4\" MASSA TEÓRICA *(1,8971 KG/M) ASTM A36",
    "Unid. Med.": "M",
-   "Preço": "16,34"
+   "Preço": "16,05"
  },
  {
    "Código": "HM00259",
    "Descrição": "BARRA CHATA AÇO 1\" X 1/4\" MASSA TEÓRICA *(1,265 KG/M) ASTM A36",
    "Unid. Med.": "M",
-   "Preço": "10,42"
+   "Preço": "10,51"
  },
  {
    "Código": "HM00248",
    "Descrição": "BARRA CHATA AÇO 1\" X 3/16\" MASSA TEÓRICA *(0,95 KG/M) ASTM A36",
    "Unid. Med.": "M",
-   "Preço": "8,19"
+   "Preço": "7,97"
  },
  {
    "Código": "HM00249",
    "Descrição": "BARRA CHATA AÇO 2\" X 1\" MASSA TEÓRICA *(10,12 KG/M) ASTM A36",
    "Unid. Med.": "M",
-   "Preço": "90,97"
+   "Preço": "86,25"
  },
  {
    "Código": "HM00250",
    "Descrição": "BARRA CHATA AÇO 2\" X 1/2\" MASSA TEÓRICA *(5,06 KG/M) ASTM A36",
    "Unid. Med.": "M",
-   "Preço": "42,94"
+   "Preço": "41,99"
  },
  {
    "Código": "HM00251",
    "Descrição": "BARRA CHATA AÇO 2\" X 1/4\" MASSA TEÓRICA *(2,53 KG/M) ASTM A36",
    "Unid. Med.": "M",
-   "Preço": "21,44"
+   "Preço": "21,02"
  },
  {
    "Código": "HM00252",
    "Descrição": "BARRA CHATA AÇO 2\" X 3/8\" MASSA TEÓRICA *(3,795 KG/M) ASTM A36",
    "Unid. Med.": "M",
-   "Preço": "32,26"
+   "Preço": "31,38"
  },
  {
    "Código": "HM00255",
    "Descrição": "BARRA CHATA AÇO 2\" X 5/16\" MASSA TEÓRICA *(3,162 KG/M) ASTM A36",
    "Unid. Med.": "M",
-   "Preço": "27,04"
+   "Preço": "27,50"
  },
  {
    "Código": "HM00253",
    "Descrição": "BARRA CHATA AÇO 3/4\" X 1/8\" MASSA TEÓRICA *(0,474 KG/M) ASTM A36",
    "Unid. Med.": "M",
-   "Preço": "4,00"
+   "Preço": "3,98"
  },
  {
    "Código": "HM00254",
    "Descrição": "BARRA CHATA AÇO 3/8\" X 1 1/2\" MASSA TEÓRICA *(2,846 KG/M) ASTM A36",
    "Unid. Med.": "M",
-   "Preço": "24,31"
+   "Preço": "23,87"
  },
  {
    "Código": "HM00257",
    "Descrição": "BARRA CHATA AÇO INOX 1\" X 1/4\" MASSA TEÓRICA *(1,27 KG/M) AISI 304",
    "Unid. Med.": "M",
-   "Preço": "31,44"
+   "Preço": "30,16"
  },
  {
    "Código": "HM00258",
    "Descrição": "BARRA CHATA AÇO INOX 2\" X 1/4\" MASSA TEÓRICA *(2,54 KG/M) AISI 304",
    "Unid. Med.": "M",
-   "Preço": "62,87"
+   "Preço": "69,41"
  },
  {
    "Código": "HM07614",
@@ -1485,31 +1485,31 @@ const baseMateriais = [
    "Código": "HM00260",
    "Descrição": "BARRA QUADRADA AÇO 3/4\" MASSA TEÓRICA *(2,850 KG/M)",
    "Unid. Med.": "M",
-   "Preço": "25,61"
+   "Preço": "24,89"
  },
  {
    "Código": "HM00261",
    "Descrição": "BARRA REDONDA AÇO 1/2\" MASSA TEÓRICA *(0,990 KG/M)",
    "Unid. Med.": "M",
-   "Preço": "9,19"
+   "Preço": "9,65"
  },
  {
    "Código": "HM00262",
    "Descrição": "BARRA REDONDA AÇO INOX 5/16\" MASSA TEÓRICA *(0,39KG/M) AISI 304",
    "Unid. Med.": "M",
-   "Preço": "23,07"
+   "Preço": "11,82"
  },
  {
    "Código": "HM07623",
    "Descrição": "BARRA ROSCADA AÇO INOX D=1/2\" X L=1M *(0,796 KG/M) AISI 304",
    "Unid. Med.": "un",
-   "Preço": "30,60"
+   "Preço": "29,83"
  },
  {
    "Código": "HM07622",
    "Descrição": "BARRA ROSCADA AÇO INOX D=3/8\" X L=1M *(0,444 KG/M) AISI 304",
    "Unid. Med.": "un",
-   "Preço": "16,25"
+   "Preço": "18,61"
  },
  {
    "Código": "CV08032",
@@ -1593,7 +1593,7 @@ const baseMateriais = [
    "Código": "EQ04487",
    "Descrição": "BATE ESTACAS COMPLETO, MARTELO DE 2,2 TON, MOTOR DIESEL DE 60CV",
    "Unid. Med.": "H",
-   "Preço": "349,56"
+   "Preço": "356,26"
  },
  {
    "Código": "EQ07891",
@@ -1605,7 +1605,7 @@ const baseMateriais = [
    "Código": "EQ04488",
    "Descrição": "BATE ESTACAS COMPLETO, MARTELO DE 4 TON, MOTOR DIESEL DE 90CV",
    "Unid. Med.": "H",
-   "Preço": "613,69"
+   "Preço": "623,73"
  },
  {
    "Código": "EQ07892",
@@ -1647,7 +1647,7 @@ const baseMateriais = [
    "Código": "EQ04489",
    "Descrição": "BETONEIRA ELÉTRICA ROTATIVA, MOTOR 2CV - CAPACIDADE 400L",
    "Unid. Med.": "H",
-   "Preço": "3,72"
+   "Preço": "3,69"
  },
  {
    "Código": "CV08317",
@@ -1707,7 +1707,7 @@ const baseMateriais = [
    "Código": "EQ04491",
    "Descrição": "BOMBA (MÁQUINA DE PROJEÇÃO) DE CONCRETO/ARGAMASSA * 20CV VIA SECA/ÚMIDA",
    "Unid. Med.": "H",
-   "Preço": "86,66"
+   "Preço": "86,52"
  },
  {
    "Código": "EQ05173",
@@ -1719,7 +1719,7 @@ const baseMateriais = [
    "Código": "EQ08181",
    "Descrição": "BOMBA DE ALTA PRESSÃO DE ATÉ 45 MPA - 150 KW PARA JET GROUTING",
    "Unid. Med.": "H",
-   "Preço": "469,99"
+   "Preço": "496,22"
  },
  {
    "Código": "EQ08182",
@@ -1749,7 +1749,7 @@ const baseMateriais = [
    "Código": "EQ04492",
    "Descrição": "BOMBA SUPERFICIAL AUTO ESCORVANTE, POTÊNCIA DO MOTOR 4HP MANGOTE 2\"",
    "Unid. Med.": "H",
-   "Preço": "9,54"
+   "Preço": "9,90"
  },
  {
    "Código": "EQ05966",
@@ -2055,67 +2055,67 @@ const baseMateriais = [
    "Código": "HM07189",
    "Descrição": "BUCHA REDUÇÃO FERRO GALVANIZADO DN=1 1/2\" X 3/4\" BSP NBR 6943 ÁGUA/GÁS",
    "Unid. Med.": "un",
-   "Preço": "18,16"
+   "Preço": "25,81"
  },
  {
    "Código": "HM07190",
    "Descrição": "BUCHA REDUÇÃO FERRO GALVANIZADO DN=1\" X 3/4\" BSP NBR 6943 ÁGUA/GÁS",
    "Unid. Med.": "un",
-   "Preço": "8,48"
+   "Preço": "11,34"
  },
  {
    "Código": "HM07191",
    "Descrição": "BUCHA REDUÇÃO FERRO GALVANIZADO DN=2 1/2\" X 1 1/2\" BSP NBR 6943 ÁGUA/GÁS",
    "Unid. Med.": "un",
-   "Preço": "36,35"
+   "Preço": "51,72"
  },
  {
    "Código": "HM07192",
    "Descrição": "BUCHA REDUÇÃO FERRO GALVANIZADO DN=2 1/2\" X 1\" BSP NBR 6943 ÁGUA/GÁS",
    "Unid. Med.": "un",
-   "Preço": "32,04"
+   "Preço": "41,65"
  },
  {
    "Código": "HM07193",
    "Descrição": "BUCHA REDUÇÃO FERRO GALVANIZADO DN=2\" X 1 1/2\" BSP NBR 6943 ÁGUA/GÁS",
    "Unid. Med.": "un",
-   "Preço": "29,34"
+   "Preço": "35,44"
  },
  {
    "Código": "HM05231",
    "Descrição": "BUCHA REDUÇÃO FERRO GALVANIZADO DN=2\" X 3/4\" BSP NBR 6943 ÁGUA/GÁS",
    "Unid. Med.": "un",
-   "Preço": "26,95"
+   "Preço": "34,52"
  },
  {
    "Código": "HM07194",
    "Descrição": "BUCHA REDUÇÃO FERRO GALVANIZADO DN=3\" X 2 1/2\" BSP NBR 6943 ÁGUA/GÁS",
    "Unid. Med.": "un",
-   "Preço": "63,57"
+   "Preço": "75,13"
  },
  {
    "Código": "HM07250",
    "Descrição": "BUCHA REDUÇÃO FERRO GALVANIZADO DN=3\" X 2\" BSP NBR 6943 ÁGUA/GÁS",
    "Unid. Med.": "un",
-   "Preço": "57,66"
+   "Preço": "74,87"
  },
  {
    "Código": "HM07195",
    "Descrição": "BUCHA REDUÇÃO FERRO GALVANIZADO DN=4\" X 2 1/2\" BSP NBR 6943 ÁGUA/GÁS",
    "Unid. Med.": "un",
-   "Preço": "108,50"
+   "Preço": "127,21"
  },
  {
    "Código": "HM07251",
    "Descrição": "BUCHA REDUÇÃO FERRO GALVANIZADO DN=4\" X 3\" BSP NBR 6943 ÁGUA/GÁS",
    "Unid. Med.": "un",
-   "Preço": "110,55"
+   "Preço": "137,94"
  },
  {
    "Código": "HM01363",
    "Descrição": "BUJÃO FERRO GALVANIZADO DN=3/4\" BSP NBR 6943 ÁGUA/GÁS",
    "Unid. Med.": "un",
-   "Preço": "5,05"
+   "Preço": "4,18"
  },
  {
    "Código": "EL01134",
@@ -2907,7 +2907,7 @@ const baseMateriais = [
    "Código": "MO00022",
    "Descrição": "CABO DE FOGO",
    "Unid. Med.": "H",
-   "Preço": "18,21"
+   "Preço": "19,07"
  },
  {
    "Código": "EL07178",
@@ -3171,7 +3171,7 @@ const baseMateriais = [
    "Código": "MO00023",
    "Descrição": "CADASTRISTA",
    "Unid. Med.": "H",
-   "Preço": "20,46"
+   "Preço": "21,43"
  },
  {
    "Código": "CV00441",
@@ -3447,7 +3447,7 @@ const baseMateriais = [
    "Código": "HM07522",
    "Descrição": "CAIXA PLÁSTICA UMA PADRÃO SABESP - 1 OU 2 MEDIDORES NTS 303",
    "Unid. Med.": "un",
-   "Preço": "107,69"
+   "Preço": "131,40"
  },
  {
    "Código": "EL02178",
@@ -3483,7 +3483,7 @@ const baseMateriais = [
    "Código": "HM01366",
    "Descrição": "CAIXA TIPO T-5 FERRO FUNDIDO DN 100 MM COM TAMPA ARTICULADA PARA VÁLVULA NTS 033",
    "Unid. Med.": "un",
-   "Preço": "100,00"
+   "Preço": "118,25"
  },
  {
    "Código": "CV07662",
@@ -3537,7 +3537,7 @@ const baseMateriais = [
    "Código": "EQ04493",
    "Descrição": "CAMINHÃO - CAÇAMBA BASCULANTE COM CAPACIDADE DE 4M3 *190CV",
    "Unid. Med.": "H",
-   "Preço": "190,19"
+   "Preço": "202,29"
  },
  {
    "Código": "EQ04494",
@@ -3549,7 +3549,7 @@ const baseMateriais = [
    "Código": "EQ04670",
    "Descrição": "CAMINHÃO - CAÇAMBA BASCULANTE COM CAPACIDADE DE 8M3 *230CV",
    "Unid. Med.": "H",
-   "Preço": "242,00"
+   "Preço": "257,55"
  },
  {
    "Código": "EQ04671",
@@ -3561,7 +3561,7 @@ const baseMateriais = [
    "Código": "EQ07963",
    "Descrição": "CAMINHÃO - CAÇAMBA BASCULANTE DE 12 M3 DE CAPACIDADE, INCLUSO ENLONAMENTO DA CAÇAMBA",
    "Unid. Med.": "H",
-   "Preço": "285,50"
+   "Preço": "304,93"
  },
  {
    "Código": "EQ07964",
@@ -3573,7 +3573,7 @@ const baseMateriais = [
    "Código": "EQ07965",
    "Descrição": "CAMINHÃO - CAÇAMBA BASCULANTE DE 25 M3 DE CAPACIDADE, INCLUSO ENLONAMENTO DA CAÇAMBA",
    "Unid. Med.": "H",
-   "Preço": "391,83"
+   "Preço": "420,21"
  },
  {
    "Código": "EQ07966",
@@ -3585,7 +3585,7 @@ const baseMateriais = [
    "Código": "EQ07967",
    "Descrição": "CAMINHÃO - CAÇAMBA BASCULANTE DE 30 M3 DE CAPACIDADE, INCLUSO ENLONAMENTO DA CAÇAMBA",
    "Unid. Med.": "H",
-   "Preço": "394,12"
+   "Preço": "422,50"
  },
  {
    "Código": "EQ07968",
@@ -3597,7 +3597,7 @@ const baseMateriais = [
    "Código": "EQ04700",
    "Descrição": "CAMINHÃO - CAÇAMBA BASCULANTE METÁLICA COM CAPACIDADE DE 12M3 *280CV",
    "Unid. Med.": "H",
-   "Preço": "285,07"
+   "Preço": "304,50"
  },
  {
    "Código": "EQ04701",
@@ -3609,7 +3609,7 @@ const baseMateriais = [
    "Código": "EQ04495",
    "Descrição": "CAMINHÃO - CARROCERIA FIXA ABERTA DE MADEIRA COM CAPACIDADE 5 T *160CV",
    "Unid. Med.": "H",
-   "Preço": "184,92"
+   "Preço": "197,02"
  },
  {
    "Código": "EQ04496",
@@ -3621,7 +3621,7 @@ const baseMateriais = [
    "Código": "EQ04497",
    "Descrição": "CAMINHÃO - CARROCERIA FIXA ABERTA DE MADEIRA COM CAPACIDADE 9 T *190CV",
    "Unid. Med.": "H",
-   "Preço": "210,12"
+   "Preço": "224,24"
  },
  {
    "Código": "EQ04498",
@@ -3633,7 +3633,7 @@ const baseMateriais = [
    "Código": "EQ04500",
    "Descrição": "CAMINHÃO - CARROCERIA FIXA ABERTA DE MADEIRA COM CAPACIDADE 9 T *190CV - COM GUINDAUTO MUNCK 3.5 T",
    "Unid. Med.": "H",
-   "Preço": "219,98"
+   "Preço": "234,10"
  },
  {
    "Código": "EQ08256",
@@ -3645,7 +3645,7 @@ const baseMateriais = [
    "Código": "EQ04499",
    "Descrição": "CAMINHÃO - CARROCERIA FIXA ABERTA DE MADEIRA COM CAPACIDADE 9 T *190CV - COM GUINDASTE MUNCK 5 T",
    "Unid. Med.": "H",
-   "Preço": "221,57"
+   "Preço": "235,69"
  },
  {
    "Código": "EQ05158",
@@ -3657,7 +3657,7 @@ const baseMateriais = [
    "Código": "EQ07734",
    "Descrição": "CAMINHÃO - COM PRANCHA CARREGA TUDO COM 3 EIXOS REBAIXADA - 6 MTS DE COMPRIMENTO ÚTIL C/CAPACIDADE DE *45T *330CV",
    "Unid. Med.": "H",
-   "Preço": "358,23"
+   "Preço": "379,35"
  },
  {
    "Código": "EQ07735",
@@ -3669,13 +3669,13 @@ const baseMateriais = [
    "Código": "EQ04502",
    "Descrição": "CAMINHÃO - ESPARGIDOR DE ASFALTO TANQUE DE 6.000 L *190CV",
    "Unid. Med.": "H",
-   "Preço": "252,96"
+   "Preço": "265,06"
  },
  {
    "Código": "EQ04544",
    "Descrição": "CAMINHÃO - GUINDASTE COM LANÇA TELESCÓPICA MOMENTO MÁXIMO DE ELEVAÇÃO * 10T/M",
    "Unid. Med.": "H",
-   "Preço": "224,35"
+   "Preço": "238,41"
  },
  {
    "Código": "EQ05172",
@@ -3687,7 +3687,7 @@ const baseMateriais = [
    "Código": "EQ04503",
    "Descrição": "CAMINHÃO - GUINDASTE COM LANÇA TELESCÓPICA MOMENTO MÁXIMO DE ELEVAÇÃO*15 T/M",
    "Unid. Med.": "H",
-   "Preço": "260,76"
+   "Preço": "277,16"
  },
  {
    "Código": "EQ04691",
@@ -3699,7 +3699,7 @@ const baseMateriais = [
    "Código": "EQ04504",
    "Descrição": "CAMINHÃO - GUINDASTE COM LANÇA TELESCÓPICA MOMENTO MÁXIMO DE ELEVAÇÃO*25 T/M",
    "Unid. Med.": "H",
-   "Preço": "309,76"
+   "Preço": "326,16"
  },
  {
    "Código": "EQ05283",
@@ -3711,7 +3711,7 @@ const baseMateriais = [
    "Código": "EQ04505",
    "Descrição": "CAMINHÃO - GUINDASTE COM LANÇA TELESCÓPICA MOMENTO MÁXIMO DE ELEVAÇÃO*35 T/M",
    "Unid. Med.": "H",
-   "Preço": "357,24"
+   "Preço": "377,55"
  },
  {
    "Código": "EQ05284",
@@ -3723,7 +3723,7 @@ const baseMateriais = [
    "Código": "EQ04506",
    "Descrição": "CAMINHÃO - GUINDASTE COM LANÇA TELESCÓPICA MOMENTO MÁXIMO DE ELEVAÇÃO*42 T/M",
    "Unid. Med.": "H",
-   "Preço": "404,77"
+   "Preço": "425,08"
  },
  {
    "Código": "EQ05285",
@@ -3735,13 +3735,13 @@ const baseMateriais = [
    "Código": "EQ04507",
    "Descrição": "CAMINHÃO - IRRIGADOR TANQUE DE 6.000 L *190CV",
    "Unid. Med.": "H",
-   "Preço": "219,17"
+   "Preço": "233,29"
  },
  {
    "Código": "EQ07607",
    "Descrição": "CAMINHÃO - PIPA TANQUE DE 10.000 L PARA TRANSPORTE DE ÁGUA POTÁVEL",
    "Unid. Med.": "H",
-   "Preço": "242,56"
+   "Preço": "258,24"
  },
  {
    "Código": "EQ07608",
@@ -3753,7 +3753,7 @@ const baseMateriais = [
    "Código": "EQ07943",
    "Descrição": "CAMINHÃO - PIPA TANQUE DE 12.000 L PARA TRANSPORTE DE ÁGUA POTÁVEL",
    "Unid. Med.": "H",
-   "Preço": "285,53"
+   "Preço": "304,96"
  },
  {
    "Código": "EQ07944",
@@ -3765,7 +3765,7 @@ const baseMateriais = [
    "Código": "EQ07945",
    "Descrição": "CAMINHÃO - PIPA TANQUE DE 15.000 L PARA TRANSPORTE DE ÁGUA POTÁVEL",
    "Unid. Med.": "H",
-   "Preço": "287,56"
+   "Preço": "306,99"
  },
  {
    "Código": "EQ07946",
@@ -3777,7 +3777,7 @@ const baseMateriais = [
    "Código": "EQ07947",
    "Descrição": "CAMINHÃO - PIPA TANQUE DE 20.000 L PARA TRANSPORTE DE ÁGUA POTÁVEL",
    "Unid. Med.": "H",
-   "Preço": "382,04"
+   "Preço": "410,42"
  },
  {
    "Código": "EQ07948",
@@ -3789,7 +3789,7 @@ const baseMateriais = [
    "Código": "EQ07949",
    "Descrição": "CAMINHÃO - PIPA TANQUE DE 25.000 L PARA TRANSPORTE DE ÁGUA POTÁVEL",
    "Unid. Med.": "H",
-   "Preço": "384,59"
+   "Preço": "412,97"
  },
  {
    "Código": "EQ07950",
@@ -3801,7 +3801,7 @@ const baseMateriais = [
    "Código": "EQ07951",
    "Descrição": "CAMINHÃO - PIPA TANQUE DE 30.000 L PARA TRANSPORTE DE ÁGUA POTÁVEL",
    "Unid. Med.": "H",
-   "Preço": "387,15"
+   "Preço": "415,53"
  },
  {
    "Código": "EQ07952",
@@ -3813,7 +3813,7 @@ const baseMateriais = [
    "Código": "EQ04508",
    "Descrição": "CAMINHÃO - PIPA TANQUE DE 6.000 L PARA TRANSPORTE DE ÁGUA POTÁVEL",
    "Unid. Med.": "H",
-   "Preço": "210,40"
+   "Preço": "223,84"
  },
  {
    "Código": "EQ05159",
@@ -3825,7 +3825,7 @@ const baseMateriais = [
    "Código": "EQ07941",
    "Descrição": "CAMINHÃO - PIPA TANQUE DE 8.000 L PARA TRANSPORTE DE ÁGUA POTÁVEL",
    "Unid. Med.": "H",
-   "Preço": "241,98"
+   "Preço": "257,66"
  },
  {
    "Código": "EQ07942",
@@ -3837,7 +3837,7 @@ const baseMateriais = [
    "Código": "EQ07955",
    "Descrição": "CAMINHÃO - POLIGUINDASTE DUPLO ATÉ 15 M3 P/CARGA DE CAÇAMBA ESTACIONÁRIA, INCLUSO ENLONAMENTO DA CAÇAMBA (OBS: NÃO INCLUI A CAÇAMBA)",
    "Unid. Med.": "H",
-   "Preço": "288,59"
+   "Preço": "308,02"
  },
  {
    "Código": "EQ07956",
@@ -3849,7 +3849,7 @@ const baseMateriais = [
    "Código": "EQ07953",
    "Descrição": "CAMINHÃO - POLIGUINDASTE SIMPLES ATÉ 8 M3 P/CARGA DE CAÇAMBA METÁLICA ESTACIONÁRIA, INCLUSO ENLONAMENTO DA CAÇAMBA (OBS: NÃO INCLUI A CAÇAMBA)",
    "Unid. Med.": "H",
-   "Preço": "240,79"
+   "Preço": "256,47"
  },
  {
    "Código": "EQ07954",
@@ -3861,7 +3861,7 @@ const baseMateriais = [
    "Código": "EQ07957",
    "Descrição": "CAMINHÃO - ROLL-ON ROLL-OFF ATÉ 16 M3 P/CARGA DE CAÇAMBA METÁLICA ESTACIONÁRIA, INCLUSO ENLONAMENTO DA CAÇAMBA (OBS: NÃO INCLUI A CAÇAMBA)",
    "Unid. Med.": "H",
-   "Preço": "291,59"
+   "Preço": "311,02"
  },
  {
    "Código": "EQ07958",
@@ -3873,7 +3873,7 @@ const baseMateriais = [
    "Código": "EQ07959",
    "Descrição": "CAMINHÃO - ROLL-ON ROLL-OFF ATÉ 26 M3 P/CARGA DE CAÇAMBA METÁLICA ESTACIONÁRIA, INCLUSO ENLONAMENTO DA CAÇAMBA (OBS: NÃO INCLUI A CAÇAMBA)",
    "Unid. Med.": "H",
-   "Preço": "388,88"
+   "Preço": "417,26"
  },
  {
    "Código": "EQ07960",
@@ -3885,7 +3885,7 @@ const baseMateriais = [
    "Código": "EQ07961",
    "Descrição": "CAMINHÃO - ROLL-ON ROLL-OFF ATÉ 30 M3 P/CARGA DE CAÇAMBA METÁLICA ESTACIONÁRIA, INCLUSO ENLONAMENTO DA CAÇAMBA (OBS: NÃO INCLUI A CAÇAMBA)",
    "Unid. Med.": "H",
-   "Preço": "393,55"
+   "Preço": "421,93"
  },
  {
    "Código": "EQ07962",
@@ -3897,7 +3897,7 @@ const baseMateriais = [
    "Código": "EQ07939",
    "Descrição": "CAMINHÃO TOCO ( 2 EIXOS ) PBT 14.500 KG - *210 CV",
    "Unid. Med.": "H",
-   "Preço": "227,85"
+   "Preço": "243,53"
  },
  {
    "Código": "EQ07940",
@@ -3909,7 +3909,7 @@ const baseMateriais = [
    "Código": "EQ04705",
    "Descrição": "CAMINHÃO TRUCADO ( 3 EIXOS ) PBT 23.000 KG - *260 CV",
    "Unid. Med.": "H",
-   "Preço": "272,62"
+   "Preço": "292,05"
  },
  {
    "Código": "EQ04706",
@@ -3963,37 +3963,37 @@ const baseMateriais = [
    "Código": "HM06137",
    "Descrição": "CAP COM BOLSA FERRO FUNDIDO DE=60 MM (1,20 KG) PINTURA EPÓXI - ANEL DE BORRACHA INCLUSO - PARA PVC/PBA NBR 15880 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "111,43"
+   "Preço": "92,73"
  },
  {
    "Código": "HM06138",
    "Descrição": "CAP COM BOLSA FERRO FUNDIDO DE=85 MM (2,00 KG) PINTURA EPÓXI - ANEL DE BORRACHA INCLUSO - PARA PVC/PBA NBR 15880 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "149,25"
+   "Preço": "160,06"
  },
  {
    "Código": "HM06139",
    "Descrição": "CAP ELETROFUSÃO PEAD DE=110 MM SDR11 PE100 INJETADO NTS 193",
    "Unid. Med.": "un",
-   "Preço": "249,97"
+   "Preço": "261,84"
  },
  {
    "Código": "HM06140",
    "Descrição": "CAP ELETROFUSÃO PEAD DE=160 MM SDR11 PE100 INJETADO NTS 193",
    "Unid. Med.": "un",
-   "Preço": "431,79"
+   "Preço": "410,67"
  },
  {
    "Código": "HM02059",
    "Descrição": "CAP ELETROFUSÃO PEAD DE=200 MM SDR 11 PE100 INJETADO NTS 193",
    "Unid. Med.": "un",
-   "Preço": "898,36"
+   "Preço": "713,09"
  },
  {
    "Código": "HM06141",
    "Descrição": "CAP ELETROFUSÃO PEAD DE=225 MM SDR11 PE100 INJETADO NTS 193",
    "Unid. Med.": "un",
-   "Preço": "1.104,84"
+   "Preço": "874,04"
  },
  {
    "Código": "HM02060",
@@ -4005,175 +4005,175 @@ const baseMateriais = [
    "Código": "HM06142",
    "Descrição": "CAP ELETROFUSÃO PEAD DE=280 MM SDR11 PE100 INJETADO NTS 193",
    "Unid. Med.": "un",
-   "Preço": "1.896,36"
+   "Preço": "1.451,54"
  },
  {
    "Código": "HM06143",
    "Descrição": "CAP ELETROFUSÃO PEAD DE=315 MM SDR11 PE100 INJETADO NTS 193",
    "Unid. Med.": "un",
-   "Preço": "2.419,12"
+   "Preço": "1.631,98"
  },
  {
    "Código": "HM07760",
    "Descrição": "CAP ELETROFUSÃO PEAD DE=400 MM SDR11 PE100 INJETADO NTS 193",
    "Unid. Med.": "un",
-   "Preço": "6.334,61"
+   "Preço": "6.989,91"
  },
  {
    "Código": "HM06144",
    "Descrição": "CAP ELETROFUSÃO PEAD DE=63 MM SDR11 PE100 INJETADO NTS 193",
    "Unid. Med.": "un",
-   "Preço": "88,50"
+   "Preço": "88,99"
  },
  {
    "Código": "HM06145",
    "Descrição": "CAP ELETROFUSÃO PEAD DE=90 MM SDR11 PE100 INJETADO NTS 193",
    "Unid. Med.": "un",
-   "Preço": "195,08"
+   "Preço": "204,07"
  },
  {
    "Código": "HM06146",
    "Descrição": "CAP JUNTA ELÁSTICA JE2GS FERRO FUNDIDO DN=100 MM (4,70 KG) PINTURA EPÓXI VERMELHA E ANEL DE BORRACHA INCLUSO NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "208,36"
+   "Preço": "216,33"
  },
  {
    "Código": "HM02915",
    "Descrição": "CAP JUNTA ELÁSTICA JE2GS FERRO FUNDIDO DN=100 MM * (4,70 KG) PINTURA BETUMINOSA E ANEL DE BORRACHA INCLUSO NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "188,91"
+   "Preço": "202,80"
  },
  {
    "Código": "HM06147",
    "Descrição": "CAP JUNTA ELÁSTICA JE2GS FERRO FUNDIDO DN=150 MM (9,40 KG) PINTURA EPÓXI VERMELHA E ANEL DE BORRACHA INCLUSO NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "349,50"
+   "Preço": "416,51"
  },
  {
    "Código": "HM02916",
    "Descrição": "CAP JUNTA ELÁSTICA JE2GS FERRO FUNDIDO DN=150 MM * (9,40 KG) PINTURA BETUMINOSA E ANEL DE BORRACHA INCLUSO NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "228,95"
+   "Preço": "277,16"
  },
  {
    "Código": "HM06148",
    "Descrição": "CAP JUNTA ELÁSTICA JE2GS FERRO FUNDIDO DN=200 MM (13,60 KG) PINTURA EPÓXI VERMELHA E ANEL DE BORRACHA INCLUSO NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "563,36"
+   "Preço": "661,82"
  },
  {
    "Código": "HM02917",
    "Descrição": "CAP JUNTA ELÁSTICA JE2GS FERRO FUNDIDO DN=200 MM * (13,60 KG) PINTURA BETUMINOSA E ANEL DE BORRACHA INCLUSO NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "340,23"
+   "Preço": "369,63"
  },
  {
    "Código": "HM06149",
    "Descrição": "CAP JUNTA ELÁSTICA JE2GS FERRO FUNDIDO DN=250 MM (18,70 KG) PINTURA EPÓXI VERMELHA E ANEL DE BORRACHA INCLUSO NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "919,81"
+   "Preço": "1.068,37"
  },
  {
    "Código": "HM02918",
    "Descrição": "CAP JUNTA ELÁSTICA JE2GS FERRO FUNDIDO DN=250 MM * (18,70 KG) PINTURA BETUMINOSA E ANEL DE BORRACHA INCLUSO NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "669,91"
+   "Preço": "818,82"
  },
  {
    "Código": "HM06150",
    "Descrição": "CAP JUNTA ELÁSTICA JE2GS FERRO FUNDIDO DN=300 MM (32,10 KG) PINTURA EPÓXI VERMELHA E ANEL DE BORRACHA INCLUSO NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "1.406,23"
+   "Preço": "1.399,17"
  },
  {
    "Código": "HM02919",
    "Descrição": "CAP JUNTA ELÁSTICA JE2GS FERRO FUNDIDO DN=300 MM * (32,10 KG) PINTURA BETUMINOSA E ANEL DE BORRACHA INCLUSO NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "996,98"
+   "Preço": "1.140,31"
  },
  {
    "Código": "HM06151",
    "Descrição": "CAP JUNTA ELÁSTICA JE2GS FERRO FUNDIDO DN=350 MM (40,30 KG) PINTURA EPÓXI VERMELHA E ANEL DE BORRACHA INCLUSO NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "1.791,54"
+   "Preço": "2.094,07"
  },
  {
    "Código": "HM02920",
    "Descrição": "CAP JUNTA ELÁSTICA JE2GS FERRO FUNDIDO DN=350 MM * (40,30 KG) PINTURA BETUMINOSA E ANEL DE BORRACHA INCLUSO NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "1.048,94"
+   "Preço": "1.252,26"
  },
  {
    "Código": "HM06152",
    "Descrição": "CAP JUNTA ELÁSTICA JE2GS FERRO FUNDIDO DN=400 MM (51,50 KG) PINTURA EPÓXI VERMELHA E ANEL DE BORRACHA INCLUSO NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "2.468,74"
+   "Preço": "2.814,27"
  },
  {
    "Código": "HM02921",
    "Descrição": "CAP JUNTA ELÁSTICA JE2GS FERRO FUNDIDO DN=400 MM * (51,50 KG) PINTURA BETUMINOSA E ANEL DE BORRACHA INCLUSO NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "1.627,68"
+   "Preço": "1.944,54"
  },
  {
    "Código": "HM06153",
    "Descrição": "CAP JUNTA ELÁSTICA JE2GS FERRO FUNDIDO DN=500 MM (78,50 KG) PINTURA EPÓXI VERMELHA E ANEL DE BORRACHA INCLUSO NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "3.771,86"
+   "Preço": "4.085,05"
  },
  {
    "Código": "HM02922",
    "Descrição": "CAP JUNTA ELÁSTICA JE2GS FERRO FUNDIDO DN=500 MM * (78,50 KG) PINTURA BETUMINOSA E ANEL DE BORRACHA INCLUSO NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "2.539,18"
+   "Preço": "3.128,47"
  },
  {
    "Código": "HM06154",
    "Descrição": "CAP JUNTA ELÁSTICA JE2GS FERRO FUNDIDO DN=80 MM (3,20 KG) PINTURA EPÓXI VERMELHA E ANEL DE BORRACHA INCLUSO NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "175,77"
+   "Preço": "174,56"
  },
  {
    "Código": "HM02923",
    "Descrição": "CAP JUNTA ELÁSTICA JE2GS FERRO FUNDIDO DN=80 MM * (3,20 KG) PINTURA BETUMINOSA E ANEL DE BORRACHA INCLUSO NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "122,21"
+   "Preço": "150,30"
  },
  {
    "Código": "HM01873",
    "Descrição": "CAP PBA PVC DE=110 MM JUNTA ELÁSTICA NBR 10351 INFRAESTRUTURA ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "44,85"
+   "Preço": "65,67"
  },
  {
    "Código": "HM01874",
    "Descrição": "CAP PBA PVC DE=60 MM JUNTA ELÁSTICA NBR 10351 INFRAESTRUTURA ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "13,23"
+   "Preço": "17,20"
  },
  {
    "Código": "HM01875",
    "Descrição": "CAP PBA PVC DE=85 MM JUNTA ELÁSTICA NBR 10351 INFRAESTRUTURA ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "26,70"
+   "Preço": "40,02"
  },
  {
    "Código": "HM01950",
    "Descrição": "CAP PVC RÍGIDO D=150 MM JE COLETOR DE ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "42,43"
+   "Preço": "44,37"
  },
  {
    "Código": "HM01951",
    "Descrição": "CAP PVC RÍGIDO D=200 MM JE COLETOR DE ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "56,79"
+   "Preço": "70,38"
  },
  {
    "Código": "HM08320",
    "Descrição": "CAP TERMOFUSÃO PEAD DE=500 MM SDR17 PE100 INJETADO NTS 193",
    "Unid. Med.": "un",
-   "Preço": "6.985,91"
+   "Preço": "7.513,34"
  },
  {
    "Código": "EL02534",
@@ -4185,115 +4185,115 @@ const baseMateriais = [
    "Código": "MO00027",
    "Descrição": "CARPINTEIRO",
    "Unid. Med.": "H",
-   "Preço": "11,62"
+   "Preço": "12,17"
  },
  {
    "Código": "HM06156",
    "Descrição": "CARRETEL COM TIRANTES FERRO FUNDIDO DN= 80 MM (20,50 KG) PINTURA BETUMINOSA NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "1.074,91"
+   "Preço": "1.055,93"
  },
  {
    "Código": "HM06157",
    "Descrição": "CARRETEL COM TIRANTES FERRO FUNDIDO DN= 80 MM (20,50 KG) PINTURA EPÓXI VERMELHA NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "1.225,84"
+   "Preço": "1.226,86"
  },
  {
    "Código": "HM06158",
    "Descrição": "CARRETEL COM TIRANTES FERRO FUNDIDO DN=100 MM (24,00 KG) PINTURA BETUMINOSA NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "1.371,25"
+   "Preço": "1.324,75"
  },
  {
    "Código": "HM06159",
    "Descrição": "CARRETEL COM TIRANTES FERRO FUNDIDO DN=100 MM (24,00 KG) PINTURA EPÓXI VERMELHA NBR 15421 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "1.510,12"
+   "Preço": "1.340,26"
  },
  {
    "Código": "HM06160",
    "Descrição": "CARRETEL COM TIRANTES FERRO FUNDIDO DN=150 MM (37,00 KG) PINTURA BETUMINOSA NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "2.194,25"
+   "Preço": "1.873,98"
  },
  {
    "Código": "HM06161",
    "Descrição": "CARRETEL COM TIRANTES FERRO FUNDIDO DN=150 MM (37,00 KG) PINTURA EPÓXI VERMELHA NBR 15422 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "1.800,03"
+   "Preço": "2.218,06"
  },
  {
    "Código": "HM06162",
    "Descrição": "CARRETEL COM TIRANTES FERRO FUNDIDO DN=200 MM (49,00 KG) PINTURA BETUMINOSA NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "2.739,19"
+   "Preço": "2.365,89"
  },
  {
    "Código": "HM06163",
    "Descrição": "CARRETEL COM TIRANTES FERRO FUNDIDO DN=200 MM (49,00 KG) PINTURA EPÓXI VERMELHA NBR 15423 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "2.737,77"
+   "Preço": "2.777,09"
  },
  {
    "Código": "HM06164",
    "Descrição": "CARRETEL COM TIRANTES FERRO FUNDIDO DN=250 MM (65,00 KG) PINTURA BETUMINOSA NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "3.835,38"
+   "Preço": "3.581,21"
  },
  {
    "Código": "HM06165",
    "Descrição": "CARRETEL COM TIRANTES FERRO FUNDIDO DN=250 MM (65,00 KG) PINTURA EPÓXI VERMELHA NBR 15424 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "3.996,33"
+   "Preço": "4.190,13"
  },
  {
    "Código": "HM06166",
    "Descrição": "CARRETEL COM TIRANTES FERRO FUNDIDO DN=300 MM (72,60 KG) PINTURA BETUMINOSA NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "4.411,30"
+   "Preço": "4.110,73"
  },
  {
    "Código": "HM06167",
    "Descrição": "CARRETEL COM TIRANTES FERRO FUNDIDO DN=300 MM (72,60 KG) PINTURA EPÓXI VERMELHA NBR 15425 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "4.260,97"
+   "Preço": "4.681,64"
  },
  {
    "Código": "HM06168",
    "Descrição": "CARRETEL COM TIRANTES FERRO FUNDIDO DN=350 MM (98,10 KG) PINTURA BETUMINOSA NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "5.896,38"
+   "Preço": "5.505,58"
  },
  {
    "Código": "HM06169",
    "Descrição": "CARRETEL COM TIRANTES FERRO FUNDIDO DN=350 MM (98,10 KG) PINTURA EPÓXI VERMELHA NBR 15426 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "6.977,46"
+   "Preço": "6.196,55"
  },
  {
    "Código": "HM06170",
    "Descrição": "CARRETEL COM TIRANTES FERRO FUNDIDO DN=400 MM (114,20 KG) PINTURA BETUMINOSA NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "7.223,98"
+   "Preço": "6.848,51"
  },
  {
    "Código": "HM06171",
    "Descrição": "CARRETEL COM TIRANTES FERRO FUNDIDO DN=400 MM (114,20 KG) PINTURA EPÓXI VERMELHA NBR 15427 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "8.441,90"
+   "Preço": "7.628,56"
  },
  {
    "Código": "HM06172",
    "Descrição": "CARRETEL COM TIRANTES FERRO FUNDIDO DN=500 MM (189,00 KG) PINTURA BETUMINOSA NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "8.843,19"
+   "Preço": "8.568,51"
  },
  {
    "Código": "HM06173",
    "Descrição": "CARRETEL COM TIRANTES FERRO FUNDIDO DN=500 MM (189,00 KG) PINTURA EPÓXI VERMELHA NBR 15428 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "8.946,50"
+   "Preço": "8.845,37"
  },
  {
    "Código": "EL02535",
@@ -4365,73 +4365,73 @@ const baseMateriais = [
    "Código": "HM00268",
    "Descrição": "CHAPA AÇO ESP=1\" MASSA TEÓRICA *(200,00 KG/M2) ASTM A36",
    "Unid. Med.": "M2",
-   "Preço": "1.756,80"
+   "Preço": "2.283,84"
  },
  {
    "Código": "HM00270",
    "Descrição": "CHAPA AÇO ESP=1/2\" MASSA TEÓRICA *(100,00 KG/M2) ASTM A36",
    "Unid. Med.": "M2",
-   "Preço": "880,00"
+   "Preço": "1.135,00"
  },
  {
    "Código": "HM00271",
    "Descrição": "CHAPA AÇO ESP=1/4\" MASSA TEÓRICA *(50,00 KG/M2) ASTM A36",
    "Unid. Med.": "M2",
-   "Preço": "426,67"
+   "Preço": "535,00"
  },
  {
    "Código": "HM00272",
    "Descrição": "CHAPA AÇO ESP=3/4\" MASSA TEÓRICA *(150,00 KG/M2) ASTM A36",
    "Unid. Med.": "M2",
-   "Preço": "1.292,30"
+   "Preço": "1.679,99"
  },
  {
    "Código": "HM00273",
    "Descrição": "CHAPA AÇO ESP=3/8\" MASSA TEÓRICA *(75,00 KG/M2) ASTM A36",
    "Unid. Med.": "M2",
-   "Preço": "622,50"
+   "Preço": "810,00"
  },
  {
    "Código": "HM00266",
    "Descrição": "CHAPA AÇO ESP=5/16\" MASSA TEÓRICA *(62,25 KG/M2) ASTM A36",
    "Unid. Med.": "M2",
-   "Preço": "529,05"
+   "Preço": "674,90"
  },
  {
    "Código": "HM00274",
    "Descrição": "CHAPA AÇO ESP=5/8\" MASSA TEÓRICA *(125,00 KG/M2) ASTM A36",
    "Unid. Med.": "M2",
-   "Preço": "1.100,00"
+   "Preço": "1.540,63"
  },
  {
    "Código": "HM00277",
    "Descrição": "CHAPA AÇO GALVANIZADO Nº 12 (ESP=2,70 MM) MASSA TEÓRICA *(21,60 KG/M2)",
    "Unid. Med.": "M2",
-   "Preço": "187,92"
+   "Preço": "199,75"
  },
  {
    "Código": "HM07256",
    "Descrição": "CHAPA AÇO INOX AISI 316L E=5/8\" (132,00 KG/M2)",
    "Unid. Med.": "M2",
-   "Preço": "6.006,00"
+   "Preço": "6.800,87"
  },
  {
    "Código": "HM07616",
    "Descrição": "CHAPA AÇO INOX ESP=1/2\" *(101,16 KG/M) AISI 304",
    "Unid. Med.": "M2",
-   "Preço": "2.834,55"
+   "Preço": "2.645,52"
  },
  {
    "Código": "HM05253",
    "Descrição": "CHAPA AÇO INOX ESP=1/4\" MASSA TEÓRICA *(50,8 KG/M2) AISI 304",
    "Unid. Med.": "M2",
-   "Preço": "1.016,00"
+   "Preço": "1.363,73"
  },
  {
    "Código": "HM00264",
    "Descrição": "CHAPA AÇO INOX ESP=5/16\" (7,93 MM) MASSA TEÓRICA *(63,44 KG/M2) AISI 304",
    "Unid. Med.": "M2",
-   "Preço": "1.594,88"
+   "Preço": "1.755,55"
  },
  {
    "Código": "CV07739",
@@ -4785,19 +4785,19 @@ const baseMateriais = [
    "Código": "HM01288",
    "Descrição": "CHUMBADOR AÇO INOXIDÁVEL D=1/4\" X L=2\" COM PARAFUSO TIPO CBA",
    "Unid. Med.": "un",
-   "Preço": "4,16"
+   "Preço": "5,41"
  },
  {
    "Código": "HM01289",
    "Descrição": "CHUMBADOR AÇO INOXIDÁVEL D=3/8\" X L=2.1/2\" COM PARAFUSO TIPO CBA",
    "Unid. Med.": "un",
-   "Preço": "7,68"
+   "Preço": "9,98"
  },
  {
    "Código": "HM07624",
    "Descrição": "CHUMBADOR CBA AÇO INOX D=1/2\" X L=4\"* COM PARAFUSO AISI 304",
    "Unid. Med.": "un",
-   "Preço": "21,43"
+   "Preço": "27,86"
  },
  {
    "Código": "EL06084",
@@ -4815,61 +4815,61 @@ const baseMateriais = [
    "Código": "HM00658",
    "Descrição": "CHUMBADOR EXPANSÍVEL AÇO GALVANIZADO D=1/2\" X L=3\"",
    "Unid. Med.": "un",
-   "Preço": "5,73"
+   "Preço": "5,91"
  },
  {
    "Código": "HM00659",
    "Descrição": "CHUMBADOR EXPANSÍVEL AÇO GALVANIZADO D=3/4\" X L=4 1/2\"",
    "Unid. Med.": "un",
-   "Preço": "11,99"
+   "Preço": "15,59"
  },
  {
    "Código": "HM00657",
    "Descrição": "CHUMBADOR EXPANSÍVEL AÇO GALVANIZADO D=3/8\" X L=2 1/2\"",
    "Unid. Med.": "un",
-   "Preço": "1,48"
+   "Preço": "1,92"
  },
  {
    "Código": "HM00661",
    "Descrição": "CHUMBADOR QUÍMICO (AMPOLA) D=1/2\" L=*160 MM COM PARAFUSO PRISIONEIRO AÇO CARBONO",
    "Unid. Med.": "un",
-   "Preço": "12,99"
+   "Preço": "16,89"
  },
  {
    "Código": "HM00662",
    "Descrição": "CHUMBADOR QUÍMICO (AMPOLA) D=3/4\" L=*235 MM COM PARAFUSO PRISIONEIRO AÇO CARBONO",
    "Unid. Med.": "un",
-   "Preço": "47,37"
+   "Preço": "61,58"
  },
  {
    "Código": "HM00660",
    "Descrição": "CHUMBADOR QUÍMICO (AMPOLA) D=3/8\"L=*130 MM COM PARAFUSO PRISIONEIRO AÇO CARBONO",
    "Unid. Med.": "un",
-   "Preço": "11,82"
+   "Preço": "15,37"
  },
  {
    "Código": "HM07323",
    "Descrição": "CHUMBADOR QUÍMICO (AMPOLA) D=5/16\" L=110 A 150 MM C/PARAFUSO PRISIONEIRO AÇO INOX 316",
    "Unid. Med.": "un",
-   "Preço": "12,58"
+   "Preço": "14,93"
  },
  {
    "Código": "HM07796",
    "Descrição": "CHUMBADOR QUÍMICO BI-COMPONENTE D=1/2\" X 105 (APENAS AMPOLA)",
    "Unid. Med.": "un",
-   "Preço": "15,07"
+   "Preço": "15,22"
  },
  {
    "Código": "HM07797",
    "Descrição": "CHUMBADOR QUÍMICO BI-COMPONENTE D=3/4\" X 165 (APENAS AMPOLA)",
    "Unid. Med.": "un",
-   "Preço": "37,35"
+   "Preço": "34,56"
  },
  {
    "Código": "HM07795",
    "Descrição": "CHUMBADOR QUÍMICO BI-COMPONENTE D=3/8\" X 70 (APENAS AMPOLA)",
    "Unid. Med.": "un",
-   "Preço": "9,31"
+   "Preço": "12,10"
  },
  {
    "Código": "HM01331",
@@ -4965,19 +4965,19 @@ const baseMateriais = [
    "Código": "HM04245",
    "Descrição": "COLAR DE TOMADA FERRO FUNDIDO DÚCTIL PARA TUBOS DE FERRO FUNDIDO OU PVC - SAÍDA ROSQUEADA - PORCAS E PARAFUSOS GALVANIZADOS DN=100 X 20 MM",
    "Unid. Med.": "un",
-   "Preço": "56,60"
+   "Preço": "44,80"
  },
  {
    "Código": "HM04247",
    "Descrição": "COLAR DE TOMADA FERRO FUNDIDO DÚCTIL PARA TUBOS DE FERRO FUNDIDO OU PVC - SAÍDA ROSQUEADA - PORCAS E PARAFUSOS GALVANIZADOS DN=150 X 20 MM",
    "Unid. Med.": "un",
-   "Preço": "98,60"
+   "Preço": "75,30"
  },
  {
    "Código": "HM04252",
    "Descrição": "COLAR DE TOMADA FERRO FUNDIDO DÚCTIL PARA TUBOS DE FERRO FUNDIDO OU PVC - SAÍDA ROSQUEADA - PORCAS E PARAFUSOS GALVANIZADOS DN=75 X 20 MM",
    "Unid. Med.": "un",
-   "Preço": "52,60"
+   "Preço": "40,30"
  },
  {
    "Código": "HM06174",
@@ -5007,13 +5007,13 @@ const baseMateriais = [
    "Código": "HM07084",
    "Descrição": "COLAR DE TOMADA MULTIDIAMETRAL FERRO FUNDIDO DN=50 A 150 X DN=20 CINTA AÇO INOX NTS 182 LIGAÇÃO ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "170,00"
+   "Preço": "221,61"
  },
  {
    "Código": "HM07292",
    "Descrição": "COLAR DE TOMADA MULTIDIAMETRAL FERRO FUNDIDO DN=50 A 150 X DN=25 CINTA AÇO INOX NTS 182 LIGAÇÃO ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "172,50"
+   "Preço": "233,91"
  },
  {
    "Código": "HM06178",
@@ -5043,79 +5043,79 @@ const baseMateriais = [
    "Código": "HM01821",
    "Descrição": "COLAR DE TOMADA PVC D=110 MM X 3/4\" COM TRAVAS ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "22,58"
+   "Preço": "21,25"
  },
  {
    "Código": "HM04275",
    "Descrição": "COLAR DE TOMADA PVC D=60 MM X 3/4\" COM TRAVAS E BUCHA DE LATÃO",
    "Unid. Med.": "un",
-   "Preço": "13,21"
+   "Preço": "18,60"
  },
  {
    "Código": "HM06181",
    "Descrição": "COLARINHO TERMOFUSÃO PEAD DE=110 MM SDR11 PE100 LONGO NTS 193 PARA FLANGE DE AÇO (NÃO INCLUSO)",
    "Unid. Med.": "un",
-   "Preço": "104,29"
+   "Preço": "71,96"
  },
  {
    "Código": "HM06182",
    "Descrição": "COLARINHO TERMOFUSÃO PEAD DE=160 MM SDR11 PE100 LONGO NTS 193 PARA FLANGE DE AÇO (NÃO INCLUSO)",
    "Unid. Med.": "un",
-   "Preço": "136,67"
+   "Preço": "153,37"
  },
  {
    "Código": "HM06183",
    "Descrição": "COLARINHO TERMOFUSÃO PEAD DE=200 MM SDR11 PE100 LONGO NTS 193 PARA FLANGE DE AÇO (NÃO INCLUSO)",
    "Unid. Med.": "un",
-   "Preço": "249,15"
+   "Preço": "295,99"
  },
  {
    "Código": "HM06184",
    "Descrição": "COLARINHO TERMOFUSÃO PEAD DE=225 MM SDR11 PE100 LONGO NTS 193 PARA FLANGE DE AÇO (NÃO INCLUSO)",
    "Unid. Med.": "un",
-   "Preço": "261,67"
+   "Preço": "291,90"
  },
  {
    "Código": "HM06185",
    "Descrição": "COLARINHO TERMOFUSÃO PEAD DE=250 MM SDR11 PE100 LONGO NTS 193 PARA FLANGE DE AÇO (NÃO INCLUSO)",
    "Unid. Med.": "un",
-   "Preço": "470,96"
+   "Preço": "512,85"
  },
  {
    "Código": "HM06186",
    "Descrição": "COLARINHO TERMOFUSÃO PEAD DE=280 MM SDR11 PE100 LONGO NTS 193 PARA FLANGE DE AÇO (NÃO INCLUSO)",
    "Unid. Med.": "un",
-   "Preço": "587,92"
+   "Preço": "739,25"
  },
  {
    "Código": "HM06187",
    "Descrição": "COLARINHO TERMOFUSÃO PEAD DE=315 MM SDR11 PE100 LONGO NTS 193 PARA FLANGE DE AÇO (NÃO INCLUSO)",
    "Unid. Med.": "un",
-   "Preço": "763,04"
+   "Preço": "863,89"
  },
  {
    "Código": "HM06188",
    "Descrição": "COLARINHO TERMOFUSÃO PEAD DE=400 MM SDR11 PE100 LONGO NTS 193 PARA FLANGE DE AÇO (NÃO INCLUSO)",
    "Unid. Med.": "un",
-   "Preço": "1.295,95"
+   "Preço": "1.906,66"
  },
  {
    "Código": "HM08324",
    "Descrição": "COLARINHO TERMOFUSÃO PEAD DE=500 MM SDR11 PE100 CURTO NTS 193 PARA FLANGE DE AÇO (NÃO INCLUSO)",
    "Unid. Med.": "un",
-   "Preço": "1.879,21"
+   "Preço": "2.608,07"
  },
  {
    "Código": "HM02067",
    "Descrição": "COLARINHO TERMOFUSÃO PEAD DE=63 MM SDR11 PE100 LONGO NTS 193 PARA FLANGE DE AÇO (NÃO INCLUSO)",
    "Unid. Med.": "un",
-   "Preço": "47,69"
+   "Preço": "36,56"
  },
  {
    "Código": "HM06189",
    "Descrição": "COLARINHO TERMOFUSÃO PEAD DE=90 MM SDR11 PE100 LONGO NTS 193 PARA FLANGE DE AÇO (NÃO INCLUSO)",
    "Unid. Med.": "un",
-   "Preço": "84,58"
+   "Preço": "57,30"
  },
  {
    "Código": "EQ04814",
@@ -5145,7 +5145,7 @@ const baseMateriais = [
    "Código": "EQ04511",
    "Descrição": "COMPACTADOR DE SOLO A PERCUSSÃO TIPO SAPO * 56KG A GASOLINA",
    "Unid. Med.": "H",
-   "Preço": "11,43"
+   "Preço": "11,88"
  },
  {
    "Código": "EQ05254",
@@ -5157,7 +5157,7 @@ const baseMateriais = [
    "Código": "EQ04512",
    "Descrição": "COMPACTADOR PLACA VIBRATÓRIA REVERSÍVEL MOTOR * 6,5CV",
    "Unid. Med.": "H",
-   "Preço": "19,75"
+   "Preço": "22,65"
  },
  {
    "Código": "EQ05178",
@@ -5169,13 +5169,13 @@ const baseMateriais = [
    "Código": "EQ04571",
    "Descrição": "COMPRESSOR DE AR ESTACIONÁRIO 125 PCM-100 PSI ELÉTRICO - MOTOR SILENCIADO",
    "Unid. Med.": "H",
-   "Preço": "36,46"
+   "Preço": "36,26"
  },
  {
    "Código": "EQ04515",
    "Descrição": "COMPRESSOR DE AR ESTACIONÁRIO 170 PCM-100 PSI ELÉTRICO - MOTOR SILENCIADO",
    "Unid. Med.": "H",
-   "Preço": "48,99"
+   "Preço": "48,70"
  },
  {
    "Código": "EQ05160",
@@ -5187,13 +5187,13 @@ const baseMateriais = [
    "Código": "EQ04516",
    "Descrição": "COMPRESSOR DE AR ESTACIONÁRIO 250 PCM-100 PSI ELÉTRICO - MOTOR SILENCIADO",
    "Unid. Med.": "H",
-   "Preço": "61,27"
+   "Preço": "60,90"
  },
  {
    "Código": "EQ04518",
    "Descrição": "COMPRESSOR DE AR ESTACIONÁRIO 700 PCM-100 PSI ELÉTRICO - MOTOR SILENCIADO",
    "Unid. Med.": "H",
-   "Preço": "130,58"
+   "Preço": "129,74"
  },
  {
    "Código": "EQ05161",
@@ -5211,19 +5211,19 @@ const baseMateriais = [
    "Código": "EQ05271",
    "Descrição": "COMPRESSOR DE AR PORTÁTIL 1200 PCM-360 PSI À DIESEL - MOTOR SILENCIADO",
    "Unid. Med.": "H",
-   "Preço": "610,37"
+   "Preço": "674,93"
  },
  {
    "Código": "EQ05272",
    "Descrição": "COMPRESSOR DE AR PORTÁTIL 175 PCM-200 PSI À DIESEL - MOTOR SILENCIADO",
    "Unid. Med.": "H",
-   "Preço": "165,66"
+   "Preço": "185,02"
  },
  {
    "Código": "EQ04513",
    "Descrição": "COMPRESSOR DE AR PORTÁTIL 250 PCM-150 PSI À DIESEL - MOTOR SILENCIADO",
    "Unid. Med.": "H",
-   "Preço": "98,59"
+   "Preço": "109,55"
  },
  {
    "Código": "EQ05162",
@@ -5235,13 +5235,13 @@ const baseMateriais = [
    "Código": "EQ05273",
    "Descrição": "COMPRESSOR DE AR PORTÁTIL 250 PCM-200 PSI À DIESEL - MOTOR SILENCIADO",
    "Unid. Med.": "H",
-   "Preço": "216,43"
+   "Preço": "241,07"
  },
  {
    "Código": "EQ04514",
    "Descrição": "COMPRESSOR DE AR PORTÁTIL 600 PCM-150 PSI À DIESEL - MOTOR SILENCIADO",
    "Unid. Med.": "H",
-   "Preço": "202,24"
+   "Preço": "225,21"
  },
  {
    "Código": "EQ05163",
@@ -5253,7 +5253,7 @@ const baseMateriais = [
    "Código": "EQ05274",
    "Descrição": "COMPRESSOR DE AR PORTÁTIL 960 PCM-250 PSI À DIESEL - MOTOR SILENCIADO",
    "Unid. Med.": "H",
-   "Preço": "467,43"
+   "Preço": "517,90"
  },
  {
    "Código": "EQ08184",
@@ -5263,9 +5263,9 @@ const baseMateriais = [
  },
  {
    "Código": "EQ08183",
-   "Descrição": "COMPRESSOR DE AR PORTÁTIL DE 373,78 L/S (792 PCM) - 213,30 KW ",
+   "Descrição": "COMPRESSOR DE AR PORTÁTIL DE 373,78 L/S (792 PCM) - 213,30 KW",
    "Unid. Med.": "H",
-   "Preço": "308,13"
+   "Preço": "341,93"
  },
  {
    "Código": "EL01068",
@@ -6045,19 +6045,19 @@ const baseMateriais = [
    "Código": "HM07322",
    "Descrição": "CORRENTE AÇO INOX AISI 316 D=1/4\" (APROX. 0,8 KG/M) SEM CALIBRAÇÃO",
    "Unid. Med.": "M",
-   "Preço": "85,82"
+   "Preço": "95,40"
  },
  {
    "Código": "HM00569",
    "Descrição": "CORRENTE ELO CURTO AÇO GALVANIZADO D=5 MM (APROX. 0,468 KG/M) SEM CALIBRAÇÃO",
    "Unid. Med.": "KG",
-   "Preço": "33,10"
+   "Preço": "29,22"
  },
  {
    "Código": "EQ05263",
    "Descrição": "CORTADORA DE PISOS POTÊNCIA 13HP A GASOLINA",
    "Unid. Med.": "H",
-   "Preço": "18,13"
+   "Preço": "18,58"
  },
  {
    "Código": "EQ05262",
@@ -6081,145 +6081,145 @@ const baseMateriais = [
    "Código": "HM07771",
    "Descrição": "COTOVELO 45 ELETROFUSÃO PEAD DE=110 SDR11 PE100 NTS 193",
    "Unid. Med.": "un",
-   "Preço": "168,70"
+   "Preço": "212,61"
  },
  {
    "Código": "HM07772",
    "Descrição": "COTOVELO 45 ELETROFUSÃO PEAD DE=160 SDR11 PE100 NTS 193",
    "Unid. Med.": "un",
-   "Preço": "653,89"
+   "Preço": "716,19"
  },
  {
    "Código": "HM07773",
    "Descrição": "COTOVELO 45 ELETROFUSÃO PEAD DE=200 SDR11 PE100 NTS 193",
    "Unid. Med.": "un",
-   "Preço": "1.533,23"
+   "Preço": "1.937,08"
  },
  {
    "Código": "HM07774",
    "Descrição": "COTOVELO 45 ELETROFUSÃO PEAD DE=225 SDR11 PE100 NTS 193",
    "Unid. Med.": "un",
-   "Preço": "1.704,40"
+   "Preço": "2.215,72"
  },
  {
    "Código": "HM07769",
    "Descrição": "COTOVELO 45 ELETROFUSÃO PEAD DE=63 SDR11 PE100 NTS 193",
    "Unid. Med.": "un",
-   "Preço": "97,85"
+   "Preço": "108,60"
  },
  {
    "Código": "HM07770",
    "Descrição": "COTOVELO 45 ELETROFUSÃO PEAD DE=90 SDR11 PE100 NTS 193",
    "Unid. Med.": "un",
-   "Preço": "151,42"
+   "Preço": "171,09"
  },
  {
    "Código": "HM05065",
    "Descrição": "COTOVELO 45 FERRO GALVANIZADO DN=3/4\" BSP NBR 6943 ÁGUA/GÁS",
    "Unid. Med.": "un",
-   "Preço": "13,79"
+   "Preço": "16,73"
  },
  {
    "Código": "HM07775",
    "Descrição": "COTOVELO 45 TERMOFUSÃO PEAD DE=250 SDR11 PE100 NTS 193",
    "Unid. Med.": "un",
-   "Preço": "1.828,48"
+   "Preço": "1.849,75"
  },
  {
    "Código": "HM07776",
    "Descrição": "COTOVELO 45 TERMOFUSÃO PEAD DE=315 SDR11 PE100 NTS 193",
    "Unid. Med.": "un",
-   "Preço": "2.936,15"
+   "Preço": "2.523,44"
  },
  {
    "Código": "HM07777",
    "Descrição": "COTOVELO 45 TERMOFUSÃO PEAD DE=400 SDR11 PE100 NTS 193",
    "Unid. Med.": "un",
-   "Preço": "6.658,16"
+   "Preço": "9.097,83"
  },
  {
    "Código": "HM08338",
    "Descrição": "COTOVELO 45 TERMOFUSÃO PEAD DE=500 SDR17 PE100 NTS 193",
    "Unid. Med.": "un",
-   "Preço": "12.700,00"
+   "Preço": "12.482,78"
  },
  {
    "Código": "HM07762",
    "Descrição": "COTOVELO 90 ELETROFUSÃO PEAD DE=110 SDR11 PE100 NTS 193",
    "Unid. Med.": "un",
-   "Preço": "208,17"
+   "Preço": "249,46"
  },
  {
    "Código": "HM07763",
    "Descrição": "COTOVELO 90 ELETROFUSÃO PEAD DE=160 SDR11 PE100 NTS 193",
    "Unid. Med.": "un",
-   "Preço": "720,92"
+   "Preço": "837,58"
  },
  {
    "Código": "HM07764",
    "Descrição": "COTOVELO 90 ELETROFUSÃO PEAD DE=200 SDR11 PE100 NTS 193",
    "Unid. Med.": "un",
-   "Preço": "1.533,23"
+   "Preço": "1.993,20"
  },
  {
    "Código": "HM07765",
    "Descrição": "COTOVELO 90 ELETROFUSÃO PEAD DE=225 SDR11 PE100 NTS 193",
    "Unid. Med.": "un",
-   "Preço": "1.704,40"
+   "Preço": "2.215,72"
  },
  {
    "Código": "HM05116",
    "Descrição": "COTOVELO 90 ELETROFUSÃO PEAD DE=63 SDR11 PE100 NTS 193",
    "Unid. Med.": "un",
-   "Preço": "100,93"
+   "Preço": "118,49"
  },
  {
    "Código": "HM07761",
    "Descrição": "COTOVELO 90 ELETROFUSÃO PEAD DE=90 SDR11 PE100 NTS 193",
    "Unid. Med.": "un",
-   "Preço": "150,92"
+   "Preço": "170,19"
  },
  {
    "Código": "HM01381",
    "Descrição": "COTOVELO 90 FERRO GALVANIZADO DN=1\" BSP NBR 6943 ÁGUA/GÁS",
    "Unid. Med.": "un",
-   "Preço": "15,09"
+   "Preço": "16,71"
  },
  {
    "Código": "HM01144",
    "Descrição": "COTOVELO 90 FERRO GALVANIZADO DN=3/4\" BSP NBR 6943 ÁGUA/GÁS",
    "Unid. Med.": "un",
-   "Preço": "11,43"
+   "Preço": "11,68"
  },
  {
    "Código": "HM07766",
    "Descrição": "COTOVELO 90 TERMOFUSÃO PEAD DE=250 SDR11 PE100 NTS 193",
    "Unid. Med.": "un",
-   "Preço": "1.721,10"
+   "Preço": "1.668,92"
  },
  {
    "Código": "HM07767",
    "Descrição": "COTOVELO 90 TERMOFUSÃO PEAD DE=315 SDR11 PE100 NTS 193",
    "Unid. Med.": "un",
-   "Preço": "3.380,35"
+   "Preço": "2.665,36"
  },
  {
    "Código": "HM07768",
    "Descrição": "COTOVELO 90 TERMOFUSÃO PEAD DE=400 SDR11 PE100 NTS 193",
    "Unid. Med.": "un",
-   "Preço": "7.058,64"
+   "Preço": "9.176,23"
  },
  {
    "Código": "HM08331",
    "Descrição": "COTOVELO 90 TERMOFUSÃO PEAD DE=500 SDR17 PE100 NTS 193",
    "Unid. Med.": "un",
-   "Preço": "11.083,04"
+   "Preço": "13.740,81"
  },
  {
    "Código": "HM01384",
    "Descrição": "COTOVELO REDUÇÃO FERRO GALVANIZADO DN=1\" X 3/4\" BSP NBR 6943 ÁGUA/GÁS",
    "Unid. Med.": "un",
-   "Preço": "13,48"
+   "Preço": "16,12"
  },
  {
    "Código": "EL02428",
@@ -6267,19 +6267,19 @@ const baseMateriais = [
    "Código": "HM07185",
    "Descrição": "CRUZETA COM BOLSAS FERRO FUNDIDO DE=110 MM (10,20 KG) PINTURA EPÓXI - ANEL DE BORRACHA INCLUSO - PARA PVC/PBA NBR 15880 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "551,75"
+   "Preço": "459,90"
  },
  {
    "Código": "HM07186",
    "Descrição": "CRUZETA COM BOLSAS FERRO FUNDIDO DE=60 MM (4,70 KG) PINTURA EPÓXI - ANEL DE BORRACHA INCLUSO - PARA PVC/PBA NBR 15880 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "214,34"
+   "Preço": "220,66"
  },
  {
    "Código": "HM07187",
    "Descrição": "CRUZETA COM BOLSAS FERRO FUNDIDO DE=85 MM (7,10 KG) PINTURA EPÓXI - ANEL DE BORRACHA INCLUSO - PARA PVC/PBA NBR 15880 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "302,46"
+   "Preço": "313,51"
  },
  {
    "Código": "EL02509",
@@ -6291,37 +6291,37 @@ const baseMateriais = [
    "Código": "HM03063",
    "Descrição": "CRUZETA FERRO FUNDIDO DUCTIL COM BOLSAS JUNTA ELASTICA JGS - DN = 100 X 100 MM (25,10 KG) - REVESTIMENTO INTERNO E EXTERNO COM PINTURA BETUMINOSA - NBR 7675",
    "Unid. Med.": "un",
-   "Preço": "865,83"
+   "Preço": "907,28"
  },
  {
    "Código": "HM03066",
    "Descrição": "CRUZETA FERRO FUNDIDO DUCTIL COM BOLSAS JUNTA ELASTICA JGS - DN = 150 X 150 MM (37,95 KG) - REVESTIMENTO INTERNO E EXTERNO COM PINTURA BETUMINOSA - NBR 7675",
    "Unid. Med.": "un",
-   "Preço": "1.036,71"
+   "Preço": "1.075,18"
  },
  {
    "Código": "HM03069",
    "Descrição": "CRUZETA FERRO FUNDIDO DUCTIL COM BOLSAS JUNTA ELASTICA JGS - DN = 200 X 200 MM (55,65 KG) - REVESTIMENTO INTERNO E EXTERNO COM PINTURA BETUMINOSA - NBR 7675",
    "Unid. Med.": "un",
-   "Preço": "1.923,14"
+   "Preço": "2.046,53"
  },
  {
    "Código": "HM03072",
    "Descrição": "CRUZETA FERRO FUNDIDO DUCTIL COM BOLSAS JUNTA ELASTICA JGS - DN = 250 X 250 MM (77,40 KG) - REVESTIMENTO INTERNO E EXTERNO COM PINTURA BETUMINOSA - NBR 7675",
    "Unid. Med.": "un",
-   "Preço": "2.814,09"
+   "Preço": "2.586,55"
  },
  {
    "Código": "HM03076",
    "Descrição": "CRUZETA FERRO FUNDIDO DUCTIL COM BOLSAS JUNTA ELASTICA JGS - DN = 300 X 300 MM (104,00 KG) - REVESTIMENTO INTERNO E EXTERNO COM PINTURA BETUMINOSA - NBR 7675",
    "Unid. Med.": "un",
-   "Preço": "3.766,98"
+   "Preço": "4.388,05"
  },
  {
    "Código": "HM03080",
    "Descrição": "CRUZETA FERRO FUNDIDO DUCTIL COM BOLSAS JUNTA ELASTICA JGS - DN = 400 X 400 MM (158,80 KG) - REVESTIMENTO INTERNO E EXTERNO COM PINTURA BETUMINOSA - NBR 7675",
    "Unid. Med.": "un",
-   "Preço": "7.068,14"
+   "Preço": "8.326,66"
  },
  {
    "Código": "CV01332",
@@ -6351,247 +6351,247 @@ const baseMateriais = [
    "Código": "HM01952",
    "Descrição": "CURVA 11°15' PVC RÍGIDO D=100 MM PBJE COLETOR DE ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "19,86"
+   "Preço": "21,49"
  },
  {
    "Código": "HM01953",
    "Descrição": "CURVA 11°15' PVC RÍGIDO D=150 MM PBJE COLETOR DE ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "55,10"
+   "Preço": "66,12"
  },
  {
    "Código": "HM06200",
    "Descrição": "CURVA 11º15' COM BOLSAS FERRO FUNDIDO DE=110 MM (7,00 KG) PINTURA EPÓXI - ANEL DE BORRACHA INCLUSO - PARA PVC/PBA NBR 15880 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "351,23"
+   "Preço": "307,93"
  },
  {
    "Código": "HM06201",
    "Descrição": "CURVA 11º15' COM BOLSAS FERRO FUNDIDO DE=60 MM (3,00 KG) PINTURA EPÓXI - ANEL DE BORRACHA INCLUSO - PARA PVC/PBA NBR 15880 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "141,67"
+   "Preço": "133,40"
  },
  {
    "Código": "HM06202",
    "Descrição": "CURVA 11º15' COM BOLSAS FERRO FUNDIDO DE=85 MM (4,00 KG) PINTURA EPÓXI - ANEL DE BORRACHA INCLUSO - PARA PVC/PBA NBR 15880 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "201,80"
+   "Preço": "179,01"
  },
  {
    "Código": "HM06203",
    "Descrição": "CURVA 11º15' COM BOLSAS JE2GS FERRO FUNDIDO DN=100 MM (10,80 KG) PINTURA EPÓXI VERMELHA E ANÉIS DE BORRACHA INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "360,16"
+   "Preço": "384,17"
  },
  {
    "Código": "HM02933",
    "Descrição": "CURVA 11º15' COM BOLSAS JE2GS FERRO FUNDIDO DN=100 MM * (10,80 KG) PINTURA BETUMINOSA E ANÉIS DE BORRACHA INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "295,13"
+   "Preço": "337,65"
  },
  {
    "Código": "HM06204",
    "Descrição": "CURVA 11º15' COM BOLSAS JE2GS FERRO FUNDIDO DN=150 MM (16,80 KG) PINTURA EPÓXI VERMELHA E ANÉIS DE BORRACHA INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "580,74"
+   "Preço": "666,13"
  },
  {
    "Código": "HM02934",
    "Descrição": "CURVA 11º15' COM BOLSAS JE2GS FERRO FUNDIDO DN=150 MM * (16,80 KG) PINTURA BETUMINOSA E ANÉIS DE BORRACHA INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "426,41"
+   "Preço": "515,41"
  },
  {
    "Código": "HM06205",
    "Descrição": "CURVA 11º15' COM BOLSAS JE2GS FERRO FUNDIDO DN=200 MM (27,60 KG) PINTURA EPÓXI VERMELHA E ANÉIS DE BORRACHA INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "746,75"
+   "Preço": "843,66"
  },
  {
    "Código": "HM02935",
    "Descrição": "CURVA 11º15' COM BOLSAS JE2GS FERRO FUNDIDO DN=200 MM * (27,60 KG) PINTURA BETUMINOSA E ANÉIS DE BORRACHA INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "586,22"
+   "Preço": "704,28"
  },
  {
    "Código": "HM06206",
    "Descrição": "CURVA 11º15' COM BOLSAS JE2GS FERRO FUNDIDO DN=250 MM (34,20 KG) PINTURA EPÓXI VERMELHA E ANÉIS DE BORRACHA INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "1.179,56"
+   "Preço": "1.178,13"
  },
  {
    "Código": "HM02936",
    "Descrição": "CURVA 11º15' COM BOLSAS JE2GS FERRO FUNDIDO DN=250 MM * (34,20 KG) PINTURA BETUMINOSA E ANÉIS DE BORRACHA INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "746,33"
+   "Preço": "790,73"
  },
  {
    "Código": "HM06207",
    "Descrição": "CURVA 11º15' COM BOLSAS JE2GS FERRO FUNDIDO DN=300 MM (44,60 KG) PINTURA EPÓXI VERMELHA E ANÉIS DE BORRACHA INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "1.200,73"
+   "Preço": "1.284,66"
  },
  {
    "Código": "HM02937",
    "Descrição": "CURVA 11º15' COM BOLSAS JE2GS FERRO FUNDIDO DN=300 MM * (44,60 KG) PINTURA BETUMINOSA E ANÉIS DE BORRACHA INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "928,11"
+   "Preço": "959,08"
  },
  {
    "Código": "HM06208",
    "Descrição": "CURVA 11º15' COM BOLSAS JE2GS FERRO FUNDIDO DN=350 MM (48,00 KG) PINTURA EPÓXI VERMELHA E ANÉIS DE BORRACHA INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "2.302,60"
+   "Preço": "2.424,35"
  },
  {
    "Código": "HM02938",
    "Descrição": "CURVA 11º15' COM BOLSAS JE2GS FERRO FUNDIDO DN=350 MM * (48,00 KG) PINTURA BETUMINOSA E ANÉIS DE BORRACHA INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "2.220,48"
+   "Preço": "2.377,82"
  },
  {
    "Código": "HM06209",
    "Descrição": "CURVA 11º15' COM BOLSAS JE2GS FERRO FUNDIDO DN=400 MM (56,10 KG) PINTURA EPÓXI VERMELHA E ANÉIS DE BORRACHA INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "2.380,44"
+   "Preço": "2.537,81"
  },
  {
    "Código": "HM02939",
    "Descrição": "CURVA 11º15' COM BOLSAS JE2GS FERRO FUNDIDO DN=400 MM * (56,10 KG) PINTURA BETUMINOSA E ANÉIS DE BORRACHA INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "2.327,52"
+   "Preço": "2.554,33"
  },
  {
    "Código": "HM06210",
    "Descrição": "CURVA 11º15' COM BOLSAS JE2GS FERRO FUNDIDO DN=450 MM (71,00 KG) PINTURA EPÓXI VERMELHA E ANÉIS DE BORRACHA INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "3.673,67"
+   "Preço": "3.914,86"
  },
  {
    "Código": "HM02940",
    "Descrição": "CURVA 11º15' COM BOLSAS JE2GS FERRO FUNDIDO DN=450 MM * (71,00 KG) PINTURA BETUMINOSA E ANÉIS DE BORRACHA INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "3.199,76"
+   "Preço": "3.424,58"
  },
  {
    "Código": "HM06211",
    "Descrição": "CURVA 11º15' COM BOLSAS JE2GS FERRO FUNDIDO DN=500 MM (81,60 KG) PINTURA EPÓXI VERMELHA E ANÉIS DE BORRACHA INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "4.132,83"
+   "Preço": "4.287,10"
  },
  {
    "Código": "HM02941",
    "Descrição": "CURVA 11º15' COM BOLSAS JE2GS FERRO FUNDIDO DN=500 MM * (81,60 KG) PINTURA BETUMINOSA E ANÉIS DE BORRACHA INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "3.436,05"
+   "Preço": "3.859,60"
  },
  {
    "Código": "HM06212",
    "Descrição": "CURVA 11º15' COM BOLSAS JE2GS FERRO FUNDIDO DN=80 MM (8,80 KG) PINTURA EPÓXI VERMELHA E ANÉIS DE BORRACHA INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "318,69"
+   "Preço": "372,18"
  },
  {
    "Código": "HM02942",
    "Descrição": "CURVA 11º15' COM BOLSAS JE2GS FERRO FUNDIDO DN=80 MM * (8,80 KG) PINTURA BETUMINOSA E ANÉIS DE BORRACHA INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "221,35"
+   "Preço": "234,52"
  },
  {
    "Código": "HM06213",
    "Descrição": "CURVA 11º15' COM FLANGES PN10 FERRO FUNDIDO DN=200 MM (36,00 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "1.086,51"
+   "Preço": "1.163,92"
  },
  {
    "Código": "HM02989",
    "Descrição": "CURVA 11º15' COM FLANGES PN10 FERRO FUNDIDO DN=200 MM * (36,00 KG) PINTURA BETUMINOSA - ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "896,58"
+   "Preço": "1.163,73"
  },
  {
    "Código": "HM06214",
    "Descrição": "CURVA 11º15' COM FLANGES PN10 FERRO FUNDIDO DN=250 MM (49,00 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "1.422,90"
+   "Preço": "1.525,22"
  },
  {
    "Código": "HM02990",
    "Descrição": "CURVA 11º15' COM FLANGES PN10 FERRO FUNDIDO DN=250 MM * (49,00 KG) PINTURA BETUMINOSA - ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "1.179,21"
+   "Preço": "1.532,97"
  },
  {
    "Código": "HM06215",
    "Descrição": "CURVA 11º15' COM FLANGES PN10 FERRO FUNDIDO DN=300 MM (62,00 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "2.261,06"
+   "Preço": "2.122,34"
  },
  {
    "Código": "HM02991",
    "Descrição": "CURVA 11º15' COM FLANGES PN10 FERRO FUNDIDO DN=300 MM * (62,00 KG) PINTURA BETUMINOSA - ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "1.924,93"
+   "Preço": "1.857,09"
  },
  {
    "Código": "HM06216",
    "Descrição": "CURVA 11º15' COM FLANGES PN10 FERRO FUNDIDO DN=400 MM (104,00 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "3.905,95"
+   "Preço": "4.583,72"
  },
  {
    "Código": "HM02973",
    "Descrição": "CURVA 11º15' COM FLANGES PN10 FERRO FUNDIDO DN=400 MM * (104,00 KG) PINTURA BETUMINOSA - ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "3.812,93"
+   "Preço": "4.182,83"
  },
  {
    "Código": "HM06217",
    "Descrição": "CURVA 11º15' COM FLANGES PN10 FERRO FUNDIDO DN=500 MM (149,00 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "8.385,41"
+   "Preço": "7.811,18"
  },
  {
    "Código": "HM02974",
    "Descrição": "CURVA 11º15' COM FLANGES PN10 FERRO FUNDIDO DN=500 MM * (149,00 KG) PINTURA BETUMINOSA - ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "7.867,39"
+   "Preço": "7.461,88"
  },
  {
    "Código": "HM06218",
    "Descrição": "CURVA 11º15' COM FLANGES PN10/16 FERRO FUNDIDO DN=100 MM (16,00 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "518,99"
+   "Preço": "498,45"
  },
  {
    "Código": "HM02987",
    "Descrição": "CURVA 11º15' COM FLANGES PN10/16 FERRO FUNDIDO DN=100 MM * (16,00 KG) PINTURA BETUMINOSA - ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "468,02"
+   "Preço": "455,71"
  },
  {
    "Código": "HM06219",
    "Descrição": "CURVA 11º15' COM FLANGES PN10/16 FERRO FUNDIDO DN=150 MM (25,00 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "721,67"
+   "Preço": "869,38"
  },
  {
    "Código": "HM02988",
    "Descrição": "CURVA 11º15' COM FLANGES PN10/16 FERRO FUNDIDO DN=150 MM * (25,00 KG) PINTURA BETUMINOSA - ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "620,40"
+   "Preço": "786,22"
  },
  {
    "Código": "HM06220",
    "Descrição": "CURVA 11º15' COM FLANGES PN10/16/25 FERRO FUNDIDO DN=80 MM (11,00 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "390,06"
+   "Preço": "457,86"
  },
  {
    "Código": "HM03007",
    "Descrição": "CURVA 11º15' COM FLANGES PN10/16/25 FERRO FUNDIDO DN=80 MM * (11,00 KG) PINTURA BETUMINOSA - ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "329,25"
+   "Preço": "409,35"
  },
  {
    "Código": "EL00721",
@@ -6621,805 +6621,805 @@ const baseMateriais = [
    "Código": "HM01880",
    "Descrição": "CURVA 22°30' PVC DE=110 MM JUNTA ELÁSTICA PBA NBR 10351 INFRAESTRUTURA ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "86,00"
+   "Preço": "105,57"
  },
  {
    "Código": "HM01881",
    "Descrição": "CURVA 22°30' PVC DE=60 MM JUNTA ELÁSTICA PBA NBR 10351 INFRAESTRUTURA ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "18,90"
+   "Preço": "24,41"
  },
  {
    "Código": "HM01882",
    "Descrição": "CURVA 22°30' PVC DE=85 MM JUNTA ELÁSTICA PBA NBR 10351 INFRAESTRUTURA ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "46,90"
+   "Preço": "59,48"
  },
  {
    "Código": "HM01954",
    "Descrição": "CURVA 22°30' PVC RÍGIDO D=100MM PBJE COLETOR DE ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "21,30"
+   "Preço": "28,27"
  },
  {
    "Código": "HM01955",
    "Descrição": "CURVA 22°30' PVC RÍGIDO D=150MM PBJE COLETOR DE ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "51,00"
+   "Preço": "64,00"
  },
  {
    "Código": "HM06221",
    "Descrição": "CURVA 22º30' COM BOLSAS FERRO FUNDIDO DE=110 MM (7,00 KG) PINTURA EPÓXI - ANEL DE BORRACHA INCLUSO - PARA PVC/PBA NBR 15880 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "359,99"
+   "Preço": "366,03"
  },
  {
    "Código": "HM06222",
    "Descrição": "CURVA 22º30' COM BOLSAS FERRO FUNDIDO DE=60 MM (3,00 KG) PINTURA EPÓXI - ANEL DE BORRACHA INCLUSO - PARA PVC/PBA NBR 15880 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "221,53"
+   "Preço": "180,29"
  },
  {
    "Código": "HM06223",
    "Descrição": "CURVA 22º30' COM BOLSAS FERRO FUNDIDO DE=85 MM (4,20 KG) PINTURA EPÓXI - ANEL DE BORRACHA INCLUSO - PARA PVC/PBA NBR 15880 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "261,75"
+   "Preço": "252,36"
  },
  {
    "Código": "HM06224",
    "Descrição": "CURVA 22º30' COM BOLSAS JE2GS FERRO FUNDIDO DN=100 MM (11,40 KG) PINTURA EPÓXI VERMELHA E ANÉIS DE BORRACHA INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "387,18"
+   "Preço": "382,32"
  },
  {
    "Código": "HM02943",
    "Descrição": "CURVA 22º30' COM BOLSAS JE2GS FERRO FUNDIDO DN=100 MM * (11,40 KG) PINTURA BETUMINOSA E ANÉIS DE BORRACHA INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "294,16"
+   "Preço": "328,67"
  },
  {
    "Código": "HM06225",
    "Descrição": "CURVA 22º30' COM BOLSAS JE2GS FERRO FUNDIDO DN=150 MM (17,60 KG) PINTURA EPÓXI VERMELHA E ANÉIS DE BORRACHA INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "514,44"
+   "Preço": "550,91"
  },
  {
    "Código": "HM02944",
    "Descrição": "CURVA 22º30' COM BOLSAS JE2GS FERRO FUNDIDO DN=150 MM * (17,60 KG) PINTURA BETUMINOSA E ANÉIS DE BORRACHA INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "307,67"
+   "Preço": "382,32"
  },
  {
    "Código": "HM06226",
    "Descrição": "CURVA 22º30' COM BOLSAS JE2GS FERRO FUNDIDO DN=200 MM (26,20 KG) PINTURA EPÓXI VERMELHA E ANÉIS DE BORRACHA INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "798,49"
+   "Preço": "933,00"
  },
  {
    "Código": "HM02945",
    "Descrição": "CURVA 22º30' COM BOLSAS JE2GS FERRO FUNDIDO DN=200 MM * (26,20 KG) PINTURA BETUMINOSA E ANÉIS DE BORRACHA INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "515,75"
+   "Preço": "640,88"
  },
  {
    "Código": "HM02946",
    "Descrição": "CURVA 22º30' COM BOLSAS JE2GS FERRO FUNDIDO DN=250 MM * (33,80 KG) PINTURA BETUMINOSA E ANÉIS DE BORRACHA INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "770,86"
+   "Preço": "957,89"
  },
  {
    "Código": "HM06227",
    "Descrição": "CURVA 22º30' COM BOLSAS JE2GS FERRO FUNDIDO DN=250 MM 33,80 KG) PINTURA EPÓXI VERMELHA E ANÉIS DE BORRACHA INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "1.194,04"
+   "Preço": "1.343,40"
  },
  {
    "Código": "HM06228",
    "Descrição": "CURVA 22º30' COM BOLSAS JE2GS FERRO FUNDIDO DN=300 MM (45,20 KG) PINTURA EPÓXI VERMELHA E ANÉIS DE BORRACHA INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "1.354,34"
+   "Preço": "1.548,68"
  },
  {
    "Código": "HM02947",
    "Descrição": "CURVA 22º30' COM BOLSAS JE2GS FERRO FUNDIDO DN=300 MM * (45,20 KG) PINTURA BETUMINOSA E ANÉIS DE BORRACHA INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "866,17"
+   "Preço": "981,30"
  },
  {
    "Código": "HM06229",
    "Descrição": "CURVA 22º30' COM BOLSAS JE2GS FERRO FUNDIDO DN=350 MM (50,10 KG) PINTURA EPÓXI VERMELHA E ANÉIS DE BORRACHA INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "2.823,24"
+   "Preço": "3.237,40"
  },
  {
    "Código": "HM02948",
    "Descrição": "CURVA 22º30' COM BOLSAS JE2GS FERRO FUNDIDO DN=350 MM * (50,10 KG) PINTURA BETUMINOSA E ANÉIS DE BORRACHA INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "2.212,21"
+   "Preço": "2.599,02"
  },
  {
    "Código": "HM06230",
    "Descrição": "CURVA 22º30' COM BOLSAS JE2GS FERRO FUNDIDO DN=400 MM (63,10 KG) PINTURA EPÓXI VERMELHA E ANÉIS DE BORRACHA INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "3.327,90"
+   "Preço": "3.662,60"
  },
  {
    "Código": "HM02949",
    "Descrição": "CURVA 22º30' COM BOLSAS JE2GS FERRO FUNDIDO DN=400 MM * (63,10 KG) PINTURA BETUMINOSA E ANÉIS DE BORRACHA INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "2.501,95"
+   "Preço": "3.012,50"
  },
  {
    "Código": "HM06231",
    "Descrição": "CURVA 22º30' COM BOLSAS JE2GS FERRO FUNDIDO DN=450 MM (81,00 KG) PINTURA EPÓXI VERMELHA E ANÉIS DE BORRACHA INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "4.333,25"
+   "Preço": "4.851,42"
  },
  {
    "Código": "HM02950",
    "Descrição": "CURVA 22º30' COM BOLSAS JE2GS FERRO FUNDIDO DN=450 MM * (81,00 KG) PINTURA BETUMINOSA E ANÉIS DE BORRACHA INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "3.657,79"
+   "Preço": "4.363,87"
  },
  {
    "Código": "HM06232",
    "Descrição": "CURVA 22º30' COM BOLSAS JE2GS FERRO FUNDIDO DN=500 MM (97,40 KG) PINTURA EPÓXI VERMELHA E ANÉIS DE BORRACHA INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "4.544,43"
+   "Preço": "4.917,54"
  },
  {
    "Código": "HM02951",
    "Descrição": "CURVA 22º30' COM BOLSAS JE2GS FERRO FUNDIDO DN=500 MM * (97,40 KG) PINTURA BETUMINOSA E ANÉIS DE BORRACHA INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "3.901,61"
+   "Preço": "4.394,15"
  },
  {
    "Código": "HM06233",
    "Descrição": "CURVA 22º30' COM BOLSAS JE2GS FERRO FUNDIDO DN=80 MM (8,50 KG) PINTURA EPÓXI VERMELHA E ANÉIS DE BORRACHA INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "296,28"
+   "Preço": "289,66"
  },
  {
    "Código": "HM02952",
    "Descrição": "CURVA 22º30' COM BOLSAS JE2GS FERRO FUNDIDO DN=80 MM * (8,50 KG) PINTURA BETUMINOSA E ANÉIS DE BORRACHA INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "205,44"
+   "Preço": "239,91"
  },
  {
    "Código": "HM06234",
    "Descrição": "CURVA 22º30' COM FLANGES PN10 FERRO FUNDIDO DN=200 MM (41,00 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "1.126,99"
+   "Preço": "1.406,76"
  },
  {
    "Código": "HM02994",
    "Descrição": "CURVA 22º30' COM FLANGES PN10 FERRO FUNDIDO DN=200 MM * (41,00 KG) PINTURA BETUMINOSA - ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "941,11"
+   "Preço": "1.223,44"
  },
  {
    "Código": "HM06235",
    "Descrição": "CURVA 22º30' COM FLANGES PN10 FERRO FUNDIDO DN=250 MM (56,00 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "1.663,96"
+   "Preço": "2.025,44"
  },
  {
    "Código": "HM02995",
    "Descrição": "CURVA 22º30' COM FLANGES PN10 FERRO FUNDIDO DN=250 MM * (56,00 KG) PINTURA BETUMINOSA - ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "1.627,64"
+   "Preço": "1.783,16"
  },
  {
    "Código": "HM06236",
    "Descrição": "CURVA 22º30' COM FLANGES PN10 FERRO FUNDIDO DN=300 MM (73,00 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "2.278,93"
+   "Preço": "2.353,11"
  },
  {
    "Código": "HM02996",
    "Descrição": "CURVA 22º30' COM FLANGES PN10 FERRO FUNDIDO DN=300 MM * (73,00 KG) PINTURA BETUMINOSA - ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "1.944,83"
+   "Preço": "2.343,39"
  },
  {
    "Código": "HM06237",
    "Descrição": "CURVA 22º30' COM FLANGES PN10 FERRO FUNDIDO DN=350 MM (99,00 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "4.008,47"
+   "Preço": "4.668,20"
  },
  {
    "Código": "HM02975",
    "Descrição": "CURVA 22º30' COM FLANGES PN10 FERRO FUNDIDO DN=350 MM * (99,00 KG) PINTURA BETUMINOSA - ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "3.516,16"
+   "Preço": "4.317,44"
  },
  {
    "Código": "HM06238",
    "Descrição": "CURVA 22º30' COM FLANGES PN10 FERRO FUNDIDO DN=400 MM (124,00 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "4.150,71"
+   "Preço": "5.260,38"
  },
  {
    "Código": "HM02976",
    "Descrição": "CURVA 22º30' COM FLANGES PN10 FERRO FUNDIDO DN=400 MM * (124,00 KG) PINTURA BETUMINOSA - ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "3.963,43"
+   "Preço": "4.895,00"
  },
  {
    "Código": "HM06239",
    "Descrição": "CURVA 22º30' COM FLANGES PN10 FERRO FUNDIDO DN=450 MM (156,00 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "8.863,60"
+   "Preço": "8.800,53"
  },
  {
    "Código": "HM02977",
    "Descrição": "CURVA 22º30' COM FLANGES PN10 FERRO FUNDIDO DN=450 MM * (156,00 KG) PINTURA BETUMINOSA - ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "8.339,57"
+   "Preço": "8.448,30"
  },
  {
    "Código": "HM06240",
    "Descrição": "CURVA 22º30' COM FLANGES PN10 FERRO FUNDIDO DN=500 MM (180,00 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "9.309,90"
+   "Preço": "8.906,65"
  },
  {
    "Código": "HM02978",
    "Descrição": "CURVA 22º30' COM FLANGES PN10 FERRO FUNDIDO DN=500 MM * (180,00 KG) PINTURA BETUMINOSA - ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "9.253,39"
+   "Preço": "9.005,24"
  },
  {
    "Código": "HM06241",
    "Descrição": "CURVA 22º30' COM FLANGES PN10/16 FERRO FUNDIDO DN=100 MM (17,00 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "520,26"
+   "Preço": "488,36"
  },
  {
    "Código": "HM02992",
    "Descrição": "CURVA 22º30' COM FLANGES PN10/16 FERRO FUNDIDO DN=100 MM * (17,00 KG) PINTURA BETUMINOSA - ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "450,35"
+   "Preço": "457,39"
  },
  {
    "Código": "HM06242",
    "Descrição": "CURVA 22º30' COM FLANGES PN10/16 FERRO FUNDIDO DN=150 MM (28,00 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "949,37"
+   "Preço": "921,23"
  },
  {
    "Código": "HM02993",
    "Descrição": "CURVA 22º30' COM FLANGES PN10/16 FERRO FUNDIDO DN=150 MM * (28,00 KG) PINTURA BETUMINOSA - ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "764,28"
+   "Preço": "837,53"
  },
  {
    "Código": "HM06243",
    "Descrição": "CURVA 22º30' COM FLANGES PN10/16/25 FERRO FUNDIDO DN=80 MM (13,00 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "374,48"
+   "Preço": "447,23"
  },
  {
    "Código": "HM03008",
    "Descrição": "CURVA 22º30' COM FLANGES PN10/16/25 FERRO FUNDIDO DN=80 MM * (13,00 KG) PINTURA BETUMINOSA - ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "366,63"
+   "Preço": "401,91"
  },
  {
    "Código": "HM01956",
    "Descrição": "CURVA 45° CURTA PVC RÍGIDO D=100MM PBJE COLETOR DE ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "13,41"
+   "Preço": "18,50"
  },
  {
    "Código": "HM01964",
    "Descrição": "CURVA 45° LONGA PVC RÍGIDO D=400 MM PBJE COLETOR DE ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "598,00"
+   "Preço": "726,23"
  },
  {
    "Código": "HM01512",
    "Descrição": "CURVA 45° PVC D=110 MM PARA SOLDÁVEL ÁGUA PREDIAL",
    "Unid. Med.": "un",
-   "Preço": "158,56"
+   "Preço": "124,08"
  },
  {
    "Código": "HM01513",
    "Descrição": "CURVA 45° PVC D=20 MM SOLDÁVEL ÁGUA PREDIAL",
    "Unid. Med.": "un",
-   "Preço": "3,13"
+   "Preço": "3,15"
  },
  {
    "Código": "HM01514",
    "Descrição": "CURVA 45° PVC D=25 MM SOLDÁVEL ÁGUA PREDIAL",
    "Unid. Med.": "un",
-   "Preço": "3,16"
+   "Preço": "4,00"
  },
  {
    "Código": "HM01515",
    "Descrição": "CURVA 45° PVC D=32 MM SOLDÁVEL ÁGUA PREDIAL",
    "Unid. Med.": "un",
-   "Preço": "5,74"
+   "Preço": "6,02"
  },
  {
    "Código": "HM01516",
    "Descrição": "CURVA 45° PVC D=40 MM SOLDÁVEL ÁGUA PREDIAL",
    "Unid. Med.": "un",
-   "Preço": "7,32"
+   "Preço": "6,63"
  },
  {
    "Código": "HM01517",
    "Descrição": "CURVA 45° PVC D=50 MM SOLDÁVEL ÁGUA PREDIAL",
    "Unid. Med.": "un",
-   "Preço": "12,32"
+   "Preço": "12,05"
  },
  {
    "Código": "HM01518",
    "Descrição": "CURVA 45° PVC D=60 MM SOLDÁVEL ÁGUA PREDIAL",
    "Unid. Med.": "un",
-   "Preço": "19,64"
+   "Preço": "19,18"
  },
  {
    "Código": "HM01519",
    "Descrição": "CURVA 45° PVC D=75 MM SOLDÁVEL ÁGUA PREDIAL",
    "Unid. Med.": "un",
-   "Preço": "44,85"
+   "Preço": "45,62"
  },
  {
    "Código": "HM01520",
    "Descrição": "CURVA 45° PVC D=85 MM SOLDÁVEL ÁGUA PREDIAL",
    "Unid. Med.": "un",
-   "Preço": "63,01"
+   "Preço": "52,40"
  },
  {
    "Código": "HM01883",
    "Descrição": "CURVA 45° PVC DE=110 MM JUNTA ELÁSTICA PBA NBR 10351 INFRAESTRUTURA ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "108,00"
+   "Preço": "134,29"
  },
  {
    "Código": "HM01884",
    "Descrição": "CURVA 45° PVC DE=60 MM JUNTA ELÁSTICA PBA NBR 10351 INFRAESTRUTURA ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "17,95"
+   "Preço": "23,34"
  },
  {
    "Código": "HM01885",
    "Descrição": "CURVA 45° PVC DE=85 MM JUNTA ELÁSTICA PBA NBR 10351 INFRAESTRUTURA ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "80,40"
+   "Preço": "83,74"
  },
  {
    "Código": "HM01957",
    "Descrição": "CURVA 45° PVC RÍGIDO D=100 MM PBJE COLETOR DE ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "25,22"
+   "Preço": "21,27"
  },
  {
    "Código": "HM01959",
    "Descrição": "CURVA 45° PVC RÍGIDO D=150 MM PBJE COLETOR DE ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "60,50"
+   "Preço": "59,67"
  },
  {
    "Código": "HM01960",
    "Descrição": "CURVA 45° PVC RÍGIDO D=200 MM PBJE COLETOR DE ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "112,00"
+   "Preço": "163,51"
  },
  {
    "Código": "HM01961",
    "Descrição": "CURVA 45° PVC RÍGIDO D=250 MM PBJE COLETOR DE ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "207,42"
+   "Preço": "308,22"
  },
  {
    "Código": "HM01962",
    "Descrição": "CURVA 45° PVC RÍGIDO D=300 MM PBJE COLETOR DE ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "326,90"
+   "Preço": "437,85"
  },
  {
    "Código": "HM01963",
    "Descrição": "CURVA 45° PVC RÍGIDO D=350 MM PBJE COLETOR DE ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "446,34"
+   "Preço": "488,97"
  },
  {
    "Código": "HM06244",
    "Descrição": "CURVA 45GR AÇO CARBONO ASTM A36 DE=20\" E=1/4\" REVESTIMENTO 0100-400-E045 ALT3 (EPÓXI) 0100-400-E119 TIPO 1",
    "Unid. Med.": "un",
-   "Preço": "2.307,56"
+   "Preço": "2.514,81"
  },
  {
    "Código": "HM06245",
    "Descrição": "CURVA 45GR AÇO CARBONO ASTM A36 DE=40\" E=1/4\" REVESTIMENTO 0100-400-E045 ALT3 (EPÓXI) 0100-400-E119 TIPO 1",
    "Unid. Med.": "un",
-   "Preço": "9.701,47"
+   "Preço": "9.643,48"
  },
  {
    "Código": "HM06246",
    "Descrição": "CURVA 45GR AÇO CARBONO ASTM A36 DE=60\" E=5/16\" REVESTIMENTO 0100-400-E045 ALT3 (EPÓXI) 0100-400-E119 TIPO 1",
    "Unid. Med.": "un",
-   "Preço": "29.062,30"
+   "Preço": "25.752,89"
  },
  {
    "Código": "HM06247",
    "Descrição": "CURVA 45º COM BOLSAS FERRO FUNDIDO DE=110 MM (7,50 KG) PINTURA EPÓXI - ANEL DE BORRACHA INCLUSO - PARA PVC/PBA NBR 15880 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "436,26"
+   "Preço": "305,39"
  },
  {
    "Código": "HM06248",
    "Descrição": "CURVA 45º COM BOLSAS FERRO FUNDIDO DE=60 MM (3,50 KG) PINTURA EPÓXI - ANEL DE BORRACHA INCLUSO - PARA PVC/PBA NBR 15880 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "203,83"
+   "Preço": "156,63"
  },
  {
    "Código": "HM06249",
    "Descrição": "CURVA 45º COM BOLSAS FERRO FUNDIDO DE=85 MM (5,00 KG) PINTURA EPÓXI - ANEL DE BORRACHA INCLUSO - PARA PVC/PBA NBR 15880 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "298,34"
+   "Preço": "221,71"
  },
  {
    "Código": "HM06190",
    "Descrição": "CURVA 45º COM BOLSAS JE2GS FERRO FUNDIDO DN=100 MM (12,90 KG) PINTURA EPÓXI VERMELHA E ANÉIS DE BORRACHA INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "397,82"
+   "Preço": "382,26"
  },
  {
    "Código": "HM02953",
    "Descrição": "CURVA 45º COM BOLSAS JE2GS FERRO FUNDIDO DN=100 MM * (12,90 KG) PINTURA BETUMINOSA E ANÉIS DE BORRACHA INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "352,81"
+   "Preço": "349,92"
  },
  {
    "Código": "HM06191",
    "Descrição": "CURVA 45º COM BOLSAS JE2GS FERRO FUNDIDO DN=150 MM (18,70 KG) PINTURA EPÓXI VERMELHA E ANÉIS DE BORRACHA INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "519,89"
+   "Preço": "595,71"
  },
  {
    "Código": "HM02954",
    "Descrição": "CURVA 45º COM BOLSAS JE2GS FERRO FUNDIDO DN=150 MM * (18,70 KG) PINTURA BETUMINOSA E ANÉIS DE BORRACHA INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "483,57"
+   "Preço": "496,04"
  },
  {
    "Código": "HM06192",
    "Descrição": "CURVA 45º COM BOLSAS JE2GS FERRO FUNDIDO DN=200 MM (29,00 KG) PINTURA EPÓXI VERMELHA E ANÉIS DE BORRACHA INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "805,11"
+   "Preço": "850,56"
  },
  {
    "Código": "HM02955",
    "Descrição": "CURVA 45º COM BOLSAS JE2GS FERRO FUNDIDO DN=200 MM * (29,00 KG) PINTURA BETUMINOSA E ANÉIS DE BORRACHA INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "717,45"
+   "Preço": "728,34"
  },
  {
    "Código": "HM06193",
    "Descrição": "CURVA 45º COM BOLSAS JE2GS FERRO FUNDIDO DN=250 MM (39,20 KG) PINTURA EPÓXI VERMELHA E ANÉIS DE BORRACHA INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "1.455,06"
+   "Preço": "1.341,73"
  },
  {
    "Código": "HM02956",
    "Descrição": "CURVA 45º COM BOLSAS JE2GS FERRO FUNDIDO DN=250 MM * (39,20 KG) PINTURA BETUMINOSA E ANÉIS DE BORRACHA INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "1.202,61"
+   "Preço": "1.025,91"
  },
  {
    "Código": "HM06194",
    "Descrição": "CURVA 45º COM BOLSAS JE2GS FERRO FUNDIDO DN=300 MM (53,40 KG) PINTURA EPÓXI VERMELHA E ANÉIS DE BORRACHA INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "2.013,63"
+   "Preço": "1.969,30"
  },
  {
    "Código": "HM02957",
    "Descrição": "CURVA 45º COM BOLSAS JE2GS FERRO FUNDIDO DN=300 MM * (53,40 KG) PINTURA BETUMINOSA E ANÉIS DE BORRACHA INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "1.908,66"
+   "Preço": "1.495,09"
  },
  {
    "Código": "HM06195",
    "Descrição": "CURVA 45º COM BOLSAS JE2GS FERRO FUNDIDO DN=350 MM (61,30 KG) PINTURA EPÓXI VERMELHA E ANÉIS DE BORRACHA INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "3.973,21"
+   "Preço": "3.842,26"
  },
  {
    "Código": "HM02958",
    "Descrição": "CURVA 45º COM BOLSAS JE2GS FERRO FUNDIDO DN=350 MM * (61,30 KG) PINTURA BETUMINOSA E ANÉIS DE BORRACHA INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "3.302,46"
+   "Preço": "3.274,26"
  },
  {
    "Código": "HM06196",
    "Descrição": "CURVA 45º COM BOLSAS JE2GS FERRO FUNDIDO DN=400 MM (83,00 KG) PINTURA EPÓXI VERMELHA E ANÉIS DE BORRACHA INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "4.808,34"
+   "Preço": "4.070,36"
  },
  {
    "Código": "HM02959",
    "Descrição": "CURVA 45º COM BOLSAS JE2GS FERRO FUNDIDO DN=400 MM * (83,00 KG) PINTURA BETUMINOSA E ANÉIS DE BORRACHA INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "3.921,93"
+   "Preço": "3.872,72"
  },
  {
    "Código": "HM06197",
    "Descrição": "CURVA 45º COM BOLSAS JE2GS FERRO FUNDIDO DN=450 MM (105,50 KG) PINTURA EPÓXI VERMELHA E ANÉIS DE BORRACHA INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "7.284,03"
+   "Preço": "5.804,24"
  },
  {
    "Código": "HM02960",
    "Descrição": "CURVA 45º COM BOLSAS JE2GS FERRO FUNDIDO DN=450 MM * (105,50 KG) PINTURA BETUMINOSA E ANÉIS DE BORRACHA INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "5.918,17"
+   "Preço": "5.343,35"
  },
  {
    "Código": "HM06198",
    "Descrição": "CURVA 45º COM BOLSAS JE2GS FERRO FUNDIDO DN=500 MM (128,00 KG) PINTURA EPÓXI VERMELHA E ANÉIS DE BORRACHA INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "8.404,39"
+   "Preço": "6.368,18"
  },
  {
    "Código": "HM02961",
    "Descrição": "CURVA 45º COM BOLSAS JE2GS FERRO FUNDIDO DN=500 MM * (128,00 KG) PINTURA BETUMINOSA E ANÉIS DE BORRACHA INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "5.319,81"
+   "Preço": "5.722,31"
  },
  {
    "Código": "HM06199",
    "Descrição": "CURVA 45º COM BOLSAS JE2GS FERRO FUNDIDO DN=80 MM (9,10 KG) PINTURA EPÓXI VERMELHA E ANÉIS DE BORRACHA INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "309,72"
+   "Preço": "343,82"
  },
  {
    "Código": "HM02962",
    "Descrição": "CURVA 45º COM BOLSAS JE2GS FERRO FUNDIDO DN=80 MM * (9,10 KG) PINTURA BETUMINOSA E ANÉIS DE BORRACHA INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "294,29"
+   "Preço": "298,67"
  },
  {
    "Código": "HM06250",
    "Descrição": "CURVA 45º COM FLANGES PN10 FERRO FUNDIDO DN=200 MM (26,00 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "1.199,73"
+   "Preço": "1.487,44"
  },
  {
    "Código": "HM02999",
    "Descrição": "CURVA 45º COM FLANGES PN10 FERRO FUNDIDO DN=200 MM * (26,00 KG) PINTURA BETUMINOSA - ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "826,68"
+   "Preço": "1.074,68"
  },
  {
    "Código": "HM06251",
    "Descrição": "CURVA 45º COM FLANGES PN10 FERRO FUNDIDO DN=250 MM (52,00 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "3.145,31"
+   "Preço": "2.936,00"
  },
  {
    "Código": "HM03000",
    "Descrição": "CURVA 45º COM FLANGES PN10 FERRO FUNDIDO DN=250 MM * (52,00 KG) PINTURA BETUMINOSA - ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "2.455,00"
+   "Preço": "2.645,34"
  },
  {
    "Código": "HM06252",
    "Descrição": "CURVA 45º COM FLANGES PN10 FERRO FUNDIDO DN=300 MM (74,00 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "4.080,16"
+   "Preço": "4.297,49"
  },
  {
    "Código": "HM03001",
    "Descrição": "CURVA 45º COM FLANGES PN10 FERRO FUNDIDO DN=300 MM * (74,00 KG) PINTURA BETUMINOSA - ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "3.898,86"
+   "Preço": "3.971,88"
  },
  {
    "Código": "HM06253",
    "Descrição": "CURVA 45º COM FLANGES PN10 FERRO FUNDIDO DN=350 MM (74,00 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "5.091,28"
+   "Preço": "4.829,12"
  },
  {
    "Código": "HM02979",
    "Descrição": "CURVA 45º COM FLANGES PN10 FERRO FUNDIDO DN=350 MM * (74,00 KG) PINTURA BETUMINOSA - ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "4.655,28"
+   "Preço": "4.771,38"
  },
  {
    "Código": "HM06254",
    "Descrição": "CURVA 45º COM FLANGES PN10 FERRO FUNDIDO DN=400 MM (91,00 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "5.694,60"
+   "Preço": "6.101,59"
  },
  {
    "Código": "HM02980",
    "Descrição": "CURVA 45º COM FLANGES PN10 FERRO FUNDIDO DN=400 MM * (91,00 KG) PINTURA BETUMINOSA - ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "5.054,02"
+   "Preço": "5.314,40"
  },
  {
    "Código": "HM06255",
    "Descrição": "CURVA 45º COM FLANGES PN10 FERRO FUNDIDO DN=450 MM (158,00 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "8.488,72"
+   "Preço": "9.098,35"
  },
  {
    "Código": "HM02981",
    "Descrição": "CURVA 45º COM FLANGES PN10 FERRO FUNDIDO DN=450 MM * (158,00 KG) PINTURA BETUMINOSA - ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "7.341,68"
+   "Preço": "7.876,11"
  },
  {
    "Código": "HM06256",
    "Descrição": "CURVA 45º COM FLANGES PN10 FERRO FUNDIDO DN=500 MM (138,00 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "9.689,40"
+   "Preço": "10.156,77"
  },
  {
    "Código": "HM02982",
    "Descrição": "CURVA 45º COM FLANGES PN10 FERRO FUNDIDO DN=500 MM * (138,00 KG) PINTURA BETUMINOSA - ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "9.084,58"
+   "Preço": "9.523,55"
  },
  {
    "Código": "HM06257",
    "Descrição": "CURVA 45º COM FLANGES PN10/16 FERRO FUNDIDO DN=100 MM (10,50 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "534,67"
+   "Preço": "570,93"
  },
  {
    "Código": "HM02997",
    "Descrição": "CURVA 45º COM FLANGES PN10/16 FERRO FUNDIDO DN=100 MM * (10,50 KG) PINTURA BETUMINOSA - ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "532,41"
+   "Preço": "463,45"
  },
  {
    "Código": "HM06258",
    "Descrição": "CURVA 45º COM FLANGES PN10/16 FERRO FUNDIDO DN=150 MM (17,00 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "871,03"
+   "Preço": "1.072,66"
  },
  {
    "Código": "HM02998",
    "Descrição": "CURVA 45º COM FLANGES PN10/16 FERRO FUNDIDO DN=150 MM * (17,00 KG) PINTURA BETUMINOSA - ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "716,03"
+   "Preço": "733,21"
  },
  {
    "Código": "HM06259",
    "Descrição": "CURVA 45º COM FLANGES PN10/16/25 FERRO FUNDIDO DN=80 MM (9,50 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "391,27"
+   "Preço": "418,61"
  },
  {
    "Código": "HM03009",
    "Descrição": "CURVA 45º COM FLANGES PN10/16/25 FERRO FUNDIDO DN=80 MM * (9,50 KG) PINTURA BETUMINOSA - ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "306,00"
+   "Preço": "313,81"
  },
  {
    "Código": "HM07196",
    "Descrição": "CURVA 90 FÊMEA FERRO GALVANIZADO DN=1 1/2\" BSP NBR 6943 ÁGUA/GÁS",
    "Unid. Med.": "un",
-   "Preço": "101,92"
+   "Preço": "107,46"
  },
  {
    "Código": "HM07197",
    "Descrição": "CURVA 90 FÊMEA FERRO GALVANIZADO DN=1\" BSP NBR 6943 ÁGUA/GÁS",
    "Unid. Med.": "un",
-   "Preço": "38,93"
+   "Preço": "50,78"
  },
  {
    "Código": "HM07198",
    "Descrição": "CURVA 90 FÊMEA FERRO GALVANIZADO DN=2 1/2\" BSP NBR 6943 ÁGUA/GÁS",
    "Unid. Med.": "un",
-   "Preço": "226,03"
+   "Preço": "260,53"
  },
  {
    "Código": "HM07199",
    "Descrição": "CURVA 90 FÊMEA FERRO GALVANIZADO DN=2\" BSP NBR 6943 ÁGUA/GÁS",
    "Unid. Med.": "un",
-   "Preço": "147,20"
+   "Preço": "182,71"
  },
  {
    "Código": "HM07200",
    "Descrição": "CURVA 90 FÊMEA FERRO GALVANIZADO DN=3\" BSP NBR 6943 ÁGUA/GÁS",
    "Unid. Med.": "un",
-   "Preço": "289,77"
+   "Preço": "358,55"
  },
  {
    "Código": "HM07201",
    "Descrição": "CURVA 90 FÊMEA FERRO GALVANIZADO DN=3/4\" BSP NBR 6943 ÁGUA/GÁS",
    "Unid. Med.": "un",
-   "Preço": "22,59"
+   "Preço": "31,54"
  },
  {
    "Código": "HM07202",
    "Descrição": "CURVA 90 FÊMEA FERRO GALVANIZADO DN=4\" BSP NBR 6943 ÁGUA/GÁS",
    "Unid. Med.": "un",
-   "Preço": "582,22"
+   "Preço": "638,04"
  },
  {
    "Código": "HM07203",
    "Descrição": "CURVA 90 MACHO FÊMEA FERRO GALVANIZADO DN=2 1/2\" BSP NBR 6943 ÁGUA/GÁS",
    "Unid. Med.": "un",
-   "Preço": "211,27"
+   "Preço": "284,60"
  },
  {
    "Código": "HM07204",
    "Descrição": "CURVA 90 MACHO FERRO GALVANIZADO DN=1 1/2\" BSP NBR 6943 ÁGUA/GÁS",
    "Unid. Med.": "un",
-   "Preço": "84,55"
+   "Preço": "101,50"
  },
  {
    "Código": "HM07205",
    "Descrição": "CURVA 90 MACHO FERRO GALVANIZADO DN=1\" BSP NBR 6943 ÁGUA/GÁS",
    "Unid. Med.": "un",
-   "Preço": "39,77"
+   "Preço": "50,77"
  },
  {
    "Código": "HM07206",
    "Descrição": "CURVA 90 MACHO FERRO GALVANIZADO DN=3/4\" BSP NBR 6943 ÁGUA/GÁS",
    "Unid. Med.": "un",
-   "Preço": "17,58"
+   "Preço": "22,85"
  },
  {
    "Código": "HM01758",
    "Descrição": "CURVA 90° CURTA PVC D=100 MM SÉRIE NORMAL ESGOTO PREDIAL",
    "Unid. Med.": "un",
-   "Preço": "20,91"
+   "Preço": "20,37"
  },
  {
    "Código": "HM01759",
    "Descrição": "CURVA 90° CURTA PVC D=40 MM SÉRIE NORMAL ESGOTO PREDIAL",
    "Unid. Med.": "un",
-   "Preço": "4,68"
+   "Preço": "4,94"
  },
  {
    "Código": "HM01760",
    "Descrição": "CURVA 90° CURTA PVC D=50 MM SÉRIE NORMAL ESGOTO PREDIAL",
    "Unid. Med.": "un",
-   "Preço": "9,01"
+   "Preço": "9,47"
  },
  {
    "Código": "HM01761",
    "Descrição": "CURVA 90° CURTA PVC D=75 MM SÉRIE NORMAL ESGOTO PREDIAL",
    "Unid. Med.": "un",
-   "Preço": "19,75"
+   "Preço": "21,97"
  },
  {
    "Código": "HM01965",
    "Descrição": "CURVA 90° CURTA PVC RÍGIDO D=100MM PBJE COLETOR DE ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "23,93"
+   "Preço": "21,30"
  },
  {
    "Código": "HM01762",
    "Descrição": "CURVA 90° LONGA PVC D=100 MM SÉRIE NORMAL ESGOTO PREDIAL",
    "Unid. Med.": "un",
-   "Preço": "50,19"
+   "Preço": "49,56"
  },
  {
    "Código": "HM01763",
    "Descrição": "CURVA 90° LONGA PVC D=40MM SÉRIE NORMAL ESGOTO PREDIAL",
    "Unid. Med.": "un",
-   "Preço": "8,43"
+   "Preço": "8,41"
  },
  {
    "Código": "HM01764",
    "Descrição": "CURVA 90° LONGA PVC D=50 MM SÉRIE NORMAL ESGOTO PREDIAL",
    "Unid. Med.": "un",
-   "Preço": "12,24"
+   "Preço": "14,10"
  },
  {
    "Código": "HM01765",
    "Descrição": "CURVA 90° LONGA PVC D=75 MM SÉRIE NORMAL ESGOTO PREDIAL",
    "Unid. Med.": "un",
-   "Preço": "44,48"
+   "Preço": "46,11"
  },
  {
    "Código": "EL07530",
@@ -7557,61 +7557,61 @@ const baseMateriais = [
    "Código": "HM01657",
    "Descrição": "CURVA 90° PVC D=1 1/2\" COM ROSCA ÁGUA PREDIAL",
    "Unid. Med.": "un",
-   "Preço": "37,11"
+   "Preço": "40,85"
  },
  {
    "Código": "HM01658",
    "Descrição": "CURVA 90° PVC D=1 1/4\" COM ROSCA ÁGUA PREDIAL",
    "Unid. Med.": "un",
-   "Preço": "31,38"
+   "Preço": "38,24"
  },
  {
    "Código": "HM01656",
    "Descrição": "CURVA 90° PVC D=1\" COM ROSCA ÁGUA PREDIAL",
    "Unid. Med.": "un",
-   "Preço": "10,67"
+   "Preço": "13,87"
  },
  {
    "Código": "HM01659",
    "Descrição": "CURVA 90° PVC D=1/2\" COM ROSCA ÁGUA PREDIAL",
    "Unid. Med.": "un",
-   "Preço": "6,38"
+   "Preço": "7,68"
  },
  {
    "Código": "HM01521",
    "Descrição": "CURVA 90° PVC D=110 MM SOLDÁVEL ÁGUA PREDIAL",
    "Unid. Med.": "un",
-   "Preço": "243,92"
+   "Preço": "253,88"
  },
  {
    "Código": "HM01660",
    "Descrição": "CURVA 90° PVC D=2\" COM ROSCA ÁGUA PREDIAL",
    "Unid. Med.": "un",
-   "Preço": "80,18"
+   "Preço": "104,23"
  },
  {
    "Código": "HM01522",
    "Descrição": "CURVA 90° PVC D=20 MM SOLDÁVEL ÁGUA PREDIAL",
    "Unid. Med.": "un",
-   "Preço": "2,31"
+   "Preço": "2,62"
  },
  {
    "Código": "HM01523",
    "Descrição": "CURVA 90° PVC D=25 MM SOLDÁVEL ÁGUA PREDIAL",
    "Unid. Med.": "un",
-   "Preço": "2,85"
+   "Preço": "2,92"
  },
  {
    "Código": "HM01661",
    "Descrição": "CURVA 90° PVC D=3/4\" COM ROSCA ÁGUA PREDIAL",
    "Unid. Med.": "un",
-   "Preço": "6,93"
+   "Preço": "9,85"
  },
  {
    "Código": "HM01524",
    "Descrição": "CURVA 90° PVC D=32 MM SOLDÁVEL ÁGUA PREDIAL",
    "Unid. Med.": "un",
-   "Preço": "6,00"
+   "Preço": "6,08"
  },
  {
    "Código": "HM01525",
@@ -7623,79 +7623,79 @@ const baseMateriais = [
    "Código": "HM01526",
    "Descrição": "CURVA 90° PVC D=50 MM SOLDÁVEL ÁGUA PREDIAL",
    "Unid. Med.": "un",
-   "Preço": "12,63"
+   "Preço": "12,01"
  },
  {
    "Código": "HM01528",
    "Descrição": "CURVA 90° PVC D=75 MM SOLDÁVEL ÁGUA PREDIAL",
    "Unid. Med.": "un",
-   "Preço": "66,07"
+   "Preço": "79,80"
  },
  {
    "Código": "HM01529",
    "Descrição": "CURVA 90° PVC D=85 MM SOLDÁVEL ÁGUA PREDIAL",
    "Unid. Med.": "un",
-   "Preço": "82,81"
+   "Preço": "101,69"
  },
  {
    "Código": "HM01886",
    "Descrição": "CURVA 90° PVC DE=110 MM JUNTA ELÁSTICA PBA NBR 10351 INFRAESTRUTURA ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "86,75"
+   "Preço": "112,77"
  },
  {
    "Código": "HM01887",
    "Descrição": "CURVA 90° PVC DE=60 MM JUNTA ELÁSTICA PBA NBR 10351 INFRAESTRUTURA ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "22,19"
+   "Preço": "31,85"
  },
  {
    "Código": "HM01888",
    "Descrição": "CURVA 90° PVC DE=85 MM JUNTA ELÁSTICA PBA NBR 10351 INFRAESTRUTURA ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "52,00"
+   "Preço": "67,60"
  },
  {
    "Código": "HM01966",
    "Descrição": "CURVA 90° PVC RÍGIDO D=100MM PBJE COLETOR DE ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "22,19"
+   "Preço": "32,22"
  },
  {
    "Código": "HM01968",
    "Descrição": "CURVA 90° PVC RÍGIDO D=150 MM PBJE COLETOR DE ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "67,65"
+   "Preço": "95,37"
  },
  {
    "Código": "HM01969",
    "Descrição": "CURVA 90° PVC RÍGIDO D=200 MM PBJE COLETOR DE ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "130,77"
+   "Preço": "174,47"
  },
  {
    "Código": "HM01970",
    "Descrição": "CURVA 90° PVC RÍGIDO D=250 MM PBJE COLETOR DE ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "300,32"
+   "Preço": "382,54"
  },
  {
    "Código": "HM01971",
    "Descrição": "CURVA 90° PVC RÍGIDO D=300 MM PBJE COLETOR DE ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "413,37"
+   "Preço": "489,06"
  },
  {
    "Código": "HM01972",
    "Descrição": "CURVA 90° PVC RÍGIDO D=350 MM PBJE COLETOR DE ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "850,00"
+   "Preço": "811,91"
  },
  {
    "Código": "HM01973",
    "Descrição": "CURVA 90° PVC RÍGIDO D=400 MM PBJE COLETOR DE ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "877,77"
+   "Preço": "836,38"
  },
  {
    "Código": "EL08194",
@@ -7773,385 +7773,385 @@ const baseMateriais = [
    "Código": "HM06260",
    "Descrição": "CURVA 90GR AÇO CARBONO ASTM A36 DE=20\" E=1/4\" REVESTIMENTO 0100-400-E045 ALT3 (EPÓXI) 0100-400-E120 TIPO 1",
    "Unid. Med.": "un",
-   "Preço": "3.601,55"
+   "Preço": "4.309,64"
  },
  {
    "Código": "HM06261",
    "Descrição": "CURVA 90GR AÇO CARBONO ASTM A36 DE=40\" E=1/4\" REVESTIMENTO 0100-400-E045 ALT3 (EPÓXI) 0100-400-E120 TIPO 1",
    "Unid. Med.": "un",
-   "Preço": "10.788,30"
+   "Preço": "14.720,72"
  },
  {
    "Código": "HM06262",
    "Descrição": "CURVA 90GR AÇO CARBONO ASTM A36 DE=60\" E=5/16\" REVESTIMENTO 0100-400-E045 ALT3 (EPÓXI) 0100-400-E120 TIPO 1",
    "Unid. Med.": "un",
-   "Preço": "30.823,22"
+   "Preço": "38.339,42"
  },
  {
    "Código": "HM06263",
    "Descrição": "CURVA 90º COM BOLSAS FERRO FUNDIDO DE=110 MM (3,80 KG) PINTURA EPÓXI - ANEL DE BORRACHA INCLUSO - PARA PVC/PBA NBR 15880 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "497,33"
+   "Preço": "348,14"
  },
  {
    "Código": "HM06264",
    "Descrição": "CURVA 90º COM BOLSAS FERRO FUNDIDO DE=60 MM (3,80 KG) PINTURA EPÓXI - ANEL DE BORRACHA INCLUSO - PARA PVC/PBA NBR 15880 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "218,37"
+   "Preço": "156,40"
  },
  {
    "Código": "HM06265",
    "Descrição": "CURVA 90º COM BOLSAS FERRO FUNDIDO DE=85 MM (3,80 KG) PINTURA EPÓXI - ANEL DE BORRACHA INCLUSO - PARA PVC/PBA NBR 15880 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "329,01"
+   "Preço": "245,02"
  },
  {
    "Código": "HM06266",
    "Descrição": "CURVA 90º COM BOLSAS JE2GS FERRO FUNDIDO DN=100 MM (13,20 KG) PINTURA EPÓXI VERMELHA E ANÉIS DE BORRACHA INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "353,04"
+   "Preço": "424,78"
  },
  {
    "Código": "HM02963",
    "Descrição": "CURVA 90º COM BOLSAS JE2GS FERRO FUNDIDO DN=100 MM * (13,20 KG) PINTURA BETUMINOSA E ANÉIS DE BORRACHA INCLUSOS NBR 7675 PARA ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "350,06"
+   "Preço": "328,15"
  },
  {
    "Código": "HM06267",
    "Descrição": "CURVA 90º COM BOLSAS JE2GS FERRO FUNDIDO DN=150 MM (21,60 KG) PINTURA EPÓXI VERMELHA E ANÉIS DE BORRACHA INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "819,50"
+   "Preço": "885,13"
  },
  {
    "Código": "HM02964",
    "Descrição": "CURVA 90º COM BOLSAS JE2GS FERRO FUNDIDO DN=150 MM * (21,60 KG) PINTURA BETUMINOSA E ANÉIS DE BORRACHA INCLUSOS NBR 7675 PARA ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "591,20"
+   "Preço": "563,18"
  },
  {
    "Código": "HM06268",
    "Descrição": "CURVA 90º COM BOLSAS JE2GS FERRO FUNDIDO DN=200 MM (33,90 KG) PINTURA EPÓXI VERMELHA E ANÉIS DE BORRACHA INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "1.207,85"
+   "Preço": "1.271,83"
  },
  {
    "Código": "HM02965",
    "Descrição": "CURVA 90º COM BOLSAS JE2GS FERRO FUNDIDO DN=200 MM * (33,90 KG) PINTURA BETUMINOSA E ANÉIS DE BORRACHA INCLUSOS NBR 7675 PARA ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "871,57"
+   "Preço": "817,44"
  },
  {
    "Código": "HM06269",
    "Descrição": "CURVA 90º COM BOLSAS JE2GS FERRO FUNDIDO DN=250 MM (47,90 KG) PINTURA EPÓXI VERMELHA E ANÉIS DE BORRACHA INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "1.993,89"
+   "Preço": "2.273,29"
  },
  {
    "Código": "HM02966",
    "Descrição": "CURVA 90º COM BOLSAS JE2GS FERRO FUNDIDO DN=250 MM * (47,90 KG) PINTURA BETUMINOSA E ANÉIS DE BORRACHA INCLUSOS NBR 7675 PARA ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "1.537,01"
+   "Preço": "1.462,90"
  },
  {
    "Código": "HM06270",
    "Descrição": "CURVA 90º COM BOLSAS JE2GS FERRO FUNDIDO DN=300 MM (70,40 KG) PINTURA EPÓXI VERMELHA E ANÉIS DE BORRACHA INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "2.717,13"
+   "Preço": "2.677,93"
  },
  {
    "Código": "HM02967",
    "Descrição": "CURVA 90º COM BOLSAS JE2GS FERRO FUNDIDO DN=300 MM * (70,40 KG) PINTURA BETUMINOSA E ANÉIS DE BORRACHA INCLUSOS NBR 7675 PARA ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "2.363,88"
+   "Preço": "2.250,96"
  },
  {
    "Código": "HM06271",
    "Descrição": "CURVA 90º COM BOLSAS JE2GS FERRO FUNDIDO DN=350 MM (96,00 KG) PINTURA EPÓXI VERMELHA E ANÉIS DE BORRACHA INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "5.157,53"
+   "Preço": "6.059,28"
  },
  {
    "Código": "HM02968",
    "Descrição": "CURVA 90º COM BOLSAS JE2GS FERRO FUNDIDO DN=350 MM * (96,00 KG) PINTURA BETUMINOSA E ANÉIS DE BORRACHA INCLUSOS NBR 7675 PARA ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "4.824,42"
+   "Preço": "5.865,11"
  },
  {
    "Código": "HM06272",
    "Descrição": "CURVA 90º COM BOLSAS JE2GS FERRO FUNDIDO DN=400 MM (105,00 KG) PINTURA EPÓXI VERMELHA E ANÉIS DE BORRACHA INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "5.921,47"
+   "Preço": "6.698,76"
  },
  {
    "Código": "HM02969",
    "Descrição": "CURVA 90º COM BOLSAS JE2GS FERRO FUNDIDO DN=400 MM * (105,00 KG) PINTURA BETUMINOSA E ANÉIS DE BORRACHA INCLUSOS NBR 7675 PARA ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "5.509,05"
+   "Preço": "6.375,51"
  },
  {
    "Código": "HM06273",
    "Descrição": "CURVA 90º COM BOLSAS JE2GS FERRO FUNDIDO DN=450 MM (163,00 KG) PINTURA EPÓXI VERMELHA E ANÉIS DE BORRACHA INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "7.686,65"
+   "Preço": "8.847,44"
  },
  {
    "Código": "HM02970",
    "Descrição": "CURVA 90º COM BOLSAS JE2GS FERRO FUNDIDO DN=450 MM * (163,00 KG) PINTURA BETUMINOSA E ANÉIS DE BORRACHA INCLUSOS NBR 7675 PARA ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "7.159,60"
+   "Preço": "8.344,23"
  },
  {
    "Código": "HM06274",
    "Descrição": "CURVA 90º COM BOLSAS JE2GS FERRO FUNDIDO DN=500 MM (178,00 KG) PINTURA EPÓXI VERMELHA E ANÉIS DE BORRACHA INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "11.444,59"
+   "Preço": "11.260,37"
  },
  {
    "Código": "HM02971",
    "Descrição": "CURVA 90º COM BOLSAS JE2GS FERRO FUNDIDO DN=500 MM * (178,00 KG) PINTURA BETUMINOSA E ANÉIS DE BORRACHA INCLUSOS NBR 7675 PARA ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "10.828,83"
+   "Preço": "10.815,92"
  },
  {
    "Código": "HM06275",
    "Descrição": "CURVA 90º COM BOLSAS JE2GS FERRO FUNDIDO DN=80 MM (10,00 KG) PINTURA EPÓXI VERMELHA E ANÉIS DE BORRACHA INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "302,79"
+   "Preço": "361,33"
  },
  {
    "Código": "HM02972",
    "Descrição": "CURVA 90º COM BOLSAS JE2GS FERRO FUNDIDO DN=80 MM * (10,00 KG) PINTURA BETUMINOSA E ANÉIS DE BORRACHA INCLUSOS NBR 7675 PARA ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "245,94"
+   "Preço": "237,43"
  },
  {
    "Código": "HM06276",
    "Descrição": "CURVA 90º COM FLANGES E PÉ PN10 FERRO FUNDIDO DN=200 MM (43,50 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "1.879,29"
+   "Preço": "2.298,59"
  },
  {
    "Código": "HM03013",
    "Descrição": "CURVA 90º COM FLANGES E PÉ PN10 FERRO FUNDIDO DN=200 MM * (43,50 KG) PINTURA BETUMINOSA - ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "1.568,72"
+   "Preço": "2.039,33"
  },
  {
    "Código": "HM06277",
    "Descrição": "CURVA 90º COM FLANGES E PÉ PN10 FERRO FUNDIDO DN=250 MM (71,00 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "3.285,96"
+   "Preço": "3.981,97"
  },
  {
    "Código": "HM03014",
    "Descrição": "CURVA 90º COM FLANGES E PÉ PN10 FERRO FUNDIDO DN=250 MM * (71,00 KG) PINTURA BETUMINOSA - ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "2.771,84"
+   "Preço": "3.574,99"
  },
  {
    "Código": "HM06278",
    "Descrição": "CURVA 90º COM FLANGES E PÉ PN10 FERRO FUNDIDO DN=300 MM (102,00 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "4.171,23"
+   "Preço": "4.821,75"
  },
  {
    "Código": "HM03015",
    "Descrição": "CURVA 90º COM FLANGES E PÉ PN10 FERRO FUNDIDO DN=300 MM * (102,00 KG) PINTURA BETUMINOSA - ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "3.548,54"
+   "Preço": "4.427,55"
  },
  {
    "Código": "HM06279",
    "Descrição": "CURVA 90º COM FLANGES E PÉ PN10 FERRO FUNDIDO DN=350 MM (136,00 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "6.213,09"
+   "Preço": "7.418,48"
  },
  {
    "Código": "HM03016",
    "Descrição": "CURVA 90º COM FLANGES E PÉ PN10 FERRO FUNDIDO DN=350 MM * (136,00 KG) PINTURA BETUMINOSA - ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "5.402,11"
+   "Preço": "6.681,85"
  },
  {
    "Código": "HM06280",
    "Descrição": "CURVA 90º COM FLANGES E PÉ PN10 FERRO FUNDIDO DN=400 MM (172,00 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "10.064,97"
+   "Preço": "11.972,69"
  },
  {
    "Código": "HM03017",
    "Descrição": "CURVA 90º COM FLANGES E PÉ PN10 FERRO FUNDIDO DN=400 MM * (172,00 KG) PINTURA BETUMINOSA - ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "9.974,52"
+   "Preço": "11.227,17"
  },
  {
    "Código": "HM06281",
    "Descrição": "CURVA 90º COM FLANGES E PÉ PN10 FERRO FUNDIDO DN=450 MM (231,00 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "14.973,34"
+   "Preço": "17.503,59"
  },
  {
    "Código": "HM03018",
    "Descrição": "CURVA 90º COM FLANGES E PÉ PN10 FERRO FUNDIDO DN=450 MM * (231,00 KG) PINTURA BETUMINOSA - ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "14.469,28"
+   "Preço": "15.570,96"
  },
  {
    "Código": "HM06282",
    "Descrição": "CURVA 90º COM FLANGES E PÉ PN10 FERRO FUNDIDO DN=500 MM (276,00 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "19.701,69"
+   "Preço": "19.481,31"
  },
  {
    "Código": "HM03019",
    "Descrição": "CURVA 90º COM FLANGES E PÉ PN10 FERRO FUNDIDO DN=500 MM * (276,00 KG) PINTURA BETUMINOSA - ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "18.295,58"
+   "Preço": "18.008,97"
  },
  {
    "Código": "HM06283",
    "Descrição": "CURVA 90º COM FLANGES E PÉ PN10/16 FERRO FUNDIDO DN=100 MM (17,00 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "818,69"
+   "Preço": "598,98"
  },
  {
    "Código": "HM03011",
    "Descrição": "CURVA 90º COM FLANGES E PÉ PN10/16 FERRO FUNDIDO DN=100 MM * (17,00 KG) PINTURA BETUMINOSA - ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "738,56"
+   "Preço": "606,08"
  },
  {
    "Código": "HM06284",
    "Descrição": "CURVA 90º COM FLANGES E PÉ PN10/16 FERRO FUNDIDO DN=150 MM (28,00 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "1.297,80"
+   "Preço": "1.600,15"
  },
  {
    "Código": "HM03012",
    "Descrição": "CURVA 90º COM FLANGES E PÉ PN10/16 FERRO FUNDIDO DN=150 MM * (28,00 KG) PINTURA BETUMINOSA - ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "1.195,01"
+   "Preço": "1.247,74"
  },
  {
    "Código": "HM06285",
    "Descrição": "CURVA 90º COM FLANGES PN10 FERRO FUNDIDO DN=200 MM (28,00 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "1.229,10"
+   "Preço": "1.461,96"
  },
  {
    "Código": "HM03004",
    "Descrição": "CURVA 90º COM FLANGES PN10 FERRO FUNDIDO DN=200 MM * (28,00 KG) PINTURA BETUMINOSA - ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "1.010,83"
+   "Preço": "1.289,02"
  },
  {
    "Código": "HM06286",
    "Descrição": "CURVA 90º COM FLANGES PN10 FERRO FUNDIDO DN=250 MM (46,00 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "2.226,27"
+   "Preço": "2.608,89"
  },
  {
    "Código": "HM03005",
    "Descrição": "CURVA 90º COM FLANGES PN10 FERRO FUNDIDO DN=250 MM * (46,00 KG) PINTURA BETUMINOSA - ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "2.210,56"
+   "Preço": "2.333,99"
  },
  {
    "Código": "HM06287",
    "Descrição": "CURVA 90º COM FLANGES PN10 FERRO FUNDIDO DN=300 MM (66,00 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "3.215,42"
+   "Preço": "3.091,62"
  },
  {
    "Código": "HM03006",
    "Descrição": "CURVA 90º COM FLANGES PN10 FERRO FUNDIDO DN=300 MM * (66,00 KG) PINTURA BETUMINOSA - ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "2.721,25"
+   "Preço": "2.700,79"
  },
  {
    "Código": "HM06288",
    "Descrição": "CURVA 90º COM FLANGES PN10 FERRO FUNDIDO DN=350 MM (87,00 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "4.667,80"
+   "Preço": "5.648,68"
  },
  {
    "Código": "HM02983",
    "Descrição": "CURVA 90º COM FLANGES PN10 FERRO FUNDIDO DN=350 MM * (87,00 KG) PINTURA BETUMINOSA - ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "3.943,87"
+   "Preço": "4.151,56"
  },
  {
    "Código": "HM06289",
    "Descrição": "CURVA 90º COM FLANGES PN10 FERRO FUNDIDO DN=400 MM (110,00 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "8.884,25"
+   "Preço": "9.249,83"
  },
  {
    "Código": "HM02984",
    "Descrição": "CURVA 90º COM FLANGES PN10 FERRO FUNDIDO DN=400 MM * (110,00 KG) PINTURA BETUMINOSA - ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "8.728,58"
+   "Preço": "9.332,69"
  },
  {
    "Código": "HM06290",
    "Descrição": "CURVA 90º COM FLANGES PN10 FERRO FUNDIDO DN=450 MM (195,00 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "10.689,69"
+   "Preço": "11.189,56"
  },
  {
    "Código": "HM02985",
    "Descrição": "CURVA 90º COM FLANGES PN10 FERRO FUNDIDO DN=450 MM * (195,00 KG) PINTURA BETUMINOSA - ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "9.971,44"
+   "Preço": "11.884,07"
  },
  {
    "Código": "HM06291",
    "Descrição": "CURVA 90º COM FLANGES PN10 FERRO FUNDIDO DN=500 MM (174,00 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "13.618,86"
+   "Preço": "14.357,77"
  },
  {
    "Código": "HM02986",
    "Descrição": "CURVA 90º COM FLANGES PN10 FERRO FUNDIDO DN=500 MM * (174,00 KG) PINTURA BETUMINOSA - ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "12.868,64"
+   "Preço": "13.816,21"
  },
  {
    "Código": "HM06292",
    "Descrição": "CURVA 90º COM FLANGES PN10/16 FERRO FUNDIDO DN=100 MM (11,00 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "577,66"
+   "Preço": "546,89"
  },
  {
    "Código": "HM03002",
    "Descrição": "CURVA 90º COM FLANGES PN10/16 FERRO FUNDIDO DN=100 MM * (11,00 KG) PINTURA BETUMINOSA - ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "513,18"
+   "Preço": "500,78"
  },
  {
    "Código": "HM06293",
    "Descrição": "CURVA 90º COM FLANGES PN10/16 FERRO FUNDIDO DN=150 MM (18,00 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "879,32"
+   "Preço": "1.036,89"
  },
  {
    "Código": "HM03003",
    "Descrição": "CURVA 90º COM FLANGES PN10/16 FERRO FUNDIDO DN=150 MM * (18,00 KG) PINTURA BETUMINOSA - ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "725,90"
+   "Preço": "915,40"
  },
  {
    "Código": "HM06294",
    "Descrição": "CURVA 90º COM FLANGES PN10/16/25 FERRO FUNDIDO DN=80 MM (9,50 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "419,08"
+   "Preço": "489,07"
  },
  {
    "Código": "HM03010",
    "Descrição": "CURVA 90º COM FLANGES PN10/16/25 FERRO FUNDIDO DN=80 MM * (9,50 KG) PINTURA BETUMINOSA - ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "367,81"
+   "Preço": "449,51"
  },
  {
    "Código": "EL02392",
@@ -8331,7 +8331,7 @@ const baseMateriais = [
    "Código": "MO00024",
    "Descrição": "DESENHISTA TÉCNICO",
    "Unid. Med.": "H",
-   "Preço": "20,09"
+   "Preço": "21,04"
  },
  {
    "Código": "CV00372",
@@ -8505,19 +8505,19 @@ const baseMateriais = [
    "Código": "HM08364",
    "Descrição": "DISPOSITIVO SUPRESSÃO LATÃO E BORRACHA DN=1\" (OB) REUTILIZÁVEL P/CAVALETE FG/PVC",
    "Unid. Med.": "un",
-   "Preço": "8,02"
+   "Preço": "9,24"
  },
  {
    "Código": "HM08365",
    "Descrição": "DISPOSITIVO SUPRESSÃO LATÃO E BORRACHA DN=1.1/2\" (OB) REUTILIZÁVEL P/CAVALETE FG/PVC",
    "Unid. Med.": "un",
-   "Preço": "24,92"
+   "Preço": "27,50"
  },
  {
    "Código": "HM04285",
    "Descrição": "DISPOSITIVO SUPRESSÃO LATÃO E BORRACHA DN=3/4\" (OB) REUTILIZÁVEL P/CAVALETE FG/PVC",
    "Unid. Med.": "un",
-   "Preço": "4,00"
+   "Preço": "3,09"
  },
  {
    "Código": "EL02618",
@@ -8625,7 +8625,7 @@ const baseMateriais = [
    "Código": "MO00030",
    "Descrição": "ELETRICISTA",
    "Unid. Med.": "H",
-   "Preço": "16,19"
+   "Preço": "16,95"
  },
  {
    "Código": "EL02403",
@@ -8673,13 +8673,13 @@ const baseMateriais = [
    "Código": "HM00572",
    "Descrição": "ELETRODO REVESTIDO D=3,25 MM CLASSIFICAÇÃO E 6010 P/AÇO CARBONO",
    "Unid. Med.": "KG",
-   "Preço": "50,93"
+   "Preço": "53,16"
  },
  {
    "Código": "HM00573",
    "Descrição": "ELETRODO REVESTIDO D=3,25 MM CLASSIFICAÇÃO E 6130 P/AÇO INOXIDÁVEL",
    "Unid. Med.": "KG",
-   "Preço": "97,36"
+   "Preço": "107,76"
  },
  {
    "Código": "EL02697",
@@ -9093,7 +9093,7 @@ const baseMateriais = [
    "Código": "MO00031",
    "Descrição": "ENCANADOR",
    "Unid. Med.": "H",
-   "Preço": "11,25"
+   "Preço": "11,78"
  },
  {
    "Código": "CV01386",
@@ -9105,13 +9105,13 @@ const baseMateriais = [
    "Código": "MO00035",
    "Descrição": "ENGENHEIRO PLENO",
    "Unid. Med.": "H",
-   "Preço": "64,49"
+   "Preço": "67,54"
  },
  {
    "Código": "EQ04577",
    "Descrição": "EQUIPAMENTO AIRLESS PARA PINTURA, A GASOLINA MOTOR-200CC (6,5HP)",
    "Unid. Med.": "H",
-   "Preço": "22,04"
+   "Preço": "22,68"
  },
  {
    "Código": "EQ04824",
@@ -9225,7 +9225,7 @@ const baseMateriais = [
    "Código": "EQ04530",
    "Descrição": "ESCAVADEIRA HIDRÁULICA *CAPACIDADE OPERACIONAL=17T, POTÊNCIA DO MOTOR=122HP A DIESEL SOBRE ESTEIRAS",
    "Unid. Med.": "H",
-   "Preço": "219,55"
+   "Preço": "230,71"
  },
  {
    "Código": "EQ05156",
@@ -9237,7 +9237,7 @@ const baseMateriais = [
    "Código": "EQ04531",
    "Descrição": "ESCAVADEIRA HIDRÁULICA CAPACIDADE OPERACIONAL=20T, POTÊNCIA DO MOTOR=157HP A DIESEL SOBRE ESTEIRAS",
    "Unid. Med.": "H",
-   "Preço": "262,43"
+   "Preço": "279,92"
  },
  {
    "Código": "EQ05157",
@@ -9249,7 +9249,7 @@ const baseMateriais = [
    "Código": "EQ04532",
    "Descrição": "ESCAVADEIRA HIDRÁULICA COM CLAMSHELL *CAPACIDADE OPERACIONAL=17 T, POTÊNCIA DO MOTOR=122HP A DIESEL SOBRE ESTEIRAS",
    "Unid. Med.": "H",
-   "Preço": "253,79"
+   "Preço": "266,74"
  },
  {
    "Código": "CV00528",
@@ -9267,19 +9267,19 @@ const baseMateriais = [
    "Código": "EQ04578",
    "Descrição": "ESMERILHADEIRA ANGULAR POTÊNCIA=2.000 W, DISCO DE 7\" (MANUAL)",
    "Unid. Med.": "H",
-   "Preço": "2,76"
+   "Preço": "2,74"
  },
  {
    "Código": "MO00037",
    "Descrição": "ESMERILHADOR",
    "Unid. Med.": "H",
-   "Preço": "11,72"
+   "Preço": "12,27"
  },
  {
    "Código": "EQ04534",
    "Descrição": "ESPARGIDOR DE ASFALTO REBOCÁVEL TANQUE=*2.400L",
    "Unid. Med.": "H",
-   "Preço": "22,87"
+   "Preço": "23,08"
  },
  {
    "Código": "CV00579",
@@ -9363,7 +9363,7 @@ const baseMateriais = [
    "Código": "HM00628",
    "Descrição": "ESTANHO EM VARETA LIGA ESTANHO E CHUMBO, COMPOSIÇÃO (30 X 70) PARA SOLDA",
    "Unid. Med.": "KG",
-   "Preço": "181,97"
+   "Preço": "271,16"
  },
  {
    "Código": "EL02571",
@@ -9387,31 +9387,31 @@ const baseMateriais = [
    "Código": "HM06295",
    "Descrição": "EXTREMIDADE BOLSA JE2GS - FLANGE PN10 FERRO FUNDIDO DN=200 MM L=140 MM (20,90 KG) PINTURA EPÓXI VERMELHA E ANEL DE BORRACHA INCLUSO NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "1.380,67"
+   "Preço": "1.196,31"
  },
  {
    "Código": "HM03097",
    "Descrição": "EXTREMIDADE BOLSA JE2GS - FLANGE PN10 FERRO FUNDIDO DN=200 MM L=140 MM * (20,90 KG) PINTURA BETUMINOSA - INCLUSO ANEL DE BORRACHA NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "1.146,78"
+   "Preço": "1.407,87"
  },
  {
    "Código": "HM06296",
    "Descrição": "EXTREMIDADE BOLSA JE2GS - FLANGE PN10 FERRO FUNDIDO DN=250 MM L=145 MM (28,80 KG) PINTURA EPÓXI VERMELHA E ANEL DE BORRACHA INCLUSO NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "1.569,88"
+   "Preço": "1.710,48"
  },
  {
    "Código": "HM03098",
    "Descrição": "EXTREMIDADE BOLSA JE2GS - FLANGE PN10 FERRO FUNDIDO DN=250 MM L=145 MM * (28,80 KG) PINTURA BETUMINOSA - INCLUSO ANEL DE BORRACHA NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "1.784,80"
+   "Preço": "2.076,02"
  },
  {
    "Código": "HM06297",
    "Descrição": "EXTREMIDADE BOLSA JE2GS - FLANGE PN10 FERRO FUNDIDO DN=300 MM L=150 MM (37,60 KG) PINTURA EPÓXI VERMELHA E ANEL DE BORRACHA INCLUSO NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "2.337,38"
+   "Preço": "2.219,42"
  },
  {
    "Código": "HM03099",
@@ -9423,163 +9423,163 @@ const baseMateriais = [
    "Código": "HM06298",
    "Descrição": "EXTREMIDADE BOLSA JE2GS - FLANGE PN10 FERRO FUNDIDO DN=350 MM L=155 MM (44,00 KG) PINTURA EPÓXI VERMELHA E ANEL DE BORRACHA INCLUSO NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "2.965,02"
+   "Preço": "2.849,19"
  },
  {
    "Código": "HM03091",
    "Descrição": "EXTREMIDADE BOLSA JE2GS - FLANGE PN10 FERRO FUNDIDO DN=350 MM L=155 MM * (44,00 KG) PINTURA BETUMINOSA - INCLUSO ANEL DE BORRACHA NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "2.511,48"
+   "Preço": "2.944,03"
  },
  {
    "Código": "HM06299",
    "Descrição": "EXTREMIDADE BOLSA JE2GS - FLANGE PN10 FERRO FUNDIDO DN=400 MM L=160 MM (53,10 KG) PINTURA EPÓXI VERMELHA E ANEL DE BORRACHA INCLUSO NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "3.421,83"
+   "Preço": "3.815,14"
  },
  {
    "Código": "HM03092",
    "Descrição": "EXTREMIDADE BOLSA JE2GS - FLANGE PN10 FERRO FUNDIDO DN=400 MM L=160 MM * (53,10 KG) PINTURA BETUMINOSA - INCLUSO ANEL DE BORRACHA NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "3.468,17"
+   "Preço": "3.661,16"
  },
  {
    "Código": "HM06300",
    "Descrição": "EXTREMIDADE BOLSA JE2GS - FLANGE PN10 FERRO FUNDIDO DN=450 MM L=165 MM (69,60 KG) PINTURA EPÓXI VERMELHA E ANEL DE BORRACHA INCLUSO NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "4.756,11"
+   "Preço": "4.978,01"
  },
  {
    "Código": "HM03093",
    "Descrição": "EXTREMIDADE BOLSA JE2GS - FLANGE PN10 FERRO FUNDIDO DN=450 MM L=165 MM * (69,60 KG) PINTURA BETUMINOSA - INCLUSO ANEL DE BORRACHA NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "4.308,29"
+   "Preço": "4.409,15"
  },
  {
    "Código": "HM06301",
    "Descrição": "EXTREMIDADE BOLSA JE2GS - FLANGE PN10 FERRO FUNDIDO DN=500 MM L=170 MM (81,60 KG) PINTURA EPÓXI VERMELHA E ANEL DE BORRACHA INCLUSO NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "5.389,25"
+   "Preço": "5.066,36"
  },
  {
    "Código": "HM03094",
    "Descrição": "EXTREMIDADE BOLSA JE2GS - FLANGE PN10 FERRO FUNDIDO DN=500 MM L=170 MM * (81,60 KG) PINTURA BETUMINOSA - INCLUSO ANEL DE BORRACHA NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "4.951,95"
+   "Preço": "4.881,18"
  },
  {
    "Código": "HM06302",
    "Descrição": "EXTREMIDADE BOLSA JE2GS - FLANGE PN10/16 FERRO FUNDIDO DN=100 MM L=130 MM (9,80 KG) PINTURA EPÓXI VERMELHA E ANEL DE BORRACHA INCLUSO NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "501,77"
+   "Preço": "455,67"
  },
  {
    "Código": "HM03095",
    "Descrição": "EXTREMIDADE BOLSA JE2GS - FLANGE PN10/16 FERRO FUNDIDO DN=100 MM L=130 MM * (9,80 KG) PINTURA BETUMINOSA - INCLUSO ANEL DE BORRACHA NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "413,37"
+   "Preço": "420,51"
  },
  {
    "Código": "HM06303",
    "Descrição": "EXTREMIDADE BOLSA JE2GS - FLANGE PN10/16 FERRO FUNDIDO DN=150 MM L=135 MM (15,70 KG) PINTURA EPÓXI VERMELHA E ANEL DE BORRACHA INCLUSO NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "735,99"
+   "Preço": "826,62"
  },
  {
    "Código": "HM03096",
    "Descrição": "EXTREMIDADE BOLSA JE2GS - FLANGE PN10/16 FERRO FUNDIDO DN=150 MM L=135 MM * (15,70 KG) PINTURA BETUMINOSA - INCLUSO ANEL DE BORRACHA NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "656,50"
+   "Preço": "745,18"
  },
  {
    "Código": "HM06304",
    "Descrição": "EXTREMIDADE BOLSA JE2GS - FLANGE PN10/16/25 FERRO FUNDIDO DN=80 MM L=130 MM (8,10 KG) PINTURA EPÓXI VERMELHA E ANEL DE BORRACHA INCLUSO NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "372,04"
+   "Preço": "381,24"
  },
  {
    "Código": "HM03100",
    "Descrição": "EXTREMIDADE BOLSA JE2GS - FLANGE PN10/16/25 FERRO FUNDIDO DN=80 MM L=130 MM * (8,10 KG) PINTURA BETUMINOSA - INCLUSO ANEL DE BORRACHA NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "305,14"
+   "Preço": "343,35"
  },
  {
    "Código": "HM06305",
    "Descrição": "EXTREMIDADE PONTA - FLANGE PN10 E ABA DE VEDAÇÃO FERRO FUNDIDO DN=200 MM L=700 MM (46,00 KG) PINTURA EPÓXI VERMELHA - ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "1.452,56"
+   "Preço": "1.767,79"
  },
  {
    "Código": "HM03115",
    "Descrição": "EXTREMIDADE PONTA - FLANGE PN10 E ABA DE VEDAÇÃO FERRO FUNDIDO DN=200 MM L=700 MM * (46,00 KG) PINTURA BETUMINOSA - ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "1.412,96"
+   "Preço": "1.810,92"
  },
  {
    "Código": "HM06306",
    "Descrição": "EXTREMIDADE PONTA - FLANGE PN10 E ABA DE VEDAÇÃO FERRO FUNDIDO DN=250 MM L=700 MM (58,00 KG) PINTURA EPÓXI VERMELHA - ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "2.216,12"
+   "Preço": "2.433,00"
  },
  {
    "Código": "HM03116",
    "Descrição": "EXTREMIDADE PONTA - FLANGE PN10 E ABA DE VEDAÇÃO FERRO FUNDIDO DN=250 MM L=700 MM * (58,00 KG) PINTURA BETUMINOSA - ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "2.244,30"
+   "Preço": "2.414,26"
  },
  {
    "Código": "HM06307",
    "Descrição": "EXTREMIDADE PONTA - FLANGE PN10 E ABA DE VEDAÇÃO FERRO FUNDIDO DN=300 MM L=700 MM (75,00 KG) PINTURA EPÓXI VERMELHA - ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "3.839,52"
+   "Preço": "3.877,34"
  },
  {
    "Código": "HM03117",
    "Descrição": "EXTREMIDADE PONTA - FLANGE PN10 E ABA DE VEDAÇÃO FERRO FUNDIDO DN=300 MM L=700 MM * (75,00 KG) PINTURA BETUMINOSA - ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "3.499,74"
+   "Preço": "3.300,24"
  },
  {
    "Código": "HM06308",
    "Descrição": "EXTREMIDADE PONTA - FLANGE PN10 E ABA DE VEDAÇÃO FERRO FUNDIDO DN=350 MM L=700 MM (89,00 KG) PINTURA EPÓXI VERMELHA - ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "4.097,00"
+   "Preço": "4.897,63"
  },
  {
    "Código": "HM03111",
    "Descrição": "EXTREMIDADE PONTA - FLANGE PN10 E ABA DE VEDAÇÃO FERRO FUNDIDO DN=350 MM L=700 MM * (89,00 KG) PINTURA BETUMINOSA - ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "4.217,08"
+   "Preço": "4.908,39"
  },
  {
    "Código": "HM06309",
    "Descrição": "EXTREMIDADE PONTA - FLANGE PN10 E ABA DE VEDAÇÃO FERRO FUNDIDO DN=400 MM L=700 MM (108,00 KG) PINTURA EPÓXI VERMELHA - ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "5.740,97"
+   "Preço": "6.909,43"
  },
  {
    "Código": "HM03112",
    "Descrição": "EXTREMIDADE PONTA - FLANGE PN10 E ABA DE VEDAÇÃO FERRO FUNDIDO DN=400 MM L=700 MM * (108,00 KG) PINTURA BETUMINOSA - ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "5.687,72"
+   "Preço": "6.582,62"
  },
  {
    "Código": "HM06310",
    "Descrição": "EXTREMIDADE PONTA - FLANGE PN10 E ABA DE VEDAÇÃO FERRO FUNDIDO DN=500 MM L=700 MM (147,00 KG) PINTURA EPÓXI VERMELHA - ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "8.629,24"
+   "Preço": "9.790,62"
  },
  {
    "Código": "HM03113",
    "Descrição": "EXTREMIDADE PONTA - FLANGE PN10 E ABA DE VEDAÇÃO FERRO FUNDIDO DN=500 MM L=700 MM * (147,00 KG) PINTURA BETUMINOSA - ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "8.376,40"
+   "Preço": "10.289,51"
  },
  {
    "Código": "HM06311",
    "Descrição": "EXTREMIDADE PONTA - FLANGE PN10 FERRO FUNDIDO DN=200 MM L=400 MM (23,20 KG) PINTURA EPÓXI VERMELHA - ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "1.783,11"
+   "Preço": "2.219,40"
  },
  {
    "Código": "HM03102",
@@ -9591,7 +9591,7 @@ const baseMateriais = [
    "Código": "HM06312",
    "Descrição": "EXTREMIDADE PONTA - FLANGE PN10 FERRO FUNDIDO DN=250 MM L=420 MM (32,00 KG) PINTURA EPÓXI VERMELHA - ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "2.751,72"
+   "Preço": "2.755,14"
  },
  {
    "Código": "HM03103",
@@ -9603,103 +9603,103 @@ const baseMateriais = [
    "Código": "HM06313",
    "Descrição": "EXTREMIDADE PONTA - FLANGE PN10 FERRO FUNDIDO DN=300 MM L=440 MM (42,00 KG) PINTURA EPÓXI VERMELHA - ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "3.662,59"
+   "Preço": "3.174,65"
  },
  {
    "Código": "HM03104",
    "Descrição": "EXTREMIDADE PONTA - FLANGE PN10 FERRO FUNDIDO DN=300 MM L=440 MM * (42,00 KG) PINTURA BETUMINOSA - ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "2.309,25"
+   "Preço": "2.179,78"
  },
  {
    "Código": "HM06314",
    "Descrição": "EXTREMIDADE PONTA - FLANGE PN10 FERRO FUNDIDO DN=350 MM L=460 MM (52,00 KG) PINTURA EPÓXI VERMELHA - ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "5.341,51"
+   "Preço": "4.308,62"
  },
  {
    "Código": "HM03105",
    "Descrição": "EXTREMIDADE PONTA - FLANGE PN10 FERRO FUNDIDO DN=350 MM L=460 MM * (52,00 KG) PINTURA BETUMINOSA - ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "3.422,67"
+   "Preço": "4.240,50"
  },
  {
    "Código": "HM06315",
    "Descrição": "EXTREMIDADE PONTA - FLANGE PN10 FERRO FUNDIDO DN=400 MM L=480 MM (73,50 KG) PINTURA EPÓXI VERMELHA - ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "6.050,98"
+   "Preço": "4.846,32"
  },
  {
    "Código": "HM03106",
    "Descrição": "EXTREMIDADE PONTA - FLANGE PN10 FERRO FUNDIDO DN=400 MM L=480 MM * (73,50 KG) PINTURA BETUMINOSA - ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "3.778,80"
+   "Preço": "4.598,44"
  },
  {
    "Código": "HM06316",
    "Descrição": "EXTREMIDADE PONTA - FLANGE PN10 FERRO FUNDIDO DN=450 MM L=500 MM (78,00 KG) PINTURA EPÓXI VERMELHA - ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "6.514,59"
+   "Preço": "5.076,99"
  },
  {
    "Código": "HM03107",
    "Descrição": "EXTREMIDADE PONTA - FLANGE PN10 FERRO FUNDIDO DN=450 MM L=500 MM * (78,00 KG) PINTURA BETUMINOSA - ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "4.512,50"
+   "Preço": "5.112,65"
  },
  {
    "Código": "HM06317",
    "Descrição": "EXTREMIDADE PONTA - FLANGE PN10 FERRO FUNDIDO DN=500 MM L=520 MM (114,00 KG) PINTURA EPÓXI VERMELHA - ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "7.705,66"
+   "Preço": "5.499,88"
  },
  {
    "Código": "HM03108",
    "Descrição": "EXTREMIDADE PONTA - FLANGE PN10 FERRO FUNDIDO DN=500 MM L=520 MM * (114,00 KG) PINTURA BETUMINOSA - ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "5.880,71"
+   "Preço": "5.395,36"
  },
  {
    "Código": "HM06318",
    "Descrição": "EXTREMIDADE PONTA - FLANGE PN10/16 E ABA DE VEDAÇÃO FERRO FUNDIDO DN=100 MM L=700 MM (21,00 KG) PINTURA EPÓXI VERMELHA - ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "880,68"
+   "Preço": "857,68"
  },
  {
    "Código": "HM03118",
    "Descrição": "EXTREMIDADE PONTA - FLANGE PN10/16 E ABA DE VEDAÇÃO FERRO FUNDIDO DN=100 MM L=700 MM * (21,00 KG) PINTURA BETUMINOSA - ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "763,25"
+   "Preço": "875,05"
  },
  {
    "Código": "HM06319",
    "Descrição": "EXTREMIDADE PONTA - FLANGE PN10/16 E ABA DE VEDAÇÃO FERRO FUNDIDO DN=150 MM L=700 MM (32,00 KG) PINTURA EPÓXI VERMELHA - ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "1.108,11"
+   "Preço": "1.349,71"
  },
  {
    "Código": "HM03114",
    "Descrição": "EXTREMIDADE PONTA - FLANGE PN10/16 E ABA DE VEDAÇÃO FERRO FUNDIDO DN=150 MM L=700 MM * (32,00 KG) PINTURA BETUMINOSA - ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "966,94"
+   "Preço": "1.257,02"
  },
  {
    "Código": "HM06320",
    "Descrição": "EXTREMIDADE PONTA - FLANGE PN10/16 FERRO FUNDIDO DN=100 MM L=360 MM (10,90 KG) PINTURA EPÓXI VERMELHA - ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "702,70"
+   "Preço": "758,77"
  },
  {
    "Código": "HM03109",
    "Descrição": "EXTREMIDADE PONTA - FLANGE PN10/16 FERRO FUNDIDO DN=100 MM L=360 MM * (10,90 KG) PINTURA BETUMINOSA - ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "619,85"
+   "Preço": "523,78"
  },
  {
    "Código": "HM06321",
    "Descrição": "EXTREMIDADE PONTA - FLANGE PN10/16 FERRO FUNDIDO DN=150 MM L=380 MM (17,70 KG) PINTURA EPÓXI VERMELHA - ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "1.463,28"
+   "Preço": "1.631,61"
  },
  {
    "Código": "HM03101",
@@ -9711,25 +9711,25 @@ const baseMateriais = [
    "Código": "HM06322",
    "Descrição": "EXTREMIDADE PONTA - FLANGE PN10/16/25 E ABA DE VEDAÇÃO FERRO FUNDIDO DN=80 MM L=700 MM (17,00 KG) PINTURA EPÓXI VERMELHA - ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "635,19"
+   "Preço": "715,29"
  },
  {
    "Código": "HM03119",
    "Descrição": "EXTREMIDADE PONTA - FLANGE PN10/16/25 E ABA DE VEDAÇÃO FERRO FUNDIDO DN=80 MM L=700 MM * (17,00 KG) PINTURA BETUMINOSA - ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "596,49"
+   "Preço": "774,38"
  },
  {
    "Código": "HM06323",
    "Descrição": "EXTREMIDADE PONTA - FLANGE PN10/16/25 FERRO FUNDIDO DN=80 MM L=350 MM (8,50 KG) PINTURA EPÓXI VERMELHA - ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "638,52"
+   "Preço": "634,82"
  },
  {
    "Código": "HM03110",
    "Descrição": "EXTREMIDADE PONTA - FLANGE PN10/16/25 FERRO FUNDIDO DN=80 MM L=350 MM * (8,50 KG) PINTURA BETUMINOSA - ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "323,60"
+   "Preço": "409,84"
  },
  {
    "Código": "CV00449",
@@ -9759,7 +9759,7 @@ const baseMateriais = [
    "Código": "MO00038",
    "Descrição": "FERREIRO ARMADOR",
    "Unid. Med.": "H",
-   "Preço": "11,76"
+   "Preço": "12,32"
  },
  {
    "Código": "CV04350",
@@ -9945,7 +9945,7 @@ const baseMateriais = [
    "Código": "HM05941",
    "Descrição": "FITA ANTICORROSIVA PVC/BORRACHA LARG=10 CM ADESIVA P/REVESTIMENTO DE TUBULAÇÃO",
    "Unid. Med.": "M",
-   "Preço": "4,63"
+   "Preço": "6,12"
  },
  {
    "Código": "EL00971",
@@ -9963,175 +9963,175 @@ const baseMateriais = [
    "Código": "HM06324",
    "Descrição": "FLANGE AÇO CARBONO ASTM A36 DE=20\" PN10 REVESTIMENTO 0100-400-E045 ALT3 (EPÓXI) 0100-400-E027 FL1 - ISO 2531",
    "Unid. Med.": "un",
-   "Preço": "1.866,43"
+   "Preço": "1.880,30"
  },
  {
    "Código": "HM06325",
    "Descrição": "FLANGE AÇO CARBONO ASTM A36 DE=40\" PN10 REVESTIMENTO 0100-400-E045 ALT3 (EPÓXI) 0100-400-E027 FL1 - ISO 2531",
    "Unid. Med.": "un",
-   "Preço": "8.296,52"
+   "Preço": "10.131,63"
  },
  {
    "Código": "HM06326",
    "Descrição": "FLANGE AÇO CARBONO ASTM A36 DE=60\" PN12 REVESTIMENTO 0100-400-E045 ALT3 (EPÓXI) 0100-400-E007 FL1 AWWA C207",
    "Unid. Med.": "un",
-   "Preço": "32.616,68"
+   "Preço": "26.973,26"
  },
  {
    "Código": "HM06338",
    "Descrição": "FLANGE AVULSO PN10 FERRO FUNDIDO DN=200 MM (10,00 KG) PINTURA EPÓXI VERMELHA - ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "490,43"
+   "Preço": "585,03"
  },
  {
    "Código": "HM03127",
    "Descrição": "FLANGE AVULSO PN10 FERRO FUNDIDO DN=200 MM * (10,00 KG) PINTURA BETUMINOSA - ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "392,33"
+   "Preço": "510,02"
  },
  {
    "Código": "HM06339",
    "Descrição": "FLANGE AVULSO PN10 FERRO FUNDIDO DN=250 MM (14,00 KG) PINTURA EPÓXI VERMELHA - ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "661,99"
+   "Preço": "820,04"
  },
  {
    "Código": "HM03128",
    "Descrição": "FLANGE AVULSO PN10 FERRO FUNDIDO DN=250 MM * (14,00 KG) PINTURA BETUMINOSA - ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "593,73"
+   "Preço": "732,98"
  },
  {
    "Código": "HM06340",
    "Descrição": "FLANGE AVULSO PN10 FERRO FUNDIDO DN=300 MM (18,00 KG) PINTURA EPÓXI VERMELHA - ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "949,56"
+   "Preço": "990,09"
  },
  {
    "Código": "HM03129",
    "Descrição": "FLANGE AVULSO PN10 FERRO FUNDIDO DN=300 MM * (18,00 KG) PINTURA BETUMINOSA - ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "778,64"
+   "Preço": "808,20"
  },
  {
    "Código": "HM06341",
    "Descrição": "FLANGE AVULSO PN10 FERRO FUNDIDO DN=350 MM (23,00 KG) PINTURA EPÓXI VERMELHA - ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "1.211,25"
+   "Preço": "1.443,95"
  },
  {
    "Código": "HM03121",
    "Descrição": "FLANGE AVULSO PN10 FERRO FUNDIDO DN=350 MM * (23,00 KG) PINTURA BETUMINOSA - ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "998,55"
+   "Preço": "1.297,98"
  },
  {
    "Código": "HM06342",
    "Descrição": "FLANGE AVULSO PN10 FERRO FUNDIDO DN=400 MM (28,00 KG) PINTURA EPÓXI VERMELHA - ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "1.534,16"
+   "Preço": "1.835,76"
  },
  {
    "Código": "HM03122",
    "Descrição": "FLANGE AVULSO PN10 FERRO FUNDIDO DN=400 MM * (28,00 KG) PINTURA BETUMINOSA - ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "1.246,50"
+   "Preço": "1.603,88"
  },
  {
    "Código": "HM06343",
    "Descrição": "FLANGE AVULSO PN10 FERRO FUNDIDO DN=450 MM (34,00 KG) PINTURA EPÓXI VERMELHA - ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "1.810,88"
+   "Preço": "2.206,33"
  },
  {
    "Código": "HM03123",
    "Descrição": "FLANGE AVULSO PN10 FERRO FUNDIDO DN=450 MM * (34,00 KG) PINTURA BETUMINOSA - ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "1.528,11"
+   "Preço": "1.928,68"
  },
  {
    "Código": "HM06344",
    "Descrição": "FLANGE AVULSO PN10 FERRO FUNDIDO DN=500 MM (38,00 KG) PINTURA EPÓXI VERMELHA - ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "2.070,99"
+   "Preço": "2.580,23"
  },
  {
    "Código": "HM03124",
    "Descrição": "FLANGE AVULSO PN10 FERRO FUNDIDO DN=500 MM * (38,00 KG) PINTURA BETUMINOSA - ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "1.833,83"
+   "Preço": "2.319,06"
  },
  {
    "Código": "HM06345",
    "Descrição": "FLANGE AVULSO PN10/16 FERRO FUNDIDO DN=100 MM (4,50 KG) PINTURA EPÓXI VERMELHA - ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "258,22"
+   "Preço": "279,02"
  },
  {
    "Código": "HM03125",
    "Descrição": "FLANGE AVULSO PN10/16 FERRO FUNDIDO DN=100 MM * (4,50 KG) PINTURA BETUMINOSA - ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "198,53"
+   "Preço": "227,80"
  },
  {
    "Código": "HM06346",
    "Descrição": "FLANGE AVULSO PN10/16 FERRO FUNDIDO DN=150 MM (8,00 KG) PINTURA EPÓXI VERMELHA - ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "349,86"
+   "Preço": "410,35"
  },
  {
    "Código": "HM03126",
    "Descrição": "FLANGE AVULSO PN10/16 FERRO FUNDIDO DN=150 MM * (8,00 KG) PINTURA BETUMINOSA - ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "291,76"
+   "Preço": "370,59"
  },
  {
    "Código": "HM06347",
    "Descrição": "FLANGE AVULSO PN10/16/25 FERRO FUNDIDO DN=80 MM (3,50 KG) PINTURA EPÓXI VERMELHA - ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "179,06"
+   "Preço": "215,11"
  },
  {
    "Código": "HM03130",
    "Descrição": "FLANGE AVULSO PN10/16/25 FERRO FUNDIDO DN=80 MM * (3,50 KG) PINTURA BETUMINOSA - ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "145,23"
+   "Preço": "188,79"
  },
  {
    "Código": "HM06348",
    "Descrição": "FLANGE CEGO AÇO CARBONO ASTM A36 DE=20\" PN10 REVESTIMENTO 0100-400-E045 ALT3 (EPÓXI) 0100-400-E027 FL2 - ISO 2531",
    "Unid. Med.": "un",
-   "Preço": "2.650,56"
+   "Preço": "3.069,56"
  },
  {
    "Código": "HM06349",
    "Descrição": "FLANGE CEGO AÇO CARBONO ASTM A36 DE=40\" PN10 REVESTIMENTO 0100-400-E045 ALT3 (EPÓXI) 0100-400-E027 FL2 - ISO 2531",
    "Unid. Med.": "un",
-   "Preço": "10.633,46"
+   "Preço": "13.823,50"
  },
  {
    "Código": "HM06350",
    "Descrição": "FLANGE CEGO AÇO CARBONO ASTM A36 DE=60\" PN12 REVESTIMENTO 0100-400-E045 ALT3 (EPÓXI) 0100-400-E007 FL2 AWWA C207",
    "Unid. Med.": "un",
-   "Preço": "52.510,30"
+   "Preço": "36.727,50"
  },
  {
    "Código": "HM06327",
    "Descrição": "FLANGE CEGO PN10 FERRO FUNDIDO DN=200 MM (11,00 KG) PINTURA EPÓXI VERMELHA - ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "500,40"
+   "Preço": "649,86"
  },
  {
    "Código": "HM03137",
    "Descrição": "FLANGE CEGO PN10 FERRO FUNDIDO DN=200 MM * (11,00 KG) PINTURA BETUMINOSA - ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "453,74"
+   "Preço": "578,07"
  },
  {
    "Código": "HM06328",
    "Descrição": "FLANGE CEGO PN10 FERRO FUNDIDO DN=250 MM (17,00 KG) PINTURA EPÓXI VERMELHA - ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "721,81"
+   "Preço": "938,35"
  },
  {
    "Código": "HM03138",
@@ -10143,109 +10143,109 @@ const baseMateriais = [
    "Código": "HM06329",
    "Descrição": "FLANGE CEGO PN10 FERRO FUNDIDO DN=300 MM (24,00 KG) PINTURA EPÓXI VERMELHA - ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "1.149,54"
+   "Preço": "1.202,81"
  },
  {
    "Código": "HM03139",
    "Descrição": "FLANGE CEGO PN10 FERRO FUNDIDO DN=300 MM * (24,00 KG) PINTURA BETUMINOSA - ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "897,28"
+   "Preço": "1.061,14"
  },
  {
    "Código": "HM06330",
    "Descrição": "FLANGE CEGO PN10 FERRO FUNDIDO DN=350 MM (30,00 KG) PINTURA EPÓXI VERMELHA - ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "1.565,01"
+   "Preço": "1.832,32"
  },
  {
    "Código": "HM03131",
    "Descrição": "FLANGE CEGO PN10 FERRO FUNDIDO DN=350 MM * (30,00 KG) PINTURA BETUMINOSA - ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "1.525,39"
+   "Preço": "1.647,35"
  },
  {
    "Código": "HM06331",
    "Descrição": "FLANGE CEGO PN10 FERRO FUNDIDO DN=400 MM (36,00 KG) PINTURA EPÓXI VERMELHA - ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "1.693,82"
+   "Preço": "2.091,98"
  },
  {
    "Código": "HM03132",
    "Descrição": "FLANGE CEGO PN10 FERRO FUNDIDO DN=400 MM * (36,00 KG) PINTURA BETUMINOSA - ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "1.643,86"
+   "Preço": "1.963,21"
  },
  {
    "Código": "HM06332",
    "Descrição": "FLANGE CEGO PN10 FERRO FUNDIDO DN=450 MM (56,00 KG) PINTURA EPÓXI VERMELHA - ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "2.845,64"
+   "Preço": "3.514,01"
  },
  {
    "Código": "HM03133",
    "Descrição": "FLANGE CEGO PN10 FERRO FUNDIDO DN=450 MM * (56,00 KG) PINTURA BETUMINOSA - ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "2.437,23"
+   "Preço": "3.168,39"
  },
  {
    "Código": "HM06333",
    "Descrição": "FLANGE CEGO PN10 FERRO FUNDIDO DN=50 MM (2,40 KG) PINTURA EPÓXI VERMELHA - ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "132,54"
+   "Preço": "133,23"
  },
  {
    "Código": "HM03140",
    "Descrição": "FLANGE CEGO PN10 FERRO FUNDIDO DN=50 MM * (2,40 KG) PINTURA BETUMINOSA - ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "114,65"
+   "Preço": "107,14"
  },
  {
    "Código": "HM06334",
    "Descrição": "FLANGE CEGO PN10 FERRO FUNDIDO DN=500 MM (68,00 KG) PINTURA EPÓXI VERMELHA - ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "3.271,09"
+   "Preço": "3.605,10"
  },
  {
    "Código": "HM03134",
    "Descrição": "FLANGE CEGO PN10 FERRO FUNDIDO DN=500 MM * (68,00 KG) PINTURA BETUMINOSA - ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "2.800,47"
+   "Preço": "3.334,44"
  },
  {
    "Código": "HM06335",
    "Descrição": "FLANGE CEGO PN10/16 FERRO FUNDIDO DN=100 MM (4,30 KG) PINTURA EPÓXI VERMELHA - ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "240,36"
+   "Preço": "241,62"
  },
  {
    "Código": "HM03135",
    "Descrição": "FLANGE CEGO PN10/16 FERRO FUNDIDO DN=100 MM * (4,30 KG) PINTURA BETUMINOSA - ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "223,12"
+   "Preço": "228,95"
  },
  {
    "Código": "HM06336",
    "Descrição": "FLANGE CEGO PN10/16 FERRO FUNDIDO DN=150 MM (7,20 KG) PINTURA EPÓXI VERMELHA - ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "349,88"
+   "Preço": "441,77"
  },
  {
    "Código": "HM03136",
    "Descrição": "FLANGE CEGO PN10/16 FERRO FUNDIDO DN=150 MM * (7,20 KG) PINTURA BETUMINOSA - ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "350,46"
+   "Preço": "390,72"
  },
  {
    "Código": "HM06337",
    "Descrição": "FLANGE CEGO PN10/16/25 FERRO FUNDIDO DN=80 MM (3,60 KG) PINTURA EPÓXI VERMELHA - ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "196,33"
+   "Preço": "200,80"
  },
  {
    "Código": "HM03141",
    "Descrição": "FLANGE CEGO PN10/16/25 FERRO FUNDIDO DN=80 MM * (3,60 KG) PINTURA BETUMINOSA - ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "136,45"
+   "Preço": "177,01"
  },
  {
    "Código": "EL02419",
@@ -10281,49 +10281,49 @@ const baseMateriais = [
    "Código": "HM06351",
    "Descrição": "FLANGE SEM RESSALTO AÇO CARBONO DE=110 MM * (2,70 KG) NBR 7675 PN 10 P/COLARINHO PEAD",
    "Unid. Med.": "un",
-   "Preço": "116,87"
+   "Preço": "84,90"
  },
  {
    "Código": "HM06352",
    "Descrição": "FLANGE SEM RESSALTO AÇO CARBONO DE=160 MM * (4,10 KG) NBR 7675 PN 10 P/COLARINHO PEAD",
    "Unid. Med.": "un",
-   "Preço": "234,02"
+   "Preço": "144,08"
  },
  {
    "Código": "HM06353",
    "Descrição": "FLANGE SEM RESSALTO AÇO CARBONO DE=200 MM * (6,00 KG) NBR 7675 PN 10 P/COLARINHO PEAD",
    "Unid. Med.": "un",
-   "Preço": "217,09"
+   "Preço": "240,99"
  },
  {
    "Código": "HM06354",
    "Descrição": "FLANGE SEM RESSALTO AÇO CARBONO DE=225 MM * (6,85 KG) NBR 7675 PN 10 P/COLARINHO PEAD",
    "Unid. Med.": "un",
-   "Preço": "222,09"
+   "Preço": "281,48"
  },
  {
    "Código": "HM06355",
    "Descrição": "FLANGE SEM RESSALTO AÇO CARBONO DE=250 MM * (7,70 KG) NBR 7675 PN 10 P/COLARINHO PEAD",
    "Unid. Med.": "un",
-   "Preço": "392,49"
+   "Preço": "325,49"
  },
  {
    "Código": "HM06356",
    "Descrição": "FLANGE SEM RESSALTO AÇO CARBONO DE=280 MM * (7,91 KG) NBR 7675 PN 10 P/COLARINHO PEAD",
    "Unid. Med.": "un",
-   "Preço": "393,16"
+   "Preço": "379,23"
  },
  {
    "Código": "HM06357",
    "Descrição": "FLANGE SEM RESSALTO AÇO CARBONO DE=315 MM * (8,90 KG) NBR 7675 PN 10 P/COLARINHO PEAD",
    "Unid. Med.": "un",
-   "Preço": "420,78"
+   "Preço": "492,49"
  },
  {
    "Código": "HM06358",
    "Descrição": "FLANGE SEM RESSALTO AÇO CARBONO DE=400 MM * (18,90 KG) NBR 7675 PN 10 P/COLARINHO PEAD",
    "Unid. Med.": "un",
-   "Preço": "888,27"
+   "Preço": "811,50"
  },
  {
    "Código": "HM08345",
@@ -10335,13 +10335,13 @@ const baseMateriais = [
    "Código": "HM06359",
    "Descrição": "FLANGE SEM RESSALTO AÇO CARBONO DE=63 MM * (1,70 KG) NBR 7675 PN 10 P/COLARINHO PEAD",
    "Unid. Med.": "un",
-   "Preço": "69,14"
+   "Preço": "53,92"
  },
  {
    "Código": "HM06360",
    "Descrição": "FLANGE SEM RESSALTO AÇO CARBONO DE=90 MM * (2,70 KG) NBR 7675 PN 10 P/COLARINHO PEAD",
    "Unid. Med.": "un",
-   "Preço": "80,32"
+   "Preço": "76,35"
  },
  {
    "Código": "CV00489",
@@ -10437,13 +10437,13 @@ const baseMateriais = [
    "Código": "EQ04579",
    "Descrição": "FURADEIRA ELÉTRICA DE IMPACTO POTÊNCIA=1.000W",
    "Unid. Med.": "H",
-   "Preço": "1,66"
+   "Preço": "1,65"
  },
  {
    "Código": "EQ04580",
    "Descrição": "FURGÃO LEVE 85 A 122CV CARGA ÚTIL 650 a 850KG",
    "Unid. Med.": "H",
-   "Preço": "42,75"
+   "Preço": "43,98"
  },
  {
    "Código": "EQ04581",
@@ -10455,7 +10455,7 @@ const baseMateriais = [
    "Código": "EQ08242",
    "Descrição": "FURGÃO VAN *150CV DIESEL - SPRINTER 315 CURTO 7,5M3 OU SIMILAR",
    "Unid. Med.": "H",
-   "Preço": "89,40"
+   "Preço": "93,56"
  },
  {
    "Código": "EQ08243",
@@ -10599,7 +10599,7 @@ const baseMateriais = [
    "Código": "HM00516",
    "Descrição": "GANCHO CHATO/TIPO S FERRO, REVESTIMENTO GALVANIZADO L=*140 MM PARA TELHA ONDULADA",
    "Unid. Med.": "un",
-   "Preço": "4,29"
+   "Preço": "4,22"
  },
  {
    "Código": "EL02510",
@@ -10617,19 +10617,19 @@ const baseMateriais = [
    "Código": "EQ04665",
    "Descrição": "GASOLINA COMUM",
    "Unid. Med.": "L",
-   "Preço": "6,16"
+   "Preço": "6,48"
  },
  {
    "Código": "MO00039",
    "Descrição": "GEOFONADOR",
    "Unid. Med.": "H",
-   "Preço": "18,28"
+   "Preço": "19,14"
  },
  {
    "Código": "EQ04537",
    "Descrição": "GERADOR A DIESEL POTÊNCIA * 130KVA TRIFÁSICO SILENCIADO",
    "Unid. Med.": "H",
-   "Preço": "149,15"
+   "Preço": "170,90"
  },
  {
    "Código": "EQ05167",
@@ -10641,7 +10641,7 @@ const baseMateriais = [
    "Código": "EQ04538",
    "Descrição": "GERADOR A DIESEL POTÊNCIA * 180KVA TRIFÁSICO SILENCIADO",
    "Unid. Med.": "H",
-   "Preço": "201,34"
+   "Preço": "230,35"
  },
  {
    "Código": "EQ05168",
@@ -10653,7 +10653,7 @@ const baseMateriais = [
    "Código": "EQ04539",
    "Descrição": "GERADOR A DIESEL POTÊNCIA * 220KVA TRIFÁSICO SILENCIADO",
    "Unid. Med.": "H",
-   "Preço": "240,97"
+   "Preço": "275,78"
  },
  {
    "Código": "EQ05169",
@@ -10665,7 +10665,7 @@ const baseMateriais = [
    "Código": "EQ04540",
    "Descrição": "GERADOR A DIESEL POTÊNCIA * 330KVA TRIFÁSICO SILENCIADO",
    "Unid. Med.": "H",
-   "Preço": "315,89"
+   "Preço": "360,06"
  },
  {
    "Código": "EQ05170",
@@ -10677,7 +10677,7 @@ const baseMateriais = [
    "Código": "EQ04686",
    "Descrição": "GERADOR A DIESEL POTÊNCIA * 400KVA TRIFÁSICO SILENCIADO",
    "Unid. Med.": "H",
-   "Preço": "387,85"
+   "Preço": "441,84"
  },
  {
    "Código": "EQ04687",
@@ -10689,7 +10689,7 @@ const baseMateriais = [
    "Código": "EQ04688",
    "Descrição": "GERADOR A DIESEL POTÊNCIA * 500KVA TRIFÁSICO SILENCIADO",
    "Unid. Med.": "H",
-   "Preço": "480,70"
+   "Preço": "548,20"
  },
  {
    "Código": "EQ04689",
@@ -10701,7 +10701,7 @@ const baseMateriais = [
    "Código": "EQ04541",
    "Descrição": "GERADOR A DIESEL POTÊNCIA * 60KVA TRIFÁSICO SILENCIADO",
    "Unid. Med.": "H",
-   "Preço": "72,10"
+   "Preço": "82,25"
  },
  {
    "Código": "EQ05164",
@@ -10713,7 +10713,7 @@ const baseMateriais = [
    "Código": "EQ04542",
    "Descrição": "GERADOR A DIESEL POTÊNCIA * 80KVA TRIFÁSICO SILENCIADO",
    "Unid. Med.": "H",
-   "Preço": "102,07"
+   "Preço": "116,57"
  },
  {
    "Código": "EQ05165",
@@ -10725,7 +10725,7 @@ const baseMateriais = [
    "Código": "EQ05186",
    "Descrição": "GERADOR A DIESEL POTÊNCIA=*20KVA MONOFÁSICO BI-VOLT",
    "Unid. Med.": "H",
-   "Preço": "33,19"
+   "Preço": "36,71"
  },
  {
    "Código": "EQ07296",
@@ -10737,7 +10737,7 @@ const baseMateriais = [
    "Código": "EQ04828",
    "Descrição": "GERADOR PORTÁTIL A DIESEL POTÊNCIA=10KVA MONOFÁSICO BI-VOLT",
    "Unid. Med.": "H",
-   "Preço": "14,60"
+   "Preço": "16,41"
  },
  {
    "Código": "EQ07295",
@@ -10749,37 +10749,37 @@ const baseMateriais = [
    "Código": "EQ05240",
    "Descrição": "GERADOR/MOTOSOLDADORA POTÊNCIA=5KVA A DIESEL MONOFÁSICO BI-VOLT",
    "Unid. Med.": "H",
-   "Preço": "12,25"
+   "Preço": "13,42"
  },
  {
    "Código": "HM07657",
    "Descrição": "GRADE DE PISO AÇO GALVANIZADO C/PINTURA PERFIL 25X3 VÃO 100X25 C/QUADRO DE APOIO NTS330 DESENHOS 0700-GP-AC-1.1.1 E 0700-QS-AC-4.1.1",
    "Unid. Med.": "M2",
-   "Preço": "686,31"
+   "Preço": "892,20"
  },
  {
    "Código": "HM07658",
    "Descrição": "GRADE DE PISO AÇO GALVANIZADO C/PINTURA PERFIL 40X3 VÃO 100X25 C/QUADRO DE APOIO NTS330 DESENHOS 0700-GP-AC-3.1.1 E 0700-QS-AC-4.1.1",
    "Unid. Med.": "M2",
-   "Preço": "1.046,03"
+   "Preço": "1.440,12"
  },
  {
    "Código": "HM07659",
    "Descrição": "GRADE DE PISO AÇO INOX PERFIL 25X3 VÃO 100X25 C/QUADRO DE APOIO NTS330 DESENHOS 0700-GP-AI-1.1.1 E 0700-QS-AI-4.1.1",
    "Unid. Med.": "M2",
-   "Preço": "3.766,09"
+   "Preço": "3.706,24"
  },
  {
    "Código": "HM07660",
    "Descrição": "GRADE DE PISO AÇO INOX PERFIL 40X3 VÃO 100X25 C/QUADRO DE APOIO NTS330 DESENHOS 0700-GP-AI-3.1.1 E 0700-QS-AI-4.1.1",
    "Unid. Med.": "M2",
-   "Preço": "4.872,48"
+   "Preço": "4.770,59"
  },
  {
    "Código": "HM07653",
    "Descrição": "GRADE DE PISO MONTADA PRFV PULTRUDADO H=38 VÃO 38X150 C/QUADRO DE APOIO NTS330 DESENHOS 0700-GP-PM-2.1.1 E 0700-QS-PU-4.1.1",
    "Unid. Med.": "M2",
-   "Preço": "1.357,69"
+   "Preço": "949,68"
  },
  {
    "Código": "HM07654",
@@ -10851,19 +10851,19 @@ const baseMateriais = [
    "Código": "MO00041",
    "Descrição": "GRANITEIRO",
    "Unid. Med.": "H",
-   "Preço": "13,52"
+   "Preço": "14,16"
  },
  {
    "Código": "HM07288",
    "Descrição": "GRELHA COM PORTA GRELHA ALUMÍNIO LARG=10 A 20 CM E L=80 A 100 CM PARA CANALETA",
    "Unid. Med.": "M2",
-   "Preço": "975,39"
+   "Preço": "1.268,01"
  },
  {
    "Código": "HM07287",
    "Descrição": "GRELHA FERRO FUNDIDO LARG=10 A 20 CM E L=80 A 100 CM PARA CANALETA - M2",
    "Unid. Med.": "M2",
-   "Preço": "580,23"
+   "Preço": "520,08"
  },
  {
    "Código": "CV01164",
@@ -10875,25 +10875,25 @@ const baseMateriais = [
    "Código": "HM07730",
    "Descrição": "GRELHA QUADRADA PP 400X400 MM C/PORTA-GRELHA",
    "Unid. Med.": "un",
-   "Preço": "145,00"
+   "Preço": "148,50"
  },
  {
    "Código": "HM07324",
    "Descrição": "GUARDA-CORPO ESCADA FIBRA DE VIDRO TIPO 1 L=3,20 M C/CORRIMÃO, SAPATAS INOX E SEM CHUMBADORES NTS 282 DESENHOS 0600-E-13/0600-EC-13",
    "Unid. Med.": "un",
-   "Preço": "2.617,55"
+   "Preço": "2.025,19"
  },
  {
    "Código": "HM07325",
    "Descrição": "GUARDA-CORPO RETO FIBRA DE VIDRO TIPO 1 L=2,00 M C/SAPATAS INOX SEM CHUMBADORES NTS 282 DESENHO 0600-P-13",
    "Unid. Med.": "un",
-   "Preço": "1.620,66"
+   "Preço": "1.682,38"
  },
  {
    "Código": "HM07326",
    "Descrição": "GUARDA-CORPO RETO FIBRA DE VIDRO TIPO 2 L=2,00 M C/SAPATAS INOX SEM CHUMBADORES NTS 282 DESENHO 0600-P-23",
    "Unid. Med.": "un",
-   "Preço": "1.487,62"
+   "Preço": "1.299,94"
  },
  {
    "Código": "CV00406",
@@ -10905,19 +10905,19 @@ const baseMateriais = [
    "Código": "HM01398",
    "Descrição": "GUARNIÇÃO DO TUBETE (ARRUELA/JUNTA) BORRACHA NITRÍLICA DN=1 1/2\" PARA HIDRÔMETRO",
    "Unid. Med.": "un",
-   "Preço": "4,84"
+   "Preço": "2,65"
  },
  {
    "Código": "HM01397",
    "Descrição": "GUARNIÇÃO DO TUBETE (ARRUELA/JUNTA) BORRACHA NITRÍLICA DN=1\" PARA HIDRÔMETRO",
    "Unid. Med.": "un",
-   "Preço": "2,00"
+   "Preço": "1,38"
  },
  {
    "Código": "HM01396",
    "Descrição": "GUARNIÇÃO DO TUBETE (ARRUELA/JUNTA) BORRACHA NITRÍLICA DN=3/4\" PARA HIDRÔMETRO",
    "Unid. Med.": "un",
-   "Preço": "0,45"
+   "Preço": "0,27"
  },
  {
    "Código": "CV00524",
@@ -10935,7 +10935,7 @@ const baseMateriais = [
    "Código": "EQ04545",
    "Descrição": "GUINDASTE AUTOPROPELIDO * 5T SOBRE PNEUS COM LANÇA TELESCÓPICA",
    "Unid. Med.": "H",
-   "Preço": "127,09"
+   "Preço": "134,67"
  },
  {
    "Código": "EQ05171",
@@ -11025,7 +11025,7 @@ const baseMateriais = [
    "Código": "HM03158",
    "Descrição": "HIDRANTE DE COLUNA SIMPLES FERRO FUNDIDO DN=100 MM * (69,00 KG) COM BASE FLANGEADA NBR 5667-1 COMBATE A INCÊNDIOS",
    "Unid. Med.": "un",
-   "Preço": "7.150,96"
+   "Preço": "8.158,64"
  },
  {
    "Código": "CV08180",
@@ -11073,7 +11073,7 @@ const baseMateriais = [
    "Código": "EQ04731",
    "Descrição": "IMPLEMENTO - SUCÇÃO DE ALTO VÁCUO DE 12 M3 DE CAPACIDADE DE RESERVATÓRIO",
    "Unid. Med.": "H",
-   "Preço": "169,52"
+   "Preço": "173,98"
  },
  {
    "Código": "EQ04732",
@@ -11085,7 +11085,7 @@ const baseMateriais = [
    "Código": "EQ07971",
    "Descrição": "IMPLEMENTO - SUCÇÃO DE ALTO VÁCUO DE 15 M3 DE CAPACIDADE DE RESERVATÓRIO",
    "Unid. Med.": "H",
-   "Preço": "166,20"
+   "Preço": "170,66"
  },
  {
    "Código": "EQ07972",
@@ -11097,7 +11097,7 @@ const baseMateriais = [
    "Código": "EQ07973",
    "Descrição": "IMPLEMENTO - SUCÇÃO DE ALTO VÁCUO DE 18 M3 DE CAPACIDADE DE RESERVATÓRIO",
    "Unid. Med.": "H",
-   "Preço": "173,60"
+   "Preço": "178,06"
  },
  {
    "Código": "EQ07974",
@@ -11109,7 +11109,7 @@ const baseMateriais = [
    "Código": "EQ07969",
    "Descrição": "IMPLEMENTO - SUCÇÃO DE ALTO VÁCUO DE 7,5 M3 DE CAPACIDADE DE RESERVATÓRIO",
    "Unid. Med.": "H",
-   "Preço": "151,65"
+   "Preço": "156,11"
  },
  {
    "Código": "EQ07970",
@@ -11133,7 +11133,7 @@ const baseMateriais = [
    "Código": "EQ07289",
    "Descrição": "INSUFLADOR DE FUMAÇA * 5 HP PARA DETECÇÃO DE VAZAMENTOS EM REDES DE ESGOTO",
    "Unid. Med.": "H",
-   "Preço": "83,09"
+   "Preço": "83,32"
  },
  {
    "Código": "EQ07290",
@@ -11433,253 +11433,253 @@ const baseMateriais = [
    "Código": "MO00042",
    "Descrição": "JARDINEIRO",
    "Unid. Med.": "H",
-   "Preço": "12,63"
+   "Preço": "13,23"
  },
  {
    "Código": "MO00043",
    "Descrição": "JATISTA",
    "Unid. Med.": "H",
-   "Preço": "18,26"
+   "Preço": "19,12"
  },
  {
    "Código": "HM01677",
    "Descrição": "JOELHO 90º PVC D=1\" COM ROSCA ÁGUA PREDIAL",
    "Unid. Med.": "un",
-   "Preço": "8,33"
+   "Preço": "8,62"
  },
  {
    "Código": "HM01682",
    "Descrição": "JOELHO 90º PVC D=3/4\" COM ROSCA ÁGUA PREDIAL",
    "Unid. Med.": "un",
-   "Preço": "3,38"
+   "Preço": "4,30"
  },
  {
    "Código": "HM01684",
    "Descrição": "JOELHO 90º PVC D=3/4\" COM ROSCA E BUCHA LATÃO ÁGUA PREDIAL",
    "Unid. Med.": "un",
-   "Preço": "18,37"
+   "Preço": "23,88"
  },
  {
    "Código": "HM01974",
    "Descrição": "JUNÇÃO 45° BBBJE PVC RÍGIDO D=100 MM NBR 10569 COLETOR DE ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "35,70"
+   "Preço": "48,64"
  },
  {
    "Código": "HM01975",
    "Descrição": "JUNÇÃO 45° BBBJE PVC RÍGIDO D=150 MM NBR 10569 COLETOR DE ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "114,48"
+   "Preço": "107,85"
  },
  {
    "Código": "HM01976",
    "Descrição": "JUNÇÃO 45° BBBJE PVC RÍGIDO D=200 MM NBR 10569 COLETOR DE ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "234,48"
+   "Preço": "185,51"
  },
  {
    "Código": "HM01977",
    "Descrição": "JUNÇÃO 45° BBBJE PVC RÍGIDO D=250 MM NBR 10569 COLETOR DE ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "461,66"
+   "Preço": "434,01"
  },
  {
    "Código": "HM01978",
    "Descrição": "JUNÇÃO 45° BBBJE PVC RÍGIDO D=300 MM NBR 10569 COLETOR DE ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "673,46"
+   "Preço": "708,67"
  },
  {
    "Código": "HM06365",
    "Descrição": "JUNÇÃO 45º COM FLANGES PN10 FERRO FUNDIDO DN=200 X 100 MM (47,00 KG) PINTURA EPÓXI VERMELHA - ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "1.771,95"
+   "Preço": "2.269,90"
  },
  {
    "Código": "HM03195",
    "Descrição": "JUNÇÃO 45º COM FLANGES PN10 FERRO FUNDIDO DN=200 X 100 MM * (47,00 KG) PINTURA BETUMINOSA - ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "1.770,29"
+   "Preço": "1.902,41"
  },
  {
    "Código": "HM06366",
    "Descrição": "JUNÇÃO 45º COM FLANGES PN10 FERRO FUNDIDO DN=200 X 150 MM (51,00 KG) PINTURA EPÓXI VERMELHA - ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "1.983,45"
+   "Preço": "2.578,48"
  },
  {
    "Código": "HM03196",
    "Descrição": "JUNÇÃO 45º COM FLANGES PN10 FERRO FUNDIDO DN=200 X 150 MM * (51,00 KG) PINTURA BETUMINOSA - ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "2.078,87"
+   "Preço": "2.235,50"
  },
  {
    "Código": "HM06367",
    "Descrição": "JUNÇÃO 45º COM FLANGES PN10 FERRO FUNDIDO DN=200 X 200 MM (55,00 KG) PINTURA EPÓXI VERMELHA - ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "2.550,76"
+   "Preço": "2.736,13"
  },
  {
    "Código": "HM03197",
    "Descrição": "JUNÇÃO 45º COM FLANGES PN10 FERRO FUNDIDO DN=200 X 200 MM * (55,00 KG) PINTURA BETUMINOSA - ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "2.138,70"
+   "Preço": "2.751,15"
  },
  {
    "Código": "HM06368",
    "Descrição": "JUNÇÃO 45º COM FLANGES PN10 FERRO FUNDIDO DN=250 X 150 MM (72,00 KG) PINTURA EPÓXI VERMELHA - ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "2.776,14"
+   "Preço": "2.980,92"
  },
  {
    "Código": "HM03198",
    "Descrição": "JUNÇÃO 45º COM FLANGES PN10 FERRO FUNDIDO DN=250 X 150 MM * (72,00 KG) PINTURA BETUMINOSA - ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "3.468,63"
+   "Preço": "4.097,42"
  },
  {
    "Código": "HM06369",
    "Descrição": "JUNÇÃO 45º COM FLANGES PN10 FERRO FUNDIDO DN=250 X 200 MM (76,00 KG) PINTURA EPÓXI VERMELHA - ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "3.491,01"
+   "Preço": "4.127,32"
  },
  {
    "Código": "HM03199",
    "Descrição": "JUNÇÃO 45º COM FLANGES PN10 FERRO FUNDIDO DN=250 X 200 MM * (76,00 KG) PINTURA BETUMINOSA - ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "3.767,69"
+   "Preço": "4.132,22"
  },
  {
    "Código": "HM06370",
    "Descrição": "JUNÇÃO 45º COM FLANGES PN10 FERRO FUNDIDO DN=250 X 250 MM (80,00 KG) PINTURA EPÓXI VERMELHA - ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "4.011,27"
+   "Preço": "4.343,54"
  },
  {
    "Código": "HM03200",
    "Descrição": "JUNÇÃO 45º COM FLANGES PN10 FERRO FUNDIDO DN=250 X 250 MM * (80,00 KG) PINTURA BETUMINOSA - ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "4.207,80"
+   "Preço": "4.704,41"
  },
  {
    "Código": "HM06371",
    "Descrição": "JUNÇÃO 45º COM FLANGES PN10 FERRO FUNDIDO DN=300 X 200 MM (103,00 KG) PINTURA EPÓXI VERMELHA - ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "5.231,73"
+   "Preço": "6.092,26"
  },
  {
    "Código": "HM03201",
    "Descrição": "JUNÇÃO 45º COM FLANGES PN10 FERRO FUNDIDO DN=300 X 200 MM * (103,00 KG) PINTURA BETUMINOSA - ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "5.522,90"
+   "Preço": "5.270,33"
  },
  {
    "Código": "HM06372",
    "Descrição": "JUNÇÃO 45º COM FLANGES PN10 FERRO FUNDIDO DN=300 X 250 MM (140,40 KG) PINTURA EPÓXI VERMELHA - ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "6.600,92"
+   "Preço": "6.676,77"
  },
  {
    "Código": "HM03202",
    "Descrição": "JUNÇÃO 45º COM FLANGES PN10 FERRO FUNDIDO DN=300 X 250 MM * (140,40 KG) PINTURA BETUMINOSA - ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "5.999,90"
+   "Preço": "6.583,81"
  },
  {
    "Código": "HM06373",
    "Descrição": "JUNÇÃO 45º COM FLANGES PN10 FERRO FUNDIDO DN=300 X 300 MM (111,00 KG) PINTURA EPÓXI VERMELHA - ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "6.311,84"
+   "Preço": "6.752,62"
  },
  {
    "Código": "HM03203",
    "Descrição": "JUNÇÃO 45º COM FLANGES PN10 FERRO FUNDIDO DN=300 X 300 MM * (111,00 KG) PINTURA BETUMINOSA - ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "5.463,38"
+   "Preço": "7.102,39"
  },
  {
    "Código": "HM06374",
    "Descrição": "JUNÇÃO 45º COM FLANGES PN10 FERRO FUNDIDO DN=400 X 300 MM (168,00 KG) PINTURA EPÓXI VERMELHA - ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "11.944,74"
+   "Preço": "13.638,36"
  },
  {
    "Código": "HM03189",
    "Descrição": "JUNÇÃO 45º COM FLANGES PN10 FERRO FUNDIDO DN=400 X 300 MM * (168,00 KG) PINTURA BETUMINOSA - ACESSÓRIOS NÃO INCLUSOS NBR 7676 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "10.799,14"
+   "Preço": "11.254,98"
  },
  {
    "Código": "HM06375",
    "Descrição": "JUNÇÃO 45º COM FLANGES PN10 FERRO FUNDIDO DN=400 X 400 MM (173,00 KG) PINTURA EPÓXI VERMELHA - ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "14.239,44"
+   "Preço": "13.776,01"
  },
  {
    "Código": "HM03190",
    "Descrição": "JUNÇÃO 45º COM FLANGES PN10 FERRO FUNDIDO DN=400 X 400 MM * (173,00 KG) PINTURA BETUMINOSA - ACESSÓRIOS NÃO INCLUSOS NBR 7676 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "14.289,46"
+   "Preço": "12.953,27"
  },
  {
    "Código": "HM06376",
    "Descrição": "JUNÇÃO 45º COM FLANGES PN10/16 FERRO FUNDIDO DN=100 X 100 MM (21,00 KG) PINTURA EPÓXI VERMELHA - ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "937,40"
+   "Preço": "1.137,48"
  },
  {
    "Código": "HM03191",
    "Descrição": "JUNÇÃO 45º COM FLANGES PN10/16 FERRO FUNDIDO DN=100 X 100 MM * (21,00 KG) PINTURA BETUMINOSA - ACESSÓRIOS NÃO INCLUSOS NBR 7676 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "941,26"
+   "Preço": "1.034,79"
  },
  {
    "Código": "HM06377",
    "Descrição": "JUNÇÃO 45º COM FLANGES PN10/16 FERRO FUNDIDO DN=100 X 80 MM (20,80 KG) PINTURA EPÓXI VERMELHA - ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "795,12"
+   "Preço": "1.030,89"
  },
  {
    "Código": "HM03192",
    "Descrição": "JUNÇÃO 45º COM FLANGES PN10/16 FERRO FUNDIDO DN=100 X 80 MM * (20,80 KG) PINTURA BETUMINOSA - ACESSÓRIOS NÃO INCLUSOS NBR 7676 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "793,40"
+   "Preço": "852,92"
  },
  {
    "Código": "HM06378",
    "Descrição": "JUNÇÃO 45º COM FLANGES PN10/16 FERRO FUNDIDO DN=150 X 100 MM (33,00 KG) PINTURA EPÓXI VERMELHA - ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "1.284,98"
+   "Preço": "1.379,27"
  },
  {
    "Código": "HM03193",
    "Descrição": "JUNÇÃO 45º COM FLANGES PN10/16 FERRO FUNDIDO DN=150 X 100 MM * (33,00 KG) PINTURA BETUMINOSA - ACESSÓRIOS NÃO INCLUSOS NBR 7676 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "1.040,39"
+   "Preço": "1.120,79"
  },
  {
    "Código": "HM06379",
    "Descrição": "JUNÇÃO 45º COM FLANGES PN10/16 FERRO FUNDIDO DN=150 X 150 MM (36,00 KG) PINTURA EPÓXI VERMELHA - ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "1.669,77"
+   "Preço": "1.790,80"
  },
  {
    "Código": "HM03194",
    "Descrição": "JUNÇÃO 45º COM FLANGES PN10/16 FERRO FUNDIDO DN=150 X 150 MM * (36,00 KG) PINTURA BETUMINOSA - ACESSÓRIOS NÃO INCLUSOS NBR 7676 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "1.399,96"
+   "Preço": "1.506,19"
  },
  {
    "Código": "HM06380",
    "Descrição": "JUNÇÃO 45º COM FLANGES PN10/16/25 FERRO FUNDIDO DN=80 X 80 MM (17,20 KG) PINTURA EPÓXI VERMELHA - ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "652,79"
+   "Preço": "789,57"
  },
  {
    "Código": "HM03204",
    "Descrição": "JUNÇÃO 45º COM FLANGES PN10/16/25 FERRO FUNDIDO DN=80 X 80 MM * (17,20 KG) PINTURA BETUMINOSA - ACESSÓRIOS NÃO INCLUSOS NBR 7676 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "599,60"
+   "Preço": "643,96"
  },
  {
    "Código": "EL02497",
@@ -11697,85 +11697,85 @@ const baseMateriais = [
    "Código": "HM03169",
    "Descrição": "JUNTA BOLSA FERRO FUNDIDO DE MÁX=100 MM X DE MÍN=50 MM ADAPTÁVEL P/VARIACAO DIAMETRAL ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "705,32"
+   "Preço": "652,97"
  },
  {
    "Código": "HM03170",
    "Descrição": "JUNTA BOLSA FERRO FUNDIDO DE MÁX=125 MM X DE=MÍN 75 MM ADAPTÁVEL P/VARIACAO DIAMETRAL ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "1.001,25"
+   "Preço": "903,01"
  },
  {
    "Código": "HM03171",
    "Descrição": "JUNTA BOLSA FERRO FUNDIDO DE MÁX=150 MM X DE=MÍN 100 MM ADAPTÁVEL P/VARIACAO DIAMETRAL ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "1.250,53"
+   "Preço": "1.253,12"
  },
  {
    "Código": "HM03172",
    "Descrição": "JUNTA BOLSA FERRO FUNDIDO DE MÁX=200 MM X DE MÍN=150 MM ADAPTÁVEL P/VARIACAO DIAMETRAL ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "1.698,22"
+   "Preço": "1.631,31"
  },
  {
    "Código": "HM03173",
    "Descrição": "JUNTA BOLSA FERRO FUNDIDO DE MÁX=250 MM X DE MÍN=200 MM ADAPTÁVEL P/VARIACAO DIAMETRAL ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "2.405,60"
+   "Preço": "2.661,94"
  },
  {
    "Código": "HM03174",
    "Descrição": "JUNTA BOLSA FERRO FUNDIDO DE MÁX=300 MM X DE MÍN=250 MM ADAPTÁVEL P/VARIACAO DIAMETRAL ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "3.203,29"
+   "Preço": "3.416,33"
  },
  {
    "Código": "HM03175",
    "Descrição": "JUNTA BOLSA FERRO FUNDIDO DE MÁX=350 MM X DE MÍN=300 MM ADAPTÁVEL P/VARIACAO DIAMETRAL ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "3.770,21"
+   "Preço": "4.040,13"
  },
  {
    "Código": "HM03176",
    "Descrição": "JUNTA BOLSA FERRO FUNDIDO DE MÁX=421 MM X DE MÍN=391 MM ADAPTÁVEL P/VARIACAO DIAMETRAL ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "5.700,00"
+   "Preço": "5.308,01"
  },
  {
    "Código": "HM03160",
    "Descrição": "JUNTA DE DESMONTAGEM TRAVADA AXIALMENTE FERRO FUNDIDO DN=100 MM PN10/16 * (21,00 KG) - PINTURA EPÓXI POLIAMIDA",
    "Unid. Med.": "un",
-   "Preço": "1.246,62"
+   "Preço": "1.317,57"
  },
  {
    "Código": "HM05883",
    "Descrição": "JUNTA DE DESMONTAGEM TRAVADA AXIALMENTE FERRO FUNDIDO DN=150 MM PN10/16 * (35,00 KG) - PINTURA EPÓXI POLIAMIDA",
    "Unid. Med.": "un",
-   "Preço": "1.606,26"
+   "Preço": "2.178,83"
  },
  {
    "Código": "HM03161",
    "Descrição": "JUNTA DE DESMONTAGEM TRAVADA AXIALMENTE FERRO FUNDIDO DN=200 MM PN10 * (49,00 KG) - PINTURA EPÓXI POLIAMIDA",
    "Unid. Med.": "un",
-   "Preço": "2.154,64"
+   "Preço": "2.830,81"
  },
  {
    "Código": "HM05884",
    "Descrição": "JUNTA DE DESMONTAGEM TRAVADA AXIALMENTE FERRO FUNDIDO DN=250 MM PN10 * (65,00 KG) - PINTURA EPÓXI POLIAMIDA",
    "Unid. Med.": "un",
-   "Preço": "2.995,03"
+   "Preço": "3.859,03"
  },
  {
    "Código": "HM03162",
    "Descrição": "JUNTA DE DESMONTAGEM TRAVADA AXIALMENTE FERRO FUNDIDO DN=300 MM PN10 * (92,00 KG) - PINTURA EPÓXI POLIAMIDA",
    "Unid. Med.": "un",
-   "Preço": "5.176,71"
+   "Preço": "5.458,58"
  },
  {
    "Código": "HM03163",
    "Descrição": "JUNTA DE DESMONTAGEM TRAVADA AXIALMENTE FERRO FUNDIDO DN=400 MM PN10 * (155,00 KG) - PINTURA EPÓXI POLIAMIDA",
    "Unid. Med.": "un",
-   "Preço": "7.268,18"
+   "Preço": "9.901,54"
  },
  {
    "Código": "HM05885",
@@ -11787,7 +11787,7 @@ const baseMateriais = [
    "Código": "HM03164",
    "Descrição": "JUNTA DE DESMONTAGEM TRAVADA AXIALMENTE FERRO FUNDIDO DN=500 MM PN10 * (200,00 KG) - PINTURA EPÓXI POLIAMIDA",
    "Unid. Med.": "un",
-   "Preço": "12.313,71"
+   "Preço": "13.689,11"
  },
  {
    "Código": "HM05886",
@@ -11835,181 +11835,181 @@ const baseMateriais = [
    "Código": "HM06388",
    "Descrição": "JUNTA GIBAULT FERRO FUNDIDO DN=100 MM (5,20 KG) PINTURA EPÓXI VERMELHA - ACESSÓRIOS INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "552,10"
+   "Preço": "540,85"
  },
  {
    "Código": "HM03177",
    "Descrição": "JUNTA GIBAULT FERRO FUNDIDO DN=100 MM * (5,20 KG) PINTURA BETUMINOSA - ACESSÓRIOS INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "428,00"
+   "Preço": "463,32"
  },
  {
    "Código": "HM06389",
    "Descrição": "JUNTA GIBAULT FERRO FUNDIDO DN=150 MM (9,20 KG) PINTURA EPÓXI VERMELHA - ACESSÓRIOS INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "831,50"
+   "Preço": "807,16"
  },
  {
    "Código": "HM03178",
    "Descrição": "JUNTA GIBAULT FERRO FUNDIDO DN=150 MM * (9,20 KG) PINTURA BETUMINOSA - ACESSÓRIOS INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "643,70"
+   "Preço": "680,89"
  },
  {
    "Código": "HM06390",
    "Descrição": "JUNTA GIBAULT FERRO FUNDIDO DN=200 MM (17,50 KG) PINTURA EPÓXI VERMELHA - ACESSÓRIOS INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "1.127,26"
+   "Preço": "1.118,57"
  },
  {
    "Código": "HM03179",
    "Descrição": "JUNTA GIBAULT FERRO FUNDIDO DN=200 MM * (17,50 KG) PINTURA BETUMINOSA - ACESSÓRIOS INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "800,51"
+   "Preço": "930,11"
  },
  {
    "Código": "HM06391",
    "Descrição": "JUNTA GIBAULT FERRO FUNDIDO DN=250 MM (29,40 KG) PINTURA EPÓXI VERMELHA - ACESSÓRIOS INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "1.337,65"
+   "Preço": "1.394,47"
  },
  {
    "Código": "HM03180",
    "Descrição": "JUNTA GIBAULT FERRO FUNDIDO DN=250 MM * (29,40 KG) PINTURA BETUMINOSA - ACESSÓRIOS INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "1.027,27"
+   "Preço": "1.175,61"
  },
  {
    "Código": "HM06392",
    "Descrição": "JUNTA GIBAULT FERRO FUNDIDO DN=300 MM (34,00 KG) PINTURA EPÓXI VERMELHA - ACESSÓRIOS INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "1.672,10"
+   "Preço": "1.766,85"
  },
  {
    "Código": "HM03181",
    "Descrição": "JUNTA GIBAULT FERRO FUNDIDO DN=300 MM * (34,00 KG) PINTURA BETUMINOSA - ACESSÓRIOS INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "1.826,25"
+   "Preço": "1.521,63"
  },
  {
    "Código": "HM06393",
    "Descrição": "JUNTA GIBAULT FERRO FUNDIDO DN=350 MM (46,30 KG) PINTURA EPÓXI VERMELHA - ACESSÓRIOS INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "2.282,06"
+   "Preço": "2.612,95"
  },
  {
    "Código": "HM03182",
    "Descrição": "JUNTA GIBAULT FERRO FUNDIDO DN=350 MM * (46,30 KG) PINTURA BETUMINOSA - ACESSÓRIOS INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "2.264,67"
+   "Preço": "2.435,28"
  },
  {
    "Código": "HM06394",
    "Descrição": "JUNTA GIBAULT FERRO FUNDIDO DN=400 MM (54,30 KG) PINTURA EPÓXI VERMELHA - ACESSÓRIOS INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "3.224,93"
+   "Preço": "3.393,06"
  },
  {
    "Código": "HM03183",
    "Descrição": "JUNTA GIBAULT FERRO FUNDIDO DN=400 MM * (54,30 KG) PINTURA BETUMINOSA - ACESSÓRIOS INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "2.926,50"
+   "Preço": "3.311,83"
  },
  {
    "Código": "HM06395",
    "Descrição": "JUNTA GIBAULT FERRO FUNDIDO DN=450 MM (59,20 KG) PINTURA EPÓXI VERMELHA - ACESSÓRIOS INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "4.419,46"
+   "Preço": "4.508,91"
  },
  {
    "Código": "HM03184",
    "Descrição": "JUNTA GIBAULT FERRO FUNDIDO DN=450 MM * (59,20 KG) PINTURA BETUMINOSA - ACESSÓRIOS INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "3.785,37"
+   "Preço": "4.357,02"
  },
  {
    "Código": "HM06396",
    "Descrição": "JUNTA GIBAULT FERRO FUNDIDO DN=500 MM (68,50 KG) PINTURA EPÓXI VERMELHA - ACESSÓRIOS INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "4.874,57"
+   "Preço": "4.805,72"
  },
  {
    "Código": "HM03186",
    "Descrição": "JUNTA GIBAULT FERRO FUNDIDO DN=500 MM * (68,50 KG) PINTURA BETUMINOSA - ACESSÓRIOS INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "4.299,65"
+   "Preço": "4.687,50"
  },
  {
    "Código": "HM03187",
    "Descrição": "JUNTA GIBAULT FERRO FUNDIDO DN=600 MM (101,0 KG) PINTURA BETUMINOSA - ACESSÓRIOS INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "5.907,90"
+   "Preço": "6.468,66"
  },
  {
    "Código": "HM06397",
    "Descrição": "JUNTA GIBAULT FERRO FUNDIDO DN=80 MM (7,0 KG) PINTURA EPÓXI VERMELHA - ACESSÓRIOS INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "469,24"
+   "Preço": "464,61"
  },
  {
    "Código": "HM03188",
    "Descrição": "JUNTA GIBAULT FERRO FUNDIDO DN=80 MM * (7,0 KG) PINTURA BETUMINOSA - ACESSÓRIOS INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "375,80"
+   "Preço": "397,50"
  },
  {
    "Código": "HM07886",
    "Descrição": "KIT CAVALETE AÇO INOX DN=100 NTS 232 - RAMAL PREDIAL",
    "Unid. Med.": "un",
-   "Preço": "19.564,92"
+   "Preço": "16.715,00"
  },
  {
    "Código": "HM07887",
    "Descrição": "KIT CAVALETE AÇO INOX DN=150 NTS 232 - RAMAL PREDIAL",
    "Unid. Med.": "un",
-   "Preço": "49.201,22"
+   "Preço": "52.900,00"
  },
  {
    "Código": "HM07882",
    "Descrição": "KIT CAVALETE AÇO INOX DN=25 NTS 232 - RAMAL PREDIAL",
    "Unid. Med.": "un",
-   "Preço": "1.513,38"
+   "Preço": "1.045,00"
  },
  {
    "Código": "HM07883",
    "Descrição": "KIT CAVALETE AÇO INOX DN=40 NTS 232 - RAMAL PREDIAL",
    "Unid. Med.": "un",
-   "Preço": "2.313,59"
+   "Preço": "2.140,00"
  },
  {
    "Código": "HM07884",
    "Descrição": "KIT CAVALETE AÇO INOX DN=50 NTS 232 - RAMAL PREDIAL",
    "Unid. Med.": "un",
-   "Preço": "5.154,88"
+   "Preço": "5.310,00"
  },
  {
    "Código": "HM07885",
    "Descrição": "KIT CAVALETE AÇO INOX DN=80 NTS 232 - RAMAL PREDIAL",
    "Unid. Med.": "un",
-   "Preço": "13.212,06"
+   "Preço": "11.740,00"
  },
  {
    "Código": "HM04304",
    "Descrição": "LACRE ANTI FRAUDE POLIPROPILENO AZUL DN=3/4\" ATÉ 3 M3/H C/TRAVAMENTO PARA HIDRÔMETRO",
    "Unid. Med.": "un",
-   "Preço": "0,96"
+   "Preço": "0,90"
  },
  {
    "Código": "HM04305",
    "Descrição": "LACRE ANTIFRAUDE P/HIDRÔMETRO COM CORDOALHA AÇO GALVANIZADO DE 1,20 M",
    "Unid. Med.": "un",
-   "Preço": "2,83"
+   "Preço": "3,13"
  },
  {
    "Código": "MO00044",
    "Descrição": "LADRILHISTA",
    "Unid. Med.": "H",
-   "Preço": "14,70"
+   "Preço": "15,39"
  },
  {
    "Código": "CV00525",
@@ -12165,7 +12165,7 @@ const baseMateriais = [
    "Código": "EQ04584",
    "Descrição": "LIXADEIRA ANGULAR POTÊNCIA=1.200 W, DISCO DE 7\"",
    "Unid. Med.": "H",
-   "Preço": "1,91"
+   "Preço": "1,90"
  },
  {
    "Código": "EQ04585",
@@ -12315,121 +12315,121 @@ const baseMateriais = [
    "Código": "HM03232",
    "Descrição": "LUVA COM BOLSAS JE2GS FERRO FUNDIDO DN=100 MM * (11,70 KG) PINTURA BETUMINOSA - ANÉIS DE BORRACHA INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "352,92"
+   "Preço": "357,58"
  },
  {
    "Código": "HM06400",
    "Descrição": "LUVA COM BOLSAS JE2GS FERRO FUNDIDO DN=150 MM (16,70 KG) PINTURA EPÓXI VERMELHA - ANÉIS DE BORRACHA INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "574,24"
+   "Preço": "655,42"
  },
  {
    "Código": "HM03233",
    "Descrição": "LUVA COM BOLSAS JE2GS FERRO FUNDIDO DN=150 MM * (16,70 KG) PINTURA BETUMINOSA - ANÉIS DE BORRACHA INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "541,29"
+   "Preço": "631,44"
  },
  {
    "Código": "HM06401",
    "Descrição": "LUVA COM BOLSAS JE2GS FERRO FUNDIDO DN=200 MM (24,20 KG) PINTURA EPÓXI VERMELHA - ANÉIS DE BORRACHA INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "945,69"
+   "Preço": "1.041,80"
  },
  {
    "Código": "HM03234",
    "Descrição": "LUVA COM BOLSAS JE2GS FERRO FUNDIDO DN=200 MM * (24,20 KG) PINTURA BETUMINOSA - ANÉIS DE BORRACHA INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "761,82"
+   "Preço": "906,72"
  },
  {
    "Código": "HM06402",
    "Descrição": "LUVA COM BOLSAS JE2GS FERRO FUNDIDO DN=250 MM (30,20 KG) PINTURA EPÓXI VERMELHA - ANÉIS DE BORRACHA INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "1.309,44"
+   "Preço": "1.392,65"
  },
  {
    "Código": "HM03235",
    "Descrição": "LUVA COM BOLSAS JE2GS FERRO FUNDIDO DN=250 MM * (30,20 KG) PINTURA BETUMINOSA - ANÉIS DE BORRACHA INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "1.145,35"
+   "Preço": "1.305,50"
  },
  {
    "Código": "HM06403",
    "Descrição": "LUVA COM BOLSAS JE2GS FERRO FUNDIDO DN=300 MM (38,90 KG) PINTURA EPÓXI VERMELHA - ANÉIS DE BORRACHA INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "1.901,19"
+   "Preço": "1.974,51"
  },
  {
    "Código": "HM03236",
    "Descrição": "LUVA COM BOLSAS JE2GS FERRO FUNDIDO DN=300 MM * (38,90 KG) PINTURA BETUMINOSA - ANÉIS DE BORRACHA INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "1.455,28"
+   "Preço": "1.559,00"
  },
  {
    "Código": "HM06404",
    "Descrição": "LUVA COM BOLSAS JE2GS FERRO FUNDIDO DN=350 MM (48,20 KG) PINTURA EPÓXI VERMELHA - ANÉIS DE BORRACHA INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "2.395,05"
+   "Preço": "2.463,01"
  },
  {
    "Código": "HM03237",
    "Descrição": "LUVA COM BOLSAS JE2GS FERRO FUNDIDO DN=350 MM * (48,20 KG) PINTURA BETUMINOSA - ANÉIS DE BORRACHA INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "1.943,69"
+   "Preço": "2.416,53"
  },
  {
    "Código": "HM06405",
    "Descrição": "LUVA COM BOLSAS JE2GS FERRO FUNDIDO DN=400 MM (52,20 KG) PINTURA EPÓXI VERMELHA - ANÉIS DE BORRACHA INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "2.949,23"
+   "Preço": "3.000,91"
  },
  {
    "Código": "HM03238",
    "Descrição": "LUVA COM BOLSAS JE2GS FERRO FUNDIDO DN=400 MM * (52,20 KG) PINTURA BETUMINOSA - ANÉIS DE BORRACHA INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "2.536,87"
+   "Preço": "2.979,19"
  },
  {
    "Código": "HM06406",
    "Descrição": "LUVA COM BOLSAS JE2GS FERRO FUNDIDO DN=450 MM (69,20 KG) PINTURA EPÓXI VERMELHA - ANÉIS DE BORRACHA INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "4.145,23"
+   "Preço": "4.107,06"
  },
  {
    "Código": "HM03239",
    "Descrição": "LUVA COM BOLSAS JE2GS FERRO FUNDIDO DN=450 MM * (69,20 KG) PINTURA BETUMINOSA - ANÉIS DE BORRACHA INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "3.344,03"
+   "Preço": "3.579,77"
  },
  {
    "Código": "HM06407",
    "Descrição": "LUVA COM BOLSAS JE2GS FERRO FUNDIDO DN=500 MM (81,00 KG) PINTURA EPÓXI VERMELHA - ANÉIS DE BORRACHA INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "4.842,05"
+   "Preço": "4.887,97"
  },
  {
    "Código": "HM03240",
    "Descrição": "LUVA COM BOLSAS JE2GS FERRO FUNDIDO DN=500 MM * (81,00 KG) PINTURA BETUMINOSA - ANÉIS DE BORRACHA INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "4.183,75"
+   "Preço": "3.814,60"
  },
  {
    "Código": "HM06398",
    "Descrição": "LUVA COM BOLSAS JE2GS FERRO FUNDIDO DN=80 MM (10,00 KG) PINTURA EPÓXI VERMELHA - ANÉIS DE BORRACHA INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "296,61"
+   "Preço": "286,96"
  },
  {
    "Código": "HM03241",
    "Descrição": "LUVA COM BOLSAS JE2GS FERRO FUNDIDO DN=80 MM * (10,00 KG) PINTURA BETUMINOSA - ANÉIS DE BORRACHA INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "262,52"
+   "Preço": "300,65"
  },
  {
    "Código": "HM06399",
    "Descrição": "LUVA COM BOLSAS JE2GS FERRO FUNDIDODN=100 MM (11,70 KG) PINTURA EPÓXI VERMELHA - ANÉIS DE BORRACHA INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "413,24"
+   "Preço": "438,50"
  },
  {
    "Código": "EL07421",
@@ -12471,49 +12471,49 @@ const baseMateriais = [
    "Código": "HM07208",
    "Descrição": "LUVA DE CORRER (DRESSER) FERRO GALVANIZADO DN= 1 1/2\" BSP NBR 6943 ÁGUA/GÁS",
    "Unid. Med.": "un",
-   "Preço": "124,56"
+   "Preço": "161,92"
  },
  {
    "Código": "HM07209",
    "Descrição": "LUVA DE CORRER (DRESSER) FERRO GALVANIZADO DN=1\" BSP NBR 6943 ÁGUA/GÁS",
    "Unid. Med.": "un",
-   "Preço": "87,53"
+   "Preço": "113,79"
  },
  {
    "Código": "HM07210",
    "Descrição": "LUVA DE CORRER (DRESSER) FERRO GALVANIZADO DN=2\" BSP NBR 6943 ÁGUA/GÁS",
    "Unid. Med.": "un",
-   "Preço": "171,32"
+   "Preço": "222,71"
  },
  {
    "Código": "HM07211",
    "Descrição": "LUVA DE CORRER (DRESSER) FERRO GALVANIZADO DN=3/4\" BSP NBR 6943 ÁGUA/GÁS",
    "Unid. Med.": "un",
-   "Preço": "57,34"
+   "Preço": "74,54"
  },
  {
    "Código": "HM06408",
    "Descrição": "LUVA DE CORRER COM BOLSAS FERRO FUNDIDO DE=110 MM (7,50 KG) PINTURA EPÓXI - ANEL DE BORRACHA INCLUSO - PARA PVC/PBA NBR 15880 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "326,18"
+   "Preço": "269,26"
  },
  {
    "Código": "HM06409",
    "Descrição": "LUVA DE CORRER COM BOLSAS FERRO FUNDIDO DE=60 MM (5,70 KG) PINTURA EPÓXI - ANEL DE BORRACHA INCLUSO - PARA PVC/PBA NBR 15880 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "150,45"
+   "Preço": "156,19"
  },
  {
    "Código": "HM06410",
    "Descrição": "LUVA DE CORRER COM BOLSAS FERRO FUNDIDO DE=85 MM (6,50 KG) PINTURA EPÓXI - ANEL DE BORRACHA INCLUSO - PARA PVC/PBA NBR 15880 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "264,92"
+   "Preço": "200,60"
  },
  {
    "Código": "HM06411",
    "Descrição": "LUVA DE CORRER COM BOLSAS JUNTA MECÂNICA FERRO FUNDIDO DN=100 MM (19,14 KG) PINTURA EPÓXI VERMELHA - ACESSÓRIOS INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "889,43"
+   "Preço": "808,10"
  },
  {
    "Código": "HM03218",
@@ -12525,43 +12525,43 @@ const baseMateriais = [
    "Código": "HM06412",
    "Descrição": "LUVA DE CORRER COM BOLSAS JUNTA MECÂNICA FERRO FUNDIDO DN=150 MM (27,56 KG) PINTURA EPÓXI VERMELHA - ACESSÓRIOS INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "1.260,99"
+   "Preço": "987,23"
  },
  {
    "Código": "HM03219",
    "Descrição": "LUVA DE CORRER COM BOLSAS JUNTA MECÂNICA FERRO FUNDIDO DN=150 MM * (27,56 KG) PINTURA BETUMINOSA C/ACESSÓRIOS INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "1.482,45"
+   "Preço": "1.573,11"
  },
  {
    "Código": "HM06413",
    "Descrição": "LUVA DE CORRER COM BOLSAS JUNTA MECÂNICA FERRO FUNDIDO DN=200 MM (41,36 KG) PINTURA EPÓXI VERMELHA - ACESSÓRIOS INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "1.778,69"
+   "Preço": "1.394,56"
  },
  {
    "Código": "HM03220",
    "Descrição": "LUVA DE CORRER COM BOLSAS JUNTA MECÂNICA FERRO FUNDIDO DN=200 MM * (41,36 KG) PINTURA BETUMINOSA C/ACESSÓRIOS INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "1.754,43"
+   "Preço": "2.187,00"
  },
  {
    "Código": "HM06414",
    "Descrição": "LUVA DE CORRER COM BOLSAS JUNTA MECÂNICA FERRO FUNDIDO DN=250 MM (64,48 KG) PINTURA EPÓXI VERMELHA - ACESSÓRIOS INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "2.453,10"
+   "Preço": "2.951,19"
  },
  {
    "Código": "HM03221",
    "Descrição": "LUVA DE CORRER COM BOLSAS JUNTA MECÂNICA FERRO FUNDIDO DN=250 MM * (64,48 KG) PINTURA BETUMINOSA C/ACESSÓRIOS INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "2.537,41"
+   "Preço": "3.119,65"
  },
  {
    "Código": "HM06415",
    "Descrição": "LUVA DE CORRER COM BOLSAS JUNTA MECÂNICA FERRO FUNDIDO DN=300 MM (76,68 KG) PINTURA EPÓXI VERMELHA - ACESSÓRIOS INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "3.436,21"
+   "Preço": "3.163,31"
  },
  {
    "Código": "HM03222",
@@ -12573,175 +12573,175 @@ const baseMateriais = [
    "Código": "HM06416",
    "Descrição": "LUVA DE CORRER COM BOLSAS JUNTA MECÂNICA FERRO FUNDIDO DN=350 MM (111,43 KG) PINTURA EPÓXI VERMELHA - ACESSÓRIOS INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "6.045,86"
+   "Preço": "5.082,86"
  },
  {
    "Código": "HM03223",
    "Descrição": "LUVA DE CORRER COM BOLSAS JUNTA MECÂNICA FERRO FUNDIDO DN=350 MM * (111,43 KG) PINTURA BETUMINOSA C/ACESSÓRIOS INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "5.252,44"
+   "Preço": "6.166,35"
  },
  {
    "Código": "HM06417",
    "Descrição": "LUVA DE CORRER COM BOLSAS JUNTA MECÂNICA FERRO FUNDIDO DN=400 MM (133,50 KG) PINTURA EPÓXI VERMELHA - ACESSÓRIOS INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "6.295,70"
+   "Preço": "5.988,59"
  },
  {
    "Código": "HM03224",
    "Descrição": "LUVA DE CORRER COM BOLSAS JUNTA MECÂNICA FERRO FUNDIDO DN=400 MM * (133,50 KG) PINTURA BETUMINOSA C/ACESSÓRIOS INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "5.317,72"
+   "Preço": "6.411,88"
  },
  {
    "Código": "HM06418",
    "Descrição": "LUVA DE CORRER COM BOLSAS JUNTA MECÂNICA FERRO FUNDIDO DN=450 MM (159,30 KG) PINTURA EPÓXI VERMELHA - ACESSÓRIOS INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "7.664,06"
+   "Preço": "7.844,71"
  },
  {
    "Código": "HM03225",
    "Descrição": "LUVA DE CORRER COM BOLSAS JUNTA MECÂNICA FERRO FUNDIDO DN=450 MM * (159,30 KG) PINTURA BETUMINOSA C/ACESSÓRIOS INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "6.790,06"
+   "Preço": "7.104,60"
  },
  {
    "Código": "HM06419",
    "Descrição": "LUVA DE CORRER COM BOLSAS JUNTA MECÂNICA FERRO FUNDIDO DN=500 MM (194,00 KG) PINTURA EPÓXI VERMELHA - ACESSÓRIOS INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "8.271,81"
+   "Preço": "7.985,44"
  },
  {
    "Código": "HM03227",
    "Descrição": "LUVA DE CORRER COM BOLSAS JUNTA MECÂNICA FERRO FUNDIDO DN=500 MM * (194,00 KG) PINTURA BETUMINOSA C/ACESSÓRIOS INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "7.941,38"
+   "Preço": "7.269,30"
  },
  {
    "Código": "HM03228",
    "Descrição": "LUVA DE CORRER COM BOLSAS JUNTA MECÂNICA FERRO FUNDIDO DN=600 MM * (242,40 KG) PINTURA BETUMINOSA C/ACESSÓRIOS INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "13.711,74"
+   "Preço": "14.556,67"
  },
  {
    "Código": "HM03229",
    "Descrição": "LUVA DE CORRER COM BOLSAS JUNTA MECÂNICA FERRO FUNDIDO DN=700 MM * (324,12 KG) PINTURA BETUMINOSA C/ACESSÓRIOS INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "20.330,81"
+   "Preço": "20.811,94"
  },
  {
    "Código": "HM06420",
    "Descrição": "LUVA DE CORRER COM BOLSAS JUNTA MECÂNICA FERRO FUNDIDO DN=80 MM (16,34 KG) PINTURA EPÓXI VERMELHA - ACESSÓRIOS INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "576,98"
+   "Preço": "629,51"
  },
  {
    "Código": "HM03230",
    "Descrição": "LUVA DE CORRER COM BOLSAS JUNTA MECÂNICA FERRO FUNDIDO DN=80 MM * (16,34 KG) PINTURA BETUMINOSA C/ACESSÓRIOS INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "721,18"
+   "Preço": "839,09"
  },
  {
    "Código": "HM03231",
    "Descrição": "LUVA DE CORRER COM BOLSAS JUNTA MECÂNICA FERRO FUNDIDO DN=800 MM * (419,84 KG) PINTURA BETUMINOSA C/ACESSÓRIOS INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "25.854,01"
+   "Preço": "27.416,87"
  },
  {
    "Código": "HM01890",
    "Descrição": "LUVA DE CORRER PVC DE=110 MM PBA NBR 10351 INFRAESTRUTURA ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "57,88"
+   "Preço": "72,05"
  },
  {
    "Código": "HM01891",
    "Descrição": "LUVA DE CORRER PVC DE=60 MM PBA NBR 10351 INFRAESTRUTURA ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "13,93"
+   "Preço": "17,60"
  },
  {
    "Código": "HM01892",
    "Descrição": "LUVA DE CORRER PVC DE=75 MM PBA NBR 10351 INFRAESTRUTURA ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "27,38"
+   "Preço": "35,59"
  },
  {
    "Código": "HM01893",
    "Descrição": "LUVA DE CORRER PVC DE=85 MM PBA NBR 10351 INFRAESTRUTURA ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "36,70"
+   "Preço": "46,50"
  },
  {
    "Código": "HM01925",
    "Descrição": "LUVA DE CORRER PVC DEFOFO DN=100 MM JUNTA ELÁSTICA NBR 7665 INFRAESTRUTURA ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "53,66"
+   "Preço": "69,76"
  },
  {
    "Código": "HM01926",
    "Descrição": "LUVA DE CORRER PVC DEFOFO DN=150 MM JUNTA ELÁSTICA NBR 7665 INFRAESTRUTURA ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "100,83"
+   "Preço": "145,95"
  },
  {
    "Código": "HM01927",
    "Descrição": "LUVA DE CORRER PVC DEFOFO DN=200 MM JUNTA ELÁSTICA NBR 7665 INFRAESTRUTURA ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "208,50"
+   "Preço": "229,45"
  },
  {
    "Código": "HM01928",
    "Descrição": "LUVA DE CORRER PVC DEFOFO DN=250 MM JUNTA ELÁSTICA NBR 7665 INFRAESTRUTURA ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "337,20"
+   "Preço": "414,08"
  },
  {
    "Código": "HM01929",
    "Descrição": "LUVA DE CORRER PVC DEFOFO DN=300 MM JUNTA ELÁSTICA NBR 7665 INFRAESTRUTURA ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "565,38"
+   "Preço": "697,10"
  },
  {
    "Código": "HM01983",
    "Descrição": "LUVA DE CORRER PVC RÍGIDO D=100 MM JE COLETOR DE ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "9,30"
+   "Preço": "12,09"
  },
  {
    "Código": "HM01985",
    "Descrição": "LUVA DE CORRER PVC RÍGIDO D=150 MM JE COLETOR DE ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "22,16"
+   "Preço": "32,91"
  },
  {
    "Código": "HM01986",
    "Descrição": "LUVA DE CORRER PVC RÍGIDO D=200 MM JE COLETOR DE ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "37,89"
+   "Preço": "49,26"
  },
  {
    "Código": "HM01987",
    "Descrição": "LUVA DE CORRER PVC RÍGIDO D=250 MM JE COLETOR DE ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "95,75"
+   "Preço": "128,25"
  },
  {
    "Código": "HM01988",
    "Descrição": "LUVA DE CORRER PVC RÍGIDO D=300 MM JE COLETOR DE ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "162,53"
+   "Preço": "187,37"
  },
  {
    "Código": "HM01989",
    "Descrição": "LUVA DE CORRER PVC RÍGIDO D=350 MM JE COLETOR DE ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "375,25"
+   "Preço": "407,60"
  },
  {
    "Código": "HM01990",
    "Descrição": "LUVA DE CORRER PVC RÍGIDO D=400 MM JE COLETOR DE ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "333,11"
+   "Preço": "324,47"
  },
  {
    "Código": "EL02134",
@@ -12789,91 +12789,91 @@ const baseMateriais = [
    "Código": "HM06421",
    "Descrição": "LUVA ELETROFUSÃO PEAD DE=110 MM SDR11 PE100 INJETADO NTS 193",
    "Unid. Med.": "un",
-   "Preço": "86,27"
+   "Preço": "106,98"
  },
  {
    "Código": "HM06422",
    "Descrição": "LUVA ELETROFUSÃO PEAD DE=160 MM SDR11 PE100 INJETADO NTS 193",
    "Unid. Med.": "un",
-   "Preço": "193,56"
+   "Preço": "218,92"
  },
  {
    "Código": "HM02071",
    "Descrição": "LUVA ELETROFUSÃO PEAD DE=200 MM SDR11 PE100 INJETADO NTS 193",
    "Unid. Med.": "un",
-   "Preço": "302,48"
+   "Preço": "392,45"
  },
  {
    "Código": "HM06423",
    "Descrição": "LUVA ELETROFUSÃO PEAD DE=225 MM SDR11 PE100 INJETADO NTS 193",
    "Unid. Med.": "un",
-   "Preço": "354,61"
+   "Preço": "434,81"
  },
  {
    "Código": "HM02072",
    "Descrição": "LUVA ELETROFUSÃO PEAD DE=250 MM SDR11 PE100 INJETADO NTS 193",
    "Unid. Med.": "un",
-   "Preço": "470,76"
+   "Preço": "466,48"
  },
  {
    "Código": "HM06424",
    "Descrição": "LUVA ELETROFUSÃO PEAD DE=280 MM SDR11 PE100 INJETADO NTS 193",
    "Unid. Med.": "un",
-   "Preço": "710,90"
+   "Preço": "712,93"
  },
  {
    "Código": "HM06425",
    "Descrição": "LUVA ELETROFUSÃO PEAD DE=315 MM SDR11 PE100 INJETADO NTS 193",
    "Unid. Med.": "un",
-   "Preço": "807,50"
+   "Preço": "972,25"
  },
  {
    "Código": "HM06426",
    "Descrição": "LUVA ELETROFUSÃO PEAD DE=400 MM SDR11 PE100 INJETADO NTS 193",
    "Unid. Med.": "un",
-   "Preço": "3.354,52"
+   "Preço": "3.337,93"
  },
  {
    "Código": "HM08352",
    "Descrição": "LUVA ELETROFUSÃO PEAD DE=500 MM SDR17 PE100 INJETADO NTS 193",
    "Unid. Med.": "un",
-   "Preço": "4.692,56"
+   "Preço": "5.945,62"
  },
  {
    "Código": "HM02073",
    "Descrição": "LUVA ELETROFUSÃO PEAD DE=63 MM SDR11 PE100 INJETADO NTS 193",
    "Unid. Med.": "un",
-   "Preço": "41,43"
+   "Preço": "51,51"
  },
  {
    "Código": "HM06427",
    "Descrição": "LUVA ELETROFUSÃO PEAD DE=90 MM SDR11 PE100 INJETADO NTS 193",
    "Unid. Med.": "un",
-   "Preço": "71,86"
+   "Preço": "86,70"
  },
  {
    "Código": "HM07207",
    "Descrição": "LUVA FERRO GALVANIZADO DN=1 1/2\" BSP NBR 6943 ÁGUA/GÁS",
    "Unid. Med.": "un",
-   "Preço": "19,61"
+   "Preço": "25,49"
  },
  {
    "Código": "HM01411",
    "Descrição": "LUVA FERRO GALVANIZADO DN=1\" BSP NBR 6943 ÁGUA/GÁS",
    "Unid. Med.": "un",
-   "Preço": "10,34"
+   "Preço": "14,49"
  },
  {
    "Código": "HM04388",
    "Descrição": "LUVA FERRO GALVANIZADO DN=2\" BSP NBR 6943 ÁGUA/GÁS",
    "Unid. Med.": "un",
-   "Preço": "35,72"
+   "Preço": "43,82"
  },
  {
    "Código": "HM01166",
    "Descrição": "LUVA FERRO GALVANIZADO DN=3/4\" BSP NBR 6943 ÁGUA/GÁS",
    "Unid. Med.": "un",
-   "Preço": "6,51"
+   "Preço": "9,74"
  },
  {
    "Código": "EL02775",
@@ -12969,73 +12969,73 @@ const baseMateriais = [
    "Código": "HM03242",
    "Descrição": "LUVA PARA HASTE DE PROLONGAMENTO FERRO FUNDIDO D=1 1/8\" * (2,50 KG) PINTURA EPÓXI AZUL",
    "Unid. Med.": "un",
-   "Preço": "465,41"
+   "Preço": "642,63"
  },
  {
    "Código": "HM03243",
    "Descrição": "LUVA PARA HASTE DE PROLONGAMENTO FERRO FUNDIDO D=1 3/4\" * (4,00 KG) PINTURA EPÓXI AZUL",
    "Unid. Med.": "un",
-   "Preço": "683,35"
+   "Preço": "790,05"
  },
  {
    "Código": "HM03244",
    "Descrição": "LUVA PARA HASTE DE PROLONGAMENTO FERRO FUNDIDO D=2 1/2\" * (7,00 KG) PINTURA EPÓXI AZUL",
    "Unid. Med.": "un",
-   "Preço": "857,22"
+   "Preço": "890,87"
  },
  {
    "Código": "HM03245",
    "Descrição": "LUVA PARA HASTE DE PROLONGAMENTO FERRO FUNDIDO D=2\" * (7,00 KG) PINTURA EPÓXI AZUL",
    "Unid. Med.": "un",
-   "Preço": "968,32"
+   "Preço": "989,26"
  },
  {
    "Código": "HM01694",
    "Descrição": "LUVA PVC D=1\" COM ROSCA ÁGUA PREDIAL",
    "Unid. Med.": "un",
-   "Preço": "7,79"
+   "Preço": "8,08"
  },
  {
    "Código": "HM01701",
    "Descrição": "LUVA PVC D=3/4\" COM ROSCA ÁGUA PREDIAL",
    "Unid. Med.": "un",
-   "Preço": "4,49"
+   "Preço": "3,05"
  },
  {
    "Código": "HM01412",
    "Descrição": "LUVA REDUÇÃO FERRO GALVANIZADO DN=1\" X 3/4\" BSP NBR 6943 ÁGUA/GÁS",
    "Unid. Med.": "un",
-   "Preço": "13,65"
+   "Preço": "15,51"
  },
  {
    "Código": "HM07252",
    "Descrição": "LUVA REDUÇÃO FERRO GALVANIZADO DN=2\" X 1\" BSP NBR 6943 ÁGUA/GÁS",
    "Unid. Med.": "un",
-   "Preço": "27,22"
+   "Preço": "35,39"
  },
  {
    "Código": "HM01894",
    "Descrição": "LUVA SIMPLES PVC DE=110 MM PBA NBR 10351 INFRAESTRUTURA ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "47,38"
+   "Preço": "61,59"
  },
  {
    "Código": "HM01895",
    "Descrição": "LUVA SIMPLES PVC DE=60 MM PBA NBR 10351 INFRAESTRUTURA ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "16,14"
+   "Preço": "22,55"
  },
  {
    "Código": "HM01896",
    "Descrição": "LUVA SIMPLES PVC DE=85 MM PBA NBR 10351 INFRAESTRUTURA ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "31,76"
+   "Preço": "37,08"
  },
  {
    "Código": "MO00046",
    "Descrição": "MAÇARIQUEIRO",
    "Unid. Med.": "H",
-   "Preço": "12,26"
+   "Preço": "12,84"
  },
  {
    "Código": "CV00225",
@@ -13047,37 +13047,37 @@ const baseMateriais = [
    "Código": "HM03246",
    "Descrição": "MANCAL INTERMEDIÁRIO PARA HASTE DE PROLONGAMENTO FERRO FUNDIDO D=1 1/8\" * (8,50 KG) COM ACESSÓRIOS DE FIXAÇÃO",
    "Unid. Med.": "un",
-   "Preço": "1.786,51"
+   "Preço": "2.608,34"
  },
  {
    "Código": "HM03247",
    "Descrição": "MANCAL INTERMEDIÁRIO PARA HASTE DE PROLONGAMENTO FERRO FUNDIDO D=1 3/4\" * (8,50 KG) COM ACESSÓRIOS DE FIXAÇÃO",
    "Unid. Med.": "un",
-   "Preço": "2.199,50"
+   "Preço": "3.261,04"
  },
  {
    "Código": "HM03248",
    "Descrição": "MANCAL INTERMEDIÁRIO PARA HASTE DE PROLONGAMENTO FERRO FUNDIDO D=2 1/2\" * (8,50 KG) COM ACESSÓRIOS DE FIXAÇÃO",
    "Unid. Med.": "un",
-   "Preço": "2.927,82"
+   "Preço": "4.333,70"
  },
  {
    "Código": "HM03249",
    "Descrição": "MANCAL INTERMEDIÁRIO PARA HASTE DE PROLONGAMENTO FERRO FUNDIDO D=2\" * (8,50 KG) COM ACESSÓRIOS DE FIXAÇÃO",
    "Unid. Med.": "un",
-   "Preço": "2.596,78"
+   "Preço": "3.375,81"
  },
  {
    "Código": "HM07713",
    "Descrição": "MANGUEIRA FLEXÍVEL CHATA EM PVC Ø2\", PRESSÃO 4BAR",
    "Unid. Med.": "M",
-   "Preço": "11,98"
+   "Preço": "10,38"
  },
  {
    "Código": "HM00596",
    "Descrição": "MANGUEIRA TRANSPARENTE PVC D=1/2\" (PAREDE DE 2 MM)",
    "Unid. Med.": "M",
-   "Preço": "6,83"
+   "Preço": "5,14"
  },
  {
    "Código": "EL07479",
@@ -13149,7 +13149,7 @@ const baseMateriais = [
    "Código": "EQ07279",
    "Descrição": "MARTELO DEMOLIDOR 30KG * 2000W ELÉTRICO PARA DEMOLIÇÃO DE CONCRETO",
    "Unid. Med.": "H",
-   "Preço": "15,44"
+   "Preço": "15,42"
  },
  {
    "Código": "EQ07280",
@@ -13233,7 +13233,7 @@ const baseMateriais = [
    "Código": "MO00049",
    "Descrição": "MECÂNICO MONTADOR",
    "Unid. Med.": "H",
-   "Preço": "18,29"
+   "Preço": "19,15"
  },
  {
    "Código": "EQ08305",
@@ -13245,43 +13245,43 @@ const baseMateriais = [
    "Código": "HM08488",
    "Descrição": "MEDIDOR DE VAZÃO CALHA PARSHALL FIBRA DE VIDRO GARGANTA 1\"",
    "Unid. Med.": "un",
-   "Preço": "1.414,75"
+   "Preço": "994,75"
  },
  {
    "Código": "HM08491",
    "Descrição": "MEDIDOR DE VAZÃO CALHA PARSHALL FIBRA DE VIDRO GARGANTA 12\"",
    "Unid. Med.": "un",
-   "Preço": "14.213,26"
+   "Preço": "11.259,89"
  },
  {
    "Código": "HM08492",
    "Descrição": "MEDIDOR DE VAZÃO CALHA PARSHALL FIBRA DE VIDRO GARGANTA 18\"",
    "Unid. Med.": "un",
-   "Preço": "16.513,25"
+   "Preço": "13.209,87"
  },
  {
    "Código": "HM08489",
    "Descrição": "MEDIDOR DE VAZÃO CALHA PARSHALL FIBRA DE VIDRO GARGANTA 2\"",
    "Unid. Med.": "un",
-   "Preço": "1.559,79"
+   "Preço": "1.114,79"
  },
  {
    "Código": "HM00599",
    "Descrição": "MEDIDOR DE VAZÃO CALHA PARSHALL FIBRA DE VIDRO GARGANTA 3\"",
    "Unid. Med.": "un",
-   "Preço": "3.053,99"
+   "Preço": "2.083,99"
  },
  {
    "Código": "HM00600",
    "Descrição": "MEDIDOR DE VAZÃO CALHA PARSHALL FIBRA DE VIDRO GARGANTA 6\"",
    "Unid. Med.": "un",
-   "Preço": "5.196,66"
+   "Preço": "3.517,56"
  },
  {
    "Código": "HM08490",
    "Descrição": "MEDIDOR DE VAZÃO CALHA PARSHALL FIBRA DE VIDRO GARGANTA 9\"",
    "Unid. Med.": "un",
-   "Preço": "6.471,81"
+   "Preço": "4.840,22"
  },
  {
    "Código": "EL07556",
@@ -13497,7 +13497,7 @@ const baseMateriais = [
    "Código": "EQ08185",
    "Descrição": "MISTURADOR AUTOMÁTICO COM CAPACIDADE DE 20 M³/H - 7 KW PARA GRAUTEAMENTO",
    "Unid. Med.": "H",
-   "Preço": "52,18"
+   "Preço": "53,43"
  },
  {
    "Código": "EQ08186",
@@ -13545,13 +13545,13 @@ const baseMateriais = [
    "Código": "MO00054",
    "Descrição": "MONTADOR DE TUBULAÇÕES",
    "Unid. Med.": "H",
-   "Preço": "15,86"
+   "Preço": "16,61"
  },
  {
    "Código": "EQ08245",
    "Descrição": "MOTOCICLETA 160 CILINDRADAS COM BAÚ - CARGO OU SIMILAR",
    "Unid. Med.": "H",
-   "Preço": "15,73"
+   "Preço": "16,26"
  },
  {
    "Código": "EQ08246",
@@ -13563,13 +13563,13 @@ const baseMateriais = [
    "Código": "EQ04550",
    "Descrição": "MOTONIVELADORA SOBRE PNEUS PESO OPERACIONAL * 15.800KG, POTÊNCIA * 195HP A DIESEL, COM LÂMINA RETA",
    "Unid. Med.": "H",
-   "Preço": "265,42"
+   "Preço": "282,80"
  },
  {
    "Código": "MO00055",
    "Descrição": "MOTORISTA",
    "Unid. Med.": "H",
-   "Preço": "13,13"
+   "Preço": "13,75"
  },
  {
    "Código": "CV00529",
@@ -13647,55 +13647,55 @@ const baseMateriais = [
    "Código": "HM05091",
    "Descrição": "NIPLE DUPLO FERRO GALVANIZADO DN=1 1/2\" BSP NBR 6943 ÁGUA/GÁS",
    "Unid. Med.": "un",
-   "Preço": "20,18"
+   "Preço": "22,12"
  },
  {
    "Código": "HM04389",
    "Descrição": "NIPLE DUPLO FERRO GALVANIZADO DN=1\" BSP NBR 6943 ÁGUA/GÁS",
    "Unid. Med.": "un",
-   "Preço": "12,99"
+   "Preço": "12,56"
  },
  {
    "Código": "HM05093",
    "Descrição": "NIPLE DUPLO FERRO GALVANIZADO DN=2 1/2\" BSP NBR 6943 ÁGUA/GÁS",
    "Unid. Med.": "un",
-   "Preço": "54,02"
+   "Preço": "57,19"
  },
  {
    "Código": "HM05092",
    "Descrição": "NIPLE DUPLO FERRO GALVANIZADO DN=2\" BSP NBR 6943 ÁGUA/GÁS",
    "Unid. Med.": "un",
-   "Preço": "34,23"
+   "Preço": "41,60"
  },
  {
    "Código": "HM05094",
    "Descrição": "NIPLE DUPLO FERRO GALVANIZADO DN=3\" BSP NBR 6943 ÁGUA/GÁS",
    "Unid. Med.": "un",
-   "Preço": "69,07"
+   "Preço": "83,63"
  },
  {
    "Código": "HM04390",
    "Descrição": "NIPLE DUPLO FERRO GALVANIZADO DN=3/4\" BSP NBR 6943 ÁGUA/GÁS",
    "Unid. Med.": "un",
-   "Preço": "6,51"
+   "Preço": "8,01"
  },
  {
    "Código": "HM05095",
    "Descrição": "NIPLE DUPLO FERRO GALVANIZADO DN=4\" BSP NBR 6943 ÁGUA/GÁS",
    "Unid. Med.": "un",
-   "Preço": "108,10"
+   "Preço": "129,62"
  },
  {
    "Código": "HM01708",
    "Descrição": "NIPLE PARALELO PVC D=1\" COM ROSCA ÁGUA PREDIAL",
    "Unid. Med.": "un",
-   "Preço": "7,22"
+   "Preço": "8,08"
  },
  {
    "Código": "HM01713",
    "Descrição": "NIPLE PARALELO PVC D=3/4\" COM ROSCA ÁGUA PREDIAL",
    "Unid. Med.": "un",
-   "Preço": "2,32"
+   "Preço": "2,37"
  },
  {
    "Código": "CV00500",
@@ -13707,7 +13707,7 @@ const baseMateriais = [
    "Código": "EQ04667",
    "Descrição": "ÓLEO DIESEL COMBUSTIVEL COMUM",
    "Unid. Med.": "L",
-   "Preço": "6,06"
+   "Preço": "7,03"
  },
  {
    "Código": "EL02520",
@@ -13719,19 +13719,19 @@ const baseMateriais = [
    "Código": "MO00047",
    "Descrição": "OPERADOR DE MARTELETE",
    "Unid. Med.": "H",
-   "Preço": "17,18"
+   "Preço": "17,99"
  },
  {
    "Código": "MO00061",
    "Descrição": "OPERADOR DE PERFURATRIZ PNEUMÁTICA",
    "Unid. Med.": "H",
-   "Preço": "18,90"
+   "Preço": "19,79"
  },
  {
    "Código": "EQ04551",
    "Descrição": "PÁ CARREGADEIRA *CAÇAMBA DE 1,70M3 *PESO OPERACIONAL 12T * 150CV A DIESEL SOBRE PNEUS",
    "Unid. Med.": "H",
-   "Preço": "224,72"
+   "Preço": "237,87"
  },
  {
    "Código": "EQ05174",
@@ -13743,7 +13743,7 @@ const baseMateriais = [
    "Código": "EQ04764",
    "Descrição": "PÁ CARREGADEIRA POTÊNCIA * 49HP SOBRE PNEUS",
    "Unid. Med.": "H",
-   "Preço": "132,57"
+   "Preço": "137,48"
  },
  {
    "Código": "EQ05265",
@@ -13767,13 +13767,13 @@ const baseMateriais = [
    "Código": "HM00517",
    "Descrição": "PARAFUSO AÇO CARBONO D=*4,8 MM X L=*75 MM PARA MADEIRA",
    "Unid. Med.": "un",
-   "Preço": "0,47"
+   "Preço": "0,43"
  },
  {
    "Código": "HM07482",
    "Descrição": "PARAFUSO AUTOPERFURANTE 5/16\" x 150* MM (DIÂMETRO X COMPRIMENTO) PARA FIXAÇÃO DE TELHAS",
    "Unid. Med.": "un",
-   "Preço": "1,60"
+   "Preço": "1,67"
  },
  {
    "Código": "CV07738",
@@ -13785,31 +13785,31 @@ const baseMateriais = [
    "Código": "HM07626",
    "Descrição": "PARAFUSO SEXTAVADO AÇO INOX D=1/2\" X L=4\"* ROSCA TOTAL AISI 304",
    "Unid. Med.": "un",
-   "Preço": "5,38"
+   "Preço": "3,66"
  },
  {
    "Código": "HM07625",
    "Descrição": "PARAFUSO SEXTAVADO AÇO INOX D=3/8\" X L=3\"* ROSCA TOTAL AISI 304",
    "Unid. Med.": "un",
-   "Preço": "1,87"
+   "Preço": "2,43"
  },
  {
    "Código": "HM05911",
    "Descrição": "PASTA LUBRIFICANTE PARA TUBOS E CONEXÕES FERRO FUNDIDO E PVC",
    "Unid. Med.": "KG",
-   "Preço": "45,03"
+   "Preço": "42,33"
  },
  {
    "Código": "HM03277",
    "Descrição": "PEDESTAL SIMPLES FERRO FUNDIDO MODELO 01 * (57,00 KG) MANOBRA DE VÁLVULA",
    "Unid. Med.": "un",
-   "Preço": "3.154,46"
+   "Preço": "4.100,80"
  },
  {
    "Código": "HM03278",
    "Descrição": "PEDESTAL SIMPLES FERRO FUNDIDO MODELO 02 * (73,00 KG) MANOBRA DE VÁLVULA",
    "Unid. Med.": "un",
-   "Preço": "5.246,88"
+   "Preço": "5.574,44"
  },
  {
    "Código": "CV00527",
@@ -13887,7 +13887,7 @@ const baseMateriais = [
    "Código": "MO00066",
    "Descrição": "PEDREIRO",
    "Unid. Med.": "H",
-   "Preço": "11,60"
+   "Preço": "12,15"
  },
  {
    "Código": "CV00217",
@@ -13905,91 +13905,91 @@ const baseMateriais = [
    "Código": "HM00283",
    "Descrição": "PERFIL I AÇO 4\" MASSA TEÓRICA *(12,650 KG/M) ASTM A36",
    "Unid. Med.": "M",
-   "Preço": "109,11"
+   "Preço": "102,72"
  },
  {
    "Código": "HM00287",
    "Descrição": "PERFIL L AÇO 1 1/2\" X 1 1/2\" X 1/4\" MASSA TEÓRICA *(3,400 KG/M) ASTM A36",
    "Unid. Med.": "M",
-   "Preço": "29,15"
+   "Preço": "27,73"
  },
  {
    "Código": "HM00285",
    "Descrição": "PERFIL L AÇO 1\" X 1\" X 1/4\" MASSA TEÓRICA *(2,240 KG/M) ASTM A36",
    "Unid. Med.": "M",
-   "Preço": "19,32"
+   "Preço": "16,43"
  },
  {
    "Código": "HM00513",
    "Descrição": "PERFIL L AÇO 1\" X 1\" X 1/8\" MASSA TEÓRICA *(1,190 KG/M) ASTM A36",
    "Unid. Med.": "KG",
-   "Preço": "11,78"
+   "Preço": "7,84"
  },
  {
    "Código": "HM00286",
    "Descrição": "PERFIL L AÇO 1\" X 1\" X 3/16\" MASSA TEÓRICA *(1,730 KG/M) ASTM A36",
    "Unid. Med.": "M",
-   "Preço": "15,06"
+   "Preço": "14,35"
  },
  {
    "Código": "HM00290",
    "Descrição": "PERFIL L AÇO 2\" X 2\" X 3/8\" MASSA TEÓRICA *(6,99 KG/M) ASTM A36",
    "Unid. Med.": "M",
-   "Preço": "60,51"
+   "Preço": "57,23"
  },
  {
    "Código": "HM00291",
    "Descrição": "PERFIL L AÇO 3/4\" X 3/4\" X 1/8\" MASSA TEÓRICA *(0,880 KG/M) ASTM A36",
    "Unid. Med.": "M",
-   "Preço": "7,59"
+   "Preço": "7,01"
  },
  {
    "Código": "HM00284",
    "Descrição": "PERFIL L AÇO INOX 1\" X 1\" X 1/4\" MASSA TEÓRICA *(2,258 KG/M) AISI 304",
    "Unid. Med.": "M",
-   "Preço": "59,61"
+   "Preço": "68,27"
  },
  {
    "Código": "HM00289",
    "Descrição": "PERFIL L AÇO INOX 2\" X 2\" X 1/4\" MASSA TEÓRICA *(4,838 KG/M) AISI 304",
    "Unid. Med.": "M",
-   "Preço": "127,72"
+   "Preço": "146,28"
  },
  {
    "Código": "HM07618",
    "Descrição": "PERFIL L AÇO INOX 4\" X 4\" X 1/4\" *(10,15 KG/M) AISI 304",
    "Unid. Med.": "M",
-   "Preço": "278,35"
+   "Preço": "311,98"
  },
  {
    "Código": "HM00292",
    "Descrição": "PERFIL LAMINADO AÇO W 150 X 18,00 ASTM A36",
    "Unid. Med.": "M",
-   "Preço": "187,20"
+   "Preço": "154,36"
  },
  {
    "Código": "HM00293",
    "Descrição": "PERFIL LAMINADO AÇO W 200 X 31,30 ASTM A36",
    "Unid. Med.": "M",
-   "Preço": "325,52"
+   "Preço": "275,95"
  },
  {
    "Código": "HM00294",
    "Descrição": "PERFIL LAMINADO AÇO W 250 X 38,50 ASTM A36",
    "Unid. Med.": "KG",
-   "Preço": "9,50"
+   "Preço": "9,79"
  },
  {
    "Código": "HM00295",
    "Descrição": "PERFIL LAMINADO AÇO W 250 X 44,80 ASTM A36",
    "Unid. Med.": "M",
-   "Preço": "465,92"
+   "Preço": "454,72"
  },
  {
    "Código": "HM00296",
    "Descrição": "PERFIL LAMINADO AÇO W 310 X 52,00 ASTM A36",
    "Unid. Med.": "M",
-   "Preço": "540,80"
+   "Preço": "495,85"
  },
  {
    "Código": "CV00387",
@@ -14071,9 +14071,9 @@ const baseMateriais = [
  },
  {
    "Código": "EQ08187",
-   "Descrição": "PERFURATRIZ HIDRÁULICA ROTOPERCUSSIVA PARA CCPH - 123 KW ",
+   "Descrição": "PERFURATRIZ HIDRÁULICA ROTOPERCUSSIVA PARA CCPH - 123 KW",
    "Unid. Med.": "H",
-   "Preço": "806,93"
+   "Preço": "828,92"
  },
  {
    "Código": "EQ04552",
@@ -14085,7 +14085,7 @@ const baseMateriais = [
    "Código": "EQ05179",
    "Descrição": "PERFURATRIZ ROTATIVA * ATÉ 200MM - 56CV SOBRE ESTEIRAS",
    "Unid. Med.": "H",
-   "Preço": "172,35"
+   "Preço": "178,62"
  },
  {
    "Código": "EQ05180",
@@ -14115,7 +14115,7 @@ const baseMateriais = [
    "Código": "EQ08236",
    "Descrição": "PICAPE LEVE CABINE SIMPLES - CARGA ÚTIL 770KG - *116CV - STRADA ENDURANCE OU SAVEIRO ROBUST OU SIMILAR",
    "Unid. Med.": "H",
-   "Preço": "44,88"
+   "Preço": "46,25"
  },
  {
    "Código": "EQ08237",
@@ -14127,7 +14127,7 @@ const baseMateriais = [
    "Código": "EQ08239",
    "Descrição": "PICAPE MÉDIA CABINE SIMPLES - CARGA ÚTIL 1.000KG - TRAÇÃO 4 X 4 - *207CV - S-10 CHEVROLET OU SIMILAR",
    "Unid. Med.": "H",
-   "Preço": "68,95"
+   "Preço": "73,20"
  },
  {
    "Código": "EQ08240",
@@ -14139,13 +14139,13 @@ const baseMateriais = [
    "Código": "MO00068",
    "Descrição": "PINTOR",
    "Unid. Med.": "H",
-   "Preço": "12,35"
+   "Preço": "12,93"
  },
  {
    "Código": "MO00069",
    "Descrição": "PINTOR DE TUBULAÇÕES",
    "Unid. Med.": "H",
-   "Preço": "18,61"
+   "Preço": "19,49"
  },
  {
    "Código": "CV00467",
@@ -14199,79 +14199,79 @@ const baseMateriais = [
    "Código": "HM06428",
    "Descrição": "PLACA DE REDUÇÃO FERRO FUNDIDO DN=100 X 50 MM PN10/16 (5,00 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "319,56"
+   "Preço": "331,51"
  },
  {
    "Código": "HM03294",
    "Descrição": "PLACA DE REDUÇÃO FERRO FUNDIDO DN=100 X 50 MM PN10/16 * (5,00 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "307,71"
+   "Preço": "306,02"
  },
  {
    "Código": "HM06429",
    "Descrição": "PLACA DE REDUÇÃO FERRO FUNDIDO DN=200 X 100 MM PN10 (13,00 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "661,67"
+   "Preço": "706,33"
  },
  {
    "Código": "HM03291",
    "Descrição": "PLACA DE REDUÇÃO FERRO FUNDIDO DN=200 X 100 MM PN10 * (13,00 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "535,10"
+   "Preço": "643,46"
  },
  {
    "Código": "HM06430",
    "Descrição": "PLACA DE REDUÇÃO FERRO FUNDIDO DN=200 X 80 MM PN10 (13,00 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "648,43"
+   "Preço": "692,95"
  },
  {
    "Código": "HM03292",
    "Descrição": "PLACA DE REDUÇÃO FERRO FUNDIDO DN=200 X 80 MM PN10 * (13,00 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "521,51"
+   "Preço": "559,22"
  },
  {
    "Código": "HM06431",
    "Descrição": "PLACA DE REDUÇÃO FERRO FUNDIDO DN=250 X 200 MM PN10 (32,00 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "1.308,43"
+   "Preço": "1.385,58"
  },
  {
    "Código": "HM03293",
    "Descrição": "PLACA DE REDUÇÃO FERRO FUNDIDO DN=250 X 200 MM PN10 * (32,00 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "1.280,50"
+   "Preço": "1.231,86"
  },
  {
    "Código": "HM06432",
    "Descrição": "PLACA DE REDUÇÃO FERRO FUNDIDO DN=350 X 150 MM PN10 (38,00 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "1.770,11"
+   "Preço": "2.064,98"
  },
  {
    "Código": "HM03282",
    "Descrição": "PLACA DE REDUÇÃO FERRO FUNDIDO DN=350 X 150 MM PN10 * (38,00 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "1.528,02"
+   "Preço": "1.526,85"
  },
  {
    "Código": "HM06433",
    "Descrição": "PLACA DE REDUÇÃO FERRO FUNDIDO DN=350 X 250 MM PN10 (32,00 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "1.931,57"
+   "Preço": "2.135,00"
  },
  {
    "Código": "HM03283",
    "Descrição": "PLACA DE REDUÇÃO FERRO FUNDIDO DN=350 X 250 MM PN10 * (32,00 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "1.787,79"
+   "Preço": "1.827,70"
  },
  {
    "Código": "HM06434",
    "Descrição": "PLACA DE REDUÇÃO FERRO FUNDIDO DN=400 X 150 MM PN10 (38,00 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "2.346,92"
+   "Preço": "2.462,39"
  },
  {
    "Código": "HM03284",
@@ -14283,55 +14283,55 @@ const baseMateriais = [
    "Código": "HM06435",
    "Descrição": "PLACA DE REDUÇÃO FERRO FUNDIDO DN=400 X 200 MM PN10 (39,50 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "2.359,82"
+   "Preço": "2.529,79"
  },
  {
    "Código": "HM03285",
    "Descrição": "PLACA DE REDUÇÃO FERRO FUNDIDO DN=400 X 200 MM PN10 * (39,50 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "1.727,85"
+   "Preço": "2.199,51"
  },
  {
    "Código": "HM06436",
    "Descrição": "PLACA DE REDUÇÃO FERRO FUNDIDO DN=400 X 250 MM PN10 (39,00 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "2.452,18"
+   "Preço": "2.679,36"
  },
  {
    "Código": "HM03286",
    "Descrição": "PLACA DE REDUÇÃO FERRO FUNDIDO DN=400 X 250 MM PN10 * (39,00 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "2.194,16"
+   "Preço": "2.490,35"
  },
  {
    "Código": "HM06437",
    "Descrição": "PLACA DE REDUÇÃO FERRO FUNDIDO DN=400 X 300 MM PN10 (38,00 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "2.561,41"
+   "Preço": "2.817,23"
  },
  {
    "Código": "HM03287",
    "Descrição": "PLACA DE REDUÇÃO FERRO FUNDIDO DN=400 X 300 MM PN10 * (38,00 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "2.298,73"
+   "Preço": "2.624,86"
  },
  {
    "Código": "HM06438",
    "Descrição": "PLACA DE REDUÇÃO FERRO FUNDIDO DN=500 X 350 MM PN10 (56,00 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "4.103,51"
+   "Preço": "4.282,90"
  },
  {
    "Código": "HM03289",
    "Descrição": "PLACA DE REDUÇÃO FERRO FUNDIDO DN=500 X 350 MM PN10 * (56,00 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "3.830,98"
+   "Preço": "3.913,66"
  },
  {
    "Código": "HM06439",
    "Descrição": "PLACA DE REDUÇÃO FERRO FUNDIDO DN=500 X 400 MM PN10 (53,00 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "3.414,72"
+   "Preço": "3.496,81"
  },
  {
    "Código": "HM03290",
@@ -14373,7 +14373,7 @@ const baseMateriais = [
    "Código": "EQ07086",
    "Descrição": "PLOTTER A1",
    "Unid. Med.": "H",
-   "Preço": "1,78"
+   "Preço": "1,77"
  },
  {
    "Código": "EL02344",
@@ -14421,7 +14421,7 @@ const baseMateriais = [
    "Código": "MO00070",
    "Descrição": "POCEIRO",
    "Unid. Med.": "H",
-   "Preço": "12,21"
+   "Preço": "12,79"
  },
  {
    "Código": "CV01443",
@@ -14493,31 +14493,31 @@ const baseMateriais = [
    "Código": "HM01416",
    "Descrição": "PORCA DO TUBETE LIGA DE COBRE DN=20 MM SEXTAVADA NBR 8194 PARA HIDRÔMETRO",
    "Unid. Med.": "un",
-   "Preço": "10,27"
+   "Preço": "8,24"
  },
  {
    "Código": "HM01417",
    "Descrição": "PORCA DO TUBETE LIGA DE COBRE DN=25 MM SEXTAVADA NBR 8194 PARA HIDRÔMETRO",
    "Unid. Med.": "un",
-   "Preço": "23,48"
+   "Preço": "19,74"
  },
  {
    "Código": "HM07141",
    "Descrição": "PORCA DO TUBETE LIGA DE COBRE DN=40 MM SEXTAVADA NBR 8194 PARA HIDRÔMETRO",
    "Unid. Med.": "un",
-   "Preço": "40,51"
+   "Preço": "42,45"
  },
  {
    "Código": "HM07628",
    "Descrição": "PORCA SEXTAVADA AÇO INOX D=1/2\" AISI 304",
    "Unid. Med.": "un",
-   "Preço": "0,69"
+   "Preço": "0,90"
  },
  {
    "Código": "HM07627",
    "Descrição": "PORCA SEXTAVADA AÇO INOX D=3/8\" AISI 304",
    "Unid. Med.": "un",
-   "Preço": "0,34"
+   "Preço": "0,44"
  },
  {
    "Código": "CV07731",
@@ -14835,7 +14835,7 @@ const baseMateriais = [
    "Código": "MO00071",
    "Descrição": "RASTELEIRO",
    "Unid. Med.": "H",
-   "Preço": "11,43"
+   "Preço": "11,97"
  },
  {
    "Código": "EL01035",
@@ -14871,7 +14871,7 @@ const baseMateriais = [
    "Código": "HM05926",
    "Descrição": "REBITE DE REPUXO ALUMÍNIO D=4 X 16 MM",
    "Unid. Med.": "un",
-   "Preço": "0,16"
+   "Preço": "0,11"
  },
  {
    "Código": "EQ04663",
@@ -14901,247 +14901,247 @@ const baseMateriais = [
    "Código": "HM01897",
    "Descrição": "REDUÇÃO COM BOLSAS PVC DE=85 X 60 MM PBA NBR 10351 INFRAESTRUTURA ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "39,96"
+   "Preço": "28,94"
  },
  {
    "Código": "HM01898",
    "Descrição": "REDUÇÃO COM PONTA E BOLSA PVC DE=110 X 60 MM PBA NBR 10351 INFRAESTRUTURA ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "66,94"
+   "Preço": "57,44"
  },
  {
    "Código": "HM01899",
    "Descrição": "REDUÇÃO COM PONTA E BOLSA PVC DE=110 X 85 MM PBA NBR 10351 INFRAESTRUTURA ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "44,29"
+   "Preço": "66,43"
  },
  {
    "Código": "HM01900",
    "Descrição": "REDUÇÃO COM PONTA E BOLSA PVC DE=85 X 60 MM PBA NBR 10351 INFRAESTRUTURA ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "26,93"
+   "Preço": "35,01"
  },
  {
    "Código": "HM06440",
    "Descrição": "REDUÇÃO CONCÊNTRICA AÇO CARBONO ASTM A36 DE=20\" X 10\" E=1/4\" REVESTIMENTO 0100-400-E045 ALT3 (EPÓXI) 0100-400-E071",
    "Unid. Med.": "un",
-   "Preço": "6.608,00"
+   "Preço": "4.583,36"
  },
  {
    "Código": "HM06441",
    "Descrição": "REDUÇÃO CONCÊNTRICA AÇO CARBONO ASTM A36 DE=40\" X 20\" E=1/4\" REVESTIMENTO 0100-400-E045 ALT3 (EPÓXI) 0100-400-E071",
    "Unid. Med.": "un",
-   "Preço": "21.192,66"
+   "Preço": "17.299,04"
  },
  {
    "Código": "HM06442",
    "Descrição": "REDUÇÃO CONCÊNTRICA AÇO CARBONO ASTM A36 DE=60\" X 40\" E=5/16\" REVESTIMENTO 0100-400-E045 ALT3 (EPÓXI) 0100-400-E071",
    "Unid. Med.": "un",
-   "Preço": "47.551,79"
+   "Preço": "32.905,71"
  },
  {
    "Código": "HM06458",
    "Descrição": "REDUÇÃO CONCÊNTRICA COM FLANGES PN10 FERRO FUNDIDO DN=200 X 100 MM (30,50 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "1.306,23"
+   "Preço": "1.343,29"
  },
  {
    "Código": "HM03320",
    "Descrição": "REDUÇÃO CONCÊNTRICA COM FLANGES PN10 FERRO FUNDIDO DN=200 X 100 MM * (30,50 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "1.003,93"
+   "Preço": "1.116,53"
  },
  {
    "Código": "HM07131",
    "Descrição": "REDUÇÃO CONCÊNTRICA COM FLANGES PN10 FERRO FUNDIDO DN=200 X 80 MM (27,00 KG) PINTURA BETUMINOSA - ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "975,88"
+   "Preço": "1.048,97"
  },
  {
    "Código": "HM07134",
    "Descrição": "REDUÇÃO CONCÊNTRICA COM FLANGES PN10 FERRO FUNDIDO DN=200 X 80 MM (27,00 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "1.161,57"
+   "Preço": "1.114,68"
  },
  {
    "Código": "HM06443",
    "Descrição": "REDUÇÃO CONCÊNTRICA COM FLANGES PN10 FERRO FUNDIDO DN=250 X 100 MM (40,00 KG) PINTURA BETUMINOSA - ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "1.011,26"
+   "Preço": "1.180,55"
  },
  {
    "Código": "HM06444",
    "Descrição": "REDUÇÃO CONCÊNTRICA COM FLANGES PN10 FERRO FUNDIDO DN=250 X 100 MM (40,00 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "1.334,75"
+   "Preço": "1.719,99"
  },
  {
    "Código": "HM06459",
    "Descrição": "REDUÇÃO CONCÊNTRICA COM FLANGES PN10 FERRO FUNDIDO DN=250 X 150 MM (45,00 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "1.699,60"
+   "Preço": "2.001,09"
  },
  {
    "Código": "HM03322",
    "Descrição": "REDUÇÃO CONCÊNTRICA COM FLANGES PN10 FERRO FUNDIDO DN=250 X 150 MM * (45,00 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "1.533,09"
+   "Preço": "1.721,14"
  },
  {
    "Código": "HM06460",
    "Descrição": "REDUÇÃO CONCÊNTRICA COM FLANGES PN10 FERRO FUNDIDO DN=250 X 200 MM (30,00 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "1.231,69"
+   "Preço": "1.490,83"
  },
  {
    "Código": "HM03323",
    "Descrição": "REDUÇÃO CONCÊNTRICA COM FLANGES PN10 FERRO FUNDIDO DN=250 X 200 MM * (30,00 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "1.121,53"
+   "Preço": "1.287,37"
  },
  {
    "Código": "HM06461",
    "Descrição": "REDUÇÃO CONCÊNTRICA COM FLANGES PN10 FERRO FUNDIDO DN=300 X 150 MM (52,00 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "2.019,67"
+   "Preço": "2.190,92"
  },
  {
    "Código": "HM03324",
    "Descrição": "REDUÇÃO CONCÊNTRICA COM FLANGES PN10 FERRO FUNDIDO DN=300 X 150 MM * (52,00 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "2.307,85"
+   "Preço": "2.032,09"
  },
  {
    "Código": "HM06462",
    "Descrição": "REDUÇÃO CONCÊNTRICA COM FLANGES PN10 FERRO FUNDIDO DN=300 X 200 MM (58,00 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "2.769,70"
+   "Preço": "2.960,05"
  },
  {
    "Código": "HM03325",
    "Descrição": "REDUÇÃO CONCÊNTRICA COM FLANGES PN10 FERRO FUNDIDO DN=300 X 200 MM * (58,00 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "2.799,82"
+   "Preço": "2.973,59"
  },
  {
    "Código": "HM06463",
    "Descrição": "REDUÇÃO CONCÊNTRICA COM FLANGES PN10 FERRO FUNDIDO DN=300 X 250 MM (40,00 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "1.975,01"
+   "Preço": "2.178,08"
  },
  {
    "Código": "HM03326",
    "Descrição": "REDUÇÃO CONCÊNTRICA COM FLANGES PN10 FERRO FUNDIDO DN=300 X 250 MM * (40,00 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "1.596,72"
+   "Preço": "1.924,07"
  },
  {
    "Código": "HM06464",
    "Descrição": "REDUÇÃO CONCÊNTRICA COM FLANGES PN10 FERRO FUNDIDO DN=350 X 200 MM (46,00 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "2.907,05"
+   "Preço": "3.233,40"
  },
  {
    "Código": "HM03327",
    "Descrição": "REDUÇÃO CONCÊNTRICA COM FLANGES PN10 FERRO FUNDIDO DN=350 X 200 MM * (46,00 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "1.900,06"
+   "Preço": "2.470,07"
  },
  {
    "Código": "HM06465",
    "Descrição": "REDUÇÃO CONCÊNTRICA COM FLANGES PN10 FERRO FUNDIDO DN=350 X 250 MM (85,15 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "2.552,07"
+   "Preço": "2.979,49"
  },
  {
    "Código": "HM03328",
    "Descrição": "REDUÇÃO CONCÊNTRICA COM FLANGES PN10 FERRO FUNDIDO DN=350 X 250 MM * (85,15 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "3.855,21"
+   "Preço": "4.104,00"
  },
  {
    "Código": "HM06446",
    "Descrição": "REDUÇÃO CONCÊNTRICA COM FLANGES PN10 FERRO FUNDIDO DN=350 X 300 MM (49,50 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "3.428,51"
+   "Preço": "3.802,69"
  },
  {
    "Código": "HM03308",
    "Descrição": "REDUÇÃO CONCÊNTRICA COM FLANGES PN10 FERRO FUNDIDO DN=350 X 300 MM * (49,50 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "2.075,17"
+   "Preço": "2.697,72"
  },
  {
    "Código": "HM07132",
    "Descrição": "REDUÇÃO CONCÊNTRICA COM FLANGES PN10 FERRO FUNDIDO DN=400 X 200 MM (68,00 KG) PINTURA BETUMINOSA - ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "3.019,14"
+   "Preço": "3.906,15"
  },
  {
    "Código": "HM07135",
    "Descrição": "REDUÇÃO CONCÊNTRICA COM FLANGES PN10 FERRO FUNDIDO DN=400 X 200 MM (68,00 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "3.584,73"
+   "Preço": "4.245,52"
  },
  {
    "Código": "HM06448",
    "Descrição": "REDUÇÃO CONCÊNTRICA COM FLANGES PN10 FERRO FUNDIDO DN=400 X 250 MM (78,00 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "4.091,03"
+   "Preço": "4.835,76"
  },
  {
    "Código": "HM03309",
    "Descrição": "REDUÇÃO CONCÊNTRICA COM FLANGES PN10 FERRO FUNDIDO DN=400 X 250 MM * (78,00 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "3.780,03"
+   "Preço": "4.418,52"
  },
  {
    "Código": "HM06449",
    "Descrição": "REDUÇÃO CONCÊNTRICA COM FLANGES PN10 FERRO FUNDIDO DN=400 X 300 MM (76,00 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "4.169,32"
+   "Preço": "4.929,48"
  },
  {
    "Código": "HM03310",
    "Descrição": "REDUÇÃO CONCÊNTRICA COM FLANGES PN10 FERRO FUNDIDO DN=400 X 300 MM * (76,00 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "3.436,90"
+   "Preço": "4.055,11"
  },
  {
    "Código": "HM06450",
    "Descrição": "REDUÇÃO CONCÊNTRICA COM FLANGES PN10 FERRO FUNDIDO DN=400 X 350 MM (58,00 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "4.259,03"
+   "Preço": "5.102,28"
  },
  {
    "Código": "HM03311",
    "Descrição": "REDUÇÃO CONCÊNTRICA COM FLANGES PN10 FERRO FUNDIDO DN=400 X 350 MM * (58,00 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "2.505,05"
+   "Preço": "3.256,56"
  },
  {
    "Código": "HM06451",
    "Descrição": "REDUÇÃO CONCÊNTRICA COM FLANGES PN10 FERRO FUNDIDO DN=450 X 300 MM (94,00 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "5.243,39"
+   "Preço": "5.869,90"
  },
  {
    "Código": "HM03312",
    "Descrição": "REDUÇÃO CONCÊNTRICA COM FLANGES PN10 FERRO FUNDIDO DN=450 X 300 MM * (94,00 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "4.397,97"
+   "Preço": "5.081,28"
  },
  {
    "Código": "HM06452",
    "Descrição": "REDUÇÃO CONCÊNTRICA COM FLANGES PN10 FERRO FUNDIDO DN=450 X 350 MM (97,00 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "5.642,67"
+   "Preço": "5.985,79"
  },
  {
    "Código": "HM03313",
    "Descrição": "REDUÇÃO CONCÊNTRICA COM FLANGES PN10 FERRO FUNDIDO DN=450 X 350 MM * (97,00 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "4.560,99"
+   "Preço": "5.607,73"
  },
  {
    "Código": "HM06453",
@@ -15159,25 +15159,25 @@ const baseMateriais = [
    "Código": "HM07133",
    "Descrição": "REDUÇÃO CONCÊNTRICA COM FLANGES PN10 FERRO FUNDIDO DN=500 X 300 MM (120,00 KG) PINTURA BETUMINOSA - ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "4.685,74"
+   "Preço": "5.193,17"
  },
  {
    "Código": "HM07136",
    "Descrição": "REDUÇÃO CONCÊNTRICA COM FLANGES PN10 FERRO FUNDIDO DN=500 X 300 MM (120,00 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "6.254,92"
+   "Preço": "6.395,62"
  },
  {
    "Código": "HM06454",
    "Descrição": "REDUÇÃO CONCÊNTRICA COM FLANGES PN10 FERRO FUNDIDO DN=500 X 350 MM (132,90 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "6.314,78"
+   "Preço": "7.733,25"
  },
  {
    "Código": "HM03315",
    "Descrição": "REDUÇÃO CONCÊNTRICA COM FLANGES PN10 FERRO FUNDIDO DN=500 X 350 MM * (132,90 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "4.848,09"
+   "Preço": "6.302,51"
  },
  {
    "Código": "HM06455",
@@ -15189,121 +15189,121 @@ const baseMateriais = [
    "Código": "HM03316",
    "Descrição": "REDUÇÃO CONCÊNTRICA COM FLANGES PN10 FERRO FUNDIDO DN=500 X 400 MM * (110,00 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "7.325,96"
+   "Preço": "7.650,35"
  },
  {
    "Código": "HM06456",
    "Descrição": "REDUÇÃO CONCÊNTRICA COM FLANGES PN10 FERRO FUNDIDO DN=500 X 450 MM (125,00 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "8.630,30"
+   "Preço": "8.098,47"
  },
  {
    "Código": "HM03317",
    "Descrição": "REDUÇÃO CONCÊNTRICA COM FLANGES PN10 FERRO FUNDIDO DN=500 X 450 MM * (125,00 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "6.026,26"
+   "Preço": "7.126,40"
  },
  {
    "Código": "HM06466",
    "Descrição": "REDUÇÃO CONCÊNTRICA COM FLANGES PN10/16 FERRO FUNDIDO DN=100 X 50 MM (15,50 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "509,74"
+   "Preço": "507,29"
  },
  {
    "Código": "HM03329",
    "Descrição": "REDUÇÃO CONCÊNTRICA COM FLANGES PN10/16 FERRO FUNDIDO DN=100 X 50 MM * (15,50 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "425,78"
+   "Preço": "440,94"
  },
  {
    "Código": "HM06467",
    "Descrição": "REDUÇÃO CONCÊNTRICA COM FLANGES PN10/16 FERRO FUNDIDO DN=100 X 80 MM (9,50 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "462,88"
+   "Preço": "466,67"
  },
  {
    "Código": "HM03330",
    "Descrição": "REDUÇÃO CONCÊNTRICA COM FLANGES PN10/16 FERRO FUNDIDO DN=100 X 80 MM * (9,50 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "363,87"
+   "Preço": "390,83"
  },
  {
    "Código": "HM06468",
    "Descrição": "REDUÇÃO CONCÊNTRICA COM FLANGES PN10/16 FERRO FUNDIDO DN=150 X 100 MM (15,50 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "757,00"
+   "Preço": "758,19"
  },
  {
    "Código": "HM03318",
    "Descrição": "REDUÇÃO CONCÊNTRICA COM FLANGES PN10/16 FERRO FUNDIDO DN=150 X 100 MM * (15,50 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "570,89"
+   "Preço": "613,73"
  },
  {
    "Código": "HM06469",
    "Descrição": "REDUÇÃO CONCÊNTRICA COM FLANGES PN10/16 FERRO FUNDIDO DN=150 X 80 MM (25,60 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "791,95"
+   "Preço": "819,59"
  },
  {
    "Código": "HM03319",
    "Descrição": "REDUÇÃO CONCÊNTRICA COM FLANGES PN10/16 FERRO FUNDIDO DN=150 X 80 MM * (25,60 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "614,31"
+   "Preço": "659,18"
  },
  {
    "Código": "HM06470",
    "Descrição": "REDUÇÃO CONCÊNTRICA COM FLANGES PN10/16/25 FERRO FUNDIDO DN=80 X 50 MM (8,40 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "365,32"
+   "Preço": "390,57"
  },
  {
    "Código": "HM03331",
    "Descrição": "REDUÇÃO CONCÊNTRICA COM FLANGES PN10/16/25 FERRO FUNDIDO DN=80 X 50 MM * (8,40 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "301,76"
+   "Preço": "323,56"
  },
  {
    "Código": "HM07788",
    "Descrição": "REDUÇÃO CONCÊNTRICA ELETROFUSÃO PEAD DE=110X63 SDR11 PE100 NTS 193",
    "Unid. Med.": "un",
-   "Preço": "218,00"
+   "Preço": "188,63"
  },
  {
    "Código": "HM07789",
    "Descrição": "REDUÇÃO CONCÊNTRICA ELETROFUSÃO PEAD DE=160X110 SDR11 PE100 NTS 193",
    "Unid. Med.": "un",
-   "Preço": "390,00"
+   "Preço": "347,56"
  },
  {
    "Código": "HM07790",
    "Descrição": "REDUÇÃO CONCÊNTRICA ELETROFUSÃO PEAD DE=200X160 SDR11 PE100 NTS 193",
    "Unid. Med.": "un",
-   "Preço": "2.835,00"
+   "Preço": "2.588,96"
  },
  {
    "Código": "HM07791",
    "Descrição": "REDUÇÃO CONCÊNTRICA ELETROFUSÃO PEAD DE=225X200 SDR11 PE100 NTS 193",
    "Unid. Med.": "un",
-   "Preço": "3.480,00"
+   "Preço": "3.180,31"
  },
  {
    "Código": "HM07786",
    "Descrição": "REDUÇÃO CONCÊNTRICA ELETROFUSÃO PEAD DE=63X32 SDR11 PE100 NTS 193",
    "Unid. Med.": "un",
-   "Preço": "110,00"
+   "Preço": "92,28"
  },
  {
    "Código": "HM07787",
    "Descrição": "REDUÇÃO CONCÊNTRICA ELETROFUSÃO PEAD DE=90X63 SDR11 PE100 NTS 193",
    "Unid. Med.": "un",
-   "Preço": "185,00"
+   "Preço": "155,11"
  },
  {
    "Código": "HM07792",
    "Descrição": "REDUÇÃO CONCÊNTRICA TERMOFUSÃO PEAD DE=250X200 SDR11 PE100 NTS 193",
    "Unid. Med.": "un",
-   "Preço": "1.400,00"
+   "Preço": "1.876,26"
  },
  {
    "Código": "HM07793",
@@ -15327,163 +15327,163 @@ const baseMateriais = [
    "Código": "HM06471",
    "Descrição": "REDUÇÃO EXCÊNTRICA COM FLANGES PN10 FERRO FUNDIDO DN=200 X 100 MM (27,50 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "1.316,05"
+   "Preço": "1.394,77"
  },
  {
    "Código": "HM03334",
    "Descrição": "REDUÇÃO EXCÊNTRICA COM FLANGES PN10 FERRO FUNDIDO DN=200 X 100 MM * (27,50 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "947,18"
+   "Preço": "1.206,75"
  },
  {
    "Código": "HM06472",
    "Descrição": "REDUÇÃO EXCÊNTRICA COM FLANGES PN10 FERRO FUNDIDO DN=200 X 150 MM (22,00 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "1.167,96"
+   "Preço": "1.126,68"
  },
  {
    "Código": "HM03335",
    "Descrição": "REDUÇÃO EXCÊNTRICA COM FLANGES PN10 FERRO FUNDIDO DN=200 X 150 MM * (22,00 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "701,10"
+   "Preço": "911,43"
  },
  {
    "Código": "HM06473",
    "Descrição": "REDUÇÃO EXCÊNTRICA COM FLANGES PN10 FERRO FUNDIDO DN=250 X 150 MM (39,00 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "2.394,64"
+   "Preço": "2.592,95"
  },
  {
    "Código": "HM03336",
    "Descrição": "REDUÇÃO EXCÊNTRICA COM FLANGES PN10 FERRO FUNDIDO DN=250 X 150 MM * (39,00 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "2.169,83"
+   "Preço": "2.213,11"
  },
  {
    "Código": "HM06474",
    "Descrição": "REDUÇÃO EXCÊNTRICA COM FLANGES PN10 FERRO FUNDIDO DN=250 X 200 MM (30,00 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "1.818,06"
+   "Preço": "1.885,78"
  },
  {
    "Código": "HM03337",
    "Descrição": "REDUÇÃO EXCÊNTRICA COM FLANGES PN10 FERRO FUNDIDO DN=250 X 200 MM * (30,00 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "1.282,42"
+   "Preço": "1.594,14"
  },
  {
    "Código": "HM06475",
    "Descrição": "REDUÇÃO EXCÊNTRICA COM FLANGES PN10 FERRO FUNDIDO DN=300 X 150 MM (46,00 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "2.716,71"
+   "Preço": "2.892,28"
  },
  {
    "Código": "HM03338",
    "Descrição": "REDUÇÃO EXCÊNTRICA COM FLANGES PN10 FERRO FUNDIDO DN=300 X 150 MM * (46,00 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "2.301,85"
+   "Preço": "2.672,01"
  },
  {
    "Código": "HM06476",
    "Descrição": "REDUÇÃO EXCÊNTRICA COM FLANGES PN10 FERRO FUNDIDO DN=300 X 200 MM (51,00 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "2.535,41"
+   "Preço": "2.961,34"
  },
  {
    "Código": "HM03339",
    "Descrição": "REDUÇÃO EXCÊNTRICA COM FLANGES PN10 FERRO FUNDIDO DN=300 X 200 MM * (51,00 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "2.218,23"
+   "Preço": "2.510,62"
  },
  {
    "Código": "HM06477",
    "Descrição": "REDUÇÃO EXCÊNTRICA COM FLANGES PN10 FERRO FUNDIDO DN=300 X 250 MM (40,00 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "2.388,23"
+   "Preço": "2.494,07"
  },
  {
    "Código": "HM03340",
    "Descrição": "REDUÇÃO EXCÊNTRICA COM FLANGES PN10 FERRO FUNDIDO DN=300 X 250 MM * (40,00 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "2.125,69"
+   "Preço": "2.248,28"
  },
  {
    "Código": "HM06478",
    "Descrição": "REDUÇÃO EXCÊNTRICA COM FLANGES PN10 FERRO FUNDIDO DN=400 X 250 MM (72,00 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "4.553,48"
+   "Preço": "4.281,81"
  },
  {
    "Código": "HM03295",
    "Descrição": "REDUÇÃO EXCÊNTRICA COM FLANGES PN10 FERRO FUNDIDO DN=400 X 250 MM * (72,00 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "4.205,45"
+   "Preço": "4.009,93"
  },
  {
    "Código": "HM06479",
    "Descrição": "REDUÇÃO EXCÊNTRICA COM FLANGES PN10 FERRO FUNDIDO DN=400 X 300 MM (79,00 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "5.036,29"
+   "Preço": "5.262,54"
  },
  {
    "Código": "HM03296",
    "Descrição": "REDUÇÃO EXCÊNTRICA COM FLANGES PN10 FERRO FUNDIDO DN=400 X 300 MM * (79,00 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "4.628,56"
+   "Preço": "4.916,61"
  },
  {
    "Código": "HM06480",
    "Descrição": "REDUÇÃO EXCÊNTRICA COM FLANGES PN10/16 FERRO FUNDIDO DN=100 X 80 MM (9,50 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "548,78"
+   "Preço": "585,89"
  },
  {
    "Código": "HM03297",
    "Descrição": "REDUÇÃO EXCÊNTRICA COM FLANGES PN10/16 FERRO FUNDIDO DN=100 X 80 MM * (9,50 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "470,32"
+   "Preço": "503,46"
  },
  {
    "Código": "HM06481",
    "Descrição": "REDUÇÃO EXCÊNTRICA COM FLANGES PN10/16 FERRO FUNDIDO DN=150 X 100 MM (15,00 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "769,71"
+   "Preço": "748,13"
  },
  {
    "Código": "HM03298",
    "Descrição": "REDUÇÃO EXCÊNTRICA COM FLANGES PN10/16 FERRO FUNDIDO DN=150 X 100 MM * (15,00 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "554,33"
+   "Preço": "613,06"
  },
  {
    "Código": "HM06482",
    "Descrição": "REDUÇÃO EXCÊNTRICA COM FLANGES PN10/16 FERRO FUNDIDO DN=150 X 80 MM (17,20 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "786,07"
+   "Preço": "873,31"
  },
  {
    "Código": "HM03299",
    "Descrição": "REDUÇÃO EXCÊNTRICA COM FLANGES PN10/16 FERRO FUNDIDO DN=150 X 80 MM * (17,20 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "495,06"
+   "Preço": "547,54"
  },
  {
    "Código": "HM06483",
    "Descrição": "REDUÇÃO EXCÊNTRICA COM FLANGES PN10/16/25 FERRO FUNDIDO DN=80 X 50 MM (8,00 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "343,48"
+   "Preço": "405,46"
  },
  {
    "Código": "HM03307",
    "Descrição": "REDUÇÃO EXCÊNTRICA COM FLANGES PN10/16/25 FERRO FUNDIDO DN=80 X 50 MM * (8,00 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "289,85"
+   "Preço": "359,96"
  },
  {
    "Código": "HM02002",
    "Descrição": "REDUÇÃO EXCÊNTRICA PVC RÍGIDO D=150 X 100 MM PBJE NBR 10569 COLETOR DE ESGOTOS",
    "Unid. Med.": "un",
-   "Preço": "20,77"
+   "Preço": "28,31"
  },
  {
    "Código": "HM02004",
@@ -15495,145 +15495,145 @@ const baseMateriais = [
    "Código": "HM02005",
    "Descrição": "REDUÇÃO EXCÊNTRICA PVC RÍGIDO D=250 X 200 MM PBJE NBR 10569 COLETOR DE ESGOTOS",
    "Unid. Med.": "un",
-   "Preço": "129,38"
+   "Preço": "138,28"
  },
  {
    "Código": "HM02006",
    "Descrição": "REDUÇÃO EXCÊNTRICA PVC RÍGIDO D=300 X 200 MM PBJE NBR 10569 COLETOR DE ESGOTOS",
    "Unid. Med.": "un",
-   "Preço": "185,42"
+   "Preço": "226,80"
  },
  {
    "Código": "HM02007",
    "Descrição": "REDUÇÃO EXCÊNTRICA PVC RÍGIDO D=300 X 250 MM PBJE NBR 10569 COLETOR DE ESGOTOS",
    "Unid. Med.": "un",
-   "Preço": "292,33"
+   "Preço": "279,51"
  },
  {
    "Código": "HM02008",
    "Descrição": "REDUÇÃO EXCÊNTRICA PVC RÍGIDO D=350 X 300 MM PBJE NBR 10569 COLETOR DE ESGOTOS",
    "Unid. Med.": "un",
-   "Preço": "505,22"
+   "Preço": "307,66"
  },
  {
    "Código": "HM02010",
    "Descrição": "REDUÇÃO EXCÊNTRICA PVC RÍGIDO D=400 X 350 MM PBJE NBR 10569 COLETOR DE ESGOTOS",
    "Unid. Med.": "un",
-   "Preço": "784,18"
+   "Preço": "774,16"
  },
  {
    "Código": "HM06484",
    "Descrição": "REDUÇÃO PONTA BOLSA JE2GS FERRO FUNDIDO DN=100 X 80 MM (7,80 KG) PINTURA EPÓXI VERMELHA, ANEL DE BORRACHA INCLUSO NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "325,73"
+   "Preço": "340,13"
  },
  {
    "Código": "HM03363",
    "Descrição": "REDUÇÃO PONTA BOLSA JE2GS FERRO FUNDIDO DN=100 X 80 MM * (7,80 KG) PINTURA BETUMINOSA, ANEL DE BORRACHA INCLUSO NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "284,93"
+   "Preço": "287,04"
  },
  {
    "Código": "HM06485",
    "Descrição": "REDUÇÃO PONTA BOLSA JE2GS FERRO FUNDIDO DN=150 X 100 MM (12,50 KG) PINTURA BETUMINOSA, ANEL DE BORRACHA INCLUSO NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "391,56"
+   "Preço": "433,05"
  },
  {
    "Código": "HM06486",
    "Descrição": "REDUÇÃO PONTA BOLSA JE2GS FERRO FUNDIDO DN=150 X 100 MM (12,50 KG) PINTURA EPÓXI VERMELHA, ANEL DE BORRACHA INCLUSO NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "571,45"
+   "Preço": "621,35"
  },
  {
    "Código": "HM06487",
    "Descrição": "REDUÇÃO PONTA BOLSA JE2GS FERRO FUNDIDO DN=150 X 80 MM (11,50 KG) PINTURA EPÓXI VERMELHA, ANEL DE BORRACHA INCLUSO NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "490,86"
+   "Preço": "516,34"
  },
  {
    "Código": "HM03364",
    "Descrição": "REDUÇÃO PONTA BOLSA JE2GS FERRO FUNDIDO DN=150 X 80 MM * (11,50 KG) PINTURA BETUMINOSA, ANEL DE BORRACHA INCLUSO NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "425,14"
+   "Preço": "483,41"
  },
  {
    "Código": "HM06488",
    "Descrição": "REDUÇÃO PONTA BOLSA JE2GS FERRO FUNDIDO DN=200 X 100 MM (14,60 KG) PINTURA EPÓXI VERMELHA, ANEL DE BORRACHA INCLUSO NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "700,14"
+   "Preço": "761,27"
  },
  {
    "Código": "HM03365",
    "Descrição": "REDUÇÃO PONTA BOLSA JE2GS FERRO FUNDIDO DN=200 X 100 MM * (14,60 KG) PINTURA BETUMINOSA, ANEL DE BORRACHA INCLUSO NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "569,63"
+   "Preço": "680,05"
  },
  {
    "Código": "HM06489",
    "Descrição": "REDUÇÃO PONTA BOLSA JE2GS FERRO FUNDIDO DN=200 X 150 MM (17,00 KG) PINTURA EPÓXI VERMELHA, ANEL DE BORRACHA INCLUSO NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "845,97"
+   "Preço": "919,54"
  },
  {
    "Código": "HM03366",
    "Descrição": "REDUÇÃO PONTA BOLSA JE2GS FERRO FUNDIDO DN=200 X 150 MM * (17,00 KG) PINTURA BETUMINOSA, ANEL DE BORRACHA INCLUSO NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "686,54"
+   "Preço": "826,32"
  },
  {
    "Código": "HM06490",
    "Descrição": "REDUÇÃO PONTA BOLSA JE2GS FERRO FUNDIDO DN=200 X 80 MM (12,30 KG) PINTURA EPÓXI VERMELHA, ANEL DE BORRACHA INCLUSO NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "647,69"
+   "Preço": "704,80"
  },
  {
    "Código": "HM03367",
    "Descrição": "REDUÇÃO PONTA BOLSA JE2GS FERRO FUNDIDO DN=200 X 80 MM * (12,30 KG) PINTURA BETUMINOSA, ANEL DE BORRACHA INCLUSO NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "491,24"
+   "Preço": "627,38"
  },
  {
    "Código": "HM06491",
    "Descrição": "REDUÇÃO PONTA BOLSA JE2GS FERRO FUNDIDO DN=250 X 150 MM (22,10 KG) PINTURA EPÓXI VERMELHA, ANEL DE BORRACHA INCLUSO NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "1.093,62"
+   "Preço": "1.169,90"
  },
  {
    "Código": "HM03368",
    "Descrição": "REDUÇÃO PONTA BOLSA JE2GS FERRO FUNDIDO DN=250 X 150 MM * (22,10 KG) PINTURA BETUMINOSA, ANEL DE BORRACHA INCLUSO NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "962,70"
+   "Preço": "1.166,82"
  },
  {
    "Código": "HM06492",
    "Descrição": "REDUÇÃO PONTA BOLSA JE2GS FERRO FUNDIDO DN=250 X 200 MM (22,30 KG) PINTURA EPÓXI VERMELHA, ANEL DE BORRACHA INCLUSO NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "1.121,32"
+   "Preço": "1.218,16"
  },
  {
    "Código": "HM03369",
    "Descrição": "REDUÇÃO PONTA BOLSA JE2GS FERRO FUNDIDO DN=250 X 200 MM * (22,30 KG) PINTURA BETUMINOSA, ANEL DE BORRACHA INCLUSO NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "918,40"
+   "Preço": "1.107,29"
  },
  {
    "Código": "HM06493",
    "Descrição": "REDUÇÃO PONTA BOLSA JE2GS FERRO FUNDIDO DN=300 X 150 MM (28,80 KG) PINTURA EPÓXI VERMELHA, ANEL DE BORRACHA INCLUSO NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "1.439,08"
+   "Preço": "1.540,99"
  },
  {
    "Código": "HM03370",
    "Descrição": "REDUÇÃO PONTA BOLSA JE2GS FERRO FUNDIDO DN=300 X 150 MM * (28,80 KG) PINTURA BETUMINOSA, ANEL DE BORRACHA INCLUSO NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "1.061,34"
+   "Preço": "1.296,03"
  },
  {
    "Código": "HM06494",
    "Descrição": "REDUÇÃO PONTA BOLSA JE2GS FERRO FUNDIDO DN=300 X 200 MM (28,85 KG) PINTURA EPÓXI VERMELHA, ANEL DE BORRACHA INCLUSO NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "1.398,79"
+   "Preço": "1.488,98"
  },
  {
    "Código": "HM03371",
@@ -15651,121 +15651,121 @@ const baseMateriais = [
    "Código": "HM03372",
    "Descrição": "REDUÇÃO PONTA BOLSA JE2GS FERRO FUNDIDO DN=300 X 250 MM * (30,50 KG) PINTURA BETUMINOSA, ANEL DE BORRACHA INCLUSO NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "1.191,38"
+   "Preço": "1.419,54"
  },
  {
    "Código": "HM06496",
    "Descrição": "REDUÇÃO PONTA BOLSA JE2GS FERRO FUNDIDO DN=350 X 200 MM (38,00 KG) PINTURA EPÓXI VERMELHA, ANEL DE BORRACHA INCLUSO NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "1.522,31"
+   "Preço": "1.795,18"
  },
  {
    "Código": "HM03373",
    "Descrição": "REDUÇÃO PONTA BOLSA JE2GS FERRO FUNDIDO DN=350 X 200 MM * (38,00 KG) PINTURA BETUMINOSA, ANEL DE BORRACHA INCLUSO NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "1.924,22"
+   "Preço": "2.039,46"
  },
  {
    "Código": "HM06497",
    "Descrição": "REDUÇÃO PONTA BOLSA JE2GS FERRO FUNDIDO DN=350 X 250 MM (36,50 KG) PINTURA EPÓXI VERMELHA, ANEL DE BORRACHA INCLUSO NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "2.178,50"
+   "Preço": "2.284,75"
  },
  {
    "Código": "HM03374",
    "Descrição": "REDUÇÃO PONTA BOLSA JE2GS FERRO FUNDIDO DN=350 X 250 MM * (36,50 KG) PINTURA BETUMINOSA, ANEL DE BORRACHA INCLUSO NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "1.826,46"
+   "Preço": "2.172,77"
  },
  {
    "Código": "HM06498",
    "Descrição": "REDUÇÃO PONTA BOLSA JE2GS FERRO FUNDIDO DN=350 X 300 MM (39,60 KG) PINTURA EPÓXI VERMELHA, ANEL DE BORRACHA INCLUSO NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "1.904,98"
+   "Preço": "1.976,26"
  },
  {
    "Código": "HM03375",
    "Descrição": "REDUÇÃO PONTA BOLSA JE2GS FERRO FUNDIDO DN=350 X 300 MM * (39,60 KG) PINTURA BETUMINOSA, ANEL DE BORRACHA INCLUSO NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "1.781,24"
+   "Preço": "1.886,00"
  },
  {
    "Código": "HM06499",
    "Descrição": "REDUÇÃO PONTA BOLSA JE2GS FERRO FUNDIDO DN=400 X 250 MM (48,20 KG) PINTURA EPÓXI VERMELHA, ANEL DE BORRACHA INCLUSO NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "2.841,56"
+   "Preço": "3.253,95"
  },
  {
    "Código": "HM03376",
    "Descrição": "REDUÇÃO PONTA BOLSA JE2GS FERRO FUNDIDO DN=400 X 250 MM * (48,20 KG) PINTURA BETUMINOSA, ANEL DE BORRACHA INCLUSO NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "2.991,17"
+   "Preço": "3.165,80"
  },
  {
    "Código": "HM06500",
    "Descrição": "REDUÇÃO PONTA BOLSA JE2GS FERRO FUNDIDO DN=400 X 300 MM (44,80 KG) PINTURA EPÓXI VERMELHA, ANEL DE BORRACHA INCLUSO NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "2.889,15"
+   "Preço": "3.030,62"
  },
  {
    "Código": "HM03377",
    "Descrição": "REDUÇÃO PONTA BOLSA JE2GS FERRO FUNDIDO DN=400 X 300 MM * (44,80 KG) PINTURA BETUMINOSA, ANEL DE BORRACHA INCLUSO NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "2.766,34"
+   "Preço": "2.929,98"
  },
  {
    "Código": "HM06501",
    "Descrição": "REDUÇÃO PONTA BOLSA JE2GS FERRO FUNDIDO DN=400 X 350 MM (42,40 KG) PINTURA EPÓXI VERMELHA, ANEL DE BORRACHA INCLUSO NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "2.253,30"
+   "Preço": "2.368,32"
  },
  {
    "Código": "HM03378",
    "Descrição": "REDUÇÃO PONTA BOLSA JE2GS FERRO FUNDIDO DN=400 X 350 MM * (42,40 KG) PINTURA BETUMINOSA, ANEL DE BORRACHA INCLUSO NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "2.110,84"
+   "Preço": "2.237,45"
  },
  {
    "Código": "HM06502",
    "Descrição": "REDUÇÃO PONTA BOLSA JE2GS FERRO FUNDIDO DN=500 X 350 MM (78,70 KG) PINTURA EPÓXI VERMELHA, ANEL DE BORRACHA INCLUSO NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "4.357,69"
+   "Preço": "4.829,04"
  },
  {
    "Código": "HM03379",
    "Descrição": "REDUÇÃO PONTA BOLSA JE2GS FERRO FUNDIDO DN=500 X 350 MM * (78,70 KG) PINTURA BETUMINOSA, ANEL DE BORRACHA INCLUSO NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "4.153,75"
+   "Preço": "4.247,33"
  },
  {
    "Código": "HM06503",
    "Descrição": "REDUÇÃO PONTA BOLSA JE2GS FERRO FUNDIDO DN=500 X 400 MM (62,40 KG) PINTURA EPÓXI VERMELHA, ANEL DE BORRACHA INCLUSO NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "3.807,20"
+   "Preço": "4.128,87"
  },
  {
    "Código": "HM03380",
    "Descrição": "REDUÇÃO PONTA BOLSA JE2GS FERRO FUNDIDO DN=500 X 400 MM * (62,40 KG) PINTURA BETUMINOSA, ANEL DE BORRACHA INCLUSO NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "3.445,45"
+   "Preço": "3.430,61"
  },
  {
    "Código": "HM06504",
    "Descrição": "REDUÇÃO PONTA E BOLSA FERRO FUNDIDO DE=110X60 MM (3,10 KG) PINTURA EPÓXI - ANEL DE BORRACHA INCLUSO - PARA PVC/PBA NBR 15880 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "236,36"
+   "Preço": "172,65"
  },
  {
    "Código": "HM06505",
    "Descrição": "REDUÇÃO PONTA E BOLSA FERRO FUNDIDO DE=110X85 MM (3,40 KG) PINTURA EPÓXI - ANEL DE BORRACHA INCLUSO - PARA PVC/PBA NBR 15880 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "260,09"
+   "Preço": "188,59"
  },
  {
    "Código": "HM06506",
    "Descrição": "REDUÇÃO PONTA E BOLSA FERRO FUNDIDO DE=85X60 MM (2,10 KG) PINTURA EPÓXI - ANEL DE BORRACHA INCLUSO - PARA PVC/PBA NBR 15880 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "185,37"
+   "Preço": "144,03"
  },
  {
    "Código": "EL05977",
@@ -15795,37 +15795,37 @@ const baseMateriais = [
    "Código": "HM01308",
    "Descrição": "REGISTRO DE PRESSÃO LATÃO D=3/4\" C/ROSCAS E CANOPLA CROMADA P/ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "81,23"
+   "Preço": "97,90"
  },
  {
    "Código": "HM01421",
    "Descrição": "REGISTRO DE PRESSÃO LIGA DE COBRE D=3/4\" C/ROSCAS E BORBOLETA",
    "Unid. Med.": "un",
-   "Preço": "58,00"
+   "Preço": "45,65"
  },
  {
    "Código": "HM04327",
    "Descrição": "REGISTRO ESFERA PVC D=3/4\" ACION BORB C/ROSCA EXT NBR 11306, ÁGUA PREDIAL",
    "Unid. Med.": "un",
-   "Preço": "17,90"
+   "Preço": "12,91"
  },
  {
    "Código": "HM02050",
    "Descrição": "REGISTRO ESFERA PVC D=3/4\" ACION BORB C/ROSCA INT E UNIÃO DESTACÁVEL, ÁGUA PREDIAL",
    "Unid. Med.": "un",
-   "Preço": "19,43"
+   "Preço": "13,38"
  },
  {
    "Código": "HM02042",
    "Descrição": "REGISTRO ESFERA PVC D=3/4\" ACION BORB C/ROSCA INT, ÁGUA PREDIAL",
    "Unid. Med.": "un",
-   "Preço": "17,46"
+   "Preço": "15,79"
  },
  {
    "Código": "HM01315",
    "Descrição": "REGISTRO GAVETA LIGA COBRE D=1 1/2\" COM ROSCAS E CANOPLA CROMADA",
    "Unid. Med.": "un",
-   "Preço": "180,86"
+   "Preço": "179,96"
  },
  {
    "Código": "HM01316",
@@ -15837,61 +15837,61 @@ const baseMateriais = [
    "Código": "HM01314",
    "Descrição": "REGISTRO GAVETA LIGA COBRE D=1\" COM ROSCAS E CANOPLA CROMADA",
    "Unid. Med.": "un",
-   "Preço": "136,76"
+   "Preço": "151,94"
  },
  {
    "Código": "HM01317",
    "Descrição": "REGISTRO GAVETA LIGA COBRE D=3/4\" COM ROSCAS E CANOPLA CROMADA",
    "Unid. Med.": "un",
-   "Preço": "104,22"
+   "Preço": "101,70"
  },
  {
    "Código": "HM01310",
    "Descrição": "REGISTRO GAVETA LIGA DE COBRE D=1 1/2\" COM ROSCAS E VOLANTE",
    "Unid. Med.": "un",
-   "Preço": "126,45"
+   "Preço": "159,00"
  },
  {
    "Código": "HM01311",
    "Descrição": "REGISTRO GAVETA LIGA DE COBRE D=1 1/4\" COM ROSCAS E VOLANTE",
    "Unid. Med.": "un",
-   "Preço": "98,75"
+   "Preço": "138,90"
  },
  {
    "Código": "HM01309",
    "Descrição": "REGISTRO GAVETA LIGA DE COBRE D=1\" COM ROSCAS E VOLANTE",
    "Unid. Med.": "un",
-   "Preço": "74,07"
+   "Preço": "80,45"
  },
  {
    "Código": "HM01312",
    "Descrição": "REGISTRO GAVETA LIGA DE COBRE D=2\" COM ROSCAS E VOLANTE",
    "Unid. Med.": "un",
-   "Preço": "182,94"
+   "Preço": "198,90"
  },
  {
    "Código": "HM01313",
    "Descrição": "REGISTRO GAVETA LIGA DE COBRE D=3/4\" COM ROSCAS E VOLANTE",
    "Unid. Med.": "un",
-   "Preço": "69,54"
+   "Preço": "49,90"
  },
  {
    "Código": "HM07248",
    "Descrição": "REGISTRO GAVETA LIGA DE COBRE DN=3\" COM ROSCAS E VOLANTE",
    "Unid. Med.": "un",
-   "Preço": "605,88"
+   "Preço": "802,40"
  },
  {
    "Código": "HM07249",
    "Descrição": "REGISTRO GAVETA LIGA DE COBRE DN=4\" COM ROSCAS E VOLANTE",
    "Unid. Med.": "un",
-   "Preço": "1.173,01"
+   "Preço": "1.406,88"
  },
  {
    "Código": "HM01426",
    "Descrição": "REGISTRO MACHO LIGA DE COBRE D=3/4\" NTS 227 PARA RAMAL PREDIAL",
    "Unid. Med.": "un",
-   "Preço": "51,11"
+   "Preço": "60,97"
  },
  {
    "Código": "HM01424",
@@ -15987,7 +15987,7 @@ const baseMateriais = [
    "Código": "EQ04554",
    "Descrição": "RETRO ESCAVADEIRA SOBRE PNEUS *PESO OPERACIONAL 7T, POTÊNCIA 93HP TRAÇÃO 4X4, CAÇAMBA PÁ CARREGADEIRA 0,96M3",
    "Unid. Med.": "H",
-   "Preço": "172,28"
+   "Preço": "182,09"
  },
  {
    "Código": "EQ04555",
@@ -16017,13 +16017,13 @@ const baseMateriais = [
    "Código": "EQ04556",
    "Descrição": "ROÇADEIRA COSTAL POTÊNCIA* 1,7KW/2,3CV LATERAL, COM TRÊS PONTAS, A GASOLINA",
    "Unid. Med.": "H",
-   "Preço": "5,51"
+   "Preço": "5,76"
  },
  {
    "Código": "EQ04559",
    "Descrição": "ROLO COMPACTADOR DE UM CILINDRO, LISO DE AÇO VIBRATÓRIO, *PESO OPERACIONAL 10T, (AUTOPROPELIDO)",
    "Unid. Med.": "H",
-   "Preço": "209,84"
+   "Preço": "224,91"
  },
  {
    "Código": "EQ07893",
@@ -16035,13 +16035,13 @@ const baseMateriais = [
    "Código": "EQ04557",
    "Descrição": "ROLO COMPACTADOR DE UM CILINDRO, TIPO PÉ DE CARNEIRO, *PESO OPERACIONAL 11,5T, POTÊNCIA 95HP, (AUTOPROPELIDO)",
    "Unid. Med.": "H",
-   "Preço": "209,56"
+   "Preço": "224,63"
  },
  {
    "Código": "EQ04558",
    "Descrição": "ROLO COMPACTADOR DE UM CILINDRO, TIPO PÉ DE CARNEIRO, *PESO OPERACIONAL 7,5T, POTÊNCIA 80HP , (AUTOPROPELIDO)",
    "Unid. Med.": "H",
-   "Preço": "154,96"
+   "Preço": "162,89"
  },
  {
    "Código": "EQ04561",
@@ -16113,37 +16113,37 @@ const baseMateriais = [
    "Código": "HM05919",
    "Descrição": "SELIM 90º PVC D=150 X 100 MM ELÁSTICO, ENCAIXE SOLDÁVEL, SAÍDA COM BOLSA JE, COLETOR DE ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "24,44"
+   "Preço": "26,57"
  },
  {
    "Código": "HM02012",
    "Descrição": "SELIM 90º PVC D=150 X 100 MM OCRE COM TRAVAS ELÁSTICAS COLETOR DE ESGOTOS",
    "Unid. Med.": "un",
-   "Preço": "24,38"
+   "Preço": "31,69"
  },
  {
    "Código": "HM05920",
    "Descrição": "SELIM 90º PVC D=200 X 100 MM ELÁSTICO, ENCAIXE SOLDÁVEL, SAÍDA COM BOLSA JE, COLETOR DE ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "36,55"
+   "Preço": "39,96"
  },
  {
    "Código": "HM05924",
    "Descrição": "SELIM 90º PVC D=200 X 150 MM ELÁSTICO, ENCAIXE SOLDÁVEL, SAÍDA COM BOLSA JE, COLETOR DE ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "51,94"
+   "Preço": "61,62"
  },
  {
    "Código": "HM05921",
    "Descrição": "SELIM 90º PVC D=250 X 100 MM ELÁSTICO, ENCAIXE SOLDÁVEL, SAÍDA COM BOLSA JE, COLETOR DE ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "55,51"
+   "Preço": "60,69"
  },
  {
    "Código": "HM05922",
    "Descrição": "SELIM 90º PVC D=300 X 100 MM ELÁSTICO, ENCAIXE SOLDÁVEL, SAÍDA COM BOLSA JE, COLETOR DE ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "67,41"
+   "Preço": "94,54"
  },
  {
    "Código": "HM06508",
@@ -16155,7 +16155,7 @@ const baseMateriais = [
    "Código": "HM06509",
    "Descrição": "SELIM AJUSTÁVEL PP DN=200 X 100 MM NBR 10571 P/TUBO PVC OU CERÃMICO",
    "Unid. Med.": "un",
-   "Preço": "157,50"
+   "Preço": "147,67"
  },
  {
    "Código": "HM06507",
@@ -16167,7 +16167,7 @@ const baseMateriais = [
    "Código": "MO00072",
    "Descrição": "SERRALHEIRO",
    "Unid. Med.": "H",
-   "Preço": "15,84"
+   "Preço": "16,59"
  },
  {
    "Código": "CV01318",
@@ -16317,7 +16317,7 @@ const baseMateriais = [
    "Código": "MO00074",
    "Descrição": "SOLDADOR",
    "Unid. Med.": "H",
-   "Preço": "15,24"
+   "Preço": "15,96"
  },
  {
    "Código": "EQ07268",
@@ -16347,31 +16347,31 @@ const baseMateriais = [
    "Código": "EQ04604",
    "Descrição": "SONDA ROTO-PNEUMÁTICA CAPACIDADE DE PERFURAÇÃO ACIMA DE 1000M PARA PERFURAÇÃO DE POÇOS",
    "Unid. Med.": "H",
-   "Preço": "821,17"
+   "Preço": "841,81"
  },
  {
    "Código": "EQ04563",
    "Descrição": "SONDA ROTO-PNEUMÁTICA CAPACIDADE DE PERFURAÇÃO ATÉ 250M PARA PERFURAÇÃO DE POÇOS",
    "Unid. Med.": "H",
-   "Preço": "266,63"
+   "Preço": "273,03"
  },
  {
    "Código": "EQ04605",
    "Descrição": "SONDA ROTO-PNEUMÁTICA CAPACIDADE DE PERFURAÇÃO DE 300 ATÉ 1000M PARA PERFURAÇÃO DE POÇOS",
    "Unid. Med.": "H",
-   "Preço": "555,24"
+   "Preço": "571,57"
  },
  {
    "Código": "MO00076",
    "Descrição": "SONDADOR",
    "Unid. Med.": "H",
-   "Preço": "24,74"
+   "Preço": "25,91"
  },
  {
    "Código": "EQ07742",
    "Descrição": "SOPRADOR DE AR QUENTE MANUAL 1600W C/ ACESSÓRIOS",
    "Unid. Med.": "H",
-   "Preço": "4,79"
+   "Preço": "4,78"
  },
  {
    "Código": "EL00877",
@@ -16479,13 +16479,13 @@ const baseMateriais = [
    "Código": "EQ04566",
    "Descrição": "TALHA ELÉTRICA CAPACIDADE 3T COM CORRENTE DE 5M",
    "Unid. Med.": "H",
-   "Preço": "6,16"
+   "Preço": "6,13"
  },
  {
    "Código": "EQ04567",
    "Descrição": "TALHA ELÉTRICA CAPACIDADE 5T COM CORRENTE DE 6M",
    "Unid. Med.": "H",
-   "Preço": "7,81"
+   "Preço": "7,78"
  },
  {
    "Código": "EQ04564",
@@ -16677,7 +16677,7 @@ const baseMateriais = [
    "Código": "HM07656",
    "Descrição": "TAMPA GRADE PRFV PULTRUDADO H=35 C/QUADRO DE APOIO NTS330 DESENHOS 0700-GT-PD-1.1.1 E 0700-QS-PU-4.1.1",
    "Unid. Med.": "M2",
-   "Preço": "1.454,65"
+   "Preço": "1.891,04"
  },
  {
    "Código": "EL02152",
@@ -16761,7 +16761,7 @@ const baseMateriais = [
    "Código": "HM01428",
    "Descrição": "TAMPÃO ARTICULADO FERRO FUNDIDO DN 600 MM COM ARO NTS 033",
    "Unid. Med.": "un",
-   "Preço": "620,00"
+   "Preço": "742,00"
  },
  {
    "Código": "HM01429",
@@ -16779,7 +16779,7 @@ const baseMateriais = [
    "Código": "EQ08312",
    "Descrição": "TANQUE MISTURADOR PARA PREPARO DE LAMA ESTABILIZANTE COM CAPACIDADE DE*4000 L, CONJUNTO BOMBA/MOTOR À DIESEL *10 HP MANQUEIRAS E ACESSÓRIOS PARA SISTEMA DE FURO DIRECIONAL",
    "Unid. Med.": "H",
-   "Preço": "12,59"
+   "Preço": "13,47"
  },
  {
    "Código": "EQ08313",
@@ -16791,7 +16791,7 @@ const baseMateriais = [
    "Código": "EQ08315",
    "Descrição": "TANQUE MISTURADOR PARA PREPARO DE LAMA ESTABILIZANTE COM CAPACIDADE DE*8000 L, CONJUNTO BOMBA/MOTOR À DIESEL *10 HP MANQUEIRAS E ACESSÓRIOS PARA SISTEMA DE FURO DIRECIONAL",
    "Unid. Med.": "H",
-   "Preço": "15,07"
+   "Preço": "15,95"
  },
  {
    "Código": "EQ08316",
@@ -16941,313 +16941,313 @@ const baseMateriais = [
    "Código": "HM07779",
    "Descrição": "TÊ 90 ELETROFUSÃO PEAD DE=110 SDR11 PE100 NTS 193",
    "Unid. Med.": "un",
-   "Preço": "275,22"
+   "Preço": "272,40"
  },
  {
    "Código": "HM07780",
    "Descrição": "TÊ 90 ELETROFUSÃO PEAD DE=160 SDR11 PE100 NTS 193",
    "Unid. Med.": "un",
-   "Preço": "643,20"
+   "Preço": "923,39"
  },
  {
    "Código": "HM07781",
    "Descrição": "TÊ 90 ELETROFUSÃO PEAD DE=200 SDR11 PE100 NTS 193",
    "Unid. Med.": "un",
-   "Preço": "1.491,24"
+   "Preço": "1.938,61"
  },
  {
    "Código": "HM07782",
    "Descrição": "TÊ 90 ELETROFUSÃO PEAD DE=225 SDR11 PE100 NTS 193",
    "Unid. Med.": "un",
-   "Preço": "1.642,25"
+   "Preço": "2.134,93"
  },
  {
    "Código": "HM06643",
    "Descrição": "TÊ 90 ELETROFUSÃO PEAD DE=32 SDR11 PE100 NTS 193",
    "Unid. Med.": "un",
-   "Preço": "54,62"
+   "Preço": "71,01"
  },
  {
    "Código": "HM06644",
    "Descrição": "TÊ 90 ELETROFUSÃO PEAD DE=63 SDR11 PE100 NTS 193",
    "Unid. Med.": "un",
-   "Preço": "121,50"
+   "Preço": "130,98"
  },
  {
    "Código": "HM07778",
    "Descrição": "TÊ 90 ELETROFUSÃO PEAD DE=90 SDR11 PE100 NTS 193",
    "Unid. Med.": "un",
-   "Preço": "194,78"
+   "Preço": "196,19"
  },
  {
    "Código": "HM07783",
    "Descrição": "TÊ 90 TERMOFUSÃO PEAD DE=250 SDR11 PE100 NTS 193",
    "Unid. Med.": "un",
-   "Preço": "1.678,81"
+   "Preço": "2.299,64"
  },
  {
    "Código": "HM07784",
    "Descrição": "TÊ 90 TERMOFUSÃO PEAD DE=315 SDR11 PE100 NTS 193",
    "Unid. Med.": "un",
-   "Preço": "2.871,04"
+   "Preço": "3.542,19"
  },
  {
    "Código": "HM07785",
    "Descrição": "TÊ 90 TERMOFUSÃO PEAD DE=400 SDR11 PE100 NTS 193",
    "Unid. Med.": "un",
-   "Preço": "7.950,07"
+   "Preço": "7.064,00"
  },
  {
    "Código": "HM08359",
    "Descrição": "TÊ 90 TERMOFUSÃO PEAD DE=500 SDR17 PE100 NTS 193",
    "Unid. Med.": "un",
-   "Preço": "12.817,25"
+   "Preço": "15.481,68"
  },
  {
    "Código": "HM01587",
    "Descrição": "TÊ 90° PVC D=110 MM SOLDÁVEL ÁGUA PREDIAL",
    "Unid. Med.": "un",
-   "Preço": "195,74"
+   "Preço": "223,88"
  },
  {
    "Código": "HM01600",
    "Descrição": "TÊ 90° PVC D=110X60 MM SOLDÁVEL ÁGUA PREDIAL",
    "Unid. Med.": "un",
-   "Preço": "223,29"
+   "Preço": "206,35"
  },
  {
    "Código": "HM01588",
    "Descrição": "TÊ 90° PVC D=20 MM SOLDÁVEL ÁGUA PREDIAL",
    "Unid. Med.": "un",
-   "Preço": "0,96"
+   "Preço": "1,02"
  },
  {
    "Código": "HM01589",
    "Descrição": "TÊ 90° PVC D=25 MM SOLDÁVEL ÁGUA PREDIAL",
    "Unid. Med.": "un",
-   "Preço": "1,04"
+   "Preço": "1,34"
  },
  {
    "Código": "HM01601",
    "Descrição": "TÊ 90° PVC D=25X20 MM SOLDÁVEL ÁGUA PREDIAL",
    "Unid. Med.": "un",
-   "Preço": "3,83"
+   "Preço": "4,24"
  },
  {
    "Código": "HM01590",
    "Descrição": "TÊ 90° PVC D=32 MM SOLDÁVEL ÁGUA PREDIAL",
    "Unid. Med.": "un",
-   "Preço": "3,95"
+   "Preço": "3,63"
  },
  {
    "Código": "HM01602",
    "Descrição": "TÊ 90° PVC D=32X25 MM SOLDÁVEL ÁGUA PREDIAL",
    "Unid. Med.": "un",
-   "Preço": "6,59"
+   "Preço": "7,93"
  },
  {
    "Código": "HM01591",
    "Descrição": "TÊ 90° PVC D=40 MM SOLDÁVEL ÁGUA PREDIAL",
    "Unid. Med.": "un",
-   "Preço": "10,37"
+   "Preço": "7,44"
  },
  {
    "Código": "HM01603",
    "Descrição": "TÊ 90° PVC D=40X32 MM SOLDÁVEL ÁGUA PREDIAL",
    "Unid. Med.": "un",
-   "Preço": "9,89"
+   "Preço": "9,44"
  },
  {
    "Código": "HM01592",
    "Descrição": "TÊ 90° PVC D=50 MM SOLDÁVEL ÁGUA PREDIAL",
    "Unid. Med.": "un",
-   "Preço": "9,87"
+   "Preço": "8,49"
  },
  {
    "Código": "HM01604",
    "Descrição": "TÊ 90° PVC D=50X20 MM SOLDÁVEL ÁGUA PREDIAL",
    "Unid. Med.": "un",
-   "Preço": "10,71"
+   "Preço": "10,60"
  },
  {
    "Código": "HM01605",
    "Descrição": "TÊ 90° PVC D=50X25 MM SOLDÁVEL ÁGUA PREDIAL",
    "Unid. Med.": "un",
-   "Preço": "9,60"
+   "Preço": "9,96"
  },
  {
    "Código": "HM01606",
    "Descrição": "TÊ 90° PVC D=50X32 MM SOLDÁVEL ÁGUA PREDIAL",
    "Unid. Med.": "un",
-   "Preço": "17,91"
+   "Preço": "15,86"
  },
  {
    "Código": "HM01607",
    "Descrição": "TÊ 90° PVC D=50X40 MM SOLDÁVEL ÁGUA PREDIAL",
    "Unid. Med.": "un",
-   "Preço": "19,14"
+   "Preço": "18,42"
  },
  {
    "Código": "HM01593",
    "Descrição": "TÊ 90° PVC D=60 MM SOLDÁVEL ÁGUA PREDIAL",
    "Unid. Med.": "un",
-   "Preço": "33,72"
+   "Preço": "28,45"
  },
  {
    "Código": "HM01594",
    "Descrição": "TÊ 90° PVC D=75 MM SOLDÁVEL ÁGUA PREDIAL",
    "Unid. Med.": "un",
-   "Preço": "80,85"
+   "Preço": "69,94"
  },
  {
    "Código": "HM01608",
    "Descrição": "TÊ 90° PVC D=75X50 MM SOLDÁVEL ÁGUA PREDIAL",
    "Unid. Med.": "un",
-   "Preço": "64,81"
+   "Preço": "59,66"
  },
  {
    "Código": "HM01595",
    "Descrição": "TÊ 90° PVC D=85 MM SOLDÁVEL ÁGUA PREDIAL",
    "Unid. Med.": "un",
-   "Preço": "124,50"
+   "Preço": "96,03"
  },
  {
    "Código": "HM01609",
    "Descrição": "TÊ 90° PVC D=85X60 MM SOLDÁVEL ÁGUA PREDIAL",
    "Unid. Med.": "un",
-   "Preço": "115,46"
+   "Preço": "122,46"
  },
  {
    "Código": "HM01901",
    "Descrição": "TÊ 90° PVC DE=110 MM PBA NBR 10351 INFRAESTRUTURA ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "104,13"
+   "Preço": "135,37"
  },
  {
    "Código": "HM01902",
    "Descrição": "TÊ 90° PVC DE=60 MM PBA NBR 10351 INFRAESTRUTURA ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "23,86"
+   "Preço": "31,02"
  },
  {
    "Código": "HM01903",
    "Descrição": "TÊ 90° PVC DE=85 MM PBA NBR 10351 INFRAESTRUTURA ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "52,57"
+   "Preço": "68,34"
  },
  {
    "Código": "HM01721",
    "Descrição": "TÊ 90° REDUÇÃO PVC D=1 1/2\" X 3/4\" COM ROSCA ÁGUA PREDIAL",
    "Unid. Med.": "un",
-   "Preço": "18,21"
+   "Preço": "23,87"
  },
  {
    "Código": "HM01720",
    "Descrição": "TÊ 90° REDUÇÃO PVC D=1\" X 3/4\" COM ROSCA ÁGUA PREDIAL",
    "Unid. Med.": "un",
-   "Preço": "13,20"
+   "Preço": "14,26"
  },
  {
    "Código": "HM01722",
    "Descrição": "TÊ 90° REDUÇÃO PVC D=3/4\" X 1/2\" COM ROSCA ÁGUA PREDIAL",
    "Unid. Med.": "un",
-   "Preço": "8,72"
+   "Preço": "6,23"
  },
  {
    "Código": "HM01904",
    "Descrição": "TÊ 90° REDUÇÃO PVC DE=110 X 60 MM PBA NBR 10351 INFRAESTRUTURA ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "87,42"
+   "Preço": "112,00"
  },
  {
    "Código": "HM01905",
    "Descrição": "TÊ 90° REDUÇÃO PVC DE=110 X 85 MM PBA NBR 10351 INFRAESTRUTURA ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "53,82"
+   "Preço": "69,96"
  },
  {
    "Código": "HM01906",
    "Descrição": "TÊ 90° REDUÇÃO PVC DE=85 X 60 MM PBA NBR 10351 INFRAESTRUTURA ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "52,16"
+   "Preço": "62,22"
  },
  {
    "Código": "HM02027",
    "Descrição": "TÊ 90° REDUÇÃO PVC RÍGIDO D=200 X 150 MM BBBJE COLETOR DE ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "121,99"
+   "Preço": "123,45"
  },
  {
    "Código": "HM02028",
    "Descrição": "TÊ 90° REDUÇÃO PVC RÍGIDO D=250 X 150 MM BBBJE COLETOR DE ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "213,98"
+   "Preço": "215,58"
  },
  {
    "Código": "HM01596",
    "Descrição": "TÊ 90º REDUÇÃO PVC D=25 MM X 1/2\" SOLDÁVEL C/BUCHA LATÃO ÁGUA PREDIAL",
    "Unid. Med.": "un",
-   "Preço": "9,16"
+   "Preço": "11,29"
  },
  {
    "Código": "HM01597",
    "Descrição": "TÊ 90º REDUÇÃO PVC D=32 MM X 3/4\" SOLDÁVEL C/BUCHA LATÃO ÁGUA PREDIAL",
    "Unid. Med.": "un",
-   "Preço": "17,19"
+   "Preço": "19,38"
  },
  {
    "Código": "HM02019",
    "Descrição": "TÊ BBB PVC RÍGIDO D=100 MM JE NBR 10569 COLETOR DE ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "26,28"
+   "Preço": "30,09"
  },
  {
    "Código": "HM02021",
    "Descrição": "TÊ BBB PVC RÍGIDO D=150 MM JE NBR 10569 COLETOR DE ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "79,42"
+   "Preço": "85,39"
  },
  {
    "Código": "HM02022",
    "Descrição": "TÊ BBB PVC RÍGIDO D=200 MM JE NBR 10569 COLETOR DE ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "129,17"
+   "Preço": "136,75"
  },
  {
    "Código": "HM02023",
    "Descrição": "TÊ BBB PVC RÍGIDO D=250 MM JE NBR 10569 COLETOR DE ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "306,01"
+   "Preço": "319,22"
  },
  {
    "Código": "HM02024",
    "Descrição": "TÊ BBB PVC RÍGIDO D=300 MM JE NBR 10569 COLETOR DE ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "499,50"
+   "Preço": "526,57"
  },
  {
    "Código": "HM02025",
    "Descrição": "TÊ BBB PVC RÍGIDO D=400 MM JE NBR 10569 COLETOR DE ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "1.202,68"
+   "Preço": "1.255,21"
  },
  {
    "Código": "HM06544",
    "Descrição": "TÊ C/BOLSAS JE2GS E FLANGE PN10 FERRO FUNDIDO DN=200X200 MM (41,50 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "1.265,27"
+   "Preço": "1.530,67"
  },
  {
    "Código": "HM03462",
    "Descrição": "TÊ C/BOLSAS JE2GS E FLANGE PN10 FERRO FUNDIDO DN=200X200 MM * (41,50 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "1.321,04"
+   "Preço": "1.685,42"
  },
  {
    "Código": "HM06545",
    "Descrição": "TÊ C/BOLSAS JE2GS E FLANGE PN10 FERRO FUNDIDO DN=250X250 MM (62,80 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "1.673,31"
+   "Preço": "1.756,98"
  },
  {
    "Código": "HM06547",
@@ -17259,181 +17259,181 @@ const baseMateriais = [
    "Código": "HM03447",
    "Descrição": "TÊ C/BOLSAS JE2GS E FLANGE PN10 FERRO FUNDIDO DN=300X200 MM * (70,00 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "2.061,77"
+   "Preço": "2.393,64"
  },
  {
    "Código": "HM06548",
    "Descrição": "TÊ C/BOLSAS JE2GS E FLANGE PN10 FERRO FUNDIDO DN=300X250 MM (82,30 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "2.568,85"
+   "Preço": "2.724,20"
  },
  {
    "Código": "HM06550",
    "Descrição": "TÊ C/BOLSAS JE2GS E FLANGE PN10 FERRO FUNDIDO DN=300X300 MM (87,30 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "3.265,93"
+   "Preço": "3.164,78"
  },
  {
    "Código": "HM03448",
    "Descrição": "TÊ C/BOLSAS JE2GS E FLANGE PN10 FERRO FUNDIDO DN=300X300 MM * (87,30 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "2.893,67"
+   "Preço": "2.848,67"
  },
  {
    "Código": "HM06551",
    "Descrição": "TÊ C/BOLSAS JE2GS E FLANGE PN10 FERRO FUNDIDO DN=350X200 MM (82,00 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "4.383,78"
+   "Preço": "5.226,11"
  },
  {
    "Código": "HM03449",
    "Descrição": "TÊ C/BOLSAS JE2GS E FLANGE PN10 FERRO FUNDIDO DN=350X200 MM * (82,00 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "3.790,77"
+   "Preço": "3.734,19"
  },
  {
    "Código": "HM06552",
    "Descrição": "TÊ C/BOLSAS JE2GS E FLANGE PN10 FERRO FUNDIDO DN=350X250 MM (85,10 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "4.807,82"
+   "Preço": "4.693,74"
  },
  {
    "Código": "HM06554",
    "Descrição": "TÊ C/BOLSAS JE2GS E FLANGE PN10 FERRO FUNDIDO DN=350X350 MM (112,00 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "7.498,96"
+   "Preço": "8.977,40"
  },
  {
    "Código": "HM03450",
    "Descrição": "TÊ C/BOLSAS JE2GS E FLANGE PN10 FERRO FUNDIDO DN=350X350 MM * (112,00 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "6.140,96"
+   "Preço": "5.872,50"
  },
  {
    "Código": "HM06555",
    "Descrição": "TÊ C/BOLSAS JE2GS E FLANGE PN10 FERRO FUNDIDO DN=400X200 MM (93,80 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "6.675,16"
+   "Preço": "5.459,27"
  },
  {
    "Código": "HM03451",
    "Descrição": "TÊ C/BOLSAS JE2GS E FLANGE PN10 FERRO FUNDIDO DN=400X200 MM * (93,80 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "4.059,93"
+   "Preço": "3.727,52"
  },
  {
    "Código": "HM06556",
    "Descrição": "TÊ C/BOLSAS JE2GS E FLANGE PN10 FERRO FUNDIDO DN=400X300 MM (115,70 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "7.728,17"
+   "Preço": "7.179,61"
  },
  {
    "Código": "HM03452",
    "Descrição": "TÊ C/BOLSAS JE2GS E FLANGE PN10 FERRO FUNDIDO DN=400X300 MM * (115,70 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "5.188,10"
+   "Preço": "5.111,94"
  },
  {
    "Código": "HM06557",
    "Descrição": "TÊ C/BOLSAS JE2GS E FLANGE PN10 FERRO FUNDIDO DN=400X400 MM (139,00 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "8.599,21"
+   "Preço": "7.921,17"
  },
  {
    "Código": "HM03453",
    "Descrição": "TÊ C/BOLSAS JE2GS E FLANGE PN10 FERRO FUNDIDO DN=400X400 MM * (139,00 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "7.607,03"
+   "Preço": "7.347,49"
  },
  {
    "Código": "HM06558",
    "Descrição": "TÊ C/BOLSAS JE2GS E FLANGE PN10 FERRO FUNDIDO DN=500X200 MM (126,00 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "8.385,47"
+   "Preço": "7.736,90"
  },
  {
    "Código": "HM03454",
    "Descrição": "TÊ C/BOLSAS JE2GS E FLANGE PN10 FERRO FUNDIDO DN=500X200 MM * (126,00 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "6.727,07"
+   "Preço": "7.213,45"
  },
  {
    "Código": "HM06559",
    "Descrição": "TÊ C/BOLSAS JE2GS E FLANGE PN10 FERRO FUNDIDO DN=500X300 MM (163,00 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "10.221,79"
+   "Preço": "9.198,67"
  },
  {
    "Código": "HM03455",
    "Descrição": "TÊ C/BOLSAS JE2GS E FLANGE PN10 FERRO FUNDIDO DN=500X300 MM * (163,00 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "7.614,93"
+   "Preço": "8.659,62"
  },
  {
    "Código": "HM06560",
    "Descrição": "TÊ C/BOLSAS JE2GS E FLANGE PN10 FERRO FUNDIDO DN=500X400 MM (192,00 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "11.088,38"
+   "Preço": "11.737,01"
  },
  {
    "Código": "HM03456",
    "Descrição": "TÊ C/BOLSAS JE2GS E FLANGE PN10 FERRO FUNDIDO DN=500X400 MM * (192,00 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "11.773,05"
+   "Preço": "12.825,27"
  },
  {
    "Código": "HM06561",
    "Descrição": "TÊ C/BOLSAS JE2GS E FLANGE PN10 FERRO FUNDIDO DN=500X500 MM (223,00 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "12.671,33"
+   "Preço": "12.875,07"
  },
  {
    "Código": "HM03457",
    "Descrição": "TÊ C/BOLSAS JE2GS E FLANGE PN10 FERRO FUNDIDO DN=500X500 MM * (223,00 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "12.819,28"
+   "Preço": "13.011,76"
  },
  {
    "Código": "HM06562",
    "Descrição": "TÊ C/BOLSAS JE2GS E FLANGE PN10/16 FERRO FUNDIDO DN=100X100 MM (19,30 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "776,99"
+   "Preço": "743,10"
  },
  {
    "Código": "HM03468",
    "Descrição": "TÊ C/BOLSAS JE2GS E FLANGE PN10/16 FERRO FUNDIDO DN=100X100 MM * (19,30 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "695,29"
+   "Preço": "674,39"
  },
  {
    "Código": "HM06563",
    "Descrição": "TÊ C/BOLSAS JE2GS E FLANGE PN10/16 FERRO FUNDIDO DN=100X80 MM (17,70 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "653,84"
+   "Preço": "672,70"
  },
  {
    "Código": "HM06565",
    "Descrição": "TÊ C/BOLSAS JE2GS E FLANGE PN10/16 FERRO FUNDIDO DN=150X100 MM (25,20 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "1.059,58"
+   "Preço": "1.039,66"
  },
  {
    "Código": "HM03458",
    "Descrição": "TÊ C/BOLSAS JE2GS E FLANGE PN10/16 FERRO FUNDIDO DN=150X100 MM * (25,20 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "845,81"
+   "Preço": "1.082,27"
  },
  {
    "Código": "HM06566",
    "Descrição": "TÊ C/BOLSAS JE2GS E FLANGE PN10/16 FERRO FUNDIDO DN=150X150 MM (31,00 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "1.164,05"
+   "Preço": "1.109,16"
  },
  {
    "Código": "HM03459",
    "Descrição": "TÊ C/BOLSAS JE2GS E FLANGE PN10/16 FERRO FUNDIDO DN=150X150 MM * (31,00 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "934,69"
+   "Preço": "1.206,23"
  },
  {
    "Código": "HM06567",
@@ -17445,7 +17445,7 @@ const baseMateriais = [
    "Código": "HM03460",
    "Descrição": "TÊ C/BOLSAS JE2GS E FLANGE PN10/16 FERRO FUNDIDO DN=200X100 MM * (34,50 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "1.124,83"
+   "Preço": "1.433,80"
  },
  {
    "Código": "HM06568",
@@ -17457,175 +17457,175 @@ const baseMateriais = [
    "Código": "HM03461",
    "Descrição": "TÊ C/BOLSAS JE2GS E FLANGE PN10/16 FERRO FUNDIDO DN=200X150 MM * (39,80 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "1.163,60"
+   "Preço": "1.479,62"
  },
  {
    "Código": "HM06569",
    "Descrição": "TÊ C/BOLSAS JE2GS E FLANGE PN10/16 FERRO FUNDIDO DN=250X100 MM (41,00 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "1.473,15"
+   "Preço": "1.801,81"
  },
  {
    "Código": "HM03463",
    "Descrição": "TÊ C/BOLSAS JE2GS E FLANGE PN10/16 FERRO FUNDIDO DN=250X100 MM * (41,00 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "1.257,06"
+   "Preço": "1.553,79"
  },
  {
    "Código": "HM06570",
    "Descrição": "TÊ C/BOLSAS JE2GS E FLANGE PN10/16 FERRO FUNDIDO DN=300X100 MM (59,00 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "2.317,08"
+   "Preço": "2.632,87"
  },
  {
    "Código": "HM03464",
    "Descrição": "TÊ C/BOLSAS JE2GS E FLANGE PN10/16 FERRO FUNDIDO DN=300X100 MM * (59,00 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "1.673,07"
+   "Preço": "1.758,72"
  },
  {
    "Código": "HM06571",
    "Descrição": "TÊ C/BOLSAS JE2GS E FLANGE PN10/16 FERRO FUNDIDO DN=300X150 MM (60,00 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "1.782,69"
+   "Preço": "2.074,89"
  },
  {
    "Código": "HM06573",
    "Descrição": "TÊ C/BOLSAS JE2GS E FLANGE PN10/16 FERRO FUNDIDO DN=350X100 MM (53,80 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "3.396,04"
+   "Preço": "3.976,46"
  },
  {
    "Código": "HM03465",
    "Descrição": "TÊ C/BOLSAS JE2GS E FLANGE PN10/16 FERRO FUNDIDO DN=350X100 MM * (53,80 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "2.925,92"
+   "Preço": "2.996,75"
  },
  {
    "Código": "HM06574",
    "Descrição": "TÊ C/BOLSAS JE2GS E FLANGE PN10/16 FERRO FUNDIDO DN=400X100 MM (75,20 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "5.285,47"
+   "Preço": "4.531,02"
  },
  {
    "Código": "HM03466",
    "Descrição": "TÊ C/BOLSAS JE2GS E FLANGE PN10/16 FERRO FUNDIDO DN=400X100 MM * (75,20 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "3.381,99"
+   "Preço": "3.116,56"
  },
  {
    "Código": "HM06575",
    "Descrição": "TÊ C/BOLSAS JE2GS E FLANGE PN10/16 FERRO FUNDIDO DN=500X100 MM (106,80 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "7.860,09"
+   "Preço": "6.414,14"
  },
  {
    "Código": "HM03467",
    "Descrição": "TÊ C/BOLSAS JE2GS E FLANGE PN10/16 FERRO FUNDIDO DN=500X100 MM * (106,80 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "5.669,20"
+   "Preço": "6.070,12"
  },
  {
    "Código": "HM06576",
    "Descrição": "TÊ C/BOLSAS JE2GS E FLANGE PN10/16/25 FERRO FUNDIDO DN=100X50 MM (13,00 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "553,20"
+   "Preço": "606,85"
  },
  {
    "Código": "HM06578",
    "Descrição": "TÊ C/BOLSAS JE2GS E FLANGE PN10/16/25 FERRO FUNDIDO DN=150X50 MM (19,20 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "778,26"
+   "Preço": "812,92"
  },
  {
    "Código": "HM06580",
    "Descrição": "TÊ C/BOLSAS JE2GS E FLANGE PN10/16/25 FERRO FUNDIDO DN=150X80 MM (23,30 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "961,87"
+   "Preço": "1.023,29"
  },
  {
    "Código": "HM03469",
    "Descrição": "TÊ C/BOLSAS JE2GS E FLANGE PN10/16/25 FERRO FUNDIDO DN=150X80 MM * (23,30 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "767,91"
+   "Preço": "953,33"
  },
  {
    "Código": "HM06581",
    "Descrição": "TÊ C/BOLSAS JE2GS E FLANGE PN10/16/25 FERRO FUNDIDO DN=200X50 MM (25,60 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "914,48"
+   "Preço": "1.165,65"
  },
  {
    "Código": "HM06583",
    "Descrição": "TÊ C/BOLSAS JE2GS E FLANGE PN10/16/25 FERRO FUNDIDO DN=200X80 MM (33,60 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "1.057,44"
+   "Preço": "1.276,31"
  },
  {
    "Código": "HM03470",
    "Descrição": "TÊ C/BOLSAS JE2GS E FLANGE PN10/16/25 FERRO FUNDIDO DN=200X80 MM * (33,60 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "1.018,28"
+   "Preço": "1.294,29"
  },
  {
    "Código": "HM06584",
    "Descrição": "TÊ C/BOLSAS JE2GS E FLANGE PN10/16/25 FERRO FUNDIDO DN=250X50 MM (35,50 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "960,12"
+   "Preço": "1.129,75"
  },
  {
    "Código": "HM06586",
    "Descrição": "TÊ C/BOLSAS JE2GS E FLANGE PN10/16/25 FERRO FUNDIDO DN=250X80 MM (39,70 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "1.421,92"
+   "Preço": "1.720,18"
  },
  {
    "Código": "HM03471",
    "Descrição": "TÊ C/BOLSAS JE2GS E FLANGE PN10/16/25 FERRO FUNDIDO DN=250X80 MM * (39,70 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "1.073,83"
+   "Preço": "1.263,42"
  },
  {
    "Código": "HM06587",
    "Descrição": "TÊ C/BOLSAS JE2GS E FLANGE PN10/16/25 FERRO FUNDIDO DN=80X50 MM (11,00 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "404,07"
+   "Preço": "435,39"
  },
  {
    "Código": "HM06589",
    "Descrição": "TÊ C/BOLSAS JE2GS E FLANGE PN10/16/25 FERRO FUNDIDO DN=80X80 MM (14,70 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "661,01"
+   "Preço": "738,13"
  },
  {
    "Código": "HM03472",
    "Descrição": "TÊ C/BOLSAS JE2GS E FLANGE PN10/16/25 FERRO FUNDIDO DN=80X80 MM * (14,70 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "446,35"
+   "Preço": "489,72"
  },
  {
    "Código": "HM06590",
    "Descrição": "TÊ C/COLAR DE REFORÇO AÇO CARBONO ASTM A36 DE=20\" X 10\" E=1/4\" REVESTIMENTO 0100-400-E045 ALT3 (EPÓXI) 0100-400-D020 TIPO 1",
    "Unid. Med.": "un",
-   "Preço": "15.757,50"
+   "Preço": "11.315,10"
  },
  {
    "Código": "HM06591",
    "Descrição": "TÊ C/COLAR DE REFORÇO AÇO CARBONO ASTM A36 DE=40\" X 20\" E=1/4\" REVESTIMENTO 0100-400-E045 ALT3 (EPÓXI) 0100-400-D020 TIPO 1",
    "Unid. Med.": "un",
-   "Preço": "30.333,56"
+   "Preço": "18.671,02"
  },
  {
    "Código": "HM07247",
    "Descrição": "TÊ C/COLAR DE REFORÇO AÇO CARBONO ASTM A36 DE=60\" X 20\" E=5/16\" (569,19 KG) REVESTIMENTO 0100-400-E45 ALT3 (EPÓXI) 0100-400-D20 TIPO 1",
    "Unid. Med.": "un",
-   "Preço": "45.076,37"
+   "Preço": "36.258,61"
  },
  {
    "Código": "HM06593",
    "Descrição": "TÊ COM BOLSAS FERRO FUNDIDO DE=110 MM (8,50 KG) PINTURA EPÓXI - ANEL DE BORRACHA INCLUSO - PARA PVC/PBA NBR 15880 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "489,05"
+   "Preço": "353,77"
  },
  {
    "Código": "HM06594",
@@ -17637,13 +17637,13 @@ const baseMateriais = [
    "Código": "HM06595",
    "Descrição": "TÊ COM BOLSAS FERRO FUNDIDO DE=85 MM (6,20 KG) PINTURA EPÓXI - ANEL DE BORRACHA INCLUSO - PARA PVC/PBA NBR 15880 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "390,06"
+   "Preço": "301,30"
  },
  {
    "Código": "HM06510",
    "Descrição": "TÊ COM BOLSAS JE2GS FERRO FUNDIDO DN= 250 X 250 MM (58,90 KG) PINTURA EPÓXI VERMELHA, ANÉIS DE BORRACHA INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "2.424,83"
+   "Preço": "2.971,86"
  },
  {
    "Código": "HM03427",
@@ -17655,79 +17655,79 @@ const baseMateriais = [
    "Código": "HM06511",
    "Descrição": "TÊ COM BOLSAS JE2GS FERRO FUNDIDO DN=100 X 100 MM (18,40 KG) PINTURA EPÓXI VERMELHA, ANÉIS DE BORRACHA INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "545,20"
+   "Preço": "664,86"
  },
  {
    "Código": "HM03417",
    "Descrição": "TÊ COM BOLSAS JE2GS FERRO FUNDIDO DN=100 X 100 MM * (18,40 KG) PINTURA BETUMINOSA, ANÉIS DE BORRACHA INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "543,05"
+   "Preço": "523,23"
  },
  {
    "Código": "HM06512",
    "Descrição": "TÊ COM BOLSAS JE2GS FERRO FUNDIDO DN=100 X 80 MM (17,10 KG) PINTURA EPÓXI VERMELHA, ANÉIS DE BORRACHA INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "650,54"
+   "Preço": "782,50"
  },
  {
    "Código": "HM03418",
    "Descrição": "TÊ COM BOLSAS JE2GS FERRO FUNDIDO DN=100 X 80 MM * (17,10 KG) PINTURA BETUMINOSA, ANÉIS DE BORRACHA INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "588,43"
+   "Preço": "411,91"
  },
  {
    "Código": "HM06513",
    "Descrição": "TÊ COM BOLSAS JE2GS FERRO FUNDIDO DN=150 X 100 MM (25,00 KG) PINTURA EPÓXI VERMELHA, ANÉIS DE BORRACHA INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "767,10"
+   "Preço": "866,53"
  },
  {
    "Código": "HM03419",
    "Descrição": "TÊ COM BOLSAS JE2GS FERRO FUNDIDO DN=150 X 100 MM * (25,00 KG) PINTURA BETUMINOSA, ANÉIS DE BORRACHA INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "655,13"
+   "Preço": "771,40"
  },
  {
    "Código": "HM06514",
    "Descrição": "TÊ COM BOLSAS JE2GS FERRO FUNDIDO DN=150 X 150 MM (29,70 KG) PINTURA EPÓXI VERMELHA, ANÉIS DE BORRACHA INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "810,32"
+   "Preço": "902,84"
  },
  {
    "Código": "HM03420",
    "Descrição": "TÊ COM BOLSAS JE2GS FERRO FUNDIDO DN=150 X 150 MM * (29,70 KG) PINTURA BETUMINOSA, ANÉIS DE BORRACHA INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "694,31"
+   "Preço": "812,37"
  },
  {
    "Código": "HM06515",
    "Descrição": "TÊ COM BOLSAS JE2GS FERRO FUNDIDO DN=150 X 80 MM (22,90 KG) PINTURA EPÓXI VERMELHA, ANÉIS DE BORRACHA INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "710,75"
+   "Preço": "824,51"
  },
  {
    "Código": "HM03421",
    "Descrição": "TÊ COM BOLSAS JE2GS FERRO FUNDIDO DN=150 X 80 MM * (22,90 KG) PINTURA BETUMINOSA, ANÉIS DE BORRACHA INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "573,82"
+   "Preço": "634,58"
  },
  {
    "Código": "HM06516",
    "Descrição": "TÊ COM BOLSAS JE2GS FERRO FUNDIDO DN=200 X 100 MM (32,80 KG) PINTURA EPÓXI VERMELHA, ANÉIS DE BORRACHA INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "1.301,96"
+   "Preço": "1.573,24"
  },
  {
    "Código": "HM03422",
    "Descrição": "TÊ COM BOLSAS JE2GS FERRO FUNDIDO DN=200 X 100 MM * (32,80 KG) PINTURA BETUMINOSA, ANÉIS DE BORRACHA INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "1.149,58"
+   "Preço": "1.260,46"
  },
  {
    "Código": "HM06517",
    "Descrição": "TÊ COM BOLSAS JE2GS FERRO FUNDIDO DN=200 X 150 MM (38,90 KG) PINTURA EPÓXI VERMELHA, ANÉIS DE BORRACHA INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "1.451,12"
+   "Preço": "1.593,30"
  },
  {
    "Código": "HM03423",
@@ -17739,103 +17739,103 @@ const baseMateriais = [
    "Código": "HM06518",
    "Descrição": "TÊ COM BOLSAS JE2GS FERRO FUNDIDO DN=200 X 200 MM (45,50 KG) PINTURA EPÓXI VERMELHA, ANÉIS DE BORRACHA INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "1.104,54"
+   "Preço": "1.312,63"
  },
  {
    "Código": "HM03424",
    "Descrição": "TÊ COM BOLSAS JE2GS FERRO FUNDIDO DN=200 X 200 MM * (45,50 KG) PINTURA BETUMINOSA, ANÉIS DE BORRACHA INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "959,92"
+   "Preço": "1.130,08"
  },
  {
    "Código": "HM06519",
    "Descrição": "TÊ COM BOLSAS JE2GS FERRO FUNDIDO DN=200 X 80 MM (32,30 KG) PINTURA EPÓXI VERMELHA, ANÉIS DE BORRACHA INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "1.250,54"
+   "Preço": "1.414,40"
  },
  {
    "Código": "HM03425",
    "Descrição": "TÊ COM BOLSAS JE2GS FERRO FUNDIDO DN=200 X 80 MM * (32,30 KG) PINTURA BETUMINOSA, ANÉIS DE BORRACHA INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "1.098,49"
+   "Preço": "1.144,21"
  },
  {
    "Código": "HM06520",
    "Descrição": "TÊ COM BOLSAS JE2GS FERRO FUNDIDO DN=250 X 100 MM (39,50 KG) PINTURA EPÓXI VERMELHA, ANÉIS DE BORRACHA INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "1.820,20"
+   "Preço": "2.173,71"
  },
  {
    "Código": "HM03426",
    "Descrição": "TÊ COM BOLSAS JE2GS FERRO FUNDIDO DN=250 X 100 MM * (39,50 KG) PINTURA BETUMINOSA, ANÉIS DE BORRACHA INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "1.561,96"
+   "Preço": "1.712,84"
  },
  {
    "Código": "HM06521",
    "Descrição": "TÊ COM BOLSAS JE2GS FERRO FUNDIDO DN=250 X 80 MM (39,00 KG) PINTURA EPÓXI VERMELHA, ANÉIS DE BORRACHA INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "1.705,10"
+   "Preço": "1.923,80"
  },
  {
    "Código": "HM03428",
    "Descrição": "TÊ COM BOLSAS JE2GS FERRO FUNDIDO DN=250 X 80 MM * (39,00 KG) PINTURA BETUMINOSA, ANÉIS DE BORRACHA INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "1.325,51"
+   "Preço": "1.521,41"
  },
  {
    "Código": "HM06522",
    "Descrição": "TÊ COM BOLSAS JE2GS FERRO FUNDIDO DN=300 X 100 MM (54,70 KG) PINTURA EPÓXI VERMELHA, ANÉIS DE BORRACHA INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "2.295,30"
+   "Preço": "2.598,27"
  },
  {
    "Código": "HM03429",
    "Descrição": "TÊ COM BOLSAS JE2GS FERRO FUNDIDO DN=300 X 100 MM * (54,70 KG) PINTURA BETUMINOSA, ANÉIS DE BORRACHA INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "2.038,40"
+   "Preço": "2.127,24"
  },
  {
    "Código": "HM06523",
    "Descrição": "TÊ COM BOLSAS JE2GS FERRO FUNDIDO DN=300 X 150 MM (57,50 KG) PINTURA EPÓXI VERMELHA, ANÉIS DE BORRACHA INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "2.457,81"
+   "Preço": "2.854,84"
  },
  {
    "Código": "HM03430",
    "Descrição": "TÊ COM BOLSAS JE2GS FERRO FUNDIDO DN=300 X 150 MM * (57,50 KG) PINTURA BETUMINOSA, ANÉIS DE BORRACHA INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "2.186,80"
+   "Preço": "2.397,40"
  },
  {
    "Código": "HM06524",
    "Descrição": "TÊ COM BOLSAS JE2GS FERRO FUNDIDO DN=300 X 200 MM (67,60 KG) PINTURA EPÓXI VERMELHA, ANÉIS DE BORRACHA INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "3.032,08"
+   "Preço": "3.547,59"
  },
  {
    "Código": "HM03431",
    "Descrição": "TÊ COM BOLSAS JE2GS FERRO FUNDIDO DN=300 X 200 MM * (67,60 KG) PINTURA BETUMINOSA, ANÉIS DE BORRACHA INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "2.705,61"
+   "Preço": "2.449,32"
  },
  {
    "Código": "HM06525",
    "Descrição": "TÊ COM BOLSAS JE2GS FERRO FUNDIDO DN=300 X 250 MM (77,60 KG) PINTURA EPÓXI VERMELHA, ANÉIS DE BORRACHA INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "3.260,31"
+   "Preço": "3.612,74"
  },
  {
    "Código": "HM03432",
    "Descrição": "TÊ COM BOLSAS JE2GS FERRO FUNDIDO DN=300 X 250 MM * (77,60 KG) PINTURA BETUMINOSA, ANÉIS DE BORRACHA INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "2.963,83"
+   "Preço": "2.667,45"
  },
  {
    "Código": "HM06526",
    "Descrição": "TÊ COM BOLSAS JE2GS FERRO FUNDIDO DN=300 X 300 MM (83,00 KG) PINTURA EPÓXI VERMELHA, ANÉIS DE BORRACHA INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "3.178,49"
+   "Preço": "3.677,90"
  },
  {
    "Código": "HM03433",
@@ -17847,109 +17847,109 @@ const baseMateriais = [
    "Código": "HM06527",
    "Descrição": "TÊ COM BOLSAS JE2GS FERRO FUNDIDO DN=300 X 80 MM (50,00 KG) PINTURA EPÓXI VERMELHA, ANÉIS DE BORRACHA INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "2.271,11"
+   "Preço": "2.412,70"
  },
  {
    "Código": "HM03434",
    "Descrição": "TÊ COM BOLSAS JE2GS FERRO FUNDIDO DN=300 X 80 MM * (50,00 KG) PINTURA BETUMINOSA, ANÉIS DE BORRACHA INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "2.006,39"
+   "Preço": "2.104,21"
  },
  {
    "Código": "HM06528",
    "Descrição": "TÊ COM BOLSAS JE2GS FERRO FUNDIDO DN=350 X 100 MM (65,00 KG) PINTURA EPÓXI VERMELHA, ANÉIS DE BORRACHA INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "3.280,42"
+   "Preço": "3.666,31"
  },
  {
    "Código": "HM03435",
    "Descrição": "TÊ COM BOLSAS JE2GS FERRO FUNDIDO DN=350 X 100 MM * (65,00 KG) PINTURA BETUMINOSA, ANÉIS DE BORRACHA INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "3.036,88"
+   "Preço": "3.333,37"
  },
  {
    "Código": "HM06529",
    "Descrição": "TÊ COM BOLSAS JE2GS FERRO FUNDIDO DN=350 X 250 MM (77,00 KG) PINTURA EPÓXI VERMELHA, ANÉIS DE BORRACHA INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "4.215,98"
+   "Preço": "4.703,40"
  },
  {
    "Código": "HM03436",
    "Descrição": "TÊ COM BOLSAS JE2GS FERRO FUNDIDO DN=350 X 250 MM * (77,00 KG) PINTURA BETUMINOSA, ANÉIS DE BORRACHA INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "4.087,25"
+   "Preço": "4.243,74"
  },
  {
    "Código": "HM06530",
    "Descrição": "TÊ COM BOLSAS JE2GS FERRO FUNDIDO DN=350X200 MM (76,20 KG) PINTURA BETUMINOSA NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "4.500,54"
+   "Preço": "4.934,99"
  },
  {
    "Código": "HM06532",
    "Descrição": "TÊ COM BOLSAS JE2GS FERRO FUNDIDO DN=350X350 MM (105,00 KG) PINTURA BETUMINOSA NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "5.607,84"
+   "Preço": "5.584,47"
  },
  {
    "Código": "HM06534",
    "Descrição": "TÊ COM BOLSAS JE2GS FERRO FUNDIDO DN=400 X 100 MM (73,90 KG) PINTURA EPÓXI VERMELHA, ANÉIS DE BORRACHA INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "3.854,15"
+   "Preço": "4.386,27"
  },
  {
    "Código": "HM03437",
    "Descrição": "TÊ COM BOLSAS JE2GS FERRO FUNDIDO DN=400 X 100 MM * (73,90 KG) PINTURA BETUMINOSA, ANÉIS DE BORRACHA INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "3.632,48"
+   "Preço": "4.144,72"
  },
  {
    "Código": "HM06535",
    "Descrição": "TÊ COM BOLSAS JE2GS FERRO FUNDIDO DN=400 X 200 MM (92,20 KG) PINTURA EPÓXI VERMELHA, ANÉIS DE BORRACHA INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "4.153,28"
+   "Preço": "4.402,60"
  },
  {
    "Código": "HM03438",
    "Descrição": "TÊ COM BOLSAS JE2GS FERRO FUNDIDO DN=400 X 200 MM * (92,20 KG) PINTURA BETUMINOSA, ANÉIS DE BORRACHA INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "4.218,15"
+   "Preço": "4.966,06"
  },
  {
    "Código": "HM06536",
    "Descrição": "TÊ COM BOLSAS JE2GS FERRO FUNDIDO DN=400 X 300 MM (114,60 KG) PINTURA EPÓXI VERMELHA, ANÉIS DE BORRACHA INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "4.636,44"
+   "Preço": "4.542,08"
  },
  {
    "Código": "HM03439",
    "Descrição": "TÊ COM BOLSAS JE2GS FERRO FUNDIDO DN=400 X 300 MM * (114,60 KG) PINTURA BETUMINOSA, ANÉIS DE BORRACHA INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "4.697,47"
+   "Preço": "5.978,18"
  },
  {
    "Código": "HM06537",
    "Descrição": "TÊ COM BOLSAS JE2GS FERRO FUNDIDO DN=400 X 400 MM (132,90 KG) PINTURA EPÓXI VERMELHA, ANÉIS DE BORRACHA INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "5.506,08"
+   "Preço": "5.425,05"
  },
  {
    "Código": "HM03440",
    "Descrição": "TÊ COM BOLSAS JE2GS FERRO FUNDIDO DN=400 X 400 MM * (132,90 KG) PINTURA BETUMINOSA, ANÉIS DE BORRACHA INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "5.353,37"
+   "Preço": "6.242,56"
  },
  {
    "Código": "HM06538",
    "Descrição": "TÊ COM BOLSAS JE2GS FERRO FUNDIDO DN=400 X 80 MM (74,50 KG) PINTURA EPÓXI VERMELHA, ANÉIS DE BORRACHA INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "3.855,23"
+   "Preço": "4.308,33"
  },
  {
    "Código": "HM03441",
    "Descrição": "TÊ COM BOLSAS JE2GS FERRO FUNDIDO DN=400 X 80 MM * (74,50 KG) PINTURA BETUMINOSA, ANÉIS DE BORRACHA INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "3.667,93"
+   "Preço": "4.127,07"
  },
  {
    "Código": "HM06539",
@@ -17961,151 +17961,151 @@ const baseMateriais = [
    "Código": "HM03442",
    "Descrição": "TÊ COM BOLSAS JE2GS FERRO FUNDIDO DN=500 X 100 MM * (103,00 KG) PINTURA BETUMINOSA, ANÉIS DE BORRACHA INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "5.101,25"
+   "Preço": "5.836,68"
  },
  {
    "Código": "HM06540",
    "Descrição": "TÊ COM BOLSAS JE2GS FERRO FUNDIDO DN=500 X 200 MM (118,10 KG) PINTURA EPÓXI VERMELHA, ANÉIS DE BORRACHA INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "5.829,47"
+   "Preço": "6.120,94"
  },
  {
    "Código": "HM03443",
    "Descrição": "TÊ COM BOLSAS JE2GS FERRO FUNDIDO DN=500 X 200 MM * (118,10 KG) PINTURA BETUMINOSA, ANÉIS DE BORRACHA INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "5.644,88"
+   "Preço": "6.273,09"
  },
  {
    "Código": "HM06541",
    "Descrição": "TÊ COM BOLSAS JE2GS FERRO FUNDIDO DN=500 X 300 MM (157,40 KG) PINTURA EPÓXI VERMELHA, ANÉIS DE BORRACHA INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "6.403,14"
+   "Preço": "6.817,38"
  },
  {
    "Código": "HM03444",
    "Descrição": "TÊ COM BOLSAS JE2GS FERRO FUNDIDO DN=500 X 300 MM * (157,40 KG) PINTURA BETUMINOSA, ANÉIS DE BORRACHA INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "8.190,51"
+   "Preço": "8.300,28"
  },
  {
    "Código": "HM06542",
    "Descrição": "TÊ COM BOLSAS JE2GS FERRO FUNDIDO DN=500 X 500 MM (198,00 KG) PINTURA EPÓXI VERMELHA, ANÉIS DE BORRACHA INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "11.225,89"
+   "Preço": "11.507,26"
  },
  {
    "Código": "HM03445",
    "Descrição": "TÊ COM BOLSAS JE2GS FERRO FUNDIDO DN=500 X 500 MM * (198,00 KG) PINTURA BETUMINOSA, ANÉIS DE BORRACHA INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "10.208,74"
+   "Preço": "11.721,06"
  },
  {
    "Código": "HM06543",
    "Descrição": "TÊ COM BOLSAS JE2GS FERRO FUNDIDO DN=80 X 80 MM (11,00 KG) PINTURA EPÓXI VERMELHA, ANÉIS DE BORRACHA INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "488,35"
+   "Preço": "529,32"
  },
  {
    "Código": "HM03446",
    "Descrição": "TÊ COM BOLSAS JE2GS FERRO FUNDIDO DN=80 X 80 MM * (11,00 KG) PINTURA BETUMINOSA, ANÉIS DE BORRACHA INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "437,26"
+   "Preço": "312,35"
  },
  {
    "Código": "HM06602",
    "Descrição": "TÊ COM FLANGES PN10 FERRO FUNDIDO DN=200 X 100 MM (41,00 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "1.606,11"
+   "Preço": "1.721,53"
  },
  {
    "Código": "HM03404",
    "Descrição": "TÊ COM FLANGES PN10 FERRO FUNDIDO DN=200 X 100 MM * (41,00 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "1.346,86"
+   "Preço": "1.414,20"
  },
  {
    "Código": "HM06603",
    "Descrição": "TÊ COM FLANGES PN10 FERRO FUNDIDO DN=200 X 150 MM (44,00 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "1.759,76"
+   "Preço": "1.888,07"
  },
  {
    "Código": "HM03405",
    "Descrição": "TÊ COM FLANGES PN10 FERRO FUNDIDO DN=200 X 150 MM * (44,00 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "1.482,93"
+   "Preço": "1.596,11"
  },
  {
    "Código": "HM06604",
    "Descrição": "TÊ COM FLANGES PN10 FERRO FUNDIDO DN=200 X 200 MM (47,00 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "2.039,93"
+   "Preço": "2.061,93"
  },
  {
    "Código": "HM03406",
    "Descrição": "TÊ COM FLANGES PN10 FERRO FUNDIDO DN=200 X 200 MM * (47,00 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "1.409,87"
+   "Preço": "1.814,66"
  },
  {
    "Código": "HM06605",
    "Descrição": "TÊ COM FLANGES PN10 FERRO FUNDIDO DN=200X50 MM (48,00 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "1.349,72"
+   "Preço": "1.252,62"
  },
  {
    "Código": "HM06607",
    "Descrição": "TÊ COM FLANGES PN10 FERRO FUNDIDO DN=200X80 MM (43,50 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "1.363,07"
+   "Preço": "1.275,16"
  },
  {
    "Código": "HM06596",
    "Descrição": "TÊ COM FLANGES PN10 FERRO FUNDIDO DN=250 X 100 MM (67,00 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "2.880,50"
+   "Preço": "3.087,20"
  },
  {
    "Código": "HM03407",
    "Descrição": "TÊ COM FLANGES PN10 FERRO FUNDIDO DN=250 X 100 MM * (67,00 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "2.437,03"
+   "Preço": "3.162,61"
  },
  {
    "Código": "HM06597",
    "Descrição": "TÊ COM FLANGES PN10 FERRO FUNDIDO DN=250 X 200 MM (73,00 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "2.960,90"
+   "Preço": "3.172,72"
  },
  {
    "Código": "HM03408",
    "Descrição": "TÊ COM FLANGES PN10 FERRO FUNDIDO DN=250 X 200 MM * (73,00 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "2.490,26"
+   "Preço": "3.224,98"
  },
  {
    "Código": "HM06598",
    "Descrição": "TÊ COM FLANGES PN10 FERRO FUNDIDO DN=250 X 250 MM (80,00 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "3.453,61"
+   "Preço": "3.705,27"
  },
  {
    "Código": "HM03409",
    "Descrição": "TÊ COM FLANGES PN10 FERRO FUNDIDO DN=250 X 250 MM * (80,00 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "2.922,06"
+   "Preço": "3.798,67"
  },
  {
    "Código": "HM06609",
    "Descrição": "TÊ COM FLANGES PN10 FERRO FUNDIDO DN=250X150 MM (71,00 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "2.492,04"
+   "Preço": "3.203,79"
  },
  {
    "Código": "HM06611",
    "Descrição": "TÊ COM FLANGES PN10 FERRO FUNDIDO DN=250X50 MM (67,00 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "2.218,35"
+   "Preço": "2.329,27"
  },
  {
    "Código": "HM06613",
@@ -18117,7 +18117,7 @@ const baseMateriais = [
    "Código": "HM06599",
    "Descrição": "TÊ COM FLANGES PN10 FERRO FUNDIDO DN=300 X 100 MM (92,00 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "3.950,52"
+   "Preço": "4.551,21"
  },
  {
    "Código": "HM03410",
@@ -18129,385 +18129,385 @@ const baseMateriais = [
    "Código": "HM06600",
    "Descrição": "TÊ COM FLANGES PN10 FERRO FUNDIDO DN=300 X 200 MM (100,00 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "4.779,36"
+   "Preço": "4.960,00"
  },
  {
    "Código": "HM03411",
    "Descrição": "TÊ COM FLANGES PN10 FERRO FUNDIDO DN=300 X 200 MM * (100,00 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "3.230,99"
+   "Preço": "3.475,28"
  },
  {
    "Código": "HM06601",
    "Descrição": "TÊ COM FLANGES PN10 FERRO FUNDIDO DN=300 X 300 MM (119,00 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "5.106,29"
+   "Preço": "5.008,41"
  },
  {
    "Código": "HM03412",
    "Descrição": "TÊ COM FLANGES PN10 FERRO FUNDIDO DN=300 X 300 MM * (119,00 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "4.396,59"
+   "Preço": "4.449,08"
  },
  {
    "Código": "HM06615",
    "Descrição": "TÊ COM FLANGES PN10 FERRO FUNDIDO DN=350 X 100 MM (112,00 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "5.304,95"
+   "Preço": "6.350,46"
  },
  {
    "Código": "HM06616",
    "Descrição": "TÊ COM FLANGES PN10 FERRO FUNDIDO DN=350 X 200 MM (117,00 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "5.907,60"
+   "Preço": "7.006,00"
  },
  {
    "Código": "HM06617",
    "Descrição": "TÊ COM FLANGES PN10 FERRO FUNDIDO DN=350 X 300 MM (133,00 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "6.402,36"
+   "Preço": "7.567,54"
  },
  {
    "Código": "HM06618",
    "Descrição": "TÊ COM FLANGES PN10 FERRO FUNDIDO DN=350 X 350 MM (139,00 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "6.833,97"
+   "Preço": "8.139,23"
  },
  {
    "Código": "HM03381",
    "Descrição": "TÊ COM FLANGES PN10 FERRO FUNDIDO DN=350X100 MM * (112,00 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "5.160,29"
+   "Preço": "6.269,27"
  },
  {
    "Código": "HM03382",
    "Descrição": "TÊ COM FLANGES PN10 FERRO FUNDIDO DN=350X200 MM * (117,00 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "6.460,01"
+   "Preço": "6.348,90"
  },
  {
    "Código": "HM03383",
    "Descrição": "TÊ COM FLANGES PN10 FERRO FUNDIDO DN=350X300 MM * (133,00 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "6.959,78"
+   "Preço": "6.852,42"
  },
  {
    "Código": "HM03384",
    "Descrição": "TÊ COM FLANGES PN10 FERRO FUNDIDO DN=350X350 MM * (139,00 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "7.528,33"
+   "Preço": "7.381,56"
  },
  {
    "Código": "HM06619",
    "Descrição": "TÊ COM FLANGES PN10 FERRO FUNDIDO DN=400 X 100 MM (138,00 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "9.725,40"
+   "Preço": "9.754,58"
  },
  {
    "Código": "HM06620",
    "Descrição": "TÊ COM FLANGES PN10 FERRO FUNDIDO DN=400 X 150 MM (142,00 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "10.300,75"
+   "Preço": "10.520,65"
  },
  {
    "Código": "HM06622",
    "Descrição": "TÊ COM FLANGES PN10 FERRO FUNDIDO DN=400 X 200 MM (142,00 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "10.251,72"
+   "Preço": "11.785,69"
  },
  {
    "Código": "HM06623",
    "Descrição": "TÊ COM FLANGES PN10 FERRO FUNDIDO DN=400 X 300 MM (159,00 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "10.580,34"
+   "Preço": "12.153,55"
  },
  {
    "Código": "HM06624",
    "Descrição": "TÊ COM FLANGES PN10 FERRO FUNDIDO DN=400 X 400 MM (172,00 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "11.376,45"
+   "Preço": "12.525,81"
  },
  {
    "Código": "HM03385",
    "Descrição": "TÊ COM FLANGES PN10 FERRO FUNDIDO DN=400X100 MM * (138,00 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "9.704,56"
+   "Preço": "9.272,81"
  },
  {
    "Código": "HM06621",
    "Descrição": "TÊ COM FLANGES PN10 FERRO FUNDIDO DN=400X150 MM (142,00 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "9.971,95"
+   "Preço": "9.582,80"
  },
  {
    "Código": "HM03386",
    "Descrição": "TÊ COM FLANGES PN10 FERRO FUNDIDO DN=400X200 MM * (142,00 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "9.897,57"
+   "Preço": "11.640,92"
  },
  {
    "Código": "HM03387",
    "Descrição": "TÊ COM FLANGES PN10 FERRO FUNDIDO DN=400X300 MM * (159,00 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "10.216,59"
+   "Preço": "12.007,45"
  },
  {
    "Código": "HM03388",
    "Descrição": "TÊ COM FLANGES PN10 FERRO FUNDIDO DN=400X400 MM * (172,00 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "10.982,97"
+   "Preço": "12.445,75"
  },
  {
    "Código": "HM06626",
    "Descrição": "TÊ COM FLANGES PN10 FERRO FUNDIDO DN=450 X 200 MM (180,00 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "11.949,56"
+   "Preço": "13.483,12"
  },
  {
    "Código": "HM06627",
    "Descrição": "TÊ COM FLANGES PN10 FERRO FUNDIDO DN=450 X 450 MM (207,00 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "12.383,65"
+   "Preço": "13.512,76"
  },
  {
    "Código": "HM06625",
    "Descrição": "TÊ COM FLANGES PN10 FERRO FUNDIDO DN=450X100 MM (173,00 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "11.067,68"
+   "Preço": "12.799,97"
  },
  {
    "Código": "HM03389",
    "Descrição": "TÊ COM FLANGES PN10 FERRO FUNDIDO DN=450X100 MM * (173,00 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "10.681,62"
+   "Preço": "12.627,33"
  },
  {
    "Código": "HM03390",
    "Descrição": "TÊ COM FLANGES PN10 FERRO FUNDIDO DN=450X200 MM * (180,00 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "11.583,44"
+   "Preço": "13.400,96"
  },
  {
    "Código": "HM03393",
    "Descrição": "TÊ COM FLANGES PN10 FERRO FUNDIDO DN=450X450 MM * (207,00 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "11.957,44"
+   "Preço": "14.134,18"
  },
  {
    "Código": "HM06628",
    "Descrição": "TÊ COM FLANGES PN10 FERRO FUNDIDO DN=500 X 100 MM (205,00 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "12.419,72"
+   "Preço": "13.040,71"
  },
  {
    "Código": "HM06629",
    "Descrição": "TÊ COM FLANGES PN10 FERRO FUNDIDO DN=500 X 200 MM (209,00 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "13.597,82"
+   "Preço": "13.809,58"
  },
  {
    "Código": "HM06630",
    "Descrição": "TÊ COM FLANGES PN10 FERRO FUNDIDO DN=500 X 300 MM (219,00 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "14.029,71"
+   "Preço": "15.406,93"
  },
  {
    "Código": "HM06631",
    "Descrição": "TÊ COM FLANGES PN10 FERRO FUNDIDO DN=500 X 400 MM (234,00 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "14.571,04"
+   "Preço": "15.972,24"
  },
  {
    "Código": "HM06632",
    "Descrição": "TÊ COM FLANGES PN10 FERRO FUNDIDO DN=500 X 500 MM (243,00 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "15.557,70"
+   "Preço": "16.313,82"
  },
  {
    "Código": "HM03394",
    "Descrição": "TÊ COM FLANGES PN10 FERRO FUNDIDO DN=500X100 MM * (205,00 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "10.469,78"
+   "Preço": "12.835,00"
  },
  {
    "Código": "HM03395",
    "Descrição": "TÊ COM FLANGES PN10 FERRO FUNDIDO DN=500X200 MM * (209,00 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "11.851,05"
+   "Preço": "12.670,37"
  },
  {
    "Código": "HM03396",
    "Descrição": "TÊ COM FLANGES PN10 FERRO FUNDIDO DN=500X300 MM * (219,00 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "13.541,45"
+   "Preço": "14.490,73"
  },
  {
    "Código": "HM03397",
    "Descrição": "TÊ COM FLANGES PN10 FERRO FUNDIDO DN=500X400 MM * (234,00 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "14.065,11"
+   "Preço": "15.051,53"
  },
  {
    "Código": "HM03398",
    "Descrição": "TÊ COM FLANGES PN10 FERRO FUNDIDO DN=500X500 MM * (243,00 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "14.605,22"
+   "Preço": "15.315,17"
  },
  {
    "Código": "HM06633",
    "Descrição": "TÊ COM FLANGES PN10/16 FERRO FUNDIDO DN=100 X 100 MM (18,50 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "933,59"
+   "Preço": "880,85"
  },
  {
    "Código": "HM03399",
    "Descrição": "TÊ COM FLANGES PN10/16 FERRO FUNDIDO DN=100 X 100 MM * (18,50 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "851,20"
+   "Preço": "893,76"
  },
  {
    "Código": "HM06634",
    "Descrição": "TÊ COM FLANGES PN10/16 FERRO FUNDIDO DN=100 X 50 MM (16,00 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "683,39"
+   "Preço": "825,52"
  },
  {
    "Código": "HM03413",
    "Descrição": "TÊ COM FLANGES PN10/16 FERRO FUNDIDO DN=100 X 50 MM * (16,00 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "581,28"
+   "Preço": "737,59"
  },
  {
    "Código": "HM06639",
    "Descrição": "TÊ COM FLANGES PN10/16 FERRO FUNDIDO DN=100 X 80 MM (18,10 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "773,05"
+   "Preço": "828,47"
  },
  {
    "Código": "HM03400",
    "Descrição": "TÊ COM FLANGES PN10/16 FERRO FUNDIDO DN=100 X 80 MM * (18,10 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "662,71"
+   "Preço": "855,97"
  },
  {
    "Código": "HM06635",
    "Descrição": "TÊ COM FLANGES PN10/16 FERRO FUNDIDO DN=150 X 100 MM (28,50 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "1.499,56"
+   "Preço": "1.554,92"
  },
  {
    "Código": "HM03401",
    "Descrição": "TÊ COM FLANGES PN10/16 FERRO FUNDIDO DN=150 X 100 MM * (28,50 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "966,03"
+   "Preço": "1.040,77"
  },
  {
    "Código": "HM06636",
    "Descrição": "TÊ COM FLANGES PN10/16 FERRO FUNDIDO DN=150 X 150 MM (32,00 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "1.554,46"
+   "Preço": "1.612,47"
  },
  {
    "Código": "HM03402",
    "Descrição": "TÊ COM FLANGES PN10/16 FERRO FUNDIDO DN=150 X 150 MM * (32,00 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "1.015,24"
+   "Preço": "1.093,19"
  },
  {
    "Código": "HM06637",
    "Descrição": "TÊ COM FLANGES PN10/16 FERRO FUNDIDO DN=150 X 50 MM (26,00 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "1.234,13"
+   "Preço": "1.253,38"
  },
  {
    "Código": "HM03414",
    "Descrição": "TÊ COM FLANGES PN10/16 FERRO FUNDIDO DN=150 X 50 MM * (26,00 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "1.017,24"
+   "Preço": "1.035,50"
  },
  {
    "Código": "HM06638",
    "Descrição": "TÊ COM FLANGES PN10/16 FERRO FUNDIDO DN=150 X 80 MM (30,00 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "1.380,40"
+   "Preço": "1.432,43"
  },
  {
    "Código": "HM03403",
    "Descrição": "TÊ COM FLANGES PN10/16 FERRO FUNDIDO DN=150 X 80 MM * (30,00 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "907,03"
+   "Preço": "976,27"
  },
  {
    "Código": "HM06640",
    "Descrição": "TÊ COM FLANGES PN10/16/25 FERRO FUNDIDO DN=80 X 50 MM (19,00 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "570,56"
+   "Preço": "676,29"
  },
  {
    "Código": "HM03415",
    "Descrição": "TÊ COM FLANGES PN10/16/25 FERRO FUNDIDO DN=80 X 50 MM * (19,00 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "482,53"
+   "Preço": "602,53"
  },
  {
    "Código": "HM06641",
    "Descrição": "TÊ COM FLANGES PN10/16/25 FERRO FUNDIDO DN=80 X 80 MM (15,30 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "626,58"
+   "Preço": "760,92"
  },
  {
    "Código": "HM03416",
    "Descrição": "TÊ COM FLANGES PN10/16/25 FERRO FUNDIDO DN=80 X 80 MM * (15,30 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "530,47"
+   "Preço": "677,25"
  },
  {
    "Código": "HM02075",
    "Descrição": "TÊ DE SERVIÇO ELETROFUSÃO PEAD DE=110 X 20 MM SDR 11 PE100 INJETADO NTS 193 REDE DE ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "224,79"
+   "Preço": "265,83"
  },
  {
    "Código": "HM02076",
    "Descrição": "TÊ DE SERVIÇO ELETROFUSÃO PEAD DE=110 X 32 MM SDR 11 PE100 INJETADO NTS 193 REDE DE ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "275,35"
+   "Preço": "234,04"
  },
  {
    "Código": "HM02077",
    "Descrição": "TÊ DE SERVIÇO ELETROFUSÃO PEAD DE=110 X 63 MM SDR 11 PE100 INJETADO NTS 193 REDE DE ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "300,77"
+   "Preço": "404,29"
  },
  {
    "Código": "HM05128",
    "Descrição": "TÊ DE SERVIÇO ELETROFUSÃO PEAD DE=160 X 20 MM SDR 11 PE100 INJETADO NTS 193",
    "Unid. Med.": "un",
-   "Preço": "377,03"
+   "Preço": "442,13"
  },
  {
    "Código": "HM05129",
    "Descrição": "TÊ DE SERVIÇO ELETROFUSÃO PEAD DE=160 X 32 MM SDR 11 PE100 INJETADO NTS 193",
    "Unid. Med.": "un",
-   "Preço": "537,34"
+   "Preço": "481,57"
  },
  {
    "Código": "HM05130",
    "Descrição": "TÊ DE SERVIÇO ELETROFUSÃO PEAD DE=225 X 20 MM SDR 11 PE100 INJETADO NTS 193",
    "Unid. Med.": "un",
-   "Preço": "816,23"
+   "Preço": "817,36"
  },
  {
    "Código": "HM05131",
    "Descrição": "TÊ DE SERVIÇO ELETROFUSÃO PEAD DE=225 X 32 MM SDR 11 PE100 INJETADO NTS 193",
    "Unid. Med.": "un",
-   "Preço": "816,23"
+   "Preço": "760,58"
  },
  {
    "Código": "HM02078",
    "Descrição": "TÊ DE SERVIÇO ELETROFUSÃO PEAD DE=63 X 20 MM SDR 11 PE100 INJETADO NTS 193 REDE DE ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "150,37"
+   "Preço": "184,74"
  },
  {
    "Código": "HM02079",
@@ -18519,31 +18519,31 @@ const baseMateriais = [
    "Código": "HM02080",
    "Descrição": "TÊ DE SERVIÇO ELETROFUSÃO PEAD DE=90 X 20 MM SDR 11 PE100 INJETADO NTS 193 REDE DE ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "238,31"
+   "Preço": "221,76"
  },
  {
    "Código": "HM02081",
    "Descrição": "TÊ DE SERVIÇO ELETROFUSÃO PEAD DE=90 X 32 MM SDR 11 PE100 INJETADO NTS 193 REDE DE ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "243,43"
+   "Preço": "234,58"
  },
  {
    "Código": "HM01198",
    "Descrição": "TÊ FERRO GALVANIZADO DN=1 1/2\" BSP NBR 6943 ÁGUA/GÁS",
    "Unid. Med.": "un",
-   "Preço": "29,86"
+   "Preço": "38,17"
  },
  {
    "Código": "HM01199",
    "Descrição": "TÊ FERRO GALVANIZADO DN=1\" BSP NBR 6943 ÁGUA/GÁS",
    "Unid. Med.": "un",
-   "Preço": "17,70"
+   "Preço": "19,47"
  },
  {
    "Código": "HM01200",
    "Descrição": "TÊ FERRO GALVANIZADO DN=2\" BSP NBR 6943 ÁGUA/GÁS",
    "Unid. Med.": "un",
-   "Preço": "65,34"
+   "Preço": "68,49"
  },
  {
    "Código": "EL02482",
@@ -18591,37 +18591,37 @@ const baseMateriais = [
    "Código": "HM02026",
    "Descrição": "TÊ PBB PVC RÍGIDO D=100 MM JE NBR 10569 COLETOR DE ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "16,90"
+   "Preço": "21,97"
  },
  {
    "Código": "HM01804",
    "Descrição": "TÊ PVC D=100 X 100 MM PONTA E BOLSAS ESGOTO PREDIAL",
    "Unid. Med.": "un",
-   "Preço": "12,07"
+   "Preço": "13,83"
  },
  {
    "Código": "HM01805",
    "Descrição": "TÊ PVC D=100 X 50 MM PONTA E BOLSAS ESGOTO PREDIAL",
    "Unid. Med.": "un",
-   "Preço": "9,55"
+   "Preço": "11,93"
  },
  {
    "Código": "HM01806",
    "Descrição": "TÊ PVC D=100 X 75 MM PONTA E BOLSAS ESGOTO PREDIAL",
    "Unid. Med.": "un",
-   "Preço": "14,04"
+   "Preço": "16,38"
  },
  {
    "Código": "HM01807",
    "Descrição": "TÊ PVC D=40 X 40 MM PONTA E BOLSAS ESGOTO PREDIAL",
    "Unid. Med.": "un",
-   "Preço": "3,73"
+   "Preço": "3,34"
  },
  {
    "Código": "HM01808",
    "Descrição": "TÊ PVC D=50 X 50 MM PONTA E BOLSAS ESGOTO PREDIAL",
    "Unid. Med.": "un",
-   "Preço": "6,97"
+   "Preço": "6,41"
  },
  {
    "Código": "HM01809",
@@ -18633,55 +18633,55 @@ const baseMateriais = [
    "Código": "HM01810",
    "Descrição": "TÊ PVC D=75 X 75 MM PONTA E BOLSAS ESGOTO PREDIAL",
    "Unid. Med.": "un",
-   "Preço": "13,46"
+   "Preço": "12,96"
  },
  {
    "Código": "HM01432",
    "Descrição": "TÊ SERVIÇO INTEGRADO POLIPROPILENO DE=110 X 20 MM ARTICULADO NTS 175 LIGAÇÃO TUBO PVC OU PE",
    "Unid. Med.": "un",
-   "Preço": "38,50"
+   "Preço": "49,07"
  },
  {
    "Código": "HM01433",
    "Descrição": "TÊ SERVIÇO INTEGRADO POLIPROPILENO DE=60 X 20 MM ARTICULADO NTS 175 LIGAÇÃO TUBO PVC",
    "Unid. Med.": "un",
-   "Preço": "27,00"
+   "Preço": "35,10"
  },
  {
    "Código": "HM01434",
    "Descrição": "TÊ SERVIÇO INTEGRADO POLIPROPILENO DE=85 X 20 MM ARTICULADO NTS 175 LIGAÇÃO TUBO PVC",
    "Unid. Med.": "un",
-   "Preço": "31,00"
+   "Preço": "43,50"
  },
  {
    "Código": "MO07327",
    "Descrição": "TÉCNICO ELETRICISTA",
    "Unid. Med.": "H",
-   "Preço": "23,80"
+   "Preço": "24,92"
  },
  {
    "Código": "MO00079",
    "Descrição": "TÉCNICO EM INSTRUMENTAÇÃO",
    "Unid. Med.": "H",
-   "Preço": "26,36"
+   "Preço": "27,61"
  },
  {
    "Código": "MO07328",
    "Descrição": "TÉCNICO MECÂNICO",
    "Unid. Med.": "H",
-   "Preço": "23,61"
+   "Preço": "24,73"
  },
  {
    "Código": "MO00080",
    "Descrição": "TÉCNICO NÍVEL MÉDIO",
    "Unid. Med.": "H",
-   "Preço": "27,63"
+   "Preço": "28,94"
  },
  {
    "Código": "MO00075",
    "Descrição": "TÉCNICO SOLDADOR",
    "Unid. Med.": "H",
-   "Preço": "20,58"
+   "Preço": "21,55"
  },
  {
    "Código": "CV00298",
@@ -19095,7 +19095,7 @@ const baseMateriais = [
    "Código": "HM07188",
    "Descrição": "TIL PVC D=100 MM BBB LIGAÇÃO PREDIAL COLETOR DE ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "61,30"
+   "Preço": "60,23"
  },
  {
    "Código": "CV01435",
@@ -19167,151 +19167,151 @@ const baseMateriais = [
    "Código": "HM03525",
    "Descrição": "TOCO C/FLANGES PN10 E ABA DE VEDAÇÃO FERRO FUNDIDO DN=200 MM L=700MM * (56,00 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "1.275,97"
+   "Preço": "1.355,94"
  },
  {
    "Código": "HM03526",
    "Descrição": "TOCO C/FLANGES PN10 E ABA DE VEDAÇÃO FERRO FUNDIDO DN=250 MM L=700MM * (72,50 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "1.873,40"
+   "Preço": "1.990,81"
  },
  {
    "Código": "HM03527",
    "Descrição": "TOCO C/FLANGES PN10 E ABA DE VEDAÇÃO FERRO FUNDIDO DN=300 MM L=700MM * (93,00 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "3.092,53"
+   "Preço": "3.833,77"
  },
  {
    "Código": "HM03520",
    "Descrição": "TOCO C/FLANGES PN10 E ABA DE VEDAÇÃO FERRO FUNDIDO DN=350 MM L=700MM * (112,00 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "3.625,71"
+   "Preço": "3.840,96"
  },
  {
    "Código": "HM03521",
    "Descrição": "TOCO C/FLANGES PN10 E ABA DE VEDAÇÃO FERRO FUNDIDO DN=400 MM L=700MM * (136,00 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "4.415,81"
+   "Preço": "4.677,97"
  },
  {
    "Código": "HM03522",
    "Descrição": "TOCO C/FLANGES PN10 E ABA DE VEDAÇÃO FERRO FUNDIDO DN=450 MM L=700MM * (165,00 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "9.554,08"
+   "Preço": "10.121,30"
  },
  {
    "Código": "HM03523",
    "Descrição": "TOCO C/FLANGES PN10 E ABA DE VEDAÇÃO FERRO FUNDIDO DN=500 MM L=700MM * (197,00 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "10.394,61"
+   "Preço": "10.550,47"
  },
  {
    "Código": "HM03528",
    "Descrição": "TOCO C/FLANGES PN10/16 E ABA DE VEDAÇÃO FERRO FUNDIDO DN=100 MM L=700MM * (25,50 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "622,67"
+   "Preço": "809,47"
  },
  {
    "Código": "HM03524",
    "Descrição": "TOCO C/FLANGES PN10/16 E ABA DE VEDAÇÃO FERRO FUNDIDO DN=150 MM L=700MM * (40,00 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "857,98"
+   "Preço": "911,75"
  },
  {
    "Código": "HM03529",
    "Descrição": "TOCO C/FLANGES PN10/16/25 E ABA DE VEDAÇÃO FERRO FUNDIDO DN=80 MM L=700MM * (20,00 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "549,83"
+   "Preço": "584,29"
  },
  {
    "Código": "HM06645",
    "Descrição": "TOCO COM FLANGES PN10 E ABA DE VEDAÇÃO FERRO FUNDIDO DN=200 MM L=700MM (56,00 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "2.020,28"
+   "Preço": "2.166,93"
  },
  {
    "Código": "HM06646",
    "Descrição": "TOCO COM FLANGES PN10 E ABA DE VEDAÇÃO FERRO FUNDIDO DN=250 MM L=700MM (72,50 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "3.062,79"
+   "Preço": "3.286,86"
  },
  {
    "Código": "HM06647",
    "Descrição": "TOCO COM FLANGES PN10 E ABA DE VEDAÇÃO FERRO FUNDIDO DN=300 MM L=700MM (93,00 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "4.322,23"
+   "Preço": "5.125,56"
  },
  {
    "Código": "HM06648",
    "Descrição": "TOCO COM FLANGES PN10 E ABA DE VEDAÇÃO FERRO FUNDIDO DN=350 MM L=700MM (112,00 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "5.194,71"
+   "Preço": "6.253,39"
  },
  {
    "Código": "HM06649",
    "Descrição": "TOCO COM FLANGES PN10 E ABA DE VEDAÇÃO FERRO FUNDIDO DN=400 MM L=700MM (136,00 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "6.165,84"
+   "Preço": "7.360,21"
  },
  {
    "Código": "HM06650",
    "Descrição": "TOCO COM FLANGES PN10 E ABA DE VEDAÇÃO FERRO FUNDIDO DN=450 MM L=700MM (165,00 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "9.663,90"
+   "Preço": "11.744,55"
  },
  {
    "Código": "HM06651",
    "Descrição": "TOCO COM FLANGES PN10 E ABA DE VEDAÇÃO FERRO FUNDIDO DN=500 MM L=700MM (197,00 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "13.730,74"
+   "Preço": "14.340,14"
  },
  {
    "Código": "HM06658",
    "Descrição": "TOCO COM FLANGES PN10 FERRO FUNDIDO DN=200 MM L=250 MM (32,00 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "1.428,92"
+   "Preço": "1.553,15"
  },
  {
    "Código": "HM03512",
    "Descrição": "TOCO COM FLANGES PN10 FERRO FUNDIDO DN=200 MM L=250 MM * (32,00 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "700,75"
+   "Preço": "910,97"
  },
  {
    "Código": "HM06659",
    "Descrição": "TOCO COM FLANGES PN10 FERRO FUNDIDO DN=200 MM L=500 MM (43,00 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "1.456,06"
+   "Preço": "1.867,21"
  },
  {
    "Código": "HM03513",
    "Descrição": "TOCO COM FLANGES PN10 FERRO FUNDIDO DN=200 MM L=500 MM * (43,00 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "843,06"
+   "Preço": "893,35"
  },
  {
    "Código": "HM06660",
    "Descrição": "TOCO COM FLANGES PN10 FERRO FUNDIDO DN=250 MM L=250 MM (44,00 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "2.069,26"
+   "Preço": "2.248,61"
  },
  {
    "Código": "HM03514",
    "Descrição": "TOCO COM FLANGES PN10 FERRO FUNDIDO DN=250 MM L=250 MM * (44,00 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "867,92"
+   "Preço": "1.128,29"
  },
  {
    "Código": "HM06661",
    "Descrição": "TOCO COM FLANGES PN10 FERRO FUNDIDO DN=250 MM L=500 MM (60,00 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "2.289,22"
+   "Preço": "2.482,01"
  },
  {
    "Código": "HM03515",
    "Descrição": "TOCO COM FLANGES PN10 FERRO FUNDIDO DN=250 MM L=500 MM * (60,00 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "1.335,67"
+   "Preço": "1.415,34"
  },
  {
    "Código": "HM06662",
@@ -19323,205 +19323,205 @@ const baseMateriais = [
    "Código": "HM03516",
    "Descrição": "TOCO COM FLANGES PN10 FERRO FUNDIDO DN=300 MM L=250 MM * (56,00 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "1.507,10"
+   "Preço": "1.898,54"
  },
  {
    "Código": "HM06663",
    "Descrição": "TOCO COM FLANGES PN10 FERRO FUNDIDO DN=300 MM L=500 MM (76,00 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "2.367,52"
+   "Preço": "2.745,60"
  },
  {
    "Código": "HM03517",
    "Descrição": "TOCO COM FLANGES PN10 FERRO FUNDIDO DN=300 MM L=500 MM * (76,00 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "1.680,16"
+   "Preço": "1.922,63"
  },
  {
    "Código": "HM06664",
    "Descrição": "TOCO COM FLANGES PN10 FERRO FUNDIDO DN=350 MM L=250 MM (70,00 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "3.526,72"
+   "Preço": "2.867,26"
  },
  {
    "Código": "HM03501",
    "Descrição": "TOCO COM FLANGES PN10 FERRO FUNDIDO DN=350 MM L=250 MM * (70,00 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "2.555,33"
+   "Preço": "2.366,41"
  },
  {
    "Código": "HM06665",
    "Descrição": "TOCO COM FLANGES PN10 FERRO FUNDIDO DN=350 MM L=500 MM (88,00 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "3.715,89"
+   "Preço": "3.643,51"
  },
  {
    "Código": "HM03502",
    "Descrição": "TOCO COM FLANGES PN10 FERRO FUNDIDO DN=350 MM L=500 MM * (88,00 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "3.103,97"
+   "Preço": "3.289,98"
  },
  {
    "Código": "HM06666",
    "Descrição": "TOCO COM FLANGES PN10 FERRO FUNDIDO DN=400 MM L=250 MM (85,00 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "3.866,14"
+   "Preço": "3.023,25"
  },
  {
    "Código": "HM03503",
    "Descrição": "TOCO COM FLANGES PN10 FERRO FUNDIDO DN=400 MM L=250 MM * (85,00 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "2.857,92"
+   "Preço": "2.547,75"
  },
  {
    "Código": "HM06655",
    "Descrição": "TOCO COM FLANGES PN10 FERRO FUNDIDO DN=400 MM L=500 MM (114,00 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "4.601,29"
+   "Preço": "4.535,32"
  },
  {
    "Código": "HM03504",
    "Descrição": "TOCO COM FLANGES PN10 FERRO FUNDIDO DN=400 MM L=500 MM * (114,00 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "3.509,46"
+   "Preço": "3.719,78"
  },
  {
    "Código": "HM06667",
    "Descrição": "TOCO COM FLANGES PN10 FERRO FUNDIDO DN=450 MM L=250 MM (95,00 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "5.721,29"
+   "Preço": "5.101,32"
  },
  {
    "Código": "HM03505",
    "Descrição": "TOCO COM FLANGES PN10 FERRO FUNDIDO DN=450 MM L=250 MM * (95,00 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "5.557,46"
+   "Preço": "3.890,23"
  },
  {
    "Código": "HM06668",
    "Descrição": "TOCO COM FLANGES PN10 FERRO FUNDIDO DN=450 MM L=500 MM (137,00 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "6.777,54"
+   "Preço": "6.778,12"
  },
  {
    "Código": "HM03506",
    "Descrição": "TOCO COM FLANGES PN10 FERRO FUNDIDO DN=450 MM L=500 MM * (137,00 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "6.664,17"
+   "Preço": "6.964,02"
  },
  {
    "Código": "HM06656",
    "Descrição": "TOCO COM FLANGES PN10 FERRO FUNDIDO DN=500 MM L=250 MM (116,00 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "4.482,47"
+   "Preço": "4.725,75"
  },
  {
    "Código": "HM03507",
    "Descrição": "TOCO COM FLANGES PN10 FERRO FUNDIDO DN=500 MM L=250 MM * (116,00 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "3.994,45"
+   "Preço": "4.000,94"
  },
  {
    "Código": "HM06657",
    "Descrição": "TOCO COM FLANGES PN10 FERRO FUNDIDO DN=500 MM L=500 MM (156,00 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "6.866,36"
+   "Preço": "6.855,69"
  },
  {
    "Código": "HM03508",
    "Descrição": "TOCO COM FLANGES PN10 FERRO FUNDIDO DN=500 MM L=500 MM * (156,00 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "6.075,88"
+   "Preço": "7.453,84"
  },
  {
    "Código": "HM06652",
    "Descrição": "TOCO COM FLANGES PN10/16 E ABA DE VEDAÇÃO FERRO FUNDIDO DN=100 MM L=700MM (25,50 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "995,43"
+   "Preço": "1.228,48"
  },
  {
    "Código": "HM06653",
    "Descrição": "TOCO COM FLANGES PN10/16 E ABA DE VEDAÇÃO FERRO FUNDIDO DN=150 MM L=700MM (40,00 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "1.458,35"
+   "Preço": "1.564,65"
  },
  {
    "Código": "HM06669",
    "Descrição": "TOCO COM FLANGES PN10/16 FERRO FUNDIDO DN=100 MM L=250 MM (14,00 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "572,78"
+   "Preço": "650,34"
  },
  {
    "Código": "HM03509",
    "Descrição": "TOCO COM FLANGES PN10/16 FERRO FUNDIDO DN=100 MM L=250 MM * (14,00 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "400,84"
+   "Preço": "493,91"
  },
  {
    "Código": "HM06670",
    "Descrição": "TOCO COM FLANGES PN10/16 FERRO FUNDIDO DN=100 MM L=500 MM (19,00 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "751,64"
+   "Preço": "847,86"
  },
  {
    "Código": "HM03518",
    "Descrição": "TOCO COM FLANGES PN10/16 FERRO FUNDIDO DN=100 MM L=500 MM * (19,00 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "480,33"
+   "Preço": "598,28"
  },
  {
    "Código": "HM06671",
    "Descrição": "TOCO COM FLANGES PN10/16 FERRO FUNDIDO DN=150 MM L=250 MM (24,00 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "969,64"
+   "Preço": "1.054,53"
  },
  {
    "Código": "HM03510",
    "Descrição": "TOCO COM FLANGES PN10/16 FERRO FUNDIDO DN=150 MM L=250 MM * (24,00 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "531,57"
+   "Preço": "691,04"
  },
  {
    "Código": "HM06672",
    "Descrição": "TOCO COM FLANGES PN10/16 FERRO FUNDIDO DN=150 MM L=500 MM (32,00 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "1.061,55"
+   "Preço": "1.370,72"
  },
  {
    "Código": "HM03511",
    "Descrição": "TOCO COM FLANGES PN10/16 FERRO FUNDIDO DN=150 MM L=500 MM * (32,00 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "657,46"
+   "Preço": "696,67"
  },
  {
    "Código": "HM06654",
    "Descrição": "TOCO COM FLANGES PN10/16/25 E ABA DE VEDAÇÃO FERRO FUNDIDO DN=80 MM L=700MM (20,00 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "885,97"
+   "Preço": "1.087,07"
  },
  {
    "Código": "HM06673",
    "Descrição": "TOCO COM FLANGES PN10/16/25 FERRO FUNDIDO DN=80 MM L=250 MM (11,50 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "362,40"
+   "Preço": "355,99"
  },
  {
    "Código": "HM06674",
    "Descrição": "TOCO COM FLANGES PN10/16/25 FERRO FUNDIDO DN=80 MM L=250 MM (11,50 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "488,09"
+   "Preço": "512,69"
  },
  {
    "Código": "HM06675",
    "Descrição": "TOCO COM FLANGES PN10/16/25 FERRO FUNDIDO DN=80 MM L=500 MM (15,00 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "632,90"
+   "Preço": "758,61"
  },
  {
    "Código": "HM03519",
    "Descrição": "TOCO COM FLANGES PN10/16/25 FERRO FUNDIDO DN=80 MM L=500 MM * (15,00 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "424,63"
+   "Preço": "449,96"
  },
  {
    "Código": "EL02351",
@@ -19575,13 +19575,13 @@ const baseMateriais = [
    "Código": "MO00082",
    "Descrição": "TOPÓGRAFO",
    "Unid. Med.": "H",
-   "Preço": "25,52"
+   "Preço": "26,73"
  },
  {
    "Código": "HM06676",
    "Descrição": "TORNEIRA AMARELA LATÃO DN=1/2\" DE PAREDE COM ADAPTADOR PARA MANGUEIRA JARDIM/TANQUE",
    "Unid. Med.": "un",
-   "Preço": "52,90"
+   "Preço": "37,96"
  },
  {
    "Código": "CV01319",
@@ -19593,19 +19593,19 @@ const baseMateriais = [
    "Código": "HM06677",
    "Descrição": "TORNEIRA CROMADA LATÃO DN=1/2\" DE PAREDE COM ADAPTADOR PARA MANGUEIRA JARDIM/TANQUE",
    "Unid. Med.": "un",
-   "Preço": "58,73"
+   "Preço": "50,27"
  },
  {
    "Código": "HM06678",
    "Descrição": "TORNEIRA CROMADA LATÃO DN=1/2\" DE PAREDE COM AREJADOR PARA COZINHA",
    "Unid. Med.": "un",
-   "Preço": "65,40"
+   "Preço": "71,45"
  },
  {
    "Código": "EQ05967",
    "Descrição": "TORRE DE ILUMINAÇÃO PORTÁTIL *1.600W COM GERADOR",
    "Unid. Med.": "H",
-   "Preço": "24,87"
+   "Preço": "25,51"
  },
  {
    "Código": "EQ05968",
@@ -19617,7 +19617,7 @@ const baseMateriais = [
    "Código": "MO00083",
    "Descrição": "TORRISTA/PLATAFORMISTA",
    "Unid. Med.": "H",
-   "Preço": "23,57"
+   "Preço": "24,68"
  },
  {
    "Código": "EL02643",
@@ -19761,19 +19761,19 @@ const baseMateriais = [
    "Código": "EQ04609",
    "Descrição": "TRATOR DE LÂMINA POTÊNCIA 150HP, PESO OPERACIONAL 18T SOBRE ESTEIRAS, COM LÂMINA DE ANGULAGEM E INCLINAÇÃO HIDRÁULICA VARIÁVEL, A DIESEL",
    "Unid. Med.": "H",
-   "Preço": "302,64"
+   "Preço": "318,17"
  },
  {
    "Código": "EQ04610",
    "Descrição": "TRATOR DE LÂMINA POTÊNCIA 84HP, PESO OPERACIONAL 8,0T SOBRE ESTEIRAS, COM LÂMINA DE ANGULAGEM E INCLINAÇÃO HIDRÁULICA VARIÁVEL, A DIESEL",
    "Unid. Med.": "H",
-   "Preço": "237,64"
+   "Preço": "245,95"
  },
  {
    "Código": "EQ04608",
    "Descrição": "TRATOR DE PNEUS TRAÇÃO 4 X 2, POTÊNCIA NOMINAL * 85CV",
    "Unid. Med.": "H",
-   "Preço": "145,59"
+   "Preço": "155,18"
  },
  {
    "Código": "EL01133",
@@ -19791,43 +19791,43 @@ const baseMateriais = [
    "Código": "HM01436",
    "Descrição": "TUBETE CURTO LIGA DE COBRE DN=20 MM NBR 8194 PARA HIDRÔMETRO",
    "Unid. Med.": "un",
-   "Preço": "10,54"
+   "Preço": "15,23"
  },
  {
    "Código": "HM01850",
    "Descrição": "TUBETE CURTO PVC DN=3/4\" PARA HIDRÔMETRO",
    "Unid. Med.": "un",
-   "Preço": "1,19"
+   "Preço": "1,44"
  },
  {
    "Código": "HM01438",
    "Descrição": "TUBETE LIGA DE COBRE DN=25 MM NBR 8194 PARA HIDRÔMETRO",
    "Unid. Med.": "un",
-   "Preço": "25,07"
+   "Preço": "25,17"
  },
  {
    "Código": "HM01439",
    "Descrição": "TUBETE LIGA DE COBRE DN=40 MM NBR 8194 PARA HIDRÔMETRO",
    "Unid. Med.": "un",
-   "Preço": "73,02"
+   "Preço": "72,70"
  },
  {
    "Código": "HM01442",
    "Descrição": "TUBETE LONGO LIGA DE COBRE DN=20 MM NBR 8194 PARA HIDRÔMETRO",
    "Unid. Med.": "un",
-   "Preço": "37,62"
+   "Preço": "27,78"
  },
  {
    "Código": "HM01848",
    "Descrição": "TUBETE LONGO PVC DN=3/4\" PARA HIDRÔMETRO",
    "Unid. Med.": "un",
-   "Preço": "1,73"
+   "Preço": "2,11"
  },
  {
    "Código": "HM00305",
    "Descrição": "TUBO AÇO CARBONO 120 X 60 MM, ESP=2,65 MM, (7,30 KG/M), SEÇÃO RETANGULAR, COM COSTURA.",
    "Unid. Med.": "M",
-   "Preço": "73,84"
+   "Preço": "70,21"
  },
  {
    "Código": "CV04474",
@@ -19839,7 +19839,7 @@ const baseMateriais = [
    "Código": "HM01206",
    "Descrição": "TUBO AÇO GALVANIZADO DN=1 1/2\" CLASSE MÉDIA (3,837 KG/M) NBR 5580 ÁGUA/GÁS",
    "Unid. Med.": "M",
-   "Preço": "45,61"
+   "Preço": "46,52"
  },
  {
    "Código": "HM01207",
@@ -19851,85 +19851,85 @@ const baseMateriais = [
    "Código": "HM01208",
    "Descrição": "TUBO AÇO GALVANIZADO DN=1\" CLASSE MÉDIA (2,596 KG/M) NBR 5580 ÁGUA/GÁS",
    "Unid. Med.": "M",
-   "Preço": "31,38"
+   "Preço": "34,50"
  },
  {
    "Código": "HM01209",
    "Descrição": "TUBO AÇO GALVANIZADO DN=1/2\" CLASSE MÉDIA (1,273 KG/M) NBR 5580 ÁGUA/GÁS",
    "Unid. Med.": "M",
-   "Preço": "18,94"
+   "Preço": "19,05"
  },
  {
    "Código": "HM01210",
    "Descrição": "TUBO AÇO GALVANIZADO DN=2\" CLASSE MÉDIA (5,390 KG/M) NBR 5580 ÁGUA/GÁS",
    "Unid. Med.": "M",
-   "Preço": "64,30"
+   "Preço": "71,53"
  },
  {
    "Código": "HM01211",
    "Descrição": "TUBO AÇO GALVANIZADO DN=3\" CLASSE MÉDIA (8,620 KG/M) NBR 5580 ÁGUA/GÁS",
    "Unid. Med.": "M",
-   "Preço": "104,83"
+   "Preço": "117,74"
  },
  {
    "Código": "HM01212",
    "Descrição": "TUBO AÇO GALVANIZADO DN=3/4\" CLASSE MÉDIA (1,649 KG/M) NBR 5580 ÁGUA/GÁS",
    "Unid. Med.": "M",
-   "Preço": "21,10"
+   "Preço": "22,53"
  },
  {
    "Código": "HM01213",
    "Descrição": "TUBO AÇO GALVANIZADO DN=4\" CLASSE MÉDIA (10,475 KG/M) NBR 5580 ÁGUA/GÁS",
    "Unid. Med.": "M",
-   "Preço": "147,37"
+   "Preço": "154,96"
  },
  {
    "Código": "HM04473",
    "Descrição": "TUBO AÇO GALVANIZADO DN=6\" CLASSE MÉDIA (19,740 KG/M) NBR 5580 ÁGUA/GÁS",
    "Unid. Med.": "M",
-   "Preço": "226,23"
+   "Preço": "278,00"
  },
  {
    "Código": "HM07297",
    "Descrição": "TUBO AÇO INOX AISI 316L DE=19,05 MM E=2,00 MM TIPO OD ESCOVADO #180 0,84 KG/M",
    "Unid. Med.": "M",
-   "Preço": "83,40"
+   "Preço": "89,21"
  },
  {
    "Código": "HM07298",
    "Descrição": "TUBO AÇO INOX AISI 316L DE=38,10 MM E=3,00 MM TIPO OD ESCOVADO #180 2,60 KG/M",
    "Unid. Med.": "M",
-   "Preço": "258,12"
+   "Preço": "236,96"
  },
  {
    "Código": "HM00306",
    "Descrição": "TUBO AÇO INOXIDÁVEL DN=1\" SEM COSTURA, SCHEDULE 40 S, *(2,500 KG/M) AISI 304",
    "Unid. Med.": "M",
-   "Preço": "173,60"
+   "Preço": "165,31"
  },
  {
    "Código": "HM00307",
    "Descrição": "TUBO AÇO INOXIDÁVEL DN=2\" SEM COSTURA, SCHEDULE 40 S, *(5,440 KG/M) AISI 304",
    "Unid. Med.": "M",
-   "Preço": "378,17"
+   "Preço": "356,10"
  },
  {
    "Código": "HM00304",
    "Descrição": "TUBO AÇO INOXIDÁVEL DN=3/4\" ESP 2,00 MM, PADRÃO OD, *(0,8570 KG/M) AISI 304",
    "Unid. Med.": "M",
-   "Preço": "27,83"
+   "Preço": "30,15"
  },
  {
    "Código": "HM06702",
    "Descrição": "TUBO C/FLANGE PN10 E BOLSA JE FERRO FUNDIDO DN=200 MM L=1.000 MM (55,10 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "2.248,76"
+   "Preço": "2.247,72"
  },
  {
    "Código": "HM03769",
    "Descrição": "TUBO C/FLANGE PN10 E BOLSA JE FERRO FUNDIDO DN=200 MM L=1.000 MM * (55,10 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "2.194,01"
+   "Preço": "2.167,45"
  },
  {
    "Código": "HM06703",
@@ -19971,19 +19971,19 @@ const baseMateriais = [
    "Código": "HM06706",
    "Descrição": "TUBO C/FLANGE PN10 E BOLSA JE FERRO FUNDIDO DN=200 MM L=3.000 MM (124,70 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "4.233,36"
+   "Preço": "4.050,66"
  },
  {
    "Código": "HM03773",
    "Descrição": "TUBO C/FLANGE PN10 E BOLSA JE FERRO FUNDIDO DN=200 MM L=3.000 MM * (124,70 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "3.892,87"
+   "Preço": "3.823,67"
  },
  {
    "Código": "HM06707",
    "Descrição": "TUBO C/FLANGE PN10 E BOLSA JE FERRO FUNDIDO DN=200 MM L=3.500 MM (142,10 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "4.696,84"
+   "Preço": "4.696,85"
  },
  {
    "Código": "HM03774",
@@ -20007,7 +20007,7 @@ const baseMateriais = [
    "Código": "HM06709",
    "Descrição": "TUBO C/FLANGE PN10 E BOLSA JE FERRO FUNDIDO DN=200 MM L=4.500 MM (176,90 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "5.674,49"
+   "Preço": "5.674,48"
  },
  {
    "Código": "HM03776",
@@ -20049,19 +20049,19 @@ const baseMateriais = [
    "Código": "HM03779",
    "Descrição": "TUBO C/FLANGE PN10 E BOLSA JE FERRO FUNDIDO DN=200 MM L=5.800 MM * (222,14 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "6.088,77"
+   "Preço": "6.088,76"
  },
  {
    "Código": "HM06713",
    "Descrição": "TUBO C/FLANGE PN10 E BOLSA JE FERRO FUNDIDO DN=250 MM L=1.000 MM (74,10 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "2.818,81"
+   "Preço": "2.533,74"
  },
  {
    "Código": "HM03780",
    "Descrição": "TUBO C/FLANGE PN10 E BOLSA JE FERRO FUNDIDO DN=250 MM L=1.000 MM * (74,10 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "2.658,49"
+   "Preço": "2.426,85"
  },
  {
    "Código": "HM06714",
@@ -20073,19 +20073,19 @@ const baseMateriais = [
    "Código": "HM03781",
    "Descrição": "TUBO C/FLANGE PN10 E BOLSA JE FERRO FUNDIDO DN=250 MM L=1.500 MM * (96,80 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7676 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "3.128,28"
+   "Preço": "3.128,27"
  },
  {
    "Código": "HM06715",
    "Descrição": "TUBO C/FLANGE PN10 E BOLSA JE FERRO FUNDIDO DN=250 MM L=2.000 MM (119,50 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "3.908,74"
+   "Preço": "3.908,73"
  },
  {
    "Código": "HM03782",
    "Descrição": "TUBO C/FLANGE PN10 E BOLSA JE FERRO FUNDIDO DN=250 MM L=2.000 MM * (119,50 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7677 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "3.664,01"
+   "Preço": "3.664,00"
  },
  {
    "Código": "HM06716",
@@ -20097,19 +20097,19 @@ const baseMateriais = [
    "Código": "HM03783",
    "Descrição": "TUBO C/FLANGE PN10 E BOLSA JE FERRO FUNDIDO DN=250 MM L=2.500 MM * (142,20 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7678 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "4.133,83"
+   "Preço": "4.133,81"
  },
  {
    "Código": "HM06717",
    "Descrição": "TUBO C/FLANGE PN10 E BOLSA JE FERRO FUNDIDO DN=250 MM L=3.000 MM (164,90 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "5.112,61"
+   "Preço": "4.728,07"
  },
  {
    "Código": "HM03784",
    "Descrição": "TUBO C/FLANGE PN10 E BOLSA JE FERRO FUNDIDO DN=250 MM L=3.000 MM * (164,90 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7679 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "4.743,15"
+   "Preço": "4.481,76"
  },
  {
    "Código": "HM03785",
@@ -20151,7 +20151,7 @@ const baseMateriais = [
    "Código": "HM06721",
    "Descrição": "TUBO C/FLANGE PN10 E BOLSA JE FERRO FUNDIDO DN=250 MM L=5.000 MM (255,70 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "7.926,08"
+   "Preço": "7.926,09"
  },
  {
    "Código": "HM03788",
@@ -20169,13 +20169,13 @@ const baseMateriais = [
    "Código": "HM03789",
    "Descrição": "TUBO C/FLANGE PN10 E BOLSA JE FERRO FUNDIDO DN=250 MM L=5.500 MM * (278,40 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7684 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "7.483,37"
+   "Preço": "7.174,25"
  },
  {
    "Código": "HM06723",
    "Descrição": "TUBO C/FLANGE PN10 E BOLSA JE FERRO FUNDIDO DN=250 MM L=5.800 MM (292,02 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "8.000,56"
+   "Preço": "8.231,58"
  },
  {
    "Código": "HM03790",
@@ -20187,19 +20187,19 @@ const baseMateriais = [
    "Código": "HM06724",
    "Descrição": "TUBO C/FLANGE PN10 E BOLSA JE FERRO FUNDIDO DN=300 MM L=1.000 MM (93,70 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "3.354,02"
+   "Preço": "3.031,01"
  },
  {
    "Código": "HM03791",
    "Descrição": "TUBO C/FLANGE PN10 E BOLSA JE FERRO FUNDIDO DN=300 MM L=1.000 MM * (93,70 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7685 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "3.203,96"
+   "Preço": "2.930,97"
  },
  {
    "Código": "HM06725",
    "Descrição": "TUBO C/FLANGE PN10 E BOLSA JE FERRO FUNDIDO DN=300 MM L=1.500 MM (122,25 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "4.050,69"
+   "Preço": "4.050,70"
  },
  {
    "Código": "HM03792",
@@ -20211,7 +20211,7 @@ const baseMateriais = [
    "Código": "HM06726",
    "Descrição": "TUBO C/FLANGE PN10 E BOLSA JE FERRO FUNDIDO DN=300 MM L=2.000 MM (150,80 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "4.792,19"
+   "Preço": "4.792,18"
  },
  {
    "Código": "HM03793",
@@ -20235,13 +20235,13 @@ const baseMateriais = [
    "Código": "HM06728",
    "Descrição": "TUBO C/FLANGE PN10 E BOLSA JE FERRO FUNDIDO DN=300 MM L=3.000 MM (207,90 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "6.232,78"
+   "Preço": "5.785,52"
  },
  {
    "Código": "HM03795",
    "Descrição": "TUBO C/FLANGE PN10 E BOLSA JE FERRO FUNDIDO DN=300 MM L=3.000 MM * (207,90 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7685 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "5.762,39"
+   "Preço": "5.471,92"
  },
  {
    "Código": "HM06729",
@@ -20295,7 +20295,7 @@ const baseMateriais = [
    "Código": "HM03800",
    "Descrição": "TUBO C/FLANGE PN10 E BOLSA JE FERRO FUNDIDO DN=300 MM L=5.500 MM (350,65 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7685 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "9.083,04"
+   "Preço": "8.733,36"
  },
  {
    "Código": "HM06733",
@@ -20319,13 +20319,13 @@ const baseMateriais = [
    "Código": "HM06735",
    "Descrição": "TUBO C/FLANGE PN10 E BOLSA JE FERRO FUNDIDO DN=350 MM L=1.000 MM (122,20 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "3.920,81"
+   "Preço": "3.620,87"
  },
  {
    "Código": "HM03715",
    "Descrição": "TUBO C/FLANGE PN10 E BOLSA JE FERRO FUNDIDO DN=350 MM L=1.000 MM * (122,20 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "3.638,76"
+   "Preço": "3.432,84"
  },
  {
    "Código": "HM06736",
@@ -20343,7 +20343,7 @@ const baseMateriais = [
    "Código": "HM06737",
    "Descrição": "TUBO C/FLANGE PN10 E BOLSA JE FERRO FUNDIDO DN=350 MM L=2.000 MM (197,70 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "5.477,15"
+   "Preço": "5.477,13"
  },
  {
    "Código": "HM03717",
@@ -20355,7 +20355,7 @@ const baseMateriais = [
    "Código": "HM06738",
    "Descrição": "TUBO C/FLANGE PN10 E BOLSA JE FERRO FUNDIDO DN=350 MM L=2.500 MM (235,45 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "6.292,23"
+   "Preço": "6.292,24"
  },
  {
    "Código": "HM03718",
@@ -20367,13 +20367,13 @@ const baseMateriais = [
    "Código": "HM06739",
    "Descrição": "TUBO C/FLANGE PN10 E BOLSA JE FERRO FUNDIDO DN=350 MM L=3.000 MM (273,20 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "7.147,17"
+   "Preço": "6.851,78"
  },
  {
    "Código": "HM03719",
    "Descrição": "TUBO C/FLANGE PN10 E BOLSA JE FERRO FUNDIDO DN=350 MM L=3.000 MM * (273,20 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "6.504,06"
+   "Preço": "6.423,04"
  },
  {
    "Código": "HM06740",
@@ -20433,7 +20433,7 @@ const baseMateriais = [
    "Código": "HM03724",
    "Descrição": "TUBO C/FLANGE PN10 E BOLSA JE FERRO FUNDIDO DN=350 MM L=5.500 MM * (461,95 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "10.182,46"
+   "Preço": "10.227,97"
  },
  {
    "Código": "HM06745",
@@ -20445,19 +20445,19 @@ const baseMateriais = [
    "Código": "HM03725",
    "Descrição": "TUBO C/FLANGE PN10 E BOLSA JE FERRO FUNDIDO DN=350 MM L=5.800 MM * (484,60 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "10.299,70"
+   "Preço": "10.299,69"
  },
  {
    "Código": "HM06746",
    "Descrição": "TUBO C/FLANGE PN10 E BOLSA JE FERRO FUNDIDO DN=400 MM L=1.000 MM (146,80 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "4.463,31"
+   "Preço": "4.104,20"
  },
  {
    "Código": "HM03726",
    "Descrição": "TUBO C/FLANGE PN10 E BOLSA JE FERRO FUNDIDO DN=400 MM L=1.000 MM * (146,80 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "4.142,05"
+   "Preço": "3.890,03"
  },
  {
    "Código": "HM06747",
@@ -20499,13 +20499,13 @@ const baseMateriais = [
    "Código": "HM06750",
    "Descrição": "TUBO C/FLANGE PN10 E BOLSA JE FERRO FUNDIDO DN=400 MM L=3.000 MM (325,80 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "7.906,47"
+   "Preço": "7.595,64"
  },
  {
    "Código": "HM03730",
    "Descrição": "TUBO C/FLANGE PN10 E BOLSA JE FERRO FUNDIDO DN=400 MM L=3.000 MM * (325,80 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "7.329,88"
+   "Preço": "7.211,25"
  },
  {
    "Código": "HM06751",
@@ -20535,7 +20535,7 @@ const baseMateriais = [
    "Código": "HM06753",
    "Descrição": "TUBO C/FLANGE PN10 E BOLSA JE FERRO FUNDIDO DN=400 MM L=4.500 MM (460,05 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "10.642,92"
+   "Preço": "10.642,93"
  },
  {
    "Código": "HM03733",
@@ -20565,7 +20565,7 @@ const baseMateriais = [
    "Código": "HM03735",
    "Descrição": "TUBO C/FLANGE PN10 E BOLSA JE FERRO FUNDIDO DN=400 MM L=5.500 MM * (549,55 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "11.480,78"
+   "Preço": "11.474,18"
  },
  {
    "Código": "HM06756",
@@ -20595,7 +20595,7 @@ const baseMateriais = [
    "Código": "HM06758",
    "Descrição": "TUBO C/FLANGE PN10 E BOLSA JE FERRO FUNDIDO DN=450 MM L=1.500 MM (227,75 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "6.287,20"
+   "Preço": "6.287,19"
  },
  {
    "Código": "HM03738",
@@ -20679,7 +20679,7 @@ const baseMateriais = [
    "Código": "HM06765",
    "Descrição": "TUBO C/FLANGE PN10 E BOLSA JE FERRO FUNDIDO DN=450 MM L=5.000 MM (595,60 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "14.359,68"
+   "Preço": "14.359,69"
  },
  {
    "Código": "HM03745",
@@ -20715,13 +20715,13 @@ const baseMateriais = [
    "Código": "HM06768",
    "Descrição": "TUBO C/FLANGE PN10 E BOLSA JE FERRO FUNDIDO DN=500 MM L=1.000 MM (202,60 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "5.803,91"
+   "Preço": "5.476,60"
  },
  {
    "Código": "HM03840",
    "Descrição": "TUBO C/FLANGE PN10 E BOLSA JE FERRO FUNDIDO DN=500 MM L=1.000 MM * (202,60 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "5.456,11"
+   "Preço": "5.244,74"
  },
  {
    "Código": "HM06769",
@@ -20763,7 +20763,7 @@ const baseMateriais = [
    "Código": "HM06772",
    "Descrição": "TUBO C/FLANGE PN10 E BOLSA JE FERRO FUNDIDO DN=500 MM L=3.000 MM (446,20 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "10.450,53"
+   "Preço": "10.176,35"
  },
  {
    "Código": "HM03844",
@@ -20847,49 +20847,49 @@ const baseMateriais = [
    "Código": "HM06779",
    "Descrição": "TUBO C/FLANGE PN10 E PONTA FERRO FUNDIDO DN=200 MM L=1.000 MM (44,80 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "2.663,80"
+   "Preço": "2.020,21"
  },
  {
    "Código": "HM03955",
    "Descrição": "TUBO C/FLANGE PN10 E PONTA FERRO FUNDIDO DN=200 MM L=1.000 MM * (44,80 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "2.275,48"
+   "Preço": "1.770,76"
  },
  {
    "Código": "HM06780",
    "Descrição": "TUBO C/FLANGE PN10 E PONTA FERRO FUNDIDO DN=200 MM L=1.500 MM (62,20 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "2.989,00"
+   "Preço": "3.219,85"
  },
  {
    "Código": "HM03956",
    "Descrição": "TUBO C/FLANGE PN10 E PONTA FERRO FUNDIDO DN=200 MM L=1.500 MM * (62,20 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "2.484,93"
+   "Preço": "2.806,00"
  },
  {
    "Código": "HM06781",
    "Descrição": "TUBO C/FLANGE PN10 E PONTA FERRO FUNDIDO DN=200 MM L=2.000 MM (79,60 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "3.504,80"
+   "Preço": "3.815,41"
  },
  {
    "Código": "HM03957",
    "Descrição": "TUBO C/FLANGE PN10 E PONTA FERRO FUNDIDO DN=200 MM L=2.000 MM * (79,60 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "2.913,75"
+   "Preço": "3.317,48"
  },
  {
    "Código": "HM06782",
    "Descrição": "TUBO C/FLANGE PN10 E PONTA FERRO FUNDIDO DN=200 MM L=2.500 MM (97,00 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "3.977,99"
+   "Preço": "4.410,88"
  },
  {
    "Código": "HM03958",
    "Descrição": "TUBO C/FLANGE PN10 E PONTA FERRO FUNDIDO DN=200 MM L=2.500 MM * (97,00 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "3.307,14"
+   "Preço": "3.792,66"
  },
  {
    "Código": "HM06783",
@@ -20901,55 +20901,55 @@ const baseMateriais = [
    "Código": "HM03959",
    "Descrição": "TUBO C/FLANGE PN10 E PONTA FERRO FUNDIDO DN=200 MM L=3.000 MM * (114,40 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "3.843,49"
+   "Preço": "3.991,13"
  },
  {
    "Código": "HM06784",
    "Descrição": "TUBO C/FLANGE PN10 E PONTA FERRO FUNDIDO DN=200 MM L=3.500 MM (131,80 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "5.649,10"
+   "Preço": "5.585,66"
  },
  {
    "Código": "HM03960",
    "Descrição": "TUBO C/FLANGE PN10 E PONTA FERRO FUNDIDO DN=200 MM L=3.500 MM * (131,80 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "4.276,56"
+   "Preço": "4.651,72"
  },
  {
    "Código": "HM06785",
    "Descrição": "TUBO C/FLANGE PN10 E PONTA FERRO FUNDIDO DN=200 MM L=4.000 MM (149,20 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "6.249,23"
+   "Preço": "6.199,62"
  },
  {
    "Código": "HM03961",
    "Descrição": "TUBO C/FLANGE PN10 E PONTA FERRO FUNDIDO DN=200 MM L=4.000 MM * (149,20 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "4.709,63"
+   "Preço": "5.152,93"
  },
  {
    "Código": "HM06786",
    "Descrição": "TUBO C/FLANGE PN10 E PONTA FERRO FUNDIDO DN=200 MM L=4.500 MM (166,60 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "6.770,81"
+   "Preço": "6.772,92"
  },
  {
    "Código": "HM03962",
    "Descrição": "TUBO C/FLANGE PN10 E PONTA FERRO FUNDIDO DN=200 MM L=4.500 MM * (166,60 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "5.142,70"
+   "Preço": "5.615,50"
  },
  {
    "Código": "HM06787",
    "Descrição": "TUBO C/FLANGE PN10 E PONTA FERRO FUNDIDO DN=200 MM L=5.000 MM (184,00 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "6.781,53"
+   "Preço": "7.590,05"
  },
  {
    "Código": "HM03963",
    "Descrição": "TUBO C/FLANGE PN10 E PONTA FERRO FUNDIDO DN=200 MM L=5.000 MM * (184,00 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "5.637,89"
+   "Preço": "6.309,54"
  },
  {
    "Código": "HM06788",
@@ -20961,121 +20961,121 @@ const baseMateriais = [
    "Código": "HM03964",
    "Descrição": "TUBO C/FLANGE PN10 E PONTA FERRO FUNDIDO DN=200 MM L=5.500 MM * (201,40 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "6.008,83"
+   "Preço": "6.249,79"
  },
  {
    "Código": "HM06789",
    "Descrição": "TUBO C/FLANGE PN10 E PONTA FERRO FUNDIDO DN=200 MM L=5.800 MM (211,84 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "8.259,78"
+   "Preço": "8.309,36"
  },
  {
    "Código": "HM03965",
    "Descrição": "TUBO C/FLANGE PN10 E PONTA FERRO FUNDIDO DN=200 MM L=5.800 MM * (211,84 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "6.268,68"
+   "Preço": "6.808,08"
  },
  {
    "Código": "HM06790",
    "Descrição": "TUBO C/FLANGE PN10 E PONTA FERRO FUNDIDO DN=250 MM L=1.000 MM (59,60 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "3.239,28"
+   "Preço": "2.602,02"
  },
  {
    "Código": "HM03966",
    "Descrição": "TUBO C/FLANGE PN10 E PONTA FERRO FUNDIDO DN=250 MM L=1.000 MM * (59,60 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "2.470,52"
+   "Preço": "2.553,71"
  },
  {
    "Código": "HM06791",
    "Descrição": "TUBO C/FLANGE PN10 E PONTA FERRO FUNDIDO DN=250 MM L=1.500 MM (82,60 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "3.709,59"
+   "Preço": "3.562,76"
  },
  {
    "Código": "HM03967",
    "Descrição": "TUBO C/FLANGE PN10 E PONTA FERRO FUNDIDO DN=250 MM L=1.500 MM * (82,60 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "3.084,00"
+   "Preço": "3.453,97"
  },
  {
    "Código": "HM06792",
    "Descrição": "TUBO C/FLANGE PN10 E PONTA FERRO FUNDIDO DN=250 MM L=2.000 MM (105,30 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "4.373,06"
+   "Preço": "4.230,40"
  },
  {
    "Código": "HM03968",
    "Descrição": "TUBO C/FLANGE PN10 E PONTA FERRO FUNDIDO DN=250 MM L=2.000 MM * (105,30 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "3.635,58"
+   "Preço": "4.084,94"
  },
  {
    "Código": "HM06793",
    "Descrição": "TUBO C/FLANGE PN10 E PONTA FERRO FUNDIDO DN=250 MM L=2.500 MM (128,00 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "4.988,49"
+   "Preço": "4.860,49"
  },
  {
    "Código": "HM03969",
    "Descrição": "TUBO C/FLANGE PN10 E PONTA FERRO FUNDIDO DN=250 MM L=2.500 MM * (128,00 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "4.147,23"
+   "Preço": "4.672,17"
  },
  {
    "Código": "HM06794",
    "Descrição": "TUBO C/FLANGE PN10 E PONTA FERRO FUNDIDO DN=250 MM L=3.000 MM (150,70 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "5.667,50"
+   "Preço": "5.240,38"
  },
  {
    "Código": "HM03970",
    "Descrição": "TUBO C/FLANGE PN10 E PONTA FERRO FUNDIDO DN=250 MM L=3.000 MM * (150,70 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "4.711,73"
+   "Preço": "5.090,93"
  },
  {
    "Código": "HM06795",
    "Descrição": "TUBO C/FLANGE PN10 E PONTA FERRO FUNDIDO DN=250 MM L=3.500 MM (173,40 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "6.195,24"
+   "Preço": "6.182,20"
  },
  {
    "Código": "HM03971",
    "Descrição": "TUBO C/FLANGE PN10 E PONTA FERRO FUNDIDO DN=250 MM L=3.500 MM * (173,40 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "5.150,47"
+   "Preço": "5.920,50"
  },
  {
    "Código": "HM06796",
    "Descrição": "TUBO C/FLANGE PN10 E PONTA FERRO FUNDIDO DN=250 MM L=4.000 MM (196,10 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "6.871,81"
+   "Preço": "6.860,85"
  },
  {
    "Código": "HM03972",
    "Descrição": "TUBO C/FLANGE PN10 E PONTA FERRO FUNDIDO DN=250 MM L=4.000 MM * (196,10 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "5.712,94"
+   "Preço": "6.561,83"
  },
  {
    "Código": "HM06797",
    "Descrição": "TUBO C/FLANGE PN10 E PONTA FERRO FUNDIDO DN=250 MM L=4.500 MM (218,80 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "7.505,29"
+   "Preço": "7.527,80"
  },
  {
    "Código": "HM03973",
    "Descrição": "TUBO C/FLANGE PN10 E PONTA FERRO FUNDIDO DN=250 MM L=4.500 MM * (218,80 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "6.239,59"
+   "Preço": "7.149,52"
  },
  {
    "Código": "HM06798",
    "Descrição": "TUBO C/FLANGE PN10 E PONTA FERRO FUNDIDO DN=250 MM L=5.000 MM (241,50 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "8.617,99"
+   "Preço": "8.472,52"
  },
  {
    "Código": "HM03974",
@@ -21093,67 +21093,67 @@ const baseMateriais = [
    "Código": "HM03975",
    "Descrição": "TUBO C/FLANGE PN10 E PONTA FERRO FUNDIDO DN=250 MM L=5.500 MM * (264,20 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "7.483,63"
+   "Preço": "7.942,23"
  },
  {
    "Código": "HM06800",
    "Descrição": "TUBO C/FLANGE PN10 E PONTA FERRO FUNDIDO DN=250 MM L=5.800 MM (277,82 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "10.654,78"
+   "Preço": "10.716,78"
  },
  {
    "Código": "HM03976",
    "Descrição": "TUBO C/FLANGE PN10 E PONTA FERRO FUNDIDO DN=250 MM L=5.800 MM * (277,82 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "7.817,35"
+   "Preço": "8.756,49"
  },
  {
    "Código": "HM06801",
    "Descrição": "TUBO C/FLANGE PN10 E PONTA FERRO FUNDIDO DN=300 MM L=1.000 MM (75,10 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "3.914,81"
+   "Preço": "3.173,52"
  },
  {
    "Código": "HM03977",
    "Descrição": "TUBO C/FLANGE PN10 E PONTA FERRO FUNDIDO DN=300 MM L=1.000 MM * (75,10 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "2.858,48"
+   "Preço": "3.104,87"
  },
  {
    "Código": "HM06802",
    "Descrição": "TUBO C/FLANGE PN10 E PONTA FERRO FUNDIDO DN=300 MM L=1.500 MM (103,65 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "4.376,64"
+   "Preço": "4.926,60"
  },
  {
    "Código": "HM03978",
    "Descrição": "TUBO C/FLANGE PN10 E PONTA FERRO FUNDIDO DN=300 MM L=1.500 MM * (103,65 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "3.638,56"
+   "Preço": "4.117,10"
  },
  {
    "Código": "HM06803",
    "Descrição": "TUBO C/FLANGE PN10 E PONTA FERRO FUNDIDO DN=300 MM L=2.000 MM (132,20 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "5.203,10"
+   "Preço": "5.840,17"
  },
  {
    "Código": "HM03979",
    "Descrição": "TUBO C/FLANGE PN10 E PONTA FERRO FUNDIDO DN=300 MM L=2.000 MM * (132,20 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "4.325,65"
+   "Preço": "4.856,47"
  },
  {
    "Código": "HM06804",
    "Descrição": "TUBO C/FLANGE PN10 E PONTA FERRO FUNDIDO DN=300 MM L=2.500 MM (160,75 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "5.964,24"
+   "Preço": "6.753,86"
  },
  {
    "Código": "HM03980",
    "Descrição": "TUBO C/FLANGE PN10 E PONTA FERRO FUNDIDO DN=300 MM L=2.500 MM * (160,75 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "4.958,43"
+   "Preço": "5.539,94"
  },
  {
    "Código": "HM06805",
@@ -21165,55 +21165,55 @@ const baseMateriais = [
    "Código": "HM03981",
    "Descrição": "TUBO C/FLANGE PN10 E PONTA FERRO FUNDIDO DN=300 MM L=3.000 MM * (189,30 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "5.932,68"
+   "Preço": "5.952,00"
  },
  {
    "Código": "HM06806",
    "Descrição": "TUBO C/FLANGE PN10 E PONTA FERRO FUNDIDO DN=300 MM L=3.500 MM (217,85 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "8.092,84"
+   "Preço": "8.577,42"
  },
  {
    "Código": "HM03982",
    "Descrição": "TUBO C/FLANGE PN10 E PONTA FERRO FUNDIDO DN=300 MM L=3.500 MM * (217,85 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "6.728,06"
+   "Preço": "7.031,80"
  },
  {
    "Código": "HM06807",
    "Descrição": "TUBO C/FLANGE PN10 E PONTA FERRO FUNDIDO DN=300 MM L=4.000 MM (246,40 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "9.046,77"
+   "Preço": "9.490,99"
  },
  {
    "Código": "HM03983",
    "Descrição": "TUBO C/FLANGE PN10 E PONTA FERRO FUNDIDO DN=300 MM L=4.000 MM * (246,40 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "7.521,12"
+   "Preço": "7.779,58"
  },
  {
    "Código": "HM06808",
    "Descrição": "TUBO C/FLANGE PN10 E PONTA FERRO FUNDIDO DN=300 MM L=4.500 MM (274,95 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "8.334,04"
+   "Preço": "10.401,17"
  },
  {
    "Código": "HM03984",
    "Descrição": "TUBO C/FLANGE PN10 E PONTA FERRO FUNDIDO DN=300 MM L=4.500 MM * (274,95 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "8.109,30"
+   "Preço": "8.469,42"
  },
  {
    "Código": "HM06809",
    "Descrição": "TUBO C/FLANGE PN10 E PONTA FERRO FUNDIDO DN=300 MM L=5.000 MM (303,50 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "11.280,30"
+   "Preço": "11.661,36"
  },
  {
    "Código": "HM03985",
    "Descrição": "TUBO C/FLANGE PN10 E PONTA FERRO FUNDIDO DN=300 MM L=5.000 MM * (303,50 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "8.834,85"
+   "Preço": "9.505,74"
  },
  {
    "Código": "HM06810",
@@ -21225,31 +21225,31 @@ const baseMateriais = [
    "Código": "HM03986",
    "Descrição": "TUBO C/FLANGE PN10 E PONTA FERRO FUNDIDO DN=300 MM L=5.500 MM * (332,05 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "9.560,39"
+   "Preço": "10.474,19"
  },
  {
    "Código": "HM06811",
    "Descrição": "TUBO C/FLANGE PN10 E PONTA FERRO FUNDIDO DN=300 MM L=5.800 MM (349,18 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "12.511,23"
+   "Preço": "12.572,85"
  },
  {
    "Código": "HM03987",
    "Descrição": "TUBO C/FLANGE PN10 E PONTA FERRO FUNDIDO DN=300 MM L=5.800 MM * (349,18 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "9.995,71"
+   "Preço": "12.127,24"
  },
  {
    "Código": "HM06812",
    "Descrição": "TUBO C/FLANGE PN10 E PONTA FERRO FUNDIDO DN=350 MM L=1.000 MM (98,50 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "4.787,52"
+   "Preço": "3.440,19"
  },
  {
    "Código": "HM03900",
    "Descrição": "TUBO C/FLANGE PN10 E PONTA FERRO FUNDIDO DN=350 MM L=1.000 MM * (98,50 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "3.192,84"
+   "Preço": "3.297,73"
  },
  {
    "Código": "HM06813",
@@ -21261,7 +21261,7 @@ const baseMateriais = [
    "Código": "HM03901",
    "Descrição": "TUBO C/FLANGE PN10 E PONTA FERRO FUNDIDO DN=350 MM L=1.500 MM * (136,25 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "4.041,12"
+   "Preço": "4.919,49"
  },
  {
    "Código": "HM06814",
@@ -21273,67 +21273,67 @@ const baseMateriais = [
    "Código": "HM03902",
    "Descrição": "TUBO C/FLANGE PN10 E PONTA FERRO FUNDIDO DN=350 MM L=2.000 MM * (174,00 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "4.736,25"
+   "Preço": "5.783,81"
  },
  {
    "Código": "HM06815",
    "Descrição": "TUBO C/FLANGE PN10 E PONTA FERRO FUNDIDO DN=350 MM L=2.500 MM (211,75 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "6.647,03"
+   "Preço": "6.647,02"
  },
  {
    "Código": "HM03903",
    "Descrição": "TUBO C/FLANGE PN10 E PONTA FERRO FUNDIDO DN=350 MM L=2.500 MM * (211,75 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "5.343,98"
+   "Preço": "6.589,87"
  },
  {
    "Código": "HM06816",
    "Descrição": "TUBO C/FLANGE PN10 E PONTA FERRO FUNDIDO DN=350 MM L=3.000 MM (249,50 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "8.164,89"
+   "Preço": "7.688,92"
  },
  {
    "Código": "HM03904",
    "Descrição": "TUBO C/FLANGE PN10 E PONTA FERRO FUNDIDO DN=350 MM L=3.000 MM * (249,50 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "6.787,96"
+   "Preço": "7.067,39"
  },
  {
    "Código": "HM06817",
    "Descrição": "TUBO C/FLANGE PN10 E PONTA FERRO FUNDIDO DN=350 MM L=3.500 MM (287,25 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "8.296,45"
+   "Preço": "9.360,00"
  },
  {
    "Código": "HM03905",
    "Descrição": "TUBO C/FLANGE PN10 E PONTA FERRO FUNDIDO DN=350 MM L=3.500 MM * (287,25 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "6.897,33"
+   "Preço": "8.418,62"
  },
  {
    "Código": "HM06818",
    "Descrição": "TUBO C/FLANGE PN10 E PONTA FERRO FUNDIDO DN=350 MM L=4.000 MM (325,00 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "9.141,21"
+   "Preço": "10.324,07"
  },
  {
    "Código": "HM03906",
    "Descrição": "TUBO C/FLANGE PN10 E PONTA FERRO FUNDIDO DN=350 MM L=4.000 MM * (325,00 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "7.599,63"
+   "Preço": "9.298,35"
  },
  {
    "Código": "HM06819",
    "Descrição": "TUBO C/FLANGE PN10 E PONTA FERRO FUNDIDO DN=350 MM L=4.500 MM (362,75 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "9.946,14"
+   "Preço": "11.261,60"
  },
  {
    "Código": "HM03907",
    "Descrição": "TUBO C/FLANGE PN10 E PONTA FERRO FUNDIDO DN=350 MM L=4.500 MM * (362,75 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "8.268,82"
+   "Preço": "10.119,86"
  },
  {
    "Código": "HM06820",
@@ -21345,43 +21345,43 @@ const baseMateriais = [
    "Código": "HM03908",
    "Descrição": "TUBO C/FLANGE PN10 E PONTA FERRO FUNDIDO DN=350 MM L=5.000 MM * (400,50 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "9.410,16"
+   "Preço": "11.297,16"
  },
  {
    "Código": "HM06821",
    "Descrição": "TUBO C/FLANGE PN10 E PONTA FERRO FUNDIDO DN=350 MM L=5.500 MM (438,25 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "12.606,56"
+   "Preço": "12.032,44"
  },
  {
    "Código": "HM03909",
    "Descrição": "TUBO C/FLANGE PN10 E PONTA FERRO FUNDIDO DN=350 MM L=5.500 MM * (438,25 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "10.480,58"
+   "Preço": "11.548,60"
  },
  {
    "Código": "HM06822",
    "Descrição": "TUBO C/FLANGE PN10 E PONTA FERRO FUNDIDO DN=350 MM L=5.800 MM (460,90 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "14.208,44"
+   "Preço": "15.508,99"
  },
  {
    "Código": "HM03910",
    "Descrição": "TUBO C/FLANGE PN10 E PONTA FERRO FUNDIDO DN=350 MM L=5.800 MM * (460,90 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "10.623,49"
+   "Preço": "12.374,01"
  },
  {
    "Código": "HM06823",
    "Descrição": "TUBO C/FLANGE PN10 E PONTA FERRO FUNDIDO DN=400 MM L=1.000 MM (117,50 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "5.673,53"
+   "Preço": "4.495,99"
  },
  {
    "Código": "HM03911",
    "Descrição": "TUBO C/FLANGE PN10 E PONTA FERRO FUNDIDO DN=400 MM L=1.000 MM * (117,50 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "3.644,06"
+   "Preço": "3.730,26"
  },
  {
    "Código": "HM06824",
@@ -21399,7 +21399,7 @@ const baseMateriais = [
    "Código": "HM06825",
    "Descrição": "TUBO C/FLANGE PN10 E PONTA FERRO FUNDIDO DN=400 MM L=2.000 MM (207,00 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "6.604,80"
+   "Preço": "6.604,81"
  },
  {
    "Código": "HM03913",
@@ -21423,13 +21423,13 @@ const baseMateriais = [
    "Código": "HM06827",
    "Descrição": "TUBO C/FLANGE PN10 E PONTA FERRO FUNDIDO DN=400 MM L=3.000 MM (296,50 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "8.429,07"
+   "Preço": "8.747,96"
  },
  {
    "Código": "HM03915",
    "Descrição": "TUBO C/FLANGE PN10 E PONTA FERRO FUNDIDO DN=400 MM L=3.000 MM * (296,50 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "6.963,11"
+   "Preço": "6.966,74"
  },
  {
    "Código": "HM06828",
@@ -21477,31 +21477,31 @@ const baseMateriais = [
    "Código": "HM03919",
    "Descrição": "TUBO C/FLANGE PN10 E PONTA FERRO FUNDIDO DN=400 MM L=5.000 MM * (475,00 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "10.422,59"
+   "Preço": "12.862,18"
  },
  {
    "Código": "HM06832",
    "Descrição": "TUBO C/FLANGE PN10 E PONTA FERRO FUNDIDO DN=400 MM L=5.500 MM (520,25 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "13.461,46"
+   "Preço": "13.294,62"
  },
  {
    "Código": "HM03920",
    "Descrição": "TUBO C/FLANGE PN10 E PONTA FERRO FUNDIDO DN=400 MM L=5.500 MM * (520,25 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "11.191,31"
+   "Preço": "13.103,56"
  },
  {
    "Código": "HM06833",
    "Descrição": "TUBO C/FLANGE PN10 E PONTA FERRO FUNDIDO DN=400 MM L=5.800 MM (547,10 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "18.224,96"
+   "Preço": "18.313,82"
  },
  {
    "Código": "HM03921",
    "Descrição": "TUBO C/FLANGE PN10 E PONTA FERRO FUNDIDO DN=400 MM L=5.800 MM * (547,10 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "11.542,68"
+   "Preço": "14.122,62"
  },
  {
    "Código": "HM06834",
@@ -21531,7 +21531,7 @@ const baseMateriais = [
    "Código": "HM06836",
    "Descrição": "TUBO C/FLANGE PN10 E PONTA FERRO FUNDIDO DN=450 MM L=2.000 MM (244,70 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "7.266,64"
+   "Preço": "7.844,24"
  },
  {
    "Código": "HM03924",
@@ -21543,7 +21543,7 @@ const baseMateriais = [
    "Código": "HM06837",
    "Descrição": "TUBO C/FLANGE PN10 E PONTA FERRO FUNDIDO DN=450 MM L=2.500 MM (297,25 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "8.291,53"
+   "Preço": "8.851,20"
  },
  {
    "Código": "HM03925",
@@ -21555,7 +21555,7 @@ const baseMateriais = [
    "Código": "HM06838",
    "Descrição": "TUBO C/FLANGE PN10 E PONTA FERRO FUNDIDO DN=450 MM L=3.000 MM (349,80 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "8.934,05"
+   "Preço": "8.934,04"
  },
  {
    "Código": "HM03926",
@@ -21627,7 +21627,7 @@ const baseMateriais = [
    "Código": "HM06844",
    "Descrição": "TUBO C/FLANGE PN10 E PONTA FERRO FUNDIDO DN=450 MM L=5.800 MM (644,08 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "18.849,67"
+   "Preço": "15.383,85"
  },
  {
    "Código": "HM03932",
@@ -21639,19 +21639,19 @@ const baseMateriais = [
    "Código": "HM06845",
    "Descrição": "TUBO C/FLANGE PN10 E PONTA FERRO FUNDIDO DN=500 MM L=1.000 MM (159,80 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "6.422,59"
+   "Preço": "5.163,25"
  },
  {
    "Código": "HM04025",
    "Descrição": "TUBO C/FLANGE PN10 E PONTA FERRO FUNDIDO DN=500 MM L=1.000 MM * (159,80 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "5.036,81"
+   "Preço": "4.964,87"
  },
  {
    "Código": "HM06846",
    "Descrição": "TUBO C/FLANGE PN10 E PONTA FERRO FUNDIDO DN=500 MM L=1.500 MM (220,70 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "7.273,07"
+   "Preço": "6.418,15"
  },
  {
    "Código": "HM04026",
@@ -21687,19 +21687,19 @@ const baseMateriais = [
    "Código": "HM06849",
    "Descrição": "TUBO C/FLANGE PN10 E PONTA FERRO FUNDIDO DN=500 MM L=3.000 MM (403,40 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "9.968,00"
+   "Preço": "9.854,67"
  },
  {
    "Código": "HM04029",
    "Descrição": "TUBO C/FLANGE PN10 E PONTA FERRO FUNDIDO DN=500 MM L=3.000 MM * (403,40 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "9.139,82"
+   "Preço": "9.302,55"
  },
  {
    "Código": "HM06850",
    "Descrição": "TUBO C/FLANGE PN10 E PONTA FERRO FUNDIDO DN=500 MM L=3.500 MM (464,30 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "13.555,36"
+   "Preço": "13.630,59"
  },
  {
    "Código": "HM04030",
@@ -21711,7 +21711,7 @@ const baseMateriais = [
    "Código": "HM06851",
    "Descrição": "TUBO C/FLANGE PN10 E PONTA FERRO FUNDIDO DN=500 MM L=4.000 MM (525,20 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "14.991,01"
+   "Preço": "15.052,50"
  },
  {
    "Código": "HM04031",
@@ -21723,7 +21723,7 @@ const baseMateriais = [
    "Código": "HM06852",
    "Descrição": "TUBO C/FLANGE PN10 E PONTA FERRO FUNDIDO DN=500 MM L=4.500 MM (586,10 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "16.331,97"
+   "Preço": "16.447,30"
  },
  {
    "Código": "HM04032",
@@ -21735,7 +21735,7 @@ const baseMateriais = [
    "Código": "HM06853",
    "Descrição": "TUBO C/FLANGE PN10 E PONTA FERRO FUNDIDO DN=500 MM L=5.000 MM (647,00 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "18.715,81"
+   "Preço": "18.425,12"
  },
  {
    "Código": "HM04033",
@@ -21747,37 +21747,37 @@ const baseMateriais = [
    "Código": "HM06854",
    "Descrição": "TUBO C/FLANGE PN10 E PONTA FERRO FUNDIDO DN=500 MM L=5.500 MM (707,90 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "19.151,31"
+   "Preço": "19.300,01"
  },
  {
    "Código": "HM04034",
    "Descrição": "TUBO C/FLANGE PN10 E PONTA FERRO FUNDIDO DN=500 MM L=5.500 MM * (707,90 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "14.274,56"
+   "Preço": "14.988,29"
  },
  {
    "Código": "HM06855",
    "Descrição": "TUBO C/FLANGE PN10 E PONTA FERRO FUNDIDO DN=500 MM L=5.800 MM (744,44 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "19.775,06"
+   "Preço": "19.857,14"
  },
  {
    "Código": "HM04035",
    "Descrição": "TUBO C/FLANGE PN10 E PONTA FERRO FUNDIDO DN=500 MM L=5.800 MM * (744,44 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "14.710,52"
+   "Preço": "15.446,05"
  },
  {
    "Código": "HM06856",
    "Descrição": "TUBO C/FLANGE PN10/16 E BOLSA JE FERRO FUNDIDO DN=100 MM L=1.000 MM (26,00 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "1.873,73"
+   "Preço": "1.602,44"
  },
  {
    "Código": "HM03748",
    "Descrição": "TUBO C/FLANGE PN10/16 E BOLSA JE FERRO FUNDIDO DN=100 MM L=1.000 MM * (26,00 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "1.514,80"
+   "Preço": "1.538,87"
  },
  {
    "Código": "HM06857",
@@ -21789,7 +21789,7 @@ const baseMateriais = [
    "Código": "HM03749",
    "Descrição": "TUBO C/FLANGE PN10/16 E BOLSA JE FERRO FUNDIDO DN=100 MM L=1.500 MM * (34,60 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "1.784,69"
+   "Preço": "1.873,92"
  },
  {
    "Código": "HM06858",
@@ -21819,13 +21819,13 @@ const baseMateriais = [
    "Código": "HM06860",
    "Descrição": "TUBO C/FLANGE PN10/16 E BOLSA JE FERRO FUNDIDO DN=100 MM L=3.000 MM (60,40 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "2.754,47"
+   "Preço": "2.500,98"
  },
  {
    "Código": "HM03752",
    "Descrição": "TUBO C/FLANGE PN10/16 E BOLSA JE FERRO FUNDIDO DN=100 MM L=3.000 MM * (60,40 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "2.574,45"
+   "Preço": "2.380,97"
  },
  {
    "Código": "HM06861",
@@ -21837,7 +21837,7 @@ const baseMateriais = [
    "Código": "HM03753",
    "Descrição": "TUBO C/FLANGE PN10/16 E BOLSA JE FERRO FUNDIDO DN=100 MM L=3.500 MM * (69,00 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "2.817,81"
+   "Preço": "2.817,82"
  },
  {
    "Código": "HM06862",
@@ -21849,13 +21849,13 @@ const baseMateriais = [
    "Código": "HM03754",
    "Descrição": "TUBO C/FLANGE PN10/16 E BOLSA JE FERRO FUNDIDO DN=100 MM L=4.000 MM * (77,60 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "3.101,20"
+   "Preço": "3.101,21"
  },
  {
    "Código": "HM06863",
    "Descrição": "TUBO C/FLANGE PN10/16 E BOLSA JE FERRO FUNDIDO DN=100 MM L=4.500 MM (86,20 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "3.610,05"
+   "Preço": "3.610,04"
  },
  {
    "Código": "HM03755",
@@ -21873,7 +21873,7 @@ const baseMateriais = [
    "Código": "HM03756",
    "Descrição": "TUBO C/FLANGE PN10/16 E BOLSA JE FERRO FUNDIDO DN=100 MM L=5.000 MM * (94,80 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "3.817,13"
+   "Preço": "3.588,42"
  },
  {
    "Código": "HM06865",
@@ -21903,25 +21903,25 @@ const baseMateriais = [
    "Código": "HM06867",
    "Descrição": "TUBO C/FLANGE PN10/16 E BOLSA JE FERRO FUNDIDO DN=150 MM L=1.000 MM (41,10 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "2.096,87"
+   "Preço": "1.946,88"
  },
  {
    "Código": "HM03758",
    "Descrição": "TUBO C/FLANGE PN10/16 E BOLSA JE FERRO FUNDIDO DN=150 MM L=1.000 MM * (41,10 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "1.798,99"
+   "Preço": "1.596,86"
  },
  {
    "Código": "HM06868",
    "Descrição": "TUBO C/FLANGE PN10/16 E BOLSA JE FERRO FUNDIDO DN=150 MM L=1.500 MM (54,10 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "2.764,72"
+   "Preço": "2.765,58"
  },
  {
    "Código": "HM03759",
    "Descrição": "TUBO C/FLANGE PN10/16 E BOLSA JE FERRO FUNDIDO DN=150 MM L=1.500 MM * (54,10 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "2.150,12"
+   "Preço": "2.257,63"
  },
  {
    "Código": "HM06869",
@@ -21933,7 +21933,7 @@ const baseMateriais = [
    "Código": "HM03760",
    "Descrição": "TUBO C/FLANGE PN10/16 E BOLSA JE FERRO FUNDIDO DN=150 MM L=2.000 MM * (67,10 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "2.492,15"
+   "Preço": "2.492,16"
  },
  {
    "Código": "HM06870",
@@ -21945,19 +21945,19 @@ const baseMateriais = [
    "Código": "HM03761",
    "Descrição": "TUBO C/FLANGE PN10/16 E BOLSA JE FERRO FUNDIDO DN=150 MM L=2.500 MM * (80,10 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "2.787,69"
+   "Preço": "2.787,70"
  },
  {
    "Código": "HM06871",
    "Descrição": "TUBO C/FLANGE PN10/16 E BOLSA JE FERRO FUNDIDO DN=150 MM L=3.000 MM (93,10 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "3.366,46"
+   "Preço": "3.053,31"
  },
  {
    "Código": "HM03762",
    "Descrição": "TUBO C/FLANGE PN10/16 E BOLSA JE FERRO FUNDIDO DN=150 MM L=3.000 MM * (93,10 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "3.115,40"
+   "Preço": "2.885,93"
  },
  {
    "Código": "HM06872",
@@ -22035,49 +22035,49 @@ const baseMateriais = [
    "Código": "HM06878",
    "Descrição": "TUBO C/FLANGE PN10/16 E PONTA FERRO FUNDIDO DN=100 MM L=1.000 MM (21,70 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "1.774,95"
+   "Preço": "1.424,83"
  },
  {
    "Código": "HM03933",
    "Descrição": "TUBO C/FLANGE PN10/16 E PONTA FERRO FUNDIDO DN=100 MM L=1.000 MM * (21,70 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "1.544,73"
+   "Preço": "1.386,83"
  },
  {
    "Código": "HM06879",
    "Descrição": "TUBO C/FLANGE PN10/16 E PONTA FERRO FUNDIDO DN=100 MM L=1.500 MM (30,30 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "2.094,00"
+   "Preço": "2.237,41"
  },
  {
    "Código": "HM03934",
    "Descrição": "TUBO C/FLANGE PN10/16 E PONTA FERRO FUNDIDO DN=100 MM L=1.500 MM * (30,30 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "1.740,87"
+   "Preço": "1.896,08"
  },
  {
    "Código": "HM06880",
    "Descrição": "TUBO C/FLANGE PN10/16 E PONTA FERRO FUNDIDO DN=100 MM L=2.000 MM (38,90 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "2.429,30"
+   "Preço": "2.638,65"
  },
  {
    "Código": "HM03935",
    "Descrição": "TUBO C/FLANGE PN10/16 E PONTA FERRO FUNDIDO DN=100 MM L=2.000 MM * (38,90 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "2.019,62"
+   "Preço": "2.236,30"
  },
  {
    "Código": "HM06881",
    "Descrição": "TUBO C/FLANGE PN10/16 E PONTA FERRO FUNDIDO DN=100 MM L=2.500 MM (47,50 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "2.734,59"
+   "Preço": "3.040,18"
  },
  {
    "Código": "HM03936",
    "Descrição": "TUBO C/FLANGE PN10/16 E PONTA FERRO FUNDIDO DN=100 MM L=2.500 MM * (47,50 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "2.273,43"
+   "Preço": "2.549,76"
  },
  {
    "Código": "HM06882",
@@ -22089,55 +22089,55 @@ const baseMateriais = [
    "Código": "HM03937",
    "Descrição": "TUBO C/FLANGE PN10/16 E PONTA FERRO FUNDIDO DN=100 MM L=3.000 MM * (56,10 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "2.552,79"
+   "Preço": "2.713,67"
  },
  {
    "Código": "HM06883",
    "Descrição": "TUBO C/FLANGE PN10/16 E PONTA FERRO FUNDIDO DN=100 MM L=3.500 MM (64,70 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "3.386,16"
+   "Preço": "3.333,76"
  },
  {
    "Código": "HM03938",
    "Descrição": "TUBO C/FLANGE PN10/16 E PONTA FERRO FUNDIDO DN=100 MM L=3.500 MM * (64,70 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "2.815,12"
+   "Preço": "3.192,71"
  },
  {
    "Código": "HM06884",
    "Descrição": "TUBO C/FLANGE PN10/16 E PONTA FERRO FUNDIDO DN=100 MM L=4.000 MM (73,30 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "3.722,62"
+   "Preço": "3.682,07"
  },
  {
    "Código": "HM03939",
    "Descrição": "TUBO C/FLANGE PN10/16 E PONTA FERRO FUNDIDO DN=100 MM L=4.000 MM * (73,30 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "3.094,84"
+   "Preço": "3.528,92"
  },
  {
    "Código": "HM06885",
    "Descrição": "TUBO C/FLANGE PN10/16 E PONTA FERRO FUNDIDO DN=100 MM L=4.500 MM (81,90 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "4.028,83"
+   "Preço": "4.018,92"
  },
  {
    "Código": "HM03940",
    "Descrição": "TUBO C/FLANGE PN10/16 E PONTA FERRO FUNDIDO DN=100 MM L=4.500 MM * (81,90 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "3.349,41"
+   "Preço": "3.842,37"
  },
  {
    "Código": "HM06886",
    "Descrição": "TUBO C/FLANGE PN10/16 E PONTA FERRO FUNDIDO DN=100 MM L=5.000 MM (90,50 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "4.615,22"
+   "Preço": "4.523,19"
  },
  {
    "Código": "HM03941",
    "Descrição": "TUBO C/FLANGE PN10/16 E PONTA FERRO FUNDIDO DN=100 MM L=5.000 MM * (90,50 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "3.836,91"
+   "Preço": "4.314,40"
  },
  {
    "Código": "HM06887",
@@ -22149,67 +22149,67 @@ const baseMateriais = [
    "Código": "HM03942",
    "Descrição": "TUBO C/FLANGE PN10/16 E PONTA FERRO FUNDIDO DN=100 MM L=5.500 MM * (99,10 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "3.884,47"
+   "Preço": "4.325,40"
  },
  {
    "Código": "HM06888",
    "Descrição": "TUBO C/FLANGE PN10/16 E PONTA FERRO FUNDIDO DN=100 MM L=5.800 MM (104,26 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "5.194,23"
+   "Preço": "5.604,97"
  },
  {
    "Código": "HM03943",
    "Descrição": "TUBO C/FLANGE PN10/16 E PONTA FERRO FUNDIDO DN=100 MM L=5.800 MM * (104,26 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "4.105,41"
+   "Preço": "4.600,57"
  },
  {
    "Código": "HM06889",
    "Descrição": "TUBO C/FLANGE PN10/16 E PONTA FERRO FUNDIDO DN=150 MM L=1.000 MM (34,00 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "2.150,94"
+   "Preço": "1.726,00"
  },
  {
    "Código": "HM03944",
    "Descrição": "TUBO C/FLANGE PN10/16 E PONTA FERRO FUNDIDO DN=150 MM L=1.000 MM * (34,00 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "1.951,24"
+   "Preço": "1.676,23"
  },
  {
    "Código": "HM06890",
    "Descrição": "TUBO C/FLANGE PN10/16 E PONTA FERRO FUNDIDO DN=150 MM L=1.500 MM (47,00 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "2.515,61"
+   "Preço": "2.712,26"
  },
  {
    "Código": "HM03945",
    "Descrição": "TUBO C/FLANGE PN10/16 E PONTA FERRO FUNDIDO DN=150 MM L=1.500 MM * (47,00 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "2.091,38"
+   "Preço": "2.180,79"
  },
  {
    "Código": "HM06891",
    "Descrição": "TUBO C/FLANGE PN10/16 E PONTA FERRO FUNDIDO DN=150 MM L=2.000 MM (60,00 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "2.932,09"
+   "Preço": "3.203,09"
  },
  {
    "Código": "HM03946",
    "Descrição": "TUBO C/FLANGE PN10/16 E PONTA FERRO FUNDIDO DN=150 MM L=2.000 MM * (60,00 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "2.437,62"
+   "Preço": "2.690,37"
  },
  {
    "Código": "HM06892",
    "Descrição": "TUBO C/FLANGE PN10/16 E PONTA FERRO FUNDIDO DN=150 MM L=2.500 MM (73,00 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "3.312,89"
+   "Preço": "3.693,74"
  },
  {
    "Código": "HM03947",
    "Descrição": "TUBO C/FLANGE PN10/16 E PONTA FERRO FUNDIDO DN=150 MM L=2.500 MM * (73,00 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "2.754,20"
+   "Preço": "3.066,32"
  },
  {
    "Código": "HM06893",
@@ -22221,49 +22221,49 @@ const baseMateriais = [
    "Código": "HM03948",
    "Descrição": "TUBO C/FLANGE PN10/16 E PONTA FERRO FUNDIDO DN=150 MM L=3.000 MM * (86,00 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "3.095,47"
+   "Preço": "3.277,62"
  },
  {
    "Código": "HM06894",
    "Descrição": "TUBO C/FLANGE PN10/16 E PONTA FERRO FUNDIDO DN=150 MM L=3.500 MM (99,00 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "4.745,66"
+   "Preço": "4.672,16"
  },
  {
    "Código": "HM03949",
    "Descrição": "TUBO C/FLANGE PN10/16 E PONTA FERRO FUNDIDO DN=150 MM L=3.500 MM * (99,00 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "3.574,43"
+   "Preço": "3.852,63"
  },
  {
    "Código": "HM06895",
    "Descrição": "TUBO C/FLANGE PN10/16 E PONTA FERRO FUNDIDO DN=150 MM L=4.000 MM (112,00 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "5.220,25"
+   "Preço": "5.165,53"
  },
  {
    "Código": "HM03950",
    "Descrição": "TUBO C/FLANGE PN10/16 E PONTA FERRO FUNDIDO DN=150 MM L=4.000 MM * (112,00 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "3.936,48"
+   "Preço": "4.259,28"
  },
  {
    "Código": "HM06896",
    "Descrição": "TUBO C/FLANGE PN10/16 E PONTA FERRO FUNDIDO DN=150 MM L=4.500 MM (125,00 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "5.676,25"
+   "Preço": "5.669,31"
  },
  {
    "Código": "HM03951",
    "Descrição": "TUBO C/FLANGE PN10/16 E PONTA FERRO FUNDIDO DN=150 MM L=4.500 MM * (125,00 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "4.298,53"
+   "Preço": "4.635,18"
  },
  {
    "Código": "HM06897",
    "Descrição": "TUBO C/FLANGE PN10/16 E PONTA FERRO FUNDIDO DN=150 MM L=5.000 MM (138,00 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "5.740,16"
+   "Preço": "6.533,15"
  },
  {
    "Código": "HM03952",
@@ -22281,31 +22281,31 @@ const baseMateriais = [
    "Código": "HM03953",
    "Descrição": "TUBO C/FLANGE PN10/16 E PONTA FERRO FUNDIDO DN=150 MM L=5.500 MM * (151,00 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "5.022,63"
+   "Preço": "5.084,19"
  },
  {
    "Código": "HM06899",
    "Descrição": "TUBO C/FLANGE PN10/16 E PONTA FERRO FUNDIDO DN=150 MM L=5.800 MM (158,80 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "6.823,85"
+   "Preço": "6.850,95"
  },
  {
    "Código": "HM03954",
    "Descrição": "TUBO C/FLANGE PN10/16 E PONTA FERRO FUNDIDO DN=150 MM L=5.800 MM * (158,80 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "5.239,86"
+   "Preço": "5.587,89"
  },
  {
    "Código": "HM06900",
    "Descrição": "TUBO C/FLANGE PN10/16/25 E BOLSA JE FERRO FUNDIDO DN=80 MM L=1.000 MM (21,30 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "1.682,50"
+   "Preço": "1.412,10"
  },
  {
    "Código": "HM03813",
    "Descrição": "TUBO C/FLANGE PN10/16/25 E BOLSA JE FERRO FUNDIDO DN=80 MM L=1.000 MM * (21,30 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "1.359,57"
+   "Preço": "1.173,71"
  },
  {
    "Código": "HM06901",
@@ -22347,13 +22347,13 @@ const baseMateriais = [
    "Código": "HM06904",
    "Descrição": "TUBO C/FLANGE PN10/16/25 E BOLSA JE FERRO FUNDIDO DN=80 MM L=3.000 MM (49,10 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "2.519,21"
+   "Preço": "2.343,14"
  },
  {
    "Código": "HM03805",
    "Descrição": "TUBO C/FLANGE PN10/16/25 E BOLSA JE FERRO FUNDIDO DN=80 MM L=3.000 MM * (49,10 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "2.368,37"
+   "Preço": "2.242,58"
  },
  {
    "Código": "HM06905",
@@ -22431,49 +22431,49 @@ const baseMateriais = [
    "Código": "HM06911",
    "Descrição": "TUBO C/FLANGE PN10/16/25 E PONTA FERRO FUNDIDO DN=80 MM L=1.000 MM (17,90 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "1.612,44"
+   "Preço": "1.294,49"
  },
  {
    "Código": "HM03988",
    "Descrição": "TUBO C/FLANGE PN10/16/25 E PONTA FERRO FUNDIDO DN=80 MM L=1.000 MM * (17,90 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "1.393,60"
+   "Preço": "1.393,61"
  },
  {
    "Código": "HM06912",
    "Descrição": "TUBO C/FLANGE PN10/16/25 E PONTA FERRO FUNDIDO DN=80 MM L=1.500 MM (24,85 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "1.928,27"
+   "Preço": "2.068,74"
  },
  {
    "Código": "HM03989",
    "Descrição": "TUBO C/FLANGE PN10/16/25 E PONTA FERRO FUNDIDO DN=80 MM L=1.500 MM * (24,85 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "1.603,09"
+   "Preço": "1.738,63"
  },
  {
    "Código": "HM06913",
    "Descrição": "TUBO C/FLANGE PN10/16/25 E PONTA FERRO FUNDIDO DN=80 MM L=2.000 MM (31,80 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "2.253,38"
+   "Preço": "2.464,96"
  },
  {
    "Código": "HM03990",
    "Descrição": "TUBO C/FLANGE PN10/16/25 E PONTA FERRO FUNDIDO DN=80 MM L=2.000 MM * (31,80 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "1.873,37"
+   "Preço": "2.071,82"
  },
  {
    "Código": "HM06914",
    "Descrição": "TUBO C/FLANGE PN10/16/25 E PONTA FERRO FUNDIDO DN=80 MM L=2.500 MM (38,75 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "2.554,70"
+   "Preço": "2.864,72"
  },
  {
    "Código": "HM03991",
    "Descrição": "TUBO C/FLANGE PN10/16/25 E PONTA FERRO FUNDIDO DN=80 MM L=2.500 MM * (38,75 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "2.123,87"
+   "Preço": "2.377,01"
  },
  {
    "Código": "HM06915",
@@ -22485,55 +22485,55 @@ const baseMateriais = [
    "Código": "HM03992",
    "Descrição": "TUBO C/FLANGE PN10/16/25 E PONTA FERRO FUNDIDO DN=80 MM L=3.000 MM * (45,70 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "2.394,21"
+   "Preço": "2.559,61"
  },
  {
    "Código": "HM06916",
    "Descrição": "TUBO C/FLANGE PN10/16/25 E PONTA FERRO FUNDIDO DN=80 MM L=3.500 MM (52,65 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "3.191,45"
+   "Preço": "3.657,58"
  },
  {
    "Código": "HM03993",
    "Descrição": "TUBO C/FLANGE PN10/16/25 E PONTA FERRO FUNDIDO DN=80 MM L=3.500 MM * (52,65 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "2.653,24"
+   "Preço": "3.016,21"
  },
  {
    "Código": "HM06917",
    "Descrição": "TUBO C/FLANGE PN10/16/25 E PONTA FERRO FUNDIDO DN=80 MM L=4.000 MM (59,60 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "3.518,32"
+   "Preço": "4.053,98"
  },
  {
    "Código": "HM03994",
    "Descrição": "TUBO C/FLANGE PN10/16/25 E PONTA FERRO FUNDIDO DN=80 MM L=4.000 MM * (59,60 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "2.924,99"
+   "Preço": "3.348,01"
  },
  {
    "Código": "HM06918",
    "Descrição": "TUBO C/FLANGE PN10/16/25 E PONTA FERRO FUNDIDO DN=80 MM L=4.500 MM (66,55 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "3.820,94"
+   "Preço": "4.453,46"
  },
  {
    "Código": "HM03995",
    "Descrição": "TUBO C/FLANGE PN10/16/25 E PONTA FERRO FUNDIDO DN=80 MM L=4.500 MM * (66,55 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "3.176,57"
+   "Preço": "3.652,44"
  },
  {
    "Código": "HM06919",
    "Descrição": "TUBO C/FLANGE PN10/16/25 E PONTA FERRO FUNDIDO DN=80 MM L=5.000 MM (73,50 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "4.399,31"
+   "Preço": "4.999,32"
  },
  {
    "Código": "HM03996",
    "Descrição": "TUBO C/FLANGE PN10/16/25 E PONTA FERRO FUNDIDO DN=80 MM L=5.000 MM * (73,50 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "3.657,41"
+   "Preço": "3.840,28"
  },
  {
    "Código": "HM06920",
@@ -22545,67 +22545,67 @@ const baseMateriais = [
    "Código": "HM03997",
    "Descrição": "TUBO C/FLANGE PN10/16/25 E PONTA FERRO FUNDIDO DN=80 MM L=5.500 MM * (80,45 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "3.789,59"
+   "Preço": "4.016,79"
  },
  {
    "Código": "HM06921",
    "Descrição": "TUBO C/FLANGE PN10/16/25 E PONTA FERRO FUNDIDO DN=80 MM L=5.800 MM (84,62 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "5.328,08"
+   "Preço": "5.399,38"
  },
  {
    "Código": "HM03998",
    "Descrição": "TUBO C/FLANGE PN10/16/25 E PONTA FERRO FUNDIDO DN=80 MM L=5.800 MM * (84,62 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "3.945,06"
+   "Preço": "4.406,00"
  },
  {
    "Código": "HM06922",
    "Descrição": "TUBO C/FLANGES PN10 FERRO FUNDIDO DN=200 MM L=1.000 MM (54,80 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "3.136,25"
+   "Preço": "2.458,16"
  },
  {
    "Código": "HM03585",
    "Descrição": "TUBO C/FLANGES PN10 FERRO FUNDIDO DN=200 MM L=1.000 MM * (54,80 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "3.305,18"
+   "Preço": "2.729,71"
  },
  {
    "Código": "HM06923",
    "Descrição": "TUBO C/FLANGES PN10 FERRO FUNDIDO DN=200 MM L=1.500 MM (72,20 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "4.512,11"
+   "Preço": "4.226,20"
  },
  {
    "Código": "HM03586",
    "Descrição": "TUBO C/FLANGES PN10 FERRO FUNDIDO DN=200 MM L=1.500 MM * (72,20 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "3.693,76"
+   "Preço": "3.659,30"
  },
  {
    "Código": "HM06924",
    "Descrição": "TUBO C/FLANGES PN10 FERRO FUNDIDO DN=200 MM L=2.000 MM (89,60 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "5.079,53"
+   "Preço": "4.819,75"
  },
  {
    "Código": "HM03587",
    "Descrição": "TUBO C/FLANGES PN10 FERRO FUNDIDO DN=200 MM L=2.000 MM * (89,60 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "4.155,05"
+   "Preço": "4.157,27"
  },
  {
    "Código": "HM06925",
    "Descrição": "TUBO C/FLANGES PN10 FERRO FUNDIDO DN=200 MM L=2.500 MM (107,00 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "5.604,98"
+   "Preço": "5.409,94"
  },
  {
    "Código": "HM03588",
    "Descrição": "TUBO C/FLANGES PN10 FERRO FUNDIDO DN=200 MM L=2.500 MM * (107,00 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "4.555,49"
+   "Preço": "4.617,67"
  },
  {
    "Código": "HM06926",
@@ -22617,55 +22617,55 @@ const baseMateriais = [
    "Código": "HM03589",
    "Descrição": "TUBO C/FLANGES PN10 FERRO FUNDIDO DN=200 MM L=3.000 MM * (124,40 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "5.220,37"
+   "Preço": "4.861,53"
  },
  {
    "Código": "HM06927",
    "Descrição": "TUBO C/FLANGES PN10 FERRO FUNDIDO DN=200 MM L=3.500 MM (141,80 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "6.701,77"
+   "Preço": "6.590,51"
  },
  {
    "Código": "HM03590",
    "Descrição": "TUBO C/FLANGES PN10 FERRO FUNDIDO DN=200 MM L=3.500 MM * (141,80 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "5.643,21"
+   "Preço": "5.569,04"
  },
  {
    "Código": "HM06928",
    "Descrição": "TUBO C/FLANGES PN10 FERRO FUNDIDO DN=200 MM L=4.000 MM (159,20 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "7.263,47"
+   "Preço": "7.180,75"
  },
  {
    "Código": "HM03591",
    "Descrição": "TUBO C/FLANGES PN10 FERRO FUNDIDO DN=200 MM L=4.000 MM * (159,20 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "6.121,94"
+   "Preço": "6.066,79"
  },
  {
    "Código": "HM06929",
    "Descrição": "TUBO C/FLANGES PN10 FERRO FUNDIDO DN=200 MM L=4.500 MM (176,60 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "7.807,26"
+   "Preço": "7.788,44"
  },
  {
    "Código": "HM03592",
    "Descrição": "TUBO C/FLANGES PN10 FERRO FUNDIDO DN=200 MM L=4.500 MM * (176,60 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "6.535,62"
+   "Preço": "6.523,07"
  },
  {
    "Código": "HM06930",
    "Descrição": "TUBO C/FLANGES PN10 FERRO FUNDIDO DN=200 MM L=5.000 MM (194,00 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "8.796,80"
+   "Preço": "8.629,41"
  },
  {
    "Código": "HM03593",
    "Descrição": "TUBO C/FLANGES PN10 FERRO FUNDIDO DN=200 MM L=5.000 MM * (194,00 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "7.325,28"
+   "Preço": "7.213,69"
  },
  {
    "Código": "HM06931",
@@ -22677,49 +22677,49 @@ const baseMateriais = [
    "Código": "HM03594",
    "Descrição": "TUBO C/FLANGES PN10 FERRO FUNDIDO DN=200 MM L=5.500 MM * (211,40 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "7.447,33"
+   "Preço": "7.673,94"
  },
  {
    "Código": "HM06932",
    "Descrição": "TUBO C/FLANGES PN10 FERRO FUNDIDO DN=200 MM L=5.800 MM (221,84 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "9.245,10"
+   "Preço": "9.288,27"
  },
  {
    "Código": "HM03595",
    "Descrição": "TUBO C/FLANGES PN10 FERRO FUNDIDO DN=200 MM L=5.800 MM * (221,84 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "7.625,45"
+   "Preço": "8.889,80"
  },
  {
    "Código": "HM06933",
    "Descrição": "TUBO C/FLANGES PN10 FERRO FUNDIDO DN=250 MM L=1.000 MM (74,40 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "4.574,38"
+   "Preço": "4.047,64"
  },
  {
    "Código": "HM03596",
    "Descrição": "TUBO C/FLANGES PN10 FERRO FUNDIDO DN=250 MM L=1.000 MM * (74,40 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "3.978,59"
+   "Preço": "3.654,94"
  },
  {
    "Código": "HM06934",
    "Descrição": "TUBO C/FLANGES PN10 FERRO FUNDIDO DN=250 MM L=1.500 MM (97,10 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "5.311,45"
+   "Preço": "5.332,46"
  },
  {
    "Código": "HM03597",
    "Descrição": "TUBO C/FLANGES PN10 FERRO FUNDIDO DN=250 MM L=1.500 MM * (97,10 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "4.400,69"
+   "Preço": "4.904,40"
  },
  {
    "Código": "HM06935",
    "Descrição": "TUBO C/FLANGES PN10 FERRO FUNDIDO DN=250 MM L=2.000 MM (119,80 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "5.995,57"
+   "Preço": "6.359,91"
  },
  {
    "Código": "HM03598",
@@ -22731,13 +22731,13 @@ const baseMateriais = [
    "Código": "HM06936",
    "Descrição": "TUBO C/FLANGES PN10 FERRO FUNDIDO DN=250 MM L=2.500 MM (142,50 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "6.679,64"
+   "Preço": "7.387,34"
  },
  {
    "Código": "HM03599",
    "Descrição": "TUBO C/FLANGES PN10 FERRO FUNDIDO DN=250 MM L=2.500 MM * (142,50 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "5.534,28"
+   "Preço": "5.166,63"
  },
  {
    "Código": "HM06937",
@@ -22749,13 +22749,13 @@ const baseMateriais = [
    "Código": "HM03600",
    "Descrição": "TUBO C/FLANGES PN10 FERRO FUNDIDO DN=250 MM L=3.000 MM * (165,20 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "5.881,02"
+   "Preço": "6.182,52"
  },
  {
    "Código": "HM06938",
    "Descrição": "TUBO C/FLANGES PN10 FERRO FUNDIDO DN=250 MM L=3.500 MM (187,90 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "8.595,80"
+   "Preço": "7.999,77"
  },
  {
    "Código": "HM03601",
@@ -22767,7 +22767,7 @@ const baseMateriais = [
    "Código": "HM06939",
    "Descrição": "TUBO C/FLANGES PN10 FERRO FUNDIDO DN=250 MM L=4.000 MM (210,60 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "9.357,75"
+   "Preço": "8.851,58"
  },
  {
    "Código": "HM03602",
@@ -22779,7 +22779,7 @@ const baseMateriais = [
    "Código": "HM06940",
    "Descrição": "TUBO C/FLANGES PN10 FERRO FUNDIDO DN=250 MM L=4.500 MM (233,30 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "10.054,18"
+   "Preço": "9.683,46"
  },
  {
    "Código": "HM03603",
@@ -22791,7 +22791,7 @@ const baseMateriais = [
    "Código": "HM06941",
    "Descrição": "TUBO C/FLANGES PN10 FERRO FUNDIDO DN=250 MM L=5.000 MM (256,00 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "11.327,68"
+   "Preço": "10.818,90"
  },
  {
    "Código": "HM03604",
@@ -22815,7 +22815,7 @@ const baseMateriais = [
    "Código": "HM06943",
    "Descrição": "TUBO C/FLANGES PN10 FERRO FUNDIDO DN=250 MM L=5.800 MM (292,32 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "11.843,10"
+   "Preço": "11.698,92"
  },
  {
    "Código": "HM03606",
@@ -22827,31 +22827,31 @@ const baseMateriais = [
    "Código": "HM06944",
    "Descrição": "TUBO C/FLANGES PN10 FERRO FUNDIDO DN=300 MM L=1.000 MM (93,10 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "5.659,07"
+   "Preço": "4.612,24"
  },
  {
    "Código": "HM03607",
    "Descrição": "TUBO C/FLANGES PN10 FERRO FUNDIDO DN=300 MM L=1.000 MM * (93,10 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "4.889,17"
+   "Preço": "4.545,63"
  },
  {
    "Código": "HM06945",
    "Descrição": "TUBO C/FLANGES PN10 FERRO FUNDIDO DN=300 MM L=1.500 MM (121,65 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "6.459,64"
+   "Preço": "6.670,18"
  },
  {
    "Código": "HM03608",
    "Descrição": "TUBO C/FLANGES PN10 FERRO FUNDIDO DN=300 MM L=1.500 MM * (121,65 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "5.352,00"
+   "Preço": "5.661,12"
  },
  {
    "Código": "HM06946",
    "Descrição": "TUBO C/FLANGES PN10 FERRO FUNDIDO DN=300 MM L=2.000 MM (150,20 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "7.321,85"
+   "Preço": "7.541,28"
  },
  {
    "Código": "HM03609",
@@ -22863,7 +22863,7 @@ const baseMateriais = [
    "Código": "HM06947",
    "Descrição": "TUBO C/FLANGES PN10 FERRO FUNDIDO DN=300 MM L=2.500 MM (178,75 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "8.245,81"
+   "Preço": "8.443,26"
  },
  {
    "Código": "HM03610",
@@ -22881,55 +22881,55 @@ const baseMateriais = [
    "Código": "HM03611",
    "Descrição": "TUBO C/FLANGES PN10 FERRO FUNDIDO DN=300 MM L=3.000 MM * (207,30 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "6.595,72"
+   "Preço": "6.669,11"
  },
  {
    "Código": "HM06949",
    "Descrição": "TUBO C/FLANGES PN10 FERRO FUNDIDO DN=300 MM L=3.500 MM (235,85 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "10.180,04"
+   "Preço": "10.243,48"
  },
  {
    "Código": "HM03612",
    "Descrição": "TUBO C/FLANGES PN10 FERRO FUNDIDO DN=300 MM L=3.500 MM * (235,85 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "7.059,57"
+   "Preço": "8.513,13"
  },
  {
    "Código": "HM06950",
    "Descrição": "TUBO C/FLANGES PN10 FERRO FUNDIDO DN=300 MM L=4.000 MM (264,40 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "11.097,40"
+   "Preço": "11.145,33"
  },
  {
    "Código": "HM03613",
    "Descrição": "TUBO C/FLANGES PN10 FERRO FUNDIDO DN=300 MM L=4.000 MM * (264,40 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "7.650,01"
+   "Preço": "9.248,26"
  },
  {
    "Código": "HM06951",
    "Descrição": "TUBO C/FLANGES PN10 FERRO FUNDIDO DN=300 MM L=4.500 MM (292,95 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "11.959,00"
+   "Preço": "12.047,27"
  },
  {
    "Código": "HM03614",
    "Descrição": "TUBO C/FLANGES PN10 FERRO FUNDIDO DN=300 MM L=4.500 MM * (292,95 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "8.175,67"
+   "Preço": "9.926,08"
  },
  {
    "Código": "HM06952",
    "Descrição": "TUBO C/FLANGES PN10 FERRO FUNDIDO DN=300 MM L=5.000 MM (321,50 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "13.447,46"
+   "Preço": "13.292,34"
  },
  {
    "Código": "HM03615",
    "Descrição": "TUBO C/FLANGES PN10 FERRO FUNDIDO DN=300 MM L=5.000 MM * (321,50 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "9.092,71"
+   "Preço": "10.375,55"
  },
  {
    "Código": "HM06953",
@@ -22941,49 +22941,49 @@ const baseMateriais = [
    "Código": "HM03616",
    "Descrição": "TUBO C/FLANGES PN10 FERRO FUNDIDO DN=300 MM L=5.500 MM * (350,05 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "9.500,90"
+   "Preço": "10.825,02"
  },
  {
    "Código": "HM06954",
    "Descrição": "TUBO C/FLANGES PN10 FERRO FUNDIDO DN=300 MM L=5.800 MM (367,18 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "14.139,31"
+   "Preço": "14.185,14"
  },
  {
    "Código": "HM03617",
    "Descrição": "TUBO C/FLANGES PN10 FERRO FUNDIDO DN=300 MM L=5.800 MM * (367,18 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "9.660,23"
+   "Preço": "11.696,00"
  },
  {
    "Código": "HM06955",
    "Descrição": "TUBO C/FLANGES PN10 FERRO FUNDIDO DN=350 MM L=1.000 MM (121,50 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "6.953,91"
+   "Preço": "5.063,28"
  },
  {
    "Código": "HM03530",
    "Descrição": "TUBO C/FLANGES PN10 FERRO FUNDIDO DN=350 MM L=1.000 MM * (121,50 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "6.326,64"
+   "Preço": "4.904,60"
  },
  {
    "Código": "HM06956",
    "Descrição": "TUBO C/FLANGES PN10 FERRO FUNDIDO DN=350 MM L=1.500 MM (159,25 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "8.572,03"
+   "Preço": "8.205,37"
  },
  {
    "Código": "HM03531",
    "Descrição": "TUBO C/FLANGES PN10 FERRO FUNDIDO DN=350 MM L=1.500 MM * (159,25 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "6.187,88"
+   "Preço": "5.754,06"
  },
  {
    "Código": "HM06957",
    "Descrição": "TUBO C/FLANGES PN10 FERRO FUNDIDO DN=350 MM L=2.000 MM (197,00 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "9.648,40"
+   "Preço": "9.264,99"
  },
  {
    "Código": "HM03532",
@@ -22995,7 +22995,7 @@ const baseMateriais = [
    "Código": "HM06958",
    "Descrição": "TUBO C/FLANGES PN10 FERRO FUNDIDO DN=350 MM L=2.500 MM (234,75 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "10.653,25"
+   "Preço": "10.324,55"
  },
  {
    "Código": "HM03533",
@@ -23013,55 +23013,55 @@ const baseMateriais = [
    "Código": "HM03534",
    "Descrição": "TUBO C/FLANGES PN10 FERRO FUNDIDO DN=350 MM L=3.000 MM * (272,50 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "7.941,84"
+   "Preço": "8.687,23"
  },
  {
    "Código": "HM06960",
    "Descrição": "TUBO C/FLANGES PN10 FERRO FUNDIDO DN=350 MM L=3.500 MM (310,25 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "12.496,23"
+   "Preço": "12.484,73"
  },
  {
    "Código": "HM03535",
    "Descrição": "TUBO C/FLANGES PN10 FERRO FUNDIDO DN=350 MM L=3.500 MM * (310,25 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "8.529,05"
+   "Preço": "10.432,34"
  },
  {
    "Código": "HM06961",
    "Descrição": "TUBO C/FLANGES PN10 FERRO FUNDIDO DN=350 MM L=4.000 MM (348,00 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "13.575,75"
+   "Preço": "13.571,18"
  },
  {
    "Código": "HM03536",
    "Descrição": "TUBO C/FLANGES PN10 FERRO FUNDIDO DN=350 MM L=4.000 MM * (348,00 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "9.237,91"
+   "Preço": "11.230,14"
  },
  {
    "Código": "HM06962",
    "Descrição": "TUBO C/FLANGES PN10 FERRO FUNDIDO DN=350 MM L=4.500 MM (385,75 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "14.586,88"
+   "Preço": "14.657,84"
  },
  {
    "Código": "HM03537",
    "Descrição": "TUBO C/FLANGES PN10 FERRO FUNDIDO DN=350 MM L=4.500 MM * (385,75 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "9.864,91"
+   "Preço": "11.971,29"
  },
  {
    "Código": "HM06963",
    "Descrição": "TUBO C/FLANGES PN10 FERRO FUNDIDO DN=350 MM L=5.000 MM (423,50 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "16.376,03"
+   "Preço": "16.110,53"
  },
  {
    "Código": "HM03538",
    "Descrição": "TUBO C/FLANGES PN10 FERRO FUNDIDO DN=350 MM L=5.000 MM * (423,50 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "10.985,22"
+   "Preço": "13.055,84"
  },
  {
    "Código": "HM06964",
@@ -23073,37 +23073,37 @@ const baseMateriais = [
    "Código": "HM03539",
    "Descrição": "TUBO C/FLANGES PN10 FERRO FUNDIDO DN=350 MM L=5.500 MM * (461,25 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "11.513,18"
+   "Preço": "13.090,80"
  },
  {
    "Código": "HM06965",
    "Descrição": "TUBO C/FLANGES PN10 FERRO FUNDIDO DN=350 MM L=5.800 MM (483,90 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "17.295,44"
+   "Preço": "17.358,66"
  },
  {
    "Código": "HM03540",
    "Descrição": "TUBO C/FLANGES PN10 FERRO FUNDIDO DN=350 MM L=5.800 MM * (483,90 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "11.683,34"
+   "Preço": "14.030,10"
  },
  {
    "Código": "HM06966",
    "Descrição": "TUBO C/FLANGES PN10 FERRO FUNDIDO DN=400 MM L=1.000 MM (145,50 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "7.194,05"
+   "Preço": "5.663,12"
  },
  {
    "Código": "HM03541",
    "Descrição": "TUBO C/FLANGES PN10 FERRO FUNDIDO DN=400 MM L=1.000 MM * (145,50 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "5.712,94"
+   "Preço": "5.467,62"
  },
  {
    "Código": "HM06967",
    "Descrição": "TUBO C/FLANGES PN10 FERRO FUNDIDO DN=400 MM L=1.500 MM (190,25 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "8.458,00"
+   "Preço": "6.825,46"
  },
  {
    "Código": "HM03542",
@@ -23115,7 +23115,7 @@ const baseMateriais = [
    "Código": "HM06968",
    "Descrição": "TUBO C/FLANGES PN10 FERRO FUNDIDO DN=400 MM L=2.000 MM (235,00 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "9.522,46"
+   "Preço": "7.687,58"
  },
  {
    "Código": "HM03543",
@@ -23127,7 +23127,7 @@ const baseMateriais = [
    "Código": "HM06969",
    "Descrição": "TUBO C/FLANGES PN10 FERRO FUNDIDO DN=400 MM L=2.500 MM (279,75 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "10.688,53"
+   "Preço": "8.670,91"
  },
  {
    "Código": "HM03544",
@@ -23139,73 +23139,73 @@ const baseMateriais = [
    "Código": "HM06970",
    "Descrição": "TUBO C/FLANGES PN10 FERRO FUNDIDO DN=400 MM L=3.000 MM (324,50 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "11.565,25"
+   "Preço": "9.101,33"
  },
  {
    "Código": "HM03545",
    "Descrição": "TUBO C/FLANGES PN10 FERRO FUNDIDO DN=400 MM L=3.000 MM * (324,50 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "8.551,65"
+   "Preço": "8.556,42"
  },
  {
    "Código": "HM06971",
    "Descrição": "TUBO C/FLANGES PN10 FERRO FUNDIDO DN=400 MM L=3.500 MM (369,25 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "12.664,88"
+   "Preço": "9.946,52"
  },
  {
    "Código": "HM03546",
    "Descrição": "TUBO C/FLANGES PN10 FERRO FUNDIDO DN=400 MM L=3.500 MM * (369,25 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "9.216,94"
+   "Preço": "9.216,93"
  },
  {
    "Código": "HM06972",
    "Descrição": "TUBO C/FLANGES PN10 FERRO FUNDIDO DN=400 MM L=4.000 MM (414,00 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "13.543,72"
+   "Preço": "11.093,31"
  },
  {
    "Código": "HM03547",
    "Descrição": "TUBO C/FLANGES PN10 FERRO FUNDIDO DN=400 MM L=4.000 MM * (414,00 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "9.974,48"
+   "Preço": "9.974,47"
  },
  {
    "Código": "HM06973",
    "Descrição": "TUBO C/FLANGES PN10 FERRO FUNDIDO DN=400 MM L=4.500 MM (458,75 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "13.930,34"
+   "Preço": "12.086,47"
  },
  {
    "Código": "HM03548",
    "Descrição": "TUBO C/FLANGES PN10 FERRO FUNDIDO DN=400 MM L=4.500 MM * (458,75 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "10.638,29"
+   "Preço": "10.638,28"
  },
  {
    "Código": "HM06974",
    "Descrição": "TUBO C/FLANGES PN10 FERRO FUNDIDO DN=400 MM L=5.000 MM (503,50 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "14.860,12"
+   "Preço": "13.481,13"
  },
  {
    "Código": "HM03549",
    "Descrição": "TUBO C/FLANGES PN10 FERRO FUNDIDO DN=400 MM L=5.000 MM * (503,50 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "11.857,32"
+   "Preço": "11.857,31"
  },
  {
    "Código": "HM06975",
    "Descrição": "TUBO C/FLANGES PN10 FERRO FUNDIDO DN=400 MM L=5.500 MM (548,25 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "15.115,98"
+   "Preço": "15.933,91"
  },
  {
    "Código": "HM03550",
    "Descrição": "TUBO C/FLANGES PN10 FERRO FUNDIDO DN=400 MM L=5.500 MM * (548,25 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "12.524,03"
+   "Preço": "14.394,60"
  },
  {
    "Código": "HM06976",
@@ -23217,7 +23217,7 @@ const baseMateriais = [
    "Código": "HM03551",
    "Descrição": "TUBO C/FLANGES PN10 FERRO FUNDIDO DN=400 MM L=5.800 MM * (575,10 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "12.794,18"
+   "Preço": "16.075,58"
  },
  {
    "Código": "HM06977",
@@ -23331,7 +23331,7 @@ const baseMateriais = [
    "Código": "HM06986",
    "Descrição": "TUBO C/FLANGES PN10 FERRO FUNDIDO DN=450 MM L=5.500 MM (647,05 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "16.376,05"
+   "Preço": "16.376,06"
  },
  {
    "Código": "HM03561",
@@ -23355,13 +23355,13 @@ const baseMateriais = [
    "Código": "HM06988",
    "Descrição": "TUBO C/FLANGES PN10 FERRO FUNDIDO DN=500 MM L=1.000 MM (197,80 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "7.854,72"
+   "Preço": "7.641,13"
  },
  {
    "Código": "HM03655",
    "Descrição": "TUBO C/FLANGES PN10 FERRO FUNDIDO DN=500 MM L=1.000 MM * (197,80 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "7.506,65"
+   "Preço": "7.409,10"
  },
  {
    "Código": "HM06989",
@@ -23403,19 +23403,19 @@ const baseMateriais = [
    "Código": "HM06992",
    "Descrição": "TUBO C/FLANGES PN10 FERRO FUNDIDO DN=500 MM L=3.000 MM (441,40 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "12.427,78"
+   "Preço": "12.272,52"
  },
  {
    "Código": "HM03659",
    "Descrição": "TUBO C/FLANGES PN10 FERRO FUNDIDO DN=500 MM L=3.000 MM * (441,40 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "11.470,66"
+   "Preço": "11.634,44"
  },
  {
    "Código": "HM06993",
    "Descrição": "TUBO C/FLANGES PN10 FERRO FUNDIDO DN=500 MM L=3.500 MM (502,30 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "16.696,16"
+   "Preço": "16.539,78"
  },
  {
    "Código": "HM03660",
@@ -23427,7 +23427,7 @@ const baseMateriais = [
    "Código": "HM06994",
    "Descrição": "TUBO C/FLANGES PN10 FERRO FUNDIDO DN=500 MM L=4.000 MM (563,20 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "18.201,00"
+   "Preço": "17.954,01"
  },
  {
    "Código": "HM03661",
@@ -23439,7 +23439,7 @@ const baseMateriais = [
    "Código": "HM06995",
    "Descrição": "TUBO C/FLANGES PN10 FERRO FUNDIDO DN=500 MM L=4.500 MM (624,10 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "19.712,86"
+   "Preço": "19.334,43"
  },
  {
    "Código": "HM03662",
@@ -23451,7 +23451,7 @@ const baseMateriais = [
    "Código": "HM06996",
    "Descrição": "TUBO C/FLANGES PN10 FERRO FUNDIDO DN=500 MM L=5.000 MM (685,00 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "21.552,90"
+   "Preço": "21.294,44"
  },
  {
    "Código": "HM03663",
@@ -23475,61 +23475,61 @@ const baseMateriais = [
    "Código": "HM06998",
    "Descrição": "TUBO C/FLANGES PN10 FERRO FUNDIDO DN=500 MM L=5.800 MM (782,40 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "22.997,59"
+   "Preço": "22.630,70"
  },
  {
    "Código": "HM03665",
    "Descrição": "TUBO C/FLANGES PN10 FERRO FUNDIDO DN=500 MM L=5.800 MM * (782,40 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "16.912,03"
+   "Preço": "16.912,02"
  },
  {
    "Código": "HM06999",
    "Descrição": "TUBO C/FLANGES PN10/16 FERRO FUNDIDO DN=100 MM L=1.000 MM (26,20 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "2.219,37"
+   "Preço": "1.965,33"
  },
  {
    "Código": "HM03563",
    "Descrição": "TUBO C/FLANGES PN10/16 FERRO FUNDIDO DN=100 MM L=1.000 MM * (26,20 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "2.175,47"
+   "Preço": "1.915,99"
  },
  {
    "Código": "HM07000",
    "Descrição": "TUBO C/FLANGES PN10/16 FERRO FUNDIDO DN=100 MM L=1.500 MM (34,80 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "3.178,82"
+   "Preço": "2.931,47"
  },
  {
    "Código": "HM03564",
    "Descrição": "TUBO C/FLANGES PN10/16 FERRO FUNDIDO DN=100 MM L=1.500 MM * (34,80 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "2.598,04"
+   "Preço": "2.892,70"
  },
  {
    "Código": "HM07001",
    "Descrição": "TUBO C/FLANGES PN10/16 FERRO FUNDIDO DN=100 MM L=2.000 MM (43,40 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "3.542,69"
+   "Preço": "3.330,94"
  },
  {
    "Código": "HM03565",
    "Descrição": "TUBO C/FLANGES PN10/16 FERRO FUNDIDO DN=100 MM L=2.000 MM * (43,40 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "2.881,52"
+   "Preço": "3.295,35"
  },
  {
    "Código": "HM07002",
    "Descrição": "TUBO C/FLANGES PN10/16 FERRO FUNDIDO DN=100 MM L=2.500 MM (52,00 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "3.869,61"
+   "Preço": "3.739,57"
  },
  {
    "Código": "HM03566",
    "Descrição": "TUBO C/FLANGES PN10/16 FERRO FUNDIDO DN=100 MM L=2.500 MM * (52,00 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "3.138,32"
+   "Preço": "3.672,78"
  },
  {
    "Código": "HM07003",
@@ -23547,43 +23547,43 @@ const baseMateriais = [
    "Código": "HM07004",
    "Descrição": "TUBO C/FLANGES PN10/16 FERRO FUNDIDO DN=100 MM L=3.500 MM (69,20 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "4.638,93"
+   "Preço": "4.529,42"
  },
  {
    "Código": "HM03568",
    "Descrição": "TUBO C/FLANGES PN10/16 FERRO FUNDIDO DN=100 MM L=3.500 MM * (69,20 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "3.698,16"
+   "Preço": "3.817,59"
  },
  {
    "Código": "HM07005",
    "Descrição": "TUBO C/FLANGES PN10/16 FERRO FUNDIDO DN=100 MM L=4.000 MM (77,80 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "5.007,28"
+   "Preço": "4.928,88"
  },
  {
    "Código": "HM03569",
    "Descrição": "TUBO C/FLANGES PN10/16 FERRO FUNDIDO DN=100 MM L=4.000 MM * (77,80 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "3.995,67"
+   "Preço": "4.156,23"
  },
  {
    "Código": "HM07006",
    "Descrição": "TUBO C/FLANGES PN10/16 FERRO FUNDIDO DN=100 MM L=4.500 MM (86,40 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "5.349,64"
+   "Preço": "5.328,44"
  },
  {
    "Código": "HM03570",
    "Descrição": "TUBO C/FLANGES PN10/16 FERRO FUNDIDO DN=100 MM L=4.500 MM * (86,40 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "4.252,96"
+   "Preço": "4.469,20"
  },
  {
    "Código": "HM07007",
    "Descrição": "TUBO C/FLANGES PN10/16 FERRO FUNDIDO DN=100 MM L=5.000 MM (95,00 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "5.995,89"
+   "Preço": "5.875,11"
  },
  {
    "Código": "HM03571",
@@ -23607,61 +23607,61 @@ const baseMateriais = [
    "Código": "HM07009",
    "Descrição": "TUBO C/FLANGES PN10/16 FERRO FUNDIDO DN=100 MM L=5.800 MM (108,76 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "6.252,69"
+   "Preço": "6.279,89"
  },
  {
    "Código": "HM03573",
    "Descrição": "TUBO C/FLANGES PN10/16 FERRO FUNDIDO DN=100 MM L=5.800 MM * (108,76 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "4.959,25"
+   "Preço": "5.221,36"
  },
  {
    "Código": "HM07010",
    "Descrição": "TUBO C/FLANGES PN10/16 FERRO FUNDIDO DN=150 MM L=1.000 MM (42,00 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "2.712,95"
+   "Preço": "2.407,00"
  },
  {
    "Código": "HM03574",
    "Descrição": "TUBO C/FLANGES PN10/16 FERRO FUNDIDO DN=150 MM L=1.000 MM * (42,00 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "2.712,63"
+   "Preço": "2.347,47"
  },
  {
    "Código": "HM07011",
    "Descrição": "TUBO C/FLANGES PN10/16 FERRO FUNDIDO DN=150 MM L=1.500 MM (55,00 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "3.856,78"
+   "Preço": "3.585,04"
  },
  {
    "Código": "HM03575",
    "Descrição": "TUBO C/FLANGES PN10/16 FERRO FUNDIDO DN=150 MM L=1.500 MM * (55,00 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "3.129,83"
+   "Preço": "3.086,15"
  },
  {
    "Código": "HM07012",
    "Descrição": "TUBO C/FLANGES PN10/16 FERRO FUNDIDO DN=150 MM L=2.000 MM (68,00 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "4.304,98"
+   "Preço": "4.067,92"
  },
  {
    "Código": "HM03576",
    "Descrição": "TUBO C/FLANGES PN10/16 FERRO FUNDIDO DN=150 MM L=2.000 MM * (68,00 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "3.524,11"
+   "Preço": "3.491,09"
  },
  {
    "Código": "HM07013",
    "Descrição": "TUBO C/FLANGES PN10/16 FERRO FUNDIDO DN=150 MM L=2.500 MM (81,00 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "4.729,51"
+   "Preço": "4.553,81"
  },
  {
    "Código": "HM03577",
    "Descrição": "TUBO C/FLANGES PN10/16 FERRO FUNDIDO DN=150 MM L=2.500 MM * (81,00 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "3.836,19"
+   "Preço": "3.867,93"
  },
  {
    "Código": "HM07014",
@@ -23673,49 +23673,49 @@ const baseMateriais = [
    "Código": "HM03578",
    "Descrição": "TUBO C/FLANGES PN10/16 FERRO FUNDIDO DN=150 MM L=3.000 MM * (94,00 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "4.023,10"
+   "Preço": "3.981,81"
  },
  {
    "Código": "HM07015",
    "Descrição": "TUBO C/FLANGES PN10/16 FERRO FUNDIDO DN=150 MM L=3.500 MM (107,00 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "5.636,63"
+   "Preço": "5.522,73"
  },
  {
    "Código": "HM03579",
    "Descrição": "TUBO C/FLANGES PN10/16 FERRO FUNDIDO DN=150 MM L=3.500 MM * (107,00 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "4.514,66"
+   "Preço": "4.635,98"
  },
  {
    "Código": "HM07016",
    "Descrição": "TUBO C/FLANGES PN10/16 FERRO FUNDIDO DN=150 MM L=4.000 MM (120,00 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "6.094,18"
+   "Preço": "6.008,65"
  },
  {
    "Código": "HM03580",
    "Descrição": "TUBO C/FLANGES PN10/16 FERRO FUNDIDO DN=150 MM L=4.000 MM * (120,00 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "4.907,28"
+   "Preço": "5.042,76"
  },
  {
    "Código": "HM07017",
    "Descrição": "TUBO C/FLANGES PN10/16 FERRO FUNDIDO DN=150 MM L=4.500 MM (133,00 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "6.521,30"
+   "Preço": "6.494,69"
  },
  {
    "Código": "HM03581",
    "Descrição": "TUBO C/FLANGES PN10/16 FERRO FUNDIDO DN=150 MM L=4.500 MM * (133,00 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "5.264,10"
+   "Preço": "5.415,94"
  },
  {
    "Código": "HM07018",
    "Descrição": "TUBO C/FLANGES PN10/16 FERRO FUNDIDO DN=150 MM L=5.000 MM (146,00 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "7.300,22"
+   "Preço": "7.152,75"
  },
  {
    "Código": "HM03582",
@@ -23739,61 +23739,61 @@ const baseMateriais = [
    "Código": "HM07020",
    "Descrição": "TUBO C/FLANGES PN10/16 FERRO FUNDIDO DN=150 MM L=5.800 MM (166,80 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "7.617,79"
+   "Preço": "7.656,82"
  },
  {
    "Código": "HM03584",
    "Descrição": "TUBO C/FLANGES PN10/16 FERRO FUNDIDO DN=150 MM L=5.800 MM * (166,80 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "6.088,77"
+   "Preço": "6.330,13"
  },
  {
    "Código": "HM07021",
    "Descrição": "TUBO C/FLANGES PN10/16/25 FERRO FUNDIDO DN=80 MM L=1.000 MM (21,90 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "2.158,87"
+   "Preço": "1.725,16"
  },
  {
    "Código": "HM03618",
    "Descrição": "TUBO C/FLANGES PN10/16/25 FERRO FUNDIDO DN=80 MM L=1.000 MM * (21,90 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "1.761,57"
+   "Preço": "1.585,18"
  },
  {
    "Código": "HM07022",
    "Descrição": "TUBO C/FLANGES PN10/16/25 FERRO FUNDIDO DN=80 MM L=1.500 MM (28,85 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "2.461,34"
+   "Preço": "2.616,32"
  },
  {
    "Código": "HM03619",
    "Descrição": "TUBO C/FLANGES PN10/16/25 FERRO FUNDIDO DN=80 MM L=1.500 MM * (28,85 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "2.039,29"
+   "Preço": "2.145,11"
  },
  {
    "Código": "HM07023",
    "Descrição": "TUBO C/FLANGES PN10/16/25 FERRO FUNDIDO DN=80 MM L=2.000 MM (35,80 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "2.774,53"
+   "Preço": "3.009,62"
  },
  {
    "Código": "HM03620",
    "Descrição": "TUBO C/FLANGES PN10/16/25 FERRO FUNDIDO DN=80 MM L=2.000 MM * (35,80 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "2.298,78"
+   "Preço": "2.520,77"
  },
  {
    "Código": "HM07024",
    "Descrição": "TUBO C/FLANGES PN10/16/25 FERRO FUNDIDO DN=80 MM L=2.500 MM (42,75 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "3.065,26"
+   "Preço": "3.406,31"
  },
  {
    "Código": "HM03621",
    "Descrição": "TUBO C/FLANGES PN10/16/25 FERRO FUNDIDO DN=80 MM L=2.500 MM * (42,75 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "2.539,66"
+   "Preço": "2.861,61"
  },
  {
    "Código": "HM07025",
@@ -23805,43 +23805,43 @@ const baseMateriais = [
    "Código": "HM03622",
    "Descrição": "TUBO C/FLANGES PN10/16/25 FERRO FUNDIDO DN=80 MM L=3.000 MM * (49,70 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "3.069,52"
+   "Preço": "2.899,74"
  },
  {
    "Código": "HM07026",
    "Descrição": "TUBO C/FLANGES PN10/16/25 FERRO FUNDIDO DN=80 MM L=3.500 MM (56,65 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "4.046,40"
+   "Preço": "4.193,01"
  },
  {
    "Código": "HM03623",
    "Descrição": "TUBO C/FLANGES PN10/16/25 FERRO FUNDIDO DN=80 MM L=3.500 MM * (56,65 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "3.209,00"
+   "Preço": "3.398,59"
  },
  {
    "Código": "HM07027",
    "Descrição": "TUBO C/FLANGES PN10/16/25 FERRO FUNDIDO DN=80 MM L=4.000 MM (63,60 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "4.388,26"
+   "Preço": "4.586,47"
  },
  {
    "Código": "HM03624",
    "Descrição": "TUBO C/FLANGES PN10/16/25 FERRO FUNDIDO DN=80 MM L=4.000 MM * (63,60 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "3.499,89"
+   "Preço": "3.753,43"
  },
  {
    "Código": "HM07028",
    "Descrição": "TUBO C/FLANGES PN10/16/25 FERRO FUNDIDO DN=80 MM L=4.500 MM (70,55 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "4.736,12"
+   "Preço": "4.982,92"
  },
  {
    "Código": "HM03625",
    "Descrição": "TUBO C/FLANGES PN10/16/25 FERRO FUNDIDO DN=80 MM L=4.500 MM * (70,55 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "3.790,78"
+   "Preço": "3.988,36"
  },
  {
    "Código": "HM07029",
@@ -23865,187 +23865,187 @@ const baseMateriais = [
    "Código": "HM03627",
    "Descrição": "TUBO C/FLANGES PN10/16/25 FERRO FUNDIDO DN=80 MM L=5.500 MM * (84,45 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "4.372,56"
+   "Preço": "4.339,59"
  },
  {
    "Código": "HM07031",
    "Descrição": "TUBO C/FLANGES PN10/16/25 FERRO FUNDIDO DN=80 MM L=5.800 MM (88,62 KG) PINTURA EPÓXI VERMELHA, ACESSÓRIOS NÃO INCLUSOS NBR 15420 ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "5.455,20"
+   "Preço": "5.921,03"
  },
  {
    "Código": "HM03628",
    "Descrição": "TUBO C/FLANGES PN10/16/25 FERRO FUNDIDO DN=80 MM L=5.800 MM * (88,62 KG) PINTURA BETUMINOSA, ACESSÓRIOS NÃO INCLUSOS NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "4.519,79"
+   "Preço": "4.758,84"
  },
  {
    "Código": "HM04104",
    "Descrição": "TUBO C/PONTA E BOLSA JGS K7 FERRO FUNDIDO DN=150 MM * (23,30 KG/M) PINTURA BETUMINOSA, ANEL DE BORRACHA INCLUSO NBR 7675 ÁGUA",
    "Unid. Med.": "M",
-   "Preço": "506,72"
+   "Preço": "393,43"
  },
  {
    "Código": "HM04089",
    "Descrição": "TUBO C/PONTA E BOLSA JGS K7 FERRO FUNDIDO DN=150 MM * (23,80 KG/M) PINTURA EPÓXI VERMELHA, ANEL DE BORRACHA INCLUSO NBR 15420 ESGOTO",
    "Unid. Med.": "M",
-   "Preço": "558,76"
+   "Preço": "484,33"
  },
  {
    "Código": "HM04105",
    "Descrição": "TUBO C/PONTA E BOLSA JGS K7 FERRO FUNDIDO DN=200 MM * (31,90 KG/M) PINTURA BETUMINOSA, ANEL DE BORRACHA INCLUSO NBR 7675 ÁGUA",
    "Unid. Med.": "M",
-   "Preço": "604,11"
+   "Preço": "512,84"
  },
  {
    "Código": "HM04090",
    "Descrição": "TUBO C/PONTA E BOLSA JGS K7 FERRO FUNDIDO DN=200 MM * (32,60 KG/M) PINTURA EPÓXI VERMELHA, ANEL DE BORRACHA INCLUSO NBR 15420 ESGOTO",
    "Unid. Med.": "M",
-   "Preço": "669,04"
+   "Preço": "577,54"
  },
  {
    "Código": "HM04106",
    "Descrição": "TUBO C/PONTA E BOLSA JGS K7 FERRO FUNDIDO DN=250 MM * (40,30 KG/M) PINTURA BETUMINOSA, ANEL DE BORRACHA INCLUSO NBR 7675 ÁGUA",
    "Unid. Med.": "M",
-   "Preço": "695,52"
+   "Preço": "646,34"
  },
  {
    "Código": "HM04091",
    "Descrição": "TUBO C/PONTA E BOLSA JGS K7 FERRO FUNDIDO DN=250 MM * (41,30 KG/M) PINTURA EPÓXI VERMELHA, ANEL DE BORRACHA INCLUSO NBR 15420 ESGOTO",
    "Unid. Med.": "M",
-   "Preço": "774,75"
+   "Preço": "713,44"
  },
  {
    "Código": "HM04107",
    "Descrição": "TUBO C/PONTA E BOLSA JGS K7 FERRO FUNDIDO DN=300 MM * (49,80 KG/M) PINTURA BETUMINOSA, ANEL DE BORRACHA INCLUSO NBR 7675 ÁGUA",
    "Unid. Med.": "M",
-   "Preço": "844,71"
+   "Preço": "761,04"
  },
  {
    "Código": "HM04092",
    "Descrição": "TUBO C/PONTA E BOLSA JGS K7 FERRO FUNDIDO DN=300 MM * (51,00 KG/M) PINTURA EPÓXI VERMELHA, ANEL DE BORRACHA INCLUSO NBR 15420 ESGOTO",
    "Unid. Med.": "M",
-   "Preço": "921,79"
+   "Preço": "819,70"
  },
  {
    "Código": "HM04108",
    "Descrição": "TUBO C/PONTA E BOLSA JGS K7 FERRO FUNDIDO DN=350 MM * (64,90 KG/M) PINTURA BETUMINOSA, ANEL DE BORRACHA INCLUSO NBR 7675 ÁGUA",
    "Unid. Med.": "M",
-   "Preço": "1.037,09"
+   "Preço": "925,52"
  },
  {
    "Código": "HM04093",
    "Descrição": "TUBO C/PONTA E BOLSA JGS K7 FERRO FUNDIDO DN=350 MM * (64,90 KG/M) PINTURA EPÓXI VERMELHA, ANEL DE BORRACHA INCLUSO NBR 15420 ESGOTO",
    "Unid. Med.": "M",
-   "Preço": "1.147,38"
+   "Preço": "1.068,48"
  },
  {
    "Código": "HM04109",
    "Descrição": "TUBO C/PONTA E BOLSA JGS K7 FERRO FUNDIDO DN=400 MM * (77,90 KG/M) PINTURA BETUMINOSA, ANEL DE BORRACHA INCLUSO NBR 7675 ÁGUA",
    "Unid. Med.": "M",
-   "Preço": "1.173,23"
+   "Preço": "1.027,21"
  },
  {
    "Código": "HM04094",
    "Descrição": "TUBO C/PONTA E BOLSA JGS K7 FERRO FUNDIDO DN=400 MM * (77,90 KG/M) PINTURA EPÓXI VERMELHA, ANEL DE BORRACHA INCLUSO NBR 15420 ESGOTO",
    "Unid. Med.": "M",
-   "Preço": "1.284,07"
+   "Preço": "1.166,86"
  },
  {
    "Código": "HM04110",
    "Descrição": "TUBO C/PONTA E BOLSA JGS K7 FERRO FUNDIDO DN=450 MM * (91,70 KG/M) PINTURA BETUMINOSA, ANEL DE BORRACHA INCLUSO NBR 7675 ÁGUA",
    "Unid. Med.": "M",
-   "Preço": "1.292,05"
+   "Preço": "1.192,28"
  },
  {
    "Código": "HM04095",
    "Descrição": "TUBO C/PONTA E BOLSA JGS K7 FERRO FUNDIDO DN=450 MM * (91,70 KG/M) PINTURA EPÓXI VERMELHA, ANEL DE BORRACHA INCLUSO NBR 15420 ESGOTO",
    "Unid. Med.": "M",
-   "Preço": "1.424,73"
+   "Preço": "1.359,98"
  },
  {
    "Código": "HM04111",
    "Descrição": "TUBO C/PONTA E BOLSA JGS K7 FERRO FUNDIDO DN=500 MM * (106,10 KG/M) PINTURA BETUMINOSA, ANEL DE BORRACHA INCLUSO NBR 7675 ÁGUA",
    "Unid. Med.": "M",
-   "Preço": "1.446,22"
+   "Preço": "1.323,23"
  },
  {
    "Código": "HM04096",
    "Descrição": "TUBO C/PONTA E BOLSA JGS K7 FERRO FUNDIDO DN=500 MM * (106,10 KG/M) PINTURA EPÓXI VERMELHA, ANEL DE BORRACHA INCLUSO NBR 15420 ESGOTO",
    "Unid. Med.": "M",
-   "Preço": "1.594,73"
+   "Preço": "1.510,85"
  },
  {
    "Código": "HM04118",
    "Descrição": "TUBO C/PONTA E BOLSA JGS K9 FERRO FUNDIDO DN=100 MM * (18,10 KG/M) PINTURA BETUMINOSA, ANEL DE BORRACHA INCLUSO NBR 7675 ÁGUA",
    "Unid. Med.": "M",
-   "Preço": "369,33"
+   "Preço": "398,94"
  },
  {
    "Código": "HM04088",
    "Descrição": "TUBO C/PONTA E BOLSA JGS K9 FERRO FUNDIDO DN=100 MM * (18,40 KG/M) PINTURA EPÓXI VERMELHA, ANEL DE BORRACHA INCLUSO NBR 15420 ESGOTO",
    "Unid. Med.": "M",
-   "Preço": "400,89"
+   "Preço": "431,98"
  },
  {
    "Código": "HM04119",
    "Descrição": "TUBO C/PONTA E BOLSA JGS K9 FERRO FUNDIDO DN=150 MM * (27,30 KG/M) PINTURA BETUMINOSA, ANEL DE BORRACHA INCLUSO NBR 7675 ÁGUA",
    "Unid. Med.": "M",
-   "Preço": "412,13"
+   "Preço": "452,94"
  },
  {
    "Código": "HM04120",
    "Descrição": "TUBO C/PONTA E BOLSA JGS K9 FERRO FUNDIDO DN=200 MM * (36,70 KG/M) PINTURA BETUMINOSA, ANEL DE BORRACHA INCLUSO NBR 7675 ÁGUA",
    "Unid. Med.": "M",
-   "Preço": "501,47"
+   "Preço": "537,93"
  },
  {
    "Código": "HM04121",
    "Descrição": "TUBO C/PONTA E BOLSA JGS K9 FERRO FUNDIDO DN=250 MM * (48,00 KG/M) PINTURA BETUMINOSA, ANEL DE BORRACHA INCLUSO NBR 7675 ÁGUA",
    "Unid. Med.": "M",
-   "Preço": "597,84"
+   "Preço": "714,83"
  },
  {
    "Código": "HM04122",
    "Descrição": "TUBO C/PONTA E BOLSA JGS K9 FERRO FUNDIDO DN=300 MM * (60,40 KG/M) PINTURA BETUMINOSA, ANEL DE BORRACHA INCLUSO NBR 7675 ÁGUA",
    "Unid. Med.": "M",
-   "Preço": "726,05"
+   "Preço": "859,12"
  },
  {
    "Código": "HM04123",
    "Descrição": "TUBO C/PONTA E BOLSA JGS K9 FERRO FUNDIDO DN=350 MM * (79,70 KG/M) PINTURA BETUMINOSA, ANEL DE BORRACHA INCLUSO NBR 7675 ÁGUA",
    "Unid. Med.": "M",
-   "Preço": "858,33"
+   "Preço": "1.067,53"
  },
  {
    "Código": "HM04124",
    "Descrição": "TUBO C/PONTA E BOLSA JGS K9 FERRO FUNDIDO DN=400 MM * (94,70 KG/M) PINTURA BETUMINOSA, ANEL DE BORRACHA INCLUSO NBR 7675 ÁGUA",
    "Unid. Med.": "M",
-   "Preço": "954,86"
+   "Preço": "1.181,72"
  },
  {
    "Código": "HM04125",
    "Descrição": "TUBO C/PONTA E BOLSA JGS K9 FERRO FUNDIDO DN=450 MM * (111,80 KG/M) PINTURA BETUMINOSA, ANEL DE BORRACHA INCLUSO NBR 7675 ÁGUA",
    "Unid. Med.": "M",
-   "Preço": "1.100,27"
+   "Preço": "1.382,29"
  },
  {
    "Código": "HM04126",
    "Descrição": "TUBO C/PONTA E BOLSA JGS K9 FERRO FUNDIDO DN=500 MM * (129,30 KG/M) PINTURA BETUMINOSA, ANEL DE BORRACHA INCLUSO NBR 7675 ÁGUA",
    "Unid. Med.": "M",
-   "Preço": "1.248,73"
+   "Preço": "1.550,44"
  },
  {
    "Código": "HM04129",
    "Descrição": "TUBO C/PONTA E BOLSA JGS K9 FERRO FUNDIDO DN=80 MM * (14,50 KG/M) PINTURA BETUMINOSA, ANEL DE BORRACHA INCLUSO NBR 7675 ÁGUA",
    "Unid. Med.": "M",
-   "Preço": "364,68"
+   "Preço": "391,96"
  },
  {
    "Código": "HM04099",
    "Descrição": "TUBO C/PONTA E BOLSA JGS K9 FERRO FUNDIDO DN=80 MM * (14,50 KG/M) PINTURA EPÓXI VERMELHA, ANEL DE BORRACHA INCLUSO NBR 15420 ESGOTO",
    "Unid. Med.": "M",
-   "Preço": "395,85"
+   "Preço": "419,25"
  },
  {
    "Código": "CV01267",
@@ -24303,67 +24303,67 @@ const baseMateriais = [
    "Código": "HM01992",
    "Descrição": "TUBO CORRUGADO PVC RÍGIDO DN=100 MM PERFURADO PARA DRENAGEM",
    "Unid. Med.": "M",
-   "Preço": "50,54"
+   "Preço": "65,70"
  },
  {
    "Código": "HM05887",
    "Descrição": "TUBO COSTURA HELICOIDAL AÇO CARBONO DE=24\" E=1/4\" L=6M NTS-285 REVESTIMENTO 0100-400-E045 ALT3 (EPÓXI)",
    "Unid. Med.": "M",
-   "Preço": "3.391,53"
+   "Preço": "3.146,32"
  },
  {
    "Código": "HM05888",
    "Descrição": "TUBO COSTURA HELICOIDAL AÇO CARBONO DE=28\" E=1/4\" L=6M NTS-285 REVESTIMENTO 0100-400-E045 ALT3 (EPÓXI)",
    "Unid. Med.": "M",
-   "Preço": "3.923,70"
+   "Preço": "3.634,60"
  },
  {
    "Código": "HM05889",
    "Descrição": "TUBO COSTURA HELICOIDAL AÇO CARBONO DE=32\" E=1/4\" L=6M NTS-285 REVESTIMENTO 0100-400-E045 ALT3 (EPÓXI)",
    "Unid. Med.": "M",
-   "Preço": "4.730,55"
+   "Preço": "4.191,92"
  },
  {
    "Código": "HM05890",
    "Descrição": "TUBO COSTURA HELICOIDAL AÇO CARBONO DE=36\" E=1/4\" L=6M NTS-285 REVESTIMENTO 0100-400-E045 ALT3 (EPÓXI)",
    "Unid. Med.": "M",
-   "Preço": "5.080,74"
+   "Preço": "4.730,20"
  },
  {
    "Código": "HM05891",
    "Descrição": "TUBO COSTURA HELICOIDAL AÇO CARBONO DE=40\" E=1/4\" L=6M NTS-285 REVESTIMENTO 0100-400-E045 ALT3 (EPÓXI)",
    "Unid. Med.": "M",
-   "Preço": "5.819,11"
+   "Preço": "5.228,00"
  },
  {
    "Código": "HM05893",
    "Descrição": "TUBO COSTURA HELICOIDAL AÇO CARBONO DE=48\" E=1/4\" L=6M NTS-285 REVESTIMENTO 0100-400-E045 ALT3 (EPÓXI)",
    "Unid. Med.": "M",
-   "Preço": "6.884,11"
+   "Preço": "6.148,60"
  },
  {
    "Código": "HM05892",
    "Descrição": "TUBO COSTURA HELICOIDAL AÇO CARBONO DE=60\" E=5/16\" L=6M NTS-285 REVESTIMENTO 0100-400-E045 ALT3 (EPÓXI)",
    "Unid. Med.": "M",
-   "Preço": "10.811,76"
+   "Preço": "9.580,74"
  },
  {
    "Código": "HM07032",
    "Descrição": "TUBO COSTURA LONGITUDINAL AÇO CARBONO ASTM A36 DE=20\" L=4,0 M E=1/4\" REVESTIMENTO 0100-400-E045 ALT3 (EPÓXI) 0100-400-E005",
    "Unid. Med.": "un",
-   "Preço": "9.693,97"
+   "Preço": "10.467,94"
  },
  {
    "Código": "HM07033",
    "Descrição": "TUBO COSTURA LONGITUDINAL AÇO CARBONO ASTM A36 DE=40\" L=4,0 M E=1/4\" REVESTIMENTO 0100-400-E045 ALT3 (EPÓXI) 0100-400-E005",
    "Unid. Med.": "un",
-   "Preço": "19.388,41"
+   "Preço": "20.722,00"
  },
  {
    "Código": "HM07034",
    "Descrição": "TUBO COSTURA LONGITUDINAL AÇO CARBONO ASTM A36 DE=60\" L=4,0 M E=5/16\" REVESTIMENTO 0100-400-E045 ALT3 (EPÓXI) 0100-400-E005",
    "Unid. Med.": "un",
-   "Preço": "40.328,32"
+   "Preço": "37.932,94"
  },
  {
    "Código": "EQ04611",
@@ -24375,421 +24375,421 @@ const baseMateriais = [
    "Código": "HM06679",
    "Descrição": "TUBO PEAD PE 80 1 MPA DE=20 MM AZUL NTS 048 APLICAÇÃO ÁGUA",
    "Unid. Med.": "M",
-   "Preço": "3,16"
+   "Preço": "4,11"
  },
  {
    "Código": "HM06680",
    "Descrição": "TUBO PEAD PE 80 1 MPA DE=32 MM AZUL NTS 048 APLICAÇÃO ÁGUA",
    "Unid. Med.": "M",
-   "Preço": "6,59"
+   "Preço": "8,57"
  },
  {
    "Código": "HM06698",
    "Descrição": "TUBO PEAD PE100 PN10 SDR17 DE= 63 MM AZUL NTS 194 APLICAÇÃO ÁGUA",
    "Unid. Med.": "M",
-   "Preço": "18,93"
+   "Preço": "24,61"
  },
  {
    "Código": "HM06700",
    "Descrição": "TUBO PEAD PE100 PN10 SDR17 DE= 90 MM AZUL NTS 194 APLICAÇÃO ÁGUA",
    "Unid. Med.": "M",
-   "Preço": "37,67"
+   "Preço": "48,97"
  },
  {
    "Código": "HM06681",
    "Descrição": "TUBO PEAD PE100 PN10 SDR17 DE=110 MM AZUL NTS 194 APLICAÇÃO ÁGUA",
    "Unid. Med.": "M",
-   "Preço": "56,08"
+   "Preço": "72,90"
  },
  {
    "Código": "HM06682",
    "Descrição": "TUBO PEAD PE100 PN10 SDR17 DE=110 MM PRETO NTS 194 APLICAÇÃO ESGOTO",
    "Unid. Med.": "M",
-   "Preço": "54,22"
+   "Preço": "76,28"
  },
  {
    "Código": "HM06683",
    "Descrição": "TUBO PEAD PE100 PN10 SDR17 DE=160 MM AZUL NTS 194 APLICAÇÃO ÁGUA",
    "Unid. Med.": "M",
-   "Preço": "117,69"
+   "Preço": "153,00"
  },
  {
    "Código": "HM06684",
    "Descrição": "TUBO PEAD PE100 PN10 SDR17 DE=160 MM PRETO NTS 194 APLICAÇÃO ESGOTO",
    "Unid. Med.": "M",
-   "Preço": "117,97"
+   "Preço": "133,25"
  },
  {
    "Código": "HM06685",
    "Descrição": "TUBO PEAD PE100 PN10 SDR17 DE=200 MM AZUL NTS 194 APLICAÇÃO ÁGUA",
    "Unid. Med.": "M",
-   "Preço": "170,70"
+   "Preço": "221,91"
  },
  {
    "Código": "HM06686",
    "Descrição": "TUBO PEAD PE100 PN10 SDR17 DE=200 MM PRETO NTS 194 APLICAÇÃO ESGOTO",
    "Unid. Med.": "M",
-   "Preço": "132,74"
+   "Preço": "175,64"
  },
  {
    "Código": "HM06688",
    "Descrição": "TUBO PEAD PE100 PN10 SDR17 DE=250 MM AZUL NTS 194 APLICAÇÃO ÁGUA",
    "Unid. Med.": "M",
-   "Preço": "266,50"
+   "Preço": "346,45"
  },
  {
    "Código": "HM06689",
    "Descrição": "TUBO PEAD PE100 PN10 SDR17 DE=250 MM PRETO NTS 194 APLICAÇÃO ESGOTO",
    "Unid. Med.": "M",
-   "Preço": "267,24"
+   "Preço": "318,40"
  },
  {
    "Código": "HM06691",
    "Descrição": "TUBO PEAD PE100 PN10 SDR17 DE=315 MM AZUL NTS 194 APLICAÇÃO ÁGUA",
    "Unid. Med.": "M",
-   "Preço": "422,14"
+   "Preço": "570,45"
  },
  {
    "Código": "HM06692",
    "Descrição": "TUBO PEAD PE100 PN10 SDR17 DE=315 MM PRETO NTS 194 APLICAÇÃO ESGOTO",
    "Unid. Med.": "M",
-   "Preço": "327,91"
+   "Preço": "433,54"
  },
  {
    "Código": "HM06693",
    "Descrição": "TUBO PEAD PE100 PN10 SDR17 DE=355 MM AZUL NTS 194 APLICAÇÃO ÁGUA",
    "Unid. Med.": "M",
-   "Preço": "537,30"
+   "Preço": "726,02"
  },
  {
    "Código": "HM06694",
    "Descrição": "TUBO PEAD PE100 PN10 SDR17 DE=355 MM PRETO NTS 194 APLICAÇÃO ESGOTO",
    "Unid. Med.": "M",
-   "Preço": "539,86"
+   "Preço": "644,49"
  },
  {
    "Código": "HM06696",
    "Descrição": "TUBO PEAD PE100 PN10 SDR17 DE=400 MM AZUL NTS 194 APLICAÇÃO ÁGUA",
    "Unid. Med.": "M",
-   "Preço": "686,62"
+   "Preço": "936,70"
  },
  {
    "Código": "HM06697",
    "Descrição": "TUBO PEAD PE100 PN10 SDR17 DE=400 MM PRETO NTS 194 APLICAÇÃO ESGOTO",
    "Unid. Med.": "M",
-   "Preço": "686,49"
+   "Preço": "819,79"
  },
  {
    "Código": "HM07331",
    "Descrição": "TUBO PEAD PE100 PN10 SDR17 DE=500 MM AZUL NTS 194 APLICAÇÃO ÁGUA",
    "Unid. Med.": "M",
-   "Preço": "1.081,77"
+   "Preço": "1.461,77"
  },
  {
    "Código": "HM07341",
    "Descrição": "TUBO PEAD PE100 PN10 SDR17 DE=500 MM PRETO NTS 194 APLICAÇÃO ESGOTO",
    "Unid. Med.": "M",
-   "Preço": "841,35"
+   "Preço": "1.110,88"
  },
  {
    "Código": "HM06699",
    "Descrição": "TUBO PEAD PE100 PN10 SDR17 DE=63 MM PRETO NTS 194 APLICAÇÃO ESGOTO",
    "Unid. Med.": "M",
-   "Preço": "16,33"
+   "Preço": "18,97"
  },
  {
    "Código": "HM06701",
    "Descrição": "TUBO PEAD PE100 PN10 SDR17 DE=90 MM PRETO NTS 194 APLICAÇÃO ESGOTO",
    "Unid. Med.": "M",
-   "Preço": "36,27"
+   "Preço": "51,56"
  },
  {
    "Código": "HM02091",
    "Descrição": "TUBO PEAD PE100 PN16 SDR11 DE= 63 MM AZUL NTS 194 APLICAÇÃO ÁGUA",
    "Unid. Med.": "M",
-   "Preço": "27,25"
+   "Preço": "35,43"
  },
  {
    "Código": "HM07332",
    "Descrição": "TUBO PEAD PE100 PN16 SDR11 DE= 63 MM PRETO NTS 194 APLICAÇÃO ESGOTO",
    "Unid. Med.": "M",
-   "Preço": "25,51"
+   "Preço": "33,16"
  },
  {
    "Código": "HM02093",
    "Descrição": "TUBO PEAD PE100 PN16 SDR11 DE= 90 MM AZUL NTS 194 APLICAÇÃO ÁGUA",
    "Unid. Med.": "M",
-   "Preço": "55,10"
+   "Preço": "71,63"
  },
  {
    "Código": "HM02085",
    "Descrição": "TUBO PEAD PE100 PN16 SDR11 DE=110 MM AZUL NTS 194 APLICAÇÃO ÁGUA",
    "Unid. Med.": "M",
-   "Preço": "81,81"
+   "Preço": "106,35"
  },
  {
    "Código": "HM07333",
    "Descrição": "TUBO PEAD PE100 PN16 SDR11 DE=110 MM PRETO NTS 194 APLICAÇÃO ESGOTO",
    "Unid. Med.": "M",
-   "Preço": "59,20"
+   "Preço": "78,07"
  },
  {
    "Código": "HM02087",
    "Descrição": "TUBO PEAD PE100 PN16 SDR11 DE=160 MM AZUL NTS 194 APLICAÇÃO ÁGUA",
    "Unid. Med.": "M",
-   "Preço": "178,80"
+   "Preço": "232,44"
  },
  {
    "Código": "HM07334",
    "Descrição": "TUBO PEAD PE100 PN16 SDR11 DE=160 MM PRETO NTS 194 APLICAÇÃO ESGOTO",
    "Unid. Med.": "M",
-   "Preço": "125,73"
+   "Preço": "166,04"
  },
  {
    "Código": "HM02088",
    "Descrição": "TUBO PEAD PE100 PN16 SDR11 DE=200 MM AZUL NTS 194 APLICAÇÃO ÁGUA",
    "Unid. Med.": "M",
-   "Preço": "251,94"
+   "Preço": "327,52"
  },
  {
    "Código": "HM07335",
    "Descrição": "TUBO PEAD PE100 PN16 SDR11 DE=200 MM PRETO NTS 194 APLICAÇÃO ESGOTO",
    "Unid. Med.": "M",
-   "Preço": "195,94"
+   "Preço": "258,64"
  },
  {
    "Código": "HM05140",
    "Descrição": "TUBO PEAD PE100 PN16 SDR11 DE=225 MM AZUL NTS 194 APLICAÇÃO ÁGUA",
    "Unid. Med.": "M",
-   "Preço": "318,79"
+   "Preço": "414,43"
  },
  {
    "Código": "HM02090",
    "Descrição": "TUBO PEAD PE100 PN16 SDR11 DE=250 MM AZUL NTS 194 APLICAÇÃO ÁGUA",
    "Unid. Med.": "M",
-   "Preço": "393,35"
+   "Preço": "511,35"
  },
  {
    "Código": "HM07336",
    "Descrição": "TUBO PEAD PE100 PN16 SDR11 DE=250 MM PRETO NTS 194 APLICAÇÃO ESGOTO",
    "Unid. Med.": "M",
-   "Preço": "313,10"
+   "Preço": "403,22"
  },
  {
    "Código": "HM05141",
    "Descrição": "TUBO PEAD PE100 PN16 SDR11 DE=280 MM AZUL NTS 194 APLICAÇÃO ÁGUA",
    "Unid. Med.": "M",
-   "Preço": "492,73"
+   "Preço": "640,55"
  },
  {
    "Código": "HM05142",
    "Descrição": "TUBO PEAD PE100 PN16 SDR11 DE=315 MM AZUL NTS 194 APLICAÇÃO ÁGUA",
    "Unid. Med.": "M",
-   "Preço": "622,85"
+   "Preço": "809,71"
  },
  {
    "Código": "HM07337",
    "Descrição": "TUBO PEAD PE100 PN16 SDR11 DE=315 MM PRETO NTS 194 APLICAÇÃO ESGOTO",
    "Unid. Med.": "M",
-   "Preço": "484,52"
+   "Preço": "638,12"
  },
  {
    "Código": "HM07140",
    "Descrição": "TUBO PEAD PE100 PN16 SDR11 DE=355 MM AZUL NTS 194 APLICAÇÃO ÁGUA",
    "Unid. Med.": "M",
-   "Preço": "792,27"
+   "Preço": "1.029,95"
  },
  {
    "Código": "HM07338",
    "Descrição": "TUBO PEAD PE100 PN16 SDR11 DE=355 MM PRETO NTS 194 APLICAÇÃO ESGOTO",
    "Unid. Med.": "M",
-   "Preço": "630,44"
+   "Preço": "813,02"
  },
  {
    "Código": "HM05143",
    "Descrição": "TUBO PEAD PE100 PN16 SDR11 DE=400 MM AZUL NTS 194 APLICAÇÃO ÁGUA",
    "Unid. Med.": "M",
-   "Preço": "1.014,52"
+   "Preço": "1.318,88"
  },
  {
    "Código": "HM07339",
    "Descrição": "TUBO PEAD PE100 PN16 SDR11 DE=400 MM PRETO NTS 194 APLICAÇÃO ESGOTO",
    "Unid. Med.": "M",
-   "Preço": "788,64"
+   "Preço": "1.051,52"
  },
  {
    "Código": "HM07330",
    "Descrição": "TUBO PEAD PE100 PN16 SDR11 DE=500 MM AZUL NTS 194 APLICAÇÃO ÁGUA",
    "Unid. Med.": "M",
-   "Preço": "1.598,07"
+   "Preço": "2.077,49"
  },
  {
    "Código": "HM07340",
    "Descrição": "TUBO PEAD PE100 PN16 SDR11 DE=500 MM PRETO NTS 194 APLICAÇÃO ESGOTO",
    "Unid. Med.": "M",
-   "Preço": "1.243,40"
+   "Preço": "1.643,00"
  },
  {
    "Código": "HM01724",
    "Descrição": "TUBO PVC D=1\" COM ROSCA ÁGUA PREDIAL",
    "Unid. Med.": "M",
-   "Preço": "23,40"
+   "Preço": "30,42"
  },
  {
    "Código": "HM01812",
    "Descrição": "TUBO PVC D=100 MM PBJE BRANCO NORMAL NBR 5688 ESGOTO PREDIAL",
    "Unid. Med.": "M",
-   "Preço": "16,22"
+   "Preço": "16,84"
  },
  {
    "Código": "HM01610",
    "Descrição": "TUBO PVC D=110 MM SOLDÁVEL MARROM NBR 5648 ÁGUA PREDIAL",
    "Unid. Med.": "M",
-   "Preço": "98,91"
+   "Preço": "128,58"
  },
  {
    "Código": "HM01907",
    "Descrição": "TUBO PVC D=150 MM PBJE BRANCO NORMAL NBR 5688 ESGOTO PREDIAL",
    "Unid. Med.": "M",
-   "Preço": "34,65"
+   "Preço": "45,05"
  },
  {
    "Código": "HM01611",
    "Descrição": "TUBO PVC D=20 MM SOLDÁVEL MARROM NBR 5648 ÁGUA PREDIAL",
    "Unid. Med.": "M",
-   "Preço": "3,50"
+   "Preço": "4,17"
  },
  {
    "Código": "HM01612",
    "Descrição": "TUBO PVC D=25 MM SOLDÁVEL MARROM NBR 5648 ÁGUA PREDIAL",
    "Unid. Med.": "M",
-   "Preço": "3,53"
+   "Preço": "4,64"
  },
  {
    "Código": "HM01731",
    "Descrição": "TUBO PVC D=3/4\" COM ROSCA ÁGUA PREDIAL",
    "Unid. Med.": "M",
-   "Preço": "8,93"
+   "Preço": "11,61"
  },
  {
    "Código": "HM01613",
    "Descrição": "TUBO PVC D=32 MM SOLDÁVEL MARROM NBR 5648 ÁGUA PREDIAL",
    "Unid. Med.": "M",
-   "Preço": "8,86"
+   "Preço": "9,16"
  },
  {
    "Código": "HM01813",
    "Descrição": "TUBO PVC D=40 MM PBJE BRANCO NORMAL NBR 5688 ESGOTO PREDIAL",
    "Unid. Med.": "M",
-   "Preço": "5,98"
+   "Preço": "7,35"
  },
  {
    "Código": "HM01614",
    "Descrição": "TUBO PVC D=40 MM SOLDÁVEL MARROM NBR 5648 ÁGUA PREDIAL",
    "Unid. Med.": "M",
-   "Preço": "14,51"
+   "Preço": "16,58"
  },
  {
    "Código": "HM01814",
    "Descrição": "TUBO PVC D=50 MM PBJE BRANCO NORMAL NBR 5688 ESGOTO PREDIAL",
    "Unid. Med.": "M",
-   "Preço": "10,14"
+   "Preço": "12,03"
  },
  {
    "Código": "HM01615",
    "Descrição": "TUBO PVC D=50 MM SOLDÁVEL MARROM NBR 5648 ÁGUA PREDIAL",
    "Unid. Med.": "M",
-   "Preço": "14,57"
+   "Preço": "17,16"
  },
  {
    "Código": "HM01616",
    "Descrição": "TUBO PVC D=60 MM SOLDÁVEL MARROM NBR 5648 ÁGUA PREDIAL",
    "Unid. Med.": "M",
-   "Preço": "35,24"
+   "Preço": "40,62"
  },
  {
    "Código": "HM01815",
    "Descrição": "TUBO PVC D=75 MM PBJE BRANCO NORMAL NBR 5688 ESGOTO PREDIAL",
    "Unid. Med.": "M",
-   "Preço": "13,24"
+   "Preço": "16,45"
  },
  {
    "Código": "HM01617",
    "Descrição": "TUBO PVC D=75 MM SOLDÁVEL MARROM NBR 5648 ÁGUA PREDIAL",
    "Unid. Med.": "M",
-   "Preço": "48,04"
+   "Preço": "62,45"
  },
  {
    "Código": "HM01618",
    "Descrição": "TUBO PVC D=85 MM SOLDÁVEL MARROM NBR 5648 ÁGUA PREDIAL",
    "Unid. Med.": "M",
-   "Preço": "79,17"
+   "Preço": "91,87"
  },
  {
    "Código": "HM01914",
    "Descrição": "TUBO PVC DE=110 MM CL 15 PBA JEI NBR 5647-1 INFRAESTRUTURA ÁGUA",
    "Unid. Med.": "M",
-   "Preço": "68,68"
+   "Preço": "84,32"
  },
  {
    "Código": "HM01917",
    "Descrição": "TUBO PVC DE=110 MM CL 20 PBA JEI NBR 5647-1 INFRAESTRUTURA ÁGUA",
    "Unid. Med.": "M",
-   "Preço": "80,81"
+   "Preço": "105,05"
  },
  {
    "Código": "HM01915",
    "Descrição": "TUBO PVC DE=60 MM CL 15 PBA JEI NBR 5647-1 INFRAESTRUTURA ÁGUA",
    "Unid. Med.": "M",
-   "Preço": "17,89"
+   "Preço": "23,26"
  },
  {
    "Código": "HM01918",
    "Descrição": "TUBO PVC DE=60 MM CL 20 PBA JEI NBR 5647-1 INFRAESTRUTURA ÁGUA",
    "Unid. Med.": "M",
-   "Preço": "21,05"
+   "Preço": "27,37"
  },
  {
    "Código": "HM01916",
    "Descrição": "TUBO PVC DE=85 MM CL 15 PBA JEI NBR 5647-1 INFRAESTRUTURA ÁGUA",
    "Unid. Med.": "M",
-   "Preço": "36,08"
+   "Preço": "46,90"
  },
  {
    "Código": "HM01919",
    "Descrição": "TUBO PVC DE=85 MM CL 20 PBA JEI NBR 5647-1 INFRAESTRUTURA ÁGUA",
    "Unid. Med.": "M",
-   "Preço": "42,45"
+   "Preço": "55,19"
  },
  {
    "Código": "HM01930",
    "Descrição": "TUBO PVC DEFOFO DN=100 MM PBJE NBR 7665 INFRAESTRUTURA ÁGUA",
    "Unid. Med.": "M",
-   "Preço": "48,97"
+   "Preço": "63,66"
  },
  {
    "Código": "HM01931",
    "Descrição": "TUBO PVC DEFOFO DN=150 MM PBJE NBR 7665 INFRAESTRUTURA ÁGUA",
    "Unid. Med.": "M",
-   "Preço": "92,65"
+   "Preço": "120,45"
  },
  {
    "Código": "HM01932",
    "Descrição": "TUBO PVC DEFOFO DN=200 MM PBJE NBR 7665 INFRAESTRUTURA ÁGUA",
    "Unid. Med.": "M",
-   "Preço": "156,76"
+   "Preço": "203,79"
  },
  {
    "Código": "HM01933",
    "Descrição": "TUBO PVC DEFOFO DN=250 MM PBJE NBR 7665 INFRAESTRUTURA ÁGUA",
    "Unid. Med.": "M",
-   "Preço": "246,37"
+   "Preço": "320,28"
  },
  {
    "Código": "HM01934",
    "Descrição": "TUBO PVC DEFOFO DN=300 MM PBJE NBR 7665 INFRAESTRUTURA ÁGUA",
    "Unid. Med.": "M",
-   "Preço": "350,56"
+   "Preço": "455,73"
  },
  {
    "Código": "CV01278",
@@ -24801,49 +24801,49 @@ const baseMateriais = [
    "Código": "HM02029",
    "Descrição": "TUBO PVC RÍGIDO D=100 MM OCRE PB JEI NBR 7362 COLETOR DE ESGOTO",
    "Unid. Med.": "M",
-   "Preço": "50,70"
+   "Preço": "40,34"
  },
  {
    "Código": "HM02031",
    "Descrição": "TUBO PVC RÍGIDO D=150 MM OCRE PB JEI NBR 7362 COLETOR DE ESGOTO",
    "Unid. Med.": "M",
-   "Preço": "82,65"
+   "Preço": "71,11"
  },
  {
    "Código": "HM02032",
    "Descrição": "TUBO PVC RÍGIDO D=200 MM OCRE PB JEI NBR 7362 COLETOR DE ESGOTO",
    "Unid. Med.": "M",
-   "Preço": "166,93"
+   "Preço": "121,59"
  },
  {
    "Código": "HM02033",
    "Descrição": "TUBO PVC RÍGIDO D=250 MM OCRE PB JEI NBR 7362 COLETOR DE ESGOTO",
    "Unid. Med.": "M",
-   "Preço": "264,00"
+   "Preço": "221,23"
  },
  {
    "Código": "HM02034",
    "Descrição": "TUBO PVC RÍGIDO D=300 MM OCRE PB JEI NBR 7362 COLETOR DE ESGOTO",
    "Unid. Med.": "M",
-   "Preço": "419,73"
+   "Preço": "355,88"
  },
  {
    "Código": "HM02035",
    "Descrição": "TUBO PVC RÍGIDO D=350 MM OCRE PB JEI NBR 7362 COLETOR DE ESGOTO",
    "Unid. Med.": "M",
-   "Preço": "462,48"
+   "Preço": "485,65"
  },
  {
    "Código": "HM02036",
    "Descrição": "TUBO PVC RÍGIDO D=400 MM OCRE PB JEI NBR 7362 COLETOR DE ESGOTO",
    "Unid. Med.": "M",
-   "Preço": "683,42"
+   "Preço": "591,06"
  },
  {
    "Código": "HM07749",
    "Descrição": "TUBO PVC-O DN=100 JERI PN12,5 NTS187 INFRAESTRUTURA ÁGUA",
    "Unid. Med.": "M",
-   "Preço": "44,77"
+   "Preço": "63,65"
  },
  {
    "Código": "HM07754",
@@ -24855,7 +24855,7 @@ const baseMateriais = [
    "Código": "HM07750",
    "Descrição": "TUBO PVC-O DN=150 JERI PN12,5 NTS187 INFRAESTRUTURA ÁGUA",
    "Unid. Med.": "M",
-   "Preço": "90,32"
+   "Preço": "110,33"
  },
  {
    "Código": "HM07755",
@@ -24867,7 +24867,7 @@ const baseMateriais = [
    "Código": "HM07751",
    "Descrição": "TUBO PVC-O DN=200 JERI PN12,5 NTS187 INFRAESTRUTURA ÁGUA",
    "Unid. Med.": "M",
-   "Preço": "151,41"
+   "Preço": "212,05"
  },
  {
    "Código": "HM07756",
@@ -24879,7 +24879,7 @@ const baseMateriais = [
    "Código": "HM07752",
    "Descrição": "TUBO PVC-O DN=250 JERI PN12,5 NTS187 INFRAESTRUTURA ÁGUA",
    "Unid. Med.": "M",
-   "Preço": "232,30"
+   "Preço": "284,07"
  },
  {
    "Código": "HM07757",
@@ -25023,13 +25023,13 @@ const baseMateriais = [
    "Código": "HM01856",
    "Descrição": "UNIÃO CAPEADA EM POLIPROPILENO PARA TUBO DE PEAD DE=20 MM NTS 179",
    "Unid. Med.": "un",
-   "Preço": "5,95"
+   "Preço": "7,74"
  },
  {
    "Código": "HM01857",
    "Descrição": "UNIÃO CAPEADA EM POLIPROPILENO PARA TUBO DE PEAD DE=32 MM NTS 179",
    "Unid. Med.": "un",
-   "Preço": "14,19"
+   "Preço": "20,57"
  },
  {
    "Código": "EL02159",
@@ -25077,103 +25077,103 @@ const baseMateriais = [
    "Código": "HM01858",
    "Descrição": "UNIÃO POLIPROPILENO DE=20 MM NTS 179 PARA RAMAL PREDIAL",
    "Unid. Med.": "un",
-   "Preço": "5,95"
+   "Preço": "5,02"
  },
  {
    "Código": "HM01859",
    "Descrição": "UNIÃO POLIPROPILENO DE=32 MM NTS 179 PARA RAMAL PREDIAL",
    "Unid. Med.": "un",
-   "Preço": "15,97"
+   "Preço": "16,63"
  },
  {
    "Código": "EQ05275",
    "Descrição": "USINA ASFALTO A QUENTE 80T/H",
    "Unid. Med.": "H",
-   "Preço": "357,61"
+   "Preço": "355,73"
  },
  {
    "Código": "HM08145",
    "Descrição": "VÁLVULA BORBOLETA C/FLANGES PN10 FERRO FUNDIDO DN=1000MM * (1120,00 KG) TIPO BIEXCÊNTRICA, ACION. ELÉTRICO, PINTURA EPÓXI POLIAMIDA AWWA C504 ÁGUA/ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "165.018,32"
+   "Preço": "168.257,57"
  },
  {
    "Código": "HM08129",
    "Descrição": "VÁLVULA BORBOLETA C/FLANGES PN10 FERRO FUNDIDO DN=1000MM * (1120,00 KG) TIPO BIEXCÊNTRICA, ACION. MANUAL POR VOLANTE, PINTURA EPÓXI POLIAMIDA AWWA C504 ÁGUA/ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "127.587,23"
+   "Preço": "130.376,73"
  },
  {
    "Código": "HM08146",
    "Descrição": "VÁLVULA BORBOLETA C/FLANGES PN10 FERRO FUNDIDO DN=1200MM * (1785,00 KG) TIPO BIEXCÊNTRICA, ACION. ELÉTRICO, PINTURA EPÓXI POLIAMIDA AWWA C504 ÁGUA/ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "241.191,38"
+   "Preço": "246.176,88"
  },
  {
    "Código": "HM08130",
    "Descrição": "VÁLVULA BORBOLETA C/FLANGES PN10 FERRO FUNDIDO DN=1200MM * (1785,00 KG) TIPO BIEXCÊNTRICA, ACION. MANUAL POR VOLANTE, PINTURA EPÓXI POLIAMIDA AWWA C504 ÁGUA/ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "173.002,20"
+   "Preço": "208.987,80"
  },
  {
    "Código": "HM08134",
    "Descrição": "VÁLVULA BORBOLETA C/FLANGES PN10 FERRO FUNDIDO DN=200MM * (77,00 KG) TIPO BIEXCÊNTRICA, ACION. ELÉTRICO, PINTURA EPÓXI POLIAMIDA AWWA C504 ÁGUA/ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "38.647,00"
+   "Preço": "39.794,18"
  },
  {
    "Código": "HM07632",
    "Descrição": "VÁLVULA BORBOLETA C/FLANGES PN10 FERRO FUNDIDO DN=200MM * (77,00 KG) TIPO BIEXCÊNTRICA, ACION. MANUAL POR VOLANTE, PINTURA EPÓXI POLIAMIDA AWWA C504 ÁGUA/ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "9.066,18"
+   "Preço": "10.733,93"
  },
  {
    "Código": "HM08135",
    "Descrição": "VÁLVULA BORBOLETA C/FLANGES PN10 FERRO FUNDIDO DN=250MM (97,00 KG) TIPO BIEXCÊNTRICA, ACION. ELÉTRICO, PINTURA EPÓXI POLIAMIDA AWWA C504 ÁGUA/ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "50.630,78"
+   "Preço": "51.942,77"
  },
  {
    "Código": "HM07633",
    "Descrição": "VÁLVULA BORBOLETA C/FLANGES PN10 FERRO FUNDIDO DN=250MM (97,00 KG) TIPO BIEXCÊNTRICA, ACION. MANUAL POR VOLANTE, PINTURA EPÓXI POLIAMIDA AWWA C504 ÁGUA/ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "11.831,67"
+   "Preço": "13.930,76"
  },
  {
    "Código": "HM08136",
    "Descrição": "VÁLVULA BORBOLETA C/FLANGES PN10 FERRO FUNDIDO DN=300MM * (111,00 KG) TIPO BIEXCÊNTRICA, ACION. ELÉTRICO, PINTURA EPÓXI POLIAMIDA AWWA C504 ÁGUA/ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "52.256,98"
+   "Preço": "53.613,23"
  },
  {
    "Código": "HM07634",
    "Descrição": "VÁLVULA BORBOLETA C/FLANGES PN10 FERRO FUNDIDO DN=300MM * (111,00 KG) TIPO BIEXCÊNTRICA, ACION. MANUAL POR VOLANTE, PINTURA EPÓXI POLIAMIDA AWWA C504 ÁGUA/ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "13.530,33"
+   "Preço": "15.382,07"
  },
  {
    "Código": "HM08137",
    "Descrição": "VÁLVULA BORBOLETA C/FLANGES PN10 FERRO FUNDIDO DN=350MM (131,00 KG) TIPO BIEXCÊNTRICA, ACION. ELÉTRICO, PINTURA EPÓXI POLIAMIDA AWWA C504 ÁGUA/ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "53.791,78"
+   "Preço": "55.255,04"
  },
  {
    "Código": "HM07635",
    "Descrição": "VÁLVULA BORBOLETA C/FLANGES PN10 FERRO FUNDIDO DN=350MM (131,00 KG) TIPO BIEXCÊNTRICA, ACION. MANUAL POR VOLANTE, PINTURA EPÓXI POLIAMIDA AWWA C504 ÁGUA/ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "14.658,49"
+   "Preço": "18.155,14"
  },
  {
    "Código": "HM08138",
    "Descrição": "VÁLVULA BORBOLETA C/FLANGES PN10 FERRO FUNDIDO DN=400MM * (168,00 KG) TIPO BIEXCÊNTRICA, ACION. ELÉTRICO, PINTURA EPÓXI POLIAMIDA AWWA C504 ÁGUA/ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "57.103,45"
+   "Preço": "58.458,83"
  },
  {
    "Código": "HM07636",
    "Descrição": "VÁLVULA BORBOLETA C/FLANGES PN10 FERRO FUNDIDO DN=400MM * (168,00 KG) TIPO BIEXCÊNTRICA, ACION. MANUAL POR VOLANTE, PINTURA EPÓXI POLIAMIDA AWWA C504 ÁGUA/ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "21.193,97"
+   "Preço": "21.661,97"
  },
  {
    "Código": "HM08139",
@@ -25185,67 +25185,67 @@ const baseMateriais = [
    "Código": "HM07637",
    "Descrição": "VÁLVULA BORBOLETA C/FLANGES PN10 FERRO FUNDIDO DN=450MM (198,00 KG) TIPO BIEXCÊNTRICA, ACION. MANUAL POR VOLANTE, PINTURA EPÓXI POLIAMIDA AWWA C504 ÁGUA/ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "24.081,06"
+   "Preço": "27.347,44"
  },
  {
    "Código": "HM08140",
    "Descrição": "VÁLVULA BORBOLETA C/FLANGES PN10 FERRO FUNDIDO DN=500MM * (308,00 KG) TIPO BIEXCÊNTRICA, ACION. ELÉTRICO, PINTURA EPÓXI POLIAMIDA AWWA C504 ÁGUA/ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "65.549,93"
+   "Preço": "66.613,93"
  },
  {
    "Código": "HM07638",
    "Descrição": "VÁLVULA BORBOLETA C/FLANGES PN10 FERRO FUNDIDO DN=500MM * (308,00 KG) TIPO BIEXCÊNTRICA, ACION. MANUAL POR VOLANTE, PINTURA EPÓXI POLIAMIDA AWWA C504 ÁGUA/ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "29.972,15"
+   "Preço": "30.488,55"
  },
  {
    "Código": "HM08141",
    "Descrição": "VÁLVULA BORBOLETA C/FLANGES PN10 FERRO FUNDIDO DN=600MM * (458,00 KG) TIPO BIEXCÊNTRICA, ACION. ELÉTRICO, PINTURA EPÓXI POLIAMIDA AWWA C504 ÁGUA/ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "80.920,35"
+   "Preço": "80.061,68"
  },
  {
    "Código": "HM07639",
    "Descrição": "VÁLVULA BORBOLETA C/FLANGES PN10 FERRO FUNDIDO DN=600MM * (458,00 KG) TIPO BIEXCÊNTRICA, ACION. MANUAL POR VOLANTE, PINTURA EPÓXI POLIAMIDA AWWA C504 ÁGUA/ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "45.226,00"
+   "Preço": "46.378,89"
  },
  {
    "Código": "HM08142",
    "Descrição": "VÁLVULA BORBOLETA C/FLANGES PN10 FERRO FUNDIDO DN=700MM * (548,00 KG) TIPO BIEXCÊNTRICA, ACION. ELÉTRICO, PINTURA EPÓXI POLIAMIDA AWWA C504 ÁGUA/ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "93.803,50"
+   "Preço": "96.103,25"
  },
  {
    "Código": "HM07640",
    "Descrição": "VÁLVULA BORBOLETA C/FLANGES PN10 FERRO FUNDIDO DN=700MM * (548,00 KG) TIPO BIEXCÊNTRICA, ACION. MANUAL POR VOLANTE, PINTURA EPÓXI POLIAMIDA AWWA C504 ÁGUA/ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "62.797,52"
+   "Preço": "65.162,61"
  },
  {
    "Código": "HM08143",
    "Descrição": "VÁLVULA BORBOLETA C/FLANGES PN10 FERRO FUNDIDO DN=800MM * (743,00 KG) TIPO BIEXCÊNTRICA, ACION. ELÉTRICO, PINTURA EPÓXI POLIAMIDA AWWA C504 ÁGUA/ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "116.216,25"
+   "Preço": "123.018,30"
  },
  {
    "Código": "HM07641",
    "Descrição": "VÁLVULA BORBOLETA C/FLANGES PN10 FERRO FUNDIDO DN=800MM * (743,00 KG) TIPO BIEXCÊNTRICA, ACION. MANUAL POR VOLANTE, PINTURA EPÓXI POLIAMIDA AWWA C504 ÁGUA/ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "73.346,35"
+   "Preço": "74.460,04"
  },
  {
    "Código": "HM08144",
    "Descrição": "VÁLVULA BORBOLETA C/FLANGES PN10 FERRO FUNDIDO DN=900MM * (962,00 KG) TIPO BIEXCÊNTRICA, ACION. ELÉTRICO, PINTURA EPÓXI POLIAMIDA AWWA C504 ÁGUA/ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "139.276,25"
+   "Preço": "134.484,50"
  },
  {
    "Código": "HM07642",
    "Descrição": "VÁLVULA BORBOLETA C/FLANGES PN10 FERRO FUNDIDO DN=900MM * (962,00 KG) TIPO BIEXCÊNTRICA, ACION. MANUAL POR VOLANTE, PINTURA EPÓXI POLIAMIDA AWWA C504 ÁGUA/ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "90.267,94"
+   "Preço": "82.881,83"
  },
  {
    "Código": "HM08132",
@@ -25257,19 +25257,19 @@ const baseMateriais = [
    "Código": "HM07630",
    "Descrição": "VÁLVULA BORBOLETA C/FLANGES PN10/16 FERRO FUNDIDO DN=100MM * (47,00 KG) TIPO BIEXCÊNTRICA, ACION. MANUAL POR VOLANTE, PINTURA EPÓXI POLIAMIDA AWWA C504 ÁGUA/ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "6.144,37"
+   "Preço": "6.736,42"
  },
  {
    "Código": "HM08133",
    "Descrição": "VÁLVULA BORBOLETA C/FLANGES PN10/16 FERRO FUNDIDO DN=150MM (60,00 KG) TIPO BIEXCÊNTRICA, ACION. ELÉTRICO, PINTURA EPÓXI POLIAMIDA AWWA C504 ÁGUA/ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "39.236,29"
+   "Preço": "40.249,90"
  },
  {
    "Código": "HM07631",
    "Descrição": "VÁLVULA BORBOLETA C/FLANGES PN10/16 FERRO FUNDIDO DN=150MM (60,00 KG) TIPO BIEXCÊNTRICA, ACION. MANUAL POR VOLANTE, PINTURA EPÓXI POLIAMIDA AWWA C504 ÁGUA/ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "7.529,02"
+   "Preço": "7.823,07"
  },
  {
    "Código": "HM08131",
@@ -25281,7 +25281,7 @@ const baseMateriais = [
    "Código": "HM07629",
    "Descrição": "VÁLVULA BORBOLETA C/FLANGES PN10/16/25 FERRO FUNDIDO DN=75MM (40,00 KG) TIPO BIEXCÊNTRICA, ACION. MANUAL POR VOLANTE, PINTURA EPÓXI POLIAMIDA AWWA C504 ÁGUA/ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "5.398,80"
+   "Preço": "5.890,65"
  },
  {
    "Código": "CV01320",
@@ -25293,13 +25293,13 @@ const baseMateriais = [
    "Código": "HM07055",
    "Descrição": "VÁLVULA GAVETA C/BOLSAS FERRO FUNDIDO DE=110 MM (18,00 KG) PARA PVC/PBA, ACION. VOLANTE, CUNHA DE BORRACHA, PINTURA EPÓXI EM PÓ NBR 14968 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "862,90"
+   "Preço": "927,76"
  },
  {
    "Código": "HM07057",
    "Descrição": "VÁLVULA GAVETA C/BOLSAS FERRO FUNDIDO DE=60 MM (8,50 KG) PARA PVC/PBA, ACION. VOLANTE, CUNHA DE BORRACHA, PINTURA EPÓXI EM PÓ NBR 14968 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "532,43"
+   "Preço": "605,85"
  },
  {
    "Código": "HM07059",
@@ -25341,7 +25341,7 @@ const baseMateriais = [
    "Código": "HM08155",
    "Descrição": "VÁLVULA GAVETA C/BOLSAS JGS FERRO FUNDIDO DN=350 MM (189,00 KG), ACION. VOLANTE, CUNHA DE BORRACHA, PINTURA EPÓXI EM PÓ NBR 14968 ÁGUA/ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "9.630,00"
+   "Preço": "11.644,50"
  },
  {
    "Código": "HM08156",
@@ -25353,7 +25353,7 @@ const baseMateriais = [
    "Código": "HM07071",
    "Descrição": "VÁLVULA GAVETA C/BOLSAS JGS FERRO FUNDIDO DN=80 MM (15,00 KG), ACION. VOLANTE, CUNHA DE BORRACHA, PINTURA EPÓXI EM PÓ NBR 14968 ÁGUA/ESGOTO",
    "Unid. Med.": "un",
-   "Preço": "799,20"
+   "Preço": "715,69"
  },
  {
    "Código": "HM08153",
@@ -25461,121 +25461,121 @@ const baseMateriais = [
    "Código": "HM08036",
    "Descrição": "VÁLVULA GUILHOTINA WAFER PN10 FERRO FUNDIDO FACA INOX DN=100 MM ACIONAMENTO ELÉTRICO",
    "Unid. Med.": "un",
-   "Preço": "19.676,67"
+   "Preço": "18.606,50"
  },
  {
    "Código": "HM07669",
    "Descrição": "VÁLVULA GUILHOTINA WAFER PN10 FERRO FUNDIDO FACA INOX DN=100 MM ACIONAMENTO VOLANTE",
    "Unid. Med.": "un",
-   "Preço": "3.350,00"
+   "Preço": "2.901,67"
  },
  {
    "Código": "HM08037",
    "Descrição": "VÁLVULA GUILHOTINA WAFER PN10 FERRO FUNDIDO FACA INOX DN=150 MM ACIONAMENTO ELÉTRICO",
    "Unid. Med.": "un",
-   "Preço": "21.120,00"
+   "Preço": "19.910,50"
  },
  {
    "Código": "HM07670",
    "Descrição": "VÁLVULA GUILHOTINA WAFER PN10 FERRO FUNDIDO FACA INOX DN=150 MM ACIONAMENTO VOLANTE",
    "Unid. Med.": "un",
-   "Preço": "4.376,67"
+   "Preço": "4.091,33"
  },
  {
    "Código": "HM08038",
    "Descrição": "VÁLVULA GUILHOTINA WAFER PN10 FERRO FUNDIDO FACA INOX DN=200 MM ACIONAMENTO ELÉTRICO",
    "Unid. Med.": "un",
-   "Preço": "25.128,33"
+   "Preço": "23.237,50"
  },
  {
    "Código": "HM07671",
    "Descrição": "VÁLVULA GUILHOTINA WAFER PN10 FERRO FUNDIDO FACA INOX DN=200 MM ACIONAMENTO VOLANTE",
    "Unid. Med.": "un",
-   "Preço": "6.420,00"
+   "Preço": "5.697,00"
  },
  {
    "Código": "HM08039",
    "Descrição": "VÁLVULA GUILHOTINA WAFER PN10 FERRO FUNDIDO FACA INOX DN=250 MM ACIONAMENTO ELÉTRICO",
    "Unid. Med.": "un",
-   "Preço": "29.745,00"
+   "Preço": "31.086,00"
  },
  {
    "Código": "HM07672",
    "Descrição": "VÁLVULA GUILHOTINA WAFER PN10 FERRO FUNDIDO FACA INOX DN=250 MM ACIONAMENTO VOLANTE",
    "Unid. Med.": "un",
-   "Preço": "8.973,33"
+   "Preço": "8.574,00"
  },
  {
    "Código": "HM08040",
    "Descrição": "VÁLVULA GUILHOTINA WAFER PN10 FERRO FUNDIDO FACA INOX DN=300 MM ACIONAMENTO ELÉTRICO",
    "Unid. Med.": "un",
-   "Preço": "32.990,67"
+   "Preço": "34.458,00"
  },
  {
    "Código": "HM07673",
    "Descrição": "VÁLVULA GUILHOTINA WAFER PN10 FERRO FUNDIDO FACA INOX DN=300 MM ACIONAMENTO VOLANTE",
    "Unid. Med.": "un",
-   "Preço": "12.502,00"
+   "Preço": "11.472,00"
  },
  {
    "Código": "HM08041",
    "Descrição": "VÁLVULA GUILHOTINA WAFER PN10 FERRO FUNDIDO FACA INOX DN=350 MM ACIONAMENTO ELÉTRICO",
    "Unid. Med.": "un",
-   "Preço": "38.086,67"
+   "Preço": "44.728,50"
  },
  {
    "Código": "HM07674",
    "Descrição": "VÁLVULA GUILHOTINA WAFER PN10 FERRO FUNDIDO FACA INOX DN=350 MM ACIONAMENTO VOLANTE",
    "Unid. Med.": "un",
-   "Preço": "17.044,00"
+   "Preço": "17.089,67"
  },
  {
    "Código": "HM08042",
    "Descrição": "VÁLVULA GUILHOTINA WAFER PN10 FERRO FUNDIDO FACA INOX DN=400 MM ACIONAMENTO ELÉTRICO",
    "Unid. Med.": "un",
-   "Preço": "44.573,33"
+   "Preço": "49.617,50"
  },
  {
    "Código": "HM07675",
    "Descrição": "VÁLVULA GUILHOTINA WAFER PN10 FERRO FUNDIDO FACA INOX DN=400 MM ACIONAMENTO VOLANTE",
    "Unid. Med.": "un",
-   "Preço": "22.566,67"
+   "Preço": "20.988,33"
  },
  {
    "Código": "HM08043",
    "Descrição": "VÁLVULA GUILHOTINA WAFER PN10 FERRO FUNDIDO FACA INOX DN=500 MM ACIONAMENTO ELÉTRICO",
    "Unid. Med.": "un",
-   "Preço": "53.278,33"
+   "Preço": "57.490,00"
  },
  {
    "Código": "HM07676",
    "Descrição": "VÁLVULA GUILHOTINA WAFER PN10 FERRO FUNDIDO FACA INOX DN=500 MM ACIONAMENTO VOLANTE",
    "Unid. Med.": "un",
-   "Preço": "30.003,33"
+   "Preço": "31.284,33"
  },
  {
    "Código": "HM08044",
    "Descrição": "VÁLVULA GUILHOTINA WAFER PN10 FERRO FUNDIDO FACA INOX DN=600 MM ACIONAMENTO ELÉTRICO",
    "Unid. Med.": "un",
-   "Preço": "64.865,00"
+   "Preço": "74.564,50"
  },
  {
    "Código": "HM07677",
    "Descrição": "VÁLVULA GUILHOTINA WAFER PN10 FERRO FUNDIDO FACA INOX DN=600 MM ACIONAMENTO VOLANTE",
    "Unid. Med.": "un",
-   "Preço": "46.847,33"
+   "Preço": "46.744,00"
  },
  {
    "Código": "HM08035",
    "Descrição": "VÁLVULA GUILHOTINA WAFER PN10 FERRO FUNDIDO FACA INOX DN=80 MM ACIONAMENTO ELÉTRICO",
    "Unid. Med.": "un",
-   "Preço": "18.950,00"
+   "Preço": "17.889,00"
  },
  {
    "Código": "HM07668",
    "Descrição": "VÁLVULA GUILHOTINA WAFER PN10 FERRO FUNDIDO FACA INOX DN=80 MM ACIONAMENTO VOLANTE",
    "Unid. Med.": "un",
-   "Preço": "2.310,00"
+   "Preço": "2.579,67"
  },
  {
    "Código": "CV01321",
@@ -25587,49 +25587,49 @@ const baseMateriais = [
    "Código": "HM05225",
    "Descrição": "VÁLVULA REDUTORA DE PRESSÃO (VRP) COM FLANGES PN16 FERRO FUNDIDO DN=100 MM TIPO GLOBO ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "6.630,00"
+   "Preço": "8.697,00"
  },
  {
    "Código": "HM05226",
    "Descrição": "VÁLVULA REDUTORA DE PRESSÃO (VRP) COM FLANGES PN16 FERRO FUNDIDO DN=150 MM TIPO GLOBO ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "13.258,70"
+   "Preço": "17.622,34"
  },
  {
    "Código": "HM05227",
    "Descrição": "VÁLVULA REDUTORA DE PRESSÃO (VRP) COM FLANGES PN16 FERRO FUNDIDO DN=200 MM TIPO GLOBO ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "20.800,00"
+   "Preço": "26.192,01"
  },
  {
    "Código": "HM05228",
    "Descrição": "VÁLVULA REDUTORA DE PRESSÃO (VRP) COM FLANGES PN16 FERRO FUNDIDO DN=250 MM TIPO GLOBO ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "34.320,00"
+   "Preço": "41.945,42"
  },
  {
    "Código": "HM05229",
    "Descrição": "VÁLVULA REDUTORA DE PRESSÃO (VRP) COM FLANGES PN16 FERRO FUNDIDO DN=300 MM TIPO GLOBO ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "49.140,00"
+   "Preço": "57.832,08"
  },
  {
    "Código": "HM05230",
    "Descrição": "VÁLVULA REDUTORA DE PRESSÃO (VRP) COM FLANGES PN16 FERRO FUNDIDO DN=400 MM TIPO GLOBO ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "80.070,86"
+   "Preço": "92.806,97"
  },
  {
    "Código": "HM05223",
    "Descrição": "VÁLVULA REDUTORA DE PRESSÃO (VRP) COM FLANGES PN16 FERRO FUNDIDO DN=50 MM TIPO GLOBO ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "4.160,00"
+   "Preço": "5.408,00"
  },
  {
    "Código": "HM05224",
    "Descrição": "VÁLVULA REDUTORA DE PRESSÃO (VRP) COM FLANGES PN16 FERRO FUNDIDO DN=80 MM TIPO GLOBO ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "5.460,00"
+   "Preço": "7.809,65"
  },
  {
    "Código": "HM05897",
@@ -25680,52 +25680,112 @@ const baseMateriais = [
    "Preço": "1.512,00"
  },
  {
+   "Código": "HM08550",
+   "Descrição": "VÁLVULA RETENÇÃO PÉ COM CRIVO FERRO FUNDIDO DN=100 C/FLANGE PN 10/16 FECH. RÁPIDO AXIAL. OBT. PINTURA EPÓXI ÁGUA",
+   "Unid. Med.": "un",
+   "Preço": "1.738,47"
+ },
+ {
+   "Código": "HM08551",
+   "Descrição": "VÁLVULA RETENÇÃO PÉ COM CRIVO FERRO FUNDIDO DN=150 C/FLANGE PN 10/16 FECH. RÁPIDO AXIAL. OBT. PINTURA EPÓXI ÁGUA",
+   "Unid. Med.": "un",
+   "Preço": "2.616,30"
+ },
+ {
+   "Código": "HM08552",
+   "Descrição": "VÁLVULA RETENÇÃO PÉ COM CRIVO FERRO FUNDIDO DN=200 C/FLANGE PN 10/16 FECH. RÁPIDO AXIAL. OBT. PINTURA EPÓXI ÁGUA",
+   "Unid. Med.": "un",
+   "Preço": "3.598,81"
+ },
+ {
+   "Código": "HM08553",
+   "Descrição": "VÁLVULA RETENÇÃO PÉ COM CRIVO FERRO FUNDIDO DN=250 C/FLANGE PN 10/16 FECH. RÁPIDO AXIAL. OBT. PINTURA EPÓXI ÁGUA",
+   "Unid. Med.": "un",
+   "Preço": "5.734,66"
+ },
+ {
+   "Código": "HM08554",
+   "Descrição": "VÁLVULA RETENÇÃO PÉ COM CRIVO FERRO FUNDIDO DN=300 C/FLANGE PN 10/16 FECH. RÁPIDO AXIAL. OBT. PINTURA EPÓXI ÁGUA",
+   "Unid. Med.": "un",
+   "Preço": "7.462,50"
+ },
+ {
+   "Código": "HM08555",
+   "Descrição": "VÁLVULA RETENÇÃO PÉ COM CRIVO FERRO FUNDIDO DN=350 C/FLANGE PN 10/16 FECH. RÁPIDO AXIAL. OBT. PINTURA EPÓXI ÁGUA",
+   "Unid. Med.": "un",
+   "Preço": "15.038,74"
+ },
+ {
+   "Código": "HM08556",
+   "Descrição": "VÁLVULA RETENÇÃO PÉ COM CRIVO FERRO FUNDIDO DN=400 C/FLANGE PN 10/16 FECH. RÁPIDO AXIAL. OBT. PINTURA EPÓXI ÁGUA",
+   "Unid. Med.": "un",
+   "Preço": "15.822,66"
+ },
+ {
+   "Código": "HM08557",
+   "Descrição": "VÁLVULA RETENÇÃO PÉ COM CRIVO FERRO FUNDIDO DN=500 C/FLANGE PN 10/16 FECH. RÁPIDO AXIAL. OBT. PINTURA EPÓXI ÁGUA",
+   "Unid. Med.": "un",
+   "Preço": "24.300,00"
+ },
+ {
+   "Código": "HM08558",
+   "Descrição": "VÁLVULA RETENÇÃO PÉ COM CRIVO FERRO FUNDIDO DN=600 C/FLANGE PN 10/16 FECH. RÁPIDO AXIAL. OBT. PINTURA EPÓXI ÁGUA",
+   "Unid. Med.": "un",
+   "Preço": "39.000,00"
+ },
+ {
+   "Código": "HM08549",
+   "Descrição": "VÁLVULA RETENÇÃO PÉ COM CRIVO FERRO FUNDIDO DN=80 C/FLANGE PN 10/16 FECH. RÁPIDO AXIAL. OBT. PINTURA EPÓXI ÁGUA",
+   "Unid. Med.": "un",
+   "Preço": "1.679,40"
+ },
+ {
    "Código": "HM07130",
    "Descrição": "VÁLVULA RETENÇÃO PVC DN=100 MM HORIZONTAL COM BOLSAS, ESGOTO PREDIAL",
    "Unid. Med.": "un",
-   "Preço": "142,94"
+   "Preço": "161,90"
  },
  {
    "Código": "HM07708",
    "Descrição": "VÁLVULA RETENÇÃO WAFER PN10 FERRO FUNDIDO DN=200 MM FECH. RÁPIDO AXIAL, OBT. POLIURETANO, PINTURA EPÓXI NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "3.807,50"
+   "Preço": "4.686,53"
  },
  {
    "Código": "HM07709",
    "Descrição": "VÁLVULA RETENÇÃO WAFER PN10 FERRO FUNDIDO DN=250 MM FECH. RÁPIDO AXIAL, OBT. POLIURETANO, PINTURA EPÓXI NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "5.313,50"
+   "Preço": "6.598,95"
  },
  {
    "Código": "HM07710",
    "Descrição": "VÁLVULA RETENÇÃO WAFER PN10 FERRO FUNDIDO DN=300 MM FECH. RÁPIDO AXIAL, OBT. POLIURETANO, PINTURA EPÓXI NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "5.400,00"
+   "Preço": "8.000,00"
  },
  {
    "Código": "HM07711",
    "Descrição": "VÁLVULA RETENÇÃO WAFER PN10 FERRO FUNDIDO DN=400 MM FECH. RÁPIDO AXIAL, OBT. POLIURETANO, PINTURA EPÓXI NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "12.634,00"
+   "Preço": "15.131,38"
  },
  {
    "Código": "HM07712",
    "Descrição": "VÁLVULA RETENÇÃO WAFER PN10 FERRO FUNDIDO DN=500 MM FECH. RÁPIDO AXIAL, OBT. POLIURETANO, PINTURA EPÓXI NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "21.452,67"
+   "Preço": "24.544,03"
  },
  {
    "Código": "HM07706",
    "Descrição": "VÁLVULA RETENÇÃO WAFER PN10/16 FERRO FUNDIDO DN=100 MM FECH. RÁPIDO AXIAL, OBT. POLIURETANO, PINTURA EPÓXI NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "1.450,00"
+   "Preço": "1.800,00"
  },
  {
    "Código": "HM07707",
    "Descrição": "VÁLVULA RETENÇÃO WAFER PN10/16 FERRO FUNDIDO DN=150 MM FECH. RÁPIDO AXIAL, OBT. POLIURETANO, PINTURA EPÓXI NBR 7675 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "1.840,00"
+   "Preço": "2.500,00"
  },
  {
    "Código": "HM07705",
@@ -25737,13 +25797,13 @@ const baseMateriais = [
    "Código": "HM07270",
    "Descrição": "VARETA AÇO INOX AISI 316L D=2,5 MM PARA SOLDA TIG",
    "Unid. Med.": "KG",
-   "Preço": "81,54"
+   "Preço": "106,00"
  },
  {
    "Código": "EQ08249",
    "Descrição": "VEÍCULO LEVE 4 PORTAS - *84CV",
    "Unid. Med.": "H",
-   "Preço": "40,24"
+   "Preço": "41,47"
  },
  {
    "Código": "EQ08250",
@@ -25755,55 +25815,55 @@ const baseMateriais = [
    "Código": "EQ08251",
    "Descrição": "VEÍCULO LEVE 4 PORTAS - *84CV (KM)",
    "Unid. Med.": "KM",
-   "Preço": "1,61"
+   "Preço": "1,66"
  },
  {
    "Código": "HM04208",
    "Descrição": "VENTOSA SIMPLES C/FLANGES PN10/16/25 FERRO FUNDIDO DN=50MM PINTURA EPÓXI NTS 322 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "828,90"
+   "Preço": "881,33"
  },
  {
    "Código": "HM04211",
    "Descrição": "VENTOSA SIMPLES C/ROSCA BSP FERRO FUNDIDO DN=1\" PINTURA EPÓXI NTS 322 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "440,00"
+   "Preço": "572,00"
  },
  {
    "Código": "HM04212",
    "Descrição": "VENTOSA SIMPLES C/ROSCA BSP FERRO FUNDIDO DN=2\" PINTURA EPÓXI NTS 322 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "743,85"
+   "Preço": "827,69"
  },
  {
    "Código": "HM04219",
    "Descrição": "VENTOSA TRÍPLICE FUNÇÃO C/FLANGES PN10 FERRO FUNDIDO DN=200 MM PINTURA EPÓXI NTS 322 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "7.000,00"
+   "Preço": "9.686,14"
  },
  {
    "Código": "HM04220",
    "Descrição": "VENTOSA TRÍPLICE FUNÇÃO C/FLANGES PN10/16 FERRO FUNDIDO DN=100 MM PINTURA EPÓXI NTS 322 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "2.580,68"
+   "Preço": "2.707,48"
  },
  {
    "Código": "HM04221",
    "Descrição": "VENTOSA TRÍPLICE FUNÇÃO C/FLANGES PN10/16 FERRO FUNDIDO DN=150 MM PINTURA EPÓXI NTS 322 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "6.296,81"
+   "Preço": "6.619,86"
  },
  {
    "Código": "HM04223",
    "Descrição": "VENTOSA TRÍPLICE FUNÇÃO C/FLANGES PN10/16 FERRO FUNDIDO DN=80 MM PINTURA EPÓXI NTS 322 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "2.140,00"
+   "Preço": "2.194,90"
  },
  {
    "Código": "HM04217",
    "Descrição": "VENTOSA TRÍPLICE FUNÇÃO C/FLANGES PN10/16/25 FERRO FUNDIDO DN=50MM PINTURA EPÓXI NTS 322 ÁGUA",
    "Unid. Med.": "un",
-   "Preço": "1.300,00"
+   "Preço": "1.690,00"
  },
  {
    "Código": "CV00237",
@@ -25845,13 +25905,13 @@ const baseMateriais = [
    "Código": "EQ04618",
    "Descrição": "VIBRADOR DE IMERSÃO COM PONTEIRA DE 60MM COMPRIMENTO DO MANGOTE DE 5M PARA CONCRETO",
    "Unid. Med.": "H",
-   "Preço": "5,38"
+   "Preço": "5,36"
  },
  {
    "Código": "EQ04619",
    "Descrição": "VIBROACABADORA DE ASFALTO POTÊNCIA 82KW/110HP, CAPACIDADE ATÉ 300T/H SOBRE RODAS, LARGURA DE PAVIMENTAÇÃO 1,7M A 4,2M",
    "Unid. Med.": "H",
-   "Preço": "297,22"
+   "Preço": "306,59"
  },
  {
    "Código": "EQ05175",
@@ -25863,7 +25923,7 @@ const baseMateriais = [
    "Código": "MO00084",
    "Descrição": "VIDRACEIRO",
    "Unid. Med.": "H",
-   "Preço": "14,19"
+   "Preço": "14,86"
  },
  {
    "Código": "CV00480",
