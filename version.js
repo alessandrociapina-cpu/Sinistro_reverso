@@ -1,7 +1,12 @@
 window.SABESP_APP_INFO = Object.freeze({
-  version: '5.8.0',
-  displayVersion: 'v5.8',
+  version: '5.9.0',
+  displayVersion: 'v5.9',
   releaseNotes: [
+    {
+      version: '5.9.0',
+      displayVersion: 'v5.9',
+      summary: 'Correcao do volume perdido em Secao Plena: o periodo em que a rede permanece pressurizada antes da manobra deixa de ser ignorado. V = Q0 x (T_ocorrencia - T_manobra) + (2/3) x Q0 x T_manobra. Manobra truncada usa a integral parcial exata.'
+    },
     {
       version: '5.8.0',
       displayVersion: 'v5.8',

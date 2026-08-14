@@ -692,12 +692,19 @@ function calcularAgua() {
                 : (0.82 * areaM2 * Math.sqrt(2 * 9.81 * pressao)) * 1000;
             const tempoManobraMin = Math.max(1, parseFloat(document.getElementById('tempo-manobra').value) || 30);
             const tempoManobraS = tempoManobraMin * 60;
-            const volDecaimentoL = window.SabespCalculos
-                ? window.SabespCalculos.calcularVolumeDecaimentoLinear(vazaoLs, tempoManobraS, segundos)
-                : (2 / 3) * vazaoLs * Math.min(segundos, tempoManobraS);
-            volumeM3Override = volDecaimentoL / 1000;
+            const volTotalL = window.SabespCalculos
+                ? window.SabespCalculos.calcularVolumeSecaoPlena(vazaoLs, tempoManobraS, segundos)
+                : (vazaoLs * Math.max(0, segundos - tempoManobraS)) + (2 / 3) * vazaoLs * Math.min(segundos, tempoManobraS);
+            volumeM3Override = volTotalL / 1000;
+
+            const tPermanenteS = Math.max(0, segundos - tempoManobraS);
+            const volPermanenteM3 = (vazaoLs * tPermanenteS) / 1000;
+            const volManobraM3 = volumeM3Override - volPermanenteM3;
             const aviso = document.getElementById('aviso-secao-plena');
-            aviso.innerHTML = `Q&#x2080; = 0,82&times;A&times;&radic;(2gH) = <strong>${formatarBR(vazaoLs, 3)} L/s</strong> | T_manobra = ${tempoManobraMin} min | V = <strong>${formatarBR(volumeM3Override, 3)} m&sup3;</strong>`;
+            aviso.innerHTML = `Q&#x2080; = 0,82&times;A&times;&radic;(2gH) = <strong>${formatarBR(vazaoLs, 3)} L/s</strong>`
+                + ` | Regime permanente: ${formatarBR(tPermanenteS, 0)} s &rarr; ${formatarBR(volPermanenteM3, 3)} m&sup3;`
+                + ` | Manobra: ${tempoManobraMin} min &rarr; ${formatarBR(volManobraM3, 3)} m&sup3;`
+                + ` | <strong>V total = ${formatarBR(volumeM3Override, 3)} m&sup3;</strong>`;
             aviso.style.color = 'var(--sabesp-blue)';
         } else {
             vazaoLs = 0;

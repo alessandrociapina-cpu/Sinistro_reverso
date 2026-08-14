@@ -33,9 +33,12 @@
     assert(removerAcentos(null) === '',             'removerAcentos: null → string vazia');
     assert(removerAcentos('ESGOTO') === 'esgoto',  'removerAcentos: só maiúscula');
 
-    // versionamento
-    assert(window.SABESP_APP_INFO?.version === '5.7.0', 'version.js: versão técnica v5.7.0');
-    assert(document.querySelector('.version-badge')?.textContent.includes('v5.7'), 'interface: badge exibe v5.7');
+    // versionamento — comparado contra a própria fonte para não desatualizar
+    const infoVersao = window.SABESP_APP_INFO;
+    assert(infoVersao?.version === infoVersao?.releaseNotes?.[0]?.version,
+        'version.js: versão técnica igual à primeira nota de release');
+    assert(document.querySelector('.version-badge')?.textContent.includes(infoVersao?.displayVersion),
+        `interface: badge exibe ${infoVersao?.displayVersion}`);
 
     // formatarBR
     assert(formatarBR(0) === '0,00',          'formatarBR: zero → 0,00');
@@ -60,6 +63,41 @@
     assert(periodoValido.valido && periodoValido.segundos === 3600, 'calcularTempoSegundos: uma hora → 3600s');
     const periodoNegativo = window.SabespCalculos.calcularTempoSegundos('2026-01-01', '09:00', '2026-01-01', '08:00');
     assert(!periodoNegativo.valido && periodoNegativo.segundos === 0, 'calcularTempoSegundos: periodo negativo bloqueado');
+
+    // Seção Plena — vazão inicial pela equação de orifício (Cd = 0,82)
+    // DN 50 mm @ 10 mca: A = π×(0,025)² = 1,9635e-3 m²
+    // Q0 = 0,82 × 1,9635e-3 × √(2×9,81×10) × 1000 ≈ 22,552 L/s
+    const q0Plena = window.SabespCalculos.calcularVazaoSecaoPlena(50, 10);
+    assert(Math.abs(q0Plena - 22.552) < 0.01,
+        `calcularVazaoSecaoPlena: DN50 @ 10mca ≈ 22,552 L/s (obtido ${q0Plena.toFixed(3)})`);
+
+    // Ocorrência de 12180 s com manobra de 3600 s:
+    //   regime permanente = 8580 s × Q0            = 193.500 L
+    //   manobra           = (2/3) × Q0 × 3600 s    =  54.126 L
+    //   total                                      = 247.626 L
+    const volPlena = window.SabespCalculos.calcularVolumeSecaoPlena(q0Plena, 3600, 12180);
+    assert(Math.abs(volPlena - 247626) < 50,
+        `calcularVolumeSecaoPlena: regime permanente + manobra ≈ 247.626 L (obtido ${volPlena.toFixed(0)})`);
+    assert(volPlena > q0Plena * 8580,
+        'calcularVolumeSecaoPlena: total supera o volume do regime permanente isolado');
+
+    // Ocorrência exatamente igual à manobra → só a fase de decaimento
+    const volSoManobra = window.SabespCalculos.calcularVolumeSecaoPlena(q0Plena, 3600, 3600);
+    assert(Math.abs(volSoManobra - (2 / 3) * q0Plena * 3600) < 1,
+        'calcularVolumeSecaoPlena: T_ocorrência = T_manobra → V = (2/3)·Q0·T');
+
+    // Ocorrência mais curta que a manobra → integral parcial exata,
+    // sempre maior que a aproximação linear (2/3)·Q0·t
+    const volTruncado = window.SabespCalculos.calcularVolumeSecaoPlena(q0Plena, 3600, 1800);
+    assert(volTruncado > (2 / 3) * q0Plena * 1800 && volTruncado < q0Plena * 1800,
+        `calcularVolumeSecaoPlena: manobra truncada usa integral parcial (obtido ${volTruncado.toFixed(0)} L)`);
+
+    assert(window.SabespCalculos.calcularVolumeSecaoPlena(q0Plena, 3600, 0) === 0,
+        'calcularVolumeSecaoPlena: ocorrência de duração zero → 0');
+    assert(window.SabespCalculos.calcularVolumeSecaoPlena(0, 3600, 12180) === 0,
+        'calcularVolumeSecaoPlena: vazão zero → 0');
+    assert(window.SabespCalculos.calcularVolumeSecaoPlena(q0Plena, 0, 600) === q0Plena * 600,
+        'calcularVolumeSecaoPlena: fechamento instantâneo → vazão constante');
 
     registrarResultado();
 
