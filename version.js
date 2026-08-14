@@ -1,11 +1,11 @@
 window.SABESP_APP_INFO = Object.freeze({
-  version: '5.9.0',
-  displayVersion: 'v5.9',
+  version: '5.10.0',
+  displayVersion: 'v5.10',
   releaseNotes: [
     {
-      version: '5.9.0',
-      displayVersion: 'v5.9',
-      summary: 'Correcao do volume perdido em Secao Plena: o periodo em que a rede permanece pressurizada antes da manobra deixa de ser ignorado. V = Q0 x (T_ocorrencia - T_manobra) + (2/3) x Q0 x T_manobra. Manobra truncada usa a integral parcial exata.'
+      version: '5.10.0',
+      displayVersion: 'v5.10',
+      summary: 'Secao Plena: o campo de tempo passa a representar o vazamento ate o fechamento dos registros, limitando o periodo faturavel quando a ocorrencia se estende alem da interrupcao. A pressao decai de P0 a zero ao longo do vazamento, resultando em vazao media de 2/3 de Q0: V = (2/3) x Q0 x T_efetivo. Reverte o modelo de regime permanente introduzido na v5.9, que partia de leitura incorreta do campo.'
     },
     {
       version: '5.8.0',

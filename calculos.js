@@ -13,36 +13,37 @@ window.SabespCalculos = Object.freeze({
     return this.calcularVazaoOrificio(0.82, areaM2, pressaoMca);
   },
 
-  // Decaimento linear de pressão: P(t) = P0·(1 – t/T)
-  // Integrando Q(t) = Q0·√(1 – t/T) de 0 a t:
-  //   V(t) = (2/3)·Q0·T·[1 – (1 – t/T)^(3/2)]   (litros)
-  // Para t = T (manobra concluída) reduz-se a V = (2/3)·Q0·T.
-  calcularVolumeDecaimentoLinear(vazaoInicialLs, tempoManobraS, totalIncidenteS) {
-    const q0 = Math.max(0, vazaoInicialLs);
-    const tManobra = Math.max(0, tempoManobraS);
-    const tDecorrido = Math.min(Math.max(0, totalIncidenteS), tManobra);
-    if (q0 <= 0 || tManobra <= 0) return 0;
-    const fracaoRestante = 1 - (tDecorrido / tManobra);
-    return (2 / 3) * q0 * tManobra * (1 - Math.pow(fracaoRestante, 1.5));
+  // Tempo efetivo de vazamento (segundos).
+  // O vazamento cessa quando os registros sao fechados e a rede local e
+  // isolada. Esse instante limita o periodo faturavel: mesmo que a ocorrencia
+  // (abertura ate encerramento do servico) se estenda por mais tempo, so ha
+  // perda de agua ate o fechamento.
+  calcularTempoEfetivoVazamento(totalIncidenteS, tempoFechamentoS) {
+    const tTotal = Math.max(0, totalIncidenteS);
+    const tFechamento = Math.max(0, tempoFechamentoS);
+    if (tFechamento <= 0) return tTotal;
+    return Math.min(tTotal, tFechamento);
   },
 
-  // Volume total perdido em Seção Plena (litros), somando as duas fases:
-  //   1) Regime permanente: rede ainda pressurizada, vazão constante Q0
-  //      dura (T_total – T_manobra), pois a manobra ocorre no fim da ocorrência
-  //   2) Manobra de fechamento: pressão decai linearmente até zero
-  // Quando a ocorrência termina antes de a manobra completar, só existe a
-  // fase 2, truncada — tratada pela integral parcial acima.
-  calcularVolumeSecaoPlena(vazaoInicialLs, tempoManobraS, totalIncidenteS) {
+  // Decaimento linear de pressao ao longo do vazamento.
+  // Rompida a secao plena, a pressao no ponto nao se mantem em P0: cai
+  // progressivamente ate o fechamento dos registros.
+  //   P(t) = P0·(1 – t/T)         com T = tempo efetivo de vazamento
+  //   Q(t) = Cd·A·√(2g·P(t)) = Q0·√(1 – t/T)
+  //   V    = ∫0..T Q(t) dt = (2/3)·Q0·T        (litros)
+  // A vazao media resulta 2/3 de Q0 — nao a vazao inicial de pico.
+  calcularVolumeDecaimentoLinear(vazaoInicialLs, tempoVazamentoS) {
     const q0 = Math.max(0, vazaoInicialLs);
-    const tTotal = Math.max(0, totalIncidenteS);
-    const tManobra = Math.max(0, tempoManobraS);
-    if (q0 <= 0 || tTotal <= 0) return 0;
-    if (tManobra <= 0) return q0 * tTotal;
+    const t = Math.max(0, tempoVazamentoS);
+    if (q0 <= 0 || t <= 0) return 0;
+    return (2 / 3) * q0 * t;
+  },
 
-    const tPermanente = Math.max(0, tTotal - tManobra);
-    const volPermanente = q0 * tPermanente;
-    const volManobra = this.calcularVolumeDecaimentoLinear(q0, tManobra, tTotal);
-    return volPermanente + volManobra;
+  // Volume perdido em Secao Plena (litros): decaimento de pressao aplicado
+  // sobre o tempo efetivo de vazamento (limitado pelo fechamento da rede).
+  calcularVolumeSecaoPlena(vazaoInicialLs, tempoFechamentoS, totalIncidenteS) {
+    const tEfetivo = this.calcularTempoEfetivoVazamento(totalIncidenteS, tempoFechamentoS);
+    return this.calcularVolumeDecaimentoLinear(vazaoInicialLs, tEfetivo);
   },
 
   calcularTempoSegundos(dataInicio, horaInicio, dataFim, horaFim) {

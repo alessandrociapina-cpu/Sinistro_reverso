@@ -71,33 +71,38 @@
     assert(Math.abs(q0Plena - 22.552) < 0.01,
         `calcularVazaoSecaoPlena: DN50 @ 10mca ≈ 22,552 L/s (obtido ${q0Plena.toFixed(3)})`);
 
-    // Ocorrência de 12180 s com manobra de 3600 s:
-    //   regime permanente = 8580 s × Q0            = 193.500 L
-    //   manobra           = (2/3) × Q0 × 3600 s    =  54.126 L
-    //   total                                      = 247.626 L
+    // Tempo efetivo: o fechamento dos registros limita o período faturável
+    assert(window.SabespCalculos.calcularTempoEfetivoVazamento(12180, 3600) === 3600,
+        'calcularTempoEfetivoVazamento: fechamento antes do fim da ocorrência limita o tempo');
+    assert(window.SabespCalculos.calcularTempoEfetivoVazamento(1800, 3600) === 1800,
+        'calcularTempoEfetivoVazamento: ocorrência mais curta que o fechamento não é estendida');
+    assert(window.SabespCalculos.calcularTempoEfetivoVazamento(12180, 0) === 12180,
+        'calcularTempoEfetivoVazamento: sem tempo de fechamento usa a ocorrência inteira');
+
+    // Decaimento de pressão: P0 → 0 ao longo do vazamento ⇒ vazão média = (2/3)·Q0
+    const volDecaimento = window.SabespCalculos.calcularVolumeDecaimentoLinear(q0Plena, 3600);
+    assert(Math.abs(volDecaimento / 3600 - (2 / 3) * q0Plena) < 1e-6,
+        'calcularVolumeDecaimentoLinear: vazão média equivale a 2/3 da vazão inicial');
+    assert(volDecaimento < q0Plena * 3600,
+        'calcularVolumeDecaimentoLinear: decaimento resulta em volume menor que vazão constante');
+
+    // Ocorrência de 12180 s com fechamento em 3600 s:
+    //   V = (2/3) × 22,552 L/s × 3600 s = 54.126 L
     const volPlena = window.SabespCalculos.calcularVolumeSecaoPlena(q0Plena, 3600, 12180);
-    assert(Math.abs(volPlena - 247626) < 50,
-        `calcularVolumeSecaoPlena: regime permanente + manobra ≈ 247.626 L (obtido ${volPlena.toFixed(0)})`);
-    assert(volPlena > q0Plena * 8580,
-        'calcularVolumeSecaoPlena: total supera o volume do regime permanente isolado');
+    assert(Math.abs(volPlena - 54126) < 20,
+        `calcularVolumeSecaoPlena: vazamento limitado pelo fechamento ≈ 54.126 L (obtido ${volPlena.toFixed(0)})`);
+    assert(volPlena === window.SabespCalculos.calcularVolumeSecaoPlena(q0Plena, 3600, 99999),
+        'calcularVolumeSecaoPlena: prolongar a ocorrência não aumenta o volume após o fechamento');
 
-    // Ocorrência exatamente igual à manobra → só a fase de decaimento
-    const volSoManobra = window.SabespCalculos.calcularVolumeSecaoPlena(q0Plena, 3600, 3600);
-    assert(Math.abs(volSoManobra - (2 / 3) * q0Plena * 3600) < 1,
-        'calcularVolumeSecaoPlena: T_ocorrência = T_manobra → V = (2/3)·Q0·T');
-
-    // Ocorrência mais curta que a manobra → integral parcial exata,
-    // sempre maior que a aproximação linear (2/3)·Q0·t
-    const volTruncado = window.SabespCalculos.calcularVolumeSecaoPlena(q0Plena, 3600, 1800);
-    assert(volTruncado > (2 / 3) * q0Plena * 1800 && volTruncado < q0Plena * 1800,
-        `calcularVolumeSecaoPlena: manobra truncada usa integral parcial (obtido ${volTruncado.toFixed(0)} L)`);
+    // Sem limitação: o vazamento dura toda a ocorrência
+    const volSemLimite = window.SabespCalculos.calcularVolumeSecaoPlena(q0Plena, 3600, 1800);
+    assert(Math.abs(volSemLimite - (2 / 3) * q0Plena * 1800) < 1,
+        'calcularVolumeSecaoPlena: ocorrência menor que o fechamento usa a própria duração');
 
     assert(window.SabespCalculos.calcularVolumeSecaoPlena(q0Plena, 3600, 0) === 0,
         'calcularVolumeSecaoPlena: ocorrência de duração zero → 0');
     assert(window.SabespCalculos.calcularVolumeSecaoPlena(0, 3600, 12180) === 0,
         'calcularVolumeSecaoPlena: vazão zero → 0');
-    assert(window.SabespCalculos.calcularVolumeSecaoPlena(q0Plena, 0, 600) === q0Plena * 600,
-        'calcularVolumeSecaoPlena: fechamento instantâneo → vazão constante');
 
     registrarResultado();
 

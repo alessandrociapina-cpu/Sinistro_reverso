@@ -40,12 +40,11 @@ test('bloqueia salvar e imprimir quando secao plena usa diametro invalido', asyn
   await expect(page.locator('#btn-imprimir-proj')).toBeDisabled();
 });
 
-test('secao plena soma regime permanente e manobra de fechamento', async ({ page }) => {
+test('secao plena limita o faturamento ao fechamento dos registros', async ({ page }) => {
   // DN 50 mm @ 10 mca -> Q0 = 22,552 L/s
-  // Ocorrencia de 12180 s (08:00 -> 11:23) com manobra de 60 min:
-  //   regime permanente = 8580 s -> 193,500 m3
-  //   manobra           = 3600 s -> 54,126 m3
-  //   total                       247,63 m3
+  // Ocorrencia de 12180 s (08:00 -> 11:23), mas o vazamento foi interrompido
+  // em 60 min: só esses 3600 s sao faturaveis.
+  //   V = (2/3) x 22,552 L/s x 3600 s = 54,126 m3
   await page.locator('#tipo-secao').selectOption('Seção Plena');
   await page.locator('#diametro-dano').selectOption('50');
   await page.locator('#pressao').fill('10');
@@ -57,9 +56,28 @@ test('secao plena soma regime permanente e manobra de fechamento', async ({ page
 
   await expect(page.locator('#calc-segundos')).toHaveText('12180');
   await expect(page.locator('#calc-vazao')).toHaveText('22,552');
-  await expect(page.locator('#calc-vol')).toHaveText('247,63');
-  await expect(page.locator('#aviso-secao-plena')).toContainText('193,500');
-  await expect(page.locator('#aviso-secao-plena')).toContainText('54,126');
+  await expect(page.locator('#calc-vol')).toHaveText('54,13');
+  // A interface deixa explicito que o periodo faturado foi limitado
+  await expect(page.locator('#aviso-secao-plena')).toContainText('3.600 s');
+  await expect(page.locator('#aviso-secao-plena')).toContainText('limitado pelo fechamento da rede');
+  // Vazao media = 2/3 de Q0, refletindo o decaimento de pressao
+  await expect(page.locator('#aviso-secao-plena')).toContainText('15,035');
+});
+
+test('secao plena sem limitacao usa toda a duracao da ocorrencia', async ({ page }) => {
+  // Ocorrencia de 1800 s menor que o tempo de fechamento (60 min):
+  //   V = (2/3) x 22,552 L/s x 1800 s = 27,063 m3
+  await page.locator('#tipo-secao').selectOption('Seção Plena');
+  await page.locator('#diametro-dano').selectOption('50');
+  await page.locator('#pressao').fill('10');
+  await page.locator('#tempo-manobra').fill('60');
+  await page.locator('#data-ini').fill('2026-01-01');
+  await page.locator('#hora-ini').fill('08:00');
+  await page.locator('#data-fim').fill('2026-01-01');
+  await page.locator('#hora-fim').fill('08:30');
+
+  await expect(page.locator('#calc-vol')).toHaveText('27,06');
+  await expect(page.locator('#aviso-secao-plena')).not.toContainText('limitado pelo fechamento');
 });
 
 test('mostra campo livre quando causador e Outros', async ({ page }) => {
